@@ -1,0 +1,21 @@
+sh /opt/orionsbelt/prd/configs/supervise-mono
+sh /opt/orionsbelt/prd/configs/supervise-php
+
+# take site down
+mv /opt/orionsbelt/prd/s1/public/--app_offline.htm /opt/orionsbelt/prd/s1/public/app_offline.htm
+
+ps ax | grep fastcgi-mono | tail -1 > /opt/orionsbelt/prd/configs/mono-info
+/usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe --get-mono-pid:/opt/orionsbelt/prd/configs/mono-info > /var/run/mono-fastcgi.pid
+
+#echo "Killing mono..."
+kill -9 `cat /var/run/mono-fastcgi.pid`
+sleep 5
+
+# ping site
+wget s1.orionsbelt.eu
+
+# register when mono was last reseted
+touch /opt/orionsbelt/prd/configs/rmono
+
+# put site up
+mv /opt/orionsbelt/prd/s1/public/app_offline.htm /opt/orionsbelt/prd/s1/public/--app_offline.htm

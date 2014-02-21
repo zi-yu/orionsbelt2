@@ -1,0 +1,1824 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{055F2200-8DF2-4E2D-9AD7-DF3438D10275}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrionsBelt.WebUserInterface</RootNamespace>
+    <AssemblyName>OrionsBelt.WebUserInterface</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin/</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin/</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DesignPatterns, Version=1.1.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42" />
+    <Reference Include="Loki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42, processorArchitecture=MSIL" />
+    <Reference Include="Org.Mentalis.Security, Version=1.0.13.715, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Org.Mentalis.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="OrionsBelt.DataAccessLayer, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="pscclient, Version=2.0.3398.21893, Culture=neutral, PublicKeyToken=64721b4455edccf4, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\AddPlayer.aspx" />
+    <Content Include="Account\Check.aspx" />
+    <Content Include="Account\Confirm.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangeMail.aspx" />
+    <Content Include="Account\CheckSMSNotification.aspx" />
+    <Content Include="Account\CheckOneBipTransaction.aspx" />
+    <Content Include="Account\CheckSponsorPay.aspx" />
+    <Content Include="Account\DiscountBonus.aspx" />
+    <Content Include="Account\NotOk.aspx" />
+    <Content Include="Account\Ok.aspx" />
+    <Content Include="Account\PrintInvoice.aspx" />
+    <Content Include="Account\Invoice.aspx" />
+    <Content Include="Account\Default.aspx" />
+    <Content Include="Account\PaymentHistory.aspx" />
+    <Content Include="Account\PaymentType.aspx" />
+    <Content Include="Account\Shop.aspx" />
+    <Content Include="Account\Invite.aspx" />
+    <Content Include="Account\Payment.aspx" />
+    <Content Include="Account\Language.aspx" />
+    <Content Include="Account\Extract.aspx" />
+    <Content Include="Account\Referrers.aspx" />
+    <Content Include="Account\Vacations.aspx" />
+    <Content Include="Account\ManagePlayers.aspx" />
+    <Content Include="Ajax\Logout.aspx" />
+    <Content Include="Ajax\SearchPlayer.ashx" />
+    <Content Include="Alliance\AddToStorehouse.aspx" />
+    <Content Include="Alliance\Alliance.Master" />
+    <Content Include="AllianceInfo.aspx" />
+    <Content Include="Alliance\Battles.aspx" />
+    <Content Include="Alliance\Board.aspx" />
+    <Content Include="Alliance\AssetEdit.aspx" />
+    <Content Include="Alliance\Storehouse.aspx" />
+    <Content Include="Alliance\TaskView.aspx" />
+    <Content Include="Alliance\TaskEdit.aspx" />
+    <Content Include="Alliance\NecessityEdit.aspx" />
+    <Content Include="Alliance\CreateTask.aspx" />
+    <Content Include="Alliance\CreateNecessity.aspx" />
+    <Content Include="Alliance\CreateAsset.aspx" />
+    <Content Include="Alliance\Tasks.aspx" />
+    <Content Include="Alliance\Relics.aspx" />
+    <Content Include="Alliance\MessageEdit.aspx" />
+    <Content Include="Alliance\Messages.aspx" />
+    <Content Include="AuctionHouse\AddToAuctionAdmin.aspx" />
+    <Content Include="Battle\History.aspx" />
+    <Content Include="Battle\Embedded.aspx" />
+    <Content Include="Campaigns\Stats.aspx" />
+    <Content Include="Campaigns\Default.aspx" />
+    <Content Include="Campaigns\Detail.aspx" />
+    <Content Include="Community.aspx" />
+    <Content Include="Confirmation.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Controls\Academy\AcademyControl.ascx" />
+    <Content Include="Controls\Generic\PrivateBoardSender.ascx" />
+    <Content Include="Controls\Market\Advertising.ascx" />
+    <Content Include="Controls\Market\MarketControl.ascx" />
+    <Content Include="Chat.aspx" />
+    <Content Include="Academy.aspx" />
+    <Content Include="Controls\PirateBay\PirateBayControl.ascx" />
+    <Content Include="Controls\Tournament\XLPartyTournaments.ascx" />
+    <Content Include="Controls\Tournament\ViewTeam.ascx" />
+    <Content Include="Controls\Tournament\InviteTeammate.ascx" />
+    <Content Include="Controls\Tournament\CreateTeam.ascx" />
+    <Content Include="Forum\ViewThread.aspx" />
+    <Content Include="Gazette.aspx" />
+    <Content Include="Localization\Resources\Campaign.xml" />
+    <Content Include="Localization\Resources\Forum.xml" />
+    <Content Include="MobInfo.aspx" />
+    <Content Include="PirateBay.aspx" />
+    <Content Include="LoginAuto.aspx" />
+    <Content Include="ForgotPassword.aspx" />
+    <Content Include="Localization\Manual\API.xml" />
+    <Content Include="Localization\Manual\Pages.xml" />
+    <Content Include="Localization\Resources\Countries.xml" />
+    <Content Include="Localization\Resources\Medals.xml" />
+    <Content Include="Localization\Resources\Tutorial.xml" />
+    <Content Include="Localization\Resources\Online.xml" />
+    <Content Include="Localization\Resources\Shop.xml" />
+    <Content Include="Account\GivePrize.aspx" />
+    <Content Include="Profile\Medals.aspx" />
+    <Content Include="Profile\FriendOrFoe.aspx" />
+    <Content Include="Quests\Bounties.aspx" />
+    <Content Include="Quests\Bounty.aspx" />
+    <Content Include="Quests\CreateBounty.aspx" />
+    <Content Include="Relic.aspx" />
+    <Content Include="ResendConfirmation.aspx" />
+    <Content Include="SearchPlayers.aspx" />
+    <Content Include="Stats\BonusStats.aspx" />
+    <Content Include="Stats\UpdatePromotion.aspx" />
+    <Content Include="Stats\ViewPromotion.aspx" />
+    <Content Include="Stats\CreatePromotion.aspx" />
+    <Content Include="Stats\GenerateCodes.aspx" />
+    <Content Include="Stats\MonthlyPayments.aspx" />
+    <Content Include="Stats\Payments.aspx" />
+    <Content Include="Stats\Invoices.aspx" />
+    <Content Include="Stats\CreateBot.aspx" />
+    <Content Include="Stats\UniverseDispersion.aspx" />
+    <Content Include="Stats\UserDuplicates.aspx" />
+    <Content Include="Stats\Duplicates.aspx" />
+    <Content Include="Stats\ShopStats.aspx" />
+    <Content Include="Stats\QuestsStats.aspx" />
+    <Content Include="Stats\Referrals.aspx" />
+    <Content Include="Terms.aspx" />
+    <Content Include="TickerNaked.aspx" />
+    <Content Include="Localization\Manual\BattleAbilities.xml" />
+    <Content Include="Localization\Manual\BattleConcepts.xml" />
+    <Content Include="Localization\Manual\Commerce.xml" />
+    <Content Include="Localization\Manual\Universe.xml" />
+    <Content Include="Localization\Manual\Races.xml" />
+    <Content Include="Localization\Manual\Range.xml" />
+    <Content Include="Localization\Manual\Movement.xml" />
+    <Content Include="Localization\Manual\UnitCategoryDescription.xml" />
+    <Content Include="SimpleMarket.aspx" />
+    <Content Include="Stats\TopPayments.aspx" />
+    <Content Include="Ticker.aspx" />
+    <Content Include="Localization\Manual\EagleStrike.xml" />
+    <Content Include="Localization\Manual\DiagonalTrap.xml" />
+    <Content Include="Localization\Manual\KamikazeMenace.xml" />
+    <Content Include="Localization\Manual\DispensableUnits.xml" />
+    <Content Include="Localization\Manual\FiringSquad.xml" />
+    <Content Include="Localization\Manual\FacilityIndex.xml" />
+    <Content Include="Localization\Manual\Generic.xml" />
+    <Content Include="Localization\Manual\ResourceInfo.xml" />
+    <Content Include="Localization\Manual\QuestsManual.xml" />
+    <Content Include="Stats\PlayerUnit.aspx" />
+    <Content Include="Stats\PlayerResource.aspx" />
+    <Content Include="Tests.aspx" />
+    <Content Include="PrincipalInfo.aspx" />
+    <Content Include="Localization\Resources\Quests.xml" />
+    <Content Include="MarketView.aspx" />
+    <Content Include="Markets.aspx" />
+    <Content Include="AuctionHouse\AuctionAdmin.aspx" />
+    <Content Include="AuctionHouse\MyAuctionItems.aspx" />
+    <Content Include="PlayerInfo.aspx" />
+    <Content Include="Localization\Resources\Results.xml" />
+    <Content Include="Market.aspx" />
+    <Content Include="Arenas\Arena.aspx" />
+    <Content Include="Arenas\CreateArena.aspx" />
+    <Content Include="Arenas\ArenaInfo.aspx" />
+    <Content Include="AuctionHouse\Auction.Master" />
+    <Content Include="Ajax\Universe\WormHoleMap.ashx" />
+    <Content Include="Ajax\Planets\Renderer.ashx" />
+    <Content Include="Arenas\Arena.Master" />
+    <Content Include="Ajax\Battle\Battle.ashx" />
+    <Content Include="Ajax\Battle\BattleMessages.ashx" />
+    <Content Include="Ajax\Fleet\Fleet.ashx" />
+    <Content Include="Account\Account.Master" />
+    <Content Include="Ajax\Universe\Universe.ashx" />
+    <Content Include="Ajax\Universe\FleetMove.ashx" />
+    <Content Include="Ajax\Utils\Ticker.ashx" />
+    <Content Include="Ajax\Utils\Messages.ashx" />
+    <Content Include="Account\Settings.Master" />
+    <Content Include="Account\BuyOrions.Master" />
+    <Content Include="Ajax\Prices\Prices.ashx" />
+    <Content Include="Ajax\Battle\BotBattle.ashx" />
+    <Content Include="Campaigns\Campaign.Master" />
+    <Content Include="Ajax\Quests\Quest.ashx" />
+    <Content Include="Auth\TwitterCallback.ashx" />
+    <Content Include="Auth\TwitterLogin.ashx" />
+    <Content Include="Auth\FacebookAuth.ashx" />
+    <Content Include="Ajax\Forum\Forum.ashx" />
+    <None Include="Config\Model.hbm.xml" />
+    <None Include="Config\OrionsBelt.cfg.xml" />
+    <None Include="Config\OrionsBelt.cfg\OrionsBelt.cfg.production.xml" />
+    <None Include="Config\OrionsBelt.cfg\OrionsBelt.cfg.test.xml" />
+    <None Include="Ajax\Formatter.ashx" />
+    <Compile Include="Account\AddPlayer.aspx.cs">
+      <DependentUpon>AddPlayer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Check.aspx.cs">
+      <DependentUpon>Check.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Confirm.aspx.cs">
+      <DependentUpon>Confirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangeMail.aspx.cs">
+      <DependentUpon>ChangeMail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\BuyOrions.Master.cs">
+      <DependentUpon>BuyOrions.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\CheckSMSNotification.aspx.cs">
+      <DependentUpon>CheckSMSNotification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\CheckOneBipTransaction.aspx.cs">
+      <DependentUpon>CheckOneBipTransaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\CheckSponsorPay.aspx.cs">
+      <DependentUpon>CheckSponsorPay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\DiscountBonus.aspx.cs">
+      <DependentUpon>DiscountBonus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\NotOk.aspx.cs">
+      <DependentUpon>NotOk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Ok.aspx.cs">
+      <DependentUpon>Ok.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\PrintInvoice.aspx.cs">
+      <DependentUpon>PrintInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Invoice.aspx.cs">
+      <DependentUpon>Invoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\PaymentType.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>PaymentType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\PaymentType.aspx.designer.cs">
+      <DependentUpon>PaymentType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Settings.Master.cs">
+      <DependentUpon>Settings.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\PaymentHistory.aspx.cs">
+      <DependentUpon>PaymentHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Invite.aspx.cs">
+      <DependentUpon>Invite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Language.aspx.cs">
+      <DependentUpon>Language.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Extract.aspx.cs">
+      <DependentUpon>Extract.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Referrers.aspx.cs">
+      <DependentUpon>Referrers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Vacations.aspx.cs">
+      <DependentUpon>Vacations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManagePlayers.aspx.cs">
+      <DependentUpon>ManagePlayers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Account.Master.cs">
+      <DependentUpon>Account.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\BaseHandler.cs" />
+    <Compile Include="Ajax\BaseUniverseHandler.cs" />
+    <Compile Include="Ajax\Battle\Battle.ashx.cs">
+      <DependentUpon>Battle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Battle\BattleMessages.ashx.cs">
+      <DependentUpon>BattleMessages.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Battle\BotBattle.ashx.cs">
+      <DependentUpon>BotBattle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Fleet\Fleet.ashx.cs">
+      <DependentUpon>Fleet.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Formatter.ashx.cs">
+      <DependentUpon>Formatter.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Forum\Forum.ashx.cs">
+      <DependentUpon>Forum.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajax\Planets\Renderer.ashx.cs">
+      <DependentUpon>Renderer.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Prices\Prices.ashx.cs">
+      <DependentUpon>Prices.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Quests\Quest.ashx.cs">
+      <DependentUpon>Quest.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\SearchPlayer.ashx.cs">
+      <DependentUpon>SearchPlayer.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Universe\FleetMove.ashx.cs">
+      <DependentUpon>FleetMove.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Universe\Universe.ashx.cs">
+      <DependentUpon>Universe.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Universe\WormHoleMap.ashx.cs">
+      <DependentUpon>WormHoleMap.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Utils\Messages.ashx.cs">
+      <DependentUpon>Messages.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\Utils\Ticker.ashx.cs">
+      <DependentUpon>Ticker.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Alliance\AddToStorehouse.aspx.cs">
+      <DependentUpon>AddToStorehouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Alliance.Master.cs">
+      <DependentUpon>Alliance.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Battles.aspx.cs">
+      <DependentUpon>Battles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Board.aspx.cs">
+      <DependentUpon>Board.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\AssetEdit.aspx.cs">
+      <DependentUpon>AssetEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Storehouse.aspx.cs">
+      <DependentUpon>Storehouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\TaskView.aspx.cs">
+      <DependentUpon>TaskView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\TaskEdit.aspx.cs">
+      <DependentUpon>TaskEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\NecessityEdit.aspx.cs">
+      <DependentUpon>NecessityEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\CreateTask.aspx.cs">
+      <DependentUpon>CreateTask.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\CreateNecessity.aspx.cs">
+      <DependentUpon>CreateNecessity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\CreateAsset.aspx.cs">
+      <DependentUpon>CreateAsset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Tasks.aspx.cs">
+      <DependentUpon>Tasks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Relics.aspx.cs">
+      <DependentUpon>Relics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\MessageEdit.aspx.cs">
+      <DependentUpon>MessageEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Messages.aspx.cs">
+      <DependentUpon>Messages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\ManageDiplomacy.aspx.cs">
+      <DependentUpon>ManageDiplomacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Diplomacy.aspx.cs">
+      <DependentUpon>Diplomacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Gossip.aspx.cs">
+      <DependentUpon>Gossip.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\ManageMember.aspx.cs">
+      <DependentUpon>ManageMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Members.aspx.cs">
+      <DependentUpon>Members.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Leave.aspx.cs">
+      <DependentUpon>Leave.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Join.aspx.cs">
+      <DependentUpon>Join.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Info.aspx.cs">
+      <DependentUpon>Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\Create.aspx.cs">
+      <DependentUpon>Create.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alliance\List.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuctionHouse\AddToAuctionAdmin.aspx.cs">
+      <DependentUpon>AddToAuctionAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Auth\FacebookAuth.ashx.cs">
+      <DependentUpon>FacebookAuth.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Auth\TwitterCallback.ashx.cs">
+      <DependentUpon>TwitterCallback.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Auth\TwitterLogin.ashx.cs">
+      <DependentUpon>TwitterLogin.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Battle\History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Battle\Embedded.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Embedded.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns\Campaign.Master.cs">
+      <DependentUpon>Campaign.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\Stats.aspx.cs">
+      <DependentUpon>Stats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Campaigns\Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Campaigns\Detail.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Community.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Community.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Community.aspx.designer.cs">
+      <DependentUpon>Community.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmation.aspx.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Academy\AcademyControl.ascx.cs">
+      <DependentUpon>AcademyControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Academy\AcademyQuestDelivery.cs" />
+    <Compile Include="Controls\Account\AccountMenu.cs" />
+    <Compile Include="Controls\Account\BuyOrionsMenu.cs" />
+    <Compile Include="Controls\Account\TwitterConnect.cs" />
+    <Compile Include="Controls\Account\PrincipalLinkedTeam.cs" />
+    <Compile Include="Controls\Account\InvoiceCountryName.cs" />
+    <Compile Include="Controls\Account\InvoiceCreditsGain.cs" />
+    <Compile Include="Controls\Account\InvoiceNIFEditor.cs" />
+    <Compile Include="Controls\Account\InvoicePlayerNameEditor.cs" />
+    <Compile Include="Controls\Account\InvoiceWithoutTaxMoney.cs" />
+    <Compile Include="Controls\Account\InvoiceTaxMoney.cs" />
+    <Compile Include="Controls\Account\CountryDropDownEditor.cs" />
+    <Compile Include="Controls\Account\InvoiceLink.cs" />
+    <Compile Include="Controls\Account\PersonalSettingsMenu.cs" />
+    <Compile Include="Controls\Account\PaymentDate.cs" />
+    <Compile Include="Controls\Account\PlayerBattleStats.cs" />
+    <Compile Include="Controls\Account\StateRender.cs" />
+    <Compile Include="Controls\Account\PrincipalExtract.cs" />
+    <Compile Include="Controls\Account\PrincipalInfoLink.cs" />
+    <Compile Include="Controls\Account\VacationMerchant.cs" />
+    <Compile Include="Controls\Account\VacationManager.cs" />
+    <Compile Include="Controls\Account\PrincipalPlayers.cs" />
+    <Compile Include="Controls\Alliance\Donate.cs" />
+    <Compile Include="Controls\Alliance\Members.cs" />
+    <Compile Include="Controls\Alliance\SHDonor.cs" />
+    <Compile Include="Controls\Alliance\SHProductName.cs" />
+    <Compile Include="Controls\Alliance\AllianceBoard.cs" />
+    <Compile Include="Controls\Alliance\AssetCreatedAt.cs" />
+    <Compile Include="Controls\Alliance\AssertPlayer.cs" />
+    <Compile Include="Controls\Alliance\AssetTypeRender.cs" />
+    <Compile Include="Controls\Alliance\AssetSelect.cs" />
+    <Compile Include="Controls\Alliance\AssetManage.cs" />
+    <Compile Include="Controls\Alliance\AssetSelected.cs" />
+    <Compile Include="Controls\Alliance\TaskNecessityDateRender.cs" />
+    <Compile Include="Controls\Alliance\NecessityCreatorRender.cs" />
+    <Compile Include="Controls\Alliance\TaskDescriptionRender.cs" />
+    <Compile Include="Controls\Alliance\TaskStatusRender.cs" />
+    <Compile Include="Controls\Alliance\TaskPriorityRender.cs" />
+    <Compile Include="Controls\Alliance\TaskTypeRender.cs" />
+    <Compile Include="Controls\Alliance\NecessityManage.cs" />
+    <Compile Include="Controls\Alliance\NecessitySelect.cs" />
+    <Compile Include="Controls\Alliance\NecessityTypeRender.cs" />
+    <Compile Include="Controls\Alliance\TasksBoard.cs" />
+    <Compile Include="Controls\Alliance\NecessityPlayer.cs" />
+    <Compile Include="Controls\Alliance\NecessityCreatedAt.cs" />
+    <Compile Include="Controls\Arena\ArenaMenu.cs" />
+    <Compile Include="Controls\Arena\ArenaLinkedPlayer.cs" />
+    <Compile Include="Controls\Arena\ArenaStoragePayment.cs" />
+    <Compile Include="Controls\Arena\ViewArena.cs" />
+    <Compile Include="Controls\Auction House\AuctionHouseMenu.cs" />
+    <Compile Include="Controls\Auction House\AHBuyer.cs" />
+    <Compile Include="Controls\Auction House\AHSeller.cs" />
+    <Compile Include="Controls\Auction House\AHProductName.cs" />
+    <Compile Include="Controls\Auction House\AHBuyedAt.cs" />
+    <Compile Include="Controls\Auction House\AHMyBid.cs" />
+    <Compile Include="Controls\Auction House\RaceDropDown.cs" />
+    <Compile Include="Controls\Auction House\RealTime.cs" />
+    <Compile Include="Controls\Battle\AllianceBattles.cs" />
+    <Compile Include="Controls\Battle\BattleHistory.cs" />
+    <Compile Include="Controls\Battle\LatestMovesUniverse.cs" />
+    <Compile Include="Controls\Battle\LatestMoves.cs" />
+    <Compile Include="Controls\Campaign\CampaignTitle.cs" />
+    <Compile Include="Controls\Campaign\CampaignDescription.cs" />
+    <Compile Include="Controls\Campaign\CampaignPlay.cs" />
+    <Compile Include="Controls\Campaign\CampaignLevelPlayerFleet.cs" />
+    <Compile Include="Controls\Campaign\CampaignLevelBotFleet.cs" />
+    <Compile Include="Controls\Campaign\CampaignLevelMoves.cs" />
+    <Compile Include="Controls\Campaign\CampaignLevelPlay.cs" />
+    <Compile Include="Controls\Campaign\CampaignHallOfFame.cs" />
+    <Compile Include="Controls\DefaultPage\EmpireMessages.cs" />
+    <Compile Include="Controls\Forum\ListPrivateTopic.cs" />
+    <Compile Include="Controls\Forum\CreateTopic.cs" />
+    <Compile Include="Controls\Forum\ListTopics.cs" />
+    <Compile Include="Controls\Generic\AllianceInfoReader.cs" />
+    <Compile Include="AllianceInfo.aspx.cs">
+      <DependentUpon>AllianceInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Generic\ChooseBot.cs" />
+    <Compile Include="Controls\Generic\BlogPreview.cs" />
+    <Compile Include="Controls\DefaultPage\GlobalMessages.cs" />
+    <Compile Include="Controls\Generic\CommunityRender.cs" />
+    <Compile Include="Controls\Generic\DateTimeRender.cs" />
+    <Compile Include="Controls\Generic\OrionRoleVisible.cs" />
+    <Compile Include="Controls\Generic\TeamInfoReader.cs" />
+    <Compile Include="Controls\Generic\FlagMenu.cs" />
+    <Compile Include="Controls\Generic\Interactions\InteractionState.cs" />
+    <Compile Include="Controls\Generic\Interactions\InteractionReceiver.cs" />
+    <Compile Include="Controls\Generic\Interactions\InteractionRemove.cs" />
+    <Compile Include="Controls\Generic\PrivateBoardViewerPrincipal.cs" />
+    <Compile Include="Controls\Generic\PrivateBoardViewerPreview.cs" />
+    <Compile Include="Controls\Generic\Information\BoardHandler.cs" />
+    <Compile Include="Controls\Generic\Information\SuccessBoard.cs" />
+    <Compile Include="Controls\Generic\PrivateBoardDefaultsEditor.cs" />
+    <Compile Include="Controls\Generic\PrivateBoardSender.ascx.cs">
+      <DependentUpon>PrivateBoardSender.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Generic\PrivateBoardSender.ascx.designer.cs">
+      <DependentUpon>PrivateBoardSender.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Generic\PrivateBoardViewer.cs" />
+    <Compile Include="Controls\Generic\Warnings.cs" />
+    <Compile Include="Controls\Generic\Copyright.cs" />
+    <Compile Include="Controls\Generic\GenericButton.cs" />
+    <Compile Include="Controls\Generic\GivePrizeControl.cs" />
+    <Compile Include="Controls\Generic\WarningMessage.cs" />
+    <Compile Include="Controls\Generic\SiteTopBackground.cs" />
+    <Compile Include="Controls\Generic\TutorialManager.cs" />
+    <Compile Include="Controls\Generic\PaymentButton.cs" />
+    <Compile Include="Controls\Generic\SiteFooter.cs" />
+    <Compile Include="Controls\Generic\MainForm.cs" />
+    <Compile Include="Controls\Generic\RssLink.cs" />
+    <Compile Include="Controls\Generic\LatestPlayersOnline.cs" />
+    <Compile Include="Controls\Generic\UsefullLinks.cs" />
+    <Compile Include="Controls\Market\Advertising.ascx.cs">
+      <DependentUpon>Advertising.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Market\AHAdvertising.cs">
+    </Compile>
+    <Compile Include="Controls\Market\MarketControl.ascx.cs">
+      <DependentUpon>MarketControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Market\TradeRoutes.cs" />
+    <Compile Include="Controls\Market\NearMarkets.cs" />
+    <Compile Include="Controls\Market\MarketProductName.cs" />
+    <Compile Include="Controls\MenuBase.cs" />
+    <Compile Include="Controls\Mobs\DisplayMob.cs" />
+    <Compile Include="Controls\Payment\PaymentNumberPagination.cs" />
+    <Compile Include="Controls\Payment\SponsorPayControl.cs" />
+    <Compile Include="Controls\Payment\PaymentListBase.cs" />
+    <Compile Include="Controls\Payment\PaymentTable.cs" />
+    <Compile Include="Controls\Payment\OneBipControl.cs" />
+    <Compile Include="Controls\Payment\PaySafeControl.cs" />
+    <Compile Include="Controls\Payment\SmsControl.cs" />
+    <Compile Include="Controls\Payment\PaymentControlBase.cs" />
+    <Compile Include="Controls\Payment\PaymentDescriptionLoader.cs" />
+    <Compile Include="Controls\Payment\PaypalControl.cs" />
+    <Compile Include="Controls\Payment\PaymentList.cs" />
+    <Compile Include="Controls\PirateBay\PirateBayControl.ascx.cs">
+      <DependentUpon>PirateBayControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Academy\NearPirateFleets.cs" />
+    <Compile Include="Controls\Planets\Renderers\Bugs\BugsPrivatePlanetFacilities.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetBottomInfoRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\DarkHumans\DarkHumansPrivatePlanetFacilities.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetFacilityOverviewRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetUnitOverviewRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetResourceOverviewRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetManageRenderer.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\ChooseAvatar.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalName.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalVacations.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalNumberPagination.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalLinkAndAvatar.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PlayerStorageLinkAndAvatar.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrivateMessages.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PlayerStorageAlliance.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PlayerStoragePrincipal.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalActivityStatus.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalLink.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\DialogueInteractions.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalPlayersRecruited.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalWebSite.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalLastActivity.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalAge.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PrincipalAvatar.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PlayerStorageAvatar.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PlayerStorageLastActivity.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PlayerStorageRace.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PlayerStorageProfession.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PlayerStorageAge.cs" />
+    <Compile Include="Controls\PlayerPrincipalInfo\PlayerStorageLink.cs" />
+    <Compile Include="Controls\Profile\AddUserMedal.cs" />
+    <Compile Include="Controls\Profile\PrincipalMedals.cs" />
+    <Compile Include="Controls\Profile\PlayerMedals.cs" />
+    <Compile Include="Controls\Profile\PlayerProfileActions.cs" />
+    <Compile Include="Controls\Profile\PlayerProfileMenu.cs" />
+    <Compile Include="Controls\Quests\QuestMenu.cs" />
+    <Compile Include="Controls\Quests\AvailableQuestList.cs" />
+    <Compile Include="Controls\Quests\BountyParticipants.cs" />
+    <Compile Include="Controls\Quests\CustomBountyList.cs" />
+    <Compile Include="Controls\Quests\ProfessionStatus.cs" />
+    <Compile Include="Controls\Quests\PirateBountyList.cs" />
+    <Compile Include="Controls\Relic\RenderRelicFleets.cs" />
+    <Compile Include="Controls\Generic\NextTick.cs" />
+    <Compile Include="Controls\Resources\PlayerUltimateWeapon.cs" />
+    <Compile Include="Controls\Stats\AHHistoricalLink.cs" />
+    <Compile Include="Controls\Stats\AuctionHouseSeller.cs" />
+    <Compile Include="Controls\Stats\AuctionHouseBuyer.cs" />
+    <Compile Include="Controls\Stats\AHWinningBid.cs" />
+    <Compile Include="Controls\Stats\BonusCardPrincipal.cs" />
+    <Compile Include="Controls\Stats\PromotionNameWithLink.cs" />
+    <Compile Include="Controls\Stats\PromotionOwnerControl.cs" />
+    <Compile Include="Controls\Stats\Payer.cs" />
+    <Compile Include="Controls\Stats\InvoiceCountryTranslate.cs" />
+    <Compile Include="Controls\Stats\InvoiceIdentifierLink.cs" />
+    <Compile Include="Controls\Stats\PaymentProvider.cs" />
+    <Compile Include="Controls\Stats\InvoiceAmmount.cs" />
+    <Compile Include="Controls\Stats\DuplicateDetectionType.cs" />
+    <Compile Include="Controls\Stats\DuplicateClone.cs" />
+    <Compile Include="Controls\Stats\DuplicateCheater.cs" />
+    <Compile Include="Controls\Stats\DuplicateInfo.cs" />
+    <Compile Include="Controls\Stats\PaymentsPerPrincipal.cs" />
+    <Compile Include="Controls\Stats\RankPosition.cs" />
+    <Compile Include="Controls\Stats\UnitsPerPlayer.cs" />
+    <Compile Include="Controls\Stats\GSName.cs" />
+    <Compile Include="Controls\Stats\ResourcesStats.cs" />
+    <Compile Include="Controls\Tops\TopsMenu.cs" />
+    <Compile Include="Controls\Tops\ELOWinsDefeats.cs" />
+    <Compile Include="Controls\Tops\LadderPosition.cs" />
+    <Compile Include="Controls\Tops\WinsDefeats.cs" />
+    <Compile Include="Controls\Tops\Tax.cs" />
+    <Compile Include="Controls\Tops\EarningIdentifier.cs" />
+    <Compile Include="Controls\Tops\SpendIdentifier.cs" />
+    <Compile Include="Controls\Stats\TransactionsList.cs" />
+    <Compile Include="Controls\Tops\LinkedAllianceName.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\TeamYours.cs" />
+    <Compile Include="Controls\Tournament\TeamLadderMenu.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\PrincipalYou.cs" />
+    <Compile Include="Controls\Tournament\NotStartedTournamentList.cs" />
+    <Compile Include="Controls\Tournament\TournamentMenu.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\TeamLinkedName.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\IsInBattle.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\TournamentNameRender.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\TournamentStatus.cs" />
+    <Compile Include="Controls\Tournament\XLPartyTournaments.ascx.cs">
+      <DependentUpon>XLPartyTournaments.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tournament\XLPartyTournaments.ascx.designer.cs">
+      <DependentUpon>XLPartyTournaments.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tournament\TournamentDescription.cs" />
+    <Compile Include="Controls\Tournament\TeamELOStats.cs" />
+    <Compile Include="Controls\Tournament\ViewTeam.ascx.cs">
+      <DependentUpon>ViewTeam.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tournament\ViewTeam.ascx.designer.cs">
+      <DependentUpon>ViewTeam.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tournament\InviteTeammate.ascx.cs">
+      <DependentUpon>InviteTeammate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tournament\InviteTeammate.ascx.designer.cs">
+      <DependentUpon>InviteTeammate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tournament\CreateTeam.ascx.cs">
+      <DependentUpon>CreateTeam.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tournament\CreateTeam.ascx.designer.cs">
+      <DependentUpon>CreateTeam.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tournament\PrincipalELOStats.cs" />
+    <Compile Include="Controls\Tournament\PrincipalHistorical.cs" />
+    <Compile Include="Controls\Tournament\GroupRender.cs" />
+    <Compile Include="Chat.aspx.cs">
+      <DependentUpon>Chat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Academy.aspx.cs">
+      <DependentUpon>Academy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Votes\Vote.cs" />
+    <Compile Include="Controls\Votes\VoteControl.cs" />
+    <Compile Include="Controls\Votes\Votes.cs" />
+    <Compile Include="Engine\Actions\ForumActions.cs" />
+    <Compile Include="Engine\Actions\QuestsActions.cs" />
+    <Compile Include="Engine\Battle\ShowBattleList\GenericBattleRenderBase.cs" />
+    <Compile Include="Engine\Border.cs" />
+    <Compile Include="Engine\Forum\CreatePostRenderer.cs" />
+    <Compile Include="Engine\Forum\ForumPostComparison.cs" />
+    <Compile Include="Engine\Forum\ForumSmilies.cs" />
+    <Compile Include="Engine\Forum\ForumUtils.cs" />
+    <Compile Include="Engine\Forum\ListPostsRenderer.cs" />
+    <Compile Include="Engine\Forum\CreateThreadRenderer.cs" />
+    <Compile Include="Engine\Forum\ForumThreadComparison.cs" />
+    <Compile Include="Engine\Forum\ListThreadsRenderer.cs" />
+    <Compile Include="Engine\Forum\CreateTopicRenderer.cs" />
+    <Compile Include="Engine\Forum\ListTopicsRenderer.cs" />
+    <Compile Include="Engine\SocialUtils.cs" />
+    <Compile Include="Engine\FramesHtml.cs" />
+    <Compile Include="Engine\Military\FleetsInRelicRenderer.cs" />
+    <Compile Include="Exceptions\InvalidPostException.cs" />
+    <Compile Include="Exceptions\InvalidThreadException.cs" />
+    <Compile Include="Exceptions\InvalidTopicException.cs" />
+    <Compile Include="Forum\ViewThread.aspx.cs">
+      <DependentUpon>ViewThread.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forum\ViewThread.aspx.designer.cs">
+      <DependentUpon>ViewThread.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gazette.aspx.cs">
+      <DependentUpon>Gazette.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Localization\PreCompiledLanguage.cs" />
+    <Compile Include="MobInfo.aspx.cs">
+      <DependentUpon>MobInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentSystems\SponsorPay.cs" />
+    <Compile Include="PaymentSystems\OneBip.cs" />
+    <Compile Include="PirateBay.aspx.cs">
+      <DependentUpon>PirateBay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginAuto.aspx.cs">
+      <DependentUpon>LoginAuto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Engine\Actions\BattleBotActions.cs" />
+    <Compile Include="Engine\Actions\PricesActions.cs" />
+    <Compile Include="Engine\Prices\PricesRenderer.cs" />
+    <Compile Include="Feeds\LatestPayments.ashx.cs">
+      <DependentUpon>LatestPayments.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Feeds\LatestPlayers.ashx.cs">
+      <DependentUpon>LatestPlayers.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentSystems\PaySafe.cs" />
+    <Compile Include="PaymentSystems\SMS.cs" />
+    <Compile Include="PaymentSystems\PaymentMethodEnum.cs" />
+    <Compile Include="PaymentSystems\PaymentBase.cs" />
+    <Compile Include="PaymentSystems\PaymentUtils.cs" />
+    <Compile Include="PaymentSystems\Paypal.cs" />
+    <Compile Include="PaymentSystems\CurrencyEnum.cs" />
+    <Compile Include="PaymentSystems\IPayment.cs" />
+    <Compile Include="Account\GivePrize.aspx.cs">
+      <DependentUpon>GivePrize.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopupWindow.Master.cs">
+      <DependentUpon>PopupWindow.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PopupWindow.Master.designer.cs">
+      <DependentUpon>PopupWindow.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\Medals.aspx.cs">
+      <DependentUpon>Medals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\FriendOrFoe.aspx.cs">
+      <DependentUpon>FriendOrFoe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\PlayerProfile.Master.cs">
+      <DependentUpon>PlayerProfile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\PrincipalProfile.Master.cs">
+      <DependentUpon>PrincipalProfile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Quests\Bounties.aspx.cs">
+      <DependentUpon>Bounties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quests\Bounty.aspx.cs">
+      <DependentUpon>Bounty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quests\BountyParticipantsRender.cs" />
+    <Compile Include="Quests\CreateBounty.aspx.cs">
+      <DependentUpon>CreateBounty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Relic.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Relic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Relic.aspx.designer.cs">
+      <DependentUpon>Relic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResendConfirmation.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ResendConfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResendConfirmation.aspx.designer.cs">
+      <DependentUpon>ResendConfirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchPlayers.aspx.cs">
+      <DependentUpon>SearchPlayers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\BonusStats.aspx.cs">
+      <DependentUpon>BonusStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\BonusStats.aspx.designer.cs">
+      <DependentUpon>BonusStats.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stats\UpdatePromotion.aspx.cs">
+      <DependentUpon>UpdatePromotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\UpdatePromotion.aspx.designer.cs">
+      <DependentUpon>UpdatePromotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stats\ViewPromotion.aspx.cs">
+      <DependentUpon>ViewPromotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\CreatePromotion.aspx.cs">
+      <DependentUpon>CreatePromotion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\CreatePromotion.aspx.designer.cs">
+      <DependentUpon>CreatePromotion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stats\GenerateCodes.aspx.cs">
+      <DependentUpon>GenerateCodes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\GenerateCodes.aspx.designer.cs">
+      <DependentUpon>GenerateCodes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stats\MonthlyPayments.aspx.cs">
+      <DependentUpon>MonthlyPayments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\Payments.aspx.cs">
+      <DependentUpon>Payments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\Invoices.aspx.cs">
+      <DependentUpon>Invoices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\CreateBot.aspx.cs">
+      <DependentUpon>CreateBot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\CreateBot.aspx.designer.cs">
+      <DependentUpon>CreateBot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stats\UniverseDispersion.aspx.cs">
+      <DependentUpon>UniverseDispersion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\UserDuplicates.aspx.cs">
+      <DependentUpon>UserDuplicates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\Duplicates.aspx.cs">
+      <DependentUpon>Duplicates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\ShopStats.aspx.cs">
+      <DependentUpon>ShopStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\QuestsStats.aspx.cs">
+      <DependentUpon>QuestsStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\Referrals.aspx.cs">
+      <DependentUpon>Referrals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terms.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Terms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terms.aspx.designer.cs">
+      <DependentUpon>Terms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TickerNaked.aspx.cs">
+      <DependentUpon>TickerNaked.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Utilities\UltimateUnits\BattleMoonRenderer.cs" />
+    <Compile Include="Engine\Battle\Utilities\UltimateUnits\BlinkerRenderer.cs" />
+    <Compile Include="Engine\Battle\Utilities\UltimateUnits\QueenRenderer.cs" />
+    <Compile Include="Engine\Battle\Utilities\UltimateUnits\UltimateUnitsRendererBase.cs" />
+    <Compile Include="Feeds\PlayerMessages.ashx.cs">
+      <DependentUpon>PlayerMessages.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleMarket.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>SimpleMarket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleMarket.aspx.designer.cs">
+      <DependentUpon>SimpleMarket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stats\TopPayments.aspx.cs">
+      <DependentUpon>TopPayments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ticker.aspx.cs">
+      <DependentUpon>Ticker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\PlayerUnit.aspx.cs">
+      <DependentUpon>PlayerUnit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\PlayerResource.aspx.cs">
+      <DependentUpon>PlayerResource.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tests.aspx.cs">
+      <DependentUpon>Tests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Utilities\RightBattleMenuBase.cs" />
+    <Compile Include="PrincipalInfo.aspx.cs">
+      <DependentUpon>PrincipalInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Engine\Actions\FleetMoveActions.cs" />
+    <Compile Include="Engine\Actions\UniverseActions.cs" />
+    <Compile Include="Engine\Actions\Utils\CoordinateMapping.cs" />
+    <Compile Include="Engine\Battle\Utilities\BoardInformation.cs" />
+    <Compile Include="Engine\GraphicUtilities.cs" />
+    <Compile Include="Engine\Universe\UniverseSectorRendererZoom3.cs" />
+    <Compile Include="Engine\Universe\UniverseWormHolesBaseRenderer.cs" />
+    <Compile Include="Engine\Universe\UniverseWormHolesMapRenderer.cs" />
+    <Compile Include="Engine\Universe\UniverseSectorRenderer.cs" />
+    <Compile Include="Engine\Universe\UniverseSectorRendererZoom0.cs" />
+    <Compile Include="Engine\Universe\UniverseSectorRendererZoom1.cs" />
+    <Compile Include="Engine\Universe\Utils\ZoomLevel.cs" />
+    <Compile Include="MarketView.aspx.cs">
+      <DependentUpon>MarketView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Markets.aspx.cs">
+      <DependentUpon>Markets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuctionHouse\AuctionAdmin.aspx.cs">
+      <DependentUpon>AuctionAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuctionHouse\MyAuctionItems.aspx.cs">
+      <DependentUpon>MyAuctionItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Arena\ChampionTime.cs" />
+    <Compile Include="Controls\Auction House\AHAdminBuyout.cs" />
+    <Compile Include="Controls\Generic\PlayerInfoReader.cs" />
+    <Compile Include="Controls\Generic\TournamentMenu.cs" />
+    <Compile Include="Controls\Market\AvailableQuantity.cs" />
+    <Compile Include="Controls\Market\BuyInMarket.cs" />
+    <Compile Include="Controls\Planets\PlanetSideInfo.cs" />
+    <Compile Include="Controls\Tops\LinkedPrincipalName.cs" />
+    <Compile Include="Controls\Tops\LinkedPlayerName.cs" />
+    <Compile Include="Modules\AuthenticateModule.cs" />
+    <Compile Include="PlayerInfo.aspx.cs">
+      <DependentUpon>PlayerInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrionsBeltTournament.Master.cs">
+      <DependentUpon>OrionsBeltTournament.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrionsBeltTournament.Master.designer.cs">
+      <DependentUpon>OrionsBeltTournament.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Engine\Actions\ActionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Actions\BattleActions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Actions\FleetActions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Actions\Utils\FleetChangesInterpreter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Battle2\BattleEndRenderer2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Battle2\BattleRenderer2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Battle2\BattleRenderer2Positioning.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Battle4\BattleEndRenderer4.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Battle4\BattleRenderer4.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Battle4\BattleRenderer4Positioning.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\BattleOwnerWeb.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\BattleRendererBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\BattleRendererBase2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\BattleRendererBase4.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\BattleReplayInformation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\InitialContainerManager\InitialContainerManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\InitialContainerManager\InitialContainerManager2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\InitialContainerManager\InitialContainerManager4.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\ShowBattleList\Count.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\ShowBattleList\GenericBattle2Render.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\ShowBattleList\GenericBattle4Render.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\ShowBattleList\GenericRender.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\ShowBattleList\Mode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\ShowBattleList\OtherPlayersInformations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\ShowBattleList\SimpleBattleInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\ShowBattleList\SimpleBattleInfos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Utilities\BattleMessages.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Utilities\BattleUtilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Utilities\RightBattleMenu4.cs" />
+    <Compile Include="Engine\Battle\Utilities\LeftBattleMenu2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Utilities\RightBattleMenu2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Battle\Utilities\Units.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\GenericMessages.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Messages\Translators\CoordinateParameterTranslator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Messages\Translators\LanguageParameterTranslator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Messages\Translators\PositionParameterTranslator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Military\CreateFleetRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Military\FleetRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Military\FleetsInPlanetRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Military\FleetsRendererBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Military\PlayerFleetsRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\ResourcesManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Universe\PrivateSectorRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Universe\UniverseBaseRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Universe\UniverseSectorRendererZoom2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Universe\UniverseWormHolesRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\Universe\Utils\CenterCoordinate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Engine\WebUtilities.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Market.aspx.cs">
+      <DependentUpon>Market.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arenas\Arena.Master.cs">
+      <DependentUpon>Arena.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arenas\Arena.aspx.cs">
+      <DependentUpon>Arena.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arenas\CreateArena.aspx.cs">
+      <DependentUpon>CreateArena.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arenas\ArenaInfo.aspx.cs">
+      <DependentUpon>ArenaInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuctionHouse\Auction.Master.cs">
+      <DependentUpon>Auction.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuctionHouse\MyBids.aspx.cs">
+      <DependentUpon>MyBids.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuctionHouse\AddToAuction.aspx.cs">
+      <DependentUpon>AddToAuction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Battle\Battle.aspx.cs">
+      <DependentUpon>Battle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Battle\BattleList.aspx.cs">
+      <DependentUpon>BattleList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Battle\CreateFriendly.aspx.cs">
+      <DependentUpon>CreateFriendly.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Battle\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Alliance\AllianceMenu.cs" />
+    <Compile Include="Controls\Alliance\AllianceLink.cs" />
+    <Compile Include="Controls\Alliance\AllianceWebUtils.cs" />
+    <Compile Include="Controls\Alliance\AllianceManagePlayerLink.cs" />
+    <Compile Include="Controls\Alliance\AllianceManageDiplomacyLink.cs" />
+    <Compile Include="Controls\Alliance\AllianceDiplomacyLevelTranslated.cs" />
+    <Compile Include="Controls\Alliance\LeaveAlliancePanel.cs" />
+    <Compile Include="Controls\Alliance\JoinAlliancePanel.cs" />
+    <Compile Include="Controls\Arena\ArenaPrize.cs" />
+    <Compile Include="Controls\Arena\ArenaIsInBattle.cs" />
+    <Compile Include="Controls\Arena\ArenaType.cs" />
+    <Compile Include="Controls\Arena\ArenaFleetRender.cs" />
+    <Compile Include="Controls\Arena\ArenaName.cs" />
+    <Compile Include="Controls\Arena\ChampionFor.cs" />
+    <Compile Include="Controls\Arena\ArenaStats.cs" />
+    <Compile Include="Controls\Arena\CurrentWinningSequence.cs" />
+    <Compile Include="Controls\Arena\DiscoveredAt.cs" />
+    <Compile Include="Controls\Auction House\AHBuyout.cs">
+    </Compile>
+    <Compile Include="Controls\Auction House\AHBid.cs" />
+    <Compile Include="Controls\Auction House\AHCurrentBid.cs" />
+    <Compile Include="Controls\Auction House\Time.cs" />
+    <Compile Include="Controls\Auction House\ResourceTypeDropDown.cs" />
+    <Compile Include="Controls\Auction House\ResourceDropDown.cs" />
+    <Compile Include="Controls\Auction House\LastBid.cs" />
+    <Compile Include="Controls\Auction House\ResourcesViewer.cs" />
+    <Compile Include="Controls\Auction House\AuctionSearch.ascx.cs">
+      <DependentUpon>AuctionSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Auction House\AuctionSearch.ascx.designer.cs">
+      <DependentUpon>AuctionSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Battle\AllBattles.cs" />
+    <Compile Include="Controls\Generic\GenericRender.cs" />
+    <Compile Include="Controls\Generic\GameMenu.cs" />
+    <Compile Include="Controls\Generic\GlobalMenu.cs" />
+    <Compile Include="Controls\Generic\MessageList.cs" />
+    <Compile Include="Controls\Generic\PlayerActivityStatus.cs" />
+    <Compile Include="Controls\Generic\ChooseOpponent.cs" />
+    <Compile Include="Controls\Generic\ControlBase.cs" />
+    <Compile Include="Controls\Battle\DisplayUnits.cs" />
+    <Compile Include="Controls\Generic\Image.cs" />
+    <Compile Include="Controls\Generic\Information\ErrorBoard.cs" />
+    <Compile Include="Controls\Generic\Information\InformationBoard.cs" />
+    <Compile Include="Controls\Generic\Information\MessageBoard.cs" />
+    <Compile Include="Controls\Generic\Interactions\InteractionsControl.cs" />
+    <Compile Include="Controls\Generic\Menu.cs" />
+    <Compile Include="Controls\Generic\FleetRender.cs" />
+    <Compile Include="Controls\Generic\Script.cs" />
+    <Compile Include="Controls\Generic\Style.cs" />
+    <Compile Include="Controls\Military\PlayerFleets.cs" />
+    <Compile Include="Controls\Planets\PlanetPanel.cs" />
+    <Compile Include="Controls\Planets\PlanetList.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetFleetsRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetQueueRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetActions.cs" />
+    <Compile Include="Controls\Planets\Renderers\UnitInConstructionRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\LightHumans\LightHumansPrivatePlanetUnitInConstruction.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetUnitsRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\LightHumans\LightHumansPrivatePlanetUnits.cs" />
+    <Compile Include="Controls\Planets\Renderers\LightHumans\LightHumansPrivatePlanetResourceInConstruction.cs" />
+    <Compile Include="Controls\Planets\Renderers\ResourceInConstructionRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetUpgradeFacilityRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\LightHumans\LightHumansPrivatePlanetUpgradeFacility.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetBuildFacilityRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\LightHumans\LightHumansPrivatePlanetBuildFacility.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetFacilitiesRenderer.cs" />
+    <Compile Include="Controls\Planets\Renderers\LightHumans\LightHumansPrivatePlanetFacilities.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetRendererPanel.cs" />
+    <Compile Include="Controls\Planets\Renderers\PlanetRenderer.cs" />
+    <Compile Include="Controls\Resources\PlayerOrions.cs" />
+    <Compile Include="Controls\Resources\PlayerResources.cs" />
+    <Compile Include="Controls\Tops\AlliancePosition.cs" />
+    <Compile Include="Controls\Tops\PlayerPosition.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\MinEloRender.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\MaxEloRender.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\TournamentLink.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\InitPlayers.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\MakeRegist.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\SubscriptionTimeRender.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\NPlayersRender.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\TournamentTypeRender.cs" />
+    <Compile Include="Controls\Tournament\ProcessTournament.cs" />
+    <Compile Include="Controls\Tournament\TournamentLinkFasesRender.cs" />
+    <Compile Include="Controls\Tournament\PlayoffRender.cs" />
+    <Compile Include="Controls\Tournament\GroupsRender.cs" />
+    <Compile Include="Controls\Tournament\RegistedPlayers.cs" />
+    <Compile Include="Controls\Tournament\RegistInTournament.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\TeamIsResting.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\TeamIsInBattle.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\TeamPosition.cs" />
+    <Compile Include="Controls\Universe\ChooseRace.cs" />
+    <Compile Include="Controls\Universe\UniverseRenderer.cs" />
+    <Compile Include="AuctionHouse\AuctionHouse.aspx.cs">
+      <DependentUpon>AuctionHouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forum.aspx.cs">
+      <DependentUpon>Forum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreatePlayer.aspx.cs">
+      <DependentUpon>CreatePlayer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GlobalMenu.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>GlobalMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manual.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Manual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Military\Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OrionsBeltUniverse.Master.cs">
+      <DependentUpon>OrionsBeltUniverse.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrionsBeltUniverse.Master.designer.cs">
+      <DependentUpon>OrionsBeltUniverse.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Planets\Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Planets\Planets.Master.cs">
+      <DependentUpon>Planets.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quests\Quest.aspx.cs">
+      <DependentUpon>Quest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quests\Quests.Master.cs">
+      <DependentUpon>Quests.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quests\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RunTick.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>RunTick.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RunTick.aspx.designer.cs">
+      <DependentUpon>RunTick.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Stats\BattleStats.aspx.cs">
+      <DependentUpon>BattleStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\AHRegist.aspx.cs">
+      <DependentUpon>AHRegist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\BidRegist.aspx.cs">
+      <DependentUpon>BidRegist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\UniverseStats.aspx.cs">
+      <DependentUpon>UniverseStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\OrionsStats.aspx.cs">
+      <DependentUpon>OrionsStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\PlayerStats.aspx.cs">
+      <DependentUpon>PlayerStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\UnitsStats.aspx.cs">
+      <DependentUpon>UnitsStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\ResourceStats.aspx.cs">
+      <DependentUpon>ResourceStats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\Stats.Master.cs">
+      <DependentUpon>Stats.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tops\Alliance.aspx.cs">
+      <DependentUpon>Alliance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\PrincipalTransactions.aspx.cs">
+      <DependentUpon>PrincipalTransactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Stats\Transactions.aspx.cs">
+      <DependentUpon>Transactions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tops\Professions.aspx.cs">
+      <DependentUpon>Professions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tops\EloTeam.aspx.cs">
+      <DependentUpon>EloTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tops\Elo.aspx.cs">
+      <DependentUpon>Elo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tops\Ladder.aspx.cs">
+      <DependentUpon>Ladder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tops\LadderTeam.aspx.cs">
+      <DependentUpon>LadderTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tops\Tops.Master.cs">
+      <DependentUpon>Tops.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tops\Score.aspx.cs">
+      <DependentUpon>Score.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tournaments.aspx.cs">
+      <DependentUpon>Tournaments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Tournament\ControlsOverride\ChallengeTeam.cs" />
+    <Compile Include="Feeds\BattleMoves.ashx.cs">
+      <DependentUpon>BattleMoves.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="LadderTeamList.aspx.cs">
+      <DependentUpon>LadderTeamList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Battle\CurrentBattles.cs" />
+    <Compile Include="Controls\Generic\OBCreateUserWizard.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\Challenge.cs" />
+    <Compile Include="Controls\Stats\BonusCardShowUsed.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\IsResting.cs" />
+    <Compile Include="Controls\Tournament\ControlsOverride\Position.cs" />
+    <Compile Include="Exceptions\BattleException.cs" />
+    <Compile Include="LadderList.aspx.cs">
+      <DependentUpon>LadderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Battle\BattleRenderer.cs" />
+    <Compile Include="Controls\Redirect.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="Alliance\ManageDiplomacy.aspx" />
+    <Content Include="Alliance\Diplomacy.aspx" />
+    <Content Include="Alliance\Gossip.aspx" />
+    <Content Include="Alliance\ManageMember.aspx" />
+    <Content Include="Alliance\Members.aspx" />
+    <Content Include="Alliance\Leave.aspx" />
+    <Content Include="Alliance\Join.aspx" />
+    <Content Include="Alliance\Info.aspx" />
+    <Content Include="Alliance\Default.aspx" />
+    <Content Include="Alliance\Create.aspx" />
+    <Content Include="Alliance\List.aspx" />
+    <Content Include="AuctionHouse\MyBids.aspx" />
+    <Content Include="AuctionHouse\AddToAuction.aspx" />
+    <Content Include="AuctionHouse\AuctionHouse.aspx" />
+    <Content Include="Battle\Battle.aspx" />
+    <Content Include="Battle\BattleList.aspx" />
+    <Content Include="Battle\CreateFriendly.aspx" />
+    <Content Include="Battle\Default.aspx" />
+    <Content Include="Controls\Auction House\AuctionSearch.ascx" />
+    <Content Include="Blog.aspx" />
+    <Content Include="Forum.aspx" />
+    <Content Include="CreatePlayer.aspx" />
+    <Content Include="GlobalMenu.aspx" />
+    <Content Include="Localization\Resources\Messages.xml" />
+    <Content Include="Localization\Resources\Interactions.xml" />
+    <Content Include="Localization\Resources\Tournaments.xml" />
+    <Content Include="Manual.aspx" />
+    <Content Include="Military\Default.aspx" />
+    <Content Include="Planets\Default.aspx" />
+    <Content Include="Quests\Quest.aspx" />
+    <Content Include="Quests\Default.aspx" />
+    <Content Include="RunTick.aspx" />
+    <Content Include="Stats\BattleStats.aspx" />
+    <Content Include="Stats\AHRegist.aspx" />
+    <Content Include="Stats\BidRegist.aspx" />
+    <Content Include="Stats\UniverseStats.aspx" />
+    <Content Include="Stats\OrionsStats.aspx" />
+    <Content Include="Stats\PlayerStats.aspx" />
+    <Content Include="Stats\UnitsStats.aspx" />
+    <Content Include="Stats\ResourceStats.aspx" />
+    <Content Include="Stats\Default.aspx" />
+    <Content Include="Tops\Alliance.aspx" />
+    <Content Include="Stats\PrincipalTransactions.aspx" />
+    <Content Include="Stats\Transactions.aspx" />
+    <Content Include="Tops\Professions.aspx" />
+    <Content Include="Tops\EloTeam.aspx" />
+    <Content Include="Tops\Elo.aspx" />
+    <Content Include="Tops\Ladder.aspx" />
+    <Content Include="Tops\LadderTeam.aspx" />
+    <Content Include="Tops\Score.aspx" />
+    <Content Include="Tournaments.aspx" />
+    <Content Include="Localization\Resources\Terrain.xml" />
+    <Content Include="Localization\Resources\RaceInfo.xml" />
+    <Content Include="Localization\Resources\GenericUI.xml" />
+    <Content Include="Localization\Resources\ResourceInfo.xml" />
+    <Content Include="Feeds\BattleMoves.ashx" />
+    <Content Include="OrionsBeltTournament.Master" />
+    <Content Include="Feeds\PlayerMessages.ashx" />
+    <Content Include="Feeds\LatestPlayers.ashx" />
+    <Content Include="Feeds\LatestPayments.ashx" />
+    <None Include="Localization\Resources\Master.xml" />
+    <Content Include="LadderTeamList.aspx" />
+    <Content Include="LadderList.aspx" />
+    <Content Include="Localization\Resources\Authentication.xml" />
+    <None Include="Localization\Resources\Errors.xml" />
+    <Content Include="Login.aspx" />
+    <None Include="Config\Roles.xml" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Maintenance.html" />
+    <Content Include="OrionsBeltMaster.Master" />
+    <Content Include="OrionsBeltUniverse.Master" />
+    <Content Include="Planets\Planets.Master" />
+    <Content Include="Tops\Tops.Master" />
+    <Content Include="Quests\Quests.Master" />
+    <Content Include="Stats\Stats.Master" />
+    <Content Include="Profile\PrincipalProfile.Master" />
+    <Content Include="Profile\PlayerProfile.Master" />
+    <None Include="PaymentSystems\PaysafeConfigs\CMS_1020000296_001_pdm_fc_eur.p12" />
+    <None Include="PaymentSystems\PaysafeConfigs\merchant.properties" />
+    <None Include="PaymentSystems\PaysafeConfigs\paysafecard-CA_dotNet.p7b" />
+    <Content Include="PopupWindow.Master" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PaysafeWS\DispositionData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PaysafeWS\PaysafeProxy.wsdl" />
+    <None Include="Web References\PaysafeWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PaysafeWS\VerifyResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web.config" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\EngineModule.cs" />
+    <Compile Include="OrionsBeltMaster.Master.cs">
+      <DependentUpon>OrionsBeltMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Provider\OBUserProvider.cs" />
+    <Compile Include="Register.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tournaments\Team.aspx.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tournaments\GroupBattles.aspx.cs">
+      <DependentUpon>GroupBattles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tournaments\Tournament.aspx.cs">
+      <DependentUpon>Tournament.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tournaments\TournamentRegist.aspx.cs">
+      <DependentUpon>TournamentRegist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tournaments\CreateTournament.aspx.cs">
+      <DependentUpon>CreateTournament.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Universe.aspx.cs">
+      <DependentUpon>Universe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VotePage.aspx.cs">
+      <DependentUpon>VotePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web References\PaysafeWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Content Include="Global.asax" />
+    <Content Include="Register.aspx" />
+    <Content Include="Tournaments\Team.aspx" />
+    <Content Include="Tournaments\GroupBattles.aspx" />
+    <Content Include="Tournaments\Tournament.aspx" />
+    <Content Include="Tournaments\TournamentRegist.aspx" />
+    <Content Include="Tournaments\CreateTournament.aspx" />
+    <Content Include="Universe.aspx" />
+    <Content Include="VotePage.aspx" />
+    <None Include="Web References\PaysafeWS\PaysafeProxy.disco" />
+    <None Include="Localization\Resources\Validators.xml" />
+    <None Include="Localization\LocalizationTemplate.json.vtl" />
+    <None Include="Localization\LocalizationTemplate.cs.vtl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../WebComponents/WebComponents.csproj">
+      <Project>{4B909561-77BD-4CEF-85F7-8EF5FA9C9C04}</Project>
+      <Name>WebComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="../DataAccessLayer/DataAccessLayer.csproj">
+      <Project>{5F35B870-AC30-4C1D-8776-24C99AA507E4}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="../Core/Core.csproj">
+      <Project>{E7804DC6-B663-4B88-8E55-C86A240B9E42}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Engine.csproj">
+      <Project>{3DF5F937-0E77-4497-88BB-B07D88969D40}</Project>
+      <Name>Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generic\Generic.csproj">
+      <Project>{26274F5B-70BC-419A-8062-E53FC5CD009D}</Project>
+      <Name>Generic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RulesCore\RulesCore.csproj">
+      <Project>{8A73B0DB-13D5-43C3-AA75-E8E59870902F}</Project>
+      <Name>RulesCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TournamentCore\TournamentCore.csproj">
+      <Project>{E384B92B-2734-4B18-A495-9F029228094C}</Project>
+      <Name>TournamentCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebAdmin\WebAdmin.csproj">
+      <Project>{56F457D3-9B64-4ED7-8BCB-D67FB1E5FBCE}</Project>
+      <Name>WebAdmin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebServices\WebService.csproj">
+      <Project>{EBAD6406-3A0C-4FE2-A90F-1FD32A328702}</Project>
+      <Name>WebService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://oldlace:6969/PaysafeProxy.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\PaysafeWS\</RelPath>
+      <UpdateFromURL>http://oldlace:6969/PaysafeProxy.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>OrionsBelt_WebUserInterface_PaysafeWS_PaysafeProxy</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64322</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/WebUserInterface</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+</Project>

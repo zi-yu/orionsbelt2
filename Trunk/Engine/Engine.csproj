@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3DF5F937-0E77-4497-88BB-B07D88969D40}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrionsBelt.Engine</RootNamespace>
+    <AssemblyName>OrionsBelt.Engine</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\WebUserInterface\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\WebUserInterface\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DesignPatterns, Version=1.1.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42" />
+    <Reference Include="Loki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42, processorArchitecture=MSIL" />
+    <Reference Include="NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\ActionUtils.cs" />
+    <Compile Include="Actions\AutoRepeteAction.cs" />
+    <Compile Include="Actions\Battle\BattleTimeout.cs" />
+    <Compile Include="Actions\ActionManager.cs" />
+    <Compile Include="Actions\Dummy\AutoRepeatableDoNothing.cs" />
+    <Compile Include="Actions\Dummy\DoNothing.cs" />
+    <Compile Include="Actions\Generic\EndBounties.cs" />
+    <Compile Include="Actions\Generic\ShopTimeout.cs" />
+    <Compile Include="Actions\Generic\HolidaysMessages.cs" />
+    <Compile Include="Actions\Generic\EraseOldMessages.cs" />
+    <Compile Include="Actions\OneTimeAction.cs" />
+    <Compile Include="Actions\ResourceManagement\CheckProductionQueue.cs" />
+    <Compile Include="Actions\ResourceManagement\AuctionTimeout.cs" />
+    <Compile Include="Actions\ResourceManagement\MarketReinforce.cs" />
+    <Compile Include="Actions\ResourceManagement\ResourceConstruction.cs" />
+    <Compile Include="Actions\ResourceManagement\PeriodicIncome.cs" />
+    <Compile Include="Actions\TimedAction.cs" />
+    <Compile Include="Actions\Universe\AutoStartVacationsHandler.cs" />
+    <Compile Include="Actions\Universe\PrivateFleetMovement.cs" />
+    <Compile Include="Actions\Universe\EraseBeacon.cs" />
+    <Compile Include="Actions\Universe\FireDevastation.cs" />
+    <Compile Include="Actions\Universe\CreateBugWormHole.cs" />
+    <Compile Include="Actions\Universe\EraseBugWormHole.cs" />
+    <Compile Include="Actions\Universe\VacationTimeout.cs" />
+    <Compile Include="Actions\Universe\FleetMovement.cs" />
+    <Compile Include="Alliances\Alliance.cs" />
+    <Compile Include="Alliances\AllianceManager.cs" />
+    <Compile Include="Battle\BattleCreator.cs" />
+    <Compile Include="Battle\BattleManager.cs" />
+    <Compile Include="Battle\BattlePersistance.cs" />
+    <Compile Include="Battle\BattleResult.cs" />
+    <Compile Include="Battle\BattleWrapper.cs" />
+    <Compile Include="Battle\ConvertBattleToXML.cs" />
+    <Compile Include="Battle\EndBattleUtils.cs" />
+    <Compile Include="Battle\Generals.cs" />
+    <Compile Include="Battle\Owners\BattleOwner.cs" />
+    <Compile Include="Battle\Owners\PlayerOwner.cs" />
+    <Compile Include="Battle\Owners\PrincipalOwner.cs" />
+    <Compile Include="Campaigns\CampaignManager.cs" />
+    <Compile Include="MailSender.cs" />
+    <Compile Include="Common\Interactions\AllianceSubscription.cs" />
+    <Compile Include="Common\Interactions\AllianceOfterEndWar.cs" />
+    <Compile Include="Common\Interactions\Alliances\AllianceOfterConfederation.cs" />
+    <Compile Include="Common\Interactions\Alliances\AllianceOfterNAP.cs" />
+    <Compile Include="Common\Interactions\TeamInvitation.cs" />
+    <Compile Include="Common\Interactions\InteractionType.cs" />
+    <Compile Include="Common\EngineException.cs" />
+    <Compile Include="Exceptions\InvalidAllianceException.cs" />
+    <Compile Include="Exceptions\InvalidOfferException.cs" />
+    <Compile Include="Exceptions\InvalidPlayerException.cs" />
+    <Compile Include="Exceptions\TeamException.cs" />
+    <Compile Include="MarketPlace\PromotionUtil.cs" />
+    <Compile Include="MarketPlace\InvoiceItem.cs" />
+    <Compile Include="MarketPlace\InvoiceUtils.cs" />
+    <Compile Include="Profile\MedalManager.cs" />
+    <Compile Include="Profile\FriendOrFoeManager.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize1HotLevel10Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize5HotLevel10Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize8HotLevel10Quest.cs" />
+    <Compile Include="Quests\QuestInfos\ArenaCountQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns20ArenaBugQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns20ArenaDarkQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns15ArenaDarkQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns15ArenaBugQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns10ArenaBugQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns10ArenaDarkQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns5ArenaBugQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns5ArenaDarkQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns25ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns24ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns23ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns22ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns21ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns20ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns19ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns18ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns17ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns16ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns15ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns14ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns13ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns12ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns11ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns10ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns9ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns8ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns7ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns6ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns5ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns4ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns3ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns2ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Gladiator\Owns1ArenaQuest.cs" />
+    <Compile Include="Quests\QuestInfos\MobQuest.cs" />
+    <Compile Include="Quests\QuestInfos\MobBattleBase.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level1\BringPrimaryBoardToAcademyLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level7\DestroySilverBeard.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\MercBattleBase.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level10\AttackAndDestroy3DarkMercFleets.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level10\BringDarkMercSpaceChartToAcademyLevel10.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level10\BringDarkMercUniformsToAcademyLevel10.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level10\BringDarkMercWrecksToAcademyLevel10.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level10\DestroyMetallicBeard.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level9\AttackAndDestroy3BlackMercFleets.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level9\BringDeutiriumEnergyCapsuleToAcademyLevel9.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level9\BringBlackMercSpaceChartToAcademyLevel9.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level9\BringBlackMercUniformsToAcademyLevel9.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level9\BringBlackMercWrecksToAcademyLevel9.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level7\AttackAndDestroy3TechMercFleets.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level7\BringScourgeIonCannonsToAcademyLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level7\BringCarbonNanoTubesToAcademyLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level7\BringTechMercSpaceChartToAcademyLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level7\BringTechMercUniformsToAcademyLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level7\BringTeckMercWrecksToAcademyLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level5\AttackAndDestroy3RogueMercFleets.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level5\BringReaperControlHelmetToAcademyLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level5\BringRogueMercSpaceChartToAcademyLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level5\BringRogueMercUniformsToAcademyLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level5\BringRogueMercWrecksToAcademyLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level5\BringReaperPropulsionSystemToAcademyLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level1\AttackAndDestroy3MercFleets.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level1\BringMercSpaceChartToAcademyLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level1\BringMercWrecksToAcademyLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level1\BringMercSiliciumToAcademyLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level1\BringMercUniformsToAcademyLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level3\AttackAndDestroy3SentryMercFleets.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level3\BringSentryReactorToAcademyLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level3\BringSentryMercSpaceChartToAcademyLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level3\BringSentryMercUniformsToAcademyLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level3\BringSentryMercWrecksToAcademyLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\Level3\BringBeriliumToAcademyLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\Mercs\MercQuest.cs" />
+    <Compile Include="Quests\QuestInfos\CustomPlayerBountyTemplate.cs" />
+    <Compile Include="Quests\QuestInfos\CustomPlayerBounty.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\Complete8Level3TradeRoutes.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\Complete12Level3TradeRoutes.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\BringMedicineAndAlcoholToMarketLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\Complete12Level7TradeRoutes.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\Complete16Level7TradeRoutes.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\BringMercuryAndDiamondsToMarketLevel10.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\Complete16Level10TradeRoutes.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\Complete20Level10TradeRoutes.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level10\AttackAndDestroy3OmegaForceFleets.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level10\BringSpaceCriminalListOmegaToPirateBayLevel10.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level10\BringSpaceForceUniformOmegaToPirateBayLevel10.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level10\BringSpaceForceWrecksToPirateBayLevel10.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level10\BringLightEnginesToPirateBayLevel10.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level10\BringDarkMatterToPirateBayLevel10.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level10\DestroyCaptainWolf.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level1\AttackAndDestroy3SpaceForceFleets.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level1\BringWrecksToPirateBayLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level1\BringEscapePodToPirateBayLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level1\BringRedMatterToPirateBayLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level1\BringSpaceForceUniformAlphaToPirateBayLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level1\BringSpaceCriminalListAlphaToPirateBayLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level3\AttackAndDestroy3BetaForceFleets.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level3\BringHolographicCubeToPirateBayLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level3\BringSpaceCriminalListBetaToPirateBayLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level3\BringSpaceForceUniformBetaToPirateBayLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level3\BringSpaceForceWrecksToPirateBayLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level3\BringSubSpaceSensorsToPirateBayLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level5\AttackAndDestroy3GammaForceFleets.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level5\BringSpaceCriminalListGammaToPirateBayLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level5\BringSpaceForceUniformGammaToPirateBayLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level5\BringTacticalComputerToPirateBayLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level5\BringSubLightToPirateBayLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level5\BringCommunicationsArrayToPirateBayLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level7\AttackAndDestroy3DeltaForceFleets.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level7\BringSpaceCriminalListDeltaToPirateBayLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level7\BringSpaceForceUniformDeltaToPirateBayLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level7\BringTransportSystemToPirateBayLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level7\BringContainersToPirateBayLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level7\BringGreyMatterToPirateBayLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level7\DestroyCommanderFox.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level9\AttackAndDestroy3SigmaForceFleets.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level9\BringCrawlerWrecksToPirateBayLevel9.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level9\BringBlueMatterContainerToPirateBayLevel9.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level9\BringSpaceCriminalListSigmaToPirateBayLevel9.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\Level9\BringSpaceForceUniformSigmaToPirateBayLevel9.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\SpaceForceBattleBase.cs" />
+    <Compile Include="Quests\QuestInfos\SpaceForce\SpaceForceQuest.cs" />
+    <Compile Include="Relics\RelicsManager.cs" />
+    <Compile Include="Shop.cs" />
+    <Compile Include="Exceptions\AuctionException.cs" />
+    <Compile Include="Exceptions\NoFleetException.cs" />
+    <Compile Include="GameEngine.cs" />
+    <Compile Include="MarketPlace\AuctionHouseUtil.cs" />
+    <Compile Include="MarketPlace\AuctionItem.cs" />
+    <Compile Include="MarketPlace\CreditsUtil.cs" />
+    <Compile Include="MarketPlace\MarketUtil.cs" />
+    <Compile Include="MarketPlace\TransactionManager.cs" />
+    <Compile Include="Metrics\Generic.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quests\BaseQuestInfo.cs" />
+    <Compile Include="Quests\QuestData.cs" />
+    <Compile Include="Quests\QuestInfos\BattleCount.cs" />
+    <Compile Include="Quests\QuestInfos\Battle\FinishABattleQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Bugs\BuildNestQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Bugs\BuildElkExtractorQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Bugs\BuildProtolExtractorQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Bugs\BuildIncubatorQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\ColonizeOnePlanetQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\ColonizeAllPrivateZonePlanetsQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize1HotLevel1Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize5HotLevel1Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize8HotLevel1Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize1HotLevel3Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize5HotLevel3Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize8HotLevel3Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize1HotLevel5Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize5HotLevel5Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize8HotLevel5Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize1HotLevel7Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize5HotLevel7Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize8HotLevel7Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize1HotLevel9Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize5HotLevel9Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize8HotLevel9Quest.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize1HotLevel1QuestBugs.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\Colonize1HotLevel1QuestDark.cs" />
+    <Compile Include="Quests\QuestInfos\Colonizer\FindPrivateWormHoleQuest.cs" />
+    <Compile Include="Quests\QuestInfos\AttackPlayer.cs" />
+    <Compile Include="Quests\QuestInfos\Pirate\Raid3Planets.cs" />
+    <Compile Include="Quests\QuestInfos\RaidPlanet.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\CompleteForLevel1TradeRoutes.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\Complete10Level1TradeRoutes.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\BringToolsAndSuppliesToMarketLevel2.cs" />
+    <Compile Include="Quests\QuestInfos\PlayerBounty.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\FirstTradeRouteQuest.cs" />
+    <Compile Include="Quests\QuestInfos\TradeRouteQuest.cs" />
+    <Compile Include="Quests\QuestInfos\MarketCheck.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\FindOneMarketQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Pirate\AttackAndDestroy3Fleets.cs" />
+    <Compile Include="Quests\QuestInfos\PlayerPlanetLevelCheck.cs" />
+    <Compile Include="Quests\QuestInfos\ExtractorCheck.cs" />
+    <Compile Include="Quests\QuestInfos\HotPlanetsQuest.cs" />
+    <Compile Include="Quests\QuestInfos\DarkHumans\BuildDarknessHallQuest.cs" />
+    <Compile Include="Quests\QuestInfos\DarkHumans\BuildDevotionSanctuaryQuest.cs" />
+    <Compile Include="Quests\QuestInfos\DarkHumans\BuildTitaniumExtractorQuest.cs" />
+    <Compile Include="Quests\QuestInfos\DarkHumans\BuildDominationYardQuest.cs" />
+    <Compile Include="Quests\QuestInfos\Merchant\GetAllPrivateZoneResources.cs" />
+    <Compile Include="Quests\QuestInfos\PMQuest\ReachPlayerLevel10.cs" />
+    <Compile Include="Quests\QuestInfos\PMQuest\ReachPlayerLevel9.cs" />
+    <Compile Include="Quests\QuestInfos\PMQuest\ReachPlayerLevel7.cs" />
+    <Compile Include="Quests\QuestInfos\PMQuest\OwnExtractorLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\PMQuest\ReachPlayerLevel5.cs" />
+    <Compile Include="Quests\QuestInfos\PMQuest\OwnExtractorLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\PMQuest\ReachPlayerLevel3.cs" />
+    <Compile Include="Quests\QuestInfos\PMQuest\OwnExtractorLevel1.cs" />
+    <Compile Include="Quests\QuestInfos\WormHoleCheck.cs" />
+    <Compile Include="Quests\QuestInfos\PlanetCountQuest.cs" />
+    <Compile Include="Quests\QuestInfos\HomePlanetFacilityCheck.cs" />
+    <Compile Include="Quests\QuestInfos\LightHumans\BuildSolarPanelQuest.cs" />
+    <Compile Include="Quests\QuestInfos\LightHumans\BuildSeriumExtractorQuest.cs" />
+    <Compile Include="Quests\QuestInfos\LightHumans\BuildCommandCenterQuest.cs" />
+    <Compile Include="Quests\QuestInfos\LightHumans\BuildUnitYardQuest.cs" />
+    <Compile Include="Quests\QuestInfos\ResourceExchange.cs" />
+    <Compile Include="Quests\QuestInfos\ResourceCheck.cs" />
+    <Compile Include="Quests\QuestManager.cs" />
+    <Compile Include="Resources\CelestialBody.cs" />
+    <Compile Include="Resources\PlayersUnits.cs" />
+    <Compile Include="Resources\PlayersResources.cs" />
+    <Compile Include="Resources\QueueUtils.cs" />
+    <Compile Include="Resources\Planet.cs" />
+    <Compile Include="Resources\PlanetResource.cs" />
+    <Compile Include="Resources\ResourceUtils.cs" />
+    <Compile Include="Results\NotProduct.cs" />
+    <Compile Include="Results\NotCredits.cs" />
+    <Compile Include="Results\InvalidProduct.cs" />
+    <Compile Include="Results\NotEmptyCoordinate.cs" />
+    <Compile Include="StorageConversion\ActionConversion.cs" />
+    <Compile Include="StorageConversion\QuestConversion.cs" />
+    <Compile Include="StorageConversion\PlanetConversion.cs" />
+    <Compile Include="StorageConversion\PlanetResourceConversion.cs" />
+    <Compile Include="StorageConversion\PlayerConversion.cs" />
+    <Compile Include="Tournament\ArenaManager.cs" />
+    <Compile Include="Tournament\TournamentManager.cs" />
+    <Compile Include="UltimateWeapons\Arguments\BeaconCreatorArgs.cs" />
+    <Compile Include="UltimateWeapons\Arguments\DevastationCreatorArgs.cs" />
+    <Compile Include="UltimateWeapons\Arguments\WormHoleCreatorArgs.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel0.cs" />
+    <Compile Include="UltimateWeapons\BeaconCreatorBase.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel1.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel2.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel3.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel4.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel5.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel6.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel7.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel8.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel9.cs" />
+    <Compile Include="UltimateWeapons\Beacons\BeaconLevel10.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel10.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel2.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel1.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel3.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel4.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel5.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel6.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel7.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel8.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel9.cs" />
+    <Compile Include="UltimateWeapons\UltimateCreatorBase.cs" />
+    <Compile Include="UltimateWeapons\DevastationCreatorBase.cs" />
+    <Compile Include="UltimateWeapons\Devastations\DevastationLevel0.cs" />
+    <Compile Include="UltimateWeapons\UltimateWeaponChooser.cs" />
+    <Compile Include="UltimateWeapons\WormHoleCreatorBase.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel10.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel9.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel8.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel7.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel6.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel5.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel4.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel3.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel2.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel0.cs" />
+    <Compile Include="UltimateWeapons\WormHoles\WormHoleLevel1.cs" />
+    <Compile Include="Universe\AcademyUtils.cs" />
+    <Compile Include="Universe\PirateBayUtils.cs" />
+    <Compile Include="Universe\PlayerBag.cs" />
+    <Compile Include="Universe\Sectors\AcademySector.cs" />
+    <Compile Include="Universe\Sectors\BugsWormHoleSector.cs" />
+    <Compile Include="Universe\Sectors\BeaconSector.cs" />
+    <Compile Include="Universe\Sectors\RelicBattleSector.cs" />
+    <Compile Include="Universe\Sectors\RelicSector.cs" />
+    <Compile Include="Universe\Sectors\PirateBaySector.cs" />
+    <Compile Include="Universe\Sectors\UltimateSectorBase.cs" />
+    <Compile Include="Universe\Sectors\DevastationSector.cs" />
+    <Compile Include="Universe\Utils\BeaconInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\BugsWormHoleSectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\BeaconSectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\AcademySectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\BattleRelicSectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\RelicSectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\PirateBaySectorInformation.cs" />
+    <Compile Include="Universe\Utils\UniverseMaid.cs" />
+    <Compile Include="Universe\Utils\Visibility\BeaconVisible.cs" />
+    <Compile Include="Universe\Utils\Visibility\OtherBeaconVisible.cs" />
+    <Compile Include="Universe\Utils\Visibility\Undiscovered.cs" />
+    <Compile Include="Universe\Utils\Visibility\Discovered.cs" />
+    <Compile Include="Universe\Utils\Visibility\PlanetVisible.cs" />
+    <Compile Include="Universe\Utils\Visibility\FleetVisible.cs" />
+    <Compile Include="Universe\Utils\Visibility\Visibility.cs" />
+    <Compile Include="VacationsManager.cs" />
+    <Compile Include="Universe\Fleet\FleetConversion.cs" />
+    <Compile Include="Universe\Fleet\FleetPersistance.cs" />
+    <Compile Include="Universe\FogOfWar\FogOfWar.cs" />
+    <Compile Include="Universe\PlanetUtils.cs" />
+    <Compile Include="Universe\Arguments\BattleSectorMoveArgs.cs" />
+    <Compile Include="Universe\Arguments\FleetSectorMoveArgs.cs" />
+    <Compile Include="Universe\Arguments\PlanetSectorMoveArgs.cs" />
+    <Compile Include="Universe\Arguments\WormHoleSectorMoveArgs.cs" />
+    <Compile Include="Universe\Arguments\NormalSectorMoveArgs.cs" />
+    <Compile Include="Universe\Fleet\FleetElement.cs" />
+    <Compile Include="Universe\Fleet\FleetInfo.cs" />
+    <Compile Include="Universe\Player.cs" />
+    <Compile Include="Universe\PlayerUtils.cs" />
+    <Compile Include="Universe\Sectors\ArenaSector.cs" />
+    <Compile Include="Universe\Sectors\ResourceSector.cs" />
+    <Compile Include="Universe\Sectors\MarketSector.cs" />
+    <Compile Include="Universe\Sectors\PrivateWormHoleSector.cs" />
+    <Compile Include="Universe\Sectors\PlanetBattleSector.cs" />
+    <Compile Include="Universe\Sectors\FleetBattleSector.cs" />
+    <Compile Include="Universe\Sectors\FleetSector.cs" />
+    <Compile Include="Universe\Sectors\WormHoleSector.cs" />
+    <Compile Include="Universe\Sectors\NormalSector.cs" />
+    <Compile Include="Universe\Sectors\PlanetSector.cs" />
+    <Compile Include="Universe\Sectors\Sector.cs" />
+    <Compile Include="Universe\System\System.cs" />
+    <Compile Include="Universe\System\SystemNames.cs" />
+    <Compile Include="Universe\Universe.cs" />
+    <Compile Include="Universe\UniverseCreation.cs" />
+    <Compile Include="Universe\UniversePersistance.cs" />
+    <Compile Include="Universe\Utils\CoordinateRangeCalculator.cs" />
+    <Compile Include="Universe\FogOfWar\FogOfWarContainer.cs" />
+    <Compile Include="Universe\FogOfWar\FogOfWarUtils.cs" />
+    <Compile Include="Universe\Utils\FleetArrival.cs" />
+    <Compile Include="Universe\Utils\HammingSectorComparer.cs" />
+    <Compile Include="Universe\Utils\ResourceQuantity.cs" />
+    <Compile Include="Universe\Utils\SectorCoordinateContainer.cs" />
+    <Compile Include="Universe\Utils\SectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformationComparer.cs" />
+    <Compile Include="Universe\Utils\SectorInformationContainer.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\BattleFleetSectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\BattlePlanetSectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\ArenaSectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\MarketSectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\WormHoleSectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\FleetSectorInformation.cs" />
+    <Compile Include="Universe\Utils\SectorInformation\PlanetSectorInformation.cs" />
+    <Compile Include="Universe\Utils\WormHoleCount.cs" />
+    <Compile Include="Universe\Utils\HammingDistanceComparer.cs" />
+    <Compile Include="Universe\Utils\SectorUtils.cs" />
+    <Compile Include="Universe\Utils\UniverseUtils.cs" />
+    <Compile Include="Universe\Utils\UniverseArea.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BattleCore\BattleCore.csproj">
+      <Project>{6AA7FC93-B193-4F76-81BF-E3517B2025E1}</Project>
+      <Name>BattleCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{D9CDBB66-F267-44AB-AF03-C877489E01B0}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{7A325E24-4700-4E56-85A3-E57CE4622677}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generic\Generic.csproj">
+      <Project>{26274F5B-70BC-419A-8062-E53FC5CD009D}</Project>
+      <Name>Generic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RulesCore\RulesCore.csproj">
+      <Project>{8A73B0DB-13D5-43C3-AA75-E8E59870902F}</Project>
+      <Name>RulesCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TournamentCore\TournamentCore.csproj">
+      <Project>{E384B92B-2734-4B18-A495-9F029228094C}</Project>
+      <Name>TournamentCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebComponents\WebComponents.csproj">
+      <Project>{5A0B8CC0-3B72-450D-94CD-095972D801A6}</Project>
+      <Name>WebComponents</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

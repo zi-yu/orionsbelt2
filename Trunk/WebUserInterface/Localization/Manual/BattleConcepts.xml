@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="DeployContent">
+		<lang key="de"></lang>
+		<lang key="en"><div class="content">
+    [Deploy] is the first thing every player must make in the beginning of the battle. Each player starts with a certain number of units 
+    that must be place in any of the 16 beggining squares (see picture below):
+    <p /><img class="block" src="/Resources/Images/DeployArea.png" alt="Deploy Area" /><p />
+    In the [Deploy] there aren't any [MovPoints] to spend and the [Movement] type of each unit is not taken into account. You can insert all
+    the units whereaver you like and splitting them at your own will.
+    <p />
+    In the battle between 4 players the same rules of the battle between 2 players are applied. Also, the area you have for deploying you'r units
+    is the same (see picture below).
+    <p /><img class="block" style="width:510px;" src="/Resources/Images/DeployArea4.png" alt="Deploy Area for a 4 players battle" /><p />
+    The Battle will only start when the players have deployed their units. Also, when you are deploying your units, you can't see the adversary(ies) deploying 
+    theirs. The adversary(ies) units will only be visible when the battle starts.
+    <p />
+    In every battle, even in a 4 player battle, the maximum number of units you can have is 8. The only exception is a [Regicide] battle where you will have 9 units. 
+    The 9nth unit is the [Flag] that is added automatically to your fleet.
+    <p />
+    Below is a video that teach you how to deploy your units:
+    <p /></div></lang>
+		<lang key="es"><div class="content">
+    [Deploy] es la primera tarea que un jugador tiene que hacer al inicio de una batalla. Cada jugador comienza con un determinado número de unidades las quales tien que ser  colocadas en cualquiera de las 16 cuadriculas iniciales(ver imágen abajo)
+    <p /><img class="block" src="/Resources/Images/DeployArea.png" alt="Area de Posicionamento" /><p />
+    En la fase de [Deploy] no existen [MovPoints]  para gastar y el tipo de [Movement] no es tomado en cuenta. Puedes ingresar todas las unidades donde desees y separarlas a tu  gusto.
+    <p />
+    En las batallas entre 4 jugadores se aplican las mismas reglas. El área para posicionar las unidades es equivalente (ver figura abaixo).
+    <p /><img class="block" style="width:510px;" src="/Resources/Images/DeployArea4.png" alt="Area de posicionamento para uma batalha de 4 jogadores" /><p />
+    La battal solo comienza cuando todos los jugadores tuvieran en posición sus unidades. Cuando estas en la fase de posicionamiento no podrás ver las unidades de los  adversários. Esas unidades sólo serán visibles cuando la batalla comienza.
+    <p />
+    Abajo está un video de demostración de como  posicionar las unidades:
+    <p /></div></lang>
+		<lang key="fr"><div class="content">
+    Le [Deploy] est le première chose que chaque joueurs doit faire au début d'un combat. Chaque joueur commence alors avec un certain nombre d'unités qui doivent être placés dans les 16 premières cases du jeu. (voir l'image plus bas:)
+    <p /><img class="block" src="/Resources/Images/DeployArea.png" alt="Deploy Area" /><p />
+    Durant le [Deploy], il n'y a pas de [MovPoints] à dépenser et le type de [Movement] de chaque unité n'est pas considéré. Vous pouvez donc mettre vos unités ou bon vous semble et les diviser à votre guise.
+    <p />
+    Les même règles s'appliquent aux combats entre 4 ou 2 joueurs. L'endroit pour le déploiement de vos unités est semblable (voir l'image en bas).
+    <p /><img class="block" style="width:510px;" src="/Resources/Images/DeployArea4.png" alt="Deploy Area for a 4 players battle" /><p />
+   Le combat commence seulement quand tout les jours ont terminé le déploiement de leurs unités. Par ailleurs, durant votre déploiement, vous ne pouvez pas voir le déploiement de l'adversaire. Les unités de l'adversaire seront visibles sur le plateau de jeu seulement quand le combat commence.
+    <p />
+    Dans chaque bataille, même dans les batailles à 4, le type d'unités maximale différentes qu'un joueur peut avoir est de 8. La seule exceptions sont les combats [Regicide] ou la limite monte à 9 à cause du [Flag] considéré comme la neuvième unité rajouté automatiquement.
+    <p />
+    En bas ce trouve un vidéo pour apprendre comment faire un déploiement de vos unités:
+    <p /></div></lang>
+		<lang key="hr"><div class="content">
+[Deploy] je prva stvar koju svaki igrač treba napraviti na početku bitke. Svaki igrač počinje sa odeđenim brojem jedinica koje moraju biti smještene na bilo kojemu od 16 početnih kvadrata (vidi sliku ispod):
+<p /><img class="block" src="/Resources/Images/DeployArea.png" alt="Deploy Area" /><p />
+U [Deploy] nema nikakvih [MovPoints] za trošiti i [Movement] tip svake jedinice nije uzet u obzir.Možete ubaciti sve jedinice gdje god da želiti i rastaviti ih kako hoćete.
+<p />
+U bitci između 4 igrača ista vrijede ista pravila kao u bitci između dva igrača. Također područje koje imate za raspoređivanje vaših jedinica je isto (pogledaj sliku ispod).
+
+<p /><img class="block" style="width:510px;" src="/Resources/Images/DeployArea4.png" alt="Deploy Area for a 4 players battle" /><p />
+
+Bitka će početi tek kada su svi igrači razmjestili svoje jedinice. Također dok raspoređivate svoje jedinice ne možete vidjeti ne možete vidjeti svoje neprijatelje koji raspoređuju svoje. Nerpijateljske jednice su jedino vidljive kada bitak započne.
+<p />
+U svakoj bitci, čak i u bitci između 4 igrača, maksimalan broj jednica koje možete imati je 8. Jedina iznimka je [Regicide] bitka gdje možete imati 9 jedinica.
+Deveta jedinica je [Flag] koji je automatski dodan u tvoju flotu.
+<p />
+Ispod je video koji vas uči kako rasporediti svoje jedinice:
+<p /></div></lang>
+		<lang key="pt"><div class="content">
+    [Deploy] é a primeira tarefa que um jogador tem de fazer no inicio de uma batalha. Cada jogador começa com um determinado número de unidades 
+    as quais têm de ser colocadas em qualquer das 16 quadrículas iniciais (ver imagem abaixo).
+    <p /><img class="block" src="/Resources/Images/DeployArea.png" alt="Area de Posicionamento" /><p />
+    Na fase de [Deploy] não existem [MovPoints] para gastar e o tipo de [Movement] de cada unidade não é tido em conta. Podes inserir todas 
+    as unidades onde quiseres e separá-las à vontade.
+    <p />
+    Nas batalhas entre 4 jogadores as mesmas regras são aplicadas. A área para posicionar as unidades é equivalente (ver figura abaixo).
+    <p /><img class="block" style="width:510px;" src="/Resources/Images/DeployArea4.png" alt="Area de posicionamento para uma batalha de 4 jogadores" /><p />
+    A batalha só começa quando todos os jogadores tiverem posicionado as suas unidades. Quando estás na fase de posicionamento não poderás ver as unidades dos 
+    adversários. Essas unidades só serão visiveis quando a batalha começar.
+    <p />
+    Abaixo está um video de demonstração de como posicionar as unidades:
+    <p /></div></lang>
+	</entry>
+
+	<entry key="ELOInfo">
+		<lang key="de"><h1>ELO Ranglisten System</h1><div class="content">
+    Das [OB] ELO ist ein Ranglisten System das das Fähigkeitslevel der Spieler misst. Je mehr ELO ein Spieler hat, umso kompetenter wird er auf dem [GameBoard] sein. Das Spieler Elo wird in jedem [Tournament] und [Ladder] Match aktualisiert.
+    <p>
+    Die [OB] ELO Implementation basiert auf <a href="http://en.wikipedia.org/wiki/Elo_rating_system">ELO Ranglisten System</a>
+    wie beim Schachspiel.
+  </p></div></lang>
+		<lang key="en"><h1>ELO Ranking System</h1><div class="content">
+    The [OB] ELO is a ranking system that measures the skill level of players. The more ELO a player has, the 
+    more proficient he is on the [GameBoard]. A player's elo is updated on every [Tournament] and [Ladder] match.
+    <p />
+    The [OB] ELO implementation is based on the <a href="http://en.wikipedia.org/wiki/Elo_rating_system">ELO Rating System</a>
+    used on chess.
+  </div></lang>
+		<lang key="fr"><h1>ELO Ranking System</h1><div class="content">
+ L’ [OB] ELO est un système de rang mesurant la force de chacun des joueurs. Plus l’ELO d’un joueur est élevé, plus il est efficace sur le [GameBoard]. L’ELO d’un joueur est mis à jour après chaque [Tournament] et combat pour monter dans les  [Ladder] .
+    <p />
+    L’’implantation de l’ELO d’ [OB] se base sur <a href="http://en.wikipedia.org/wiki/Elo_rating_system">ELO Rating System</a>
+    utilisé aux échecs.
+  </div></lang>
+		<lang key="hr"><h1>ELO Ranking Sustav</h1><div class="content">
+[OB] ELO  je ranking sustav koji mjeri nivo vještine igrača. Što više ELO igrač ima, vještiji je na [GameBoard]. Igračev ELO je updatean iza svakog [Tournament] i [Ladder] meča.
+<p />
+[OB] ELO implementacija je bazirana na <a href="http://en.wikipedia.org/wiki/Elo_rating_system">ELO Rating System</a>
+koji se koristi u šahu.
+</div></lang>
+		<lang key="pt"><h1>Sistema de Pontuação ELO</h1><div class="content">
+    O ELO é um sistema de pontuação no [OB] que mede o nível de capacidade de batalha de cada jogador. Quanto mais
+    ELO um jogador tiver, melhor ele será no [GameBoard]. O Elo de um jogador é actualzado em cada batalha de
+    [Tournament] ou [Ladder].
+    <p />
+    A implementação ELO do [OB] é baseada no <a href="http://en.wikipedia.org/wiki/Elo_rating_system">Sistema de Pontuação ELO</a>
+    usado no Xadrez.
+  </div></lang>
+	</entry>
+
+	<entry key="FriendlyContent">
+		<lang key="de"><div class="content">
+    Ein [Friendly] ist ein Match auf dem [GameBoard] nur so zum Spass oder zum Üben benutzen kannst. 
+    Du kannst die Kampf- [Fleet] auswählen und dein Gegner. Diese Schlachten werden nicht in dein [ELO] 
+    miteinkalkuliert.
+    <p>
+    Du kannst diese Schlachten benutzen um neue [BattleTactics] auszuprobieren, Lerne einige 
+    [CombatUnits] kennen oder übe für [Tournaments].
+  </p></div></lang>
+		<lang key="en"><div class="content">
+    A [Friendly] is a match on the [GameBoard] that you can do just for fun or practice. You can choose the battle [Fleet] and your opponent. 
+    These battles aren't taken into account for your [ELO].
+    <p />
+    You can use these battles to try new [BattleTactics], get to know some [CombatUnits] or practice for [Tournaments].
+  </div></lang>
+		<lang key="es"><div class="content">
+ Los [Friendly] son combates en el [GameBoard] que puedes hacer sólo por diversión o para practicar. Puedes escojer la [Fleet] de la  batalla y tu oponente.
+ Estas batallas no son tomadas en cuentas para tu [ELO].
+    <p />
+ Puedes usar estas batallas para probar nuevas [BattleTactics], conocer mejor algunas [CombatUnits] o para practicar para [Tournaments].
+  </div></lang>
+		<lang key="fr"><div class="content">
+    Un combat [Friendly] se joue sur le [GameBoard] mais vous pouvez faire ces combats seulement pour le plaisir ou pratiquer. Vous pouvez choisir l’[Fleet] et votre adversaire. 
+    Ces batailles n’ont aucune conséquence sur votre [ELO].
+    <p />
+    Ce type de combat est très utile pour tester de nouvelles [BattleTactics], vous familiariser avec certaines [CombatUnits] ou pratiquer pour les [Tournaments].
+  </div></lang>
+		<lang key="hr"><div class="content">
+[Friendly] je meč na [GameBoard] kojega možete voditi samo za zabavu i vježbu. Možete izabrati [Fleet] bitke i vašeg protivnika. Ove bitke se ne uzimaju u obzir za vaš [ELO].
+<p />
+Možete se koristiti ovim bitkama da provate nove [BattleTactics], da bolje upoznate neke [CombatUnits] ili da vježbate za [Tournaments].
+</div></lang>
+		<lang key="pt"><div class="content">
+    Os [Friendly] são combates no [GameBoard] que podes fazer só por divertimento ou para praticar. Podes escolher a [Fleet] da batalha e o teu oponente.
+    Estas batalhas não são tidas em conta para a tua [ELO].
+    <p />
+    Podes usar estas batalhas para testar novas [BattleTactics], conhecer melhor algumas [CombatUnits] ou para praticar para [Tournaments].
+  </div></lang>
+	</entry>
+
+	<entry key="GameBoardContent">
+		<lang key="de"><div class="content">
+    Das [GameBoard] ist Ort wo die Kämpfe stattfinden. 
+    <p>
+    Die gängigste Form der Schlacht, die 1 gegen 1, hat das Spielbrett 8 Vierecke Höhe mal 8 Vierecke
+    Breite die eine Summe von 64 Vierecken ergibt (genauso wie ein Schachbrett). 
+    </p><p><img class="block" src="/Resources/Images/GameBoard2.png" alt="1 vs 1 Game Board"/></p><p>
+    In der 2 gegen 2 Schalcht, hat das Spielbrett 12 Vierecke Höhe mal 12 Vierecke Breite mit einem 
+    kleinen Detail: an jeder Ecke, sind vier Vierecke die der Spieler nicht benutzen kann. 
+    Deshalb sind nur 128 Vierecke verfügbar.
+    <img class="block" src="/Resources/Images/GameBoard4.png" alt="2 vs 2 Game Board"/></p></div></lang>
+		<lang key="en"><div class="content">
+    The [GameBoard] is the area where the battle is made. 
+    <p />
+    In the most common form of battle, the 1 vs 1, the game board has 8 squares heigh by 8 squares width performing a total of 64 squares (just like a chess board). 
+    <p /><img class="block" src="/Resources/Images/GameBoard2.png" alt="1 vs 1 Game Board" /><p />
+    In the 2 vs 2 battle, the game board has 12 squares heigth by 12 squares width with a small detail: in each corner, there are 4 squares that are not player cannot use. 
+    Because of that there only are 128 available squares.
+    <img class="block" src="/Resources/Images/GameBoard4.png" alt="2 vs 2 Game Board" /></div></lang>
+		<lang key="es"><div class="content">
+    El [GameBoard] es el area donde se hacen las batallas.
+    <p />
+    La forma mas común de batalla, el 1 vs 1, el tablero de juego tiene 8 cuadriculas de largo por 8 cuadriculas de ancho con un total de 64 cuadrados posibles (tal como un  tablero de ajedrez).
+    <p /><img class="block" src="/Resources/Images/GameBoard2.png" alt="Tabuleiro 1 vs 1" /><p />
+    En la formar 2 vs 2, el tablero tiene 12 cuadrados de largo por 12 cuadrados de ancho con un pequeño detalle: En las esquinas existen 4 cuadrados que el jugador no puede  usar. Por eso tiene 128 cuadrados de juego.
+    <img class="block" src="/Resources/Images/GameBoard4.png" alt="Tabuleiro 2 vs 2" /></div></lang>
+		<lang key="fr"><div class="content">
+    Le [GameBoard] est l’endroit où les combats ont lieu.    <p />
+    Dans la forme de bataille la plus commune, 1 vs 1, le plateau de jeu a une longueur et largeur de 8 (8X) totalisant 64 cases, comme aux échecs. 
+    <p /><img class="block" src="/Resources/Images/GameBoard2.png" alt="1 vs 1 Game Board" /><p />
+    Dans les combats 2 vs. 2, le plateau de jeu possède 12 cases en longueur et largeur, mais 4 cases dans chaque coin ne peuvent être utilisés par les joueurs. Il y a donc 128 cases de disponibles.
+    <img class="block" src="/Resources/Images/GameBoard4.png" alt="2 vs 2 Game Board" /></div></lang>
+		<lang key="hr"><div class="content">
+[GameBoard] je područje gdje se odvijaju bitke.
+<p />
+U većini običnih formi bitke, 1 vs 1, tabla igre ima 8 kvadrata visine s 8 kvadrada širine koji sve skupa imaju 64 kvadrata (baš kao tabla šaha).
+<p /><img class="block" src="/Resources/Images/GameBoard2.png" alt="1 vs 1 Game Board" /><p />
+U bitci 2 vs 2, tabla igre ima 12 kvadrata visine sa 12 kvadrata širine sa malenim detaljem: u svakom kutu postoje 4 kvadrata s kojima se igrači ne mogu služiti. Zbog toga ima samo 128 dostupnih kvadrata.
+<img class="block" src="/Resources/Images/GameBoard4.png" alt="2 vs 2 Game Board" /></div></lang>
+		<lang key="hu"></lang>
+		<lang key="pt"><div class="content">
+    O [GameBoard] é a área onde as batalhas são feitas
+    <p />
+    Na forma mais comum de batalha, o 1 vs 1, o tabuleiro de jogo tem 8 quadriculas de largura por 8 quadriculas de altura num total de 64 quadrados possiveis (tal como um 
+    tabuleiro de xadrez). 
+    <p /><img class="block" src="/Resources/Images/GameBoard2.png" alt="Tabuleiro 1 vs 1" /><p />
+    Na forma 2 vs 2, o tabuleiro tem 12 quadrados de largura por 12 quadrados de altura com um pequeno detalhe: nos cantos existem 4 quadrados que o jogador não pode usar. Tem por isso 128 
+    quadrados de jogo.
+    <img class="block" src="/Resources/Images/GameBoard4.png" alt="Tabuleiro 2 vs 2" /></div></lang>
+	</entry>
+
+	<entry key="LadderInfo">
+		<lang key="de"><h1>Ladder</h1><div class="content">
+    Die [Ladder] represäntiert die fähigsten aktiven Spieler auf dem [GameBoard]. Wenn du das Spiel 
+    anfängst, bist du auf der letzten [Ladder] position. Danach, bist du in der Lage einen Spieler auf 
+    einer höheren Position herauszufordern. Wenn du das Match gewinnst, wirst du die Plätze austauschen 
+    mit ihm/ihr. Das ultimative Ziel ist die erste Position zu erreichen und zu halten.
+  </div></lang>
+		<lang key="en"><h1>Ladder</h1><div class="content">
+    The [Ladder] represents the most proficient active players on the [GameBoard]. When you start the game, 
+    you go to the last [Ladder] position. Then, you may challenge a player on a superior position. If you
+    win the match, you'll exchange places with him/her. The ultimate objective is to reach the first position and
+    mantain it.
+  </div></lang>
+		<lang key="fr"><h1>Ladder</h1><div class="content">
+    L'[Ladder] permet de représenter les joueurs actifs les plus efficace sur le [GameBoard]. Vous débutez le jeu en dernière position de [Ladder]. Ensuite, vous pouvez défier des joueurs en une position supérieur. Si vous gagnez le match, vous changez de position avec ce joueur. L'objectif ultime est d'attaindre la première position et d'y rester.
+  </div></lang>
+		<lang key="hr"><h1>Ljestvica</h1><div class="content">
+
+[Ladder] predstavlja najvještije aktivne igrače na [GameBoard]. Kada počnete igru, idete na zadnju [Ladder] poziciju. Tada, morate izazvati igrača na jačoj poziciji. Ako dobijete meč, zamijeneti ćete mjesta s njim. Ultimativni cilj je doseći prvu poziciju i zadržati je.
+</div></lang>
+		<lang key="pt"><h1>Escada</h1><div class="content">
+    A [Ladder] representa os jogadores activos que melhor jogam no [GameBoard]. Quando começas o jogo, tu vais para
+    a última posição da [Ladder]. Nessa altura poderás desafiar jogadores acima de ti. Se ganhares, irás
+    trocar de posição com eles. O objectivo é chegar à primeira posição e permanecer por lá o máximo período
+    de tempo possível.
+  </div></lang>
+	</entry>
+
+	<entry key="RegicideContent">
+		<lang key="de"><div class="content">
+    [Regicide] ist ein Schlachten-Typ auf dem [GameBoard] dessen Ziel ist die Zerstörung der [Flag] 
+    des Feindes zu zerstören. Es ist ähnlich wie Schach, die [Flag] ist wie der König.
+  </div></lang>
+		<lang key="en"><div class="content">
+    [Regicide] is a battle type placed on the [GameBoard] where the objective is to destroy the enemy's [Flag]. It's similar to chess in concept, just think
+    of the [Flag] as the King.
+  </div></lang>
+		<lang key="es"><div class="content">
+ El [Regicide] es un tipo de batalla en el [GameBoard] donde el objetivo es destruir la [Flag] del enémigo. Es identíco al concepto de ajedrez, en la medida que puede pensar que [Flag] es   equivalente al Rey.
+  </div></lang>
+		<lang key="fr"><div class="content">
+    [Regicide] est un type de combat sur le [GameBoard] où l'objectif est de détruire le [Flag] de l'adversaire. C'est un concept similaire aux échecs, où le [Flag] est comme le roi.
+  </div></lang>
+		<lang key="hr"><div class="content">
+[Regicide] je tip bitke stavljene na [GameBoard] gdje je cilj uništiti neprijateljsku [Flag]. Sličan je šahu u konceptu,  [Flag] je King
+</div></lang>
+		<lang key="pt"><div class="content">
+    O [Regicide] é um tipo de batalha no [GameBoard] onde o objectivo é destruir a [Flag] do inimigo. É idêntico ao Xadrez em conceito, na medida em que se
+    pode pensar na [Flag] como sendo o Rei.
+  </div></lang>
+	</entry>
+
+	<entry key="RulesContent">
+		<lang key="de"><p>In den Schlachten gibt es einige Grundregeln die du wissen solltest:</p><h2>Timeouts</h2><p>Die Timeouts treten auf wenn du länger als ein Tag nicht an einer Schlacht teilnimmst. In jeder Schlacht kannst du insgesammt 3 Timeouts geben. Nach diesen 3 Timeouts, verlierst du die Schlacht.</p><p>Diese Regel ist gültig für alle Schlachten auf Orion's Belt ([Tournaments] und Universe).</p><p>Es gibt einige Wege den Timeout zu vermeiden. Du kannst einfach den Ferienmodus aktivieren, in der Ferien Sektion, du kannst ein Feature aktivieren das dich automatisch in Ferien versetzt wenn eine Schlacht kurz davor ist ein Timeout zu geben (5 Runden davor). Ist sehr nützlich um eine Schlacht nicht zu verlieren.</p></lang>
+		<lang key="en"><p>In the Battles there are some basic rules that you need to know:</p><h2>Timeouts</h2><p>The Timeouts occur when you don't play in a battle for more than a day. In Each battle you can give a total of 3 timeouts. After those 3 timeouts, you will lose the battle.</p><p>This rule is valid for all the battles in Orion's Belt ([Tournaments] and Universe).</p><p>There are some ways to avoid the timeout. You can simply activate you vacation mode or, in you vacation section, you can activate a feature that puts you automatically on vacation when a battle is about to give a timeout (5 turns before). Very useful to don't lose a battle.</p></lang>
+		<lang key="pt"><div class="content"><p>Nas Batalhas existem algumas regras básicas que deves saber:</p><h2>Timeouts</h2><p>Os Timeouts ocorrem sempre que estás 1 dia sem jogar numa batalha. Em cada batalha podes dar um máximo de 3 Timeouts. Após os 3 Timeouts dados, perdes automaticamente a batalha.</p><p>Esta regra dos 3 timeouts é válida para todas as batalhas do Orion's Belt, quer sejam de [Tournaments] ou de Universo.</p><p>Existem, contudo, maneiras de evitares os timeouts. Podes-te meter de férias ou, na tua secção de férias, podes activar a funcionalidade de te meteres de férias sempre que uma batalha estiver apra dar timeout (activa quando faltarem 5 turnos para o final). Muito útil para não perderes batalhas.</p></div></lang>
+	</entry>
+
+	<entry key="TotalAnnihilationContent">
+		<lang key="de"><div class="content">
+    Auf [TotalAnnihilation] Kämpfen, ist das Ziel alle [CombatUnits] des Feindes zu eliminieren.
+  </div></lang>
+		<lang key="en"><div class="content">
+    On [TotalAnnihilation] battles, the objective is to eliminate all the opponent's [CombatUnits].
+  </div></lang>
+		<lang key="es"><div class="content">
+ En la [TotalAnnihilation] el objetivo es destruir todas las [CombatUnits] del adversário.
+  </div></lang>
+		<lang key="fr">Dans les combats de type [TotalAnnihilation], le but est d'éliminer complètement les [CombatUnits] de l'adversaire.</lang>
+		<lang key="hr"><div class="content">
+U [TotalAnnihilation] bitkama, cilj je da se eliminiraju sve protivnikove [CombatUnits].
+</div></lang>
+		<lang key="pt"><div class="content">
+    Na [TotalAnnihilation] o objectivo é destruir todas as [CombatUnits] do adversário.
+  </div></lang>
+	</entry>
+
+	<entry key="TournamentsContent">
+		<lang key="de"><div class="content">
+    Die [Tournaments] sind die ultimativen Schlachtfelder für [OB] Spieler. Hier wirst du gegen die 
+    besten Spieler antreten und du wirst dich selbst beweisen müssen um zu gewinnen. Du kannst an 
+    [Regicide] und [TotalAnnihilation] Turniere teilnehmen.
+    Wenn du gut bist auf Turnieren erhöht das dein [Orions] Reichtum.
+    
+    <h2>Turnier Strukturen</h2>
+    Es gibt verschiedene Phasen in einem Turnier. Als allererstes  kann man sich auf ein Turnier 
+    einschreiben. Wenn du den Anforderungen entspricht
+    wirst du in Lage sein dem Turnier beizutreten und du wirst auf einen von zehn Pots plaziert . 
+    Sobald das Turnier anfängt, startet die Gruppen-Phase.
+    <p>
+    In der Gruppen-Phase, kommen die ersten 3 Spieler in die nächste Runde. Wir können vielleicht auch 
+    andere Spieler holen für die Playoffs.
+    </p><p>
+    Nach der Gruppen-Phase haben wir die Playoffs. Wenn du verlierst, bist du draussen!
+  </p></div></lang>
+		<lang key="en"><div class="content">
+    The [Tournaments] are the ultimate battle grounds for [OB] players. Here you'll face head to head the best players
+    and you will have to prove yourself to win. You can participate on [Regicide] and [TotalAnnihilation] tournaments.
+    Being good at tournaments also increases your [Orions].
+    
+    <h2>Tournaments Structure</h2>
+    There are several phases on a tournament. First the tournament is opened for subscriptions. If you met the requirements
+    you'll be able to enter and you will be placed on one of ten pots. When the tournament begins, a groups phase will start.
+    <p />
+    On the groups phase, the first 3 players will go to the next round. We might also fetch other players if we need them
+    for the playoffs.
+    <p />
+    After the groups you'll have the playoffs. If you loose, you're out!
+  </div></lang>
+		<lang key="es"><div class="content">
+ Los [Tournaments] son el campo de batalla supremo para los jugadores de [OB]. Aquí puedes batallaer con los mejores jugadores y tendrás que probar que tan bueno eres para ganar. Puedes participar   en torneos de [Regicide] y [TotalAnnihilation].
+ Más alla del prestigío, ganar batallas de [Tournaments] también  te dá [Orions].
+
+    <h2>Estructura de los Torneos</h2>
+ Hay varias fases en un torneo. Primero el torneo comienza con la fase de inscripciones. Si las restricciones del torneo lo permiten, te puedes inscribir y serás colocado en uno de los diez potes.   Cuando el torneo avanza, se inicia la fase de grupos.
+    <p />
+ En la fase de grupos los 3 primeros jugadores pasan a la proxima fase. También puede suceder el repechaje de algunos jugadores si fuera necesario.
+    <p />
+ Después de la fase de grupos vienen las eliminatorias. Si pierdes, sales de la competencia!
+  </div></lang>
+		<lang key="fr"><div class="content">
+    Les [Tournaments] sont les champs de bataille ultime pour les joueurs d'[OB]. Vous devrez faire face au meilleurs joueurs du jeu et prouver votre valeur pour gagner. Vous pourrez participer à des tournois de type [Regicide] et [TotalAnnihilation].
+    Being good at tournaments also increases your [Orions].
+    
+    <h2>Tournaments Structure</h2>
+    Il y plusieurs étapes à un tournoi. Un tournoi commence avec les inscriptions. Si vous avez atteint les pré-requis, vous pourrez participer au tournoi et vous serez placer dans un des 10 groupes. Le tournoi débute avec les groupes, ou vous devrez combattre ceux qui font partie de votre groupe.
+    <p />
+    Dans l'étape, groupe, les joueurs en 3 premières postions de chaque groupes passent aux finales. Il est possible que d'autres joueurs soient inclus pour en avoir suffisament pour les finales
+    <p />
+    Si vous perdez durant les finales, vous êtes éliminé.
+  </div></lang>
+		<lang key="hr"><div class="content">
+[Tournaments] su ultimativna bojišnica za [OB] igrače. Ovdje ćete se suočiti oči u oči sa najboljim igračima i trebate se dokazati da pobjedite. Možete sudjelovati u [Regicide] i [TotalAnnihilation] turnirima.
+Ako ste dobri na turnirima također povećava vaše [Orions].
+
+<h2>Strukutra Turnira</h2>
+Postoji nekoliko faza turnira. Prvo je turnir otvoren za prijave. Ako ispunite zahtjeve moći ćete u ući i biti ćete smješteni u jedan od 10 lonaca. Kada turnir započne, grupna faza će početi.
+<p />
+U grupnoj fazi, prva tri igrača će nastaviti u sljedeću rundu. Također bi mogli dobaviti druge igrače ako ih trebamo za doigravanje.
+<p />
+Nakon grupe imamo doigravanja. Ako izgubite, van ste!
+</div></lang>
+		<lang key="pt"><div class="content">
+    Os [Tournaments] são o campo de batalha supremo para os jogadores de [OB]. Aqui podes batalhar com os melhores jogadores
+    e terás de provar o quão bom és para ganhar. Podes participar em torneios de [Regicide] e [TotalAnnihilation].
+    Além de prestígio, ganhar batalhas de [Tournaments] também te dá [Orions].
+
+    <h2>Estrutura dos Torneios</h2>
+    Há várias fases num torneio. Primeiro o torneio começa com a fase de inscrições. Se as restricções do torneio o permitirem,
+    podes inscrever-te e serás colocado num de dez potes. Quando o torneio avança, é começada a fase de grupos.
+    <p />
+    Na fase de grupos os 3 primeiros jogadores passam à próxima fase. Também poderá acontecer a repescagem de alguns jogadores
+    se for necessário.
+    <p />
+    Depos da fase de grupos vêm as eliminatórias. Se perderes, sais da competição!
+  </div></lang>
+	</entry>
+
+</resources>

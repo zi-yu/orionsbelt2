@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CreatePost">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="cost" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="principalId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="principalLang" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="basePath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreatePostResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreatePostResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PaymentVerification">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mtid" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PaymentVerificationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PaymentVerificationResult" type="tns:DispositionData" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="DispositionData">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="amount" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="currency" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="state" type="tns:DispositionState" />
+          <s:element minOccurs="0" maxOccurs="1" name="serials" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="DispositionState">
+        <s:restriction base="s:string">
+          <s:enumeration value="Created" />
+          <s:enumeration value="Disposed" />
+          <s:enumeration value="Expired" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="MakeDebit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mtid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="amount" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="currency" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MakeDebitResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="PaypalVerification">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="url" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="message" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PaypalVerificationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PaypalVerificationResult" type="tns:VerifyResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="VerifyResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="result" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="success" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CreatePostSoapIn">
+    <wsdl:part name="parameters" element="tns:CreatePost" />
+  </wsdl:message>
+  <wsdl:message name="CreatePostSoapOut">
+    <wsdl:part name="parameters" element="tns:CreatePostResponse" />
+  </wsdl:message>
+  <wsdl:message name="PaymentVerificationSoapIn">
+    <wsdl:part name="parameters" element="tns:PaymentVerification" />
+  </wsdl:message>
+  <wsdl:message name="PaymentVerificationSoapOut">
+    <wsdl:part name="parameters" element="tns:PaymentVerificationResponse" />
+  </wsdl:message>
+  <wsdl:message name="MakeDebitSoapIn">
+    <wsdl:part name="parameters" element="tns:MakeDebit" />
+  </wsdl:message>
+  <wsdl:message name="MakeDebitSoapOut">
+    <wsdl:part name="parameters" element="tns:MakeDebitResponse" />
+  </wsdl:message>
+  <wsdl:message name="PaypalVerificationSoapIn">
+    <wsdl:part name="parameters" element="tns:PaypalVerification" />
+  </wsdl:message>
+  <wsdl:message name="PaypalVerificationSoapOut">
+    <wsdl:part name="parameters" element="tns:PaypalVerificationResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PaysafeProxySoap">
+    <wsdl:operation name="CreatePost">
+      <wsdl:input message="tns:CreatePostSoapIn" />
+      <wsdl:output message="tns:CreatePostSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PaymentVerification">
+      <wsdl:input message="tns:PaymentVerificationSoapIn" />
+      <wsdl:output message="tns:PaymentVerificationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MakeDebit">
+      <wsdl:input message="tns:MakeDebitSoapIn" />
+      <wsdl:output message="tns:MakeDebitSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PaypalVerification">
+      <wsdl:input message="tns:PaypalVerificationSoapIn" />
+      <wsdl:output message="tns:PaypalVerificationSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PaysafeProxySoap" type="tns:PaysafeProxySoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreatePost">
+      <soap:operation soapAction="http://tempuri.org/CreatePost" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaymentVerification">
+      <soap:operation soapAction="http://tempuri.org/PaymentVerification" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MakeDebit">
+      <soap:operation soapAction="http://tempuri.org/MakeDebit" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaypalVerification">
+      <soap:operation soapAction="http://tempuri.org/PaypalVerification" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PaysafeProxySoap12" type="tns:PaysafeProxySoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreatePost">
+      <soap12:operation soapAction="http://tempuri.org/CreatePost" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaymentVerification">
+      <soap12:operation soapAction="http://tempuri.org/PaymentVerification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MakeDebit">
+      <soap12:operation soapAction="http://tempuri.org/MakeDebit" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PaypalVerification">
+      <soap12:operation soapAction="http://tempuri.org/PaypalVerification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PaysafeProxy">
+    <wsdl:port name="PaysafeProxySoap" binding="tns:PaysafeProxySoap">
+      <soap:address location="http://oldlace:6969/PaysafeProxy.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PaysafeProxySoap12" binding="tns:PaysafeProxySoap12">
+      <soap12:address location="http://oldlace:6969/PaysafeProxy.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

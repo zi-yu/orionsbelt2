@@ -1,0 +1,872 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="true">
+
+	<entry key="Academy">
+		<lang key="de">Akademie</lang>
+		<lang key="en">Academy</lang>
+		<lang key="fr">Académie</lang>
+		<lang key="hr">Akademija</lang>
+		<lang key="pt">Academia</lang>
+		<lang key="se">Akedemi</lang>
+	</entry>
+
+	<entry key="Alliance">
+		<lang key="de">Allianz</lang>
+		<lang key="en">Alliance</lang>
+		<lang key="es">Alianza</lang>
+		<lang key="fr">Alliance</lang>
+		<lang key="hr">Savez</lang>
+		<lang key="pt">Aliança</lang>
+		<lang key="se">Allians</lang>
+	</entry>
+
+	<entry key="AreYouSure">
+		<lang key="de">Bist du sicher?</lang>
+		<lang key="en">Are you sure?</lang>
+		<lang key="es">Estas Seguro?</lang>
+		<lang key="fr">Êtes-vous certain?</lang>
+		<lang key="hr">Jesi li siguran?</lang>
+		<lang key="pt">Tens a certeza?</lang>
+		<lang key="se">Är du säker?</lang>
+	</entry>
+
+	<entry key="AreYouSureYouWantToDeleteFleet">
+		<lang key="de">Bist du sicher dass du diese Flotte zerstören willst?</lang>
+		<lang key="en">Are you sure you want to delete this fleet?</lang>
+		<lang key="es">Estas seguro que quieres destruir esta flota?</lang>
+		<lang key="fr">Êtes-vous certain de vouloir effacer cette escadrille?</lang>
+		<lang key="hr">Jestel li sigurni da želite izbrisati ovu flotu</lang>
+		<lang key="pt">Tens a certeza que queres destruir esta armada?</lang>
+		<lang key="se">Är du säker på att du vill radera den här flottan?</lang>
+	</entry>
+
+	<entry key="Build">
+		<lang key="de">Bauen</lang>
+		<lang key="en">Build</lang>
+		<lang key="es">Construir</lang>
+		<lang key="fr">Construire</lang>
+		<lang key="hr">Gradi</lang>
+		<lang key="pt">Construir</lang>
+		<lang key="se">Bygg</lang>
+	</entry>
+
+	<entry key="BuildFacility">
+		<lang key="de">Gebäude bauen</lang>
+		<lang key="en">Build Facility</lang>
+		<lang key="es">Construir Edifício</lang>
+		<lang key="fr">Construire le bâtiment</lang>
+		<lang key="hr">Gradi Postrojenje</lang>
+		<lang key="pt">Construir Edifício</lang>
+		<lang key="se">Bygg Facilitet</lang>
+	</entry>
+
+	<entry key="BuildUnits">
+		<lang key="de">Einheiten bauen</lang>
+		<lang key="en">Build Units</lang>
+		<lang key="es">Construir Unidades</lang>
+		<lang key="fr">Construire les unités</lang>
+		<lang key="hr">Gradi Jedinice</lang>
+		<lang key="pt">Construir Unidades</lang>
+		<lang key="se">Bygg Enheter</lang>
+	</entry>
+
+	<entry key="CannotPassWormHoleMessage">
+		<lang key="de">Die Flotte '{0}' kann nicht durch das Wurmloch weil ihre Handelsfracht sie davon abhalten.</lang>
+		<lang key="en">The fleet '{0}' cannot pass in the wormhole because it has trade goods that prevent it.</lang>
+		<lang key="es">La flota '{0}' no puede pasar por un wormhole porque posee carga que lo impide.</lang>
+		<lang key="fr">L'escadrille '{0}' ne peut pas utiliser de trou stellaire car les ressources commerciales qu'elle transporte l'en empêche.</lang>
+		<lang key="hr">Flota '{0}' ne može proći kroz crvotočinu jer ima trgovačka dobra koja to sprečavaju.</lang>
+		<lang key="pt">A armada '{0}' não pode passar por um wormhole porque possui carga que o impede.</lang>
+		<lang key="se">Flottan '{0}' kan inte åka igenom maskhålet eftersom flottan har handelsvaror som hindrar den.</lang>
+	</entry>
+
+	<entry key="Cargo">
+		<lang key="de">Fracht</lang>
+		<lang key="en">Cargo</lang>
+		<lang key="es">Carga</lang>
+		<lang key="fr">Cargaison</lang>
+		<lang key="hr">Teret</lang>
+		<lang key="pt">Carga</lang>
+		<lang key="se">Last</lang>
+	</entry>
+
+	<entry key="ClickHereToBuildOnThisSlot">
+		<lang key="de">Klicke um ein Gebäude in diesem Sektor zu bauen. Du kannst hier bilden:</lang>
+		<lang key="en">Click to build a facility on this slot. You may build here:</lang>
+		<lang key="es">Haz Click para construir un edifício en esta posición. Puedes construir aquí:</lang>
+		<lang key="fr">Cliquez pour construire une construction à cet endroit. Ici vous pouvez construire:</lang>
+		<lang key="hr">Klikni da izgradiš postrojenje na ovom mjestu. Ovdje možete graditi:</lang>
+		<lang key="pt">Clica para construires um edifício nesta posição. Podes construir aqui:</lang>
+		<lang key="se">Klicka för att bygga en facilitet på den här platsen. Här kan du bygga:</lang>
+	</entry>
+
+	<entry key="ClickHereToUpgradeOnThisSlot">
+		<lang key="de">Klicke um das Gebäude in diesem Sektor aufzurüsten.</lang>
+		<lang key="en">Click to upgrade the facility on this slot.</lang>
+		<lang key="es">Haz Click para evolucionar el edifício en esta posición.</lang>
+		<lang key="fr">Cliquez pour améliorer la construction situé en cet espace.</lang>
+		<lang key="hr">Klikni da unaprijediš postrojenje na ovom mjestu.</lang>
+		<lang key="pt">Clica para evoluires o edifício nesta posição.</lang>
+		<lang key="se">Klicka för att uppgradera faciliteten på den här platsen.</lang>
+	</entry>
+
+	<entry key="Continue">
+		<lang key="de">Willst du wirklich fortfahren?</lang>
+		<lang key="en">Do you really want to proceed?</lang>
+		<lang key="es">Realmente Deseas continuar?</lang>
+		<lang key="fr">Voulez-vous procéder?</lang>
+		<lang key="hr">Da li stvarno želite nastaviti?</lang>
+		<lang key="pt">Queres realmente continuar?</lang>
+		<lang key="se">Vill du verkligen fortsätta?</lang>
+	</entry>
+
+	<entry key="Coordinate">
+		<lang key="de">Koordinate</lang>
+		<lang key="en">Coordinate</lang>
+		<lang key="es">Coordenada</lang>
+		<lang key="fr">Coordonées</lang>
+		<lang key="hr">Koordinate</lang>
+		<lang key="pt">Coordenada</lang>
+		<lang key="se">Koordinat</lang>
+	</entry>
+
+	<entry key="DefenseFleet">
+		<lang key="de">Verteidigungsflotte</lang>
+		<lang key="en">Defense Fleet</lang>
+		<lang key="es">Flota de Defensa</lang>
+		<lang key="fr">Escadrille de défense</lang>
+		<lang key="hr">Obranbena flota</lang>
+		<lang key="pt">Armada de Defesa</lang>
+		<lang key="se">Försvarsflotta</lang>
+	</entry>
+
+	<entry key="DeployLoaded">
+		<lang key="de">Positionierung erfolgreich geladen</lang>
+		<lang key="en">Deploy Loaded Successfully.</lang>
+		<lang key="es">Posicionamiento cargado con éxito.</lang>
+		<lang key="fr">Déploiement retrouvé avec succès.</lang>
+		<lang key="hr">Raspoređivanje Uspješno Učitano</lang>
+		<lang key="pt">Posicionamento carregado com sucesso.</lang>
+		<lang key="se">Utplacering Utförd</lang>
+	</entry>
+
+	<entry key="DeploySaved">
+		<lang key="de">Positionierung erfolgreich gespeichert.</lang>
+		<lang key="en">Deploy Saved Successfully.</lang>
+		<lang key="es">Posicionamiento guardado con éxito.</lang>
+		<lang key="fr">Déploiement sauvergardé avec succès</lang>
+		<lang key="hr">Raspoređivanje Snimljeno Uspješno</lang>
+		<lang key="pt">Posicionamento guardado com sucesso.</lang>
+		<lang key="se">Utplaceringen Sparad</lang>
+	</entry>
+
+	<entry key="Destination">
+		<lang key="de">Reiseziel</lang>
+		<lang key="en">Destination</lang>
+		<lang key="es">Destino</lang>
+		<lang key="fr">Destination</lang>
+		<lang key="hr">Odredište</lang>
+		<lang key="pt">Destino</lang>
+		<lang key="se">Destination</lang>
+	</entry>
+
+	<entry key="Destiny">
+		<lang key="de">Schicksal</lang>
+		<lang key="en">Destiny</lang>
+		<lang key="es">Destino</lang>
+		<lang key="fr">Destiné</lang>
+		<lang key="hr">Sudbina</lang>
+		<lang key="pt">Destino</lang>
+		<lang key="se">Öde</lang>
+	</entry>
+
+	<entry key="DevastationAttack">
+		<lang key="de">Zerstörungs-Attacke</lang>
+		<lang key="en">Devastation Attack</lang>
+		<lang key="es">Ataque Devastación</lang>
+		<lang key="fr">Attaque dévastation</lang>
+		<lang key="hr">Napad Devastacije</lang>
+		<lang key="pt">Ataque Devastação</lang>
+		<lang key="se">Totalförstörelse-Attack</lang>
+	</entry>
+
+	<entry key="DevastationCannotBeUsed">
+		<lang key="de">Zerstörungs-Kanone kann nicht benutzt werden weil du nicht genügend Ressourcen hast.</lang>
+		<lang key="en">Devastation Cannot be used because you don't have enough resources.</lang>
+		<lang key="es">Ataque Devastación no puede ser usado porque no tienes recursos suficientes.</lang>
+		<lang key="fr">Dévastation ne peut être utilisé car vous n'avez pas assez de ressources.</lang>
+		<lang key="hr">Devastacija ne može biti upotrijebljena jer nemate dovoljno resursa.</lang>
+		<lang key="pt">Ataque Devastação não pode ser usado porque não tens recursos suficientes.</lang>
+		<lang key="se">Totalförstörelse kan inte användas eftersom du inte har nog med resurser.</lang>
+	</entry>
+
+	<entry key="DevastationUsageConfirmation">
+		<lang key="de">Du kannst die Anwendung der Zerstörungs-Attacke nicht rückgängig machen. Bist du sicher du willst es benutzen?</lang>
+		<lang key="en">You cannot undo the usage of the Devastation. Are you sure that you want to use it?</lang>
+		<lang key="es">No puedes volver atrás un ataque Devastación. Estas seguro que lo quieres usar?</lang>
+		<lang key="fr">Vous ne pouvez pas annuler l'utilisation de Dévastation, êtes -vous certain de vouloir procéder?</lang>
+		<lang key="hr">Ne možete poništiti upotrebu Devastacije. Da li želiš upotrijebiti Devastaciju?</lang>
+		<lang key="pt">Não podes voltar atrás com um ataque Devastação. Tens a certeza que o queres usar?</lang>
+		<lang key="se">Du kan inte ångra användandet av Totalförstörelse. Är du säker på att du vill använda det?</lang>
+	</entry>
+
+	<entry key="DropCargoFleetInBattle">
+		<lang key="de">Kann die Fracht der Flotte nicht abladen, weil die Flotte sich im Kampf befindet.</lang>
+		<lang key="en">Cannot drop fleet cargo because the fleet is in battle.</lang>
+		<lang key="es">No es posible soltar la carga porque la flota está en batalla.</lang>
+		<lang key="fr">Vous ne pouvez pas déposer la cargaison car l'escadrille est en plein combat</lang>
+		<lang key="hr">Flota ne može ispustiti teret jer se bori.</lang>
+		<lang key="pt">Não é possível largar a carga porque a armada está em batalha.</lang>
+		<lang key="se">Kan inte släppa flottans last eftersom flottan är i ett fältslag.</lang>
+	</entry>
+
+	<entry key="Duration">
+		<lang key="de">Dauer</lang>
+		<lang key="en">Duration</lang>
+		<lang key="es">Duración</lang>
+		<lang key="fr">Durée</lang>
+		<lang key="hr">Trajanje</lang>
+		<lang key="pt">Duração</lang>
+		<lang key="se">Varaktighet</lang>
+	</entry>
+
+	<entry key="EndTurn">
+		<lang key="de">Runde beenden</lang>
+		<lang key="en">End Turn</lang>
+		<lang key="es">Finalizar Turno</lang>
+		<lang key="fr">Fin du tour</lang>
+		<lang key="hr">Kraj Turna</lang>
+		<lang key="pt">Acabar Turno</lang>
+		<lang key="se">Avsluta Vända</lang>
+	</entry>
+
+	<entry key="ETA">
+		<lang key="de">Ankunft in</lang>
+		<lang key="en">Arrival in</lang>
+		<lang key="es">Llegada en</lang>
+		<lang key="fr">Arrivé dans</lang>
+		<lang key="hr">Dolazak u</lang>
+		<lang key="pt">Chegada em</lang>
+		<lang key="se">Framme om</lang>
+	</entry>
+
+	<entry key="FacilityLevel">
+		<lang key="de">Gebäude-Level</lang>
+		<lang key="en">Facility Level</lang>
+		<lang key="es">Nível de los edificios</lang>
+		<lang key="fr">Nveau de construction</lang>
+		<lang key="hr">Nivo Postrojenja</lang>
+		<lang key="pt">Nível dos Edifícios</lang>
+		<lang key="se">Facilitetens Nivå</lang>
+	</entry>
+
+	<entry key="False">
+		<lang key="de">Nein</lang>
+		<lang key="en">False</lang>
+		<lang key="es">No</lang>
+		<lang key="fr">Faux</lang>
+		<lang key="hr">Nije istina</lang>
+		<lang key="pt">Não</lang>
+		<lang key="se">Nej</lang>
+	</entry>
+
+	<entry key="false">
+		<lang key="de">Nein</lang>
+		<lang key="en">False</lang>
+		<lang key="es">No</lang>
+		<lang key="fr">Faux</lang>
+		<lang key="hr">Nije istina</lang>
+		<lang key="pt">Não</lang>
+		<lang key="se">Nej</lang>
+	</entry>
+
+	<entry key="FleetAtMaximum">
+		<lang key="de">Flotte kann nur 8 Typen von Einheiten besitzen</lang>
+		<lang key="en">Fleet can only have 8 types of units</lang>
+		<lang key="fr">Une escadrille peut seulement avoir 8 types d'unités</lang>
+		<lang key="hr">Flota moše imati samo 8 tipova jedinica</lang>
+		<lang key="pt">A armada só pode levar 8 tipos de nave</lang>
+		<lang key="se">Flottan kan endast ha 8 typer av enheter</lang>
+	</entry>
+
+	<entry key="FleetInBattle">
+		<lang key="de">Kann die Einheiten nicht bewegen weil die Flotte in der Schlacht ist.</lang>
+		<lang key="en">Cannot move the units because the fleet is in battle.</lang>
+		<lang key="es">No es posible mover las unidades porque la flota está en batalla.</lang>
+		<lang key="fr">Vous ne pouvez pas déplacer les unités car cette escadrille est en cours de combat.</lang>
+		<lang key="hr">Jedinice se ne mogu premještati jer se flota bori.</lang>
+		<lang key="pt">Não é possível mover as unidades porque a armada está em batalha.</lang>
+		<lang key="se">Kan inte flytta flottan eftersom den är i fältslag.</lang>
+	</entry>
+
+	<entry key="FleetIsMoving">
+		<lang key="de">Kann die Einheiten nicht bewegen, weil die Flotte in Bewegung ist.</lang>
+		<lang key="en">Cannot move the units because the fleet is moving.</lang>
+		<lang key="es">No es posible mover las unidades porque la flota está en movimiento.</lang>
+		<lang key="fr">Vous ne pouvez pas bouger les unités car l'escadrille est en mouvement.</lang>
+		<lang key="hr">Jedinice se ne mogu premještati jer je flota u pokretu.</lang>
+		<lang key="pt">Não é possível mover as unidades porque a armada está em movimento.</lang>
+		<lang key="se">Kan inte flytta enheterna eftersom flottan är i förflyttning.</lang>
+	</entry>
+
+	<entry key="Fleets">
+		<lang key="de">Flotten</lang>
+		<lang key="en">Fleets</lang>
+		<lang key="es">Flotas</lang>
+		<lang key="fr">Escadrilles</lang>
+		<lang key="hr">Flote</lang>
+		<lang key="pt">Armadas</lang>
+		<lang key="se">Flottor</lang>
+	</entry>
+
+	<entry key="FleetSavedWithSuccess">
+		<lang key="de">Flotte mit Erfolg gespeichert</lang>
+		<lang key="en">Fleet saved with success</lang>
+		<lang key="fr">Escadrille sauvegardé avec succès</lang>
+		<lang key="hr">Flota snimljena uspješno</lang>
+		<lang key="pt">Armada salva com sucesso</lang>
+		<lang key="se">Flottan sparades</lang>
+	</entry>
+
+	<entry key="GiveUp">
+		<lang key="de">Aufgeben</lang>
+		<lang key="en">Give Up</lang>
+		<lang key="es">Desistir</lang>
+		<lang key="fr">Abandonner</lang>
+		<lang key="hr">Predaja</lang>
+		<lang key="pt">Desistir</lang>
+		<lang key="se">Ge Upp</lang>
+	</entry>
+
+	<entry key="HeavyQuantity">
+		<lang key="de">Anzahl an Festungen</lang>
+		<lang key="en">Heavy Quantity</lang>
+		<lang key="es">Cantidad de Fuertes</lang>
+		<lang key="fr">Quantité lourde</lang>
+		<lang key="hr">Teška Količina</lang>
+		<lang key="pt">Quantidade de Fortes</lang>
+		<lang key="se">Antal Tunga</lang>
+	</entry>
+
+	<entry key="Income">
+		<lang key="de">Einkommen</lang>
+		<lang key="en">Income</lang>
+		<lang key="es">Producción</lang>
+		<lang key="fr">Revenu</lang>
+		<lang key="hr">Prihod</lang>
+		<lang key="pt">Produção</lang>
+		<lang key="se">Inkomst</lang>
+	</entry>
+
+	<entry key="InConstruction">
+		<lang key="de">In Konstruktion</lang>
+		<lang key="en">In Construction</lang>
+		<lang key="es">En Construcción</lang>
+		<lang key="fr">En construction</lang>
+		<lang key="hr">U konstrukciji</lang>
+		<lang key="pt">Em Construção</lang>
+		<lang key="se">Under Konstruktion</lang>
+	</entry>
+
+	<entry key="InProduction">
+		<lang key="de">In Produktion</lang>
+		<lang key="en">In Production</lang>
+		<lang key="es">En Producción</lang>
+		<lang key="fr">En production</lang>
+		<lang key="hr">U Proizvodnji</lang>
+		<lang key="pt">Em Produção</lang>
+		<lang key="se">Under Produktion</lang>
+	</entry>
+
+	<entry key="InQueue">
+		<lang key="de">Wartend</lang>
+		<lang key="en">In Queue</lang>
+		<lang key="es">En Espera</lang>
+		<lang key="fr">En chaîne</lang>
+		<lang key="hr">Na Listi za čekanje</lang>
+		<lang key="pt">Em Espera</lang>
+		<lang key="se">I Kö</lang>
+	</entry>
+
+	<entry key="InvalidCoordinate">
+		<lang key="de">Eingegebene Koordinate ist ungültig</lang>
+		<lang key="en">Inserted coordinate is invalid.</lang>
+		<lang key="es">Coordenada ingresada es válida.</lang>
+		<lang key="fr">Les coordonées insérés ne sont pas valides</lang>
+		<lang key="hr">Ubačene koordinate su nepostojeće.</lang>
+		<lang key="pt">Coordenada inserida é inválida.</lang>
+		<lang key="se">Den inmatade koordinaten är inte valid</lang>
+	</entry>
+
+	<entry key="IsInBattle">
+		<lang key="de">Ist in einer Schlacht</lang>
+		<lang key="en">Is in Battle</lang>
+		<lang key="es">Está en Batalla</lang>
+		<lang key="fr">En combat</lang>
+		<lang key="hr">U Bitci je</lang>
+		<lang key="pt">Está em Batalha</lang>
+		<lang key="se">I Fältslag</lang>
+	</entry>
+
+	<entry key="IsMoving">
+		<lang key="de">In Bewegung</lang>
+		<lang key="en">Is Moving</lang>
+		<lang key="es">En movimiento</lang>
+		<lang key="fr">En mouvement</lang>
+		<lang key="hr">Miče se</lang>
+		<lang key="pt">Em movimento</lang>
+		<lang key="se">I Förflyttning</lang>
+	</entry>
+
+	<entry key="Level">
+		<lang key="de">Level</lang>
+		<lang key="en">Level</lang>
+		<lang key="es">Nivel</lang>
+		<lang key="fr">Niveau</lang>
+		<lang key="hr">Nivo</lang>
+		<lang key="pt">Nível</lang>
+		<lang key="se">Nivå</lang>
+	</entry>
+
+	<entry key="LightQuantity">
+		<lang key="de">Anzahl Lichter</lang>
+		<lang key="en">Light Quantity</lang>
+		<lang key="es">Camtidad de Rápidas</lang>
+		<lang key="fr">Quantité légèrte</lang>
+		<lang key="hr">Lagana Količina</lang>
+		<lang key="pt">Quantidade de Rápidas</lang>
+		<lang key="se">Antal Snabba</lang>
+	</entry>
+
+	<entry key="Market">
+		<lang key="de">Markt</lang>
+		<lang key="en">Market</lang>
+		<lang key="fr">Marché</lang>
+		<lang key="hr">Market</lang>
+		<lang key="pt">Mercado</lang>
+		<lang key="se">Marknad</lang>
+	</entry>
+
+	<entry key="MediumQuantity">
+		<lang key="de">Anzahl Medium</lang>
+		<lang key="en">Medium Quantity</lang>
+		<lang key="es">Cantidad de Equilibradas</lang>
+		<lang key="fr">Quantité médium</lang>
+		<lang key="hr">Srednja Količina</lang>
+		<lang key="pt">Quantidade de Equilibradas</lang>
+		<lang key="se">Antal Medium</lang>
+	</entry>
+
+	<entry key="MoveUndiscovered">
+		<lang key="de">Wenn du dich in eine unerforschte Zone bewegst, erhält deine Flotte eine Bewegungs-Strafe. Willst du fortfahren?</lang>
+		<lang key="en">By moving to an undiscovered zone, the fleet is going to suffer a move penalty. Do you wish to continue?</lang>
+		<lang key="es">Al mover para uma zona no descubierta, la flota va a sufrir una penalización de movimiento. Quieres continuar?</lang>
+		<lang key="fr">En vous déplacant en Terra incognita, votre escadrille va souffrir d'une pénalité de mouvement. Voulez-vous procéder?</lang>
+		<lang key="hr">Kretanjem u neotkrivenu zonu, flota će patiti od hendikepa pri kretanju. Da li želiš nastaviti?</lang>
+		<lang key="pt">Ao mover para uma zona não descoberta, a armada vai sofrer uma penalização de movimento. Queres continuar?</lang>
+		<lang key="se">Genom att flytta till ett outforskat område kommer flottan att dra på sig en förflyttnings-bestraffning. Vill du fortsätta?</lang>
+	</entry>
+
+	<entry key="NeedToSelectAFleetFirst">
+		<lang key="de">Du musst zuerst eine Flotte auswählen</lang>
+		<lang key="en">You need to select a fleet first.</lang>
+		<lang key="es">Necesitas seleccionar una flota.</lang>
+		<lang key="fr">Vous devez sélectionner une escadrille en premier</lang>
+		<lang key="hr">Trebate prije odabrati flotu.</lang>
+		<lang key="pt">Precisas de seleccionar uma fleet.</lang>
+		<lang key="se">Du måste välja en flotta först.</lang>
+	</entry>
+
+	<entry key="No">
+		<lang key="de">Nein</lang>
+		<lang key="en">No</lang>
+		<lang key="fr">Non</lang>
+		<lang key="hr">Ne</lang>
+		<lang key="pt">Não</lang>
+		<lang key="se">Nej</lang>
+	</entry>
+
+	<entry key="NoDeploySaved">
+		<lang key="de">Positionierung wurde nicht gespeichert.</lang>
+		<lang key="en">No Deploy has been saved.</lang>
+		<lang key="es">No fué guardado ningún posicionamiento .</lang>
+		<lang key="fr">Aucun déploiement a été sauvegardé</lang>
+		<lang key="hr">Nema snimljenog Raspoređivanja</lang>
+		<lang key="pt">Nenhum posicionamento foi guardado.</lang>
+		<lang key="se">Ingen Utplacering har sparats.</lang>
+	</entry>
+
+	<entry key="NoMessages">
+		<lang key="de">Du hast keine Nachrichten!</lang>
+		<lang key="en">You don't have any messages!</lang>
+		<lang key="es">Ningún mensage por el momento!</lang>
+		<lang key="fr">Vous n'avez pas de messages</lang>
+		<lang key="hr">Nemate poruka!</lang>
+		<lang key="pt">Nenhuma mensagem de momento!</lang>
+		<lang key="se">Du har inga meddelanden!</lang>
+	</entry>
+
+	<entry key="None">
+		<lang key="de">Nichts</lang>
+		<lang key="en">None</lang>
+		<lang key="es">Ninguna</lang>
+		<lang key="fr">Aucun</lang>
+		<lang key="hr">Ništa</lang>
+		<lang key="pt">Nenhuma</lang>
+		<lang key="se">Ingen</lang>
+	</entry>
+
+	<entry key="NotAvailableYet">
+		<lang key="de">Noch nicht verfügbar</lang>
+		<lang key="en">Not Available Yet</lang>
+		<lang key="es">No disponible</lang>
+		<lang key="fr">Non disponible pour l'instant</lang>
+		<lang key="hr">Nije Dostupan Još</lang>
+		<lang key="pt">Indisponível</lang>
+		<lang key="se">Inte Tillgänglig Än</lang>
+	</entry>
+
+	<entry key="NotDiscoveredCoordinate">
+		<lang key="de">Die eingegebene Koordinate wurde nicht entdeckt</lang>
+		<lang key="en">The coordinate inserted was not discovered yet.</lang>
+		<lang key="es">La coordenada ingresada aún no fué descubierta.</lang>
+		<lang key="fr">La coordonée que vous avez insérez n'ont pas été découvertes encore</lang>
+		<lang key="hr">Ubačene koordinate još nisu otkrivene.</lang>
+		<lang key="pt">A coordenada inserida ainda não foi descoberta.</lang>
+		<lang key="se">Den inmatade koordinaten har inte upptäckts än.</lang>
+	</entry>
+
+	<entry key="OnVacations">
+		<lang key="de">Im Urlaub</lang>
+		<lang key="en">On Vacations</lang>
+		<lang key="es">De Vacaciones</lang>
+		<lang key="fr">En Vacances</lang>
+		<lang key="hr">Na Odmoru</lang>
+		<lang key="pt">De Férias</lang>
+		<lang key="se">På Semester</lang>
+	</entry>
+
+	<entry key="Owner">
+		<lang key="de">Besitzer</lang>
+		<lang key="en">Owner</lang>
+		<lang key="es">Dueño</lang>
+		<lang key="fr">Propriétaire</lang>
+		<lang key="hr">Vlasnik</lang>
+		<lang key="pt">Dono</lang>
+		<lang key="se">Ägare</lang>
+	</entry>
+
+	<entry key="PillageCoolDownMessage">
+		<lang key="de">Kann Planeten nicht plündern</lang>
+		<lang key="en">Cannot pillage planet '{0}' because it is in pillage cooldown.</lang>
+		<lang key="es">No puedes saquear el planeta '{0}' por estar en cooldown de saqueos.</lang>
+		<lang key="fr">Vous ne pouvez pas piller la planète '{0}' car elle a déjà été pillé trèc récement.</lang>
+		<lang key="hr">Planet '{0}' se ne može opljačkati jer je nedavno opljačkan.</lang>
+		<lang key="pt">Não podes pilhar o planeta '{0}' por está em cooldown de pilhagem.</lang>
+		<lang key="se">Kan inte plundra planeten '{0}' eftersom den här under avkylning från plundring.</lang>
+	</entry>
+
+	<entry key="PirateBay">
+		<lang key="de">Bucht der Piraten</lang>
+		<lang key="en">Pirate Bay</lang>
+		<lang key="fr">Station pirate</lang>
+		<lang key="hr">Piratski Dok</lang>
+		<lang key="pt">Baía de Piratas</lang>
+		<lang key="se">Pirathamn</lang>
+	</entry>
+
+	<entry key="Planets">
+		<lang key="de">Planeten</lang>
+		<lang key="en">Planets</lang>
+		<lang key="es">Planetas</lang>
+		<lang key="fr">Planètes</lang>
+		<lang key="hr">Planeti</lang>
+		<lang key="pt">Planetas</lang>
+		<lang key="se">Planeter</lang>
+	</entry>
+
+	<entry key="Player1">
+		<lang key="de">Spieler 1</lang>
+		<lang key="en">Player 1</lang>
+		<lang key="es">Jugador 1</lang>
+		<lang key="fr">Joueur 1</lang>
+		<lang key="hr">Igrač 1</lang>
+		<lang key="pt">Jogador 1</lang>
+		<lang key="se">Spelare 1</lang>
+	</entry>
+
+	<entry key="Player2">
+		<lang key="de">Spieler 2</lang>
+		<lang key="en">Player 2</lang>
+		<lang key="es">Jugador 2</lang>
+		<lang key="fr">Joueur 2</lang>
+		<lang key="hr">Igrač 2</lang>
+		<lang key="pt">Jogador 2</lang>
+		<lang key="se">Spelare 2</lang>
+	</entry>
+
+	<entry key="ProductionQueue">
+		<lang key="de">Warteschlange der Produktion</lang>
+		<lang key="en">Production Queue</lang>
+		<lang key="es">Fila de Espera para Producción</lang>
+		<lang key="fr">Chaîne de production</lang>
+		<lang key="hr">Produkcijska Lista za čekanje</lang>
+		<lang key="pt">Fila de Espera para Produção</lang>
+		<lang key="se">Produktionskö</lang>
+	</entry>
+
+	<entry key="Quest">
+		<lang key="de">Mission</lang>
+		<lang key="en">Quest</lang>
+		<lang key="es">Misión</lang>
+		<lang key="fr">Quête</lang>
+		<lang key="hr">Misija</lang>
+		<lang key="pt">Missão</lang>
+		<lang key="se">Uppdrag</lang>
+	</entry>
+
+	<entry key="Queue">
+		<lang key="de">Warteschlange</lang>
+		<lang key="en">Queue</lang>
+		<lang key="es">Fila de Espera</lang>
+		<lang key="fr">Châine</lang>
+		<lang key="hr">Lista za čekanje</lang>
+		<lang key="pt">Fila de Espera</lang>
+		<lang key="se">Kö</lang>
+	</entry>
+
+	<entry key="ReallyAbandonPlanet">
+		<lang key="de">Wenn du diesen Planeten verlässt, gehen alle Einheiten der Verteidigungs-Flotte verloren. Willst du den Planeten wirklich verlassen?</lang>
+		<lang key="en">By abandoning this planet, all the units in the defense fleet will be lost. Do you really want to abandon?</lang>
+		<lang key="es">Estas seguro que qiueres abandonar este planeta?</lang>
+		<lang key="fr">En abandonnant cette planète, toutes les unités de l'escadrille de défense seront détruites. Voulez-vous procéder?</lang>
+		<lang key="hr">Da li stvarno želiš napustiti ovaj planet?</lang>
+		<lang key="pt">Ao abandonares este planet, todas as unidades na armada de defesa serão perdidas. Queres mesmo abandonar?</lang>
+		<lang key="se">Genom att överge den här planeten kommer alla enheter i dess försvarsflotta att gå förlorade. Vill du verkligen överge planeten?</lang>
+	</entry>
+
+	<entry key="ReallyDelete">
+		<lang key="de">Bist du sicher du willst es löschen?</lang>
+		<lang key="en">Are you sure that you want to delete it?</lang>
+		<lang key="fr">ëtes-vous certain de vouloir l'effacer?</lang>
+		<lang key="hr">Jesi li siguran da želiš izbrisati?</lang>
+		<lang key="pt">De certeza que queres apagar?</lang>
+		<lang key="se">Är du säker på att du vill radera?</lang>
+	</entry>
+
+	<entry key="ReallyDestroyFacility">
+		<lang key="de">Bist du sicher dass du dieses Gebäude zerstören willst?</lang>
+		<lang key="en">Are you sure that you want to destroy this facility?</lang>
+		<lang key="es">Estas seguro que quieres destruir este edifício?</lang>
+		<lang key="fr">ëtes-vous certain de vouloir détruire ce bâtiment?</lang>
+		<lang key="hr">Jesi li siguran da želiš uništiti ovo postrojenje?</lang>
+		<lang key="pt">De certeza que queres destruir este edifício?</lang>
+		<lang key="se">Är du säker på att du vill förstöra den här faciliteten?</lang>
+	</entry>
+
+	<entry key="Running">
+		<lang key="de">In Betrieb</lang>
+		<lang key="en">Running</lang>
+		<lang key="es">Activo</lang>
+		<lang key="fr">Oppérationnel</lang>
+		<lang key="hr">Radi</lang>
+		<lang key="pt">Activo</lang>
+		<lang key="se">Aktiv</lang>
+	</entry>
+
+	<entry key="SelectPlayerFirst">
+		<lang key="de">Du musst zuerst nach einem Spieler suchen</lang>
+		<lang key="en">You must select search for a player first.</lang>
+		<lang key="fr">Vous devez sélectionner une recherche pour un joueur en premier.</lang>
+		<lang key="hr">Morate odabrati traženje igrača prvo.</lang>
+		<lang key="pt">Tens de pesquisar por um jogador primeiro.</lang>
+		<lang key="se">Du måste söka efter en spelare först.</lang>
+	</entry>
+
+	<entry key="State">
+		<lang key="de">Status</lang>
+		<lang key="en">State</lang>
+		<lang key="es">Estado</lang>
+		<lang key="fr">État</lang>
+		<lang key="hr">Stanje</lang>
+		<lang key="pt">Estado</lang>
+		<lang key="se">Status</lang>
+	</entry>
+
+	<entry key="TradeResource">
+		<lang key="de">Handels-Ressource</lang>
+		<lang key="en">Trade Resource</lang>
+		<lang key="fr">Ressource commerciale</lang>
+		<lang key="hr">Trgovački Resursi</lang>
+		<lang key="pt">Recurso de Troca</lang>
+		<lang key="se">Handelsvaror</lang>
+	</entry>
+
+	<entry key="True">
+		<lang key="de">Ja</lang>
+		<lang key="en">True</lang>
+		<lang key="es">Si</lang>
+		<lang key="fr">Vrai</lang>
+		<lang key="hr">Istina</lang>
+		<lang key="pt">Sim</lang>
+		<lang key="se">Ja</lang>
+	</entry>
+
+	<entry key="true">
+		<lang key="de">Ja</lang>
+		<lang key="en">True</lang>
+		<lang key="es">Si</lang>
+		<lang key="fr">Vrai</lang>
+		<lang key="hr">Istina</lang>
+		<lang key="pt">Sim</lang>
+		<lang key="se">Ja</lang>
+	</entry>
+
+	<entry key="TTM">
+		<lang key="de">Zeit sich zu bewegen</lang>
+		<lang key="en">Time to Move</lang>
+		<lang key="es">Tiempo para Mover</lang>
+		<lang key="fr">Temps de bouger</lang>
+		<lang key="hr">Vrijeme za Pokret</lang>
+		<lang key="pt">Tempo para Mover</lang>
+		<lang key="se">Tid att Förflytta sig</lang>
+	</entry>
+
+	<entry key="Turn">
+		<lang key="de">Runde</lang>
+		<lang key="en">turn</lang>
+		<lang key="es">turno</lang>
+		<lang key="fr">Tour</lang>
+		<lang key="hr">turn</lang>
+		<lang key="pt">turno</lang>
+		<lang key="se">vända</lang>
+	</entry>
+
+	<entry key="Turns">
+		<lang key="de">Runden</lang>
+		<lang key="en">turns</lang>
+		<lang key="es">turnos</lang>
+		<lang key="fr">Tours</lang>
+		<lang key="hr">turnovi</lang>
+		<lang key="pt">turnos</lang>
+		<lang key="se">vändor</lang>
+	</entry>
+
+	<entry key="UltimateWeaponNotReady">
+		<lang key="de">Höchste Waffe nicht bereit. Bitte checke ob du genügend Ressourcen hast.</lang>
+		<lang key="en">Ultimate weapon is not ready. Please verify if you have enough resources.</lang>
+		<lang key="es">Arma Suprema no está lista para ser usada. Verifica si tienes los recursos suficientes.</lang>
+		<lang key="fr">L'arme ultime n'est pas prête. Veuillez vérifier que vous avez une quantité suffisante de ressources.</lang>
+		<lang key="hr">Ultimativno oružje još nije spremno. Molimo potvrdite da imate dovoljno resursa.</lang>
+		<lang key="pt">Arma Suprema não está pronta a ser usada. Verifica se tens recursos suficientes.</lang>
+		<lang key="se">Ultimata vapen är inte färdiga att användas. Vänligen kontrollera att du har nog med resurser.</lang>
+	</entry>
+
+	<entry key="Undo">
+		<lang key="de">Rückgängig machen</lang>
+		<lang key="en">Undo</lang>
+		<lang key="es">Volver Atrás</lang>
+		<lang key="fr">Annuler</lang>
+		<lang key="hr">Undo</lang>
+		<lang key="pt">Voltar Atrás</lang>
+		<lang key="se">Ångra</lang>
+	</entry>
+
+	<entry key="Units">
+		<lang key="de">Einheiten</lang>
+		<lang key="en">Units</lang>
+		<lang key="es">Unidades</lang>
+		<lang key="fr">Unités</lang>
+		<lang key="hr">Jedinice</lang>
+		<lang key="pt">Unidades</lang>
+		<lang key="se">Enheter</lang>
+	</entry>
+
+	<entry key="UnloadCargoFleetInBattle">
+		<lang key="de">Kann die Fracht der Flotte nicht abladen, weil die Flotte sich im Kampf befindet.</lang>
+		<lang key="en">Cannot unload fleet cargo because the fleet is in battle.</lang>
+		<lang key="es">No es posible descargar la carga porque la flota está en batalla.</lang>
+		<lang key="fr">Vous ne pouvez pas déposer la cargaison car cette escadrille est en plein combat.</lang>
+		<lang key="hr">Flota ne može ispustiti teret jer se bori.</lang>
+		<lang key="pt">Não é possível descarregar a carga porque a armada está em batalha.</lang>
+		<lang key="se">Kan inte lasta av flottans last eftersom flottan är i fältslag.</lang>
+	</entry>
+
+	<entry key="Upgrade">
+		<lang key="de">Aufrüsten</lang>
+		<lang key="en">Upgrade</lang>
+		<lang key="es">Evolucionar</lang>
+		<lang key="fr">Amélioration</lang>
+		<lang key="hr">Unaprijedi</lang>
+		<lang key="pt">Evoluir</lang>
+		<lang key="se">Uppgradera</lang>
+	</entry>
+
+	<entry key="UpgradeFacility">
+		<lang key="de">Gebäude aufrüsten</lang>
+		<lang key="en">Upgrade Facility</lang>
+		<lang key="es">Evolucionar Edifício</lang>
+		<lang key="fr">Améliorer la construction</lang>
+		<lang key="hr">Unaprijedi Postrojenje</lang>
+		<lang key="pt">Evoluir Edifício</lang>
+		<lang key="se">Uppgradera Facilitet</lang>
+	</entry>
+
+	<entry key="WormHole">
+		<lang key="de">Wurmloch</lang>
+		<lang key="en">WormHole</lang>
+		<lang key="es">Túnel Espacial</lang>
+		<lang key="fr">Trou stellaire</lang>
+		<lang key="hr">Crvotočina</lang>
+		<lang key="pt">Túnel Espacial</lang>
+		<lang key="se">Maskhål</lang>
+	</entry>
+
+	<entry key="WormHoles">
+		<lang key="de">Wurmlöcher</lang>
+		<lang key="en">WormHoles</lang>
+		<lang key="es">Túneles Espaciales</lang>
+		<lang key="fr">Trous stellaire</lang>
+		<lang key="hr">Crvotočina</lang>
+		<lang key="pt">Túneis Espaciais</lang>
+		<lang key="se">Maskhål</lang>
+	</entry>
+
+	<entry key="Yes">
+		<lang key="de">Ja</lang>
+		<lang key="en">Yes</lang>
+		<lang key="fr">Oui</lang>
+		<lang key="hr">Da</lang>
+		<lang key="pt">Sim</lang>
+		<lang key="se">Ja</lang>
+	</entry>
+
+	<entry key="YouHaveBattlesToPlay">
+		<lang key="de">Du hast Universum Schlachten zu spielen. Bis du deine Bewegungen gemacht hast, kannst du auf dieser Seite keine weiteren Aktionen starten.</lang>
+		<lang key="en">You have Universe battles to play. Until you have done your moves, you cannot make any action in this page.</lang>
+		<lang key="fr">Vous avez des combats sur ùl,univers en cours. Tant que vous n'avez pas déplacé vos troupes, vous ne pouvez faire aucune action sur cete page.</lang>
+		<lang key="pt">Tens batalhas de universo para fazer. Até fazeres os teus movimentos, não podes fazer qualquer acção nesta página.</lang>
+		<lang key="se">Du har fältslag i Universum att spela. Du kan inte göra något på den här sidan förrän du har gjort dina drag.</lang>
+	</entry>
+
+	<entry key="youMustSelectAType">
+		<lang key="de">Du muss einen Schlacht-Typ auswählen</lang>
+		<lang key="en">You must select a battle type</lang>
+		<lang key="es">Tienes que seleccionar un tipo de batalla</lang>
+		<lang key="fr">Vous devez sélectionner un type de combat</lang>
+		<lang key="hr">Trebate odabrati tip</lang>
+		<lang key="pt">Tens de seleccionar um tipo de batalha</lang>
+		<lang key="se">Du måste välja en typ av Fältslag</lang>
+	</entry>
+
+	<entry key="YouWillLooseResources">
+		<lang key="de">Bist du sicher? Du verlierst all die bezahlten Ressourcen wenn du die Produktion von Gegenständen abbrichst!</lang>
+		<lang key="en">Are you sure? You loose all the payed resources when you cancel items in production!</lang>
+		<lang key="es">Estas Seguro? Nota que pierdes todos los recursos pagados cuando cancelas algo que ya esta producción!</lang>
+		<lang key="fr">ëtes-vous certain? Vous allez perdre toutes les ressources utilisés dans les coûts si vous annulez cette production!</lang>
+		<lang key="hr">Jesi li siguran? Izgubiš sve resurse koje si platio kada otkažeš predmete u proizvodnji!</lang>
+		<lang key="pt">Tens a certeza? Nota que perdes todos os recursos pagos quando cancelas algo já em produção!</lang>
+		<lang key="se">Är du säker? Du kommer att förlora alla betalade resurser när du avbryter produktionen!</lang>
+	</entry>
+
+</resources>

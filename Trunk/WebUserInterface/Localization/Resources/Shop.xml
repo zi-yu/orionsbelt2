@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="BirthdaySpecialTitle">
+		<lang key="de">Sonderaktion zum Jahrestag von Orion´s Belt</lang>
+		<lang key="en">Special Orion's Belt Aniversary</lang>
+		<lang key="pt">Especial Aniversário do Orion's Belt</lang>
+	</entry>
+
+	<entry key="BuyBirthdaySpecialInfo">
+		<lang key="de">Dieses besondere Angebot, kostet <u>1000 Orions</u> und nur gültig für die letzten 15 Tage des Januars, der Jahrestag von Orion´s Belt. Dieser Service beinhaltet 10000 von jeder seltenen Ressource und zusätzlich folgende Einheiten:</lang>
+		<lang key="en">This special ofter, costing <u>1000 Orions</u> and valid only on the last 15 days of January, marks the Orion's Belt aniversary. You'll get 10000 of
+  each rare resource and the following fleet:</lang>
+		<lang key="pt">Esta oferta especial, com o custo de <u>1000 Orions</u> e válida somente da última quinzena de Janeiro, marca o aniversário do Orion's Belt. Este serviço
+  inclui 10000 de cada recurso raro e ainda as seguintes unidades:</lang>
+	</entry>
+
+	<entry key="BuyChristmasSpecialInfo">
+		<lang key="de">Dieses Spezialangebot, gültig nur im Dezember, ermöglicht dir all die grossen Premium Dienste für einen Zeitraum von 6 Monaten und es kostet dich nur <u>1500 Orions</u>! Wenn du bereits einen Dienst beanspruchst, dann werden die 6 Monate zu deinem gegewärtigen Abonnement hinzugefügt. Zusätzlich zu all den Diensten, wirst du für die Verteidigungsflotte deines Heimatplaneten folgende Einheiten erhalten.</lang>
+		<lang key="en">This special ofter, valid only in December, allows you to buy all the major premium services for a period of six months 
+  with the cost of just <u>1500 Orions</u>! If you already have a service running, the 6 months will be added to your current
+  subscription time. In addition to all the services, you'll also receive on the defense fleet of your home planet the
+  following combat units:</lang>
+		<lang key="pt">Esta oferta especial, válida apenas em Dezembro, permite comprar todos os serviços da loja por um periodo de seis meses, com o 
+  custo de apenas <u>1500 Orions</u>! Se já tiveres algum serviço a correr, os 6 meses serão acrescentados ao tempo de uso do serviço.
+  Além dos serviços, este cabaz também adiciona à armada de defesa do teu planeta mãe as seguintes unidades de combate:</lang>
+	</entry>
+
+	<entry key="BuyFastSpeedEndMessage">
+		<lang key="de">Die 50% Produktions-Geschwindigkeit ist abgelaufen.</lang>
+		<lang key="en">The 50% production speed increase has expired.</lang>
+		<lang key="es">El servicio de aumentar la velocidad de producción al doble expiró.</lang>
+		<lang key="fr">L'accélération de 50% de la production a été expirée.</lang>
+		<lang key="hr">50% brzine produkcije je isteklo</lang>
+		<lang key="it">Il 50% di incremento della velocità di produzione è scaduto.</lang>
+		<lang key="pt">O serviço de aumentar a velocidade de produção para o dobro expirou.</lang>
+		<lang key="ro">Serviciul de producţie crescută cu viteză 50% a expirat.</lang>
+		<lang key="se">50% produktionsökning har gått ut.</lang>
+	</entry>
+
+	<entry key="BuyFastSpeedInfo">
+		<lang key="de">Baue alles 50% schneller.</lang>
+		<lang key="en">Build everything 50% faster</lang>
+		<lang key="es">Velocidad de construcción aumentada en 50%</lang>
+		<lang key="fr">Construit tout 50% plus rapidement</lang>
+		<lang key="hr">Gradi sve 50% brže</lang>
+		<lang key="it">Velocità di costruzione aumentata del 50%</lang>
+		<lang key="pt">Velocidade de construção aumentada em 50%</lang>
+		<lang key="ro">Construieşte totul cu 50% mai repede</lang>
+		<lang key="se">Bygg allt 50% fortare</lang>
+	</entry>
+
+	<entry key="BuyFastSpeedSuccessMessage">
+		<lang key="de">Du bist nun in der Lage alles 50% schneller zu bauen.</lang>
+		<lang key="en">You are now able to build everything 50% faster!</lang>
+		<lang key="es">Actualmente consigues construir todo con el doble de la velocidad!</lang>
+		<lang key="fr">Vous êtes maintenant capable de tout construire 50% plus vite!</lang>
+		<lang key="hr">Sada možeš gradit sve 50% brže!</lang>
+		<lang key="it">Ora puoi costruire tutto il 50% più velocemente!</lang>
+		<lang key="pt">Neste momento consegues construir tudo com o dobro da velocidade!</lang>
+		<lang key="ro">Acum puteţi să construiţi totul cu 50% mai repede!</lang>
+		<lang key="se">Du kan nu bygga allting 50% snabbare!</lang>
+	</entry>
+
+	<entry key="BuyFiringSquadGeneralEndMessage">
+		<lang key="de">Der Vertrag mit dem General des Erschiessungskommandos ist abgelaufen. Gehe nun zum Shop um deinen Vertrag zu erneurn.</lang>
+		<lang key="en">The contract with the Firing Squad General has expired. Go to the shop in order to renew the contract.</lang>
+		<lang key="fr">Le contrat avec le général de l'escouade de tir est expiré. Retourner au magasin pour renouveler le contrat.</lang>
+		<lang key="hr">Ugovor s Generalom Napadačkog Odreda je istekao. Idite u trgovinu da produžite ugovor.</lang>
+		<lang key="it">Il contratto col Generale da plotone d'esecuzione è scaduto. Torna al negozio per rinnovarlo.</lang>
+		<lang key="pt">O contracto com o General especialista em esquadrões de fuzilamento expirou. Vai à loja de modo a renovar o seu contrato.</lang>
+		<lang key="se">Kontraktet med Exekutionsplutons-generalen har gått ut. Gå till affären för att förnya kontraktet.</lang>
+	</entry>
+
+	<entry key="BuyFiringSquadGeneralInfo">
+		<lang key="de">Beauftragt einen spezialisierten General vom Erschiessungskommando. Wenn du diesen General beauftragst, wird es den gegenwärtigen General überschreiben (falls einer bereits existiert).</lang>
+		<lang key="en">Contracts a General specialized in Firing Squad Fleets. If you contract this general it will overwrite the current one (if it exists).</lang>
+		<lang key="fr">Vous permet de signer un contrat avec un général spécialisé dans les escouades de tir. Ce général remplacera celui que vous avez déjà. (si il existe)</lang>
+		<lang key="hr">Sklapate ugovor s Generalom koji je specijaliziran za Flote Napadačkih Odreda. Ako sklopite ugovor s ovim generalom to će poništiti ugovor s postojećim (ako postoji).</lang>
+		<lang key="it">Assume un Generale da plotone d'esecuzione. Se assumi questo generale sovrascrivi il corrente (se esiste).</lang>
+		<lang key="pt">Contrata um General especialista em esquadrões de fuzilamento. Se contratares este General, ele irá se sobrepor ao corrente (caso exista).</lang>
+		<lang key="se">Kontrakt med Generaler specialiserade på flottor med Exekutionsplutoner. Om du kontrakterar denna general kommer ditt nuvarande kontrakt att skrivas över (om du har ett).</lang>
+	</entry>
+
+	<entry key="BuyFiringSquadGeneralSuccessMessage">
+		<lang key="de">Du hast nun einen General vom Erschiessungskommando zu deiner Verfügung.</lang>
+		<lang key="en">You now have a Firing Squad General at your disposal.</lang>
+		<lang key="fr">Vous avez maintenant un général d'escouade de tir à votre disposition.</lang>
+		<lang key="hr">Sada imate Genarala Napadačkog Odreda na raspolaganju.</lang>
+		<lang key="it">Ora hai un Generale da plotone d'esecuzione a tua disposizione.</lang>
+		<lang key="pt">Neste momento tens um General especialista em esquadrões de fuzilamento ao teu dispor.</lang>
+		<lang key="se">Du har nu en Exekutionsplutons-general att tillgå.</lang>
+	</entry>
+
+	<entry key="BuyFullLineOfSightEndMessage">
+		<lang key="de">Die volle Sichtweite des Universums ist abgelaufen.</lang>
+		<lang key="en">The full universe visibility has expired.</lang>
+		<lang key="es">El servicio de remover la Niebla de Guerra expiró.</lang>
+		<lang key="fr">La visibilité complète de l'univers est expiré.</lang>
+		<lang key="hr">Vidljivost čitavog svemira je istekla</lang>
+		<lang key="it">Il servizio per la rimozione della Nebbia di Guerra è scaduto.</lang>
+		<lang key="pt">O serviço de remover a Névoa de Guerra expirou.</lang>
+		<lang key="ro">Vizibilitatea totală a universului a expirat.</lang>
+		<lang key="se">Servicen Ta bort Krigets Dimmor har gått ut.</lang>
+	</entry>
+
+	<entry key="BuyFullLineOfSightInfo">
+		<lang key="de">Kein Nebel des Krieges entdeckt</lang>
+		<lang key="en">No Fog Of War on discovered Universe</lang>
+		<lang key="es">Remoción de la Niebla de Guerra en el universo descubierto</lang>
+		<lang key="fr">Pas de brouillard de guerre sur l'univers connu</lang>
+		<lang key="hr">Bez magle rata (Fog Of War) u otkrivenom svemiru</lang>
+		<lang key="it">Rimuovi la Nebbia di Guerra dall'universo scoperto</lang>
+		<lang key="pt">Remoção da Névoa de Guerra no universo descoberto</lang>
+		<lang key="ro">Fără Ceaţa de război pe universul descoperit.</lang>
+		<lang key="se">Inga Krigets Dimmor över det upptäckta universumet.</lang>
+	</entry>
+
+	<entry key="BuyFullLineOfSightSuccessMessage">
+		<lang key="de">Du hast nun volle Sichtweite in deinem bereits erforschten Universum!</lang>
+		<lang key="en">You now have full visibility on your known universe!</lang>
+		<lang key="es">Actualmente tienes visibilidad total en el universo conocido!</lang>
+		<lang key="fr">Vous avez maintenant une visibilité complète sur l'univers connu!</lang>
+		<lang key="hr">Sada imate potpunu vidljivost poznatog svemira!</lang>
+		<lang key="it">Ora hai visibilità totale sull'universo scoperto!</lang>
+		<lang key="pt">Neste momento tens visibilidade total no universo conhecido!</lang>
+		<lang key="ro">Aveţi acum vizibilitate completă pe universul cunoscut!</lang>
+		<lang key="se">Du har nu fri sikt i ditt eget universum!</lang>
+	</entry>
+
+	<entry key="BuyIntrinsicDeductionEndMessage">
+		<lang key="de">Der 30% Erlass auf spezielle Kosten ist abgelaufen.</lang>
+		<lang key="en">The 30% deduction on intrinsic costs has expired.</lang>
+		<lang key="es">El servicio de descuento de 30% en recursos intrínsicos expiró.</lang>
+		<lang key="fr">Le déduction de 30% sur les ressources primaires est expirée.</lang>
+		<lang key="hr">30% smanjenja cijene osnovnih resursa je isteklo.</lang>
+		<lang key="it">Lo sconto del 30% sulle risorse intrinseche è scaduto.</lang>
+		<lang key="pt">O serviço de desconto de 30% em recursos intrínsecos expirou.</lang>
+		<lang key="se">30% avdrag på inneboende kostnader har gått ut.</lang>
+	</entry>
+
+	<entry key="BuyIntrinsicDeductionInfo">
+		<lang key="de">Erhalte 30% Abzug auf spezifische Kosten von Gebäuden und Einheiten.</lang>
+		<lang key="en">Get a 30% deduction on intrinsic costs of Facilities and Units</lang>
+		<lang key="es">Reducción de 30% en el costo de recursos intrínsicos de los edificios y la Unidades de Combate</lang>
+		<lang key="fr">Permet d'avoir une réduction de 30% sur la consommation des ressources primaires. (lors de constructions de bâtiments et unités)</lang>
+		<lang key="hr">Dobijte 30% smanjenja u osnovnim troškovima pri gradnji postrojenja i jedinica</lang>
+		<lang key="it">Ottieni un 30% di sconto sulle risorse intrinseche per Unità ed Edifici</lang>
+		<lang key="pt">Dedução de 30% no custo de recursos intrínseco dos Edifícios e Unidades de Combate</lang>
+		<lang key="ro">Obţineţi o reducere de 30% a costurilor de resurse intrinseci ale clădirilor şi unităţilor</lang>
+		<lang key="se">Få 30% avdrag på inneboende kostnader hos Faciliteter och Enheter</lang>
+	</entry>
+
+	<entry key="BuyIntrinsicDeductionSuccessMessage">
+		<lang key="de">Du hast nun 30% Erlass auf spezielle Ressourcen.</lang>
+		<lang key="en">You now have a 30% deduction on intrinsic resources!</lang>
+		<lang key="es">Actualmente tienes un descuento de 30% en el costo de recursos intrínsicos!</lang>
+		<lang key="fr">Vous avez maintenant une déduction de 30% sur la consommation de vos ressources primaires!</lang>
+		<lang key="hr">Sada imate 30% smanjenja cijene osnovnih resursa.</lang>
+		<lang key="it">Ora hai uno sconto del 30% sulle risorse intrinseche!</lang>
+		<lang key="pt">Neste momento tens um desconto de 30% no custo de recursos intrínsecos!</lang>
+		<lang key="se">Du nu 30% avdrag på inneboende kostnader</lang>
+	</entry>
+
+	<entry key="BuyNoUndiscoveredUniverseEndMessage">
+		<lang key="de">Der Gesamt-Universum Service ist abgelaufen.</lang>
+		<lang key="en">The all universe available service has expired.</lang>
+		<lang key="es">El servicio de disponibilizar todo el universo expiró.</lang>
+		<lang key="fr">Le service sur "tout" l'univers a expiré.</lang>
+		<lang key="hr">Usluga dostupnosti čitavog svemira je istekla.</lang>
+		<lang key="it">Il servizio per scoprire tutto l'universo è scaduto.</lang>
+		<lang key="pt">O serviço de disponibilizar todo o universo expirou.</lang>
+		<lang key="ro">Serviciul tot universul disponibil a expirat.</lang>
+		<lang key="se">Servicen Gör hela unvirsum tillgängligt har gått ut.</lang>
+	</entry>
+
+	<entry key="BuyNoUndiscoveredUniverseInfo">
+		<lang key="de">Mache das ganze Universum sichtbar</lang>
+		<lang key="en">Make all the universe discovered</lang>
+		<lang key="es">Dejar todo el universo descubierto</lang>
+		<lang key="fr">A pour effet de rendre l'univers complètement découvert.</lang>
+		<lang key="hr">Čitavi svemir vidljiv</lang>
+		<lang key="it">Scopri tutto l'universo</lang>
+		<lang key="pt">Tornar todo o universo descoberto</lang>
+		<lang key="ro">Fă tot universul descoperit.</lang>
+		<lang key="se">Gör hela universum upptäckt</lang>
+	</entry>
+
+	<entry key="BuyNoUndiscoveredUniverseSuccessMessage">
+		<lang key="de">Du kannst nun das gesamte Universum bereisen.</lang>
+		<lang key="en">You now have all the universe available for travel.</lang>
+		<lang key="es">Actualmente tienes todo el universo disponible para viajar!</lang>
+		<lang key="fr">Vous avez maintenant tout l'univers de disponible pour voyager.</lang>
+		<lang key="hr">Sada vam je dostupan čitavi svemir za putovanje</lang>
+		<lang key="it">Ora hai tutto l'universo disponibile per viaggiare.</lang>
+		<lang key="pt">Neste momento tens todo o universo disponível para viajar.</lang>
+		<lang key="ro">Acum aveţi tot universul disponibil pentru călătorie.</lang>
+		<lang key="se">Du har nu hela universum tillgängligt att resa i.</lang>
+	</entry>
+
+	<entry key="BuyOneStarGeneralEndMessage">
+		<lang key="de">Der Vertrag mit dem Ein-Stern-General ist abgelaufen. Gehe zum Shop um den Vertrag zu erneuern.</lang>
+		<lang key="en">The contract with the One Star General has expired. Go to the shop in order to renew the contract.</lang>
+		<lang key="fr">Le contrat avec le général de première étoile est expirée. Vous devez retourner et magasin pour renouveler.</lang>
+		<lang key="hr">Ugovor s Generalom od Jedne Zvijezde je istekao. Idite u trgovinu da biste mogli obnoviti ugovor.</lang>
+		<lang key="it">Il contratto col Generale da una stella è scaduto. Torna al negozio per rinnovarlo.</lang>
+		<lang key="pt">O contracto com o General de uma Estrela expirou. Vai à loja de modo a renovar o seu contrato.</lang>
+		<lang key="se">Kontraktet med den Enstjärninge Generalen har gått ut. Gå till Affären för att förnya kontraktet.</lang>
+	</entry>
+
+	<entry key="BuyOneStarGeneralInfo">
+		<lang key="de">Beauftragt einen General von einem Stern. Wenn du diesen General beauftragst, wird es den gegenwärtigen überschreiben(falls einer existiert).</lang>
+		<lang key="en">Contracts a one star General. If you contract this general it will overwrite the current one (if it exists).</lang>
+		<lang key="fr">Permet de signer un contrat avec un général une étoile. Le contrat avec ce général va remplacer le précédent. (si il existe)</lang>
+		<lang key="hr">Potpisuje ugovor s Generalom jedne zvijede. Ako potpišete ugovor s ovim generalom poništiti ćete ugovor s postojećim (ako postoji).</lang>
+		<lang key="it">Assume un Generale da una stella. Se assumi questo generale sovrascrivi il generale corrente (se esiste)</lang>
+		<lang key="pt">Contrata um General de uma estrela. Se contratares este General, ele irá se sobrepor ao corrente (caso exista).</lang>
+		<lang key="se">Kontrakterar en enstjärning General. Om du kontrakterar denna general kommer detta att skriva över den nuvarande (om den existerar).</lang>
+	</entry>
+
+	<entry key="BuyOneStarGeneralSuccessMessage">
+		<lang key="de">Du hast nun einen General von einem Stern zur Verfügung.</lang>
+		<lang key="en">You now have a One Star General at your disposal.</lang>
+		<lang key="fr">Vous avez maintenant un général une étoile à votre disposition.</lang>
+		<lang key="hr">Sada imate Genarala s Jedom Zvijezom na raspolaganju.</lang>
+		<lang key="it">Ora hai un Generale da una stella a tua disposizione.</lang>
+		<lang key="pt">Neste momento tens um General de uma estrela ao teu dispor.</lang>
+		<lang key="se">Du har nu en Enstjärnig General till ditt förfogande.</lang>
+	</entry>
+
+	<entry key="BuyQueueSpaceInfo">
+		<lang key="de">Zusätzliche 3 Slots erhältlich auf deiner Warteliste. Diese zusätzlichen Slots stehen dir zur Verfügung in deiner Warteliste für Gebäude und Einheiten.</lang>
+		<lang key="en">Additional 3 slots on your queue space. This will be used on Facility and Unit queues.</lang>
+		<lang key="es">3 espacios adicionales en la lista de espera. Estos espacios adicionales estarán Disponibles en la lista de espera de Edifícios y Unidades.</lang>
+		<lang key="fr">3 espaces additionnels pour votre chaîne de construction. Cet espace sera attribué aux châines de construction d'unités et de bâtiments.</lang>
+		<lang key="hr">Dodatna 3 mjesta na listi za čekanje. Ovo će vrijediti na listi za čekanje Postrojenja i Jedinica.</lang>
+		<lang key="it">Aggiunge 3 spazi alla tua coda. Sarà aggiunto sulle code di costruzione di Unità ed Edifici.</lang>
+		<lang key="pt">Mais 3 espaços na lista de espera. Estes espaços adicionais estarão disponíveis na lista de espera de Edifícios e Unidades.</lang>
+		<lang key="ro">Aveţi 3 spaţii adiţionale în lista de aşteptare. Acest spaţiu va fi folosit la lista de aşteptare a clădirilor şi a unităţilor.</lang>
+		<lang key="se">Ytterligare 3 platser i ditt kö-utrymme. Detta kommer att användas på köerna hos Faciliteter och Enheter.</lang>
+	</entry>
+
+	<entry key="BuyQueueSpaceOverMessage">
+		<lang key="de">Der zusätzliche Wartelisten-Service ist abgelaufen.</lang>
+		<lang key="en">The additional queue space service has expired.</lang>
+		<lang key="es">El servicio de espacio en la lista de espera adicional expiró.</lang>
+		<lang key="fr">L'espace additionnel sur la châine de construction est expirée.</lang>
+		<lang key="hr">Dodatna mjesta na listi za čekanje su istekla.</lang>
+		<lang key="it">Lo spazio aggiuntivo alla coda è scaduto.</lang>
+		<lang key="pt">O serviço de espaço em lista de espera adicional expirou.</lang>
+		<lang key="ro">Serviciul de spaţii suplimentare în lista de construcţii a expirat.</lang>
+		<lang key="se">Det extra kö-utrymmet har gått ut.</lang>
+	</entry>
+
+	<entry key="BuyQueueSpaceSuccessMessage">
+		<lang key="de">Dir steht nun zusätzlicher Raum für die Warteliste zur Verfügung</lang>
+		<lang key="en">You now have additional queue space available!</lang>
+		<lang key="es">Actualmente  ya tienes espacio adicional en lista de espera!</lang>
+		<lang key="fr">Vous avez maintenent de l'espace additionnel dans votre chaîne de construction!</lang>
+		<lang key="hr">Sada imate dodatna mjesta  na listi za čekanje!</lang>
+		<lang key="it">Ora hai più spazio nella coda!</lang>
+		<lang key="pt">Neste momento já tens espaço adicional em lista de espera!</lang>
+		<lang key="ro">Aveţi acum spaţiu suplimentar în lista de aşteptare!</lang>
+		<lang key="se">Du har nu extra kö-utrymme att tillgå!</lang>
+	</entry>
+
+	<entry key="BuyRareDeductionEndMessage">
+		<lang key="de">Der 30% Erlass auf seltene Kosten ist abgelaufen.</lang>
+		<lang key="en">The 30% deduction on rare costs has expired.</lang>
+		<lang key="es">El servicio de descuento de 30% en recursos raros expiró.</lang>
+		<lang key="fr">La réductions de 30% sur les ressources rares est expirée.</lang>
+		<lang key="hr">30% smanjenja cijene rijetkih resursa je isteklo.</lang>
+		<lang key="it">Lo sconto del 30% sulle risorse rare è scaduto.</lang>
+		<lang key="pt">O serviço de desconto de 30% em recursos raros expirou.</lang>
+		<lang key="ro">Reducerea de 30% a costurilor de resurse rare a expirat.</lang>
+		<lang key="se">30% avdrag på knappa resurser har upphört</lang>
+	</entry>
+
+	<entry key="BuyRareDeductionInfo">
+		<lang key="de">Erhalten ein 30% Erlass auf seltene Ressource-Kosten von Gebäuden und Einheiten</lang>
+		<lang key="en">Get a 30% deduction on rare resource costs of Facilities and Units</lang>
+		<lang key="es">Reducción de 30% en el costo de recursos raros de los edificios y Unidades de Combate</lang>
+		<lang key="fr">Permet d'avoir une réduction de 30% sur la consommation des ressources rares. (lors de constructions de bâtiments et unités)</lang>
+		<lang key="hr">Dobij 30% smanjenja cijene rijetkih resursa pri gradnji Postrojenja i Jedinica</lang>
+		<lang key="it">Ottieni un 30% di sconto sulle risorse rare per Unità ed Edifici</lang>
+		<lang key="pt">Dedução de 30% no custo de recursos raros dos Edifícios e Unidades de Combate</lang>
+		<lang key="se">Få 30% rabatt på knappa resurser för Faciliteter och Enheter</lang>
+	</entry>
+
+	<entry key="BuyRareDeductionSuccessMessage">
+		<lang key="de">Du hast jetzt 30% Erlass auf seltene Ressourcen!</lang>
+		<lang key="en">You now have a 30% deduction on rare resources!</lang>
+		<lang key="es">Actualmente  tiens un descuento de 30% en el costo de recursos raros!</lang>
+		<lang key="fr">Vous avez maintenant une réduction de 30% de la consommation des ressources rares!</lang>
+		<lang key="hr">Sada imate 30% smanjenja cijene rijetkih resursa!</lang>
+		<lang key="it">Ora hai il 30% di sconto sulle risorse rare!</lang>
+		<lang key="pt">Neste momento tens um desconto de 30% no custo de recursos raros!</lang>
+		<lang key="se">Du har nu 30% avdrag på knappa resurser!</lang>
+	</entry>
+
+	<entry key="ChristmasSpecialTitle">
+		<lang key="de">Weihnachts-Sonderaktion</lang>
+		<lang key="en">Christmas Special</lang>
+		<lang key="pt">Especial Cabaz de Natal</lang>
+	</entry>
+
+	<entry key="Service">
+		<lang key="de">Service</lang>
+		<lang key="en">Service</lang>
+		<lang key="es">Servicio</lang>
+		<lang key="fr">Service</lang>
+		<lang key="hr">Usluge</lang>
+		<lang key="it">Servizio</lang>
+		<lang key="pt">Serviço</lang>
+		<lang key="ro">Serviciu</lang>
+		<lang key="se">Service</lang>
+	</entry>
+
+	<entry key="Shop">
+		<lang key="de">Premium Dienste</lang>
+		<lang key="en">Premium Services</lang>
+		<lang key="es">Servicios Premium</lang>
+		<lang key="fr">Services d'abonnement OR</lang>
+		<lang key="hr">Premium Usluge</lang>
+		<lang key="it">Servizi Premium</lang>
+		<lang key="pt">Serviços Premium</lang>
+		<lang key="ro">Servicii Premium</lang>
+		<lang key="se">Premiumtjänster</lang>
+	</entry>
+
+</resources>

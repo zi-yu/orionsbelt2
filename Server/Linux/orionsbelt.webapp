@@ -1,0 +1,133 @@
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Location: /opt/orionsbelt/prd/configs/
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<apps>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Institutional
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	
+	<web-application>
+	        <name>Institutional at limegreen</name>
+	        <vhost>limegreen:8080</vhost>
+	        <vport>8080</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/institutional/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<web-application>
+	        <name>Institutional at orionsbelt.eu</name>
+	        <vhost>orionsbelt.eu</vhost>
+	        <vport>80</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/institutional/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<web-application>
+	        <name>Institutional at www.orionsbelt.eu</name>
+	        <vhost>www.orionsbelt.eu</vhost>
+	        <vport>80</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/institutional/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<web-application>
+	        <name>Institutional at pdm.orionsbelt.eu</name>
+	        <vhost>pdm.orionsbelt.eu</vhost>
+	        <vport>80</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/institutional/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Manual
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	
+	<web-application>
+	        <name>Manual at limegreen</name>
+	        <vhost>limegreen:8081</vhost>
+	        <vport>8081</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/manual/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<web-application>
+	        <name>Manual at manual.orionsbelt.eu</name>
+	        <vhost>manual.orionsbelt.eu</vhost>
+	        <vport>80</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/manual/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Lang
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	
+	<web-application>
+	        <name>Lang at limegreen</name>
+	        <vhost>limegreen:8088</vhost>
+	        <vport>8083</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/lang/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<web-application>
+	        <name>Lang at lang.orionsbelt.eu</name>
+	        <vhost>lang.orionsbelt.eu</vhost>
+	        <vport>80</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/lang/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Bots
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	
+	<web-application>
+	        <name>Bots at limegreen</name>
+	        <vhost>limegreen:8083</vhost>
+	        <vport>8083</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/bots/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<web-application>
+	        <name>Bots at bots.orionsbelt.eu</name>
+	        <vhost>bots.orionsbelt.eu</vhost>
+	        <vport>80</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/bots/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Server 1
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	
+	<web-application>
+	        <name>s1 at limegreen</name>
+	        <vhost>limegreen:8085</vhost>
+	        <vport>8085</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/s1/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+	<web-application>
+	        <name>s1 at s1.orionsbelt.eu</name>
+	        <vhost>s1.orionsbelt.eu</vhost>
+	        <vport>80</vport>
+	        <vpath>/</vpath>
+	        <path>/opt/orionsbelt/prd/s1/public/</path>
+	        <enabled>true</enabled>
+	</web-application>
+	
+</apps>

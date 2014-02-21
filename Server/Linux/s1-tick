@@ -1,0 +1,13 @@
+PATH=`cat /opt/orionsbelt/prd/configs/mono-path`:$PATH
+export PATH
+
+echo "Killing previous job (if running)"
+kill -9 `cat /var/run/s1-tick.pid`
+
+echo "Launching job..."
+mono /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe --timeout:300 --tick > /opt/orionsbelt/prd/configs/ticks/s1/`date +%F_%H_%M`.log 2>&1 &
+
+PID=$!
+echo "$PID" > /var/run/s1-tick.pid
+echo "Stored job PID = $PID"
+

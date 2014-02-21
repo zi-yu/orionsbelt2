@@ -1,0 +1,7 @@
+#
+# Unzip universe
+#
+
+cd /opt/orionsbelt/prd/s1/public/API/
+cp Universe.xml.zip Universe.xml.gz
+gunzip -f Universe.xml.gz

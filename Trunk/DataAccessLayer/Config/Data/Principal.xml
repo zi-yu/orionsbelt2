@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection>
+  <Principal Id="1" Name="Mawhrin-Skel" RawRoles="admin" EloRanking="1000" Credits="10000" Email="psantos@zi-yu.com" Password="6F250D1B944FB97A334F372BD77D3E119FE49EC4" LadderActive="True" LadderPosition="1" AcceptedTerms='True'/>
+  <Principal Id="2" Name="nunos" RawRoles="admin" EloRanking="1000" Credits="10000" Email="nunos@zi-yu.com" Password="9266A1DC680D7C19228E02BC5FE5E30A37E51F08"  LadderActive="True"  LadderPosition="2" AcceptedTerms='True'/>
+  <Principal Id="3" Name="tsousa" RawRoles="admin" EloRanking="1000" Credits="10000" Email="tsousa@zi-yu.com" Password="BD24519D8A96788DE2732CD918FED8D5B293410B"  LadderActive="True"  LadderPosition="3" AcceptedTerms='True'/>
+  <Principal Id="4" Name="auctioner" RawRoles="admin" EloRanking="1000" Credits="0" IsBot="True" Email="business@zi-yu.com" Password="F557E92965DB8298E8E3B0DDEB9224FC4AF963FF"  LadderActive="False"  LadderPosition="0" AcceptedTerms='True'/>
+</Collection>

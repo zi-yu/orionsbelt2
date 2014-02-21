@@ -1,0 +1,25 @@
+#set( $dotpng = ".png" )
+<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/$locale/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	$utils.Localize($info.Name)
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="conceptMenu" runat="server">
+	$utils.GetIntrinsicMenu()
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1><asp:Literal Text="$utils.Localize($info.Name)" runat="server" /></h1>
+
+	<div class="description">
+		$utils.GetDescription($info)
+		<img title='$info.Name' class='resourceSmall resource$info.Name' src='http://resources.orionsbelt.eu/Images/Common/Etc/Fill.gig' />
+#if( $info.IsTradeRouteSpecific )
+		<p/>
+		$utils.Localize("TradeRouteResourceDescription")
+#end
+	</div>
+	
+</asp:Content>

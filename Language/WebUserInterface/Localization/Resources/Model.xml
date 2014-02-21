@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true">
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Entry Template
+		* Use this template to add new Entries
+	 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	 <!--
+	<entry key="UniqueKeyName">
+		<lang key="en">Entry for language en</lang>
+	</entry>
+	-->
+	
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		Localization
+	 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	 
+	<entry key="Principal">
+		<lang key="en">Principal</lang>
+	</entry>
+	
+	<entry key="PrincipalId">
+		<lang key="en">Id</lang>
+	</entry>
+	
+	<entry key="PrincipalName">
+		<lang key="en">Name</lang>
+	</entry>
+	
+	<entry key="PrincipalPassword">
+		<lang key="en">Password</lang>
+	</entry>
+	
+	<entry key="PrincipalEmail">
+		<lang key="en">Email</lang>
+	</entry>
+	
+	<entry key="PrincipalIp">
+		<lang key="en">Ip</lang>
+	</entry>
+	
+	<entry key="PrincipalRegistDate">
+		<lang key="en">RegistDate</lang>
+	</entry>
+	
+	<entry key="PrincipalLastLogin">
+		<lang key="en">LastLogin</lang>
+	</entry>
+	
+	<entry key="PrincipalApproved">
+		<lang key="en">Approved</lang>
+	</entry>
+	
+	<entry key="PrincipalIsOnline">
+		<lang key="en">IsOnline</lang>
+	</entry>
+	
+	<entry key="PrincipalLocked">
+		<lang key="en">Locked</lang>
+	</entry>
+	
+	<entry key="PrincipalLocale">
+		<lang key="en">Locale</lang>
+	</entry>
+	
+	<entry key="PrincipalConfirmationCode">
+		<lang key="en">ConfirmationCode</lang>
+	</entry>
+	
+	<entry key="PrincipalRawRoles">
+		<lang key="en">RawRoles</lang>
+	</entry>
+	
+	<entry key="PrincipalExceptions">
+		<lang key="en">Exceptions</lang>
+	</entry>
+	
+	<entry key="PrincipalCreatedDate">
+		<lang key="en">CreatedDate</lang>
+	</entry>
+	
+	<entry key="PrincipalUpdatedDate">
+		<lang key="en">UpdatedDate</lang>
+	</entry>
+	
+	<entry key="PrincipalLastActionUserId">
+		<lang key="en">LastActionUserId</lang>
+	</entry>
+	
+	<entry key="LanguageProject">
+		<lang key="en">LanguageProject</lang>
+	</entry>
+	
+	<entry key="LanguageProjectId">
+		<lang key="en">Id</lang>
+	</entry>
+	
+	<entry key="LanguageProjectName">
+		<lang key="en">Name</lang>
+	</entry>
+	
+	<entry key="LanguageProjectFiles">
+		<lang key="en">Files</lang>
+	</entry>
+	
+	<entry key="LanguageProjectCreatedDate">
+		<lang key="en">CreatedDate</lang>
+	</entry>
+	
+	<entry key="LanguageProjectUpdatedDate">
+		<lang key="en">UpdatedDate</lang>
+	</entry>
+	
+	<entry key="LanguageProjectLastActionUserId">
+		<lang key="en">LastActionUserId</lang>
+	</entry>
+	
+	<entry key="Locale">
+		<lang key="en">Locale</lang>
+	</entry>
+	
+	<entry key="LocaleId">
+		<lang key="en">Id</lang>
+	</entry>
+	
+	<entry key="LocaleName">
+		<lang key="en">Name</lang>
+	</entry>
+	
+	<entry key="LocaleCreatedDate">
+		<lang key="en">CreatedDate</lang>
+	</entry>
+	
+	<entry key="LocaleUpdatedDate">
+		<lang key="en">UpdatedDate</lang>
+	</entry>
+	
+	<entry key="LocaleLastActionUserId">
+		<lang key="en">LastActionUserId</lang>
+	</entry>
+	
+	<entry key="ExceptionInfo">
+		<lang key="en">ExceptionInfo</lang>
+	</entry>
+	
+	<entry key="ExceptionInfoId">
+		<lang key="en">Id</lang>
+	</entry>
+	
+	<entry key="ExceptionInfoName">
+		<lang key="en">Name</lang>
+	</entry>
+	
+	<entry key="ExceptionInfoMessage">
+		<lang key="en">Message</lang>
+	</entry>
+	
+	<entry key="ExceptionInfoDate">
+		<lang key="en">Date</lang>
+	</entry>
+	
+	<entry key="ExceptionInfoPrincipal">
+		<lang key="en">Principal</lang>
+	</entry>
+	
+	<entry key="ExceptionInfoUrl">
+		<lang key="en">Url</lang>
+	</entry>
+	
+	<entry key="ExceptionInfoStackTrace">
+		<lang key="en">StackTrace</lang>
+	</entry>
+	
+	<entry key="ExceptionInfoCreatedDate">
+		<lang key="en">CreatedDate</lang>
+	</entry>
+	
+	<entry key="ExceptionInfoUpdatedDate">
+		<lang key="en">UpdatedDate</lang>
+	</entry>
+	
+	<entry key="ExceptionInfoLastActionUserId">
+		<lang key="en">LastActionUserId</lang>
+	</entry>
+	
+	<entry key="LanguageFile">
+		<lang key="en">LanguageFile</lang>
+	</entry>
+	
+	<entry key="LanguageFileId">
+		<lang key="en">Id</lang>
+	</entry>
+	
+	<entry key="LanguageFileName">
+		<lang key="en">Name</lang>
+	</entry>
+	
+	<entry key="LanguageFileOnline">
+		<lang key="en">Online</lang>
+	</entry>
+	
+	<entry key="LanguageFileEntries">
+		<lang key="en">Entries</lang>
+	</entry>
+	
+	<entry key="LanguageFileProject">
+		<lang key="en">Project</lang>
+	</entry>
+	
+	<entry key="LanguageFileCreatedDate">
+		<lang key="en">CreatedDate</lang>
+	</entry>
+	
+	<entry key="LanguageFileUpdatedDate">
+		<lang key="en">UpdatedDate</lang>
+	</entry>
+	
+	<entry key="LanguageFileLastActionUserId">
+		<lang key="en">LastActionUserId</lang>
+	</entry>
+	
+	<entry key="LanguageTranslation">
+		<lang key="en">LanguageTranslation</lang>
+	</entry>
+	
+	<entry key="LanguageTranslationId">
+		<lang key="en">Id</lang>
+	</entry>
+	
+	<entry key="LanguageTranslationLocale">
+		<lang key="en">Locale</lang>
+	</entry>
+	
+	<entry key="LanguageTranslationText">
+		<lang key="en">Text</lang>
+	</entry>
+	
+	<entry key="LanguageTranslationLanguageEntry">
+		<lang key="en">LanguageEntry</lang>
+	</entry>
+	
+	<entry key="LanguageTranslationCreatedDate">
+		<lang key="en">CreatedDate</lang>
+	</entry>
+	
+	<entry key="LanguageTranslationUpdatedDate">
+		<lang key="en">UpdatedDate</lang>
+	</entry>
+	
+	<entry key="LanguageTranslationLastActionUserId">
+		<lang key="en">LastActionUserId</lang>
+	</entry>
+	
+	<entry key="LanguageEntry">
+		<lang key="en">LanguageEntry</lang>
+	</entry>
+	
+	<entry key="LanguageEntryId">
+		<lang key="en">Id</lang>
+	</entry>
+	
+	<entry key="LanguageEntryName">
+		<lang key="en">Name</lang>
+	</entry>
+	
+	<entry key="LanguageEntryLanguageFile">
+		<lang key="en">LanguageFile</lang>
+	</entry>
+	
+	<entry key="LanguageEntryTranslations">
+		<lang key="en">Translations</lang>
+	</entry>
+	
+	<entry key="LanguageEntryCreatedDate">
+		<lang key="en">CreatedDate</lang>
+	</entry>
+	
+	<entry key="LanguageEntryUpdatedDate">
+		<lang key="en">UpdatedDate</lang>
+	</entry>
+	
+	<entry key="LanguageEntryLastActionUserId">
+		<lang key="en">LastActionUserId</lang>
+	</entry>
+	
+</resources>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="Password">
+		<lang key="en">Password</lang>
+		<lang key="fr">Mot de Passe</lang>
+		<lang key="hr">Šifra</lang>
+		<lang key="hu">Jelszó</lang>
+		<lang key="it">Password</lang>
+		<lang key="pt">Password</lang>
+		<lang key="ro">Parolă</lang>
+	</entry>
+
+	<entry key="UserName">
+		<lang key="en">User Name</lang>
+		<lang key="fr">Nom d'utilisateur</lang>
+		<lang key="hr">Korisničko Ime</lang>
+		<lang key="hu">Felhasználónév</lang>
+		<lang key="it">User Name</lang>
+		<lang key="pt">User Name</lang>
+		<lang key="ro">Nume Utilizator</lang>
+	</entry>
+
+</resources>

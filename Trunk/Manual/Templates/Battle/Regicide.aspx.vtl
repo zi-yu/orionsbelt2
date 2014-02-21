@@ -1,0 +1,17 @@
+<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/$locale/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	$utils.Localize("Regicide")
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="conceptMenu" runat="server">
+	$utils.GetBattleConceptsMenu()
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1>$utils.Localize("Regicide")</h1>
+	$utils.Localize("RegicideContent")
+	<img class="block" src="http://resources.orionsbelt.eu/Images/Common/Units/Flag.png" />
+	
+</asp:Content>

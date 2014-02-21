@@ -1,0 +1,298 @@
+<Units Date='Thu, 19 Apr 2012 10:08:01 GMT'>
+	<Unit Name='Bozer' Code='bz' Category='Heavy' Attack='3200' Defense='2800' MovType='Front' MovCost='4' AttackCost='1' Range='5' Level='Ground' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Air' Type='AttackBonus' Attack='4000' Defense='0' Range='0'/>
+		</Bonus>
+		<DefenseMoves>
+			<Move Type='StrikeBack'/>
+		</DefenseMoves>
+	</Unit>
+	<Unit Name='CommanderFox' Code='cf' Category='Heavy' Attack='50000' Defense='100000' MovType='Normal' MovCost='4' AttackCost='1' Range='5' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+			<Move Type='Triple'/>
+		</PosAttackMoves>
+		<AttackMoves>
+			<Move Type='Catapult'/>
+		</AttackMoves>
+	</Unit>
+	<Unit Name='HiveProtector' Code='hp' Category='Medium' Attack='1000' Defense='4500' MovType='Normal' MovCost='2' AttackCost='1' Range='3' Level='Air' Type='Organic' Cooldown='0'>
+		<DefenseMoves>
+			<Move Type='StrikeBack'/>
+		</DefenseMoves>
+	</Unit>
+	<Unit Name='Doomer' Code='doo' Category='Heavy' Attack='6000' Defense='500' MovType='Diagonal' MovCost='3' AttackCost='1' Range='3' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+		</PosAttackMoves>
+		<AttackMoves>
+			<Move Type='Catapult'/>
+		</AttackMoves>
+	</Unit>
+	<Unit Name='Cypher' Code='cp' Category='Light' Attack='1500' Defense='1500' MovType='All' MovCost='2' AttackCost='1' Range='2' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Triple'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Stinger' Code='sg' Category='Medium' Attack='500' Defense='1000' MovType='All' MovCost='2' AttackCost='1' Range='2' Level='Air' Type='Organic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Light' Type='AttackBonus' Attack='1000' Defense='0' Range='0'/>
+		</Bonus>
+		<PosAttackMoves>
+			<Move Type='Replicator'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='CaptainWolf' Code='cw' Category='Heavy' Attack='100000' Defense='1000000' MovType='Normal' MovCost='4' AttackCost='1' Range='6' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+			<Move Type='Triple'/>
+		</PosAttackMoves>
+		<AttackMoves>
+			<Move Type='Catapult'/>
+		</AttackMoves>
+	</Unit>
+	<Unit Name='Destroyer' Code='dy' Category='Medium' Attack='1100' Defense='500' MovType='All' MovCost='2' AttackCost='1' Range='1' Level='Air' Type='Organic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='BombAttack'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Myst' Code='mt' Category='Medium' Attack='300' Defense='200' MovType='Diagonal' MovCost='1' AttackCost='1' Range='2' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Scarab' Code='sc' Category='Medium' Attack='1900' Defense='2300' MovType='Front' MovCost='1' AttackCost='1' Range='2' Level='Air' Type='Mechanic' Cooldown='0'>
+	</Unit>
+	<Unit Name='Toxic' Code='tx' Category='Light' Attack='450' Defense='600' MovType='Normal' MovCost='1' AttackCost='1' Range='2' Level='Air' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Organic' Type='AttackBonus' Attack='1000' Defense='0' Range='0'/>
+		</Bonus>
+	</Unit>
+	<Unit Name='Fist' Code='ft' Category='Heavy' Attack='4200' Defense='1800' MovType='Normal' MovCost='3' AttackCost='1' Range='4' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Triple'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Flag' Code='fg' Category='Special' Attack='1' Defense='10000' MovType='All' MovCost='1' AttackCost='1' Range='1' Level='Air' Type='Mechanic' Cooldown='0'>
+	</Unit>
+	<Unit Name='DarkTaurus' Code='dt' Category='Heavy' Attack='6800' Defense='3500' MovType='Front' MovCost='4' AttackCost='1' Range='3' Level='Ground' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+			<Move Type='Triple'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Egg' Code='eg' Category='Light' Attack='0' Defense='1' MovType='None' MovCost='0' AttackCost='1' Range='0' Level='Ground' Type='Organic' Cooldown='0'>
+	</Unit>
+	<Unit Name='Jumper' Code='jp' Category='Light' Attack='200' Defense='100' MovType='All' MovCost='1' AttackCost='1' Range='1' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='RemoveAbilityAttack'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='BattleMoon' Code='bm' Category='Ultimate' Attack='1000000' Defense='1000000' MovType='None' MovCost='6' AttackCost='6' Range='5' Level='Air' Type='Mechanic' Cooldown='9'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+			<Move Type='ResetCoolDown'/>
+		</PosAttackMoves>
+		<AttackMoves>
+			<Move Type='Catapult'/>
+		</AttackMoves>
+	</Unit>
+	<Unit Name='MetallicBeard' Code='mb' Category='Heavy' Attack='100000' Defense='1000000' MovType='Normal' MovCost='4' AttackCost='1' Range='6' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+			<Move Type='Triple'/>
+		</PosAttackMoves>
+		<AttackMoves>
+			<Move Type='Catapult'/>
+		</AttackMoves>
+	</Unit>
+	<Unit Name='DarkCrusader' Code='dc' Category='Heavy' Attack='2800' Defense='2000' MovType='Front' MovCost='4' AttackCost='1' Range='6' Level='Air' Type='Mechanic' Cooldown='0'>
+	</Unit>
+	<Unit Name='Scourge' Code='so' Category='Medium' Attack='1450' Defense='2000' MovType='Diagonal' MovCost='2' AttackCost='1' Range='3' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+		</PosAttackMoves>
+		<AttackMoves>
+			<Move Type='Catapult'/>
+		</AttackMoves>
+	</Unit>
+	<Unit Name='Crawler' Code='cr' Category='Medium' Attack='2000' Defense='1800' MovType='All' MovCost='3' AttackCost='1' Range='3' Level='Ground' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Medium' Type='AttackBonus' Attack='2000' Defense='0' Range='0'/>
+		</Bonus>
+		<PosAttackMoves>
+			<Move Type='InfestationAttack'/>
+			<Move Type='ParalyseAttack'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Rain' Code='r' Category='Light' Attack='120' Defense='70' MovType='All' MovCost='1' AttackCost='1' Range='1' Level='Air' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Heavy' Type='AttackBonus' Attack='1200' Defense='0' Range='0'/>
+		</Bonus>
+	</Unit>
+	<Unit Name='Samurai' Code='s' Category='Light' Attack='150' Defense='450' MovType='All' MovCost='1' AttackCost='1' Range='2' Level='Air' Type='Mechanic' Cooldown='0'>
+		<AttackMoves>
+			<Move Type='Catapult'/>
+		</AttackMoves>
+	</Unit>
+	<Unit Name='Panther' Code='p' Category='Light' Attack='300' Defense='300' MovType='All' MovCost='1' AttackCost='1' Range='1' Level='Ground' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Queen' Code='q' Category='Ultimate' Attack='1000000' Defense='1000000' MovType='Drop' MovCost='4' AttackCost='4' Range='4' Level='Air' Type='Organic' Cooldown='9'>
+		<DefenseMoves>
+			<Move Type='StrikeBack'/>
+		</DefenseMoves>
+	</Unit>
+	<Unit Name='DarkRain' Code='dr' Category='Light' Attack='190' Defense='20' MovType='All' MovCost='1' AttackCost='1' Range='1' Level='Air' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Heavy' Type='AttackBonus' Attack='600' Defense='0' Range='0'/>
+		</Bonus>
+	</Unit>
+	<Unit Name='Worm' Code='w' Category='Medium' Attack='1200' Defense='1200' MovType='All' MovCost='2' AttackCost='1' Range='3' Level='Ground' Type='Organic' Cooldown='0'>
+	</Unit>
+	<Unit Name='Taurus' Code='t' Category='Heavy' Attack='5000' Defense='6800' MovType='Front' MovCost='4' AttackCost='1' Range='3' Level='Ground' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+			<Move Type='Triple'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Kamikaze' Code='k' Category='Medium' Attack='4000' Defense='1' MovType='All' MovCost='1' AttackCost='1' Range='1' Level='Air' Type='Mechanic' Cooldown='0'>
+	</Unit>
+	<Unit Name='Pretorian' Code='h' Category='Medium' Attack='450' Defense='5550' MovType='Diagonal' MovCost='2' AttackCost='1' Range='3' Level='Air' Type='Mechanic' Cooldown='0'>
+		<DefenseMoves>
+			<Move Type='StrikeBack'/>
+		</DefenseMoves>
+	</Unit>
+	<Unit Name='Seeker' Code='sk' Category='Light' Attack='100' Defense='40' MovType='All' MovCost='1' AttackCost='1' Range='1' Level='Air' Type='Organic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Medium' Type='AttackBonus' Attack='500' Defense='0' Range='0'/>
+		</Bonus>
+	</Unit>
+	<Unit Name='Nova' Code='n' Category='Heavy' Attack='2700' Defense='1900' MovType='Normal' MovCost='4' AttackCost='1' Range='5' Level='Air' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Organic' Type='AttackBonus' Attack='4000' Defense='0' Range='0'/>
+		</Bonus>
+	</Unit>
+	<Unit Name='Maggot' Code='m' Category='Light' Attack='500' Defense='1000' MovType='All' MovCost='1' AttackCost='1' Range='1' Level='Ground' Type='Organic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='BombAttack'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='BlackWidow' Code='b' Category='Heavy' Attack='2500' Defense='2100' MovType='All' MovCost='3' AttackCost='1' Range='4' Level='Ground' Type='Organic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='InfestationAttack'/>
+			<Move Type='ParalyseAttack'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Crusader' Code='c' Category='Heavy' Attack='2400' Defense='2200' MovType='Front' MovCost='4' AttackCost='1' Range='6' Level='Air' Type='Mechanic' Cooldown='0'>
+	</Unit>
+	<Unit Name='Anubis' Code='a' Category='Light' Attack='200' Defense='500' MovType='All' MovCost='1' AttackCost='1' Range='1' Level='Air' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Heavy' Type='DefenseBonus' Attack='0' Defense='1600' Range='0'/>
+		</Bonus>
+	</Unit>
+	<Unit Name='HiveKing' Code='hk' Category='Heavy' Attack='4000' Defense='3200' MovType='Normal' MovCost='3' AttackCost='1' Range='4' Level='Ground' Type='Organic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='InfestationAttack'/>
+			<Move Type='RemoveAbilityAttack'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Kahuna' Code='kh' Category='Medium' Attack='1000' Defense='1300' MovType='All' MovCost='2' AttackCost='1' Range='2' Level='Ground' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Terrest' Type='DefenseBonus' Attack='0' Defense='400' Range='0'/>
+			<Bonus Target='Air' Type='DefenseBonus' Attack='0' Defense='400' Range='0'/>
+		</Bonus>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Driller' Code='d' Category='Medium' Attack='1500' Defense='1500' MovType='All' MovCost='2' AttackCost='1' Range='1' Level='Ground' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Triple'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Eagle' Code='e' Category='Medium' Attack='1100' Defense='1200' MovType='Diagonal' MovCost='2' AttackCost='1' Range='3' Level='Air' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Medium' Type='AttackBonus' Attack='400' Defense='0' Range='0'/>
+			<Bonus Target='Heavy' Type='DefenseBonus' Attack='0' Defense='400' Range='0'/>
+		</Bonus>
+		<AttackMoves>
+			<Move Type='Catapult'/>
+		</AttackMoves>
+	</Unit>
+	<Unit Name='Blinker' Code='bk' Category='Ultimate' Attack='1000000' Defense='1000000' MovType='None' MovCost='5' AttackCost='6' Range='4' Level='Air' Type='Mechanic' Cooldown='9'>
+		<DefenseMoves>
+			<Move Type='StrikeBack'/>
+		</DefenseMoves>
+	</Unit>
+	<Unit Name='Sentry' Code='st' Category='Light' Attack='200' Defense='100' MovType='All' MovCost='1' AttackCost='1' Range='1' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='RemoveAbilityAttack'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Vector' Code='v' Category='Medium' Attack='2000' Defense='1200' MovType='Normal' MovCost='3' AttackCost='1' Range='4' Level='Air' Type='Mechanic' Cooldown='0'>
+		<AttackMoves>
+			<Move Type='Catapult'/>
+		</AttackMoves>
+	</Unit>
+	<Unit Name='Walker' Code='wk' Category='Medium' Attack='2200' Defense='1500' MovType='All' MovCost='3' AttackCost='1' Range='3' Level='Ground' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Heavy' Type='AttackBonus' Attack='2000' Defense='0' Range='0'/>
+		</Bonus>
+		<PosAttackMoves>
+			<Move Type='InfestationAttack'/>
+			<Move Type='Replicator'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Titan' Code='tt' Category='Heavy' Attack='3500' Defense='2250' MovType='Normal' MovCost='4' AttackCost='1' Range='5' Level='Air' Type='Mechanic' Cooldown='0'>
+		<DefenseMoves>
+			<Move Type='StrikeBack'/>
+		</DefenseMoves>
+	</Unit>
+	<Unit Name='SilverBeard' Code='sb' Category='Heavy' Attack='50000' Defense='100000' MovType='Normal' MovCost='4' AttackCost='1' Range='5' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+			<Move Type='Triple'/>
+		</PosAttackMoves>
+		<AttackMoves>
+			<Move Type='Catapult'/>
+		</AttackMoves>
+	</Unit>
+	<Unit Name='Fenix' Code='f' Category='Heavy' Attack='2500' Defense='2950' MovType='Normal' MovCost='3' AttackCost='1' Range='4' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Rebound'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Interceptor' Code='it' Category='Light' Attack='100' Defense='100' MovType='Diagonal' MovCost='1' AttackCost='1' Range='1' Level='Air' Type='Organic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='ParalyseAttack'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Reaper' Code='re' Category='Light' Attack='500' Defense='250' MovType='Diagonal' MovCost='1' AttackCost='1' Range='2' Level='Air' Type='Mechanic' Cooldown='0'>
+		<PosAttackMoves>
+			<Move Type='Triple'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Raptor' Code='rp' Category='Light' Attack='280' Defense='400' MovType='All' MovCost='1' AttackCost='1' Range='2' Level='Air' Type='Mechanic' Cooldown='0'>
+		<Bonus>
+			<Bonus Target='Light' Type='AttackBonus' Attack='1000' Defense='0' Range='0'/>
+		</Bonus>
+	</Unit>
+	<Unit Name='Spider' Code='sp' Category='Medium' Attack='1800' Defense='2200' MovType='All' MovCost='2' AttackCost='1' Range='3' Level='Ground' Type='Organic' Cooldown='0'>
+		<DefenseMoves>
+			<Move Type='StrikeBack'/>
+		</DefenseMoves>
+		<PosAttackMoves>
+			<Move Type='ParalyseAttack'/>
+		</PosAttackMoves>
+	</Unit>
+	<Unit Name='Krill' Code='kr' Category='Medium' Attack='1500' Defense='1000' MovType='All' MovCost='2' AttackCost='1' Range='3' Level='Air' Type='Mechanic' Cooldown='0'>
+		<DefenseMoves>
+			<Move Type='StrikeBack'/>
+		</DefenseMoves>
+	</Unit>
+	<Unit Name='HeavySeeker' Code='hr' Category='Heavy' Attack='2500' Defense='2200' MovType='Diagonal' MovCost='4' AttackCost='1' Range='5' Level='Air' Type='Organic' Cooldown='0'>
+	</Unit>
+</Units>

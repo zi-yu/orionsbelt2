@@ -1,0 +1,54 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# This is the Language material for www.orionsbelt.eu
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Each XML file contains tokens and associated translations
+to several languages. This is the used structure:
+
+<entry key="BoardMaster">
+	<lang key="en">Board Master</lang>
+	<lang key="pt">Mestre do Tabuleiro</lang>
+</entry>
+
+An entry has a key (key="BoardMaster") and the translated
+text for each language. On this example we have translations
+for generic english and generic portuguese.
+
+# 
+# Other Languages
+#
+
+It there's an entry without yout target language, you can create it:
+
+<lang key="fr">...</lang>	# French
+<lang key="de">...</lang>	# German
+<lang key="es">...</lang>	# Spanish
+
+And so on. If you don't know the language key to use, contact us.
+
+#
+# Rules
+#
+
+» Please don't use the " character
+
+» If you spot on a translation something between brackets, you 
+  can't translated it. For example: "This facility gathers [Energy]";
+  [Energy] will be automatically replaced by the content of the
+  "Energy" entry.
+  
+» You may find something like: "{0}" on the localizations. That means
+  that a variable will be inserted on that location, you shoul keep
+  those tokens on your translation at a suitable place. If you don't
+  understand what's going to be replaced, contact us.
+  
+» Please save the files using UTF8 enconding.
+  
+#
+# Contact
+#
+
+For any questions please use:
+manual@orionsbelt.eu
+
+Thank you!

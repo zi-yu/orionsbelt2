@@ -1,0 +1,87 @@
+<%@ Master Language="C#" CodeBehind="Main.master.cs" Inherits="WebUserInterface.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Orion's Belt Translation Project</title>
+    <link rel='stylesheet' media='screen' type='text/css' href='http://resources.orionsbelt.eu/Styles/v/Engine.css?v=manual-1'></link>
+    <link rel='stylesheet' media='screen' type='text/css' href='http://resources.orionsbelt.eu/Institutional/Styles/Style.css?v=manual-1' />
+    <link rel='stylesheet' media='screen' type="text/css" href="http://manual.orionsbelt.eu/Style/Style.css?v=manual-1" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <input type="hidden" name="path" id="path" value="/" />
+    <input type="hidden" name="imagePath" id="imagePath" value="http://resources.orionsbelt.eu/Images/Common" />
+
+    <div id="mainContent">
+        <div id='topMenu'><ul><li><a href='http://www.orionsbelt.eu/Default.aspx'>Play!</a></li><li><a href='http://www.orionsbelt.eu/Press.aspx'>Press</a></li><li><a href='http://www.orionsbelt.eu/ScreenShots.aspx'>Screen Shots</a></li><li><a href='http://www.orionsbelt.eu/ArtWork.aspx'>Art Work</a></li><li><a href='http://blog.orionsbelt.eu'>Blog</a></li><li><a href='http://gazette.orionsbelt.eu'>Gazette</a></li><li><a href='http://manual.orionsbelt.eu/en/'>Manual</a></li><li><a href='http://lang.orionsbelt.eu/'>Translations</a></li></ul></div>
+        <div id="all">
+            <div id="menuPanel">
+                <Language:LanguageProjectList ID="projectList" runat="server">
+                    <table class="table">
+                        <tr>
+                            <th>Menu</th>
+                        </tr>
+                        <tr><td><a href='Default.aspx'>Home</a></td></tr>
+                        <tr><td><a href='Instructions.aspx'>Instructions</a></td></tr>
+                        <tr><td><a href='Top.aspx'>Top Contributors</a></td></tr>
+                        <Language:RoleVisible Role="admin" runat="server">
+                            <tr><td><a href='Admin/default.aspx'>Admin</a></td></tr>
+                        </Language:RoleVisible>
+                        <Language:RoleVisible Role="guest" runat="server">
+                            <tr><td><a href='Login.aspx'>Login</a></td></tr>
+                            <tr><td><a href='Register.aspx'>Register</a></td></tr>
+                        </Language:RoleVisible>
+                        <Language:RoleVisible ID="RoleVisible1" Role="user" runat="server">
+                            <tr><td><a href='Search.aspx'>Search</a></td></tr>
+                            <tr><td><a href='Login.aspx?Logout=true'>Logout</a></td></tr>
+                        </Language:RoleVisible>
+                        
+                        <tr>
+                            <th>Projects</th>
+                        </tr>
+                        <Language:LanguageProjectItem ID="LanguageProjectItem1" runat="server">
+                            <tr>
+                                <td><LanguageUI:LanguageProjectLink ID="LanguageProjectLink1" runat="server" /></td>
+                            </tr>
+                        </Language:LanguageProjectItem>
+                    </table>
+                </Language:LanguageProjectList>
+            </div>
+            <div id="contentPanel">
+                <div id="contentDialogTop800px">
+                    <div id="pageTitle">Orion's Belt Translation Project</div>
+                </div>
+                <div id="contentDialogMiddle800px">
+                    <div id="contentDialogMiddleContent800px" style="padding:20px 40px;">
+                        <asp:ContentPlaceHolder ID="content" runat="server" />
+                    </div>
+                </div>
+                <div id="contentDialogBottom800px">
+                    <div class="footer">
+                      If you detected some error or are willing
+                      to contribute with translations please use our 
+                      <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> e-mail
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottomContent"></div>
+    <Language:NHStats runat="server" />
+    <script src='http://resources.orionsbelt.eu/Scripts/v/Engine.js?v=manual-1' type='text/javascript' ></script> 
+    </form>
+    <!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-1bYaH28M4CFEs"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-1bYaH28M4CFEs.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+</body>
+</html>

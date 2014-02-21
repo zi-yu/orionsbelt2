@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="BugsFacilitiesContent">
+		<lang key="de"><h2>Gebäude</h2><div class="content">
+    Hier ist ein Bild eines vollentwickelten [Bugs] [Planet] in der [PrivateZone]:
+    
+    <img src="/Resources/Images/BugsFullPower.jpg" class="block"/>  
+    
+    Hier ist eine Liste aller verfügbaren Gebäude:
+  </div></lang>
+		<lang key="en"><h2>Facilities</h2><div class="content">
+    Here is a picture of a full developed [Bugs] [Planet] on the [PrivateZone]:
+    
+    <img src="/Resources/Images/BugsFullPower.jpg" class="block" />  
+    
+    Here is the list of all available facilities:
+  </div></lang>
+		<lang key="es"><h2>Edificios</h2><div class="content"></div></lang>
+		<lang key="fr"><h2>Facilities</h2><div class="content">
+    Voici une image d'une [Planet] [Bugs] complètement développée dans la [PrivateZone]:
+    
+    <img src="/Resources/Images/BugsFullPower.jpg" class="block" />  
+    
+    Voici la liste des constructions disponibles:
+  </div></lang>
+		<lang key="hr"><h2>Postrojenja</h2><div class="content">
+
+Ovdje je slika potpuno razvijenog [Bugs] [Planet] u [PrivateZone]:
+
+<img src="/Resources/Images/BugsFullPower.jpg" class="block" />  
+
+Ovdje je lista svih dostupnih postrojenja:
+</div></lang>
+		<lang key="pt"><h2>Edifícios</h2><div class="content">
+    Aqui está uma imagem de um [Planet] dos [Bugs] na [PrivateZone] no estado máximo de evolução:
+
+    <img src="/Resources/Images/BugsFullPower.jpg" class="block" />
+
+    E aqui está a lista de edifícios disponíveis:
+  </div></lang>
+	</entry>
+
+	<entry key="BugsIntro">
+		<lang key="de"><div class="content"><p>Nach einem missglückten Wurmloch Sprung in ein unerforschtes System, sind [DarkHumans] in Kontakt gekommen mit einer insektoiden Rasse auf dem Planeten Myr. Hier sind sie der Black Widow Queen begegnet, dem Führer der [Bugs] wie sie gennant werden. Ein riesiges spinnenähnliches Wesen das mit ihren Untertanen auf telepatische Weise kommuniziert und die Bildersprache benutzt um mit Aussenseitern zu kommunizieren. Nach ein paar Monaten der Kommunikation formten die [DarkHumans] eine Allianz mit den [Bugs] um die [LightHumans] zu eliminieren und um die Kriegsbeute zwischen beiden Rassen aufzuteilen. Obwohl es ein nützliches Abkommen war für beide Seiten, hatten die [Bugs] einen anderen Plan im Sinn. Ihre wahre Absicht war die [DarkHumans] loszuwerden. Sobald die [LightHumans] eliminiert waren, hatten die [Bugs] die Absicht das akkumulierte Wissen und die Technologie um sie in ihrer Evolution weiterzubringen.</p><p>Für die [Bugs], dieses neue Zeitalter war wie das erste Zeitalter des Orion was die Menschen von Eos hatten, dies war ihre Chance aufzusteigen und ihre Chance ihren Platz als die dominierende Spezies im  Universum einzunehmen. Werden sie in der Lage sein ihre Pläne vor ihren "Allierten" zu verstecken und das Universum durch Täuschung zu erobern?</p><p>Ihre einzigen Ressourcen sind [Elk] und [Protol].</p></div></lang>
+		<lang key="en"><div class="content"><p>After a failed wormhole jump into an uncharted system, the [DarkHumans] came into contact with an insectoid race on planet Myr. There they met the Black Widow Queen, the leader of the [Bugs] ? as they were called ? a giant spider like being that communicates telepathically with her underlings and would use imagery to communicate with outsiders. After a few months of communication the [DarkHumans] formed an alliance with the [Bugs] to take down the [LightHumans] and then split the spoils between the two races. Although this was a beneficial deal for both sides, the [Bugs] had another plan in mind. Their real intent was to get rid of the [DarkHumans]. As soon as the [LightHumans] were disposed, the [Bugs] intended to use the technology and knowledge accumulated to help them leap further in their evolution.</p><p>For the [Bugs], this new age was just like the first age of Orion the humans from Eos had, this was their chance to rise up and take the place as the dominant species on the universe. Will they be able to hide their plans from their "allies" and take the universe by deception?</p><p>Their unique resources are [Elk] and [Protol].</p></div></lang>
+		<lang key="es"><div class="content">
+    Los [Bugs] son una raza de insectos.
+    Sus únicos recursos  son [Elk] y [Protol].
+  </div></lang>
+		<lang key="fr"><div class="content"><p>Suite à un saut disfonctionnale dans un trou stellaire, les [DarkHumans] se sont retrouvés en un endroit inconnu sur l'univers. Ils sont entrés en contact avec une race insectoîde sur la planète Myr. Il ont rencontrés la REine Veuve Noire, cher suprême des [Bugs] une araignée géante communicant par télépathies avec ses sbires et des images mentales pour communiquer avec les étrangers. Après quelques mois de communication, les [DarkHumans] ont formés une alliance avec les [Bugs] pour éliminer les [LightHumans] et se partager le butin de guerre qui en décoularais. Même si ce plan était bénéfique pour les deux partis, les [Bugs] avient un autre plan en tête had another plan in mind. En réalité, ils voulaient aussi éliminer les [DarkHumans]. Dès que les [LightHumans] auraient été éliminés, l'intention des [Bugs] d'utiliser la technologie et le savoir pour pouvoir accéler leur évolution.</p><p>POur les [Bugs], cet âge nouveau serait similaire à celle qu'on connu les humains de la première çage d'orion venant d'Eos. Voilà l'occasion pour ce proclamer race dominante sur tout l'univers! Seont-ils capable de cacher leurs plans à leurs alliés leurs vrais intentions et prendre contrôle du monde par la traîtrise?</p><p>Leurs ressources uniques sont le [Elk] et le [Protol].</p></div></lang>
+		<lang key="hr"><div class="content"><p>Nakon propalog skoka kroz crvotočinu u nekartirani sustav, [DarkHumans] su došli u kontakt sa insektoidnom rasom na planetu Myr. Tamo su upoznali Kraljicu Crnu Udovicu, vođu [Bugs] ? kako su bili zvani ? divovsko biće nalik na pauka koje komunicira telepatski sa svojim underlingsima i koristi se slikama da komunicira s outsajderima. Nakon nekoliko mjeseci komunikacije [DarkHumans] su formirali savez sa [Bugs] da sruše [LightHumans] i onda podijele ratni plijen između njih dvoje. Iako je dogovor bio koristan objema stranama, [Bugs] su imali drugi plan na umu. Njihova stvarna namjera je bila da se riješe [DarkHumans]. Čim se [LightHumans] diponiraju, [Bugs] su namjeravali upotrijebiti nakupljeno tehnologiju i znanje da im pomogne da odskoče dalje sa svojom evolucijom.</p><p>Za [Bugs], ovo novo doba je isto kao i prvo doba Oriona koje su ljudi sa Eos-a imali. Ovo je njihova šansa da se uzdignu i uzmu mjesto kao dominantna vrsta u svemiru. Hoće li uspjeti sakriti svoje planove od njihovih "saveznika" i uzeti svemir kroz prijevaru?</p><p>Njihovi jedinstveni resursi su:
+[Elk] and [Protol].</p></div></lang>
+		<lang key="pt"><div class="content"><p>Depois de um salto falhado por um túnel espacial até território desconhecido, os [DarkHumans] entraram em contacto com uma raça insectoide num planeta de nome Myr. Ai conheceram a Rainha Viuva Negra - como a chamavam -  uma espécie de aracnideo gigante que comunica telepaticamente com os seus subordinados e usa imagens para comunicar com seres exteriores. Após alguns meses, uma aliança foi formada entre os [DarkHumans] e os [Bugs] de modo a acabar com os [LightHumans]. Embora este acordo fosse benéfico para ambas as partes, os [Bugs] tinham outro plano em mente. O seu objecto real era se livrarem dos [DarkHumans]. Assim que os [LightHumans] fossem eliminados, os [Bugs] iriam usar a tecnologia e conhecimento adquirido para atingirem o próximo nivel de evolução.</p><p>Para os [Bugs], esta foi uma era como os Humanos de Eos já haviam tido na primeira era de Orion. Esta era a sua hipotese de erguerem e tomarem o seu lugar como a espécie dominante na galáxia. Serão eles capazes de esconder os seus planos dos seus "aliados" e conquistarem o universo através de traição?</p><p>Os seus recursos únicos são [Elk] e [Protol].</p></div></lang>
+	</entry>
+
+	<entry key="BugsUnitsContent">
+		<lang key="de"><h2>Kampf-Einheiten</h2><div class="content">
+    [Bugs] haben [CombatUnits] die die beste Mobilität haben.
+
+  </div></lang>
+		<lang key="en"><h2>Combat Units</h2><div class="content">
+    [Bugs] have [CombatUnits] that have the best mobility.
+
+  </div></lang>
+		<lang key="es"><h2>Unidades de Combate</h2><div class="content">
+    Los [Bugs] tienen [CombatUnits] de las mas moviles del juego.
+
+  </div></lang>
+		<lang key="fr"><h2>Combat Units</h2><div class="content">
+    [Bugs] ont les [CombatUnits] ayant une grande mobilité.
+
+  </div></lang>
+		<lang key="hr"><h2>Borbene Jedinice</h2><div class="content">
+Bugs] imaju [CombatUnits] koje imaju najbolju mobilnost.
+
+</div></lang>
+		<lang key="pt"><h2>Unidades de Combate</h2><div class="content">
+    Os [Bugs] têm [CombatUnits] das mais móveis do jogo.
+
+  </div></lang>
+	</entry>
+
+	<entry key="DarkHumansFacilitiesContent">
+		<lang key="de"><h2>Gebäude</h2><div class="content">
+    Hier ist ein Bild eines vollenwickelten [DarkHumans] [Planet] in der [PrivateZone]:
+
+    <img src="/Resources/Images/DarkFullPower.jpg" class="block"/>
+
+    Hier ist eine Liste aller verfügbaren Gebäude:
+  </div></lang>
+		<lang key="en"><h2>Facilities</h2><div class="content">
+    Here is a picture of a full developed [DarkHumans] [Planet] on the [PrivateZone]:
+
+    <img src="/Resources/Images/DarkFullPower.jpg" class="block" />
+
+    Here is the list of all available facilities:
+  </div></lang>
+		<lang key="es"><h2>Edificios</h2><div class="content"></div></lang>
+		<lang key="fr"><h2>Constructions</h2><div class="content">
+    Voici l'image d'une  [Planet] complètement développée des [DarkHumans] dans la [PrivateZone]:
+
+    <img src="/Resources/Images/DarkFullPower.jpg" class="block" />
+
+    Voici la liste des constructions disponibles:
+  </div></lang>
+		<lang key="hr"><h2>Postrojenja</h2><div class="content">
+Ovdje je slika potpuno razvijenog [DarkHumans] [Planet] u [PrivateZone]:
+
+<img src="/Resources/Images/DarkFullPower.jpg" class="block" />
+
+Ovdje je lista svih dostupnih postrojenja:
+</div></lang>
+		<lang key="pt"><h2>Edifícios</h2><div class="content">
+    Aqui está uma imagem de um [Planet] dos [DarkHumans] na [PrivateZone] no estado máximo de evolução:
+
+    <img src="/Resources/Images/DarkFullPower.jpg" class="block" />
+
+    E aqui está a lista de edifícios disponíveis:
+  </div></lang>
+	</entry>
+
+	<entry key="DarkHumansIntro">
+		<lang key="de"><div class="content"><p>Das Aufteilen der Rebell-Fraktionen der [LightHumans] und die Formierung der [DarkHumans] war ein abrupter aber erwarteter Ausgang der Situation. Nach der Flucht zu einem anderen System mit der gestohlenen Wurm-Loch Technologie, dachten die [DarkHumans] ein Klon des Utopia Projekts zu machen , aber mit den spärlichen Ressourcen die sie am Anfang hatten, kamen die [DarkHumans] auf die Idee mechanische Implantate zu benutzen um ihre Lebensdauer zu erhöhen. Dies gab ihnen auch zusätzliche Stärke und Resistenz was sie zu einem ehrfürchtigen Feind machte. Sie lebten von der Weltraum-Piraterie und organisiertem Handelzwischen ihren Gruppen. Danach, waren sie endlich in der Lage aus den Schatten zu treten und den [LightHumans] Front zu machen.</p><p>Die Allianz mit den kürzlich entdeckten [Bugs] und ihre gemeinsamen Ziele machten sie mächtig und zu einer Bedrohung für die [LightHumans]. Das zweite Zeitalter des Orion kann sehr wohl das Zeitalter der [DarkHumans] sein!</p><p>Ihre einzigartigen Ressourcen sind [Gold], [Titanium] und [Uranium].</p></div></lang>
+		<lang key="en"><div class="content"><p>The splitting of the rebel factions of the [LightHumans] and the formation of the [DarkHumans] was an abrupt but expected outcome. After their escape to another system using the stolen wormhole technology, the [DarkHumans] felt they should do a clone of Project Utopia, but with the scarce resources they had in the beginning, the [DarkHumans] came up with the idea of using mechanical implants to further their lifespan. This also gave them more strength and resistance which made them a vicious enemy. They lived off space piracy and organized trade between their groups. Then, they finally were able to move out of the shadows and impose themselves in sight of the [LightHumans].</p><p>The alliance with the newly found [Bugs] and their joint objectives made them powerful and a threat to the [LightHumans]. The Second Age of Orion can be the Age of the [DarkHumans]!</p><p>Their unique resources are [Gold], [Titanium] and [Uranium].</p></div></lang>
+		<lang key="es"><div class="content">
+    Las [DarkHumans] es una raza de humanos.
+    Sus  únicos recursos son [Gold], [Titanium] y [Uranium].
+  </div></lang>
+		<lang key="fr"><div class="content"><p>La séparation de la facion rebelle des [LightHumans] et la formation des [DarkHumans] fût rapide mais prévisible. Suite à leur fuite vers un autre système à l'aide de la technologie de création de trous stellaire volée, les [DarkHumans] ont décidés de clôner le projet "Utupia". Ayant peu de ressources au départ, les [DarkHumans] ont eu l'idée d'utiliser des implants mécaniques pour allonger leur durée de vie. Cela leur donna aussi une force et résistance hors du commun, fesant d'eux un adversaire redoutable. La plupart ont d'abord vécu à l'aoide de pilage et en organisant des échanges entre groupes. Ensuite, ils sont devenus assez puissant pour sortir de l'ombre et révéler leur vrai visage à l'univers en s'imposant aux [LightHumans].</p><p>Leur nouvelle alliance avec les [Bugs] et lleurs objectifs commun les rendent enocre plus puissantet en fait une vrai menace pour les [LightHumans]. TLa deixème âge 'Orions pourrait bien être elle des [DarkHumans]!</p><p>Leurs ressouces uniques sont l'[Gold], le [Titanium] et le [Uranium].</p></div></lang>
+		<lang key="hr"><div class="content"><p> Razdvajanje pubunjeničke fakcije od [LightHumans] i formiranje [DarkHumans] je žestok ali očekivan ishod. Nakon njihovoga bijega u drugi sustav služeći se ukradenom tehnologijom crvotočina, [DarkHumans] su osjetili da bi mogli napraviti kopiju projekta Utopia, ali sa nedovljnim resursima koje su imali u početku, [DarkHumans] su došli na ideju da upotrijebe mehaničke implante da produže svoj životni vijek. Ovo im je također dalo više snage i otpornosti koja je od njih napravila opakog neprijatelja. Živjeli su od svemirskog piratstva i organizirane trgovine između njihovih grupa. Kasnije su napokon uspjeli da iziđu iz sjene i otkriju se [LightHumans].</p><p> Savez sa novopronađenim [Bugs] i njihov zajednički cilj učinio ih je moćnima i prijetnjom [LightHumans].
+Drugo doba Oriona može biti doba [DarkHumans]!</p><p>Njihovu jedinstveni resursi [Gold], [Titanium] and [Uranium].</p></div></lang>
+		<lang key="pt"><div class="content"><p>A divisão das facções rebeldes dos [LightHumans] e a formação dos [DarkHumans] era um final esperado. Após escaparem para outro sistema usando a tecnologia de wormhole roubada, os [DarkHumans] sentiram que deviam clonar o projecto Utopia. Mas, com os fracos recursos que eles tinham de início, os [DarkHumans] tiverama ideia de usar implantes mecânicos para aumentar a sua longevidade. Isto deu-lhes mais força e resistência o que os tornou um inimigo poderoso. Viviam de pirataria espacial e de trocas comerciais entre os seus diversos grupos. Então, eles foram finalmente capazes de sair das sombras e fazer frente aos [LightHumans].</p><p>A aliança com os [Bugs] e os seus objectivos comuns tornaram-os poderosos e uma ameaça para os [LightHumans]. A segunda era de Orion pode muito bem ser a Era dos [DarkHumans]!</p>
+    Os seus recursos únicos são [Gold], [Titanium] e [Uranium].
+  </div></lang>
+	</entry>
+
+	<entry key="DarkHumansUnitsContent">
+		<lang key="de"><h2>Combat Units</h2><div class="content">
+    [DarkHumans] haben [CombatUnits] die mit tödlicher Feuerkraft ausgerüstet sind.
+
+  </div></lang>
+		<lang key="en"><h2>Combat Units</h2><div class="content">
+    [DarkHumans] have [CombatUnits] that are armed with deadly fire power.
+
+  </div></lang>
+		<lang key="es"><h2>Unidades de Combate</h2><div class="content">
+    Los [DarkHumans] tienen [CombatUnits] mas preparadas para atacar que para defender.
+
+  </div></lang>
+		<lang key="fr"><h2>Unités de Combat</h2><div class="content">
+    [DarkHumans] ont des [CombatUnits] armés d'une artillerie puissante.
+
+  </div></lang>
+		<lang key="hr"><h2>Borbene Jedinice</h2><div class="content">
+[DarkHumans] imaju [CombatUnits] koje su naružane sa smrtonosnom vatrenom moći.
+
+</div></lang>
+		<lang key="pt"><h2>Unidades de Combate</h2><div class="content">
+    Os [DarkHumans] têm [CombatUnits] mais preparadas para atacar do que para defender.
+
+  </div></lang>
+	</entry>
+
+	<entry key="LightHumansFacilitiesContent">
+		<lang key="de"><h2>Gebäude</h2><div class="content">
+    ier ist ein Bild eines vollentwickelten [LightHumans] [Planet] in der [PrivateZone]:
+
+    <img src="/Resources/Images/[LightHumans]FullPower.jpg" class="block"/>
+
+    Hier ist eine Liste aller verfügbaren Gebäude:
+  </div></lang>
+		<lang key="en"><h2>Facilities</h2><div class="content">
+    Here is a picture of a full developed [LightHumans] [Planet] on the [PrivateZone]:
+
+    <img src="/Resources/Images/[LightHumans]FullPower.jpg" class="block" />
+
+    Here is the list of all available facilities:
+  </div></lang>
+		<lang key="es"><h2>Edificios</h2><div class="content"></div></lang>
+		<lang key="fr"><h2>Constructions</h2><div class="content">
+    Voici l'image d'une [Planet] des [LightHumans]complètement développée dans la [PrivateZone]:
+
+    <img src="/Resources/Images/[LightHumans]FullPower.jpg" class="block" />
+
+   Voici la liste de toutes les constructions disponibles:
+  </div></lang>
+		<lang key="hr"><h2>Postrojenja</h2><div class="content">
+Ovdje je slika pootpuno rezvijenog [LightHumans] [Planet] u [PrivateZone]:
+
+<img src="/Resources/Images/[LightHumans]FullPower.jpg" class="block" />
+
+Ovdje je lista svih dostupnih postrojenja:
+</div></lang>
+		<lang key="pt"><h2>Edifícios</h2><div class="content">
+    Aqui está uma imagem de um [Planet] dos [LightHumans] na [PrivateZone] no estado máximo de evolução:
+
+    <img src="/Resources/Images/[LightHumans]FullPower.jpg" class="block" />
+
+    E aqui está a lista de edifícios disponíveis:
+   </div></lang>
+	</entry>
+
+	<entry key="LightHumansIntro">
+		<lang key="de"><div class="content"><p>Nach der Enthüllung des Projekts Utopia und die Pläne die Lebensdauer eines normalen Menschen durch medizinische Wissenschaft zu erhöhen, änderten die Menschen ihren Namen zu [LightHumans]. "Utopia" würde ihnen erlauben sich im Universum auszubreiten, und mehr Planeten zu bevölkern und besiedeln. Dennoch war der Konflikt mit den kürzlich geformten [DarkHumans] und der Diebstahl der Wurmloch-Technologie Entwürfe ein Rückschlag in den Plänen der [LightHumans]. Dazu, das Aufsteigen der [Bugs] und ihre Allianz mit den [DarkHumans] waren Bedrohungen die die [LightHumans] nicht länger ignorieren konnten um ihr Überleben willen.</p><p>Das zweite Zeitalter des Orion auf der Utopian Seite markiert eine totale Veränderung ihrer Ziele: nicht länger sind sie die dominante Kraft im Universum aber sie wurden auch zur gejagten Fraktion deren Kriegsbeute nach der Niederlage mehr als genug ist um unter der Allianz aufzuteilen die sie gejagt hat.</p><p>Ihre einzigartigen Ressourcen sind [Energy], [Serium] and [Mithril].</p></div></lang>
+		<lang key="en"><div class="content"><p>After the unveiling of Project Utopia and the plans to enhance the lifetime of a normal human via medical science, the humans changed their name to [LightHumans]. "Utopia" would enable them to spread over the universe, colonize and populate more planets. Still the conflict with the newly formed [DarkHumans] and the stealing of the wormhole technology blueprints were a setback in the plans of the [LightHumans]. Also, the rising up of the [Bugs] and their alliance with the [DarkHumans] were threats that the [LightHumans] could not ignore any longer for the sake of their survival.</p><p>The Second Age of Orion on the Utopian side marks a total shift in their objectives: no longer are they the dominant force on the universe but also they have become the hunted faction whose spoils after defeat are more than enough to share between the alliance that was hunting them.</p><p>Their unique resources are [Energy], [Serium] and [Mithril].</p></div></lang>
+		<lang key="es"><div class="content">
+    Las [LightHumans] es una raza de  humanos.
+    Sus únicos recursos  son [Energy], [Serium] y [Mithril].
+  </div></lang>
+		<lang key="fr"><div class="content"><p>Suite à l'ambitieux ambitieux projet Utopia et leurs plans d'augmenter dratiquement la longévité d'un humain normal grâce à la science médical, les humains ont changés leur nom pour [LightHumans]. Leur "Utopie"  leur aurait permis de se répandre à travers l'univers et coloniser d'autres planètes. Le conflit engendrée avec l'apparition des [DarkHumans] et leur vol de la technologie de fabrication de trou stellaire a été quelque peu nuisible pour les [LightHumans]. De plus, l'inquiétante progression des [Bugs] sur l'univers et leur alliance  avec les [DarkHumans] fût une menace pour les [LightHumans] qu'il ne pouvaient ignorer, question de survie.</p><p>L'entrée dans le deuxième âge d'Orions belt marque un changement drastique des objectifs des Utopiens. Ils ne sont plus la force dominante sur l'univers, ils sont même la proie dont les trésors semble suffisant pour satisfaire leurs adversaires.</p><p>Leurs ressources uniques sont l'[Energy], le [Serium] et le [Mithril].</p></div></lang>
+		<lang key="hr"><div class="content"><p>Nakon razotkrivanja Projekta Utopia i planova da se produži život normalnog čovjeka kroz medicinsku znanost ljudi su promijenili svoje imu u [LightHumans] "Utopia" bi im omogućila da se prošire svemirom, koloniziraju i napuče više planeta. Ipak sukob s novoformiranim [DarkHumans] i kranje nacrat tehnologije o crvotočinama je bila prepreka u planovima [LightHumans]. Također uspon [Bugs] i njihovo savezništvo sa [DarkHumans] je bila prijetnja koju [LightHumans] nisu mogli više ignorirati ukoliko su mislili osigurati vlastito preživljavanje.</p><p> Drugo Doba Oriona na strani Utopiansa označava potpuni zaokret u njihovim ciljevima: oni više nisu dominantna sila u svemiru već su postali progonjena fakcija čiji je ratni plijen nakon poraza i više nego dovoljan da ga podijele saveznici koji su ih lovili.</p><p>Njihovi jedinstveni reusrsi su:
+[Energy], [Serium] and [Mithril].</p></div></lang>
+		<lang key="pt"><div class="content"><p>Após o desvendar do projecto Utopia e os planos para aumentar o tempo de vida normal de um ser humano através de ciência médica, os humanos mudaram os seus nomes para [LightHumans]. "Utopia" iria permitir-lhes espalhar por todo o universo, colonizar e popular mais planetas. Contudo, o conflito com a recente formada facção de [DarkHumans] e o roubo dos planos para a nova tecnologia de wormhole foi um grande recuo nos planos dos [LightHumans]. O erguer dos [Bugs] e a sua aliança com os [DarkHumans] foram ameaças que os [LightHumans] não podia ignorar. A sua sobrevivência estava em risco.</p><p>A segunda era de Orion, para os [LightHumans], marca uma mudança nos seus planos: não só não são a força dominante no universo como também se tornaram uma facção caçada cujos despojos após a derrota são mais que suficientes para partilhar entre a aliança que os caça.</p>
+    Os seus recursos únicos são [Energy], [Serium] e [Mithril].
+  </div></lang>
+	</entry>
+
+	<entry key="LightHumansUnitsContent">
+		<lang key="de"><h2>Kampf-Einheiten</h2><div class="content">
+    [LightHumans] haben [CombatUnits] die besser vorbereitet sind für die Verteidigung als für die 
+    Feuerkraft.
+
+  </div></lang>
+		<lang key="en"><h2>Combat Units</h2><div class="content">
+    [LightHumans] have [CombatUnits] more prepared for defense than for fire power.
+
+  </div></lang>
+		<lang key="es"><h2>Unidades de Combate</h2><div class="content">
+    Los [LightHumans] tienen [CombatUnits] mas preparadas para defender que para atacar. 
+  </div></lang>
+		<lang key="fr"><h2>Combat Units</h2><div class="content">
+    [LightHumans] ont les [CombatUnits] optimisés pour se défendre d'abord et avant tout.
+
+  </div></lang>
+		<lang key="hr"><h2>Borbene Jedinice</h2><div class="content">
+[LightHumans] imaju [CombatUnits]  keje su više pripremljene za obranu nego za vatrenu moć.
+
+</div></lang>
+		<lang key="pt"><h2>Unidades de Combate</h2></lang>
+	</entry>
+
+	<entry key="MercsIntro">
+		<lang key="de"><div class="content"><p>Sie kommen aus den Tiefen des Universums. Sie sind eine Gruppe von Piraten, Söldnern, Dieben... nenne sie wie immer du willst.</p><p>Sie bedeuten Zerstörung. Sie greifen alles an was in ihre Sichtweite kommt. Mit ihren überlegenen Einheiten, gebaut mit Technologie die durch die Jahrzehnte hindurch gestohlen wurde, sind sie ein erbitterter Gegner.</p><p>Geführt von dem rücksichtslosen Metallic Beard und ihren fast unzerstörbaren Einheiten, stellen sie eine echte Bedrohung für alle Rassen im Universum dar.</p></div></lang>
+		<lang key="en"><div class="content"><p>They come from the depths of the Universe. They are a group of pirates, mercenaries, thugs... call them whatever you like.</p><p>They are destruction. They attack everything they put their eyes on. With their superior units, built with technology stolen through the centuries, they are a fierce enemy.</p><p>Lead by the ruthless Metallic Beard and it's almost indestructible ship, they oppose a serious threat to all the races in the universe.</p></div></lang>
+		<lang key="fr"><div class="content"><p>Ils viennent des profondeurs noirs de l'univers. C'est un groupe de pirates composés des pires brutes, lascars et mercenaires...appelés les comme bon vous semble.</p><p> Ils sont synonymes de destruction. Ils attaquent tout ce qu'ils voient. Avec leurs vaisseaux supérieurs, construit è l'aide de technologies volés au fil des pillages, c'est unr armée formidablement féroce.</p><p>Dirigé par l'impitoyable Barbe Métallique et sont vaisseau pratiquement indestructible, les Mercs sont une menace pour tous ce qui respire sur l'univers...</p></div></lang>
+		<lang key="hr"><div class="content"><p>Došli su iz dubina Svemira. Oni su grupa pirata, plaćenika, razbijača...zovite ih kako god da želite. </p><p>Oni su destrukcija. Napadaju sve na što im padne pogled. Sa njihovom superiornom tehnologijom koju st ukrali tokom stoljeća, oni su žestok neprijatelj. </p><p>Vođeni od okrutnoga Metalne Brade i njegovoga skoro neuništivoga broda, predstavljaju ozbiljnu prijetnju svim rasam u svemiru.</p></div></lang>
+		<lang key="pt"><div class="content"><p>Eles vêm dos confins da galáxia. São um grupo de piratas, mercenários, bandidos... chamem-lhes o que quiseres. Eles são a destruição.</p><p>Eles atacam tudo onde põe os olhos em cima. Com as suas naves superiores, equipadas com tecnologia roubada ao longo dos séculos, fazem com que sejam um inimigo a ter cuidado.</p><p>Liderados pelo um bandido sem escrúpulos chamado Barba Metálica e a sua quase indestrutível nave, eles são uma verdadeira ameaça para todas as raças da galáxia.</p></div></lang>
+	</entry>
+
+</resources>

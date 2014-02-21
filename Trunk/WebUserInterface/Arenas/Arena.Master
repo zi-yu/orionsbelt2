@@ -1,0 +1,8 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/OrionsBeltTournament.Master" Inherits="OrionsBelt.WebUserInterface.ArenaMaster" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+    
+    <OrionsBeltUI:ArenaMenu runat="server"></OrionsBeltUI:ArenaMenu>
+    
+    <asp:ContentPlaceHolder ID="Content" runat="server" />
+</asp:Content>

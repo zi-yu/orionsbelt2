@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<roles>
+	<role name="admin">
+    <role name="financial">
+      <role name="gameMaster">
+        <role name="admiral">
+          <role name="user" />
+        </role>
+      </role>
+	  </role>
+  </role>
+	<role name="guest" />
+</roles>

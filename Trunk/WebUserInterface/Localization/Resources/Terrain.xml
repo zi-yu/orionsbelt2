@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="true">
+
+	<entry key="Desert">
+		<lang key="de">Wüste</lang>
+		<lang key="en">Desert</lang>
+		<lang key="es">Desierto</lang>
+		<lang key="fr">Désert</lang>
+		<lang key="hr">Pustinja</lang>
+		<lang key="hu">Sivatag</lang>
+		<lang key="it">Deserto</lang>
+		<lang key="pt">Deserto</lang>
+		<lang key="ro">Deşert</lang>
+		<lang key="ru">Пустыня</lang>
+		<lang key="se">Öken</lang>
+	</entry>
+
+	<entry key="Forest">
+		<lang key="de">Wald</lang>
+		<lang key="en">Forest</lang>
+		<lang key="es">Bosque</lang>
+		<lang key="fr">Forêt</lang>
+		<lang key="hr">Šuma</lang>
+		<lang key="hu">Erdő</lang>
+		<lang key="it">Foresta</lang>
+		<lang key="pt">Floresta</lang>
+		<lang key="ro">Pădure</lang>
+		<lang key="ru">Лес</lang>
+		<lang key="se">Skog</lang>
+	</entry>
+
+	<entry key="Ice">
+		<lang key="de">Eis</lang>
+		<lang key="en">Ice</lang>
+		<lang key="es">Hielo</lang>
+		<lang key="fr">Glace</lang>
+		<lang key="hr">Led</lang>
+		<lang key="hu">Jég</lang>
+		<lang key="it">Ghiaccio</lang>
+		<lang key="pt">Gêlo</lang>
+		<lang key="ro">Gheaţă</lang>
+		<lang key="ru">Лед</lang>
+		<lang key="se">Is</lang>
+	</entry>
+
+	<entry key="Rock">
+		<lang key="de">Felsen</lang>
+		<lang key="en">Rock</lang>
+		<lang key="es">Roca</lang>
+		<lang key="fr">Roche</lang>
+		<lang key="hr">Kamen</lang>
+		<lang key="hu">Szikla</lang>
+		<lang key="it">Terra</lang>
+		<lang key="pt">Rocha</lang>
+		<lang key="ro">Rocă</lang>
+		<lang key="ru">Камень</lang>
+		<lang key="se">Sten</lang>
+	</entry>
+
+	<entry key="Space">
+		<lang key="de">Weltraum</lang>
+		<lang key="en">Space</lang>
+		<lang key="es">Espacio</lang>
+		<lang key="fr">Espace</lang>
+		<lang key="hr">Svemir</lang>
+		<lang key="hu">Űr</lang>
+		<lang key="it">Spazio</lang>
+		<lang key="pt">Espaço</lang>
+		<lang key="ro">Spaţiu</lang>
+		<lang key="ru">Космос</lang>
+		<lang key="se">Utrymme</lang>
+	</entry>
+
+	<entry key="Terrain">
+		<lang key="de">Terrain</lang>
+		<lang key="en">Terrain</lang>
+		<lang key="es">Terreno</lang>
+		<lang key="fr">Terrain</lang>
+		<lang key="hr">Kopno</lang>
+		<lang key="hu">Terep</lang>
+		<lang key="it">Terreno</lang>
+		<lang key="pt">Terreno</lang>
+		<lang key="ro">Pământ</lang>
+		<lang key="ru">Поверхность</lang>
+		<lang key="se">Terräng</lang>
+	</entry>
+
+	<entry key="Terrest">
+		<lang key="de">Terrestrisch</lang>
+		<lang key="en">Terrest</lang>
+		<lang key="es">Terrestre</lang>
+		<lang key="fr">Terre</lang>
+		<lang key="hr">Zemlja</lang>
+		<lang key="hu">Szárazföld</lang>
+		<lang key="it">Terrestre</lang>
+		<lang key="pt">Terrestre</lang>
+		<lang key="ro">Pământ cu Roci</lang>
+		<lang key="ru">Почва</lang>
+		<lang key="se">Jordisk</lang>
+	</entry>
+
+	<entry key="Water">
+		<lang key="de">Wasser</lang>
+		<lang key="en">Water</lang>
+		<lang key="es">Agua</lang>
+		<lang key="fr">Eau</lang>
+		<lang key="hr">Voda</lang>
+		<lang key="hu">Víz</lang>
+		<lang key="it">Acqua</lang>
+		<lang key="pt">Água</lang>
+		<lang key="ro">Apă</lang>
+		<lang key="ru">Вода</lang>
+		<lang key="se">Vatten</lang>
+	</entry>
+
+</resources>

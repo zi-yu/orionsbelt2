@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="DispensableUnitsPart1">
+		<lang key="de"><div class="content">
+    Die [DispensableUnits] ist die <u>meistbenutzte Taktik auf [OB]</u>! Es werde kleine Mengen von 
+    [Light] benutzt um andere, wichtigere Einheiten auf dem [GameBoard] zu verteigen. Eine [Light] 
+    Einheit ist sehr günstig und hat gute Beweglichkeit deshalb wird sie aufgeopfert um mächtigere 
+    [CombatUnits] zu beschützen.
+    Deshalb wird sie <i>Kanonen-Futter</i> genannt.
+    <p>
+    Normalerweise benutzen wir [Light] Einheiten, mit [MovAll] und [MovCost] von 1 als
+    [DispensableUnits]. Zum Beispiel:
+    [Rain], [Anubis], [Seeker], [Raptor] und wenn du wirklich verzweifelt bist: [Kamikaze].
+
+    </p><p>
+    Lass unsdas folgende Beispiel analysieren:
+
+    <img class="block" src="/Resources/Images/DispensableUnits1.png" alt="Beispiel 1 für Kanonen-
+    Futter 1"/>
+
+   Wie wir sehen können, haben wir zwei Gruppen von [Crusader] die eine Gruppe von [Spider] bedrohen. 
+   Sie werden nicht in der Lage sein anzugreifen weil dort 2 kleine Gruppen [Anubis] im eg stehen. 
+   Und so ist es nicht wert sich zu bewegen und anzugreifen nur um eine kleine Anzahl von 
+   [CombatUnits] zu zerstören.
+    </p><p>
+    Die [DispensableUnits] Taktik ist sehr wichtig und wird von allen Spielern benutzt. Aber den 
+    gegnerischen Angriff zu deaktivieren ist nicht das Einzige was man mit [DispensableUnits] machen 
+    kann.
+
+    </p><h2>Gegner-Bewegung stoppen</h2>
+
+    Auf [OB] nur eine Einheit zu haben [Light] auf einem [GameBoard] Viereck. Und der Hauptvorteil 
+    daran ist dass die gegnerische Einheit auf dieses Viereck gehen kann ohne die [Light] zuerst zu 
+    zerstören.
+    Das bedeutet: Wir können [Light] [CombatUnits] benutzen um zu verhindern dass gegnerische 
+    Einheiten auf eine Angriffsposition sich bewegen.
+    Lass uns das vorige Beispiel analysieren, indem wir einen anderen Weg zeigen die [Spider] zu 
+    beschützen:
+
+    <img class="block" src="/Resources/Images/DispensableUnits2.png" alt="Beispiel 1 für 
+    Kanonenfutter"/>
+
+    Diese Methode ist besonders nützlich gegen Einheiten mit [Catapult], die [DispensableUnits]  
+    ignorieren und wie auch immer attackieren können. Also, wenn du den Angriff nicht verhindern 
+    kannst, ziehe in Betracht die Bewegung die einen Angriff ermöglicht zu verhindern
+    (vergiss diesen Tip nicht wenn du mit [Vector] oder [Eagle] zu tun hast ).
+
+    <h2>Wie man Kanonen-Futter bekämpft?</h2>
+
+    [DispensableUnits] zu bekämpfen kann zum Geduldsspiel werden, wo du weitermachst und die 
+    [DispensableUnits] des Gegners zerstörst und bist du eine Öffnung kreieren, oder der Gegner ein 
+    Fehler macht.
+    <p>
+    Dennoch, gibt es einige [CombatUnits] die besonders nützlich sind gegen [DispensableUnits]. Alle 
+    Einheiten mit diesen Fähigkeiten:
+    [TripleAttack], [BombAttack] and [Ricochet] können mehr als eine Einheiten-Gruppe pro Angriff 
+    zerstören. 
+    Auf der anderen Seite, können Einheiten mit [Catapult] in [Range] die 
+    [DispensableUnits] des Gegners für einen direkten Angriff umzingeln.
+    </p><p>
+    Aber der beste Weg die [DispensableUnits] zu bekämpfen ist einfach sie alle zu zerstören! Wenn du 
+    alle [Light] Einheiten deines Gegners zerstörst, wird er unfähig sein die [DispensableUnits] zu 
+    benutzen und mit Sicherheit verlieren.
+    Eine sehr gute Einheit gegen [Light] Einheiten ist der [Raptor]. Mit einem substantiellen Angriff-Bonus 
+    gegen [Light] Einheiten und eine [Range] von zwei, ist der [Raptor] <u>die</u> der ultimative 
+    [Light] Einheiten Jäger!
+
+  </p></div></lang>
+		<lang key="en"><div class="content">
+    The [DispensableUnits] is the <u>most used tactic on [OB]</u>! It consists on using small amounts of
+    [Light] units to defend other more important unit groups on the [GameBoard]. A [Light] unit is very
+    cheap and has good movement and so, it's ideal to be sacrified to protect more powerful [CombatUnits].
+    That's why it's called <i>cannon fodder</i>.
+    <p />
+    Normally we use [Light] units, with [MovAll] and [MovCost] of 1 as [DispensableUnits]. For example:
+    [Rain], [Anubis], [Seeker], [Raptor] and if you're really desperate: [Kamikaze].
+
+    <p />
+    Lets analyse the following example:
+
+    <img class="block" src="/Resources/Images/DispensableUnits1.png" alt="Exemplo de Carne para Canhão 1" />
+
+    As we can see, we have two groups of [Crusader] treatining a group of [Spider]. But they won't be
+    able to attack because there are 2 small groups of [Anubis] in the way. And it's not worth moving and attacking
+    just to destroy such small amount of [CombatUnits].
+    <p />
+    The [DispensableUnits] tactic is very important and it's used by all players. But disabling the adversary's
+    attack isn't the only use of [DispensableUnits].
+
+    <h2>Stop Adversary Movement</h2>
+
+    On [OB] it's possible to have only 1 unit of [Light] on one [GameBoard] square. And the main advantage
+    of doing so is that no adversary unit can move onto that square without destroying the [Light] first.
+    Meaning: we can use [Light] [CombatUnits] to prevent adversary units to move to an attacking position.
+    Lets analyse the previous example, now showing another way to protect the [Spider]:
+
+    <img class="block" src="/Resources/Images/DispensableUnits2.png" alt="Exemplo de Carne para Canhão 1" />
+
+    This method is particularly useful agains units with [Catapult], that may ignore [DispensableUnits] and
+    attack anyway. So, if you can't prevent the attack, consider preventing the move that will enable the attack
+    (don't forget this tip if you're up against [Vector] or [Eagle]).
+
+    <h2>How to Fight Cannon Fodder?</h2>
+
+    Fighting [DispensableUnits] can be a game of patience, where you just go by destroying the opponent's 
+    [DispensableUnits] until you create an oppening, or the opponent makes a mistake.
+    <p />
+    However, there are some [CombatUnits] specially useful agains [DispensableUnits]. All units with the abilities:
+    [TripleAttack], [BombAttack] and [Ricochet] may destroy more than one group of units per attack. On the
+    other hand, units with [Catapult] in [Range] may circumvent the opponent's [DispensableUnits] for a direct attack.
+    <p />
+    But the best way to fight [DispensableUnits] is simply to destroy them all! If you destroy all of your
+    opponent's [Light] units, he'll be unable to use [DispensableUnits] and will loose for sure.
+    A very good unit agains [Light] units is the [Raptor]. With a substantial attack bonus against
+    [Light] units and a [Range] of two, the [Raptor] is <u>the</u> ultimate [Light] unit' hunter!
+
+  </div></lang>
+		<lang key="es"><div class="content">
+    La táctica [DispensableUnits] es la <u>táctica más usada en el [OB]</u>! Consiste en usar pequeñas cantidades
+    de unidades de [Light] para defender grupos importantes de unidades. Como una unidade de [Light] es
+    <i>barata</i> y tiene muy buen movimiento, es ideal para ser sacrificada para proteger [CombatUnits] mas poderosas.
+    De ahí el nombre <i>carne de cañon</i>.
+    <p />
+    Normalmente las unidades mas usadas como [DispensableUnits] son unidades de [Light], [MovAll] y
+    [MovCost] de 1, como las [Rain], [Anubis], [Seeker], [Raptor] y en último caso hasta las [Kamikaze].
+
+    <p />
+    Veamos el seguiente ejemplo:
+    
+    <img class="block" src="/Resources/Images/DispensableUnits1.png" alt="Exemplo de Carne para Canhão 1" />
+
+    Como podemos ver, tenemos 2 grupos de [Crusader] amenazando un grupo de [Spider]. Pero no van a lograr
+    atacar porque existen 2 pequeños grupos de [Anubis] en la línea de fuego. Y no representa ventajas para el jugador de 
+    [Crusader] mover y atacar pues destruíra muy pocas [CombatUnits].
+    <p />
+    La tactica [DispensableUnits] es muy importante y usada por todos los jogadores. Pero impedir el
+    ataque directo no es la única utilidad de la táctica [DispensableUnits].
+
+    <h2>Impedir Movimentos Aversários</h2>
+
+    En el [OB] es possible tener solamente 1 unidad de [Light] en una cuadrícula. Y una de las posibles ventajas
+    es que ninguna unidad adversária se puede mover para esa quadrícula sin primero ser destruida. O sea,
+    podemos usar [CombatUnits] de [Light] para impedir a las unidades adversárias de tomen una posición peligrosa.
+    Retomemos o ejemplo anterior, enseguida esta es otra forma de proteger una [Spider]:
+
+    <img class="block" src="/Resources/Images/DispensableUnits2.png" alt="Exemplo de Carne para Canhão 1" />
+    
+    Este método es especialmente útil contra unidades con [Catapult] que pueden atacar encima de las [DispensableUnits].
+    No siendo posible impedir el ataque directo, podrá ser posible impedir el movimento de la unidad adversária
+    para la posición de ataque (no olvidar este detalle cuando el adversário tiene [Vector] o [Eagle]).
+
+    <h2>Combater la Carne de Cañon</h2>
+    
+    Normalmente la única manera de combatir las [DispensableUnits] es simplemente un juego de paciéncia en que vamos
+    destruyendo las defensas del adversário hasta que el cometa un error o surja una abertura.
+    <p />
+    Existen también [CombatUnits] con habilidades especiales, que son extremamente útiles contra las [DispensableUnits],
+    relativamente a las habilidades: [TripleAttack], [BombAttack] y [Ricochet], pués pueden destruir más de un grupo
+    de unidades por ataque. Por otro lado, unidades con [Catapult] consiguen eludir [DispensableUnits] si
+    estuvieran en el [Range] cierto.
+    <p />
+    Pero la forma mas eficaz de eludir las [DispensableUnits] es simplemente tratar de destruir todas
+    las unidades de [Light] del adversário. Sin ellas, el no se consigue proteger y queda muy indefenso.
+    Una unidad extremamente eficaz contra unidades de [Light] es la [Raptor]. Con un "bonus" sustancial contra unidades
+    de [Light] y [Range] de 2, la [Raptor] es una cazadora super optimizada de unidades de [Light].
+    
+  </div></lang>
+		<lang key="fr"><div class="content">
+    La tactique [DispensableUnits] est la <u>plus utilisé sur [OB]</u>! Elle consiste à utiliser une petite quantité d'unités de force [Light] pour défendre les autres unités plus importantes sur le [GameBoard]. Les unités [Light] sont peu coûteuses et très mobiles, donc idéales pour être sacrifiés pour protéger les  [CombatUnits] plus puissantes.
+    C'est pour cette raison que ces unités sont appelées <i>chair à canon</i>.
+    <p />
+    On utilise normalement les unités [Light] avec [MovAll] et un [MovCost] de 1 en tant que [DispensableUnits]. Par exemple:
+    [Rain], [Anubis], [Seeker], [Raptor] et si vous êtes vraiment désespéré: [Kamikaze].
+
+    <p />
+    Analysons l'exemple suivant:
+
+    <img class="block" src="/Resources/Images/DispensableUnits1.png" alt="Exemplo de Carne para Canhão 1" />
+
+    Comme vous pouvez le voir, il y 2 groupes de [Crusader] menaçant un groupe de [Spider]. Mais ces groupes ne pourront pas l'attaquer car deux petits groupes d'[Anubis] bloque leurs lignes de mires. Et sa ne vaut pas la peine de se déplacer et d'atquer pour détruire un si petit groupe de [CombatUnits].
+    <p />
+    La tactique des [DispensableUnits] est très important et utilisé par tout les joueurs. Cependant, bloquer les attaques adverses n'est pas la seule utilité de la stratégie [DispensableUnits].
+
+    <h2>Arrêt du mouvement de l'adversaire</h2>
+
+    Sur [OB] il est possible d'avoir une seule unité [Light] sur une case du [GameBoard]. L'avantage de cela est que l'adversaire ne peut pas se déplacer sur cette case sans y détruire l'unité [Light] qui s'y trouve en premier.
+    Cela signifie que les [CombatUnits] [Light]  empêche l'adversaire d'être en position d'attaque.
+    Analyson l'exemple précédent, en montrant une autre façon de protéger les [Spider]:
+
+    <img class="block" src="/Resources/Images/DispensableUnits2.png" alt="Exemplo de Carne para Canhão 1" />
+
+    Cette méthode est particulièrement utile contre les unités possédant l'aptitude [Catapult], leur permettant d'ignorer les [DispensableUnits] et attaquer quand même. Donc, si vous ne pouvez empêcher une attaque, il faut considérer prévenir le mouvement permettant l'attaque qui aurait pu être dévastatrice.
+
+    (N'oubliez pas ce conseil lorsque votre adversaire possède l'unité [Vector] ou [Eagle]).
+
+    <h2>Comment combattre la chair à canon?</h2>
+
+    Gagner contre la tactique [DispensableUnits] peut-être un jeu de patience, où il vous faut détruire les 
+    [DispensableUnits] de l'adversaire pour créer une ouverture ou obliger l'adversaire à faire une erreur.
+    <p />
+    Par contre, il y a des [CombatUnits] qui sont particulièrement utiles contre la [DispensableUnits]. Toutes les unités avec l'aptitude:
+    [TripleAttack], [BombAttack] et [Ricochet] peuvent détruire plus d'un groupe d'unités par attaque. De l'autre côté, les unités ayant [Catapult] et une longue portée [Range] peuvent ignorer la [DispensableUnits] de l'adversaire pour une attaque directe.
+    <p />
+    La meilleure façon de combattre les [DispensableUnits] est simplement de les détruires au complet! Si vous détruisez toutes les unités [Light] de l'adversaire, il ne pourra plus utilisé ;a tactique [DispensableUnits] et risque certainement de perdre.
+    Une bonne unité contre les unités [Light] est le [Raptor]. Avec sont bonus contre les unités
+    [Light]et sa [Range] de 2, le [Raptor] est <u>L'</u> ultime chasseur d'unités [Light]!
+
+  </div></lang>
+		<lang key="hr"><div class="content">
+
+[DispensableUnits] je <u>najupotrebljivanija taktika u [OB]</u>! Sastoji se od upotrebe malog broja [Light] jedinica da brane druge važnije grupe jedinica na [GameBoard]. [Light] jedinica je jako jeftina i ima dobaro kretanje i zbog toga je idealna da bude žrtvovana da zaštiti moćnije [CombatUnits].
+Zbog toga se zove <i>hrana za topove</i>.
+<p />
+Normalno se služimo sa  [Light] jedinicama, sa [MovAll] i [MovCost] od 1 kao [DispensableUnits]. Na primjer:
+[Rain], [Anubis], [Seeker], [Raptor] i ako ste stvarno očajni: [Kamikaze].
+
+<p />
+Idemo analizirati sljeći primjer:
+
+<img class="block" src="/Resources/Images/DispensableUnits1.png" alt="Exemplo de Carne para Canhão 1" />
+
+Kako možemo vidjeti, imamo dvije grupe [Crusader] koje prijete grupi [Spider]. Ali one neće moći napadati zato što dvije male grupe [Anubis stoje na putu. I nije vrijedno pomicati se i napadati da se unište tako male količine [CombatUnits].
+<p />
+[DispensableUnits] taktika je jako važna i s njom se koriste svi igrači. Ali onesposobljavanje protivnikovog napada nije jedini način na koji se rabe  [DispensableUnits].
+
+ <h2>Zaustavljanje protivnikovog pokreta</h2>
+
+U [OB] je moguće da imati samo jednu jedinicu od [Light] na [GameBoard] kvadratu. I glavna prednost činjenja toga je se niti jedna protivnikova jedinica ne može pomaknuti na taj kvadrat bez da ne uništi [Light] prvo.
+To znači: možemo upotrijebiti  [Light] [CombatUnits] da sprijelče protivnikove jedinice da se pomaknu u poziciju za napad. Analizirajm prethodni primjer, koji sada pokazuje drugi način da zaštitimo [Spider]:
+
+ <img class="block" src="/Resources/Images/DispensableUnits2.png" alt="Exemplo de Carne para Canhão 1" />
+
+Ova metoda je naročito korisna protiv jedinica sa [Catapult], koje mogu ignorirati [DispensableUnits] i napasti svakako. Zato ako želite spriječiti napad uzmite u obzir pokret koji će omogućiti napad (nemojte zabotavit ovo kada se borit protiv [Vector] ili [Eagle]).
+
+<h2>Kako se boriti protiv Hrane za topove</h2>
+
+Borba protiv [DispensableUnits] može biti igra strpljenja, gdje samo idete za tim da unišitite protivnikove [DispensableUnits] sve dok ne napravite otvor, ili protivnik napravi pogrešku.
+<p />
+Ipak postoje neke [CombatUnits] koje su posebno korisne protiv [DispensableUnits]. Sve jedinice sa sposobnostima:[TripleAttack], [BombAttack] and [Ricochet] mogu uništiti više od jedne grupe jedinica po napadu. S druge strane, jedinice sa [Catapult] u [Range] mogu zaobići protivnikove [DispensableUnits] za direktni napad.
+<p />
+Najbolji nalčin da se bori protiv [DispensableUnits] je da ih se sve jednostavno uništi! Ako uništite sve protivnikove [Light] jedinice, on neće moći upotrijebiti [DispensableUnits] i sigurno će izgubiti.
+Jako dobra jedinica protiv [Light] je [Raptor]. Sa značajnim bonusom napada protiv [Light] jedinica [Range] od dva, [Raptor] je <u>the</u> ultimativni lovac na [Light] jedinice!
+
+</div></lang>
+		<lang key="pt"><div class="content">
+    A táctica [DispensableUnits] é a <u>táctica mais usada no [OB]</u>! Consiste em usar pequenas quantidades
+    de unidades de [Light] para defender grupos importantes de unidades. Como uma unidade de [Light] é
+    <i>barata</i> e tem muito bom movimento, é ideal para ser sacrificada a proteger [CombatUnits] mais poderosas.
+    Daí o nome <i>carne para canhão</i>.
+    <p />
+    Normalmente as unidades mais usadas como [DispensableUnits] são unidades de [Light], [MovAll] e
+    [MovCost] de 1, como as [Rain], [Anubis], [Seeker], [Raptor] e em último caso até mesmo as [Kamikaze].
+
+    <p />
+    Vejemos o seguinte exemplo:
+    
+    <img class="block" src="/Resources/Images/DispensableUnits1.png" alt="Exemplo de Carne para Canhão 1" />
+
+    Como podemos ver, temos 2 grupos de [Crusader] a ameaçar um grupo de [Spider]. Mas não vão conseguir
+    atacar porque existem 2 pequenos grupos de [Anubis] na linha de fogo. E não é vantajoso ao jogador de
+    [Crusader] mover e atacar pois irá destruir muito poucas [CombatUnits].
+    <p />
+    A táctica [DispensableUnits] é muito importante e usada por todos os jogadores. Mas impedir o
+    ataque directo não é a única utilizdade da táctica [DispensableUnits].
+
+    <h2>Impedir Movimentos Aversários</h2>
+
+    No [OB] é possível ter somente 1 unidade de [Light] numa quadrícula. E uma das possíveis vantagens
+    é que nenhuma unidade aversária se pode mover para essa quadrícula sem primeiro a destruir. Ou seja,
+    podemos usar [CombatUnits] de [Light] para impedir unidades adversárias de tomarem uma posição perigosa.
+    Retomemos o exemplo anterior, de seguida está uma outra forma de proteger a [Spider]:
+
+    <img class="block" src="/Resources/Images/DispensableUnits2.png" alt="Exemplo de Carne para Canhão 1" />
+    
+    Este método é especialmente útil contra unidades com [Catapult] que podem atacar por cima da [DispensableUnits].
+    Não sendo possível impedir o ataque directo, poderá ser possível impedir o movimento da unidade adversária
+    para a posição de ataque (não esquecer este detalhe quando o adversário tem [Vector] ou [Eagle]).
+
+    <h2>Combater a Carne para Canhão</h2>
+    
+    Normalmente a única forma de combater a [DispensableUnits] é simplesmente um jogo de paciência em que vamos
+    destruindo as defesas do adversário até ele cometer um erro ou surgir uma abertura.
+    <p />
+    Contudo há [CombatUnits] com abilidades especiais, que são extramemente úteis contra a [DispensableUnits],
+    nomeadamente as abilidades: [TripleAttack], [BombAttack] e [Ricochet], pois podem destruir mais que um grupo
+    de unidades por ataque. Por outro lado, unidades com [Catapult] conseguem contornar [DispensableUnits] se
+    estiverem ao [Range] certo.
+    <p />
+    Mas a forma mais eficaz de contornar a [DispensableUnits] é simplesmente tentar destruir todas
+    as unidades de [Light] do adversário. Sem elas, ele não se vai conseguir proteger e fica muito penalizado.
+    Uma unidade extremamente eficaz contra unidades de [Light] é a [Raptor]. Com um bónus substancial contra unidades
+    de [Light] e [Range] de 2, a [Raptor] é uma caçadora super optimizada de unidades de [Light].
+    
+  </div></lang>
+	</entry>
+
+</resources>

@@ -1,0 +1,11 @@
+<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/$locale/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	$utils.Localize("CombatUnits")
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	$utils.GetUnitIndex()
+	
+</asp:Content>

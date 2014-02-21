@@ -1,0 +1,106 @@
+## Copyright (c) Zi-Yu.com - All Rights Reserved
+## http://midgard.zi-yu.com/
+##
+## The use and distribution terms for this software are covered by the
+## LGPL (http://opensource.org/licenses/lgpl-license.php).
+## By using this software in any fashion, you are agreeing to be bound by
+## the terms of this license.
+##
+## You must not remove this notice, or any other, from this software.
+##
+## Midgard Interface Generator
+##
+############################################
+#set( $Token = "Token" )
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~ This file was auto-generated at '$date'  by using;
+~	$commandLine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+using System;
+using System.Threading;
+using System.Collections.Generic;
+using $webComponents;
+
+namespace $namespace {
+
+    /// <summary>
+    /// This class has all the precompiled resources
+    /// </summary>
+	public class PreCompiledLanguage : ILanguageHandler {
+		
+		#region Fields and Properties
+		
+		private Dictionary<string, Dictionary<string, string>> tokens = new Dictionary<string, Dictionary<string, string>>();
+
+        private static string defaultLanguage = "en";
+        public static string DefaultLanguage {
+            get { return defaultLanguage; }
+        }
+
+		#endregion Fields and Properties
+		
+		#region Ctor
+		
+		public PreCompiledLanguage()
+		{
+			Load();
+		}
+		
+		#endregion Ctor
+		
+		#region Methods
+
+        /// <summary>
+        /// Given a language string, returns a supported language
+        /// </summary>
+        /// <param name="language">The wanted language</param>
+        /// <returns>The supported language</returns>
+        private static string Resolve(string language) {
+            if (language.Contains("-")) {
+                string stronger = language.Split('-')[0];
+                return stronger;
+            }
+
+            if (string.IsNullOrEmpty(language)) {
+                return DefaultLanguage;
+            }
+
+            return language;
+        }
+
+        public string Get(string token)
+        {
+            string language = Resolve(Thread.CurrentThread.CurrentUICulture.Name);
+            if (tokens.ContainsKey(language)) {
+                if (tokens[language].ContainsKey(token)) {
+                    return tokens[language][token];
+                }
+            }
+            return string.Format("@({0})", token);
+        }
+		
+		private void Add(string lang, string token, string localized)
+		{
+            if (!tokens.ContainsKey(lang)) {
+                tokens.Add(lang, new Dictionary<string, string>());
+            }
+            tokens[lang].Add(token, localized);
+		}
+		
+		#endregion Methods
+		
+		#region Resource Tokens
+
+		private void Load()
+		{
+#foreach( $entry in $entries )
+#foreach( $token in $entry.Localization )
+			Add("$token.Lang", "$entry.Key", @"$root.Escape($token.Localized)");
+#end
+#end
+		}
+		
+		#endregion Resource Tokens
+        
+	};
+}

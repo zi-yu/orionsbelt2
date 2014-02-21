@@ -1,0 +1,409 @@
+/*============================
+		  CSS Reset
+=============================*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body {	line-height:normal;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}:focus {outline: 0;}ins {text-decoration: none;}del {text-decoration: line-through;}table {border-collapse: collapse;border-spacing: 0;}
+
+/*============================
+		   Generic
+=============================*/
+body {
+	font-family:Calibri, Arial;
+	font-size:12px;
+	background-color:#000000;
+	color:#979797;
+	background:#000000 url(http://resources.orionsbelt.eu/Institutional/Images/Background.gif) repeat-y scroll 50% 0;
+}
+
+p
+{
+	padding:10px 0;
+}
+
+h1
+{
+	color:#FDE245;
+	font-size:18px;
+	padding:10px 0;
+}
+
+#mainContent {
+	width:100%;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/TopSpace.jpg) no-repeat scroll 50% 0;
+	margin:auto;
+	min-height:855px;
+	clear:both;
+}
+
+#mainContentInstitutional {
+	width:100%;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/Institutional.jpg) no-repeat scroll 50% 0;
+	margin:auto;
+	min-height:1066px;
+	clear:both;
+}
+
+#content {
+	width:980px;
+	margin:0px auto;
+}
+
+#bottomContent {
+	width:100%;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/BottomSpace.jpg) no-repeat scroll 50% 0;
+	margin:auto;
+	height:594px;
+	clear:both;
+}
+
+#topMenu {
+	min-height:35px;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/TopMenu.png) no-repeat scroll 50% 0;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+#topMenu ul
+{
+	padding-top:6px;
+}
+
+#topMenu ul li
+{
+	display:inline;
+	margin:20px;
+	
+}
+
+#topMenu ul li a
+{
+	color:#BBB;
+	text-decoration:none;
+}
+
+#topMenu ul li a:hover
+{
+	color:#FFF;
+	text-decoration:underline;
+}
+
+#top {
+	height:230px;
+	clear:both;
+	margin:auto;
+}
+
+#logo {
+	width:490px;
+	height:230px;
+	float:left;
+}
+
+#logo img {
+	margin:50px 0px 0px 10px;
+}
+
+#loginArea {
+	width:490px;
+	height:230px;	
+	float:left;
+}
+
+#loginBox {
+	width:490px;
+	height:220px;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/LoginBox.png) no-repeat scroll 50% 0;
+	margin:0px auto;
+}
+
+#loginBox div.adjust
+{
+	padding:30px 0px 0px 74px;
+}
+
+#middle {
+	min-height:885px;
+	width:989px;
+}
+
+#bigDialog {
+	float:left;
+	width:519px;
+	min-height:373px;
+}
+
+#bigDialogTop{
+	min-height:255px;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/BigDialogTop.png) no-repeat scroll 50% 0;
+}
+
+#bigDialogTop div{
+	padding:0 70px;
+	padding-top:60px;
+}
+
+#bigDialogMiddle{
+	min-height:450px;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/BigDialogMiddle.png) repeat-y scroll 50% 0;
+	padding:0 70px;
+	margin:0;
+}
+
+#bigDialogBottom{
+	min-height:147px;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/BigDialogBottom.png) no-repeat scroll 50% 0;
+	margin:0;
+}
+
+div.playNowFooter
+{
+	text-align:center;
+	padding:20px;
+	font-size:34px;
+}
+
+#logo h2
+{
+	text-align:center;
+	padding-bottom:20px;
+	font-size:24px;
+}
+
+#logo h2 a
+{
+	border-bottom:solid 1px #FFB938;
+}
+
+div.playNowLogin
+{
+	font-size:44px;
+	
+}
+
+div.playNowFooter a, div.playNowLogin a
+{
+	color:#FFF;
+}
+
+#contentDialog {
+	width:990px;
+	min-height:438px;
+}
+
+#contentDialogTop {
+	min-height:155px;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/ContentDialogTop.png) repeat-y scroll 50% 0;
+}
+
+#contentDialogMiddle {
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/ContentDialogMiddle.png) repeat-y scroll 50% 0;
+}
+
+#contentDialogMiddleContent {
+	margin:0px auto;
+	width:900px;		
+}
+
+#contentDialogBottom {
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/ContentDialogBottom.png) repeat-y scroll 50% 0;
+	min-height:153px;
+}
+
+#contentDialog800px {
+	width:800px;
+	min-height:438px;
+}
+
+#contentDialogTop800px {
+	min-height:125px;
+	width:800px;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/ContentDialogTop800px.png) repeat-y scroll 50% 0;
+}
+
+#contentDialogMiddle800px {
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/ContentDialogMiddle800px.png) repeat-y scroll 50% 0;
+	width:800px;
+}
+
+#contentDialogMiddleContent800px {
+	margin:0px auto;
+	width:750px;		
+}
+
+#contentDialogBottom800px {
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/ContentDialogBottom800px.png) repeat-y scroll 50% 0;
+	min-height:124px;
+	width:800px;
+}
+
+#logo h1
+{
+	text-align:center;
+	font-size:28px;
+	color:#FFF;
+}
+
+#flags
+{
+	width:930px;
+	margin:0 auto;
+}
+
+#flags li 
+{
+	display:inline;
+	margin-right:5px;
+}
+
+img.preview
+{
+	width:120px;
+	height:120px;
+}
+
+input[type=text], input[type=password]
+{
+	background-color:#555;
+	color:#AAA;
+	border:solid 1px #000;
+	width:200px;
+	font-size:16px;
+	padding:3px;
+}
+
+table.login tr td
+{
+	padding:5px;
+	text-align:right;
+}
+
+ul.images li
+{
+	float:left;
+	margin:4px;
+}
+
+div.imageFrame {
+	width:290px;
+	height:290px;
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/ThumbnailFrame.png);
+	position:absolute;
+}
+
+ul.images li a img
+{
+	width:270px;
+	height:270px;
+	border: solid 1px #FFF;
+	margin:9px
+}
+
+img.shoot
+{
+	padding:10px;
+}
+
+#imageShoot {
+	text-align:center;
+	clear:both;
+}
+
+#firstDiv, #secondDiv {
+	background-repeat:no-repeat;
+	background-position:center center;
+	margin:0px auto;
+	cursor:pointer;
+}
+
+#secondDiv {
+	height:500px;
+}
+
+div.navPrev, div.navNext, div.navNumbers
+{
+	float:left;
+	width:150px;
+	text-align:center;
+	padding:10px;
+}
+
+div.navNumbers
+{
+	width:480px;
+	
+}
+
+div.navNumbers a 
+{
+	padding:5px;
+}
+
+div.navNumbers a.navCurr
+{
+	color:#FFF;
+}
+
+#pageTitle {
+	font-size:35px;
+	padding:80px 57px 0 80px;
+	color:White;
+}
+
+ul.mediaArticles li, ul.testimonials li
+{
+	margin-bottom:15px;
+	margin-top:15px;
+}
+
+ul.mediaArticles li img
+{
+	margin-top:8px;
+	float:left;
+}
+
+ul.mediaArticles li div.title
+{
+	float:left;
+	padding:0 0 0 10px;
+}
+
+ul.mediaArticles li div.title a
+{
+	font-size:20px;
+}
+
+ul.mediaArticles li div.excerpt
+{
+	clear:both;
+	font-style:italic;
+}
+
+ul.testimonials li div.author
+{
+	font-weight:bold;
+}
+
+ul.testimonials li div.content
+{
+	font-style:italic;
+}
+
+#logoContent {
+	width:1000px;
+	height:40px;
+	margin:0px auto 0px auto;
+	padding:5px 0px;
+	clear:both;
+}
+
+#logoContent div {
+	vertical-align:middle;
+	text-align:center;
+}
+
+#pdm{
+	background:url(http://resources.orionsbelt.eu/Institutional/Images/LogoPdm.png) no-repeat;
+	height:30px;
+	width:74px;
+	margin:0px 40px 0px 300px;
+	float:left;
+}

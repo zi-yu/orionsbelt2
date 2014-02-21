@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection>
+  <TimedActionStorage StartTick="1" EndTick="2" Name="FleetMovement"/>
+  <TimedActionStorage StartTick="1" EndTick="2" Name="AuctionTimeout"/>
+  <TimedActionStorage StartTick="1" EndTick="2" Name="MarketReinforce"/>
+  <TimedActionStorage StartTick="1" EndTick="2" Name="VacationTimeout"/>
+  <TimedActionStorage StartTick="1" EndTick="2" Name="AutoStartVacationsHandler"/>
+  <TimedActionStorage StartTick="1" EndTick="144" Name="EraseOldMessages"/>
+  <TimedActionStorage StartTick="1" EndTick="144" Name="HolidaysMessages"/>
+  <TimedActionStorage StartTick="1" EndTick="6" Name="EndBounties"/>
+</Collection>

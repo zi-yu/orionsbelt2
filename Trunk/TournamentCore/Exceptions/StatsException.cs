@@ -1,0 +1,23 @@
+using System;
+
+namespace OrionsBelt.TournamentCore.Exceptions
+{
+    public class StatsException : TournamentException
+    {
+        /// <summary>
+        /// StatsException constructor
+        /// </summary>
+        /// <param name="count1">list 1 count</param>
+        /// <param name="count2">list 2 count</param>
+        public StatsException(int count1, int count2)
+            : base(String.Format("Number of elements in list 1 = {0}; Number of elements in list 2 = {1}", count1, count2)) { }
+    
+        /// <summary>
+        /// StatsException constructor
+        /// </summary>
+        /// <param name="error">Error description</param>
+        public StatsException(string error)
+            :base(error){}
+
+    }
+}

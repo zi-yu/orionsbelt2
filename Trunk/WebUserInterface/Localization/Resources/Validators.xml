@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="AdvertisingValidator">
+		<lang key="de">Du hast nicht genügend Orions um diesen Dienst zu bezahlen.</lang>
+		<lang key="en">You do not have enough Orions to purchase this service.</lang>
+		<lang key="es">No tienes Orions suficientes para pagar este servicio</lang>
+		<lang key="fr">Vous n'avez pas suffisament d'Orions pour payer pour ce service.</lang>
+		<lang key="hr">Nemate dovoljno Oriona da platite ovu uslugu</lang>
+		<lang key="hu">Nincs elég Orionod hogy megvásárold ezt a szolgáltatást.</lang>
+		<lang key="it">Non hai abbastanza Orions per comprare questo servizio</lang>
+		<lang key="pt">Não tens Orions suficientes para pagar este serviço</lang>
+		<lang key="ro">Nu aveţi suficienţi Orions pentru a achiziţiona acest serviciu.</lang>
+		<lang key="ru">У вас недостаточно Орионов для приобретения этой услуги.</lang>
+		<lang key="se">Du har inte tillräckligt med Orions för att köpa den här servicen.</lang>
+	</entry>
+
+	<entry key="AnyNotEmpty">
+		<lang key="de">Kein Eingabefeld darf leer sein</lang>
+		<lang key="en">No field may be empty.</lang>
+		<lang key="es">Ningún campo puede ser vacio</lang>
+		<lang key="fr">Tout les champs ne doivent pas être vides.</lang>
+		<lang key="hr">Sva polja ne smiju biti prazna.</lang>
+		<lang key="hu">Nem maradhat üres mező.</lang>
+		<lang key="it">Nessun campo dev'essere vuoto</lang>
+		<lang key="pt">Nenhum campo pode ser vazio</lang>
+		<lang key="ro">Nici un câmp nu poate fi gol.</lang>
+		<lang key="ru">Ни одно поле не может быть пустым</lang>
+		<lang key="se">Inget fält får vara tomt.</lang>
+	</entry>
+
+	<entry key="BeginEndDate">
+		<lang key="de">End Datum muss höher sein als Beginn Datum</lang>
+		<lang key="en">End date must be higher than begin date</lang>
+		<lang key="pt">A data de fim tem de ser maior que a data de início</lang>
+	</entry>
+
+	<entry key="BidValidator">
+		<lang key="de">Angebotswert muss höher sein als 1</lang>
+		<lang key="en">Bid value must be higher than 1</lang>
+		<lang key="es">El valor mínimo de licitación debe de ser superior a 1</lang>
+		<lang key="fr">La valeur aux enchères doit être plus élevée que 1</lang>
+		<lang key="hr">Vrijednost ponude mora biti veća od 1</lang>
+		<lang key="hu">BiLicit értéke magasabb kell, hogy legyen mint 1.</lang>
+		<lang key="it">Il valore dell'offerta dev'essere maggiore di 1</lang>
+		<lang key="pt">O valor mínimo de licitação tem de ser superior a 1</lang>
+		<lang key="ro">Oferta de licitaţie trebuie să fie mai mare de 1</lang>
+		<lang key="ru">Ставка должна быть больше 1</lang>
+		<lang key="se">Budets värde måste vara högre än 1</lang>
+	</entry>
+
+	<entry key="BountyBlock">
+		<lang key="de">Oh einer der Gerechten....mache dich bereit zur Flucht, der Jäger wird zum Gejagten.</lang>
+		<lang key="en">Oh a good guy... prepare to run out because the hunter has become the prey.</lang>
+		<lang key="fr">Tiens, un justicier... prépare à toi à courir vermisseau. Le prédateur est devenu la proie!</lang>
+		<lang key="hr">Oh dobar momak...pripremi se da bježiš jer je lovac postao plijen.</lang>
+		<lang key="hu">Oh egy jófiú...készülj a futásra mert a vadász lett a préda.</lang>
+		<lang key="it">Oh, un bravo ragazzo.. Preparati a scappare perchè il cacciatore è diventato la preda.</lang>
+		<lang key="pt">Olhem um justiceirozinho...prepara-te para correr que está na hora do caçador se tornar a presa.</lang>
+		<lang key="ro">Oh un tip de treabă ... pregătiţi-vă să fugiţi din cauză că vânătorul a devenit pradă.</lang>
+		<lang key="ru">О, славный малый... приготовься бежать, охотник стал добычей</lang>
+		<lang key="se">Ah, en "good guy"... var beredd på att springa för jägaren har blivit till byte.</lang>
+	</entry>
+
+	<entry key="BuyBidValidator">
+		<lang key="de">Der Kaufwert muss höher sein als das Kaufangebot</lang>
+		<lang key="en">Buyout value must be higher than bid value</lang>
+		<lang key="es">El valor de compra debe que ser superior al de licitación</lang>
+		<lang key="fr">La valeur d'achat direct doit être plus élevée que la valeur initiale aux enchères.</lang>
+		<lang key="hr">Vrijednost otkupa mora biti veća od vrijednosti ponude</lang>
+		<lang key="hu">Vételi árnak magasabbnak kell lennie mint a licit értéke.</lang>
+		<lang key="it">Il valore del Compralo Subito dev'essere più alto dell'Offerta</lang>
+		<lang key="pt">O valor de compra tem de ser superior ao de licitação</lang>
+		<lang key="ro">Valoarea de cumpărare rapidă trebuie să fie mai mare decât valoarea ofertei de licitatie</lang>
+		<lang key="ru">Сумма выкупа должна быть больше ставки</lang>
+		<lang key="se">Utköpsvärdet måste vara högre än budets värde</lang>
+	</entry>
+
+	<entry key="CantBeHigherThan">
+		<lang key="de">Dieser Wert kann nicht höher sein als {0}</lang>
+		<lang key="en">This value can't be higher than {0}</lang>
+		<lang key="es">Este valor no puede ser superior a {0}</lang>
+		<lang key="fr">Cettevaleur ne peut être plus élevée que {0}</lang>
+		<lang key="hr">Ova vrijednost ne smije biti veća od {0}</lang>
+		<lang key="hu">Ez az érték nem lehet magasab mint {0}</lang>
+		<lang key="it">Questo valore non può essere maggiore di {0}</lang>
+		<lang key="pt">Este valor não pode superior a {0}</lang>
+		<lang key="ro">Această valoare nu poate fi mai mare decât {0}</lang>
+		<lang key="ru">Это значение не может быть больше {0}</lang>
+		<lang key="se">Detta värde får inte vara högre än {0}</lang>
+	</entry>
+
+	<entry key="EndDateHigherToday">
+		<lang key="de">End Datum muss höher oder gleich sein wie heute.</lang>
+		<lang key="en">End date must be higher or equal than today</lang>
+		<lang key="pt">A data de fim tem de ser maior ou igual a hoje</lang>
+	</entry>
+
+	<entry key="FieldValueBetween">
+		<lang key="de">Wert in Feld {2} muss zwischen {0} und {1} sein</lang>
+		<lang key="en">Value in field {2} must be between {0} and {1}</lang>
+		<lang key="es">El valor del campo {2} debe estar entre {0} y {1}</lang>
+		<lang key="fr">La valeur dans ce champ {2} doit être entre {0} et {1}</lang>
+		<lang key="hr">Vrijednost u polju {2} mora biti između {0} i {1}</lang>
+		<lang key="hu">A {2} mezőben lévő értéknek {0} és {1} között kell lennie</lang>
+		<lang key="it">Il valore nel campo {2} dev'essere compreso tra {0} e {1}</lang>
+		<lang key="pt">O valor do campo {2} tem de estar compreendido entre {0} e {1}</lang>
+		<lang key="ro">Valoarea în câmpul {2} trebuie să fie cuprinsă între {0} şi {1}</lang>
+		<lang key="ru">Значение поля {2} должно быть между {0} и {1}</lang>
+		<lang key="se">Värdet i fält {2} måste vara mellan {0} och {1}</lang>
+	</entry>
+
+	<entry key="InvalidAlliance">
+		<lang key="de">Du gehörst nicht mehr länger zu diesem Team</lang>
+		<lang key="en">You no longer can belong to this alliance</lang>
+		<lang key="hr">Više ne možete pripadati ovome timu</lang>
+		<lang key="hu">Már nem tartozhatsz ehhez a csapathoz.</lang>
+		<lang key="pt">Já não podes pertencer a esta aliança</lang>
+		<lang key="ro">Nu mai faci parte din această echipă.</lang>
+		<lang key="ru">Ты больше не можешь принадлежать к этой команде</lang>
+		<lang key="se">Du tillhör inte längre detta lag</lang>
+	</entry>
+
+	<entry key="InvalidNumber">
+		<lang key="de">Ungültige Nummer</lang>
+		<lang key="en">Invalid number</lang>
+		<lang key="es">Número no válido</lang>
+		<lang key="fr">Nombre invalide</lang>
+		<lang key="hr">Nepostojeći broj</lang>
+		<lang key="hu">Érvénytelen számok</lang>
+		<lang key="it">Numero non valido</lang>
+		<lang key="pt">Número inválido</lang>
+		<lang key="ro">Număr Invalid</lang>
+		<lang key="ru">Неверное количество</lang>
+		<lang key="se">Ogiltigt nummer</lang>
+	</entry>
+
+	<entry key="InvalidOffer">
+		<lang key="de">Ungültige Spende</lang>
+		<lang key="en">Invalid donation</lang>
+		<lang key="pt">Doação inválida</lang>
+	</entry>
+
+	<entry key="InvalidPlayer">
+		<lang key="de">Sie haben einen ungültigen Spieler ausgewählt</lang>
+		<lang key="en">You chose an invalid player.</lang>
+		<lang key="fr">Vous avez choisi un joueur inexistant.</lang>
+		<lang key="hr">Izabrao si nepostojećeg igrača.</lang>
+		<lang key="hu">Érvénytelen játékost választottál.</lang>
+		<lang key="it">Il giocatore scelto non è valido</lang>
+		<lang key="pt">O jogador escolhido não é válido</lang>
+		<lang key="ro">Ai ales un jucător inexistent.</lang>
+		<lang key="ru">Неверно выбран игрок</lang>
+		<lang key="se">Du valde en ogiltig spelare.</lang>
+	</entry>
+
+	<entry key="InvalidRequest">
+		<lang key="de">Ungültige Anfrage</lang>
+		<lang key="en">Invalid request</lang>
+		<lang key="hr">Nevažeći zahtjev</lang>
+		<lang key="hu"></lang>
+		<lang key="pt">Pedido inválido</lang>
+		<lang key="ru">Неверный запрос</lang>
+		<lang key="se">Ogiltig förfrågan</lang>
+	</entry>
+
+	<entry key="LengthValidator">
+		<lang key="bg">Максимално Количество Символи</lang>
+		<lang key="de">Maximum an Charakteren: {0}</lang>
+		<lang key="en">Maximum Chars: {0}</lang>
+		<lang key="es">Máximo de carácteres: {0}</lang>
+		<lang key="fr">Nombre de caractères maximal: {0}</lang>
+		<lang key="hr">Maksimalno Znakova: {0}</lang>
+		<lang key="hu">Maximális Karakterek: {0}</lang>
+		<lang key="it">Numero Massimo di Caratteri: {0}</lang>
+		<lang key="pt">Maximum Chars: {0}</lang>
+		<lang key="ro">Maxim de Caractere: {0}</lang>
+		<lang key="ru">Максимальное количество символов: {0}</lang>
+		<lang key="se">Max Antal Tecken: {0}</lang>
+	</entry>
+
+	<entry key="MinGreaterValidator">
+		<lang key="de">Minimaler Wert muss weniger sein als maximaler Wert</lang>
+		<lang key="en">Minimum value must be less than maximum value</lang>
+		<lang key="es">El valor mínimo debe de ser inferior al máximo</lang>
+		<lang key="fr">La valeur minimale doit être plus petite que la valeur maximale.</lang>
+		<lang key="hr">Minimalna vrijednost mora biti manja od maksimalne vrijednosti</lang>
+		<lang key="hu">Minimum értéknek kisebbnek kell lennie mint a Maximum érték</lang>
+		<lang key="it">Il valore minimo dev'essere minore del valore massimo</lang>
+		<lang key="pt">O valor de mínimo tem de ser inferior ao máximo</lang>
+		<lang key="ro">Valoarea minimă trebuie să fie mai mică decât valoarea maximă</lang>
+		<lang key="ru">Минимальное значение должно быть меньше максимального</lang>
+		<lang key="se">Det minsta värdet måste vara mindre än det största värdet</lang>
+	</entry>
+
+	<entry key="NoAdmiral">
+		<lang key="de">Du bist kein Admiral. Du hast keine Genehmigung für diesen Bereich.</lang>
+		<lang key="en">You aren't an admiral. You don't have permissions to this area.</lang>
+		<lang key="hr">Niste admiral, nemate dopuštenje za ovo područje</lang>
+		<lang key="hu"></lang>
+		<lang key="pt">Tu não és um almirante. Não tens permissões para esta área.</lang>
+		<lang key="ru">Ты не адмирал. У тебя нет доступа сюда.</lang>
+		<lang key="se">Du är inte en amiral. Du har inte rättighet till den här arean.</lang>
+	</entry>
+
+	<entry key="NoAlliance">
+		<lang key="de">Du hast keine Allianz</lang>
+		<lang key="en">You don't have an alliance</lang>
+		<lang key="hr">Nemate saveza</lang>
+		<lang key="hu"></lang>
+		<lang key="pt">Não tens aliança</lang>
+		<lang key="ru">У вас нет союза</lang>
+		<lang key="se">Du har ingen allians</lang>
+	</entry>
+
+	<entry key="NotEmpty">
+		<lang key="de">Feld kann nicht leer sein</lang>
+		<lang key="en">Field can't be empty</lang>
+		<lang key="es">Campo no puede ser vacio</lang>
+		<lang key="fr">Ce champ ne peut pas être vide.</lang>
+		<lang key="hr">Polje ne smije biti prazno</lang>
+		<lang key="hu">Nem lehet üres mező.</lang>
+		<lang key="it">Il campo non può essere vuoto</lang>
+		<lang key="pt">Campo de preenchimento obrigatório</lang>
+		<lang key="ro">Câmpul nu poate fi gol</lang>
+		<lang key="ru">Поле не может быть пустым</lang>
+		<lang key="se">Fältet får inte vara tomt</lang>
+	</entry>
+
+	<entry key="NumericValue">
+		<lang key="de">Muss ein nummerischer Wert sein</lang>
+		<lang key="en">Must be a numeric value</lang>
+		<lang key="es">Valor debe ser numérico</lang>
+		<lang key="fr">Valeur numérique nécessaire</lang>
+		<lang key="hr">Treba biti brojčana vrijednost</lang>
+		<lang key="hu">Az értéknek számnak kell lennie</lang>
+		<lang key="it">Dev'essere un valore numerico</lang>
+		<lang key="pt">É necessário uma valor numérico</lang>
+		<lang key="ro">Trebuie să fie o valoare numerică</lang>
+		<lang key="ru">Должно быть числом</lang>
+		<lang key="se">Måste vara ett numeriskt värde</lang>
+	</entry>
+
+	<entry key="PirateBlock">
+		<lang key="de">Das hier ist kein Platz fur Piraten. Flüchte solange du kannst, denn wir werden dich bis ans Ende des Universums jagen.</lang>
+		<lang key="en">This is no place for pirates. Run while you can because we will hunt you to the end of the universe.</lang>
+		<lang key="fr">Ce n'est pas une place pour les pirates ici! Fuis pendant que tu le peux ou ne te chasserons jusqu'aux confins de l'univers.</lang>
+		<lang key="hr">Ovo nije mjesto za pirate. Bježi dok možeš jer ćemo te loviti do kraja svemira.</lang>
+		<lang key="hu">Itt nincs hely kalózok számára. Fuss amíg tudsz mert az univerzum legtávolabbi pontjában is vadászni fogunk rád.</lang>
+		<lang key="it">Questo non è un posto per pirati. Scappa sinchè sei in tempo perchè ti daremo la caccia sino ai confini dell'universo.</lang>
+		<lang key="pt">Este não é um sítio para piratas. Foge enquanto podes pois vamos caçar-te até aos confins do universo.</lang>
+		<lang key="ro">Acesta nu este un loc pentru piraţi. Fugi cât mai poţi pentru că te vom vâna pănă la capătul universului.</lang>
+		<lang key="ru">Здесь не место пиратам. Беги, пока можешь, потому что мы будем преследовать тебя до самого края вселенной.</lang>
+		<lang key="se">Det här är ingen plats för pirater. Spring medan du kan för vi kommer att jaga dig slutet av Universum.</lang>
+	</entry>
+
+	<entry key="RegularExpressionValidator">
+		<lang key="de">Regex Validierung fehlgeschlagen</lang>
+		<lang key="en">Regex Validation Failed</lang>
+		<lang key="es">Validación Fallo</lang>
+		<lang key="fr">Regex La validation a échoué</lang>
+		<lang key="hr">Regex Potvrda Neuspješna</lang>
+		<lang key="hu">Regex Érvényesítési hiba</lang>
+		<lang key="it">Controllo Regex Fallito</lang>
+		<lang key="pt">Regex Validation Failed</lang>
+		<lang key="ro">Validarea Regex Eşuată</lang>
+		<lang key="ru">Проверка Регулярного Выражения Не Удалась</lang>
+		<lang key="se">Regex-validering Misslyckades</lang>
+	</entry>
+
+	<entry key="RequiredFieldValidator">
+		<lang key="de">Erforderliches Eingabefeld: {0}</lang>
+		<lang key="en">Required Field: {0}</lang>
+		<lang key="es">Campo obligatório: {0}</lang>
+		<lang key="fr">Champ obligatoire: {0}</lang>
+		<lang key="hr">Potrebno polje: {0}</lang>
+		<lang key="hu">Szükséges Mező: {0}</lang>
+		<lang key="it">Campo Obbligatorio: {0}</lang>
+		<lang key="pt">Required Field: {0}</lang>
+		<lang key="ro">Câmp Necesar: {0}</lang>
+		<lang key="ru">Обязательное Поле: {0}</lang>
+		<lang key="se">Obligatoriskt Fält: {0}</lang>
+	</entry>
+
+	<entry key="SamePlayer3Days">
+		<lang key="de">Du musst für 10 Tage mit diesem Spieler spielen, ohne zu wechseln, damit du ihn zum Hauptspieler machst und somit Gegenstände im Auktionhaus inserieren kannst.</lang>
+		<lang key="en">You have to be logged on with this player for 10 days in order to become the main player and so insert items in the auction house.</lang>
+		<lang key="es">Necesitas ser el mismo jugador por 3 días, sin cambiar de jugador, para que puedas poner cosas en remate.</lang>
+		<lang key="fr">Vous devez jouer avec le même jouer pendant 3 jours sans changements pour ajouter un objet en enchère.</lang>
+		<lang key="hr">Trebate biti isti igrač 3 dana, bez mijenjanja igrača, da stavite predmet u aukcijsku kuću.</lang>
+		<lang key="hu">Ugyan azzal a felhasználói fiókkal legalább 3 napig bejelentkezve kell lenned hogy tárgyakat rakhass a raktárba.</lang>
+		<lang key="it">Devi essere lo stesso giocatore per 3 giorni, senza cambiare giocatore, per mettere un oggetto all'asta.</lang>
+		<lang key="pt">Precisas ser este jogador por 10 dias, sem mudar de jogador, de modo a este jogador se tornar o jogador principal e assim poderes por coisas a leilão.</lang>
+		<lang key="ro">Trebuie să fi conectat cu acelaşi cont timp de 3 zile, pentru a insera un element într-o casă de licitaţie.</lang>
+		<lang key="ru">Этот игрок должен быть 10 дней подряд онлайн, чтобы стать основным игроком и иметь возможность выставлять лоты на аукцион.</lang>
+		<lang key="se">Du måste vara inloggad med den här spelaren i 10 dagar för att bli huvudspelaren och kunna sätta in objekt i auktionshuset.</lang>
+	</entry>
+
+	<entry key="UniquenessValidator">
+		<lang key="de">{0} Existiert bereits</lang>
+		<lang key="en">{0} Already Exists</lang>
+		<lang key="es">{0} Ya Existe</lang>
+		<lang key="fr">{0} Existe déjà.</lang>
+		<lang key="hr">{0} Već Postoji</lang>
+		<lang key="hu">{0} Már létezik</lang>
+		<lang key="it">{0} Esiste Già</lang>
+		<lang key="pt">{0} Already Exists</lang>
+		<lang key="ro">{0} Există Deja</lang>
+		<lang key="ru">{0} Уже Существует</lang>
+		<lang key="se">{0} Existerar Redan</lang>
+	</entry>
+
+	<entry key="ValueBetween">
+		<lang key="de">Wert muss zwischen {0} und {1} sein</lang>
+		<lang key="en">Value must be between {0} and {1}</lang>
+		<lang key="es">El valor debe estar entre {0} y {1}</lang>
+		<lang key="fr">Cette valeur doit être entre {0} et {1}</lang>
+		<lang key="hr">Vrijednost mora biti između {0} i {1}</lang>
+		<lang key="hu">Az értékenk {0} és {1} között kell lennie</lang>
+		<lang key="it">Il valore dev'essere compreso tra {0} e {1}</lang>
+		<lang key="pt">O valor tem de estar compreendido entre {0} e {1}</lang>
+		<lang key="ro">Valoarea trebuie să fie cuprinsă între {0} şi {1}</lang>
+		<lang key="ru">Значение должно быть между {0} и {1}</lang>
+		<lang key="se">värdet måste vara mellan {0} och {1}</lang>
+	</entry>
+
+</resources>

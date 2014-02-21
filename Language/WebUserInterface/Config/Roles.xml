@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<roles>
+	<role name="admin">
+    <role name="translator">
+		  <role name="user" />
+    </role>
+  </role>
+	<role name="guest" />
+</roles>

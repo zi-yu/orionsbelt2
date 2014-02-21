@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="BattleType">
+		<lang key="de">Schlacht-Typ</lang>
+		<lang key="en">Battle Type</lang>
+		<lang key="es">Tipo de Batalla</lang>
+		<lang key="fr">Type de Combat</lang>
+		<lang key="hr">Tip Bitke</lang>
+		<lang key="pt">Tipo de Batalha</lang>
+	</entry>
+
+	<entry key="BeaconAvailable">
+		<lang key="de">Wachposten verfügbar</lang>
+		<lang key="en">Beacon is Available</lang>
+		<lang key="es">Centinela Disponíble</lang>
+		<lang key="fr">Le satellite n'est pas disponible</lang>
+		<lang key="hr">Zraka je Dostupna</lang>
+		<lang key="pt">Sentinela Disponível</lang>
+	</entry>
+
+	<entry key="BeaconCooldown">
+		<lang key="de">Wachposten ist in der Abkühlung. {0} Runde(n) übrig</lang>
+		<lang key="en">Beacon is in Cooldown. {0} turn(s) to go</lang>
+		<lang key="es">Centinela está en Congelamiento. {0} turno(s) para terminar.</lang>
+		<lang key="fr">Le satellite est en temps de repos. {0} tour(s) restants.</lang>
+		<lang key="hr">Zraka se hladi.{0} turn(ova) još</lang>
+		<lang key="pt">Sentinela está em Arrefecimento. {0} turno(s) para terminar.</lang>
+	</entry>
+
+	<entry key="BeaconNotAvailable">
+		<lang key="de">Wachposten nicht verfügbar</lang>
+		<lang key="en">Beacon is Not Available</lang>
+		<lang key="es">Centinela No Disponíble</lang>
+		<lang key="fr">Le satellite n'est pas disponible</lang>
+		<lang key="hr">Zraka Nije Dostupna</lang>
+		<lang key="pt">Sentinela Não Disponível</lang>
+	</entry>
+
+	<entry key="BeaconNotReady">
+		<lang key="de">Wachposten nicht bereit</lang>
+		<lang key="en">Beacon is Not Ready</lang>
+		<lang key="es">Centinela No Está Listo</lang>
+		<lang key="fr">Le satellite n'est pas prêt</lang>
+		<lang key="hr">Zraka Nije Spremna</lang>
+		<lang key="pt">Sentinela Não Está Pronta</lang>
+	</entry>
+
+	<entry key="BeaconReady">
+		<lang key="de">Wachposten bereit</lang>
+		<lang key="en">Beacon is Ready</lang>
+		<lang key="es">Centinela Listo</lang>
+		<lang key="fr">Le satellite est prêt</lang>
+		<lang key="hr">Zraka je Spremna</lang>
+		<lang key="pt">Sentinela Pronta</lang>
+	</entry>
+
+	<entry key="Challenge">
+		<lang key="de">Herausfordern</lang>
+		<lang key="en">Challenge</lang>
+		<lang key="es">Desafiar</lang>
+		<lang key="fr">Défi</lang>
+		<lang key="hr">Izazov</lang>
+		<lang key="pt">Desafiar</lang>
+	</entry>
+
+	<entry key="ChooseBot">
+		<lang key="de">Wähle Bot</lang>
+		<lang key="en">Choose Bot</lang>
+		<lang key="fr">Choisir une A.I.</lang>
+		<lang key="hr">Izaberi Bota</lang>
+		<lang key="pt">Choose Bot</lang>
+	</entry>
+
+	<entry key="CreateBattle">
+		<lang key="de">Schlacht erzeugen</lang>
+		<lang key="en">Create Battle</lang>
+		<lang key="es">Crear Batalla</lang>
+		<lang key="fr">Créer un combat</lang>
+		<lang key="hr">Stvori Bitku</lang>
+		<lang key="pt">Criar Batalha</lang>
+	</entry>
+
+	<entry key="CreateFriendly">
+		<lang key="de">Erzeuge Freundliches Match</lang>
+		<lang key="en">Create Friendly</lang>
+		<lang key="es">Crear Amistoso</lang>
+		<lang key="fr">Creer un combat amical</lang>
+		<lang key="hr">Stvori Prijateljskog</lang>
+		<lang key="pt">Criar Amigável</lang>
+	</entry>
+
+	<entry key="Destroy">
+		<lang key="de">Zerstören</lang>
+		<lang key="en">Destroy</lang>
+		<lang key="es">Destruir</lang>
+		<lang key="fr">Détruire</lang>
+		<lang key="hr">Uništi</lang>
+		<lang key="pt">Destruir</lang>
+	</entry>
+
+	<entry key="DevastationAvailable">
+		<lang key="de">Zerstörung verfügbar</lang>
+		<lang key="en">Devastation is Available</lang>
+		<lang key="es">Devastación Disponíble</lang>
+		<lang key="fr">Dévastation disponible</lang>
+		<lang key="hr">Devastacija je Dostupna</lang>
+		<lang key="pt">Devastação Disponível</lang>
+	</entry>
+
+	<entry key="DevastationCooldown">
+		<lang key="de">Zerstörung ist in der Abkühlung. {0} Runde(n) übrig</lang>
+		<lang key="en">Devastation is in Cooldown. {0} turn(s) to go</lang>
+		<lang key="es">Devastación está en Congelamiento. {0} turno(s) para terminar.</lang>
+		<lang key="fr">Devastation en période de repos. {0} tour(s) restants</lang>
+		<lang key="hr">Devastacija se Hladi. {0} turn(ova) još</lang>
+		<lang key="pt">Devastação está em Arrefecimento. {0} turno(s) para terminar.</lang>
+	</entry>
+
+	<entry key="DevastationNotAvailable">
+		<lang key="de">Zerstörung nicht verfügbar</lang>
+		<lang key="en">Devastation is Not Available</lang>
+		<lang key="es">Devastación No Disponíble</lang>
+		<lang key="fr">Dévastation non disponible</lang>
+		<lang key="hr">Devastacija Nije Dostupna</lang>
+		<lang key="pt">Devastação Não Disponível</lang>
+	</entry>
+
+	<entry key="DevastationNotReady">
+		<lang key="de">Zerstörung ist nicht bereit</lang>
+		<lang key="en">Devastation is Not Ready</lang>
+		<lang key="es">Devastación No Está Lista</lang>
+		<lang key="fr">Dévastation n'est pas prêt</lang>
+		<lang key="hr">Devastacije Nije Spremna</lang>
+		<lang key="pt">Devastação Não Está Pronta</lang>
+	</entry>
+
+	<entry key="DevastationReady">
+		<lang key="de">Zerstörung ist bereit</lang>
+		<lang key="en">Devastation is Ready</lang>
+		<lang key="es">Devastación Lista</lang>
+		<lang key="fr">Dévastation oppérationnel</lang>
+		<lang key="hr">Devastacija je Spremna</lang>
+		<lang key="pt">Devastação Pronta</lang>
+	</entry>
+
+	<entry key="EnemyTimeout">
+		<lang key="de">Timeout Feind</lang>
+		<lang key="en">Enemy Timeout</lang>
+		<lang key="es">Timeout Enemigo</lang>
+		<lang key="fr">Temps-mort ennemi</lang>
+		<lang key="hr">Neprijateljev Timeout</lang>
+		<lang key="pt">Timeout Inimigo</lang>
+	</entry>
+
+	<entry key="Friendly">
+		<lang key="de">Freundliches Match</lang>
+		<lang key="en">Friendly</lang>
+		<lang key="es">Amistoso</lang>
+		<lang key="fr">Amical</lang>
+		<lang key="hr">Prijateljski</lang>
+		<lang key="pt">Amigáveis</lang>
+	</entry>
+
+	<entry key="HeavyUnits">
+		<lang key="de">Schwere Einheiten</lang>
+		<lang key="en">Heavy Units</lang>
+		<lang key="es">Unidades Fuertes</lang>
+		<lang key="fr">Unités lourdes</lang>
+		<lang key="hr">Teške Jedinice</lang>
+		<lang key="pt">Unidades Fortes</lang>
+	</entry>
+
+	<entry key="Home">
+		<lang key="de">Beginn</lang>
+		<lang key="en">Home</lang>
+		<lang key="es">Inicio</lang>
+		<lang key="fr">Maison</lang>
+		<lang key="hr">Početna</lang>
+		<lang key="pt">Início</lang>
+	</entry>
+
+	<entry key="IsResting">
+		<lang key="de">Ruht sich aus</lang>
+		<lang key="en">Is Resting</lang>
+		<lang key="es">Está en Descanso</lang>
+		<lang key="fr">En repos</lang>
+		<lang key="hr">Odmara Se</lang>
+		<lang key="pt">Está em Descanço</lang>
+	</entry>
+
+	<entry key="LadderList">
+		<lang key="de">Tabelle der Ranglisten</lang>
+		<lang key="en">Ladder List</lang>
+		<lang key="es">Lista de Ladders</lang>
+		<lang key="fr">Liste d'échelle</lang>
+		<lang key="hr">Ljestvica</lang>
+		<lang key="pt">Lista de Ladders</lang>
+	</entry>
+
+	<entry key="LadderTeamList">
+		<lang key="de">Tabelle der Ranglisten von Team</lang>
+		<lang key="en">Ladder List by Team</lang>
+		<lang key="es">Lista de Ladders por Equipo</lang>
+		<lang key="fr">Liste d'échelle par équipe</lang>
+		<lang key="hr">Ljestvica Timova</lang>
+		<lang key="pt">Lista de Ladders por Equipa</lang>
+	</entry>
+
+	<entry key="LightUnits">
+		<lang key="de">Schnelle Einheiten</lang>
+		<lang key="en">Light Units</lang>
+		<lang key="es">Unidades Rápidas</lang>
+		<lang key="fr">Unités légeres</lang>
+		<lang key="hr">Lagane Jedinice</lang>
+		<lang key="pt">Unidades Rápidas</lang>
+	</entry>
+
+	<entry key="MediumUnits">
+		<lang key="de">Medium Einheiten</lang>
+		<lang key="en">Medium Units</lang>
+		<lang key="es">Unidades Equilibradas</lang>
+		<lang key="fr">Unités medium</lang>
+		<lang key="hr">Srednje Jedinice</lang>
+		<lang key="pt">Unidades Equilibradas</lang>
+	</entry>
+
+	<entry key="Online">
+		<lang key="de">Online</lang>
+		<lang key="en">Online</lang>
+		<lang key="es">En Línea</lang>
+		<lang key="fr">En ligne</lang>
+		<lang key="hr">Online</lang>
+		<lang key="pt">Online</lang>
+	</entry>
+
+	<entry key="Opponent">
+		<lang key="de">Gegner</lang>
+		<lang key="en">Opponent</lang>
+		<lang key="es">Oponente</lang>
+		<lang key="fr">Adversaire</lang>
+		<lang key="hr">Protivnik</lang>
+		<lang key="pt">Oponente</lang>
+	</entry>
+
+	<entry key="Opponents">
+		<lang key="de">Gegner</lang>
+		<lang key="en">Opponents</lang>
+		<lang key="es">Oponentes</lang>
+		<lang key="fr">Adversaires</lang>
+		<lang key="hr">Protivnici</lang>
+		<lang key="pt">Oponentes</lang>
+	</entry>
+
+	<entry key="OpponentsDeploy">
+		<lang key="de">Positionierung des Gegners</lang>
+		<lang key="en">Opponent's Deploy</lang>
+		<lang key="es">Posicionamento del Oponente</lang>
+		<lang key="fr">Déploiement adverse</lang>
+		<lang key="hr">Protivnikovo Razmještanje</lang>
+		<lang key="pt">Posicionamento de Oponente</lang>
+	</entry>
+
+	<entry key="OpponentsTurn">
+		<lang key="de">Runde des Gegners</lang>
+		<lang key="en">Opponent's Turn</lang>
+		<lang key="es">Turno del Oponente</lang>
+		<lang key="fr">Tour adverse</lang>
+		<lang key="hr">Protivnikov turn</lang>
+		<lang key="pt">Turno do Oponente</lang>
+	</entry>
+
+	<entry key="Position">
+		<lang key="de">Position</lang>
+		<lang key="en">Position</lang>
+		<lang key="es">Posición</lang>
+		<lang key="fr">Position</lang>
+		<lang key="hr">Pozicija</lang>
+		<lang key="pt">Posição</lang>
+	</entry>
+
+	<entry key="PrincipalName">
+		<lang key="de">Name</lang>
+		<lang key="en">Name</lang>
+		<lang key="es">Nombre</lang>
+		<lang key="fr">Nom</lang>
+		<lang key="hr">Ime</lang>
+		<lang key="pt">Name</lang>
+	</entry>
+
+	<entry key="Search">
+		<lang key="de">Suche</lang>
+		<lang key="en">Search</lang>
+		<lang key="es">Buscar</lang>
+		<lang key="fr">Rechercher</lang>
+		<lang key="hr">Traži</lang>
+		<lang key="pt">Procurar</lang>
+	</entry>
+
+	<entry key="SearchOpponent">
+		<lang key="de">Suche Gegner</lang>
+		<lang key="en">Search Opponent</lang>
+		<lang key="es">Buscar Oponente</lang>
+		<lang key="fr">Recherche un adversaire</lang>
+		<lang key="hr">Traži Protivnike</lang>
+		<lang key="pt">Procurar Oponent</lang>
+	</entry>
+
+	<entry key="Status">
+		<lang key="de">Status</lang>
+		<lang key="en">Status</lang>
+		<lang key="es">Status</lang>
+		<lang key="fr">Status</lang>
+		<lang key="hr">Status</lang>
+		<lang key="pt">Status</lang>
+	</entry>
+
+	<entry key="TeamName">
+		<lang key="de">Team Name</lang>
+		<lang key="en">Team Name</lang>
+		<lang key="es">Equipo</lang>
+		<lang key="fr">Nom d'équipe</lang>
+		<lang key="hr">Ime Tima</lang>
+		<lang key="pt">Nome da Equipa</lang>
+	</entry>
+
+	<entry key="TimeLeft">
+		<lang key="de">Zeit übrig</lang>
+		<lang key="en">Time Left</lang>
+		<lang key="es">Tiempo restante</lang>
+		<lang key="fr">Temps restant</lang>
+		<lang key="hr">Ostalo Vremena</lang>
+		<lang key="pt">Tempo restante</lang>
+	</entry>
+
+	<entry key="Timeout">
+		<lang key="de">Timeout</lang>
+		<lang key="en">Timeout</lang>
+		<lang key="es">Timeout</lang>
+		<lang key="fr">Temps-mort</lang>
+		<lang key="hr">Timeout</lang>
+		<lang key="pt">Timeout</lang>
+	</entry>
+
+	<entry key="Tournament">
+		<lang key="de">Turnier</lang>
+		<lang key="en">Tournament</lang>
+		<lang key="es">Torneo</lang>
+		<lang key="fr">Tournoi</lang>
+		<lang key="hr">Turnir</lang>
+		<lang key="pt">Torneio</lang>
+	</entry>
+
+	<entry key="Tournaments">
+		<lang key="de">Turniere</lang>
+		<lang key="en">Tournaments</lang>
+		<lang key="es">Torneos</lang>
+		<lang key="fr">Tournois</lang>
+		<lang key="hr">Turniri</lang>
+		<lang key="pt">Torneios</lang>
+	</entry>
+
+	<entry key="ViewBattle">
+		<lang key="de">Siehe Schlacht</lang>
+		<lang key="en">View Battle</lang>
+		<lang key="es">Ver Batalla</lang>
+		<lang key="fr">Voir le Combat</lang>
+		<lang key="hr">Pogledaj Bitku</lang>
+		<lang key="pt">Ver Batalha</lang>
+	</entry>
+
+	<entry key="WinPercentage">
+		<lang key="de">Anteil Gewinn</lang>
+		<lang key="en">Win Percentage</lang>
+		<lang key="es">Porcentaje de Victória</lang>
+		<lang key="fr">Pourcentage de Victoire</lang>
+		<lang key="hr">Postotak Pobjeda</lang>
+		<lang key="pt">Percentagem de Vitória</lang>
+	</entry>
+
+	<entry key="WormHoleAvailable">
+		<lang key="de">Wurmloch Erzeuger ist verfügbar</lang>
+		<lang key="en">WormHole Creator is Available</lang>
+		<lang key="es">Túnel Espacial Disponíble</lang>
+		<lang key="fr">Le créateur de trou stellaire est disponible</lang>
+		<lang key="hr">Kreator Crvotočine je Doatupan</lang>
+		<lang key="pt">Túnel Espacial Disponível</lang>
+	</entry>
+
+	<entry key="WormHoleCooldown">
+		<lang key="de">Wurmloch Erzeuger ist in der Abkühlung. {0} Runde(n) übrig</lang>
+		<lang key="en">WormHole Creator is in Cooldown. {0} turn(s) to go</lang>
+		<lang key="es">Túnel Espacial está en Congelamiento. {0} turno(s) para terminar.</lang>
+		<lang key="fr">Le créateur de trou stellaire est en période de repos. {0} tour(s) à attendre.</lang>
+		<lang key="hr">Kreator Crvotočine se Hladi. {0} turn(ova) još</lang>
+		<lang key="pt">Túnel Espacial está em Arrefecimento. {0} turno(s) para terminar.</lang>
+	</entry>
+
+	<entry key="WormHoleNotAvailable">
+		<lang key="de">Wurmloch Erzeuger nicht verfügbar</lang>
+		<lang key="en">WormHole Creator is Not Available</lang>
+		<lang key="es">Túnel Espacial No Disponíble</lang>
+		<lang key="fr">Le créateur de trou stellaire n'est pas disponible</lang>
+		<lang key="hr">Kreator Crvotočine Nije Dostupan</lang>
+		<lang key="pt">Túnel Espacial Não Disponível</lang>
+	</entry>
+
+	<entry key="WormHoleNotReady">
+		<lang key="de">Wurmloch Erzeuger ist nicht bereit</lang>
+		<lang key="en">WormHole Creator is Not Ready</lang>
+		<lang key="es">Túnel Espacial No Está Listo</lang>
+		<lang key="fr">Le créateur de trou stellaire n'est pas prêt</lang>
+		<lang key="hr">Kreator Crvotočine Nije Spreman</lang>
+		<lang key="pt">Túnel Espacial Não Está Pronto</lang>
+	</entry>
+
+	<entry key="WormHoleReady">
+		<lang key="de">Wurmloch Erzeuger ist bereit</lang>
+		<lang key="en">WormHole Creator is Ready</lang>
+		<lang key="es">Túnel Espacial Listo</lang>
+		<lang key="fr">Le créateur de Trou stellaire est prêt</lang>
+		<lang key="hr">Kreator Crvotočine je Spreman</lang>
+		<lang key="pt">Túnel Espacial Pronto</lang>
+	</entry>
+
+	<entry key="You">
+		<lang key="de">Du</lang>
+		<lang key="en">You</lang>
+		<lang key="es">Tu</lang>
+		<lang key="fr">Vous</lang>
+		<lang key="hr">Ti</lang>
+		<lang key="pt">Tu</lang>
+	</entry>
+
+	<entry key="YourBattle">
+		<lang key="de">Deine Schlacht</lang>
+		<lang key="en">Your Battle</lang>
+		<lang key="es">Tu Batalla</lang>
+		<lang key="fr">Votre Combat</lang>
+		<lang key="hr">Tvoja Bitka</lang>
+		<lang key="pt">Tua Batalha</lang>
+	</entry>
+
+	<entry key="YourDeploy">
+		<lang key="de">Einheiten positionieren</lang>
+		<lang key="en">Deploy Units</lang>
+		<lang key="es">Posicionar Unidades</lang>
+		<lang key="fr">Déployer les unités</lang>
+		<lang key="hr">Razmjesti Jedinice</lang>
+		<lang key="pt">Posicionar Unidades</lang>
+	</entry>
+
+	<entry key="Yours">
+		<lang key="de">Deine</lang>
+		<lang key="en">Yours</lang>
+		<lang key="es">Tuya</lang>
+		<lang key="fr">Votre</lang>
+		<lang key="hr">Tvoji</lang>
+		<lang key="pt">Tua</lang>
+	</entry>
+
+	<entry key="YourTurn">
+		<lang key="de">Mache eine Bewegung</lang>
+		<lang key="en">Make Move</lang>
+		<lang key="es">Hacer Movimento</lang>
+		<lang key="fr">Faire les mouvements</lang>
+		<lang key="hr">Povuci Potez</lang>
+		<lang key="pt">Fazer Movimento</lang>
+	</entry>
+
+</resources>

@@ -1,0 +1,5269 @@
+/*============================
+		  CSS Reset
+=============================*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body {	line-height:normal;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}:focus {outline: 0;}ins {text-decoration: none;}del {text-decoration: line-through;}table {border-collapse: collapse;border-spacing: 0;}
+
+/*============================
+		   Generic
+=============================*/
+body {
+	font-family:Calibri, Arial;
+	font-size:12px;
+	background-color:#161616;
+	color:#DDD;
+	background:#000000 url(../../Images/Common/OrionsBeltBackground.jpg) repeat-y scroll 50% 0;
+}
+
+div.mainBackground {
+	background:url(../../Images/Common/MenuFill.jpg) no-repeat scroll 50% 0;
+}
+
+div.mainBackgroundSimple {
+	background:url(../../Images/Common/MenuFillSimple.png) no-repeat scroll 50% 0;
+}
+
+#bodyContent {
+	width:1000px;
+	margin:0px auto 20px auto;
+}
+
+h1 {
+	font-size:22px;
+	/*color:#fde245;*/
+	margin:10px 10px 0px 20px;
+}
+
+h2 {
+	font-size:18px;
+	color:#fff;
+	margin:10px 10px 0px 20px;
+}
+
+h3 {
+	font-size:16px;
+	color:#c2c2c2;
+	margin:10px 10px 0px 20px;
+}
+
+#loading{
+	background: url(../../Images/Common/LoadingBck.png);
+	position:absolute;
+}
+
+#loading div.loadingImg{
+	text-align:center;
+	background: url(../../Images/Common/ajax-loader.gif) no-repeat center center;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%; 
+}
+
+#loading div.loadingBck{
+	text-align:center;
+	background: url(../../Images/Common/ajax-loader-background.png) no-repeat center center;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%; 
+}
+
+input[type=text], input[type=password], textarea, input[type=checkbox] {
+	background-color:#222222;
+	color:#fff;
+	border:solid 1px #000;
+	font-size:12px;
+}
+
+textarea.messageBoardInput, div.messageBoardInput textarea
+{
+	width:535px;
+	height:200px;
+	padding:5px;
+}
+
+div.clear
+{
+	clear:both;
+	margin:0;
+	padding:0;
+}
+a {
+	color:#FFB938;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#FFB938;
+	text-decoration:underline;	
+}
+
+#loginStatus {
+	clear:both;
+	margin:10px 0px 10px 0px;
+}
+
+#loginStatus ul li{
+	display:inline;
+	margin:0px 0px 0px 10px;
+}
+
+.hideElement {
+	visibility:hidden;	
+}
+
+div.buttonFixed, div.buttonFixed:hover, input.button, div.button, input.button:hover, div.button:hover, input.buttonSmall, input.buttonSmall:hover,
+input.buttonLarge, div.buttonLarge, input.buttonLarge:hover, div.buttonLarge:hover {
+	height:30px;
+	border: 0px;
+	border-style: none;
+	font: inherit;
+	padding: 0px;
+	color:#FFB938;
+	font-weight:bold;
+	cursor:pointer;
+	text-align:center;
+}
+
+div.buttonFixed{
+	float:left;
+	width:96px;
+	margin-left:15px;
+	background: Transparent url(../../Images/Common/ButtonSmall.png) no-repeat;
+	background-position:0px 0px; 
+	height:22px;
+	padding-top:10px;
+}
+
+div.buttonFixed:hover{
+	float:left;
+	width:96px;
+	margin-left:15px;
+	background: Transparent url(../../Images/Common/ButtonSmall.png) no-repeat;
+	background-position:0px -30px;
+	height:22px;
+	padding-top:10px;
+}
+
+input.button, div.button{
+	background: Transparent url(../../Images/Common/Button.png) no-repeat;
+	width:159px;
+	background-position:0px 0px; 
+}
+
+div.button,div.button:hover{
+    height:20px;
+    padding: 9px 0px 0px 0;
+	text-align:center;
+}
+
+input.button:hover, div.button:hover{
+	background: Transparent url(../../Images/Common/Button.png) no-repeat;
+	width:159px;
+	background-position:0px -30px;
+}
+
+input[disabled].button, input[disabled].button:hover {
+	background: Transparent url(../../Images/Common/Button.png) no-repeat;
+	width:159px;
+	background-position:0px 0px; 
+	color:#ccc;
+	font-size:12px;
+}
+
+input.buttonSmall, div.buttonSmall{
+	background: Transparent url(../../Images/Common/ButtonSmall.png) no-repeat;
+	width:96px;
+	background-position:0px 0px; 
+	text-align:center;
+}
+
+input.buttonSmall:hover, div.buttonSmall:hover{
+	background: Transparent url(../../Images/Common/ButtonSmall.png) no-repeat;
+	width:96px;
+	background-position:0px -30px;
+}
+
+input[disabled].buttonSmall, input[disabled].buttonSmall:hover {
+	background: Transparent url(../../Images/Common/ButtonSmall.png) no-repeat;
+	width:96px;
+	background-position:0px 0px; 
+	color:#ccc;
+	font-size:12px;
+}
+
+input.buttonLarge, div.buttonLarge{
+	background: Transparent url(../../Images/Common/ButtonLarge.png) no-repeat;
+	width:230px;
+	background-position:0px 0px; 
+	padding-top:5px;
+	height:25px;
+}
+
+input.buttonLarge:hover, div.buttonLarge:hover{
+	background: Transparent url(../../Images/Common/ButtonLarge.png) no-repeat;
+	width:230px;
+	background-position:0px -30px;
+	padding-top:5px;
+	height:25px;
+}
+
+div.buttonSmall a:hover, div.buttonLarge a:hover, div.button a:hover{
+    text-decoration:none;
+}
+
+div.buttonSmall, div.buttonSmall:hover{
+    height:22px;
+    padding-top:8px;
+}
+
+input[disabled].buttonLarge, input[disabled].buttonLarge:hover {
+	background: Transparent url(../../Images/Common/ButtonLarge.png) no-repeat;
+	width:230px;
+	background-position:0px 0px; 
+	color:#ccc;
+	font-size:12px;
+}
+
+div.button a div, div.button a span, div.buttonFixed a div, div.buttonFixed a span {
+	padding-top:0px;
+}
+
+div.pagination {
+    margin:15px 0px 10px 20px;       
+}
+
+div.pagination b, div.pagination a{
+    padding:5px 8px;
+    border:solid 1px black;
+    background-color:#2d2d2d;
+}
+
+div.pagination b, div.pagination a:hover{
+    background-color:#FFB938;
+    color:Black;
+    text-decoration:none;
+}
+
+/*============================
+    Login and Register Page
+=============================*/
+
+.loginWindow {
+	background-color:#161616;
+	font-size:11px;
+}
+
+#loginLogo {
+	padding-top:25px;
+	margin:auto;
+	text-align:center;
+}
+
+#loginPanel , #registerPanel, #botPanel {
+	margin:auto;
+	background-image:url(../../Images/Common/Etc/StaticLoginFrame.png);
+	width:664px;
+	height:377px;
+}
+
+#loginPanel table {
+	margin:25px;
+	border:solid 1px #535353;
+	width:300px;
+}
+
+#registerPanel table {
+	margin:25px;
+	border:solid 1px #535353;
+	width:300px;
+}
+
+div.registerButton {
+	font-size:16px;	
+	text-align:center;
+}
+
+div.registerLoginButton {
+	font-size:16px;	
+}
+
+div.socialLogin{
+    text-align:center;
+    margin:15px auto 0px auto;
+    width:220px;
+    height:30px;
+}
+
+div.socialLogin div{
+    float:left;
+}
+
+div.registerLoginButton div{
+	font-size:16px;	
+	margin:0px auto;
+	text-align:center;
+}
+
+#loginPanel table{
+	border:0px;
+	width:auto;
+}
+
+#loginPanel table tr td{
+	border:0px;
+	text-align:left;
+}
+
+#loginLayout {
+	margin:80px 20px 20px 5px;
+}
+
+#loginLayout div.name{
+    width:116px;
+    float:left;
+}
+
+#registerLayout {
+	margin:30px 20px 10px 30px;	
+	width:330px;
+}
+
+#registerLayout div.name{
+    float:left;
+	width:100px;
+}
+
+#forgotLayout, #resendLayout {
+	padding:70px 20px 20px 55px;
+	width:315px;
+}
+
+#forgotLayout div.name, #resendLayout div.name{
+	float:left;
+	width:80px;
+}
+
+#botLayout {
+	padding:100px 20px 10px 57px;	
+	width:231px;
+}
+
+
+.username, .password {
+	width:220px;
+	margin-bottom:10px;
+	border:solid 1px #161616;
+}
+
+.forgotPassword {
+	text-align:right;
+	padding-right:10px;
+	margin-bottom:10px;
+}
+
+.loginButton, .registerButton {
+	text-align:center;
+	padding-top:10px;
+}
+
+#createUser tr td{
+	text-align:center;
+}
+
+#createUser tr div{
+	text-align:left;
+}
+
+#registerTopText {
+	padding: 45px 10px 0px 50px;
+	text-align:center;
+	width:420px;
+	font-size:16px;
+}
+
+/*============================
+		 Terms
+=============================*/
+
+#terms p{
+	padding:5px 0px 5px 20px;
+	background:url(../../Images/Common/Bullet.gif) no-repeat;
+	margin:10px 0px 0px 20px;
+}
+
+#terms ul li{
+	padding-left:30px;
+}
+
+
+/*============================
+		   Frames
+=============================*/
+
+table.frame{
+	width:100%;
+	max-width:980px;
+	margin:0px auto;
+}
+
+table.nowidth
+{
+	width:auto;
+	min-width:200px;
+}
+
+td.frameTopLeft {
+	width:21px;
+	background-image:url(../../Images/Common/Etc/FrameCorners.png);
+	background-position:-1px -50px;
+}
+
+td.frameTopCenter {
+	padding:13px 0 0 20px;
+	background:url(../../Images/Common/Etc/FrameTopCenter.png) repeat-x;
+	text-align:left;
+	font-size:15px;
+}
+
+td.frameTopRight {
+	width:21px;
+	background-image:url(../../Images/Common/Etc/FrameCorners.png);
+	background-position:-23px -50px;
+}
+
+td.frameTopRightCross {
+	width:21px;
+	background-image:url(../../Images/Common/Etc/FrameCorners.png);
+	background-position:-59px -62px;
+}
+
+td.frameTopRightCross:hover {
+	width:21px;
+	background-image:url(../../Images/Common/Etc/FrameCorners.png);
+	background-position:-88px -62px;
+	cursor:pointer;
+}
+
+th.frameTopLeft {
+	width:21px;
+	background-image:url(../../Images/Common/Etc/FrameCorners.png);
+	background-position:-1px -1px;
+}
+
+th.frameTopCenter {
+	padding:7px 0 0 0px;
+	background:url(../../Images/Common/Etc/FrameTitleTopCenter.png) repeat-x;
+	text-align:left;
+	font-size:15px;
+}
+
+th.frameTopRight {
+	width:21px;
+	background-image:url(../../Images/Common/Etc/FrameCorners.png);
+	background-position:-23px -1px;
+}
+
+th.frameTopRightCross {
+	width:21px;
+	background-image:url(../../Images/Common/Etc/FrameCorners.png);
+	background-position:-45px -1px;
+}
+
+th.frameTopRightCross:hover {
+	width:21px;
+	background-image:url(../../Images/Common/Etc/FrameCorners.png);
+	background-position:-67px -1px;
+	cursor:pointer;
+}
+
+td.frameMiddleLeft {
+	width:21px;
+	background:url(../../Images/Common/Etc/FrameMiddleLeft.png) repeat-y;
+}
+
+td.frameMiddleRight {
+	width:21px;
+	background:url(../../Images/Common/Etc/FrameMiddleRight.png) repeat-y;
+}
+
+td.frameBottomLeft {
+	width:21px;
+	background-image:url(../../Images/Common/Etc/FrameCorners.png);
+	background-position:-1px -30px;
+}
+
+td.frameBottomCenter {
+	height:19px;
+	background:url(../../Images/Common/Etc/FrameBottomCenter.png) repeat-x;
+}
+
+td.frameBottomRight {
+	width:21px;
+	background-image:url(../../Images/Common/Etc/FrameCorners.png);
+	background-position:-23px -30px;
+}
+
+td.frameMiddleCenter {
+	min-height:100px;
+	background-color:#151515;
+}
+
+td.messageImage {
+	width:124px;
+	text-align:center;
+}
+
+td.messageImage img{
+	margin:10px auto 0px auto;
+}
+
+td.messageContent {
+	vertical-align:top;	
+	padding:10px 0px 0px 0px;
+}
+
+#battle #informationTable.frame {
+	width:805px;	
+}
+
+#accountNotApproved td.messageContent{
+	text-align:center;
+	color:#FF0000;
+}
+
+#discloser {
+	margin-bottom:20px;
+}
+
+#discloser td.messageContent{
+	text-align:center;
+	color:#00AF00;
+}
+
+/*============================
+		   Border
+=============================*/
+
+div.bigBorder {
+    margin:10px auto;
+    width: 945px;
+}
+
+div.bigBorder .top{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat 0 -247px;
+    height:96px;
+}
+
+div.bigBorder .center{
+    background:url(../../Images/Common/Etc/BorderBigMiddle.png) repeat-y;
+    padding:0px 20px;
+    overflow:hidden;
+}
+
+div.bigBorder .bottom{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat -1px -345px;
+    height:117px;
+}
+
+div.bigBorderFlat {
+    width:945px;
+    margin:10px 0px 10px 25px;   
+}
+
+div.bigBorderFlat .top, div.bigBorderFlat .bottom{
+    height:13px;
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat -7px -1722px;
+}
+
+div.bigBorderFlat .center{
+    background:url(../../Images/Common/Etc/BorderFlatMiddle.png) repeat-y;
+    padding:10px;
+    overflow:hidden;
+    text-align:left;
+}
+
+div.bigBorderFlat .center h3{
+    margin:0px 0px 10px 15px;
+    font-size:18px;
+    color:White;
+}
+
+div.normalBorder, div.specialNormalBorder, div.normalBorderOpac {
+    width: 629px;
+}
+
+div.normalBorder .top{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat 1px -1510px;
+    height:94px;
+}
+
+div.specialNormalBorder .top{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat -0px -766px;
+    height:94px;
+}
+
+div.normalBorder .center, div.specialNormalBorder .center{
+    background:url(../../Images/Common/Etc/BorderNormalMiddle.png) repeat-y;
+    padding:0px 20px;
+    overflow:hidden;
+}
+
+div.normalBorder .bottom, div.specialNormalBorder .bottom{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat -0px -1605px;
+    height:114px;
+}
+
+div.normalBorder div.bottom h2, div.normalBorder div.bottom h1, div.specialNormalBorder div.bottom h2, div.specialNormalBorder div.bottom h1{
+    padding-left:50px;
+    font-size:20px;
+    margin:0px;
+}
+
+div.normalBorderOpac .top{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat -1px -1738px;
+    height:94px;
+}
+
+div.normalBorderOpac .center{
+    background:url(../../Images/Common/Etc/BorderNormalOpacMiddle.png) repeat-y;
+    padding:0px 20px;
+    overflow:hidden;
+}
+
+div.normalBorderOpac .bottom{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat -1px -1833px;
+    height:114px;
+}
+
+div.mediumBorder, div.specialMediumBorder {
+    margin:0px auto;
+    width: 474px;
+}
+
+div.mediumBorder .top{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat -316px -461px;
+    height:94px;
+}
+
+div.specialMediumBorder .top{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat -317px -669px;
+    height:94px;
+}
+
+div.mediumBorder .center, div.specialMediumBorder .center{
+    background:url(../../Images/Common/Etc/BorderMediumMiddle.png) repeat-y;
+    padding:0px 20px;
+    overflow:hidden;
+}
+
+div.mediumBorder .bottom, div.specialMediumBorder .bottom{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat -317px -555px;
+    height:114px;
+}
+
+
+div.smallBorder, div.specialSmallBorder {
+    width: 316px;
+}
+
+div.smallBorder .top{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat 0 -461px;
+    height:94px;
+}
+
+div.specialSmallBorder .top{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat 0 -669px;
+    height:94px;
+}
+
+div.smallBorder .center, div.specialSmallBorder .center{
+    background:url(../../Images/Common/Etc/BorderSmallMiddle.png) repeat-y;
+    padding:0px 18px;
+    overflow:hidden;
+}
+
+div.smallBorder .bottom, div.specialSmallBorder .bottom{
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat 0 -555px;
+    height:114px;
+}
+
+div.specialSmallBorder h2, div.specialMediumBorder h2, div.specialNormalBorder div.top h2, div.specialNormalBorder div.top h1{
+    padding:30px 0 0 35px;
+    float:left;
+    font-size:18px;
+}
+
+div.mediumBorder div.top h2, div.normalBorder div.top h2, div.normalBorderOpac div.top h2, div.smallBorder h2, div.bigBorder h2, div.normalBorder div.top h1, div.bigBorder div.top h2 {
+    padding:38px 0 0 35px;
+    float:left;
+    font-size:20px;
+}
+
+div.mediumBorder div.center h3, div.normalBorder div.center h3, div.smallBorder div.center h3, div.bigBorder div.center h3 {
+    padding:10px;
+    margin:0px;
+    font-size:18px;
+    color:White;
+    text-align:left;
+}
+
+div.straightSmallBorder {
+    background:url(../../Images/Common/Etc/Borders.png) no-repeat -792px -461px;
+    width:258px;
+    height:405px;
+    margin:17px 0 0 25px;
+}
+
+div.straightSmallBorder .top{
+    padding:14px 0 6px 0px;
+}
+
+div.straightSmallBorder .top h2 {
+    font-size:16px;    
+}
+div.straightSmallBorder .center{
+    padding:10px 0px 0px 17px;
+}
+
+div.closeBorder {
+    background:url(../../Images/Common/Etc/Close.png) no-repeat 0 0;
+    width:21px;
+    height:21px;
+    float:right;
+    margin:40px 50px 0px 0px;
+    cursor:pointer;
+}
+
+
+div.borderByRace{
+	background:url(../../Images/Common/Etc/Borders.png) no-repeat 0 0;
+	height:212px;
+	width:946px;
+	margin:0px auto 5px auto;
+}
+
+div.borderByRace .globalMessages{
+    font-size:16px;
+    padding:15px 0 0 60px;
+    text-align:left;
+}
+
+div.borderByRace .globalMessagesInformation{
+    padding:15px 0 0 80px;
+    text-align:left;
+    font-size:16px;
+    width:630px
+}
+
+div.LightHumans {
+    background-position:0px -868px;    
+}
+
+div.DarkHumans {
+    background-position:0px -1081px;    
+}
+
+div.Bugs {
+    background-position:0px -1294px;    
+}
+
+#messageBoard div.bottom{
+    padding: 0 40px;
+    text-align:left;
+    font-size:13px;
+    line-height:19px;
+}
+
+/*============================
+		   Footer
+=============================*/
+
+#siteFooter{
+	display:block;
+	padding-top:20px;
+	background:url(../../Images/Common/Etc/Borders.png) no-repeat 0 0;
+	height:227px;
+	width:948px;
+	margin:10px auto;
+}
+
+div.usefullinks {
+	float:left;
+	width:150px;
+	padding:25px 0 0 15px;
+}
+
+div.usefullinks ul li {
+    height:20px;    
+}
+
+#socialLinks {
+    padding-top:10px;    
+} 
+
+#socialLinks li {
+    float:left;
+    height:24px;
+}
+
+#latestPlayers {
+	width:530px;
+	padding:25px 0px 0px 235px;
+	overflow:hidden;
+	float:left;
+}
+
+#siteFooter h5{
+    font-size:20px;
+    padding-bottom:5px;
+}
+
+#latestPlayers ul li
+{
+	float:left;
+	padding:5px;
+	margin-right:15px;
+	width:150px;
+	height:22px;
+}
+
+#latestPlayers ul li span.player img
+{
+	width:25px;
+}
+
+#latestPlayers ul li span.player a
+{
+	margin-top:5px;
+}
+
+#gamestats {
+    
+}
+
+/*============================
+		 Global Menu
+=============================*/
+
+#globalMenu {
+	height:25px;
+	background-image: url(../../Images/Common/Menus/globalMenuBck.png);
+	width:1000px;
+	margin:auto;
+}
+
+#globalMenu ul {
+	float:right;
+}
+
+#globalMenu ul li {
+	float:left;
+	background-image: url(../../Images/Common/Menus/globalMenuItemBck.png);
+	height:25px;
+	text-align:right;
+}
+
+#globalMenu ul li a{
+	color:#e0e0e0;
+	font-size:15px;
+	vertical-align:middle;
+	padding: 10px 7px 0px 10px;
+}
+
+#globalMenu ul li a:hover{
+	text-decoration:none;
+	color:#fff;
+}
+
+#globalMenu ul li.globalMenuSeparator {
+	width:10px;
+	background-image: url(../../Images/Common/Menus/globalMenuSeparator.png);
+}
+
+#globalMenu ul li.globalMenuFirst {
+	width:13px;
+	background-image: url(../../Images/Common/Menus/globalMenuItemFirst.png);
+}
+
+#globalMenu ul li a.highlight {
+	color:#FFB938;
+}
+
+#globalMenu ul li a.highlight:hover {
+	color:#fff;
+}
+
+/*============================
+		 GameMenu Menu
+=============================*/
+
+#gameMenu {
+	background:#161616 url(../../Images/Common/Menus/GameMenu.png) no-repeat;
+	height: 76px;
+}
+
+#gameMenu ul {
+	padding-top:5px;	
+}
+
+#gameMenu ul li{
+	float:left;
+	width:89px;
+	padding:0px 10px 0px 0px;
+	text-align:center;
+}
+
+#gameMenu ul li.gameMenuSeparator {
+	padding: 0px 11px 0px 0px;
+	width:188px;
+}
+
+#gameMenu ul li.inside {
+	width:99px;
+}
+
+#gameMenu ul li.last {
+	padding: 0px;
+	width:88px;
+}
+
+#primaryMessageBoard {
+	width:188px;
+}
+
+div.menuImg
+{
+	width:75px;
+	height:50px;
+	margin-left:5px;
+	background:url(../../Images/Common/Menus/Icons.png) no-repeat;
+	/* Default for Home */
+	background-position:-4px 0px;
+}
+
+div.UniverseImg
+{
+	background-position:-182px -160px;
+}
+
+div.PlanetsImg
+{
+	background-position:-93px -160px;
+}
+
+div.MilitaryImg
+{
+	background-position:-183px -105px;
+}
+
+div.AllianceImg
+{
+	background-position:-269px -107px;
+}
+
+div.AuctionHouseImg
+{
+	background-position:-266px -53px;
+}
+
+div.QuestsImg
+{
+	background-position:-6px -105px;
+}
+
+div.BattlesImg
+{
+	background-position:-93px -107px;
+}
+
+div.TournamentsImg
+{
+	background-position:-6px -53px;
+}
+
+div.LadderImg
+{
+	background-position:-94px 2px;
+}
+
+div.HistoryImg
+{
+	background-position:-92px -50px;
+}
+
+div.ArenaImg
+{
+	background-position:-173px 2px;
+}
+
+div.TeamImg
+{
+	background-position:-6px -53px;
+}
+
+div.CreateFriendlyImg
+{
+	background-position:-185px -56px;
+}
+
+div.CreateTeamImg, div.CampaignsImg
+{
+	background-position:-183px -105px;
+}
+
+/*============================
+		 Resources Menu
+=============================*/
+
+#resourcesMenu {
+	background:url(../../Images/Common/Menus/ResourcesBck.png) no-repeat;
+	width:1000px;	
+	height:88px;
+	clear:both;
+	padding-bottom:5px;
+}
+
+#resourcesMenuGenericInfo {
+	height:58px;
+	width:1000px;
+	clear:both;
+}
+
+#resourcesMenuTick {
+	width:1000px;
+	height:30px;
+	text-align:center;
+	color:#FFB938;
+}
+
+#orions span{
+	float:left;
+	width:80px;
+	background:transparent url(../../Images/Common/Icons/Orions.png) no-repeat scroll 30px 16px;
+	height: 31px;
+	padding: 22px 0px 0px 60px;
+}
+
+#playerResources ul li{
+	float:left;
+	background:url(../../Images/Common/Menus/ResourceBck.png) no-repeat;
+	width:90px;
+	height:46px;
+}
+
+#playerResources ul li span { 
+	vertical-align:super;
+}
+
+#playerResources ul li a img{
+	margin:9px 2px 0px 9px;	
+}
+
+#ultimatePanel{
+	padding:10px;
+	margin-right:3px;
+	font-size:10px;
+	text-align:right;
+}
+/*============================
+		 Battle Board
+=============================*/
+
+#battle {
+	width:960px;
+	margin:10px auto;
+}
+
+#battle.preview {
+	width:200px;
+	margin:0;
+	overflow:hidden;
+}
+
+#battleArea {
+	width:805px;
+	clear:both;
+	margin:auto;
+	color:#fff;
+}
+
+#battle.preview #battleArea {
+	width:200px;
+}
+
+#battleField {
+	width:481px;
+	height:481px;
+	float:left;
+}
+
+#battle.preview #battleField {
+	width:200px;
+	height:200px;
+	background-position: -25px -25px;
+}
+
+#board2 {
+	border:solid 1px #2D2D2D;
+	height:452px;
+	width:452px;
+	border-spacing:2px;
+	border-collapse:separate;
+	margin:15px;
+}
+
+#battle.preview #battleField #board2 {
+	border:solid 1px #2D2D2D;
+	width:200px;
+	height:200px;
+	border-spacing:1px;
+	border-collapse:separate;
+	margin:0;
+	padding:0;
+}
+
+#board2 tr td img, #board4 tr td img {
+	width:50px;
+	height:50px;
+	z-index:0;
+	cursor: pointer;
+}
+
+#battle.preview #battleField #board2 tr td img {
+	width:20px;
+	height:20px;
+	z-index:0;
+	cursor:auto;
+}
+
+#board2 td, #board4 td {
+	border:solid 1px #2D2D2D;
+	height:52px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	vertical-align:middle;
+	width:52px;
+}
+
+#battle.preview #battleField #board2 td {
+	height:20px;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+	vertical-align:middle;
+	width:20px;
+}
+
+#leftBattleMenu {
+	float:left;
+	display:block;
+	font-size:10px;
+}
+
+#leftBattleMenu div.unitProperties, #leftBattleMenu div.strongAgainst,#leftBattleMenu div.weakerAgainst,#leftBattleMenu div.howToAttack,#leftBattleMenu div.howToMove{
+	width:155px;
+	position:relative;
+}
+
+#leftBattleMenu div div{
+	padding:2px 0px 0px 15px;
+}
+
+#leftBattleMenu div.unitProperties {
+	background-image:url(../../Images/Common/Battle/UnitPropertiesBck.gif);
+	height:105px;
+}
+
+#leftBattleMenu div.strongAgainst{
+	background-image:url(../../Images/Common/Battle/StrongWeakerBck.gif);
+	height:70px;
+}
+
+#leftBattleMenu div.weakerAgainst{
+	background-image:url(../../Images/Common/Battle/StrongWeakerBck.gif);
+	height:70px;
+}
+
+#leftBattleMenu div.howToAttack{
+	background-image:url(../../Images/Common/Battle/HowToAttackBck.gif);
+	height:114px;
+}
+
+#leftBattleMenu div.howToMove{
+	background-image:url(../../Images/Common/Battle/HowToMoveBck.gif);
+	height:114px;
+}
+
+#leftBattleMenu div.howToAttack div, #leftBattleMenu div.howToMove div{
+	width:91px;
+	height:91px;
+	padding:8px 0 0 35px;
+}
+
+#leftBattleMenu div.howToAttack div table, #leftBattleMenu div.howToMove div table{
+	border:0px;
+	width:auto;
+	border-collapse:collapse;
+}
+
+#leftBattleMenu div.howToAttack div table tr td, #leftBattleMenu div.howToMove div table tr td{
+	width:29px;
+	height:29px;
+	padding:0px;
+	border:0px;
+}
+
+
+#specials {
+	padding:0px !important;	
+}
+
+#rightBattleMenu {
+	float:left;
+	width:169px;
+	text-align:left;
+	font-size:10px;
+}
+
+#rightBattleMenu table tr th {
+	font-size:13px;
+	font-weight:bold;
+	padding:5px;
+}
+
+#rightBattleMenu table tr td {
+	padding:5px;
+}
+
+#rightBattleMenu h3, #leftBattleMenu h3 {
+	background-image:url(../../Images/Common/Battle/Header.gif);
+	width:155px;
+	height:21px;
+	padding-top:7px;
+	text-align:center;
+	font-size:11px;
+	font-weight:bold;
+	margin:0px;
+}
+
+#rightBattleMenu div.battleVacations {
+	padding:14px 24px;	
+}
+
+#rightBattleMenu div.optionMenu,#rightBattleMenu div.totalMovesMenu,#rightBattleMenu div.quantityToMoveMenu,#rightBattleMenu div.unitsDestroyedMenu, div.savedDeployMenu {
+	width:150px;
+	position:relative;
+	color:White;
+}
+
+#rightBattleMenu div.optionMenu {
+	background-image:url(../../Images/Common/Battle/OptionsBck.gif);
+	height:80px;
+}
+
+#rightBattleMenu div.totalMovesMenu {
+	background-image:url(../../Images/Common/Battle/MovesBck.gif);
+	height:34px;
+}
+
+#rightBattleMenu div.quantityToMoveMenu {
+	background: url(../../Images/Common/Battle/QuantityBck.gif) no-repeat;
+	height:50px;
+	padding:3px 0px 0px 5px;
+}
+
+#rightBattleMenu div.unitsDestroyedMenu {
+	background-image:url(../../Images/Common/Battle/UnitsDestroyed.gif);
+	height:27px;
+}
+
+#rightBattleMenu div.rotationMenu {
+	background-image:url(../../Images/Common/Battle/RotationBck.png);
+	width:185px;
+	height:188px;
+	margin:0px;
+}
+
+#rightBattleMenu div.optionMenu div.undo, #rightBattleMenu div.optionMenu div.reset, #rightBattleMenu div.optionMenu div.giveUp, #rightBattleMenu div.optionMenu div.makeMove {
+	width:75px;
+	height:40px;
+	float:left;
+}
+
+#rightBattleMenu div.optionMenu div div {
+	text-align:center;
+	cursor:pointer;
+/*	color:#fff;*/
+}
+
+#rightBattleMenu div.optionMenu div.position, #rightBattleMenu div.optionMenu div.loadDeploy {
+	background-image:url(../../Images/Common/Battle/Position.jpg);
+	width:150px;
+	height:40px;
+}
+
+#rightBattleMenu div.optionMenu div.resetPosition, #rightBattleMenu div.optionMenu div.saveDeploy {
+	background-image:url(../../Images/Common/Battle/ResetPosition.jpg);
+	width:150px;
+	height:40px;
+}
+
+#rightBattleMenu div.optionMenu div.position:hover, #rightBattleMenu div.optionMenu div.loadDeploy:hover {
+	background-image:url(../../Images/Common/Battle/Position_on.jpg);
+	width:150px;
+	height:40px;
+}
+
+#rightBattleMenu div.optionMenu div.resetPosition:hover, #rightBattleMenu div.optionMenu div.saveDeploy:hover {
+	background-image:url(../../Images/Common/Battle/ResetPosition_on.jpg);
+	width:150px;
+	height:40px;
+}
+
+#rightBattleMenu div.optionMenu div.giveUpOtherPlayer {
+	/*background-image:url(../../Images/Common/Battle/GiveUpOtherPlayer.gif);*/
+	width:150px;
+	height:80px;
+	padding-top:20px;
+}
+
+#rightBattleMenu div.optionMenu div.resetPosition div, #rightBattleMenu div.optionMenu div.position div{
+	width:150px;
+	height:40px;
+}
+
+#undo, #reset {
+	padding-top:16px;	
+}
+
+#giveUp, #submit {
+	padding-top:12px;	
+}
+
+#saveDeploy, #loadDeploy {
+	padding-top:12px;
+	text-align:center;
+}
+
+#rightBattleMenu div.optionMenu div.undo {
+	background-image:url(../../Images/Common/Battle/TopLeft.gif);
+}
+
+#rightBattleMenu div.optionMenu div.reset {
+	background-image:url(../../Images/Common/Battle/TopRight.gif);
+}
+
+#rightBattleMenu div.optionMenu div.giveUp {
+	background-image:url(../../Images/Common/Battle/BottomLeft.gif);
+}
+
+#rightBattleMenu div.optionMenu div.makeMove {
+	background-image:url(../../Images/Common/Battle/BottomRight.gif);
+}
+
+#rightBattleMenu div.optionMenu div.position:hover, #rightBattleMenu div.optionMenu div.loadDeploy:hover {
+	background-image:url(../../Images/Common/Battle/Position_on.gif);
+	color:#FFB938;
+}
+
+#rightBattleMenu div.optionMenu div.resetPosition:hover, #rightBattleMenu div.optionMenu div.saveDeploy:hover  {
+	background-image:url(../../Images/Common/Battle/ResetPosition_on.gif);
+	color:#FFB938;
+}
+
+#rightBattleMenu div.optionMenu div.undo:hover {
+	background-image:url(../../Images/Common/Battle/TopLeft_on.gif);
+	color:#FFB938;
+}
+
+#rightBattleMenu div.optionMenu div.reset:hover {
+	background-image:url(../../Images/Common/Battle/TopRight_on.gif);
+	color:#FFB938;
+}
+
+#rightBattleMenu div.optionMenu div.giveUp:hover {
+	background-image:url(../../Images/Common/Battle/BottomLeft_on.gif);
+	color:#FFB938;
+}
+
+#rightBattleMenu div.optionMenu div.makeMove:hover {
+	background-image:url(../../Images/Common/Battle/BottomRight_on.gif);
+	color:#FFB938;
+}
+
+#moves, #turn {
+	text-align:center;
+	font-size:27px;
+}
+
+#quantity, #quantityCargo {
+	width:40px;	
+	height:15px;	
+	text-align:right;
+	margin-left:5px;
+}
+
+#damage {
+	text-align:center;
+	padding-top:4px;
+	font-size:17px;
+}
+
+#rotationOption {
+	width:147px;	
+	height:147px;
+	padding:30px 0px 0px 26px;
+	position:relative;
+}
+
+#rotationOption table {
+	margin:0px;
+	width:auto;
+}
+
+#rotationOption tr td {
+	width:49px;	
+	height:49px;
+	padding:0px !important;
+}
+
+#b:hover {
+	background-image:url(../../Images/Common/Battle/nsew.png);
+	background-position: -1px -1px !important;
+	cursor:pointer;
+}
+
+#d:hover {
+	background-image:url(../../Images/Common/Battle/nsew.png);
+	background-position: -151px -1px !important;
+	cursor:pointer;
+}
+
+#e:hover {
+	background-image:url(../../Images/Common/Battle/nsew.png);
+	background-position: -104px -1px !important;
+	cursor:pointer;
+}
+
+#g:hover {
+	background-image:url(../../Images/Common/Battle/nsew.png);
+	background-position: -52px -1px !important;
+	cursor:pointer;
+}
+
+img.unitSmall {
+	width:25px;
+	height:25px;
+	padding:2px;
+}
+
+div.optionMenu div.replay {
+	background-image:url(../../Images/Common/Battle/ReplayButton.png);
+	height:80px;
+	width:150px;
+	padding:9px 0px 0px 10px;
+}
+
+div.optionMenu div.replay table {
+	height:63px;
+	width:130px;
+}
+
+div.optionMenu div.replay tr td {
+	background-image:url(../../Images/Common/Battle/Replay.png);
+	cursor:pointer;
+}
+
+#p2 {
+	background-position: 2px -1px !important;
+}
+
+#n2 {
+	background-position: -105px -1px !important;
+}
+
+#p1 {
+	background-position: -27px -35px !important;
+}
+
+#n1 {
+	background-position: -63px -35px !important;
+}
+
+#p {
+	background-position: -28px -1px !important;
+}
+
+#n {
+	background-position: -78px -1px !important;
+}
+
+#p2:hover {
+	background-position: 2px -66px !important;
+}
+
+#n2:hover {
+	background-position: -105px -65px !important;
+}
+
+#p1:hover {
+	background-position: -27px -100px !important;
+}
+
+#n1:hover {
+	background-position: -63px -100px !important;
+}
+
+#p:hover {
+	background-position: -28px -65px !important;
+}
+
+#n:hover {
+	background-position: -78px -65px !important;
+}
+
+#play{
+	background-image:none;
+}
+
+#initialContainers, #bottomLayout {
+	width:480px;
+	height:100px;
+	margin:0px auto;
+	clear:both;
+}
+
+#initialContainers ul, #bottomLayout ul {
+	width:484px;
+	height:29px;	
+	background-image:url(../../Images/Common/Battle/UnitsToDeployTitleBck.gif);
+	background-repeat:no-repeat;
+	padding-left:4px;
+}
+
+#initialContainers ul li, #bottomLayout ul li {
+	width:119px;
+	height:29px;	
+	background-image:url(../../Images/Common/Battle/UnitsToDeployTitleUnselected.gif);
+	float:left;
+	text-align:center;
+	padding-top:5px;
+}
+
+#initialContainers ul li.selected, #bottomLayout ul li.selected {
+	background-image:url(../../Images/Common/Battle/UnitsToDeployTitleSelected.gif);
+}
+
+#initialContainers div{
+	display:none;
+	width:480px;
+	height:100px;
+	float:left;
+}
+
+#initialContainers div{
+	display:none;
+	width:480px;
+	height:100px;
+}
+
+#initialContainers div.visible, #bottomLayout div.visible{
+	display:block;
+	width:480px;
+	height:102px;
+	background-image:url(../../Images/Common/Battle/UnitsToDeployBck.gif);
+}
+
+#initialContainers div.BattleMoon{
+	background-image:url(../../Images/Common/Battle/UnitsToDeployBckBM.gif) !important;
+}
+
+#initialContainers div.Queen{
+	background-image:url(../../Images/Common/Battle/UnitsToDeployBckQ.gif) !important;
+}
+
+#initialContainers div.Blinker{
+	background-image:url(../../Images/Common/Battle/UnitsToDeployBckBK.gif) !important;
+}
+
+#initialContainers div table {
+	margin:25px auto 0px auto;
+	border:none;
+	width:auto;
+	border-collapse:collapse;
+}
+
+#initialContainers div table tr td{
+	margin:1px;
+	padding:0px;
+	border:none;
+}
+
+#ultimateUnit {
+	width:480px;
+	height:100px;
+	float:left;
+}
+
+#ultimateUnit table {
+	width:480px;
+}
+
+#ultimateUnit table tr td{
+	text-align:center;
+}
+
+#players {
+	height:74px;
+	width:482px;
+	margin-left:154px;
+	background-image:url(../../Images/Common/Battle/AboveBanner.png);
+}
+
+#players h2 {
+	margin: 5px 0px 0px 0px;	
+}
+
+#player1Info,#player2Info,#player1Avatar,#player2Avatar {
+	float:left;
+	height:74px;
+}
+
+#player1Info {
+	text-align:right;	
+}
+
+#player1Info,#player2Info {
+	width:163px;
+}
+
+#player1Avatar,#player2Avatar {
+	width:78px;
+	text-align:center;
+}
+
+#player1Avatar img,#player2Avatar img{
+	margin-top:13px;
+	width:50px;
+	height:50px;
+}
+
+#enemyUltimateUnit {
+	height:100px;
+	width:480px;
+	margin-left:155px;
+}
+
+#enemyUltimateUnit.battleMoon_s {
+	background-image:url(../../Images/Common/Units/battlemoon_s.png);
+}
+
+#enemyUltimateUnit.blinker_s {
+	background-image:url(../../Images/Common/Units/blinker_s.png);
+}
+
+#enemyUltimateUnit.queen_s {
+	background-image:url(../../Images/Common/Units/queen_s.png);
+}
+
+#enemyUltimateUnit table {
+	margin:10px auto;
+	vertical-align:middle;	
+}
+
+#enemyUltimateUnit table tr td{
+	width:52px;
+	height:52px;
+	padding:0px;
+	margin:0px;
+	border:solid 1px #2d2d2d;
+}
+
+#selectedElement {
+	padding-left:10px;	
+}
+
+#elementSelected{
+	height:45px;
+}
+
+#elementSelected div{
+	float:left;	
+}
+
+#elementSelectedImg {
+	width:40px;	
+	height:40px;
+	margin:0px 10px 0px 10px;
+}
+
+#elementSelectedImg img.unitSmall{
+	width:40px;	
+	height:40px;	
+}
+
+#elementSelectedImgQuant, #elementSelectedRange {
+	margin: 10px 10px 0px 0px;
+}
+
+#elementSelectedQuantInput, #elementSelectedRangeInput{
+	width:50px;
+	text-align:right;
+}
+
+#enemyElements {
+	height:40px
+}
+
+#enemyElements div{
+	float:left;
+	text-align:center;
+	padding:2px;
+	width:25px;
+}
+
+#enemyElements div img{
+	width:25px;
+}
+
+#enemyElements div div{
+	font-size:9px;
+}
+
+td.selectedSector, td.canMoveAbove {
+	background-color:#6A9B4A;
+}
+
+td.cannotMoveAbove {
+	background-color:#df0000;
+	z-index:10;	
+}
+
+#enemy {
+	z-index:10;
+	cursor:pointer;
+}
+
+td.canMove {
+	background-image:url(../../Images/Common/Battle/arrow.gif);
+	background-repeat:no-repeat;
+	vertical-align:middle;
+	text-align:center;
+}
+
+img.invisible {
+	visibility:hidden;
+	position:absolute;
+}
+
+img.visible {
+	position:absolute;
+	z-index:2;
+	visibility:visible;
+}
+
+.unitOpacity {
+	filter:alpha(opacity=30);
+	opacity:.30;
+	width:50px;
+}
+
+.unitOpacityOver {
+	filter:alpha(opacity=60);
+	-moz-opacity:.6;
+	opacity:.6;
+	width:50px;
+	cursor: pointer;
+}
+
+td.percentageRed {
+	
+}
+
+td.percentageGreen {
+	
+}
+
+/*============================
+      Battle 4 Player
+=============================*/
+
+#battle4 {
+	text-align:left;
+	width:1000px;
+	margin:10px 0px 10px 0px;
+}
+
+#battleArea4 {
+	margin:0px auto;
+	width:880px;
+	height:850px;
+}
+
+#battleField4 {
+	width:704px;
+	height:704px;
+	background-repeat:no-repeat;
+	float:left;
+}
+
+#board4 {
+	height:674px;
+	width:674px;
+	border-spacing:2px;
+	border-collapse:separate;
+	margin:15px;
+	float:left;
+}
+
+#initialLeft {
+	float:left;
+	width:70px;	
+}
+
+#middle {
+	float:right;
+	width:770px;	
+}
+
+#initialRight {
+	float:right;
+	width:70px;	
+}
+
+#initialLeft, #initialRight {
+	margin-top:175px;
+}
+
+#initialTop4, #initialBottom4 {
+	margin-left:133px;	
+}
+
+#initialBottom tr td img {
+	cursor:pointer;
+}
+
+.noBorder {
+	border:0px ! important;	
+}
+
+td.enemyBorder, td.enemyBorder1 {
+	background-image:url(../../Images/Common/Battle/EnemyBorder.png);
+	background-position:0px 0px;
+	border: solid 1px black;
+}
+
+td.enemyBorder2 {
+	background-image:url(../../Images/Common/Battle/EnemyBorder.png);
+	background-position:-52px 0px;
+	border: solid 1px black;
+}
+
+td.enemyBorder3 {
+	background-image:url(../../Images/Common/Battle/EnemyBorder.png);
+	background-position:-104px 0px;
+	border: solid 1px black;
+}
+
+td.friendlyBorder {
+	background-image:url(../../Images/Common/Battle/EnemyBorder.png);
+	background-position: -155px 0px !important;
+	border: solid 1px black;
+}
+
+div.battlePlayer div.avatar img{
+	width:44px;
+	height:44px;
+	padding:9px 0px 0px 10px;
+	float:left;
+}
+
+div.battlePlayer div.content{
+	width:92px;
+	height:44px;
+	padding:9px 0px 0px 5px;
+	float:left;
+	font-size:12px;
+	color:White;
+}
+
+div.battlePlayer div.content h4 {
+	font-size:12px;	
+	font-weight:bold;
+}
+
+div.player0, div.player1, div.player2, div.player3, div.playerFriendly {
+	width:152px;
+	height:59px;
+}
+
+div.player0 {
+	background-image:url(../../Images/Common/Battle/Player0.gif);
+}
+
+div.player1 {
+	background-image:url(../../Images/Common/Battle/Player1.gif);
+}
+
+div.player2 {
+	background-image:url(../../Images/Common/Battle/Player2.gif);
+}
+
+div.player3 {
+	background-image:url(../../Images/Common/Battle/Player3.gif);
+}
+
+div.playerFriendly {
+	background-image:url(../../Images/Common/Battle/PlayerFriendly.gif);
+}
+
+#createBattle {
+	text-align:center;	
+	margin-top:20px;
+}
+
+/*============================
+      Battle Messages
+=============================*/
+
+#messages {
+	height:196px;
+	margin-left: 170px;
+	clear:both;
+	width:600px;
+	vertical-align:top;
+	padding:10px 0px 0px 0px;
+}
+
+#battleMessages{
+	background:url(../../Images/Common/Battle/MessagesBck.gif) no-repeat;
+	width:608px;
+	height:196px;
+	overflow:auto;
+}
+
+#battleMessages table tr{
+	padding-bottom:3px;
+	background:url(../../Images/Common/Battle/MessageSplitter.gif) no-repeat;
+	height:31px;
+	border:0px;
+}
+
+#battleMessages table tr td{
+	border:0px;
+	text-align:left;
+}
+
+#battleMessages table{
+	width:575px;
+	margin:7px;
+	padding-bottom:5px;
+	border:0px;
+	border-collapse:collapse;
+}
+
+#battleMessages table tr td span{
+	font-weight:bold;
+	color:#FFB938;
+}
+
+#battleMsgSlider {
+	background:White;
+	height: 200px;
+	width: 20px;
+	float:right;
+}
+ 
+#battleMsgKnob {
+	height: 20px;
+	width: 20px;
+	background:red;
+}
+
+
+/*============================
+		  Terrain
+=============================*/
+
+.Desert {
+	background-image:url(../../Images/Common/Terrain/desert.gif);
+}
+
+.Desert4 {
+	background-image:url(../../Images/Common/Terrain/Desert4.gif);
+}
+
+.Forest {
+	background-image:url(../../Images/Common/Terrain/forest.gif);
+}
+
+.Forest4 {
+	background-image:url(../../Images/Common/Terrain/Forest4.gif);
+}
+
+.Rock {
+	background-image:url(../../Images/Common/Terrain/rock.gif);
+}
+
+.Rock4  {
+	background-image:url(../../Images/Common/Terrain/Rock4.gif);
+}
+
+.Terrest {
+	background-image:url(../../Images/Common/Terrain/terrest.gif);
+}
+
+.Terrest4 {
+	background-image:url(../../Images/Common/Terrain/Terrest4.gif);
+}
+
+.Ice {
+	background-image:url(../../Images/Common/Terrain/ice.gif);
+}
+
+.Ice4 {
+	background-image:url(../../Images/Common/Terrain/Ice4.gif);
+}
+
+.Water {
+	background-image:url(../../Images/Common/Terrain/water.gif);
+}
+
+.Water4 {
+	background-image:url(../../Images/Common/Terrain/Water4.gif);
+}
+
+.Space {
+	background-image:url(../../Images/Common/Terrain/space.gif);
+}
+
+.Space4 {
+	background-image:url(../../Images/Common/Terrain/Space4.gif);
+}
+
+.Arena {
+	background-image:url(../../Images/Common/Terrain/Arena.gif);
+}
+
+.Arena4 {
+	background-image:url(../../Images/Common/Terrain/Arena4.gif);
+}
+
+
+/*============================
+		  Ladder List
+=============================*/
+
+.true
+{
+	background-image:url(../../Images/Common/True.gif);
+	width:9px;
+	height:9px;
+	text-align:center;
+}
+
+.false
+{
+	background-image:url(../../Images/Common/False.gif);
+	 width:9px;
+	 height:9px;
+	 text-align:center;
+}
+
+.challenge
+{
+	background-image:url(../../Images/Common/Battle.gif);
+	width:17px;
+	height:17px;
+	text-align:center;
+}
+
+/*============================
+      Generic Table
+=============================*/
+
+.transparentTable
+{
+	background-image:url(../../Images/Common/TableTransparent.png);
+}
+
+table.table {
+	margin: 10px auto;
+	width:96%;
+	border-collapse:separate;
+	border-spacing:1px;
+}
+
+table.table tr:hover td, table.table tr.selected td, #menuPanel ul li:hover, #rightMenu ul li:hover {
+	text-align:center;
+	vertical-align:middle;
+	height:29px;
+	background-image:url(../../Images/Common/Table.png);
+	background-position: 0px -432px;
+}
+
+table.table tr td, #menuPanel ul li, #rightMenu ul li, div.blogPreview ul li {
+	text-align:center;
+	vertical-align:middle;
+	height:30px;
+	background-image:url(../../Images/Common/Table.png);
+	background-position: 0px -31px;
+}
+
+table.table tr th, #menuPanel h2, #rightMenu h2 {
+	font-weight:bold;
+	text-align:center;
+	background-color:#2D2D2D;
+	background-image:url(../../Images/Common/Table.png);
+	background-position:0 0;
+	height:31px;
+	vertical-align:middle;
+	font-size:13px;
+}
+
+table.newtable {
+	margin: 10px auto;
+	width:96%;
+	border-collapse:collapse;
+	border-spacing:1px;
+}
+
+table.newtable tr:hover td, table.newtable tr.selected td {
+	background-color:#5c5d5d;
+}
+
+table.newtable tr td {
+	vertical-align:middle;
+	height:25px;
+	border-bottom:1px dotted #DDDDDD;
+	text-align:center;
+}
+
+table.newtable tr th, table.newtable caption {
+	font-weight:bold;
+	text-align:center;
+	background-color:#2D2D2D;
+	height:25px;
+	vertical-align:middle;
+	font-size:13px;
+}
+
+table.newtable tr td.boardAuthor
+{
+	width:150px;
+	padding:10px;
+	vertical-align:text-top;
+	border-right:1px dotted #DDDDDD;
+}
+
+table.newtable tr td.boardAuthor div
+{
+	clear:both;
+	text-align:left;
+	padding-top:10px;
+	width:100px;
+}
+
+table.newtable tr td.boardMessage
+{
+	padding:10px;
+	text-align:left;
+}
+
+table.newtable tr td.boardMessage p
+{
+	margin:10px;
+}
+
+/*============================
+      Friendly
+=============================*/
+
+img.smallImage {
+	width:30px;	
+	height:30px;
+}
+
+/*============================
+      Universe ToolTip
+=============================*/
+
+.tip {
+	color: #000;
+	width: 180px;
+	z-index: 13000;
+	cursor:pointer;
+}
+ 
+.tip-title {
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0;
+	color: #FFB938;
+	padding: 8px 8px 4px;
+	background: url(../../Images/Common/bubble.png) top left;
+}
+ 
+.tip-text {
+	font-size: 11px;
+	padding: 4px 8px 8px;
+	background: url(../../Images/Common/bubble.png) bottom right;
+	background-color:#212421;
+	color:#fff;
+}
+
+.tip-bottom {
+	background: url(../../Images/Common/bubble.png) bottom right;
+	height:10px;
+}
+
+.tipItem {
+	font-weight: bold;
+	font-size: 11px;
+	color: #FFB938;	
+}
+
+.tip-text div.player {
+	clear:both;
+	height:13px;
+}
+
+.tip-text div.player div {
+	float:left;
+	vertical-align:middle;
+}
+
+.tip-text div.player div img {
+	width:25px;
+	height:25px;
+}
+
+.tip-text div.player div.nick {
+	padding:6px 0 0 5px;
+}
+
+.tip-text div.player div.activityStatus {
+	margin:9px 0px 0px 5px;
+}
+
+.hidden {
+	visibility:hidden;
+	position: absolute;
+}
+
+.visible {
+	visibility:visible;
+	position: absolute;
+}
+
+.visibleRelative {
+	visibility:visible;
+	position: relative;
+}
+
+.optionMenu {
+	color: #000;
+	width: 150px;
+	z-index: 14000;
+	cursor:pointer;
+	position:absolute;
+}
+
+.optionMenuUniverse {
+	color: #000;
+	width: 180px;
+	z-index: 14000;
+	cursor:pointer;
+	position:absolute;
+}
+ 
+.optionMenuTitle {
+	font-weight: bold;
+	font-size: 11px;
+	margin: 0;
+	color: #FFB938;
+	padding: 8px 8px 4px;
+	background: url(../../Images/Common/bubble.png) top left;
+}
+
+.optionMenuText {
+	font-size: 11px;
+	padding: 4px 8px 8px;
+	background: url(../../Images/Common/bubble.png) bottom right;
+	color: #fff;
+}
+
+.optionMenuText div{
+	font-size: 11px;
+	color: #fff;
+	
+}
+.optionMenuText div a,.optionMenuText div a:hover {
+	background-color:#1e1e1e;
+	font-size: 11px;
+}
+
+.optionHidden {
+	visibility:hidden;
+	position: absolute;
+}
+
+.confederation {
+	color:#1e75ea;
+}
+
+.nonagressionpact{
+	color:#f8bb02;
+}
+
+.war{
+	color:#ff0000;
+}
+
+.neutral{
+	color:Gray;
+}
+
+.samealliance{
+	color:#00FF00;
+}
+
+.green
+{
+	color:#00db1c;
+}
+
+.red
+{
+	color:red;
+}
+
+.blue
+{
+	color:Aqua;
+}
+
+/*============================
+      Feets
+=============================*/
+
+div.fleet {
+	margin:10px;
+	width:600px;
+	font-size:10px;
+}
+
+div.fleetUnits, div.BattleMoonUnits, div.BlinkerUnits, div.QueenUnits {
+	overflow:hidden;
+	width:600px;
+	height:70px;
+	background-image:url(../../Images/Common/Planets/FleetBck.gif);
+}
+
+div.fleetUnits {
+	background-position: 0px 0px;
+}
+
+div.BattleMoonUnits {
+	background-position: 0px -70px;
+}
+
+div.BlinkerUnits {
+	background-position: 0px -140px;
+}
+
+div.QueenUnits {
+	background-position: 0px -210px;
+}
+
+div.fleetUnitsOver {
+	background-image:url(../../Images/Common/Planets/FleetBckOver.gif) !important;
+}
+
+div.BattleMoonUnitsOver {
+	background-position: 0px -70px;
+}
+
+div.BlinkerUnitsOver {
+	background-position: 0px -140px;
+}
+
+div.QueenUnitsOver {
+	background-position: 0px -210px;
+}
+
+div.fleet h3 {
+	background-image:url(../../Images/Common/Planets/FleetTitleBck.gif) !important;
+	width:300px !important;
+	height:18px !important;
+	padding:3px 0 0 0px !important;
+	text-align:center;
+	font-size:11px;
+}
+
+div.fleetListUnit {
+	float:left;
+	padding:5px;
+	cursor:move;
+	text-align:center;
+}
+
+#quantitySelector, #quantityCargoSelector {
+	width:150px;
+}
+
+#transferQuantity, #transferCargoQuantity {
+	cursor:pointer;
+	padding-left:10px;
+}
+
+#cancelTransfer, #cancelCargoTransfer {
+	cursor:pointer;
+	padding: 0px 10px 0px 10px;
+}
+
+#saveChanges {
+	
+}
+
+#createFleet {
+	overflow:hidden;
+}
+
+#createFleet div.button{
+	float:none;
+	margin:10px auto 0px auto;
+}
+
+#fleetList #saveChangesDiv {
+	background-image:none !important;
+	text-align:center;
+}
+
+/*============================
+      Fleet Cargo
+=============================*/
+
+div.fleetCargo {
+	overflow:hidden;
+	width:595px;
+	height:50px;
+	background-image:url(../../Images/Common/Planets/CargoBck.gif);
+	padding:0px 0px 0px 5px;
+}
+
+div.fleetCargoOver {
+	background-image:url(../../Images/Common/Planets/CargoBckOver.gif) !important;
+}
+
+div.cargoList {
+	float:left;
+	padding:5px;
+	text-align:center;
+	cursor:move;
+}
+
+div.unloadFleetCargo {
+	float:right;
+	height:50px;
+}
+
+div.unloadFleetCargo div.button{
+	margin:15px 10px 0px 0px;
+}
+
+/*============================
+ CheckBox, Radio Button and Select
+=============================*/
+
+span.select {
+   position: absolute;
+   width: 200px;
+   height: 30px;
+   color: #FFB938;
+   line-height:25px;
+   background: url(../../Images/Common/Select.png) no-repeat;
+   overflow: hidden;
+   text-align:center;
+}
+
+span.select {
+	background-position: -1px -1px;
+}
+
+select.styled {
+	color:#979797;
+	background-color:#161616;
+	border:solid 1px black;
+	position: relative; 
+	opacity: 0; 
+	filter: alpha(opacity=0); 
+	z-index: 5; 
+	width:200px;
+	height:30px;
+}
+
+select.styledBig {
+	color:#979797;
+	background-color:#161616;
+	border:solid 1px black;
+	position: relative; 
+	opacity: 0; 
+	filter: alpha(opacity=0); 
+	z-index: 5; 
+	width:300px;
+}
+
+select.styled optgroup, select.styledBig optgroup{
+	color:#FFB938;
+}
+
+select.styled optgroup option,select.styledBig optgroup option{
+	color:#979797;
+}
+
+input.styled, input.styledBig{ 
+	display: none; 
+} 
+/*============================
+			IFrame
+=============================*/
+
+div.iframeWindow {
+	left:0px;
+	right:0px;
+	top:30px;
+	position:absolute;
+}
+
+div.iframeHeader {
+	/*background-image:url(../../Images/Common/Etc/IFrameHeader.png);*/
+	background-image:url(../../Images/Common/Table.png);
+	background-position:0 0;
+	height:20px;
+	border:solid 2px black;
+	padding-top:1px;
+}
+
+div.iframeButton, div.iframeButton:hover {
+	background-image:url(../../Images/Common/Etc/IFrameCloseButton.png);
+	background-repeat:no-repeat;
+	height:17px;
+	padding-right:18px;
+	margin-top:1px;
+	float:right;
+	cursor:pointer;
+}
+
+div.iframeButton {
+	background-position:-1px -1px;
+}
+
+div.iframeButton:hover {
+	background-position: -1px -18px;
+}
+
+div.iframeTitle {
+	padding-left:10px;
+}
+
+/*============================
+		   Tournaments
+=============================*/
+
+#playoffs
+{
+	padding:20px 20px 20px 25px;
+	margin:0px auto;
+	background-repeat:no-repeat;
+}
+
+#playoffs.players32{
+	background-image:url(../../Images/Common/Tournaments/Players32.png);
+	background-position:-3px -29px;
+}
+
+#playoffs.players16{
+	background-image:url(../../Images/Common/Tournaments/Players16.png);
+	background-position:10px -37px;
+}
+
+#playoffs.players8{
+	background-image:url(../../Images/Common/Tournaments/Players8.png);
+	background-position:70px 3px;
+}
+
+#playoffs.players4{
+	background-image:url(../../Images/Common/Tournaments/Players4.png);
+	background-position:31px -15px;
+}
+
+#playoffs table
+{
+	width:950px;
+}
+
+#playoffs table tr td
+{
+
+}
+
+#playoffs ul
+{
+	margin:auto;
+	width:180px;
+	margin-bottom:35px;
+}
+
+#playoffs ul li
+{
+	vertical-align:middle;
+	clear:both;
+	height:30px;
+	padding:0px 0 0 10px;
+}
+
+#playoffs ul li img
+{
+	width:20px;
+	float:left;
+	margin:1px;
+	margin-top:5px;
+}
+
+#playoffs ul li span
+{
+	margin-top:10px;
+	margin-right:10px;
+	float:left;
+}
+
+#playoffs ul.empty li span
+{
+	margin-top:10px;
+	margin-right:10px;
+	float:left;
+	width:180px;
+	text-align:center;
+}
+
+#playoffs ul li.WinTrue span a
+{
+	color:Aqua;
+}
+
+#playoffs ul li.WinFalse span a
+{
+	color:#DDDDDD;
+}
+
+#playoffs ul.empty li 
+{
+	text-align:center;
+	vertical-align:middle;
+	clear:both;
+	height:30px;
+	text-align:center;
+}
+
+#playoffs ul li.info
+{
+	float:none;
+	text-align:center;
+	height:auto;
+	padding-top:4px;
+}
+
+#currentTournaments div.bottom{
+    height:96px;
+    padding:20px 0 0 0px;
+    text-align:center;
+}
+
+#soonToStartTournaments div.center table tr td div.button, #soonToStartTournaments div.center table tr td div.buttonSmall{
+    float:left;
+    margin-left:5px;
+}
+
+#ladderList div.center table tr td div.false, #ladderList div.center table tr td div.true{
+    margin:0 auto;
+}
+
+#teamEloStats, #sentInvitations {
+    float:right;
+    margin:20px 20px 0 0;
+}
+
+#teamPlayers, #teamChart, #chooseTeamMate, #inviteTeamMate {
+    margin:20px 0 0 20px;    
+}
+
+#teamPlayers div.bottom div{
+    margin:0 auto;
+    margin-top:20px;
+}
+
+#createTeam {
+    margin:10px auto;    
+}
+
+#createTeam div.center dl dt{
+    float:left;    
+    width:150px;
+}
+
+#createTeam div.center dl dd {
+    float:left;    
+}
+
+#createTeam div.center dl dd input{
+    width:350px;
+}
+
+#chooseTeamMate div.center p, #chooseOpponentFriendly div.center p{
+    padding:5px;
+}
+
+#arenasList div.center table tr td div.false, #arenasList div.center table tr td div.true{
+    margin:0 auto;
+}
+
+#arenaInfo div.center ul.fleet {
+    margin-left:10px;
+}
+
+#arenaInfo div.center dl {
+    margin:10px 0 0 35px;
+}
+
+#arenaInfo div.center dl dd{
+    float:left;
+    width:350px;
+    clear:none;
+    height:20px;
+    text-align:right;
+    padding:5px 5px 0 0;
+    border-bottom:dotted 1px #DDD;
+}
+
+
+#arenaInfo div.center dl {
+    margin:10px 0 0 35px;
+}
+
+#arenaCreate div.center dl dt{
+    float:left;
+    width:250px;
+    clear:none;
+    height:25px;
+    text-align:left;
+    padding:5px 5px 0 0;
+    border-bottom:dotted 1px #DDD;
+}
+
+#arenaCreate div.center dl{
+    margin-left:40px;
+}
+
+#arenaCreate div.center dl dd{
+    float:left;
+    width:550px;
+    clear:none;
+    height:30px;
+    text-align:center;
+    padding:0px 5px 0 0;
+    border-bottom:dotted 1px #DDD;
+}
+
+#arenaCreate div.center dl dd input{
+    margin-top:5px;
+}
+
+#chooseOpponentFriendly {
+    float:left;
+}
+
+#chooseBot {
+    float:left;
+}
+
+#friendlyOpponents {
+    width:632px;
+    margin:0 auto;
+}
+
+#tournamentRegister div.bottom div.button{
+    margin:0 auto;
+}
+
+#tournamentRegister div.bottom{
+    padding-top:30px;
+    height:86px;
+}
+
+#tournamentRegister div.center ul.fleet, #tournamentBorderFleet div.bottom ul.fleet{
+    margin:0 auto;
+    width:650px;
+}
+
+#tournamentPlayersState1 div.center table {
+    width:290px;
+    margin:5px;
+    float:left;
+}
+
+#tournamentPlayersState1 div.center table tr td img {
+    width:35px;    
+    height:35px;
+}
+    
+
+/*============================
+			Other
+=============================*/
+
+span.activityStatus, div.activityStatus
+{
+	background-image:url(../../Images/Common/Etc/activityStatus.png);
+	background-repeat:no-repeat;
+	height:9px;
+	width:9px;
+	display:block;
+	margin:0 auto;
+}
+
+span.Login24Hours, div.Login24Hours
+{
+	background-position: -8px 0;
+}
+
+span.Login3Days, div.Login3Days
+{
+	background-position: -16px 0;
+}
+
+span.Login7Days, div.Login7Days
+{
+	background-position: -24px 0;
+}
+
+span.Inactive, div.Inactive
+{
+	background-position: -32px 0;
+}
+
+img.smallShip
+{
+	width:25px;
+	height:25px;
+}
+
+#vacationsNotice
+{
+	text-align:center;
+	padding:5px;
+	border:solid 3px #DDD;
+	background-color:#444;
+	width:984px;
+	margin:0px auto;
+}
+
+.centerMessage, .center
+{
+	text-align:center;
+}
+
+#primaryMessageBoard
+{
+	margin-top:25px;
+}
+
+#primaryMessageBoard #haveBattles
+{
+	color:Red;
+}
+
+#primaryMessageBoard #none
+{
+	color:#161616;
+}
+
+#ticker
+{
+	margin:20px;
+}
+
+img.avatar
+{
+	width:44px;
+	height:44px;
+}
+
+.GoodMessage
+{
+	color:#00db1c;
+}
+
+.BadMessage
+{
+	color:red;
+}
+
+.AuctionHouseMessage
+{
+	color:#20B2AA;
+}
+
+.DialogueMessage, table.table tr td.DialogueMessage
+{
+	background-position: 0px -432px;
+}
+
+.InformationMessage
+{
+	color:#4682B4;
+}
+
+tr.message td {
+	padding:5px 5px 5px 10px;
+}
+
+tr.message td p
+{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+div.simplePanel
+{
+	margin:10px;
+	padding:20px;
+}
+
+div.simplePanel table tr td
+{
+	padding:5px;
+}
+
+ul.mainMenu {
+	clear:both;
+	overflow:hidden;
+	margin:12px 0px 0px 45px;
+}
+
+ul.mainMenu li {
+	background-image:url(../../Images/Common/Menus/MiddleTab.png);
+	float:left;
+	padding:10px 0 9px 0;
+	border-bottom:1px solid #171818;
+}
+
+ul.mainMenu li.active {
+	background-image:url(../../Images/Common/Menus/MiddleTabActive.png);
+	border-bottom:1px solid #5c4c29;
+}
+
+ul.mainMenu li.start, ul.mainMenu li.startActive, ul.mainMenu li.middle, ul.mainMenu li.middleStartActive, ul.mainMenu li.middleEndActive, ul.mainMenu li.middleActive {
+	height:33px;
+	width:28px;
+	padding:0px;
+}
+
+ul.mainMenu li.start {
+	background-image:url(../../Images/Common/Menus/StartTab.png);
+}
+
+ul.mainMenu li.startActive {
+	background-image:url(../../Images/Common/Menus/StartTabActive.png);
+	border-bottom:1px solid #5c4c29;
+}
+
+ul.mainMenu li.middle {
+	background-image:url(../../Images/Common/Menus/SeparatorTab.png);
+}
+
+ul.mainMenu li.middleStartActive {
+	background-image:url(../../Images/Common/Menus/SeparatorTabActive.png);
+	border-bottom:1px solid #5c4c29;
+	height:34px;
+	width:28px;
+	padding:0px;
+	border:none;
+}
+
+ul.mainMenu li.middleActive {
+	background-image:url(../../Images/Common/Menus/SeparatorTabActive2.png);
+	border-bottom:1px solid #5c4c29;
+}
+
+ul.mainMenu li.middleEndActive {
+	background-image:url(../../Images/Common/Menus/SeparatorTabActive.png);
+	height:34px;
+	width:28px;
+	padding:0px;
+	border:none;
+
+}
+
+ul.mainMenu li.end {
+	background-image:url(../../Images/Common/Menus/EndTab.png);
+	height:33px;
+	width:12px;
+	padding:0px;
+}
+
+ul.mainMenu li.endActive {
+	background-image:url(../../Images/Common/Menus/EndTabActive.png);
+	height:33px;
+	width:12px;
+	padding:0px;
+	border-bottom:1px solid #5c4c29;
+}
+
+ul.submenu {
+	clear:both;
+	background:url(../../Images/Common/Menus/SubMenuTab.png) no-repeat;
+	height:25px;
+	margin:0px 0px 10px 24px;
+}
+
+ul.submenu li{
+	float:left;
+	padding:5px 0px 0px 25px;
+}
+
+div.interactions {
+    padding:40px 0 0 60px;    
+    height:40px;
+}
+
+ul.interactions {
+    
+}
+
+div.interactions ul li
+{
+	vertical-align:middle;
+	padding-bottom:2px;
+}
+
+div.interactions ul li span.actions a
+{
+	margin-left:8px;
+}
+
+div.interactions ul li.ResolvedTrue, div.interactions ul li.ResolvedTrue a
+{
+	text-decoration:line-through;
+}
+
+div.smallCenterPanel
+{
+	width:500px;
+	margin:auto;
+}
+
+.block
+{
+	display:block;
+	width:100%;
+}
+
+.mediumSize, input[type=text].mediumSize
+{
+	font-size:16px;
+}
+
+ul.fleet
+{
+	margin: 0 auto;
+}
+
+ul.fleet li
+{
+	float:left;
+	margin:15px;
+	text-align:center;
+}
+
+ul.fleet li a 
+{
+	display:block;
+}
+
+.followtutorial
+{
+	position:relative;
+	margin-bottom:100px;
+	display:block;
+}
+
+#tutorial
+{
+	position:absolute;
+	z-index:5000;
+	display:none;
+}
+
+#tutorial #left, #tutorial #middlet, #tutorial #right
+{
+	float:left;
+}
+
+#tutorial #left, #tutorial #right
+{
+	width:46px;
+}
+
+#tutorial #bottom, #tutorial #top
+{
+	margin:0 50px;
+}
+
+#tutorial #bottom
+{
+	clear:both;
+}
+
+#tutorial a.nav
+{
+	margin:10px;
+}
+
+#tutorial div.nav
+{
+	text-align:right;
+	margin:10px;
+}
+
+span.arrow
+{
+	background-image:url(../../Images/Common/Arrows.png);
+	display:block;
+	z-index:10;
+}
+
+span.rightArrow
+{
+	width:36px;
+	height:46px;
+	background-position:-5px -82px;
+}
+
+span.topArrow
+{
+	width:46px;
+	height:36px;
+	background-position:0 0;
+}
+
+span.leftArrow
+{
+	width:36px;
+	height:46px;
+	background-position:-8px -36px;
+}
+
+span.bottomArrow
+{
+	background-position:0 -129px;
+	width:46px;
+	height:36px;
+}
+
+#chooseRace ul {
+	margin:10px 0 0 2px;
+}
+
+#chooseRace ul li
+{
+	float:left;
+	margin:0px;
+}
+
+#chooseRace ul li dl dd{
+	background-image:none;
+	padding:0px;
+}
+
+#chooseRace ul li dl dd a{
+	width:330px;
+	height:360px;
+}
+
+#chooseRace ul li div.preview a div{
+	width:300px;
+	height:326px;
+	background-image:url(../../Images/Common/Races/Races.jpg);
+	background-repeat:no-repeat;
+	margin:auto;
+	background-color:Black;
+}
+
+#previewLightHumans.previewLightHumans{
+	background-position:-1px -14px;
+}
+
+#previewDarkHumans.previewDarkHumans{
+	background-position:-304px -14px;
+}
+
+#previewBugs.previewBugs{
+	background-position:-605px -14px;
+}
+
+#previewLightHumans.previewLightHumansHover{
+	background-position:-1px -351px;
+}
+
+#previewDarkHumans.previewDarkHumansHover{
+	background-position:-305px -351px;
+}
+
+#previewBugs.previewBugsHover{
+	background-position:-606px -350px;
+}
+
+#chooseRace div.bottom {
+    padding:14px 0px 0px 0px;
+    height:102px;
+}
+
+#chooseRace div.raceFrame {
+	background-image:url(../../Images/Common/Etc/RaceFrame.png);
+	width:221px;
+	height:49px;
+	margin:10px 0 0 72px;
+	text-align:center;
+	float:left;
+}
+
+#chooseRace div.raceFrame a, #chooseRace li div.raceFrame a:hover {
+	font-size:35px;
+	color:White;
+	text-decoration:none;
+}
+
+#previewLightHumansLore, #previewDarkHumansLore, #previewBugsLore {
+	display:none;
+	margin-top:20px;
+}
+
+div.lore{
+	height:350px;
+	clear:both;
+}
+
+div.lore p{
+	padding:10px 15px;
+	text-align:left;
+	line-height:20px;
+}
+
+div.loreVisible  {
+	display:inline !important;
+}
+
+div.unitIndexList {
+    margin:auto;
+    width:650px;
+}
+
+div.buildingsIndexList {
+    clear:both;
+    margin:auto;
+    width:785px;
+}
+
+.lore h3 {
+    clear:both;    
+}
+
+div.unitIndexList ul li, div.buildingsIndexList ul li{
+    float:left;    
+}
+
+div.buildingsIndexList ul li img{
+    max-width:100px;
+}
+
+ul.tourPot{
+    float:left;
+    width:200px;
+    margin:0px 10px 20px 10px
+}
+
+ul.tourPot li.tourPotTitle{
+    background-color:#2D2D2D;
+    border:none;
+    padding:5px;
+    text-align:center;
+}
+
+ul.tourPot li {
+    border-bottom:dotted 1px white;
+    text-align:left;
+    padding:5px 5px 5px 15px;
+}
+
+ul.tourPot li img{
+    width:35px;
+    height:35px;
+}
+
+div.LatestMoves{
+	margin:0 10px;
+}
+
+div.LatestMoves dl
+{
+	width:200px;
+	float:left;
+	margin:5px 0px 5px 5px;
+}
+
+div.LatestMoves dl.bigger
+{
+	width:264px;
+	margin:5px 0px 5px 5px;
+}
+
+div.LatestMoves dl dd
+{
+	padding:0;
+}
+
+div.LatestMoves dl dd table
+{
+	margin:0;
+	width:100%;
+}
+
+div.LatestMoves dl dt div.button
+{
+	margin:10px auto;
+}
+
+ul#avatars{
+	width:500px;
+	margin:0px auto;
+}
+
+ul#avatars li 
+{
+	float:left;
+	margin:5px;
+}
+
+ul#avatars li.current
+{
+	background-color:Aqua;
+}
+
+ul#avatars li img
+{
+	width:30px;
+	height:30px;
+}
+
+ol#rules li {
+	color:#F29900;
+	list-style-type:square;
+	margin-bottom:5px;
+}
+ol#rules
+{
+	margin-left:30px;
+	text-align:left;
+}
+
+ul#bidData li {
+	list-style: none;
+}
+
+ul#bidData
+{
+	margin-right:10px;
+}
+
+div.friendsOrFoesList dl
+{
+	float:left;
+	width:320px;
+	margin:10px;
+}
+
+div.friendsOrFoesList dl dd
+{
+	height:35px;
+}
+
+div.friendsOrFoesList dl dd
+{
+	float:left;
+	width:150px;
+	height:35px;
+	clear:none;
+}
+
+span.player span.activityStatus
+{
+	float:left;
+	margin-top:13px;
+	margin-left:5px;
+}
+
+span.player img
+{
+	float:left;
+	width:35px;
+}
+
+span.player a
+{
+	float:left;
+	margin-top:10px;
+	margin-left:5px;
+}
+
+dl.medals dd img, dl.principalMedals dd img
+{
+	float:left;
+}
+
+dl.medals dd a, dl.principalMedals dd a
+{
+	float:left;
+	margin-top:20px;
+}
+
+dl.medals dd div, dl.principalMedals dd div
+{
+	float:left;
+	margin:10px 0 0 10px;
+	text-align:left;
+}
+
+dl.principalMedals dd div
+{
+	width:200px;
+}
+
+dl.medals dd{
+	width:180px;
+	float:left;
+	clear:none;
+	margin:1px;
+	padding:5px;
+}
+
+dl.principalMedals dd{
+	width:286px;
+	float:left;
+	clear:none;
+	margin:1px;
+	padding:5px;
+}
+
+#ultimatePanel {
+	background-image:url(../../Images/Common/Menus/UltimateButtons.png);
+	width:100px;
+	height:19px;	
+	margin: 9px 9px 0 0px;
+	padding-top:10px;
+	float:right;
+}
+
+#ultimatePanel.BeaconNotAvailable {
+	background-position: 0px 0px;
+}
+
+#ultimatePanel.BeaconNotReady {
+	background-position: 0px -39px;	
+}
+
+#ultimatePanel.BeaconReady {
+	background-position: 0px -78px;
+}
+
+#ultimatePanel.BeaconCooldown {
+	background-position: 0px -117px;
+}
+
+#ultimatePanel.DevastationNotAvailable {
+	background-position: -120px 0px;
+}
+
+#ultimatePanel.DevastationNotReady {
+	background-position: -120px -39px;
+}
+
+#ultimatePanel.DevastationReady {
+	background-position: -120px -78px;
+}
+
+#ultimatePanel.DevastationCooldown {
+	background-position: -120px -117px;
+}
+
+#ultimatePanel.WormHoleNotAvailable {
+	background-position: -240px 0px;
+}
+
+#ultimatePanel.WormHoleNotReady {
+	background-position: -240px -39px;
+}
+
+#ultimatePanel.WormHoleReady {
+	background-position: -240px -78px;
+}
+
+#ultimatePanel.WormHoleCooldown {
+	background-position: -240px -117px;
+}
+
+#copyright {
+	text-align:center;
+	clear:both;	
+}
+
+.financialItem
+{
+	color:Lime
+}
+
+.adminItem
+{
+	color:Maroon
+}
+
+/*============================
+		   Payment
+=============================*/
+
+#payment {
+    float:left;
+    margin: 10px 0px 0px 10px;    
+}
+
+#paymentTable {
+    float:left;
+    margin: 10px 0px 0px 20px;    
+}
+
+#payments {
+	margin:0 20px;
+	width:410px;
+	float:left;
+}
+
+#payments tr td a{
+	height:90px;
+	display:block;
+	margin:1px;
+	text-align:left;
+}
+
+#payments tr td a:hover{
+	text-decoration:none;
+    background-color:#373838;
+}
+
+#payments tr td a img{
+	width:120px;
+	height:80px;
+	float:left;
+	padding-right:5px;
+}
+
+#payments tr td a img{
+	width:120px;
+	height:80px;
+	float:left;
+}
+
+#paymentsTable {
+	margin:10px 0px;
+	width:435px;
+}
+
+#paymentMethod {
+	width:550px;	
+}
+
+div.paymentDescription {
+	float:left;
+	background:url(../../Images/Common/Payments/PaymentBackground.png) no-repeat;	
+	width:262px;
+	height:113px;
+	margin:10px auto;
+}
+
+div.paymentDescriptionSms {
+	float:left;
+	background:url(../../Images/Common/Payments/PaymentBackground.png) no-repeat;	
+	width:262px;
+	height:113px;
+	margin:0px auto;
+}
+
+div.paymentDescription div.cost {
+	padding:20px 0px 0px 85px;	
+}
+
+div.paymentDescriptionSms div.cost {
+	padding:15px 0px 0px 85px;	
+}
+
+div.paymentDescription div {
+	clear:both;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:2px 0px 0px 85px;
+}
+
+div.paymentDescriptionSms div {
+	clear:both;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:0px 0px 0px 85px;
+}
+
+div.chooseAmmount {
+	margin:0px auto;
+	width:524px;
+}
+
+div.paymentButton {
+	vertical-align:middle;
+	float:left;
+	width:200px;
+	margin:50px 0px 0px 50px;
+}
+
+#pricesContent div.onebip {
+	clear:both;	
+}
+
+#bonusTable {
+    width:435px;    
+}
+
+#bonusTable tr td:first-child img{
+    width:70px;
+}
+
+#bonusTable tr th, #paymentsTable tr th{
+    border:solid 1px #2D2D2D;
+    border-bottom:dotted 1px white;  
+}
+
+#bonusTable tr td, #paymentsTable tr td{
+    text-align:center;
+    border:dotted 1px white;  
+}
+
+#paymentType {
+    margin:0px auto;
+}
+
+#paymentType div.bottom {
+    text-align:center;  
+    padding:32px 0 0 0;
+    height:84px;
+}
+
+#paymentType div.bottom a {
+    font-size:22px;    
+}
+
+#supportedCountries {
+    text-align:center;
+}
+
+#sponsorPlay{
+    margin:10px;
+}
+
+/*============================
+		   Votes
+=============================*/
+
+#voteTable tr td img.topList{
+	padding:10px;
+}
+
+.votingMessage p {
+	padding:5px 20px;
+	font-size:12px;
+}
+
+.votingMessage p b{
+	font-size:16px;
+}
+
+/*============================
+		   Quests
+=============================*/
+
+#questWindow {
+	position:absolute;
+	width:100%;
+	background-image:url(../../Images/Common/Etc/BackgroundFill.png)
+}
+
+#questWindow div.normalBorderOpac {
+	margin:150px auto 0 auto;
+}
+
+#questWindow div.normalBorderOpac div.center {
+    text-align:left;    
+}
+
+#questWindow div.normalBorderOpac div.center p, #questObjectives{
+    padding:10px 10px 10px 20px;
+}
+
+#questButtons{
+	padding:30px 0 0 0;
+	text-align:center;
+}
+
+#questButtons input {
+	margin:0px auto;
+}
+
+th.questText,td.questText {
+	width:450px;	
+}
+
+#questResources {
+	margin:7px 0 55px 10px;
+}
+
+#questResources li{
+	float:left;
+	text-align:center;
+	width:30px;
+}
+
+#questsToDeliver p {
+	margin:10px;
+}
+
+/*============================
+		   Mobs
+=============================*/
+
+#mobLogo {
+	text-align:center;
+	margin-top:20px;
+}
+
+#mobImage {
+	float:right;
+	margin-right:20px;
+}
+
+#mobInfo {
+	width:600px;
+}
+
+#mobInfo table{
+	width:600px;
+}
+
+#mobLore{
+}
+
+#mobUnits{
+	text-align:center;
+}
+
+#mobUnits a{
+	margin-right:20px;
+}
+
+#mobsFleet {
+	height:70px;
+}
+
+#mobsFleetIcon {
+	float:left;		
+}
+
+#mobsFleetDescription {
+	
+}
+
+/*============================
+		   Resources
+=============================*/
+
+img.resourceSmall {
+	width:25px;
+	height:25px;
+	background:url(../../Images/Common/Resources/Resources.png) no-repeat;
+	display:inline-block;
+}
+
+img.unitSmall {
+	width:25px;
+	height:25px;
+}
+
+img.resourceSmallNoBck {
+	width:25px;
+	height:25px;
+	display:inline-block;
+}
+
+img.resourceRadon {
+	background-position:-27px -1px;
+}
+
+img.resourceArgon {
+	background-position:-53px -1px;
+}
+
+img.resourceAstatine {
+	background-position:-79px -1px;
+}
+
+img.resourceCryptium {
+	background-position:-105px -1px;
+}
+
+img.resourcePrismal {
+	background-position:-131px -1px;
+}
+
+img.resourceSerium {
+	background-position:-158px -1px;
+}
+
+img.resourceEnergy {
+	background-position:-184px -1px;
+}
+
+img.resourceMithril {
+	background-position:-209px -1px;
+}
+
+img.resourceProtol {
+	background-position:-235px -1px;
+}
+
+img.resourceElk {
+	background-position:-261px -1px;
+}
+
+img.resourceTitanium {
+	background-position:-1px -26px;
+}
+
+img.resourceUranium {
+	background-position:-27px -26px;
+}
+
+img.resourceGold {
+	background-position:-53px -26px;
+}
+
+img.resourcePlasmaConduit {
+	background-position:-105px -26px;
+}
+
+img.resourceElectricCircuit {
+	background-position:-131px -26px;
+}
+
+img.resourceSilicium {
+	background-position:-235px -26px;
+}
+
+img.resourcePrimaryBoard {
+	background-position:-209px -26px;
+}
+
+img.resourceMercSpaceChart, img.resourceSentryMercSpaceChart, img.resourceRogueMercSpaceChart, img.resourceTechMercSpaceChart,img.resourceBlackMercSpaceChart, img.resourceDarkMercSpaceChart {
+	background-position:-158px -26px;
+}
+
+img.resourceMercUniform, img.resourceSentryMercUniform,img.resourceRogueMercUniform,img.resourceTechMercUniform,img.resourceBlackMercUniform,img.resourceDarkMercUniform  {
+	background-position:-183px -26px;
+}
+
+img.resourceAirVent {
+	background-position:-261px -26px;
+}
+
+img.resourceBerilium {
+	background-position:-1px -50px;
+}
+
+img.resourceExhaustionSystem {
+	background-position:-27px -50px;
+}
+
+img.resourceNanoProbe {
+	background-position:-53px -52px;
+}
+
+img.resourceMedicalKit {
+	background-position:-104px -54px;
+}
+
+img.resourceReaperPropulsionSystem {
+	background-position:-79px -54px;
+}
+
+img.resourceReaperControlHelmet {
+	background-position:-131px -54px;
+}
+
+img.resourceReaperCoreSystem {
+	background-position:-157px -54px;
+}
+
+img.resourceScourgeCoreSystem {
+	background-position:-183px -54px;
+}
+
+/*============================
+	  Default Page Styles
+=============================*/
+
+div.defaultMessages {
+	float:left;
+	width:474px;
+	margin:10px 0 0 15px;
+}
+
+div.defaultMessagesSmall {
+	float:left;
+	width:315px;
+	margin:10px 0 0 13px;
+}
+
+div.defaultMessagesSmall ul li{
+    text-align:left;
+    border-bottom:1px solid #5e5e5e;
+    padding:4px 0px 4px 5px;
+}
+
+div.defaultMessagesOptions {
+	padding:45px 0px 0px 0px;
+	text-align:center;
+}
+
+div.defaultMessagesOptionsTop {
+	padding:45px 55px 0px 0px;
+	float:right;	
+}
+
+div.defaultMessagesSmall table{
+    color:Black;
+}
+
+div.defaultMessagesSmall table th{
+    border-bottom:solid 1px black;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+div.defaultMessagesSmall table td{
+    width:56px;
+    border-bottom:solid 1px #9c9686;
+    height:15px;
+}
+
+
+#empireMessages li{
+	padding:10px 0px;
+	overflow:hidden;
+	border-bottom:1px solid #5e5e5e;
+}
+
+#empireMessages li div:first-child{
+    width:365px;
+    padding-left:10px;
+}
+
+#empireMessages li div{
+    width:50px;
+    padding-left:5px;
+    float:left;
+    text-align:left;
+}
+
+#empireMessages li div p{
+    padding-bottom:5px;
+}
+
+#allianceMessages li{
+	padding:10px 0px;
+	overflow:hidden;
+	border-bottom:1px solid #5e5e5e;
+}
+
+#allianceMessages li p:first-child{
+    width:150px;
+    padding-left:10px;
+}
+
+#allianceMessages li p{
+    width:270px;
+    float:left;
+    text-align:left;
+}
+
+table.allianceMessages tr td{
+    text-align:left;
+}
+
+#globalMessages td.messageContent {
+	text-align:center;
+}
+
+#globalMessages td.messageContent p {
+	margin:10px 0px 5px 0px;
+	font-size:15px;
+}
+
+
+
+/*============================
+	  Community
+=============================*/
+
+#community {
+	margin:0px 0px 0px 20px;
+	width:700px;
+	float:left;
+}
+
+#community li {
+	float:left;
+	width:330px;
+	margin-right:20px;
+}
+
+#community li a {
+	float:left;
+	margin-bottom:20px;
+}
+#community li a.nomargin {
+	margin:0px;
+}
+
+#community li h2 {
+	margin-bottom:10px;
+}
+
+#community li a img {
+	background:url(../../Images/Common/Community/Community.jpg) no-repeat;
+	height:195px;
+	width:320px;
+	padding:1px;
+	margin:8px 0px 0px 10px;
+	border:none;
+}
+
+#community li img.blog {
+	background-position:-1px -397px;
+}
+
+#community li img.gazette {
+	background-position:0 -1px;
+}
+
+#community li img.forum {
+	background-position:1px -595px;
+}
+
+#community li img.chat {
+	background-position:-1px -199px;
+}
+
+#community li div.frame {
+	background:transparent url(../../Images/Common/Community/Frame.png) repeat scroll 0 0;
+	height:219px;
+	position:absolute;
+	width:323px;
+	float:none;
+	padding:0px;
+	margin:0px;
+	cursor:pointer;
+}
+
+#socialNetworks {
+	width:230px;	
+	float:right;
+	margin-right:25px;
+}
+
+#socialNetworks ul{
+	padding:30 10px 10px 10px;
+	display:block;
+}
+
+#socialNetworks li {
+	width:130px;
+	height:49px;
+	margin:20px 0 20px 40px;
+}
+
+#socialNetworks ul li a div {
+	background:transparent url(../../Images/Common/Community/SocialNetworks.png) repeat scroll 0 0;
+	width:130px;
+	height:49px
+}
+
+#socialNetworks ul li a div.twitter {
+	background-position:0px 0px;
+}
+
+#socialNetworks ul li a div.facebook {
+	background-position:0px -50px;
+}
+
+#socialNetworks ul li a div.linkedin {
+	background-position:0px -100px;
+}
+
+#socialNetworks ul li a div.hi5 {
+	background-position:0px -150px;
+}
+
+#socialNetworks ul li a div.technorati {
+	background-position:0px -200px;
+}
+
+/*============================
+		 Tournament
+=============================*/
+
+
+#tournamentFleet {
+	width:700px;	
+}
+
+#tournamentFleet tr td ul.fleet {
+	margin:auto;
+}
+
+a.tournamentRules {
+	font-size:20px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+
+a.tournamentRules:hover {
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+/*============================
+		   Account
+=============================*/
+
+#noAlliance {
+    margin:0px 10px;
+    font-size:20px;
+}
+
+#account, #eloStats, #principalHistory, #battleStats, #privateMessages, #friendsAndEnemies {
+    float:left;
+    margin:20px 0 0 20px;
+    width:629px;
+}
+
+#account div.accountAvatar {
+    float:left;
+    width:150px;
+    padding-top:65px; 
+}
+
+#account div.accountAvatar img.avatar {
+	width:auto;
+	height:auto;
+	max-height:300px;
+	max-width:110px;
+}
+
+#account div.accountInformation {
+    float:left;
+    width:425px;    
+}
+
+#account div.accountInformation dl{
+    width:425px;
+}
+
+#account div.accountInformation dl dt, #arenaInfo div.center dl dt{
+    float:left;
+    width:150px;
+    clear:none;
+    font-weight:bold;
+    height:20px;
+    text-align:left;
+    padding:5px 0 0 0;
+    border-bottom:dotted 1px #DDD;
+}
+
+#account div.accountInformation dl dd{
+    float:left;
+    width:245px;
+    clear:none;
+    height:20px;
+    text-align:right;
+    padding:5px 5px 0 0;
+    border-bottom:dotted 1px #DDD;
+}
+
+
+#account ul.accountPlayers {
+    margin-left:50px;
+    font-size:14px;
+    width:519px;
+}
+
+#account ul.accountPlayers li{
+    border-bottom:dotted 1px #DDD;
+    padding:0 5px 0 270px;
+    height:19px;
+}
+
+#accountChart {
+    float:left;
+    margin:22px 0 0 5px;   
+    width:316px; 
+}
+
+#accountChartPlayer {
+    float:right;
+    margin:22px 20px 0 0px;   
+    width:316px;     
+}
+
+#eloStats table tr td {
+    text-align:center;    
+}
+
+#playerMedals, #addMedals {
+    float:left;
+    margin:22px 0 0 20px;   
+}
+
+#principalMedals {
+    float:right;
+    margin:22px 30px 0 0;   
+    width:316px; 
+}
+
+#managePlayers {
+    margin:0px auto;
+}
+
+#managePlayers div.button {
+    margin:0px auto;
+}
+
+#managePlayers div.bottom {
+    padding:40px 0 0 0;
+    height:74px;
+}
+
+#managePlayers div.center dl dt{
+    width:100px;
+    height:100px;
+    background-image:url(../../Images/Common/Etc/Borders.png);
+    background-repeat:no-repeat;
+    float:left;
+    clear:none;
+    background-color:#5c5d5d;
+    margin:5px 0 0 10px;
+}
+
+#managePlayers div.center dl dt.DarkHumans {
+    background-position:-834px -1524px;
+}
+
+#managePlayers div.center dl dt.LightHumans {
+    background-position:-733px -1524px;
+}
+
+#managePlayers div.center dl dt.Bugs {
+    background-position:-635px -1524px;
+}
+
+#managePlayers div.center dl dd{
+    width:285px;
+    height:78px;
+    float:left;
+    clear:none;
+    text-align:left;
+    padding:22px 0 0 20px;
+    background-color:#5c5d5d;
+    margin:5px 0 0 0px;
+}
+
+#managePlayers div.center dl dd p{
+    line-height:20px;
+}
+
+#managePlayers div.center dl dd p a{
+    font-size:22px;
+    font-weight:bold;
+    line-height:25px;
+}
+
+#managePlayers div.center dl dd .buttonSmall{
+    float:right;
+    margin:15px 5px 0 0;
+}
+
+#changeEmail {
+    float:left;
+    margin-left:20px;
+}
+
+#changeEmail div.center dl dt, #vacations div.center dl dt, #searchAuctionHouse div.center dl dt{
+    float:left;
+    width:70px; 
+    height:35px;
+    text-align:left;
+    padding-left:10px;
+    font-weight:bold;
+    
+}
+
+#changeEmail div.center dl dd, #searchAuctionHouse div.center dl dd{
+    float:left;
+    width:195px;
+    height:35px;
+}
+
+#changeEmail div.center dl dd input{
+    width:180px;
+}
+
+#changeEmail div.bottom, #changePassword div.bottom, #addPlayer div.bottom, #vacations div.bottom, #inviteFriend div.bottom, #activateKey div.bottom, 
+#chooseOpponent div.bottom, #givePrize div.bottom, #searchAuctionHouse div.bottom, #auctionHouse div.bottom, #addAuctionHouse div.bottom, 
+#allianceBoardsPrivate div.bottom, #allianceBoardsPublic div.bottom, #allianceAddStoreHouse div.bottom, #allianceCreateNecessity div.bottom, 
+#manageAlliancePlayer div.bottom, #allianceLeave div.bottom, #allianceCreate div.bottom, #createBounty div.bottom, #teamPlayers div.bottom, #createTeam div.bottom,
+#chooseTeamMate div.bottom, #inviteTeamMate div.bottom, #arenaCreateArena div.bottom, #chooseOpponentFriendly div.bottom
+{
+    text-align:center;
+    padding-top:35px;
+    height:80px;
+}
+
+#chooseAvatar {
+    float:left;
+    margin-left:10px;
+}
+
+#chooseAvatar div.bottom{
+    text-align:center;    
+}
+
+#chooseAvatar div.bottom img{
+    width:50px;
+    height:50px;
+}
+
+#chooseAvatar div.bottom h3{
+    text-align:center;
+    margin:0px;
+    padding:5px 0px;
+    font-size:22px;
+}
+
+#changePassword div.center dl dt{
+    float:left;
+    width:150px; 
+    height:35px;
+    text-align:left;
+    padding-left:10px;
+    font-weight:bold;
+}
+
+#changePassword div.center dl dd{
+    float:left;
+    width:260px;
+    height:35px;
+}
+
+#addPlayer, #inviteFriend {
+    margin:20px auto;
+}
+
+#addPlayer div.center input{
+    font-size:18px;
+}
+
+
+#inviteFriend div.center dl dt{
+    float:left;
+    width:160px; 
+    height:35px;
+    text-align:left;
+    padding-left:10px;
+    font-weight:bold;
+}
+
+#inviteFriend div.center dl dd{
+    float:left;
+    width:250px;
+    height:35px;
+}
+
+#vacations {
+    width:316px;
+    float:left;
+}
+
+#vacations div.center dl dd{
+    float:left;
+    width:105px;
+    height:35px;
+    padding-left:60px;
+    text-align:left;
+}
+
+#vacations div.bottom div.button{
+    margin:0px auto;
+}
+
+#buyVacations {
+    float:left;
+    width:474px;
+    margin-left:10px;
+}
+
+#buyVacations div.center p {
+    padding:0px 20px;
+}
+
+#buyVacations div.bottom p {
+    padding-top:40px;
+    text-align:center;    
+}
+
+#vacationPage{
+    margin:0px auto;
+    width:800px;
+    overflow:hidden;
+}
+
+#changeLanguage {
+    margin:0px auto;
+    width:316px;
+}
+
+#changeLanguage div.bottom {
+    padding-top:15px;
+    text-align:center;    
+    height:100px;
+}
+
+#inviteFriend textarea{
+    height:200px;
+}
+
+#referalText div.center {
+    text-align:left;
+    padding-left:55px;
+}
+
+#spreadingTheWord, #recruitedPlayers {
+    float:left;
+    margin-left:30px;     
+    overflow:hidden;
+}
+
+#spreadingTheWord div.center {
+    text-align:left;
+    padding:0 25px 10px 25px;
+}
+
+
+#spreadingTheWord div.center ul li {
+    list-style-type:disc;
+    margin-left:20px;
+}
+
+#spreadingTheWord div.bottom h3 {
+    margin:0px;
+    color:White;
+}
+
+#spreadingTheWord div.bottom  {
+    padding:5px 45px 0 45px;
+}
+
+#spreadingTheWord p, #spreadingTheWord li{
+    color:#FFB938;
+}
+
+#spreadingTheWord a{
+    color:white;
+}
+
+#referalText div.referalLink {
+    padding-top:40px;
+    font-size:20px;
+    text-align:center;
+    font-weight:bold;
+}
+
+#referalText div.referalLink span{
+    background-color:#666;
+    padding:5px;
+}
+
+#referalBanners {
+    float:right;
+    overflow:hidden;   
+    margin-right:20px;
+}
+
+#referalBanners div.center {
+    min-height:800px;    
+}
+
+div.referalBanner {
+    background-color:#272725;    
+    padding:10px;
+}
+
+div.referalBanner h4{
+    margin:5px 0;
+    color:#FFB938;
+    text-align:left;
+    font-size:16px;
+}
+
+div.bannerHtml {
+    text-align:left;
+    font-size:10px;
+    margin:5px 0;
+}
+
+#banner480x60 {
+    width:540px;
+    height:120px;
+    margin:5px 15px;
+}
+
+#banner120x600 {
+    height:750px;
+    margin:5px 15px 5px 5px;
+    float:right;
+}
+
+#banner125x125, #banner120x240 {
+    height:380px;
+    margin:5px;
+    float:left;
+}
+
+#banner125x125 {
+    margin:5px 5px 5px 15px;
+}
+
+#banner120x600, #banner125x125, #banner120x240 {
+    width:159px;
+}
+
+#banner234x60, #forumBanner{
+    float:left;
+    width:358px;
+    margin:5px 5px 5px 15px;
+    padding:5px;
+}
+
+#forumBanner img{
+    padding:5px 0;
+}
+
+#activateKey div.center p{
+    padding:10px 0px 0px 0px;
+    font-size:18px;
+}
+
+#activateKey div.center p input{
+    width:350px;
+    font-size:18px;
+}
+
+#chooseOpponent {
+    margin:0px auto;
+}
+
+#chooseOpponent div.center p input, #givePrize div.center p input{
+    width:200px;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+#givePrize {
+    margin-top:10px;
+    float:left;  
+}
+
+.givePrizeContainer div#chooseOpponent{
+    float:left;
+    margin:10px 0px 0px 195px !important;
+}
+
+#friendsAndEnemies div.friendsOrFoesList h3{
+    clear:both;
+}
+
+#friendsAndEnemies div.friendsOrFoesList ul li{
+    width:190px;
+    height:60px;
+    float:left;
+    padding-left:5px;
+}
+
+#autoInteraction table.newtable tr td, #autoInteraction h3  {
+    text-align:left;
+}
+
+dl.profileActions dd div.button{
+    margin:0px auto;
+}
+
+dl.profileActions dd {
+    padding-top:10px;
+}
+
+#playerActions {
+    margin-top:20px;
+}
+
+/*============================
+		   Auction house
+=============================*/
+
+#searchAuctionHouse {
+    float:right;
+    margin:39px 20px 0px 0px;
+}
+
+#auctionHouse {
+    margin-left:20px;    
+}
+
+#auctionHouse table.newtable tr td{
+    padding:3px 0px;
+}
+
+#auctionHouse table.newtable tr td div.buttonSmall, #auctionHouse table.newtable tr td div.false, #auctionHouse table.newtable tr td div.true{
+    margin:0px auto;
+    text-align:center;
+}
+
+
+#searchAuctionHouse div.center dl {
+    padding-top:5px;
+}
+
+#searchAuctionHouse div.center dl dt {
+    padding:0px 5px;
+}
+
+#searchAuctionHouse div.center dl dd input[type="text"]{
+    width:185px;
+}
+
+tr.mybid, tr.myQuest, tr.my {
+    background-color:#5c5d5d;    
+}
+
+#addAuctionHouse div.center dl dt{
+    float:left;
+    width:140px; 
+    height:30px;
+    text-align:left;
+    padding:10px 0 0 10px;
+    font-weight:bold;
+    border-bottom:dotted 1px white;
+}
+
+#addAuctionHouse div.center dl dd{
+    float:left;
+    width:430px;
+    height:30px;
+    border-bottom:dotted 1px white;
+    padding-top:10px;
+}
+
+#addAuctionHouse div.center dl dd input[type=checkbox]{
+    float:left;
+}
+
+
+
+/*============================
+		   Shop
+=============================*/
+
+
+#shopSpecial .shopSpecialCenter {
+    margin:0px auto;
+}
+
+.shopItem {
+    float:left;
+    margin:8px;    
+}
+
+.shopItemSpecial {
+    width:316px;
+    margin:0px auto;
+}
+
+.shopItem div.center {
+    height:176px;    
+}
+
+.shopItemSpecial div.center {
+    height:304px;
+}
+
+.shopImage {
+    background:url(../../Images/Common/Shop/Shop.png) no-repeat;   
+    width:280px;
+    height:100px;
+}
+
+.BuyIntrinsicDeductionInfoImage {
+    background-position:0px 0px;
+}
+
+.BuyRareDeductionInfoImage {
+    background-position:0px -100px;
+}
+
+.BuyFullLineOfSightInfoImage {
+    background-position:0px -200px;
+}
+
+.BuyNoUndiscoveredUniverseInfoImage {
+    background-position:0px -300px;
+}
+
+.BuyFastSpeedInfoImage {
+    background-position:0px -400px;
+}
+
+.BuyQueueSpaceInfoImage {
+    background-position:0px -500px;
+}
+
+.BuyFiringSquadGeneralInfoImage, .BuyOneStarGeneralInfoImage{
+    background-position:0px -600px;
+}
+
+.BuyChristmasSpecialInfoImage {
+    background-position:0px -700px;
+}
+
+.BuyBirthdaySpecialInfoImage {
+    background-position:0px -800px;    
+}
+
+.shopItem .shopDescription, .shopItemSpecial .shopDescription{
+    background-color:#0f0f0f;
+    text-align:left;
+    padding:5px;
+    vertical-align:middle;
+}
+
+.shopItem .shopDescription{
+    min-height:42px;
+}
+
+.shopItemSpecial .shopDescription {
+    min-height:170px;
+}
+
+.shopItemSpecial .shopDescription ul.fleet li{
+    margin:9px;
+}
+
+.shopItem .shopPrice, .shopItemSpecial .shopPrice{
+    text-align:right;
+    background-color:#888272;
+    padding:5px 10px 5px 5px;
+    font-weight:bold;
+    color:Black;
+}
+
+.shopItem div.bottom .shopOptions, .shopItemSpecial .shopOptions {
+    text-align:center;
+    padding-top:20px;
+}
+
+.shopItem div.bottom div.buttonSmall{
+    margin:5px auto 0px auto;
+}
+
+.shopItemSpecial div.bottom {
+    padding-top:30px;
+    height:84px;    
+}
+
+.shopItemSpecial div.bottom div.buttonSmall{
+    margin:0px auto;
+}
+
+.shopTimeLeft {
+    text-align:center;
+    padding:8px 0 2px;
+    font-weight:bold;
+    color:white;
+    width:160px;
+    height:20px;
+    background: url("../../Images/Common/Button.png") no-repeat;
+    margin:0px auto;
+}
+
+#paymentTable div.center h3 {
+    cursor:pointer;    
+}
+
+#paymentTable div.plus, #paymentTable div.minus {
+    width:9px;
+    height:9px;
+    background:url(../../Images/Common/Etc/PlusMinus.gif) no-repeat;
+    margin:7px;
+    float:left;
+}
+
+#paymentTable div.plus {
+    background-position:0px 0px;    
+}
+
+#paymentTable div.minus {
+    background-position:0px -9px;
+}
+
+
+/*============================
+		   Alliance
+=============================*/
+
+.allianceBoardPrivate, .allianceBoardPublic
+{
+	padding:10px;
+}
+
+.allianceBoardPrivate p, .allianceBoardPublic p
+{
+	margin-top:10px;
+}
+
+#allianceInfo, #allianceBoardsPublic, #allianceRelics {
+    float:left;
+    margin:20px 0 0 20px;
+}
+
+#allianceBoard, #allianceBoardsPrivate, #allianceIncome {
+    float:left;
+    margin:20px 0 0 10px;
+}
+
+#allianceLounge #genericMessages table.newtable tr td{
+    text-align:left;
+}
+
+#allianceNecessities div.bottom, #allianceAssets div.bottom, #allianceTasks div.bottom {
+    padding-top:30px;
+    height:86px;
+}
+
+#allianceNecessities div.bottom div.button, #allianceAssets div.bottom div.button, #allianceTasks div.bottom div.button{
+    margin:0px auto;
+}
+
+#allianceRelics div.center p {
+    font-size:14px;
+}
+
+#allianceRelics div.center p u{
+    padding-right:2px;
+}
+
+#allianceAddStoreHouse {
+    margin:20px 0 0 20px;
+}
+
+#manageAlliancePlayer, #allienceDiplomacyManage {
+    margin:0px auto;    
+}
+
+#allianceDiplomacyManage div.bottom {
+    text-align:center;    
+}
+
+#allianceDiplomacyManage div.center div span {
+    font-size:14px;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+#allianceCreate {
+    margin-top:20px;
+}
+
+#allianceCreate dl {
+    margin:10px 0 0 10px;    
+}
+
+#allianceCreate dl dt, #allianceCreate dl dd {
+    width:150px;    
+    float:left;
+    text-align:left;
+    line-height:30px;
+}
+
+#allianceCreate dl dd {
+    width:260px;    
+}
+
+#allianceCreate dl dd input, #allianceCreateNecessity div.center input, #allianceCreateTask div.center input {
+    width:250px;     
+}
+
+#allianceCreate dl dd textarea, #allianceCreateNecessity div.center textarea {
+    width:250px;
+    height:100px;
+}
+
+#allianceCreateNecessity {
+    margin:0 auto;    
+}
+
+#allianceCreateTask div.bottom, #questProfessionStatus div.bottom{
+    text-align:center;
+    padding-top:40px;
+    height:76px;
+}
+
+#allianceCreateTaskNecessity {
+    float:left;
+    margin:10px 0 0 20px; 
+}
+
+#allianceCreateTaskAsset {
+    float:left;
+    margin:10px 0 0 10px;
+}
+/*============================
+		   Other Stuff
+=============================*/
+
+#createBountySearch {
+    float:left;
+    margin:20px 0 0 20px;
+}
+
+#createBounty {
+    float:left;    
+    margin:20px 0 0 10px;
+}
+
+#createBountyMessage p{
+    line-height:25px;
+    padding:0 10px;
+}
+
+
+/*============================
+		   Forum
+=============================*/
+
+#createTopic input, #createThread input, #createPost input {
+    margin:20px 0 0 40px;    
+}
+
+#createTopic div, #createThread div, #createPost div{
+    margin:0 auto;    
+}
+
+#createTopic div div.center dl dt, #createThread div div.center dl dt{
+    width:130px;
+    float:left;
+    text-align:left;
+    margin-bottom:10px;
+    padding-left:20px;
+}
+
+#createTopic div div.center dl dd, #createThread div div.center dl dd{
+    width:420px;
+    float:left;
+    margin-bottom:10px;
+}
+
+#createTopic div div.center dl dd input, #createThread div div.center dl dd input{
+    width:400px;
+    margin:0px;
+}
+
+#createTopic div div.center dl dd textarea, #createThread div div.center dl dd textarea{
+    width:400px;
+    height:100px;
+    margin:0px;
+}
+
+#createTopic div div.bottom, #createThread div div.bottom {
+    padding:40px 0 0 160px;
+    height:77px;
+}
+
+#createPost div div.bottom {
+    padding:40px 0 0 325px;
+    height:77px;
+}
+
+#createTopic div div.bottom div.button, #createThread div div.bottom div.button, #createPost div div.bottom div.button{
+    margin:0px auto;
+    float:left;
+}
+
+#createPost div div.center textarea {
+    width:650px;    
+    height:250px;
+}
+
+#postText {
+    width:680px;
+    text-align:left;
+    padding:20px;
+    float:left;
+}
+
+#forumSmilies {
+    float:left;
+    padding:20px 10px;
+    width:125px;
+}
+
+#forumSmilies ul {
+        
+}
+
+#forumSmilies ul li{
+    float:left;
+    width:25px;
+    height:25px;
+}
+
+#publicforum table tr td p{
+    text-align:left;
+    line-height:28px;    
+}
+
+#publicforum table tr td img {
+    text-align:center;    
+    cursor:pointer;
+}
+
+#forumTopic table tr th:first-child, #publicforum table tr th:first-child {
+    width:50px;
+    padding-left:10px;
+}
+
+#forumTopic table tr th:second-child, #publicforum table tr th:second-child {
+    text-align:left;
+    width:400px;
+}
+
+#publicforum table tr th:nth-child(5), #forumTopic table tr th:nth-child(5) {
+    width:150px;
+}
+
+#forumTopic table tr td {
+    text-align:center;    
+    line-height:25px;
+}
+
+#forumTopic table tr td:nth-child(2), #publicforum table tr td:nth-child(2) {
+    text-align:left;
+    padding-left:10px;
+}
+
+#forumTopic table tr td:nth-child(5) {
+    text-align:left;
+}
+
+
+ul.postOwner {
+    width:200px;    
+}
+
+ul.postOwner li{
+    width:200px;
+    line-height:25px;
+    text-align:left;
+    clear:both;
+}
+
+div.postText {
+    width:600px;
+    text-align:left;
+    padding-top:22px;
+}
+
+#forumThread div table tr td {
+    vertical-align:top;
+}
+
+#forumThread div table tr td {
+    vertical-align:top;
+    padding:10px;
+}
+
+.forumHeader {
+    float:right;
+    padding:60px 60px 0 0;
+}
+
+div.lastPost {
+    width:150px; 
+       
+}
+
+#simpleLoader{
+	text-align:center;
+	background: url(../../Images/Common/Messages/Forum/SimpleLoader.gif) no-repeat center center;
+	top: 25%;
+	left: 25%;
+	width: 50%;
+	height: 50%; 
+	margin:0 auto;
+	min-height:200px;
+}
+
+#postBanner {
+    float:right;
+    padding-right:30px;
+}
+
+#postBanner li{
+    float:left;
+}
+
+#postBanner li img{
+    cursor:pointer;
+}
+
+.forumRead, .forumUnreadHumans,.forumUnreadDarkHumans,.forumUnreadBugs {
+    width:50px;
+	height:50px;
+	padding:0px ! important;
+	background-image:url(../../Images/Common/Universe/UniverseElements3.png);
+}
+
+.forumRead {
+    background-position: 0px -205px;
+}
+
+.forumUnreadLightHumans {
+    background-position: -460px -205px;
+}
+
+.forumUnreadDarkHumans {
+    background-position: -306px -205px;
+}
+
+.forumUnreadBugs {
+    background-position: -154px -205px;
+}
+
+/*============================
+		   Other Stuff
+=============================*/
+
+dl.campaigns
+{
+	width:300px;
+}
+
+div.blogPreview ul li
+{
+	height:auto;
+	text-align:left;
+	padding:3px;
+	padding-left:10px;
+}
+
+#flags
+{
+	width:930px;
+	margin-left:50px;
+	margin-top: 10px;
+}
+
+#flags li 
+{
+	display:inline;
+	margin-right:5px;
+}
+
+
+ img.imgStyle
+{
+	width:35px;
+	height:35px;
+	float:left;
+}
+
+.critical td
+{
+	color:Red;
+
+}
+
+.high
+{
+	color:#C97905;
+}
+
+.medium
+{
+	color:Yellow;
+}
+
+.low
+{
+	color:#A2FC8B;
+}
+
+div.shareBattle
+{
+	float:right;
+	width:105px;
+	margin-right:30px;
+	margin-top:5px;
+}
+
+div.shareBattle a
+{
+	margin-bottom:3px;
+}
+
+

@@ -1,0 +1,3328 @@
+/*============================
+      Universe
+=============================*/
+
+#universe {
+	margin: 10px auto;
+	width:955px;
+}
+
+#universeTable {
+	background-image:url(../../Images/Common/Universe/background.gif);
+}
+
+#universeTable1 {
+	background-image:url(../../Images/Common/Universe/Universe1.jpg);
+}
+
+#universeTable3 {
+	background-image:url(../../Images/Common/Universe/Universe2.jpg);
+}
+
+#universeTable5 {
+	background-image:url(../../Images/Common/Universe/Universe3.jpg);
+}
+
+#universeTable7 {
+	background-image:url(../../Images/Common/Universe/Universe4.jpg);
+}
+
+#universeTable9 {
+	background-image:url(../../Images/Common/Universe/Universe5.jpg);
+}
+
+#universeTable10 {
+	background-image:url(../../Images/Common/Universe/Universe6.jpg);
+}
+
+#privateUniverse {
+	background-image:url(../../Images/Common/Universe/PrivateZoneBackground.png);
+}
+
+#universe table{
+	border-collapse:collapse;
+	width:auto;
+	border:solid 1px black;
+}
+
+#universe table tr td{
+	border:0px;
+}
+
+table.universe1 {
+	border:solid 1px white;
+	border-collapse:collapse;
+	margin:0px auto;
+	padding:0px;
+}
+
+table.universe1 tr {
+	height:12.5px;
+	width:12.5px;
+	padding:0px;
+	margin:0px;
+}
+
+table.universe1 tr td{
+	width:12.5px;
+	padding:0px ! important;
+	background-image:url(../../Images/Common/Universe/UniverseElements1.png);
+}
+
+table.universe1 tr td img{
+	width:12.5px;
+	height:12.5px;
+}
+
+table.universe1 tr td.resource{
+	width:12.5px;
+	padding:0px ! important;
+	text-align:center;
+	vertical-align:middle;
+}
+
+table.universe2, table.universePrivate{
+	border:solid 1px white;
+	border-collapse:collapse;
+	margin:0px auto;
+	padding:0px;
+}
+table.universe2 tr {
+	height:25px;
+	width:25px;
+	padding:0px;
+	margin:0px;
+}
+
+table.universe2 tr td{
+	width:25px;
+	padding:0px ! important;
+	background-image:url(../../Images/Common/Universe/UniverseElements2.png);
+}
+
+table.universe2 tr td img{
+	width:25px;
+	height:25px;
+}
+
+table.universe2 tr td.resource{
+	width:25px;
+	padding:0px ! important;
+	text-align:center;
+	vertical-align:middle;
+}
+
+
+table.universe3, table.universePrivate{
+	border:solid 1px white;
+	border-collapse:collapse;
+	margin:0px auto;
+	padding:0px;
+}
+
+table.universe3 tr, table.universePrivate tr {
+	height:50px;
+	width:50px;
+	padding:0px;
+	margin:0px;
+}
+
+table.universe3 tr td, table.universePrivate tr td, div.planetPreview {
+	width:50px;
+	height:50px;
+	padding:0px ! important;
+	background-image:url(../../Images/Common/Universe/UniverseElements3.png);
+}
+
+table.universe3 tr td img, table.universePrivate tr td img{
+	width:50px;
+	height:50px;
+}
+
+table.universe3 tr td.resource, table.universePrivate tr td.resource{
+	width:50px;
+	padding:0px ! important;
+	text-align:center;
+	vertical-align:middle;
+}
+
+table.universe3 tr td.resource img, table.universePrivate tr td.resource img{
+	width:25px ! important;
+	height:25px ! important;
+	padding:0px ! important;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#universeMap {
+	background-image:url(../../Images/Common/Universe/AllUniverse.jpg);
+	width:750px;
+	height:449px;
+}
+
+#universeItems {
+	margin:0px auto;
+}
+
+#universeItems table {
+	border-collapse:collapse;
+	width:auto;
+	border:0px;	
+}
+
+#universeItems table tr td{
+	width:39px;
+	height:25px;
+}
+
+#universeItems table tr td.pBugs {
+	background-image:url(../../Images/Common/Universe/UniverseMapIconsBugs.png);
+	background-position: -1px -1px !important;
+	cursor:pointer;
+}
+
+#universeItems table tr td.pLightHumans {
+	background-image:url(../../Images/Common/Universe/UniverseMapIconsLightHumans.png);
+	background-position: -1px -1px !important;
+	cursor:pointer;
+}
+
+#universeItems table tr td.pDarkHumans {
+	background-image:url(../../Images/Common/Universe/UniverseMapIconsDarkHumans.png);
+	background-position: -1px -1px !important;
+	cursor:pointer;
+}
+
+#universeItems table tr td.fBugs {
+	background-image:url(../../Images/Common/Universe/UniverseMapIconsBugs.png);
+	background-position: -44px -1px !important;
+	cursor:pointer;
+}
+
+#universeItems table tr td.fLightHumans {
+	background-image:url(../../Images/Common/Universe/UniverseMapIconsLightHumans.png);
+	background-position: -44px -1px !important;
+	cursor:pointer;
+}
+
+#universeItems table tr td.fDarkHumans {
+	background-image:url(../../Images/Common/Universe/UniverseMapIconsDarkHumans.png);
+	background-position: -44px -1px !important;
+	cursor:pointer;
+}
+
+#universeItems table tr td.w {
+	background-image:url(../../Images/Common/Universe/UniverseMapIcons.png);
+	background-position: -87px -1px !important;
+	cursor:pointer;
+}
+
+#universeItems table tr td.a {
+	background-image:url(../../Images/Common/Universe/UniverseMapIcons.png);
+	background-position: -130px -1px !important;
+	cursor:pointer;
+}
+
+#universeItems table tr td.m {
+	background-image:url(../../Images/Common/Universe/UniverseMapIcons.png);
+	background-position: -173px -1px !important;
+	cursor:pointer;
+}
+
+#bottomMenu {
+	width:750px;	
+}
+
+#zoom0OptionMenu {
+	float:right;
+	width:200px;	
+}
+
+#bottomMenuOptions {
+	float:right;
+	width:200px;
+	height:196px;
+	background-image:url(../../Images/Common/Universe/OptionsMenuBck.png);
+}
+
+#bottomMenuOptions div{
+	padding:9px 5px 5px 10px;
+}
+
+#wormHoleMap {
+	border:solid 2px black;
+	overflow:hidden;
+	display:block;
+	height:549px;	
+}
+
+#wormHoleMap ul {
+	margin:0px;	
+}
+
+#wormHoleMap #pTab1Content img {
+	
+	cursor:pointer;
+}
+
+#wormHoleMap #pTab1Content, #wormHoleMap #pTab2Content{
+	position:absolute;
+}
+
+#wormHoleMap #pTab1Content.visible, #wormHoleMap #pTab2Content.visible{
+	background-image:url(../../Images/Common/Universe/WormHoleMap.png);
+	z-index:200000;
+	width:919px;
+	height:520px;
+	display:block;
+}
+
+#wormHoleMap #pTab1Content img, #wormHoleMap #pTab2Content img, #universeMap img {
+	position:absolute;
+}
+
+#wormHoleMap ul {
+	width:100%;
+	height:29px;	
+	background-image:url(../../Images/Common/Universe/WormHoleMapTitleBck.gif);
+}
+
+#wormHoleMap ul li {
+	width:200px;
+	height:29px;	
+	background-image:url(../../Images/Common/Universe/WormHoleMapTitleUnselected.gif);
+	float:left;
+	text-align:center;
+	padding-top:5px;
+}
+
+#wormHoleMap ul li.selected {
+	background-image:url(../../Images/Common/Universe/WormHoleMapTitleSelected.gif);
+}
+
+#rightMenu {
+	float:right;
+	width:204px;
+}
+
+#rightMenu select{
+	height:130px;
+	width:200px;
+}
+
+#universe #genericMessages {
+	height:196px;
+	overflow:auto;
+	width:550px;
+	background-image:url(../../Images/Common/Universe/MessagesBck.gif);
+}
+
+#universe #genericMessages table{
+	background-image:none !important;
+	border-collapse:collapse;
+	border:none;
+}
+
+#universe #genericMessages table tr td.msgImg {
+	width:19px;
+}
+
+#universe #genericMessages table tr td {
+	width:550px;
+	padding-right:10px;
+}
+
+#arrows {
+	text-align:center;
+	width:204px;
+	height:148px;
+	background-image:url(../../Images/Common/Universe/ArrowsBck.png);
+}
+
+div.arrows {
+	margin:0px;
+	padding-top:15px;
+}
+
+#arrows div.arrows table {
+	background-image:url(../../Images/Common/Universe/MoverBck.png);
+	background-repeat:no-repeat;
+	width:113px;
+	height:113px;
+	border:none;
+	margin-left:4px;
+}
+
+#arrows div.arrows table tr{
+	width:90px;
+	height:18px;
+}
+
+#arrows div.arrows table tr td{
+	background-position:top left;
+	background-repeat:no-repeat;
+	width:18px;
+	height:18px;
+}
+
+#moveTo {
+	margin:5px auto 0px auto;
+}
+
+#moveTo input {
+	width:14px;
+}
+
+#moveToButton {
+	width:80px !important;
+	background-image:url(../../Images/Common/Universe/UniverseButtonSmall.png);
+	background-position:0px 0px;
+}
+
+#moveToButton:hover {
+	background-image:url(../../Images/Common/Universe/UniverseButtonSmall.png);
+	background-position:0px -30px;
+}
+
+#moveToButton[disabled], #moveToButton[disabled]:hover {
+	width:80px !important;
+	background-image:url(../../Images/Common/Universe/UniverseButtonSmall.png);
+	background-position:0px 0px;
+	color:#ccc;
+	font-size:12px;
+}
+
+#moveTo img.moveToButton {
+	width:11px;
+	height:17px;
+	padding: 0px 5px;
+	cursor:pointer;
+	float:right;
+}
+
+#uab, #uad, #uae, #uag {
+	cursor:pointer;
+	width:38px;
+	height:38px;
+}
+
+#uab.selected {
+	background-position: -1px -1px !important;
+	background-image:url(../../Images/Common/Universe/Arrows.png);
+}
+
+#uad.selected {
+	background-position: -118px -1px !important;
+	background-image:url(../../Images/Common/Universe/Arrows.png);
+}
+
+#uae.selected {
+	background-position: -40px -1px !important;
+	background-image:url(../../Images/Common/Universe/Arrows.png);
+}
+
+#uag.selected {
+	background-position: -79px -1px !important;
+	background-image:url(../../Images/Common/Universe/Arrows.png);	
+}
+
+#rightArrows{
+	float:right;
+	width:83px;
+	margin-right:4px;
+}
+
+#zoom {
+	background-repeat:no-repeat;
+	padding:5px;
+	border:none !important;
+	margin:8px auto 2px auto !important;
+	background-image:url(../../Images/Common/Universe/ZoomBack.png);	
+	height:79px;
+}
+
+#zoom1 {
+	height:8px;
+	width:64px !important;
+}
+
+#zoom2 {
+	height:8px;
+	width:64px !important;
+}
+
+#zoom3 {
+	height:6px;
+	width:64px !important;
+}
+
+#zoom4 {
+	height:8px;
+	width:64px !important;
+}
+	
+#zoom tr{
+	width:30px;
+}
+
+#zoom tr td{
+	background-position:top left;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	width:64px;
+}
+
+#zoom1:hover {
+	background-image:url(../../Images/Common/Universe/ZoomButtons.png);	
+	background-position: 19px 5px;
+}
+
+#zoom2:hover {
+	background-image:url(../../Images/Common/Universe/ZoomButtons.png);		
+	background-position: 19px -15px;
+}
+
+#zoom3:hover {
+	background-image:url(../../Images/Common/Universe/ZoomButtons.png);	
+	background-position: 19px -35px;
+	cursor:pointer;
+}
+
+#zoom4:hover {
+	background-image:url(../../Images/Common/Universe/ZoomButtons.png);		
+	background-position: 19px -56px;
+	cursor:pointer;
+}
+
+#universe h3 {
+	background-image:url(../../Images/Common/Universe/UniverseHeader.gif);	
+	width:204px;
+	height:23px;
+	margin:0px;
+	padding:6px 0px 0px 0px;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#fleetUniverseList {
+	width:204px;
+	padding:3px 0px 3px;
+	background-image:url(../../Images/Common/Universe/MenuBck.gif);
+	height:165px;
+}
+
+#planetUniverseList {
+	width:204px;
+	padding:3px 0px 0px;
+	background-image:url(../../Images/Common/Universe/MenuBck.gif);
+	height:155px
+}
+
+#relicUniverseList {
+	width:204px;
+	padding:3px 0px 0px;
+	background-image:url(../../Images/Common/Universe/MenuBck.gif);
+	height:67px
+}
+
+#fleetUniverseList div, #planetUniverseList div, #relicUniverseList div {
+	padding:1px 5px 1px 8px;
+}
+
+#universeListBottom {
+	background-image:url(../../Images/Common/Universe/MenuBckBottom.gif);	
+	height:12px;
+	width:204px;
+}
+
+/* ========== ZOOM LEVEL 1 ============= */
+
+/*Desert*/
+
+table.universe1 tr td.desert {
+	background-position: 0px 0px;
+}
+
+table.universe1 tr td.fdesert {
+	background-position: 0px -77px;
+}
+
+table.universe1 tr td.desertBugs1, table.universe1 tr td.desertBugs2 {
+	background-position: -13px 0px;
+}
+
+table.universe1 tr td.desertBugs3, table.universe1 tr td.desertBugs4, table.universe1 tr td.pdesertBugs4 {
+	background-position: -26px 0px;
+}
+
+table.universe1 tr td.desertBugs5 {
+	background-position: -39px 0px;
+}
+
+table.universe1 tr td.desertDarkHumans1, table.universe1 tr td.desertDarkHumans2 {
+	background-position: -51px 0px;
+}
+
+table.universe1 tr td.desertDarkHumans3, table.universe1 tr td.desertDarkHumans4 {
+	background-position: -64px 0px;
+}
+
+table.universe1 tr td.desertDarkHumans5 {
+	background-position: -77px 0px;
+}
+
+table.universe1 tr td.desertLightHumans1, table.universe1 tr td.desertLightHumans2 {
+	background-position: -89px 0px;
+}
+
+table.universe1 tr td.desertLightHumans3, table.universe1 tr td.desertLightHumans4 {
+	background-position: -102px 0px;
+}
+
+table.universe1 tr td.desertLightHumans5 {
+	background-position: -115px 0px;
+}
+
+/* Forest */
+
+table.universe1 tr td.forest {
+	background-position: 0px -13px;
+}
+
+table.universe1 tr td.fforest {
+	background-position: -13px -77px;
+}
+
+table.universe1 tr td.forestBugs1, table.universe1 tr td.forestBugs2 {
+	background-position: -13px -13px;
+}
+
+table.universe1 tr td.forestBugs3, table.universe1 tr td.forestBugs4 {
+	background-position: -26px -13px;
+}
+
+table.universe1 tr td.forestBugs5 {
+	background-position: -38px -13px;
+}
+
+table.universe1 tr td.forestDarkHumans1, table.universe1 tr td.forestDarkHumans2 {
+	background-position: -51px -13px;
+}
+
+table.universe1 tr td.forestDarkHumans3, table.universe1 tr td.forestDarkHumans4 {
+	background-position: -64px -13px;
+}
+
+table.universe1 tr td.forestDarkHumans5 {
+	background-position: -77px -13px;
+}
+
+table.universe1 tr td.forestLightHumans1, table.universe1 tr td.forestLightHumans2 {
+	background-position: -89px -13px;
+}
+
+table.universe1 tr td.forestLightHumans3, table.universe1 tr td.forestLightHumans4 {
+	background-position: -102px -13px;
+}
+
+table.universe1 tr td.forestLightHumans5 {
+	background-position: -115px -13px;
+}
+
+/* Rock */
+
+table.universe1 tr td.rock {
+	background-position: 0px -26px;
+}
+
+table.universe1 tr td.frock {
+	background-position: -26px -77px;
+}
+
+table.universe1 tr td.rockBugs1, table.universe1 tr td.rockBugs2 {
+	background-position: -13px -26px;
+}
+
+table.universe1 tr td.rockBugs3, table.universe1 tr td.rockBugs4 {
+	background-position: -26px -26px;
+}
+
+table.universe1 tr td.rockBugs5 {
+	background-position: -38px -26px;
+}
+
+table.universe1 tr td.rockDarkHumans1, table.universe1 tr td.rockDarkHumans2 {
+	background-position: -51px -26px;
+}
+
+table.universe1 tr td.rockDarkHumans3, table.universe1 tr td.rockDarkHumans4 {
+	background-position: -64px -26px;
+}
+
+table.universe1 tr td.rockDarkHumans5 {
+	background-position: -77px -26px;
+}
+
+table.universe1 tr td.rockLightHumans1, table.universe1 tr td.rockLightHumans2 {
+	background-position: -89px -26px;
+}
+
+table.universe1 tr td.rockLightHumans3, table.universe1 tr td.rockLightHumans4 {
+	background-position: -102px -26px;
+}
+
+table.universe1 tr td.rockLightHumans5 {
+	background-position: -115px -26px;
+}
+
+/*Ice*/
+
+table.universe1 tr td.ice {
+	background-position: 0px -39px;
+}
+
+table.universe1 tr td.fice {
+	background-position: -39px -77px;
+}
+
+table.universe1 tr td.iceBugs1, table.universe1 tr td.iceBugs2 {
+	background-position: -13px -39px;
+}
+
+table.universe1 tr td.iceBugs3, table.universe1 tr td.iceBugs4 {
+	background-position: -26px -39px;
+}
+
+table.universe1 tr td.iceBugs5 {
+	background-position: -39px -39px;
+}
+
+table.universe1 tr td.iceDarkHumans1, table.universe1 tr td.iceDarkHumans2 {
+	background-position: -51px -39px;
+}
+
+table.universe1 tr td.iceDarkHumans3, table.universe1 tr td.iceDarkHumans4 {
+	background-position: -64px -39px;
+}
+
+table.universe1 tr td.iceDarkHumans5 {
+	background-position: -77px -39px;
+}
+
+table.universe1 tr td.iceLightHumans1, table.universe1 tr td.iceLightHumans2 {
+	background-position: -90px -39px;
+}
+
+table.universe1 tr td.iceLightHumans3, table.universe1 tr td.iceLightHumans4 {
+	background-position: -102px -39px;
+}
+
+table.universe1 tr td.iceLightHumans5 {
+	background-position: -115px -39px;
+}
+
+/*Terrest*/
+
+table.universe1 tr td.terrest {
+	background-position: 0px -52px;
+}
+
+table.universe1 tr td.fterrest {
+	background-position: -51px -77px;
+}
+
+table.universe1 tr td.terrestBugs1, table.universe1 tr td.terrestBugs2 {
+	background-position: -13px -52px;
+}
+
+table.universe1 tr td.terrestBugs3, table.universe1 tr td.terrestBugs4 {
+	background-position: -26px -52px;
+}
+
+table.universe1 tr td.terrestBugs5 {
+	background-position: -38px -52px;
+}
+
+table.universe1 tr td.terrestDarkHumans1, table.universe1 tr td.terrestDarkHumans2 {
+	background-position: -51px -52px;
+}
+
+table.universe1 tr td.terrestDarkHumans3, table.universe1 tr td.terrestDarkHumans4 {
+	background-position: -64px -52px;
+}
+
+table.universe1 tr td.terrestDarkHumans5 {
+	background-position: -77px -52px;
+}
+
+table.universe1 tr td.terrestLightHumans1, table.universe1 tr td.terrestLightHumans2 {
+	background-position: -89px -52px;
+}
+
+table.universe1 tr td.terrestLightHumans3, table.universe1 tr td.terrestLightHumans4 {
+	background-position: -102px -52px;
+}
+
+table.universe1 tr td.terrestLightHumans5 {
+	background-position: -115px -52px;
+}
+
+/* Water*/
+
+table.universe1 tr td.water {
+	background-position: 0px -64px;
+}
+
+table.universe1 tr td.fwater {
+	background-position: -64px -77px;
+}
+
+table.universe1 tr td.waterBugs1, table.universe1 tr td.waterBugs2 {
+	background-position: -13px -64px;
+}
+
+table.universe1 tr td.waterBugs3, table.universe1 tr td.waterBugs4 {
+	background-position: -26px -64px;
+}
+
+table.universe1 tr td.waterBugs5 {
+	background-position: -39px -64px;
+}
+
+table.universe1 tr td.waterDarkHumans1, table.universe1 tr td.waterDarkHumans2 {
+	background-position: -51px -64px;
+}
+
+table.universe1 tr td.waterDarkHumans3, table.universe1 tr td.waterDarkHumans4 {
+	background-position: -64px -64px;
+}
+
+table.universe1 tr td.waterDarkHumans5 {
+	background-position: -77px -64px;
+}
+
+table.universe1 tr td.waterLightHumans1, table.universe1 tr td.waterLightHumans2 {
+	background-position: -90px -64px;
+}
+
+table.universe1 tr td.waterLightHumans3, table.universe1 tr td.waterLightHumans4 {
+	background-position: -102px -64px;
+}
+
+table.universe1 tr td.waterLightHumans5 {
+	background-position: -115px -64px;
+}
+
+table.universe1 tr td.fleetLightHumans1 {
+	background-position: 0px -166px;
+}
+
+table.universe1 tr td.fleetLightHumans1Hover {
+	background-position: -13px -166px;
+}
+
+table.universe1 tr td.fleetLightHumans2 {
+	background-position: -26px -166px;
+}
+
+table.universe1 tr td.fleetLightHumans2Hover {
+	background-position: -39px -166px;
+}
+
+table.universe1 tr td.fleetLightHumans3 {
+	background-position: -52px -166px;
+}
+
+table.universe1 tr td.fleetLightHumans3Hover {
+	background-position: -64px -166px;
+}
+
+table.universe1 tr td.fleetLightHumans4 {
+	background-position: -77px -166px;
+}
+
+table.universe1 tr td.fleetLightHumans4Hover {
+	background-position: -90px -166px;
+}
+
+table.universe1 tr td.fleetLightHumans5 {
+	background-position: -103px -166px;
+}
+
+table.universe1 tr td.fleetLightHumans5Hover {
+	background-position: -116px -166px;
+}
+
+table.universe1 tr td.fleetDarkHumans1 {
+	background-position: 0px -179px;
+}
+
+table.universe1 tr td.fleetDarkHumans1Hover {
+	background-position: -13px -179px;
+}
+
+table.universe1 tr td.fleetDarkHumans2 {
+	background-position: -26px -179px;
+}
+
+table.universe1 tr td.fleetDarkHumans2Hover {
+	background-position: -39px -179px;
+}
+
+table.universe1 tr td.fleetDarkHumans3 {
+	background-position: -51px -179px;
+}
+
+table.universe1 tr td.fleetDarkHumans3Hover {
+	background-position: -64px -179px;
+}
+
+table.universe1 tr td.fleetDarkHumans4 {
+	background-position: -77px -179px;
+}
+
+table.universe1 tr td.fleetDarkHumans4Hover {
+	background-position: -90px -179px;
+}
+
+table.universe1 tr td.fleetDarkHumans5 {
+	background-position: -103px -179px;
+}
+
+table.universe1 tr td.fleetDarkHumans5Hover {
+	background-position: -116px -179px;
+}
+
+table.universe1 tr td.fleetBugs1 {
+	background-position: 0px -193px;
+}
+
+table.universe1 tr td.fleetBugs1Hover {
+	background-position: -13px -193px;
+}
+
+table.universe1 tr td.fleetBugs2 {
+	background-position: -26px -193px;
+}
+
+table.universe1 tr td.fleetBugs2Hover {
+	background-position: -39px -193px;
+}
+
+table.universe1 tr td.fleetBugs3 {
+	background-position: -51px -193px;
+}
+
+table.universe1 tr td.fleetBugs3Hover {
+	background-position: -64px -193px;
+}
+
+table.universe1 tr td.fleetBugs4 {
+	background-position: -77px -193px;
+}
+
+table.universe1 tr td.fleetBugs4Hover {
+	background-position: -90px -193px;
+}
+
+table.universe1 tr td.fleetBugs5 {
+	background-position: -103px -193px;
+}
+
+table.universe1 tr td.fleetBugs5Hover {
+	background-position: -116px -193px;
+}
+
+table.universe1 tr td.fleetMercs1, table.universe1 tr td.fleetMercs2, table.universe1 tr td.fleetMercs3, table.universe1 tr td.fleetMercs4, table.universe1 tr td.fleetMercs5 {
+	background-position: -103px -153px;
+}
+
+table.universe1 tr td.fleetMercs1Hover, table.universe1 tr td.fleetMercs2Hover, table.universe1 tr td.fleetMercs3Hover, table.universe1 tr td.fleetMercs4Hover, table.universe1 tr td.fleetMercs5Hover {
+	background-position: -115px -153px;
+}
+
+table.universe1 tr td.m {
+	background-position: -26px -90px;
+}
+
+table.universe1 tr td.mHover {
+	background-position: -39px -90px;
+}
+
+table.universe1 tr td.fm {
+	background-position: -26px -103px;
+}
+
+table.universe1 tr td.fmHover {
+	background-position: -39px -103px;
+}
+
+table.universe1 tr td.a {
+	background-position: -51px -90px;
+}
+
+table.universe1 tr td.aHover {
+	background-position: -64px -90px;
+}
+
+table.universe1 tr td.fa {
+	background-position: -52px -103px;
+}
+
+table.universe1 tr td.faHover {
+	background-position: -64px -103px;
+}
+
+table.universe1 tr td.w {
+	background-position: 0px -90px;
+}
+
+table.universe1 tr td.wHover {
+	background-position: -13px -90px;
+}
+
+table.universe1 tr td.fw {
+	background-position: 0px -103px;
+}
+
+table.universe1 tr td.fwHover {
+	background-position: -13px -103px;
+}
+
+table.universe1 tr td.al {
+	background-position: -77px -116px;
+}
+
+table.universe1 tr td.alHover {
+	background-position: -90px -116px;
+}
+
+table.universe1 tr td.fal {
+	background-position: -77px -102px;
+}
+
+table.universe1 tr td.falHover {
+	background-position: -90px -102px;
+}
+
+table.universe1 tr td.pb {
+	background-position: -102px -116px;
+}
+
+table.universe1 tr td.pbHover {
+	background-position: -115px -116px;
+}
+
+table.universe1 tr td.fpb {
+	background-position: -102px -103px;
+}
+
+table.universe1 tr td.fpbHover {
+	background-position: -115px -103px;
+}
+
+table.universe1 tr td.c {
+	background-position: -102px -128px;
+}
+
+table.universe1 tr td.cHover {
+	background-position: -115px -128px;
+}
+
+table.universe1 tr td.fc {
+	background-position: -103px -77px;
+}
+
+table.universe1 tr td.fcHover {
+	background-position: -115px -77px;
+}
+
+table.universe1 tr td.faded {
+	background-position: -90px -77px;
+}
+
+table.universe1 tr td.Argon {
+	background-position: -39px -232px;
+}
+
+table.universe1 tr td.Elk {
+	background-position: -115px -218px;
+}
+
+table.universe1 tr td.Energy {
+	background-position: -103px -218px;
+}
+
+table.universe1 tr td.Gold {
+	background-position: -115px -232px;
+}
+
+table.universe1 tr td.Radon {
+	background-position: 0px -232px;
+}
+
+table.universe1 tr td.Mithril {
+	background-position: -103px -232px;
+}
+
+table.universe1 tr td.Serium {
+	background-position: -115px -206px;
+}
+
+table.universe1 tr td.Titanium {
+	background-position: -77px -232px;
+}
+
+table.universe1 tr td.Uranium {
+	background-position: -64px -232px;
+}
+
+table.universe1 tr td.Astatine {
+	background-position: -52px -232px;
+}
+
+table.universe1 tr td.Protol {
+	background-position: -89px -232px;
+}
+
+table.universe1 tr td.Cryptium {
+	background-position: -26px -232px;
+}
+
+table.universe1 tr td.Prismal {
+	background-position: -13px -232px;
+}
+
+table.universe1 tr td.ultimateQueen1 {
+	background-position: -0px -218px;
+}
+
+table.universe1 tr td.ultimateQueen1Hover {
+	background-position: -12px -218px;
+}
+
+table.universe1 tr td.ultimateQueen2 {
+	background-position: -26px -218px;
+}
+
+table.universe1 tr td.ultimateQueen2Hover {
+	background-position: -39px -218px;
+}
+
+table.universe1 tr td.ultimateQueen3 {
+	background-position: -52px -218px;
+}
+
+table.universe1 tr td.ultimateQueen3Hover {
+	background-position: -64px -218px;
+}
+
+table.universe1 tr td.ultimateQueen4 {
+	background-position: -77px -218px;
+}
+
+table.universe1 tr td.ultimateQueen4Hover {
+	background-position: -89px -218px;
+}
+
+table.universe1 tr td.ultimateQueen5 {
+	background-position: -0px -218px;
+}
+
+table.universe1 tr td.ultimateQueen5Hover {
+	background-position: -13px -218px;
+}
+
+table.universe1 tr td.ultimateBlinker1 {
+	background-position: -0px -243px;
+}
+
+table.universe1 tr td.ultimateBlinker1Hover {
+	background-position: -13px -243px;
+}
+
+table.universe1 tr td.ultimateBlinker2 {
+	background-position: -25px -243px;
+}
+
+table.universe1 tr td.ultimateBlinker2Hover {
+	background-position: -38px -243px;
+}
+
+table.universe1 tr td.ultimateBlinker3 {
+	background-position: -51px -243px;
+}
+
+table.universe1 tr td.ultimateBlinker3Hover {
+	background-position: -64px -243px;
+}
+
+table.universe1 tr td.ultimateBlinker4 {
+	background-position: -77px -243px;
+}
+
+table.universe1 tr td.ultimateBlinker4Hover {
+	background-position: -90px -243px;
+}
+
+table.universe1 tr td.ultimateBlinker5 {
+	background-position: -0px -243px;
+}
+
+table.universe1 tr td.ultimateBlinker5Hover {
+	background-position: -13px -243px;
+}
+
+table.universe1 tr td.ultimateBattleMoon1 {
+	background-position: -0px -204px;
+}
+
+table.universe1 tr td.ultimateBattleMoon1Hover {
+	background-position: -13px -204px;
+}
+
+table.universe1 tr td.ultimateBattleMoon2 {
+	background-position: -0px -204px;
+}
+
+table.universe1 tr td.ultimateBattleMoon2Hover {
+	background-position: -13px -204px;
+}
+
+table.universe1 tr td.ultimateBattleMoon3 {
+	background-position: -26px -204px;
+}
+
+table.universe1 tr td.ultimateBattleMoon3Hover {
+	background-position: -39px -204px;
+}
+
+table.universe1 tr td.ultimateBattleMoon4 {
+	background-position: -51px -204px;
+}
+
+table.universe1 tr td.ultimateBattleMoon4Hover {
+	background-position: -64px -204px;
+}
+
+table.universe1 tr td.ultimateBattleMoon5 {
+	background-position: -0px -204px;
+}
+
+table.universe1 tr td.ultimateBattleMoon5Hover {
+	background-position: -13px -204px;
+}
+
+/*--- ultimate waepons --- */
+
+table.universe1 tr td.bw {
+	background-position: -76px -90px;
+}
+
+table.universe1 tr td.bwHover {
+	background-position: -89px -90px;
+}
+
+table.universe1 tr td.fbw {
+	background-position: -76px -103px;
+}
+
+table.universe1 tr td.fbwHover {
+	background-position: -89px -103px;
+}
+
+table.universe1 tr td.bw {
+	background-position: -76px -90px;
+}
+
+table.universe1 tr td.bc {
+	background-position: -104px -90px;
+}
+
+table.universe1 tr td.bcHover {
+	background-position: -118px -90px;
+}
+
+table.universe1 tr td.r {
+	background-position: -77px -128px;
+}
+
+table.universe1 tr td.rHover {
+	background-position: -91px -128px;
+}
+
+table.universe1 tr td.relicBattle {
+	background-position: -103px -269px;
+}
+
+table.universe1 tr td.relicBattleHover {
+	background-position: -117px -269px;
+}
+
+/*  ======== Desert Battle Planets ======= */
+
+table.universe1 tr td.desertBugsBugs {
+	background-position: 0 -116px;
+}
+
+table.universe1 tr td.desertBugsDarkHumans, table.universe1 tr td.desertDarkHumansBugs {
+	background-position: -13px -116px;
+}
+
+table.universe1 tr td.desertBugsLightHumans, table.universe1 tr td.desertLightHumansBugs {
+	background-position: -26px -116px;
+}
+
+table.universe1 tr td.desertDarkHumansDarkHumans {
+	background-position: -51px -116px;
+}
+
+table.universe1 tr td.desertDarkHumansLightHumans, table.universe1 tr td.desertLightHumansDarkHumans {
+	background-position: -39px -116px;
+}
+
+table.universe1 tr td.desertLightHumansLightHumans {
+	background-position: -64px -116px;
+}
+
+/*  ======== Forest Battle Planets ======= */
+
+table.universe1 tr td.forestBugsBugs {
+	background-position: 0 -129px;
+}
+
+table.universe1 tr td.forestBugsDarkHumans, table.universe1 tr td.forestDarkHumansBugs {
+	background-position: -13px -129px;
+}
+
+table.universe1 tr td.forestBugsLightHumans, table.universe1 tr td.forestLightHumansBugs {
+	background-position: -26px -129px;
+}
+
+table.universe1 tr td.forestDarkHumansDarkHumans {
+	background-position: -51px -129px;
+}
+
+table.universe1 tr td.forestDarkHumansLightHumans, table.universe1 tr td.forestLightHumansDarkHumans {
+	background-position: -39px -129px;
+}
+
+table.universe1 tr td.forestLightHumansLightHumans {
+	background-position: -64px -129px;
+}
+
+/*  ======== Rock Battle Planets ======= */
+
+table.universe1 tr td.rockBugsBugs {
+	background-position: -461px -141px;
+}
+
+table.universe1 tr td.rockBugsDarkHumans, table.universe1 tr td.rockDarkHumansBugs {
+	background-position: -473px -141px;
+}
+
+table.universe1 tr td.rockBugsLightHumans, table.universe1 tr td.rockLightHumansBugs {
+	background-position: -486px -141px;
+}
+
+table.universe1 tr td.rockDarkHumansDarkHumans {
+	background-position: -461px -154px;
+}
+
+table.universe1 tr td.rockDarkHumansLightHumans, table.universe1 tr td.rockLightHumansDarkHumans {
+	background-position: -499px -141px;
+}
+
+table.universe1 tr td.rockLightHumansLightHumans {
+	background-position: -473px -154px;
+}
+
+/*  ======== Terrest Battle Planets ======= */
+
+table.universe1 tr td.terrestBugsBugs {
+	background-position: 0 -257px;
+}
+
+table.universe1 tr td.terrestBugsDarkHumans, table.universe1 tr td.terrestDarkHumansBugs {
+	background-position: -13px -257px;
+}
+
+table.universe1 tr td.terrestBugsLightHumans, table.universe1 tr td.terrestLightHumansBugs {
+	background-position: -26px -257px;
+}
+
+table.universe1 tr td.terrestDarkHumansDarkHumans {
+	background-position: -51px -257px;
+}
+
+table.universe1 tr td.terrestDarkHumansLightHumans, table.universe1 tr td.terrestLightHumansDarkHumans {
+	
+	background-position: -39px -257px;
+}
+
+table.universe1 tr td.terrestLightHumansLightHumans {
+	background-position: -64px -257px;
+}
+
+/*  ======== Water Battle Planets ======= */
+
+table.universe1 tr td.waterBugsBugs {
+	background-position: 0px -269px;
+}
+
+table.universe1 tr td.waterBugsDarkHumans, table.universe1 tr td.waterDarkHumansBugs {
+	background-position: -13px -269px;
+}
+
+table.universe1 tr td.waterBugsLightHumans, table.universe1 tr td.waterLightHumansBugs {
+	background-position: -26px -269px;
+}
+
+table.universe1 tr td.waterDarkHumansDarkHumans {
+	background-position: -51px -269px;
+}
+
+table.universe1 tr td.waterDarkHumansLightHumans, table.universe1 tr td.waterLightHumansDarkHumans {
+	background-position: -39px -269px;
+}
+
+table.universe1 tr td.waterLightHumansLightHumans {
+	background-position: -64px -269px;
+}
+/*  ======== Ice Battle Planets ======= */
+
+table.universe1 tr td.iceBugsBugs {
+	background-position: -461px -257px;
+}
+
+table.universe1 tr td.iceBugsDarkHumans, table.universe1 tr td.iceDarkHumansBugs {
+	background-position: -473px -257px;
+}
+
+table.universe1 tr td.iceBugsLightHumans, table.universe1 tr td.iceLightHumansBugs {
+	background-position: -486px -257px;
+}
+
+table.universe1 tr td.iceDarkHumansDarkHumans {
+	background-position: -461px -269px;
+}
+
+table.universe1 tr td.iceDarkHumansLightHumans, table.universe1 tr td.iceLightHumansDarkHumans {
+	background-position: -499px -257px;
+}
+
+table.universe1 tr td.iceLightHumansLightHumans {
+	background-position: -473px -269px;
+}
+
+table.universe1 tr td.fleetBugsBugs {
+	background-position: 0px -141px;
+}
+
+table.universe1 tr td.fleetBugsDarkHumans, table.universe1 tr td.fleetDarkHumansBugs {
+	background-position: -12px -141px;
+}
+
+table.universe1 tr td.fleetBugsLightHumans, table.universe1 tr td.fleetLightHumansBugs {
+	background-position: -26px -141px;
+}
+
+table.universe1 tr td.fleetDarkHumansLightHumans, table.universe1 tr td.fleetLightHumansDarkHumans {
+	background-position: -38px -141px;
+}
+
+table.universe1 tr td.fleetDarkHumansDarkHumans {
+	background-position: -51px -141px;
+}
+
+table.universe1 tr td.fleetLightHumansLightHumans {
+	background-position: -63px -141px;
+}
+
+table.universe1 tr td.fleetLightHumansMercs, table.universe1 tr td.fleetMercsLightHumans{
+	background-position: -1px -562px;
+}
+
+table.universe1 tr td.fleetDarkHumansMercs, table.universe1 tr td.fleetMercsDarkHumans{
+	background-position: -26px -562px;
+}
+
+table.universe1 tr td.fleetBugsMercs, table.universe1 tr td.fleetMercsBugs{
+	background-position: -51px -562px;
+}
+
+/* ========== ZOOM LEVEL 2 ============= */
+
+/*Desert*/
+
+table.universe2 tr td.desert {
+	background-position: 0px 0px;
+}
+
+table.universe2 tr td.fdesert {
+	background-position: -1px -154px;
+}
+
+table.universe2 tr td.desertBugs1, table.universe2 tr td.desertBugs2 {
+	background-position: -26px 0px;
+}
+
+table.universe2 tr td.desertBugs3, table.universe2 tr td.desertBugs4, table.universe2 tr td.pdesertBugs4 {
+	background-position: -52px 0px;
+}
+
+table.universe2 tr td.desertBugs5 {
+	background-position: -78px 0px;
+}
+
+table.universe2 tr td.desertDarkHumans1, table.universe2 tr td.desertDarkHumans2 {
+	background-position: -103px 0px;
+}
+
+table.universe2 tr td.desertDarkHumans3, table.universe2 tr td.desertDarkHumans4 {
+	background-position: -128px 0px;
+}
+
+table.universe2 tr td.desertDarkHumans5 {
+	background-position: -154px 0px;
+}
+
+table.universe2 tr td.desertLightHumans1, table.universe2 tr td.desertLightHumans2 {
+	background-position: -179px 0px;
+}
+
+table.universe2 tr td.desertLightHumans3, table.universe2 tr td.desertLightHumans4 {
+	background-position: -205px 0px;
+}
+
+table.universe2 tr td.desertLightHumans5 {
+	background-position: -230px 0px;
+}
+
+/* Forest */
+
+table.universe2 tr td.forest {
+	background-position: 0px -26px;
+}
+
+table.universe2 tr td.fforest {
+	background-position: -26px -154px;
+}
+
+table.universe2 tr td.forestBugs1, table.universe2 tr td.forestBugs2 {
+	background-position: -26px -26px;
+}
+
+table.universe2 tr td.forestBugs3, table.universe2 tr td.forestBugs4 {
+	background-position: -52px -26px;
+}
+
+table.universe2 tr td.forestBugs5 {
+	background-position: -78px -26px;
+}
+
+table.universe2 tr td.forestDarkHumans1, table.universe2 tr td.forestDarkHumans2 {
+	background-position: -103px -26px;
+}
+
+table.universe2 tr td.forestDarkHumans3, table.universe2 tr td.forestDarkHumans4 {
+	background-position: -128px -26px;
+}
+
+table.universe2 tr td.forestDarkHumans5 {
+	background-position: -154px -26px;
+}
+
+table.universe2 tr td.forestLightHumans1, table.universe2 tr td.forestLightHumans2 {
+	background-position: -178px -26px;
+}
+
+table.universe2 tr td.forestLightHumans3, table.universe2 tr td.forestLightHumans4 {
+	background-position: -204px -26px;
+}
+
+table.universe2 tr td.forestLightHumans5 {
+	background-position: -230px -26px;
+}
+
+/* Rock */
+
+table.universe2 tr td.rock {
+	background-position: 0px -52px;
+}
+
+table.universe2 tr td.frock {
+	background-position: -52px -154px;
+}
+
+table.universe2 tr td.rockBugs1, table.universe2 tr td.rockBugs2 {
+	background-position: -26px -52px;
+}
+
+table.universe2 tr td.rockBugs3, table.universe2 tr td.rockBugs4 {
+	background-position: -52px -52px;
+}
+
+table.universe2 tr td.rockBugs5 {
+	background-position: -78px -52px;
+}
+
+table.universe2 tr td.rockDarkHumans1, table.universe2 tr td.rockDarkHumans2 {
+	background-position: -103px -52px;
+}
+
+table.universe2 tr td.rockDarkHumans3, table.universe2 tr td.rockDarkHumans4 {
+	background-position: -129px -52px;
+}
+
+table.universe2 tr td.rockDarkHumans5 {
+	background-position: -154px -52px;
+}
+
+table.universe2 tr td.rockLightHumans1, table.universe2 tr td.rockLightHumans2 {
+	background-position: -179px -52px;
+}
+
+table.universe2 tr td.rockLightHumans3, table.universe2 tr td.rockLightHumans4 {
+	background-position: -204px -52px;
+}
+
+table.universe2 tr td.rockLightHumans5 {
+	background-position: -230px -52px;
+}
+
+/*Ice*/
+
+table.universe2 tr td.ice {
+	background-position: 0px -78px;
+}
+
+table.universe2 tr td.fice {
+	background-position: -78px -154px;
+}
+
+table.universe2 tr td.iceBugs1, table.universe2 tr td.iceBugs2 {
+	background-position: -26px -78px;
+}
+
+table.universe2 tr td.iceBugs3, table.universe2 tr td.iceBugs4 {
+	background-position: -52px -78px;
+}
+
+table.universe2 tr td.iceBugs5 {
+	background-position: -78px -78px;
+}
+
+table.universe2 tr td.iceDarkHumans1, table.universe2 tr td.iceDarkHumans2 {
+	background-position: -103px -78px;
+}
+
+table.universe2 tr td.iceDarkHumans3, table.universe2 tr td.iceDarkHumans4 {
+	background-position: -128px -78px;
+}
+
+table.universe2 tr td.iceDarkHumans5 {
+	background-position: -154px -78px;
+}
+
+table.universe2 tr td.iceLightHumans1, table.universe2 tr td.iceLightHumans2 {
+	background-position: -180px -78px;
+}
+
+table.universe2 tr td.iceLightHumans3, table.universe2 tr td.iceLightHumans4 {
+	background-position: -206px -78px;
+}
+
+table.universe2 tr td.iceLightHumans5 {
+	background-position: -231px -77px;
+}
+
+/*Terrest*/
+
+table.universe2 tr td.terrest {
+	background-position: 0px -103px;
+}
+
+table.universe2 tr td.fterrest {
+	background-position: -103px -154px;
+}
+
+table.universe2 tr td.terrestBugs1, table.universe2 tr td.terrestBugs2 {
+	background-position: -26px -102px;
+}
+
+table.universe2 tr td.terrestBugs3, table.universe2 tr td.terrestBugs4 {
+	background-position: -52px -102px;
+}
+
+table.universe2 tr td.terrestBugs5 {
+	background-position: -78px -102px;
+}
+
+table.universe2 tr td.terrestDarkHumans1, table.universe2 tr td.terrestDarkHumans2 {
+	background-position: -103px -102px;
+}
+
+table.universe2 tr td.terrestDarkHumans3, table.universe2 tr td.terrestDarkHumans4 {
+	background-position: -128px -102px;
+}
+
+table.universe2 tr td.terrestDarkHumans5 {
+	background-position: -154px -102px;
+}
+
+table.universe2 tr td.terrestLightHumans1, table.universe2 tr td.terrestLightHumans2 {
+	background-position: -180px -102px;
+}
+
+table.universe2 tr td.terrestLightHumans3, table.universe2 tr td.terrestLightHumans4 {
+	background-position: -206px -102px;
+}
+
+table.universe2 tr td.terrestLightHumans5 {
+	background-position: -231px -102px;
+}
+
+/* Water*/
+
+table.universe2 tr td.water {
+	background-position: 0px -128px;
+}
+
+table.universe2 tr td.fwater {
+	background-position: -128px -154px;
+}
+
+table.universe2 tr td.waterBugs1, table.universe2 tr td.waterBugs2 {
+	background-position: -26px -128px;
+}
+
+table.universe2 tr td.waterBugs3, table.universe2 tr td.waterBugs4 {
+	background-position: -52px -128px;
+}
+
+table.universe2 tr td.waterBugs5 {
+	background-position: -78px -128px;
+}
+
+table.universe2 tr td.waterDarkHumans1, table.universe2 tr td.waterDarkHumans2 {
+	background-position: -103px -128px;
+}
+
+table.universe2 tr td.waterDarkHumans3, table.universe2 tr td.waterDarkHumans4 {
+	background-position: -128px -128px;
+}
+
+table.universe2 tr td.waterDarkHumans5 {
+	background-position: -154px -128px;
+}
+
+table.universe2 tr td.waterLightHumans1, table.universe2 tr td.waterLightHumans2 {
+	background-position: -179px -128px;
+}
+
+table.universe2 tr td.waterLightHumans3, table.universe2 tr td.waterLightHumans4 {
+	background-position: -204px -128px;
+}
+
+table.universe2 tr td.waterLightHumans5 {
+	background-position: -230px -128px;
+}
+
+table.universe2 tr td.fleetLightHumans1 {
+	background-position: 0px -332px;
+}
+
+table.universe2 tr td.fleetLightHumans1Hover {
+	background-position: -26px -332px;
+}
+
+table.universe2 tr td.fleetLightHumans2 {
+	background-position: -52px -332px;
+}
+
+table.universe2 tr td.fleetLightHumans2Hover {
+	background-position: -78px -332px;
+}
+
+table.universe2 tr td.fleetLightHumans3 {
+	background-position: -103px -332px;
+}
+
+table.universe2 tr td.fleetLightHumans3Hover {
+	background-position: -129px -332px;
+}
+
+table.universe2 tr td.fleetLightHumans4 {
+	background-position: -154px -332px;
+}
+
+table.universe2 tr td.fleetLightHumans4Hover {
+	background-position: -179px -332px;
+}
+
+table.universe2 tr td.fleetLightHumans5 {
+	background-position: -206px -332px;
+}
+
+table.universe2 tr td.fleetLightHumans5Hover {
+	background-position: -231px -332px;
+}
+
+table.universe2 tr td.fleetDarkHumans1 {
+	background-position: 0px -357px;
+}
+
+table.universe2 tr td.fleetDarkHumans1Hover {
+	background-position: -26px -357px;
+}
+
+table.universe2 tr td.fleetDarkHumans2 {
+	background-position: -52px -357px;
+}
+
+table.universe2 tr td.fleetDarkHumans2Hover {
+	background-position: -78px -357px;
+}
+
+table.universe2 tr td.fleetDarkHumans3 {
+	background-position: -103px -357px;
+}
+
+table.universe2 tr td.fleetDarkHumans3Hover {
+	background-position: -129px -357x;
+}
+
+table.universe2 tr td.fleetDarkHumans4 {
+	background-position: -154px -357px;
+}
+
+table.universe2 tr td.fleetDarkHumans4Hover {
+	background-position: -180px -357px;
+}
+
+table.universe2 tr td.fleetDarkHumans5 {
+	background-position: -206px -357px;
+}
+
+table.universe2 tr td.fleetDarkHumans5Hover {
+	background-position: -231px -357px;
+}
+
+table.universe2 tr td.fleetBugs1 {
+	background-position: 0px -384px;
+}
+
+table.universe2 tr td.fleetBugs1Hover {
+	background-position: -26px -384px;
+}
+
+table.universe2 tr td.fleetBugs2 {
+	background-position: -52px -384px;
+}
+
+table.universe2 tr td.fleetBugs2Hover {
+	background-position: -78px -384px;
+}
+
+table.universe2 tr td.fleetBugs3 {
+	background-position: -103px -384px;
+}
+
+table.universe2 tr td.fleetBugs3Hover {
+	background-position: -129px -384px;
+}
+
+table.universe2 tr td.fleetBugs4 {
+	background-position: -154px -384px;
+}
+
+table.universe2 tr td.fleetBugs4Hover {
+	background-position: -180px -384px;
+}
+
+table.universe2 tr td.fleetBugs5 {
+	background-position: -206px -384px;
+}
+
+table.universe2 tr td.fleetBugs5Hover {
+	background-position: -231px -384px;
+}
+
+table.universe2 tr td.fleetMercs1, table.universe2 tr td.fleetMercs2, table.universe2 tr td.fleetMercs3, table.universe2 tr td.fleetMercs4, table.universe2 tr td.fleetMercs5 {
+	background-position: -205px -308px;
+}
+
+table.universe2 tr td.fleetMercs1Hover, table.universe2 tr td.fleetMercs2Hover, table.universe2 tr td.fleetMercs3Hover, table.universe2 tr td.fleetMercs4Hover, table.universe2 tr td.fleetMercs5Hover {
+	background-position: -231px -308px;
+}
+
+table.universe2 tr td.w {
+	background-position: 0px -179px;
+}
+
+table.universe2 tr td.wHover {
+	background-position: -26px -179px;
+}
+
+table.universe2 tr td.fw {
+	background-position: 0px -205px;
+}
+
+table.universe2 tr td.fwHover {
+	background-position: -26px -205px;
+}
+
+table.universe2 tr td.m {
+	background-position: -52px -179px;
+}
+
+table.universe2 tr td.mHover {
+	background-position: -78px -179px;
+}
+
+table.universe2 tr td.a {
+	background-position: -103px -179px;
+}
+
+table.universe2 tr td.aHover {
+	background-position: -128px -179px;
+}
+
+table.universe2 tr td.fm {
+	background-position: -52px -205px;
+}
+
+table.universe2 tr td.fmHover {
+	background-position: -77px -205px;
+}
+
+table.universe2 tr td.fa {
+	background-position: -102px -205px;
+}
+
+table.universe2 tr td.faHover {
+	background-position: -128px -205px;
+}
+
+table.universe2 tr td.al {
+	background-position: -154px -231px;
+}
+
+table.universe2 tr td.alHover {
+	background-position: -180px  -231px;
+}
+
+table.universe2 tr td.fal {
+	background-position: -154px -205px;
+}
+
+table.universe2 tr td.falHover {
+	background-position: -180px -205px;
+}
+
+table.universe2 tr td.pb {
+	background-position: -204px -231px;
+}
+
+table.universe2 tr td.pbHover {
+	background-position: -230px -231px;
+}
+
+table.universe2 tr td.fpb {
+	background-position: -204px -205px;
+}
+
+table.universe2 tr td.fpbHover {
+	background-position: -230px -205px;
+}
+
+table.universe2 tr td.c {
+	background-position: -205px -257px;
+}
+
+table.universe2 tr td.cHover {
+	background-position: -230px -257px;
+}
+
+table.universe2 tr td.fc {
+	background-position: -205px -154px;
+}
+
+table.universe2 tr td.fcHover {
+	background-position: -230px -154px;
+}
+
+table.universe2 tr td.faded {
+	background-position: -154px -154px;
+}
+
+table.universe2 tr td.Argon {
+	background-position: -78px -462px;
+}
+
+table.universe2 tr td.Elk {
+	background-position: -230px -434px;
+}
+
+table.universe2 tr td.Energy {
+	background-position: -205px -435px;
+}
+
+table.universe2 tr td.Gold {
+	background-position: -230px -462px;
+}
+
+table.universe2 tr td.Radon {
+	background-position: 0px -462px;
+}
+
+table.universe2 tr td.Mithril {
+	background-position: -204px -462px;
+}
+
+table.universe2 tr td.Serium {
+	background-position: -230px -408px;
+}
+
+table.universe2 tr td.Titanium {
+	background-position: -153px -460px;
+}
+
+table.universe2 tr td.Uranium {
+	background-position: -128px -462px;
+}
+
+table.universe2 tr td.Astatine {
+	background-position: -103px -462px;
+}
+
+table.universe2 tr td.Protol {
+	background-position: -178px -462px;
+}
+
+table.universe2 tr td.Cryptium {
+	background-position: -52px -462px;
+}
+
+table.universe2 tr td.Prismal {
+	background-position: -26px -462px;
+}
+
+table.universe2 tr td.fleetBugsBugs {
+	background-position: 0px -281px;
+}
+
+table.universe2 tr td.fleetBugsDarkHumans, table.universe2 tr td.fleetDarkHumansBugs {
+	background-position: -25px -281px;
+}
+
+table.universe2 tr td.fleetBugsLightHumans, table.universe2 tr td.fleetLightHumansBugs {
+	background-position: -51px -281px;
+}
+
+table.universe2 tr td.fleetDarkHumansLightHumans, table.universe2 tr td.fleetLightHumansDarkHumans {
+	background-position: -78px -281px;
+}
+
+table.universe2 tr td.fleetDarkHumansDarkHumans {
+	background-position: -102px -281px;
+}
+
+table.universe2 tr td.fleetLightHumansLightHumans {
+	background-position: -127px -281px;
+}
+
+table.universe2 tr td.fleetLightHumansMercs, table.universe2 tr td.fleetMercsLightHumans{
+	background-position: -1px -562px;
+}
+
+table.universe2 tr td.fleetDarkHumansMercs, table.universe2 tr td.fleetMercsDarkHumans{
+	background-position: -26px -562px;
+}
+
+table.universe2 tr td.fleetBugsMercs, table.universe2 tr td.fleetMercsBugs{
+	background-position: -51px -562px;
+}
+
+table.universe2 tr td.ultimateQueen1 {
+	background-position: -1px -435px;
+}
+
+table.universe2 tr td.ultimateQueen1Hover {
+	background-position: -26px -435px;
+}
+
+table.universe2 tr td.ultimateQueen2 {
+	background-position: -53px -435px;
+}
+
+table.universe2 tr td.ultimateQueen2Hover {
+	background-position: -78px -435px;
+}
+
+table.universe2 tr td.ultimateQueen3 {
+	background-position: -103px -435px;
+}
+
+table.universe2 tr td.ultimateQueen3Hover {
+	background-position: -128px -435px;
+}
+
+table.universe2 tr td.ultimateQueen4 {
+	background-position: -153px -435px;
+}
+
+table.universe2 tr td.ultimateQueen4Hover {
+	background-position: -178px -435px;
+}
+
+table.universe2 tr td.ultimateQueen5 {
+	background-position: -1px -435px;
+}
+
+table.universe2 tr td.ultimateQueen5Hover {
+	background-position: -26px -435px;
+}
+
+table.universe2 tr td.ultimateBlinker1 {
+	background-position: -1px -486px;
+}
+
+table.universe2 tr td.ultimateBlinker1Hover {
+	background-position: -26px -486px;
+}
+
+table.universe2 tr td.ultimateBlinker2 {
+	background-position: -52px -486px;
+}
+
+table.universe2 tr td.ultimateBlinker2Hover {
+	background-position: -78px -486px;
+}
+
+table.universe2 tr td.ultimateBlinker3 {
+	background-position: -103px -486px;
+}
+
+table.universe2 tr td.ultimateBlinker3Hover {
+	background-position: -129px -486px;
+}
+
+table.universe2 tr td.ultimateBlinker4 {
+	background-position: -154px -486px;
+}
+
+table.universe2 tr td.ultimateBlinker4Hover {
+	background-position: -180px -486px;
+}
+
+table.universe2 tr td.ultimateBlinker5 {
+	background-position: -1px -486px;
+}
+
+table.universe2 tr td.ultimateBlinker5Hover {
+	background-position: -26px -486px;
+}
+
+table.universe2 tr td.ultimateBattleMoon1 {
+	background-position: -1px -410px;
+}
+
+table.universe2 tr td.ultimateBattleMoon1Hover {
+	background-position: -27px -410px;
+}
+
+table.universe2 tr td.ultimateBattleMoon2 {
+	background-position: -51px -410px;
+}
+
+table.universe2 tr td.ultimateBattleMoon2Hover {
+	background-position: -77px -410px;
+}
+
+table.universe2 tr td.ultimateBattleMoon3 {
+	background-position: -102px -410px;
+}
+
+table.universe2 tr td.ultimateBattleMoon3Hover {
+	background-position: -128px -410px;
+}
+
+table.universe2 tr td.ultimateBattleMoon4 {
+	background-position: -153px -410px;
+}
+
+table.universe2 tr td.ultimateBattleMoon4Hover {
+	background-position: -179px -410px;
+}
+
+table.universe2 tr td.ultimateBattleMoon5 {
+	background-position: -1px -410px;
+}
+
+table.universe2 tr td.ultimateBattleMoon5Hover {
+	background-position: -27px -410px;
+}
+
+/*--- ultimate waepons --- */
+
+table.universe2 tr td.bw {
+	background-position: -153px -179px;
+}
+
+table.universe2 tr td.bwHover {
+	background-position: -179px -179px;
+}
+
+table.universe2 tr td.fbw {
+	background-position: -153px -204px;
+}
+
+table.universe2 tr td.fbwHover {
+	background-position: -179px -204px;
+}
+
+table.universe2 tr td.bc {
+	background-position: -204px -179px;
+}
+
+table.universe2 tr td.bcHover {
+	background-position: -229px -179px;
+}
+
+table.universe2 tr td.r {
+	background-position: -154px -257px;
+}
+
+table.universe2 tr td.rHover {
+	background-position: -180px -257px;
+}
+
+table.universe2 tr td.relicBattle {
+	background-position: -205px -538px;
+}
+
+table.universe2 tr td.relicBattleHover {
+	background-position: -231px -538px;
+}
+
+/*  ======== Desert Battle Planets ======= */
+
+table.universe2 tr td.desertBugsBugs {
+	background-position: -1px -230px;
+}
+
+table.universe2 tr td.desertBugsDarkHumans, table.universe2 tr td.desertDarkHumansBugs {
+	background-position: -26px -230px;
+}
+
+table.universe2 tr td.desertBugsLightHumans, table.universe2 tr td.desertLightHumansBugs {
+	background-position: -52px -230px;
+}
+
+table.universe2 tr td.desertDarkHumansDarkHumans {
+	background-position: -103px -230px;
+}
+
+table.universe2 tr td.desertDarkHumansLightHumans, table.universe2 tr td.desertLightHumansDarkHumans {
+	
+	background-position: -78px -230px;
+}
+
+table.universe2 tr td.desertLightHumansLightHumans {
+	background-position: -128px -230px;
+}
+
+/*  ======== Forest Battle Planets ======= */
+
+table.universe2 tr td.forestBugsBugs {
+	background-position: -1px -256px;
+}
+
+table.universe2 tr td.forestBugsDarkHumans, table.universe2 tr td.forestDarkHumansBugs {
+	background-position: -26px -256px;
+}
+
+table.universe2 tr td.forestBugsLightHumans, table.universe2 tr td.forestLightHumansBugs {
+	background-position: -52px -256px;
+}
+
+table.universe2 tr td.forestDarkHumansDarkHumans {
+	background-position: -103px -256px;
+}
+
+table.universe2 tr td.forestDarkHumansLightHumans, table.universe2 tr td.forestLightHumansDarkHumans {
+	
+	background-position: -78px -256px;
+}
+
+table.universe2 tr td.forestLightHumansLightHumans {
+	background-position: -128px -256px;
+}
+
+/*  ======== Rock Battle Planets ======= */
+
+table.universe2 tr td.rockBugsBugs {
+	background-position: -410px -282px;
+}
+
+table.universe2 tr td.rockBugsDarkHumans, table.universe2 tr td.rockDarkHumansBugs {
+	background-position: -435px -282px;
+}
+
+table.universe2 tr td.rockBugsLightHumans, table.universe2 tr td.rockLightHumansBugs {
+	background-position: -460px -282px;
+}
+
+table.universe2 tr td.rockDarkHumansDarkHumans {
+	background-position: -410px -306px;
+}
+
+table.universe2 tr td.rockDarkHumansLightHumans, table.universe2 tr td.rockLightHumansDarkHumans {
+	background-position: -486px -282px;
+}
+
+table.universe2 tr td.rockLightHumansLightHumans {
+	background-position: -435px -306px;
+}
+
+/*  ======== Terrest Battle Planets ======= */
+
+table.universe2 tr td.terrestBugsBugs {
+	background-position: -1px -511px;
+}
+
+table.universe2 tr td.terrestBugsDarkHumans, table.universe2 tr td.terrestDarkHumansBugs {
+	background-position: -26px -511px;
+}
+
+table.universe2 tr td.terrestBugsLightHumans, table.universe2 tr td.terrestLightHumansBugs {
+	background-position: -52px -511px;
+}
+
+table.universe2 tr td.terrestDarkHumansDarkHumans {
+	background-position: -103px -511px;
+}
+
+table.universe2 tr td.terrestDarkHumansLightHumans, table.universe2 tr td.terrestLightHumansDarkHumans {
+	
+	background-position: -78px -511px;
+}
+
+table.universe2 tr td.terrestLightHumansLightHumans {
+	background-position: -128px -511px;
+}
+
+/*  ======== Water Battle Planets ======= */
+
+table.universe2 tr td.waterBugsBugs {
+	background-position: -1px -537px;
+}
+
+table.universe2 tr td.waterBugsDarkHumans, table.universe2 tr td.waterDarkHumansBugs {
+	background-position: -26px -537px;
+}
+
+table.universe2 tr td.waterBugsLightHumans, table.universe2 tr td.waterLightHumansBugs {
+	background-position: -52px -537px;
+}
+
+table.universe2 tr td.waterDarkHumansDarkHumans {
+	background-position: -103px -537px;
+}
+
+table.universe2 tr td.waterDarkHumansLightHumans, table.universe2 tr td.waterLightHumansDarkHumans {
+	background-position: -77px -537px;
+}
+
+table.universe2 tr td.waterLightHumansLightHumans {
+	background-position: -128px -537px;
+}
+/*  ======== Ice Battle Planets ======= */
+
+table.universe2 tr td.iceBugsBugs {
+	background-position: -410px -511px;
+}
+
+table.universe2 tr td.iceBugsDarkHumans, table.universe2 tr td.iceDarkHumansBugs {
+	background-position: -435px -511px;
+}
+
+table.universe2 tr td.iceBugsLightHumans, table.universe2 tr td.iceLightHumansBugs {
+	background-position: -460px -511px;
+}
+
+table.universe2 tr td.iceDarkHumansDarkHumans {
+	background-position: -410px -537px;
+}
+
+table.universe2 tr td.iceDarkHumansLightHumans, table.universe2 tr td.iceLightHumansDarkHumans {
+	background-position: -486px -511px;
+}
+
+table.universe2 tr td.iceLightHumansLightHumans {
+	background-position: -435px -537px;
+}
+
+/* ========== ZOOM LEVEL 3 ============= */
+
+/*Desert*/
+
+table.universe3 tr td.desert, table.universePrivate tr td.pdesert {
+	background-position: -1px -1px;
+}
+
+table.universe3 tr td.fdesert, table.universePrivate tr td.fpdesert {
+	background-position: -2px -307px;
+}
+
+div.DesertBugs1, table.universe3 tr td.desertBugs1, table.universe3 tr td.desertBugs2, table.universePrivate tr td.pdesertBugs1, table.universePrivate tr td.pdesertBugs2, table.universePrivate tr td.pdesertBugs3 {
+	background-position: -51px -1px;
+}
+
+div.DesertBugs3, table.universe3 tr td.desertBugs3, table.universe3 tr td.desertBugs4, table.universePrivate tr td.pdesertBugs4, table.universe3tr td.pdesertBugs5, table.universePrivate tr td.pdesertBugs6, table.universePrivate tr td.pdesertBugs7 {
+	background-position: -102px -1px;
+}
+
+div.DesertBugs5, table.universe3 tr td.desertBugs5, table.universePrivate tr td.pdesertBugs8, table.universePrivate tr td.pdesertBugs9, table.universePrivate tr td.pdesertBugs10 {
+	background-position: -153px -1px;
+}
+
+div.DesertDarkHumans1, table.universe3 tr td.desertDarkHumans1, table.universe3 tr td.desertDarkHumans2, table.universePrivate tr td.pdesertDarkHumans1, table.universePrivate tr td.pdesertDarkHumans2, table.universePrivate tr td.pdesertDarkHumans3 {
+	background-position: -204px -1px;
+}
+
+div.DesertDarkHumans3, table.universe3 tr td.desertDarkHumans3, table.universe3 tr td.desertDarkHumans4, table.universePrivate tr td.pdesertDarkHumans4, table.universePrivate tr td.pdesertDarkHumans5, table.universePrivate tr td.pdesertDarkHumans6, table.universePrivate tr td.pdesertDarkHumans7 {
+	background-position: -255px -1px;
+}
+
+div.DesertDarkHumans5, table.universe3 tr td.desertDarkHumans5, table.universePrivate tr td.pdesertDarkHumans8, table.universePrivate tr td.pdesertDarkHumans9, table.universePrivate tr td.pdesertDarkHumans10 {
+	background-position: -306px -1px;
+}
+
+div.DesertLightHumans1, table.universe3 tr td.desertLightHumans1, table.universe3 tr td.desertLightHumans2, table.universePrivate tr td.pdesertLightHumans1, table.universePrivate tr td.pdesertLightHumans2, table.universePrivate tr td.pdesertLightHumans3 {
+	background-position: -357px -1px;
+}
+
+div.DesertLightHumans3, table.universe3 tr td.desertLightHumans3, table.universe3 tr td.desertLightHumans4, table.universePrivate tr td.pdesertLightHumans4, table.universePrivate tr td.pdesertLightHumans5, table.universePrivate tr td.pdesertLightHumans6, table.universePrivate tr td.pdesertLightHumans7 {
+	background-position: -408px -1px;
+}
+
+div.DesertLightHumans5, table.universe3 tr td.desertLightHumans5, table.universePrivate tr td.pdesertLightHumans8, table.universePrivate tr td.pdesertLightHumans9, table.universePrivate tr td.pdesertLightHumans10 {
+	background-position: -459px -1px;
+}
+
+/* Forest */
+
+table.universe3 tr td.forest, table.universePrivate tr td.pforest {
+	background-position: -1px -53px;
+}
+
+table.universe3 tr td.fforest, table.universePrivate tr td.fpforest {
+	background-position: -51px -307px;
+}
+
+div.ForestBugs1, table.universe3 tr td.forestBugs1, table.universe3 tr td.forestBugs2, table.universePrivate tr td.pforestBugs1, table.universePrivate tr td.pforestBugs2, table.universePrivate tr td.pforestBugs3 {
+	background-position: -51px -53px;
+}
+
+div.ForestBugs3, table.universe3 tr td.forestBugs3, table.universe3 tr td.forestBugs4, table.universePrivate tr td.pforestBugs4, table.universePrivate tr td.pforestBugs5, table.universePrivate tr td.pforestBugs6, table.universePrivate tr td.pforestBugs7 {
+	background-position: -102px -53px;
+}
+
+div.ForestBugs5, table.universe3 tr td.forestBugs5, table.universePrivate tr td.pforestBugs8, table.universePrivate tr td.pforestBugs9, table.universePrivate tr td.pforestBugs10 {
+	background-position: -153px -53px;
+}
+
+div.ForestDarkHumans1, table.universe3 tr td.forestDarkHumans1, table.universe3 tr td.forestDarkHumans2, table.universePrivate tr td.pforestDarkHumans1, table.universePrivate tr td.pforestDarkHumans2, table.universePrivate tr td.pforestDarkHumans3 {
+	background-position: -204px -53px;
+}
+
+div.ForestDarkHumans3, table.universe3 tr td.forestDarkHumans3, table.universe3 tr td.forestDarkHumans4, table.universePrivate tr td.pforestDarkHumans4, table.universePrivate tr td.pforestDarkHumans5, table.universePrivate tr td.pforestDarkHumans6, table.universePrivate tr td.pforestDarkHumans7 {
+	background-position: -256px -53px;
+}
+
+div.ForestDarkHumans5, table.universe3 tr td.forestDarkHumans5, table.universePrivate tr td.pforestDarkHumans8, table.universePrivate tr td.pforestDarkHumans9, table.universePrivate tr td.pforestDarkHumans10 {
+	background-position: -306px -53px;
+}
+
+div.ForestLightHumans1, table.universe3 tr td.forestLightHumans1, table.universe3 tr td.forestLightHumans2, table.universePrivate tr td.pforestLightHumans1, table.universePrivate tr td.pforestLightHumans2, table.universePrivate tr td.pforestLightHumans3 {
+	background-position: -357px -53px;
+}
+
+div.ForestLightHumans3, table.universe3 tr td.forestLightHumans3, table.universe3 tr td.forestLightHumans4, table.universePrivate tr td.pforestLightHumans4, table.universePrivate tr td.pforestLightHumans5, table.universePrivate tr td.pforestLightHumans6, table.universePrivate tr td.pforestLightHumans7 {
+	background-position: -408px -53px;
+}
+
+div.ForestLightHumans5, table.universe3 tr td.forestLightHumans5, table.universePrivate tr td.pforestLightHumans8, table.universePrivate tr td.pforestLightHumans9, table.universePrivate tr td.pforestLightHumans10 {
+	background-position: -459px -53px;
+}
+
+/* Rock */
+
+table.universe3 tr td.rock, table.universePrivate tr td.prock {
+	background-position: 1px -104px;
+}
+
+table.universe3 tr td.frock, table.universePrivate tr td.fprock {
+	background-position: -104px -307px;
+}
+
+div.RockBugs1, table.universe3 tr td.rockBugs1, table.universe3 tr td.rockBugs2, table.universePrivate tr td.prockBugs1, table.universePrivate tr td.prockBugs2, table.universePrivate tr td.prockBugs3 {
+	background-position: -51px -104px;
+}
+
+div.RockBugs3, table.universe3 tr td.rockBugs3, table.universe3 tr td.rockBugs4, table.universePrivate tr td.prockBugs4, table.universePrivate tr td.prockBugs5, table.universePrivate tr td.prockBugs6, table.universePrivate tr td.prockBugs7 {
+	background-position: -101px -104px;
+}
+
+div.RockBugs5, table.universe3 tr td.rockBugs5, table.universePrivate tr td.prockBugs8, table.universePrivate tr td.prockBugs9, table.universePrivate tr td.prockBugs10 {
+	background-position: -153px -104px;
+}
+
+div.RockDarkHumans1, table.universe3 tr td.rockDarkHumans1, table.universe3 tr td.rockDarkHumans2, table.universePrivate tr td.prockDarkHumans1, table.universePrivate tr td.prockDarkHumans2, table.universePrivate tr td.prockDarkHumans3 {
+	background-position: -202px -104px;
+}
+
+div.RockDarkHumans3, table.universe3 tr td.rockDarkHumans3, table.universe3 tr td.rockDarkHumans4, table.universePrivate tr td.prockDarkHumans4, table.universePrivate tr td.prockDarkHumans5, table.universePrivate tr td.prockDarkHumans6, table.universePrivate tr td.prockDarkHumans7 {
+	background-position: -255px -104px;
+}
+
+div.RockDarkHumans5, table.universe3 tr td.rockDarkHumans5, table.universePrivate tr td.prockDarkHumans8, table.universePrivate tr td.prockDarkHumans9, table.universePrivate tr td.prockDarkHumans10 {
+	background-position: -305px -104px;
+}
+
+div.RockLightHumans1, table.universe3 tr td.rockLightHumans1, table.universe3 tr td.rockLightHumans2, table.universePrivate tr td.prockLightHumans1, table.universePrivate tr td.prockLightHumans2, table.universePrivate tr td.prockLightHumans3 {
+	background-position: -358px -104px;
+}
+
+div.RockLightHumans3, table.universe3 tr td.rockLightHumans3, table.universe3 tr td.rockLightHumans4, table.universePrivate tr td.prockLightHumans4, table.universePrivate tr td.prockLightHumans5, table.universePrivate tr td.prockLightHumans6, table.universePrivate tr td.prockLightHumans7 {
+	background-position: -408px -104px;
+}
+
+div.RockLightHumans5, table.universe3 tr td.rockLightHumans5, table.universePrivate tr td.prockLightHumans8, table.universePrivate tr td.prockLightHumans9, table.universePrivate tr td.prockLightHumans10 {
+	background-position: -459px -104px;
+}
+
+/*Ice*/
+
+table.universe3 tr td.ice, table.universePrivate tr td.pice {
+	background-position: 1px -155px;
+}
+
+table.universe3 tr td.fice, table.universePrivate tr td.fpice {
+	background-position: -154px -307px;
+}
+
+div.IceBugs1, table.universe3 tr td.iceBugs1, table.universe3 tr td.iceBugs2, table.universePrivate tr td.piceBugs1, table.universePrivate tr td.piceBugs2, table.universePrivate tr td.piceBugs3 {
+	background-position: -51px -155px;
+}
+
+div.IceBugs3, table.universe3 tr td.iceBugs3, table.universe3 tr td.iceBugs4, table.universePrivate tr td.piceBugs4, table.universePrivate tr td.piceBugs5, table.universePrivate tr td.piceBugs6, table.universePrivate tr td.piceBugs7 {
+	background-position: -101px -155px;
+}
+
+div.IceBugs5, table.universe3 tr td.iceBugs5, table.universePrivate tr td.piceBugs8, table.universePrivate tr td.piceBugs9, table.universePrivate tr td.piceBugs10 {
+	background-position: -153px -155px;
+}
+
+div.IceDarkHumans1, table.universe3 tr td.iceDarkHumans1, table.universe3 tr td.iceDarkHumans2, table.universePrivate tr td.piceDarkHumans1, table.universePrivate tr td.piceDarkHumans2, table.universePrivate tr td.piceDarkHumans3 {
+	background-position: -204px -155px;
+}
+
+div.IceDarkHumans3, table.universe3 tr td.iceDarkHumans3, table.universe3 tr td.iceDarkHumans4, table.universePrivate tr td.piceDarkHumans4, table.universePrivate tr td.piceDarkHumans5, table.universePrivate tr td.piceDarkHumans6, table.universePrivate tr td.piceDarkHumans7 {
+	background-position: -255px -155px;
+}
+
+div.IceDarkHumans5, table.universe3 tr td.iceDarkHumans5, table.universePrivate tr td.piceDarkHumans8, table.universePrivate tr td.piceDarkHumans9, table.universePrivate tr td.piceDarkHumans10 {
+	background-position: -306px -155px;
+}
+
+div.IceLightHumans1, table.universe3 tr td.iceLightHumans1, table.universe3 tr td.iceLightHumans2, table.universePrivate tr td.piceLightHumans1, table.universePrivate tr td.piceLightHumans2, table.universePrivate tr td.piceLightHumans3 {
+	background-position: -357px -155px;
+}
+
+div.IceLightHumans3, table.universe3 tr td.iceLightHumans3, table.universe3 tr td.iceLightHumans4, table.universePrivate tr td.piceLightHumans4, table.universePrivate tr td.piceLightHumans5, table.universePrivate tr td.piceLightHumans6, table.universePrivate tr td.piceLightHumans7 {
+	background-position: -408px -154px;
+}
+
+div.IceLightHumans5, table.universe3 tr td.iceLightHumans5, table.universePrivate tr td.piceLightHumans8, table.universePrivate tr td.piceLightHumans9, table.universePrivate tr td.piceLightHumans10 {
+	background-position: -459px -155px;
+}
+
+/*Terrest*/
+
+table.universe3 tr td.terrest, table.universePrivate tr td.pterrest {
+	background-position: -1px -206px;
+}
+
+table.universe3 tr td.fterrest, table.universePrivate tr td.fpterrest {
+	background-position: -206px -307px;
+}
+
+div.TerrestBugs1, table.universe3 tr td.terrestBugs1, table.universe3 tr td.terrestBugs2, table.universePrivate tr td.pterrestBugs1, table.universePrivate tr td.pterrestBugs2, table.universePrivate tr td.pterrestBugs3 {
+	background-position: -51px -206px;
+}
+
+div.TerrestBugs3, table.universe3 tr td.terrestBugs3, table.universe3 tr td.terrestBugs4, table.universePrivate tr td.pterrestBugs4, table.universePrivate tr td.pterrestBugs5, table.universePrivate tr td.pterrestBugs6, table.universePrivate tr td.pterrestBugs7 {
+	background-position: -102px -205px;
+}
+
+div.TerrestBugs5, table.universe3 tr td.terrestBugs5, table.universePrivate tr td.pterrestBugs8, table.universePrivate tr td.pterrestBugs9, table.universePrivate tr td.pterrestBugs10 {
+	background-position: -153px -206px;
+}
+
+div.TerrestDarkHumans1, table.universe3 tr td.terrestDarkHumans1, table.universe3 tr td.terrestDarkHumans2, table.universePrivate tr td.pterrestDarkHumans1, table.universePrivate tr td.pterrestDarkHumans2, table.universePrivate tr td.pterrestDarkHumans3 {
+	background-position: -204px -206px;
+}
+
+div.TerrestDarkHumans3, table.universe3 tr td.terrestDarkHumans3, table.universe3 tr td.terrestDarkHumans4, table.universePrivate tr td.pterrestDarkHumans4, table.universePrivate tr td.pterrestDarkHumans5, table.universePrivate tr td.pterrestDarkHumans6, table.universePrivate tr td.pterrestDarkHumans7 {
+	background-position: -255px -206px;
+}
+
+div.TerrestDarkHumans5, table.universe3 tr td.terrestDarkHumans5, table.universePrivate tr td.pterrestDarkHumans8, table.universePrivate tr td.pterrestDarkHumans9, table.universePrivate tr td.pterrestDarkHumans10 {
+	background-position: -306px -206px;
+}
+
+div.TerrestLightHumans1, table.universe3 tr td.terrestLightHumans1, table.universe3 tr td.terrestLightHumans2, table.universePrivate tr td.pterrestLightHumans1, table.universePrivate tr td.pterrestLightHumans2, table.universePrivate tr td.pterrestLightHumans3 {
+	background-position: -357px -206px;
+}
+
+div.TerrestLightHumans3, table.universe3 tr td.terrestLightHumans3, table.universe3 tr td.terrestLightHumans4, table.universePrivate tr td.pterrestLightHumans4, table.universePrivate tr td.pterrestLightHumans5, table.universePrivate tr td.pterrestLightHumans6, table.universePrivate tr td.pterrestLightHumans7 {
+	background-position: -408px -207px;
+}
+
+div.TerrestLightHumans5, table.universe3 tr td.terrestLightHumans5, table.universePrivate tr td.pterrestLightHumans8, table.universePrivate tr td.pterrestLightHumans9, table.universePrivate tr td.pterrestLightHumans10 {
+	background-position: -459px -206px;
+}
+
+/* Water*/
+
+table.universe3 tr td.water, table.universePrivate tr td.pwater {
+	background-position: -1px -257px;
+}
+
+table.universe3 tr td.fwater, table.universePrivate tr td.fpwater {
+	background-position: -256px -307px;
+}
+
+div.WaterBugs1, table.universe3 tr td.waterBugs1, table.universe3 tr td.waterBugs2, table.universePrivate tr td.pwaterBugs1, table.universePrivate tr td.pwaterBugs2, table.universePrivate tr td.pwaterBugs3 {
+	background-position: -51px -257px;
+}
+
+div.WaterBugs3, table.universe3 tr td.waterBugs3, table.universe3 tr td.waterBugs4, table.universePrivate tr td.pwaterBugs4, table.universePrivate tr td.pwaterBugs5, table.universePrivate tr td.pwaterBugs6, table.universePrivate tr td.pwaterBugs7 {
+	background-position: -102px -257px;
+}
+
+div.WaterBugs5, table.universe3 tr td.waterBugs5, table.universePrivate tr td.pwaterBugs8, table.universePrivate tr td.pwaterBugs9, table.universePrivate tr td.pwaterBugs10 {
+	background-position: -153px -257px;
+}
+
+div.WaterDarkHumans1, table.universe3 tr td.waterDarkHumans1, table.universe3 tr td.waterDarkHumans2, table.universePrivate tr td.pwaterDarkHumans1, table.universePrivate tr td.pwaterDarkHumans2, table.universePrivate tr td.pwaterDarkHumans3 {
+	background-position: -205px -257px;
+}
+
+div.WaterDarkHumans3, table.universe3 tr td.waterDarkHumans3, table.universe3 tr td.waterDarkHumans4, table.universePrivate tr td.pwaterDarkHumans4, table.universePrivate tr td.pwaterDarkHumans5, table.universePrivate tr td.pwaterDarkHumans6, table.universePrivate tr td.pwaterDarkHumans7 {
+	background-position: -255px -257px;
+}
+
+div.WaterDarkHumans5, table.universe3 tr td.waterDarkHumans5, table.universePrivate tr td.pwaterDarkHumans8, table.universePrivate tr td.pwaterDarkHumans9, table.universePrivate tr td.pwaterDarkHumans10 {
+	background-position: -306px -257px;
+}
+
+div.WaterLightHumans1, table.universe3 tr td.waterLightHumans1, table.universe3 tr td.waterLightHumans2, table.universePrivate tr td.pwaterLightHumans1, table.universePrivate tr td.pwaterLightHumans2, table.universePrivate tr td.pwaterLightHumans3 {
+	background-position: -357px -257px;
+}
+
+div.WaterLightHumans3, table.universe3 tr td.waterLightHumans3, table.universe3 tr td.waterLightHumans4, table.universePrivate tr td.pwaterLightHumans4, table.universePrivate tr td.pwaterLightHumans5, table.universePrivate tr td.pwaterLightHumans6, table.universePrivate tr td.pwaterLightHumans7 {
+	background-position: -409px -257px;
+}
+
+div.WaterLightHumans5, table.universe3 tr td.waterLightHumans5, table.universePrivate tr td.pwaterLightHumans8, table.universePrivate tr td.pwaterLightHumans9, table.universePrivate tr td.pwaterLightHumans10 {
+	background-position: -459px -257px;
+}
+
+table.universe3 tr td.fleetLightHumans1, table.universePrivate tr td.fleetLightHumans1 {
+	background-position: 0px -665px;
+}
+
+table.universe3 tr td.fleetLightHumans1Hover, table.universePrivate tr td.fleetLightHumans1Hover{
+	background-position: -52px -664px;
+}
+
+table.universe3 tr td.fleetLightHumans2 {
+	background-position: -103px -665px;
+}
+
+table.universe3 tr td.fleetLightHumans2Hover {
+	background-position: -152px -665px;
+}
+
+table.universe3 tr td.fleetLightHumans3 {
+	background-position: -205px -665px;
+}
+
+table.universe3 tr td.fleetLightHumans3Hover {
+	background-position: -256px -664px;
+}
+
+table.universe3 tr td.fleetLightHumans4 {
+	background-position: -307px -665px;
+}
+
+table.universe3 tr td.fleetLightHumans4Hover {
+	background-position: -356px -665px;
+}
+
+table.universe3 tr td.fleetLightHumans5 {
+	background-position: -409px -665px;
+}
+
+table.universe3 tr td.fleetLightHumans5Hover {
+	background-position: -458px -665px;
+}
+
+table.universe3 tr td.fleetDarkHumans1, table.universePrivate tr td.fleetDarkHumans1 {
+	background-position: -1px -715px;
+}
+
+table.universe3 tr td.fleetDarkHumans1Hover, table.universePrivate tr td.fleetDarkHumans1Hover {
+	background-position: -52px -715px;
+}
+
+table.universe3 tr td.fleetDarkHumans2 {
+	background-position: -103px -715px;
+}
+
+table.universe3 tr td.fleetDarkHumans2Hover {
+	background-position: -154px -715px;
+}
+
+table.universe3 tr td.fleetDarkHumans3 {
+	background-position: -205px -715px;
+}
+
+table.universe3 tr td.fleetDarkHumans3Hover {
+	background-position: -256px -715px;
+}
+
+table.universe3 tr td.fleetDarkHumans4 {
+	background-position: -307px -715px;
+}
+
+table.universe3 tr td.fleetDarkHumans4Hover {
+	background-position: -358px -715px;
+}
+
+table.universe3 tr td.fleetDarkHumans5 {
+	background-position: -409px -715px;
+}
+
+table.universe3 tr td.fleetDarkHumans5Hover {
+	background-position: -460px -715px;
+}
+
+table.universe3 tr td.fleetBugs1, table.universePrivate tr td.fleetBugs1 {
+	background-position: -1px -766px;
+}
+
+table.universe3 tr td.fleetBugs1Hover, table.universePrivate tr td.fleetBugs1Hover {
+	background-position: -52px -767px;
+}
+
+table.universe3 tr td.fleetBugs2 {
+	background-position: -103px -766px;
+}
+
+table.universe3 tr td.fleetBugs2Hover {
+	background-position: -154px -767px;
+}
+
+table.universe3 tr td.fleetBugs3 {
+	background-position: -205px -765px;
+}
+
+table.universe3 tr td.fleetBugs3Hover {
+	background-position: -256px -766px;
+}
+
+table.universe3 tr td.fleetBugs4 {
+	background-position: -307px -766px;
+}
+
+table.universe3 tr td.fleetBugs4Hover {
+	background-position: -358px -767px;
+}
+
+table.universe3 tr td.fleetBugs5 {
+	background-position: -409px -766px;
+}
+
+table.universe3 tr td.fleetBugs5Hover {
+	background-position: -460px -767px;
+}
+
+table.universe3 tr td.fleetMercs1, table.universe3 tr td.fleetMercs2, table.universe3 tr td.fleetMercs3, table.universe3 tr td.fleetMercs4, table.universe3 tr td.fleetMercs5 {
+	background-position: -407px -613px;
+}
+
+table.universe3 tr td.fleetMercs1Hover, table.universe3 tr td.fleetMercs2Hover, table.universe3 tr td.fleetMercs3Hover, table.universe3 tr td.fleetMercs4Hover, table.universe3 tr td.fleetMercs5Hover {
+	background-position: -458px -613px;
+}
+
+table.universe3 tr td.w, table.universePrivate tr td.pw {
+	background-position: 0px -359px;
+}
+
+table.universe3 tr td.wHover, table.universePrivate tr td.pwHover {
+	background-position: -52px -359px;
+}
+
+table.universe3 tr td.fw, table.universePrivate tr td.fpw {
+	background-position: -1px -409px;
+}
+
+table.universe3 tr td.fwHover, table.universePrivate tr td.fpwHover {
+	background-position: -52px -409px;
+}
+
+table.universe3 tr td.m {
+	background-position: -103px -359px;
+}
+
+table.universe3 tr td.mHover {
+	background-position: -154px -359px;
+}
+
+table.universe3 tr td.a {
+	background-position: -205px -359px;
+}
+
+table.universe3 tr td.aHover {
+	background-position: -256px -359px;
+}
+
+table.universe3 tr td.fm {
+	background-position: -103px -409px;
+}
+
+table.universe3 tr td.fmHover {
+	background-position: -154px -409px;
+}
+
+table.universe3 tr td.fa {
+	background-position: -205px -409px;
+}
+
+table.universe3 tr td.faHover {
+	background-position: -256px -409px;
+}
+
+table.universe3 tr td.al {
+	background-position: -309px -461px;
+}
+
+table.universe3 tr td.alHover {
+	background-position: -357px -461px;
+}
+
+table.universe3 tr td.fal {
+	background-position: -309px -409px;
+}
+
+table.universe3 tr td.falHover {
+	background-position: -357px -409px;
+}
+
+table.universe3 tr td.pb {
+	background-position: -408px -461px;
+}
+
+table.universe3 tr td.pbHover {
+	background-position: -458px -461px;
+}
+
+table.universe3 tr td.fpb {
+	background-position: -410px -409px;
+}
+
+table.universe3 tr td.fpbHover {
+	background-position: -461px -409px;
+}
+
+table.universe3 tr td.c {
+	background-position: -409px -513px;
+}
+
+table.universe3 tr td.cHover {
+	background-position: -459px -513px;
+}
+
+table.universe3 tr td.fc {
+	background-position: -409px -307px;
+}
+
+table.universe3 tr td.fcHover {
+	background-position: -459px -307px;
+}
+
+table.universe3 tr td.faded, table.universePrivate tr td.faded {
+	background-position: -357px -307px;
+}
+
+table.universe3 tr td.Argon, table.universePrivate tr td.Argon {
+	background-position: -154px -923px;
+}
+
+table.universe3 tr td.Elk, table.universePrivate tr td.Elk {
+	background-position: -460px -871px;
+}
+
+table.universe3 tr td.Energy, table.universePrivate tr td.Energy {
+	background-position: -410px -871px;
+}
+
+table.universe3 tr td.Gold, table.universePrivate tr td.Gold {
+	background-position: -971px -923px;
+}
+
+table.universe3 tr td.Radon, table.universePrivate tr td.Radon {
+	background-position: 0px -923px;
+}
+
+table.universe3 tr td.Mithril, table.universePrivate tr td.Mithril {
+	background-position: -405px -923px;
+}
+
+table.universe3 tr td.Serium, table.universePrivate tr td.Serium {
+	background-position: -460px -816px;
+}
+
+table.universe3 tr td.Titanium, table.universePrivate tr td.Titanium {
+	background-position: -306px -923px;
+}
+
+table.universe3 tr td.Uranium, table.universePrivate tr td.Uranium {
+	background-position: -255px -923px;
+}
+
+table.universe3 tr td.Astatine, table.universePrivate tr td.Astatine {
+	background-position: -204px -923px;
+}
+
+table.universe3 tr td.Protol, table.universePrivate tr td.Protol {
+	background-position: -357px -923px;
+}
+
+table.universe3 tr td.Cryptium, table.universePrivate tr td.Cryptium {
+	background-position: -103px -923px;
+}
+
+table.universe3 tr td.Prismal, table.universePrivate tr td.Prismal {
+	background-position: -52px -923px;
+}
+
+table.universe3 tr td.fleetBugsLightHumans, table.universe3 tr td.fleetLightHumansBugs {
+	background-position: -103px -562px;
+}
+
+table.universe3 tr td.fleetBugsDarkHumans, table.universe3 tr td.fleetDarkHumansBugs {
+	background-position: -52px -562px;
+}
+
+table.universe3 tr td.fleetBugsBugs {
+	background-position: -1px -562px;
+}
+
+table.universe3 tr td.fleetDarkHumansDarkHumans {
+	background-position: -203px -562px;
+}
+
+table.universe3 tr td.fleetDarkHumansLightHumans, table.universe3 tr td.fleetLightHumansDarkHumans {
+	background-position: -153px -562px;
+}
+
+table.universe3 tr td.fleetLightHumansLightHumans {
+	background-position: -254px -562px;
+}
+
+table.universe3 tr td.fleetLightHumansMercs, table.universe3 tr td.fleetMercsLightHumans{
+	background-position: -1px -1124px;
+}
+
+table.universe3 tr td.fleetDarkHumansMercs, table.universe3 tr td.fleetMercsDarkHumans{
+	background-position: -53px -1124px;
+}
+
+table.universe3 tr td.fleetBugsMercs, table.universe3 tr td.fleetMercsBugs{
+	background-position: -101px -1124px;
+}
+
+table.universe3 tr td.ultimateQueen1, table.universePrivate tr td.ultimateQueen1 {
+	background-position: -1px -868px;
+}
+
+table.universe3 tr td.ultimateQueen1Hover, table.universePrivate tr td.ultimateQueen1Hover {
+	background-position: -51px -868px;
+}
+
+table.universe3 tr td.ultimateQueen2, table.universePrivate tr td.ultimateQueen2 {
+	background-position: -104px -868px;
+}
+
+table.universe3 tr td.ultimateQueen2Hover, table.universePrivate tr td.ultimateQueen2Hover {
+	background-position: -154px -868px;
+}
+
+table.universe3 tr td.ultimateQueen3, table.universePrivate tr td.ultimateQueen3 {
+	background-position: -205px -868px;
+}
+
+table.universe3 tr td.ultimateQueen3Hover, table.universePrivate tr td.ultimateQueen3Hover {
+	background-position: -255px -868px;
+}
+
+table.universe3 tr td.ultimateQueen4, table.universePrivate tr td.ultimateQueen4 {
+	background-position: -306px -868px;
+}
+
+table.universe3 tr td.ultimateQueen4Hover, table.universePrivate tr td.ultimateQueen4Hover {
+	background-position: -356px -868px;
+}
+
+table.universe3 tr td.ultimateQueen5, table.universePrivate tr td.ultimateQueen5 {
+	background-position: -1px -868px;
+}
+
+table.universe3 tr td.ultimateQueen5Hover, table.universePrivate tr td.ultimateQueen5Hover {
+	background-position: -52px -868px;
+}
+
+table.universe3 tr td.ultimateBlinker1, table.universePrivate tr td.ultimateBlinker1 {
+	background-position: -1px -971px;
+}
+
+table.universe3 tr td.ultimateBlinker1Hover, table.universePrivate tr td.ultimateBlinker1Hover {
+	background-position: -52px -971px;
+}
+
+table.universe3 tr td.ultimateBlinker2, table.universePrivate tr td.ultimateBlinker2 {
+	background-position: -102px -971px;
+}
+
+table.universe3 tr td.ultimateBlinker2Hover, table.universePrivate tr td.ultimateBlinker2Hover {
+	background-position: -154px -971px;
+}
+
+table.universe3 tr td.ultimateBlinker3, table.universePrivate tr td.ultimateBlinker3 {
+	background-position: -205px -971px;
+}
+
+table.universe3 tr td.ultimateBlinker3Hover, table.universePrivate tr td.ultimateBlinker3Hover {
+	background-position: -257px -971px;
+}
+
+table.universe3 tr td.ultimateBlinker4, table.universePrivate tr td.ultimateBlinker4 {
+	background-position: -307px -971px;
+}
+
+table.universe3 tr td.ultimateBlinker4Hover, table.universePrivate tr td.ultimateBlinker4Hover {
+	background-position: -358px -971px;
+}
+
+table.universe3 tr td.ultimateBlinker5, table.universePrivate tr td.ultimateBlinker5 {
+	background-position: -1px -971px;
+}
+
+table.universe3 tr td.ultimateBlinker5Hover, table.universePrivate tr td.ultimateBlinker5Hover {
+	background-position: -52px -971px;
+}
+
+table.universe3 tr td.ultimateBattleMoon1, table.universePrivate tr td.ultimateBattleMoon1 {
+	background-position: -1px -816px;
+}
+
+table.universe3 tr td.ultimateBattleMoon1Hover, table.universePrivate tr td.ultimateBattleMoon1Hover {
+	background-position: -52px -816px;
+}
+
+table.universe3 tr td.ultimateBattleMoon2, table.universePrivate tr td.ultimateBattleMoon2 {
+	background-position: -103px -816px;
+}
+
+table.universe3 tr td.ultimateBattleMoon2Hover, table.universePrivate tr td.ultimateBattleMoon2Hover {
+	background-position: -154px -816px;
+}
+
+table.universe3 tr td.ultimateBattleMoon3, table.universePrivate tr td.ultimateBattleMoon3 {
+	background-position: -205px -816px;
+}
+
+table.universe3 tr td.ultimateBattleMoon3Hover, table.universePrivate tr td.ultimateBattleMoon3Hover {
+	background-position: -256px -816px;
+}
+
+table.universe3 tr td.ultimateBattleMoon4, table.universePrivate tr td.ultimateBattleMoon4 {
+	background-position: -307px -816px;
+}
+
+table.universe3 tr td.ultimateBattleMoon4Hover, table.universePrivate tr td.ultimateBattleMoon4Hover {
+	background-position: -358px -816px;
+}
+
+table.universe3 tr td.ultimateBattleMoon5, table.universePrivate tr td.ultimateBattleMoon5 {
+	background-position: -1px -816px;
+}
+
+table.universe3 tr td.ultimateBattleMoon5Hover, table.universePrivate tr td.ultimateBattleMoon5Hover {
+	background-position: -52px -816px;
+}
+
+/*--- ultimate waepons --- */
+
+table.universe3 tr td.bw {
+	background-position: -307px -359px;
+}
+
+table.universe3 tr td.bwHover {
+	background-position: -358px -359px;
+}
+
+table.universe3 tr td.fbw {
+	background-position: -307px -409px;
+}
+
+table.universe3 tr td.fbwHover {
+	background-position: -358px -409px;
+}
+
+table.universe3 tr td.bc {
+	background-position: -409px -359px;
+}
+
+table.universe3 tr td.bcHover {
+	background-position: -459px -359px;
+}
+
+table.universe3 tr td.r {
+	background-position: -307px -511px;
+}
+
+table.universe3 tr td.rHover {
+	background-position: -359px -511px;
+}
+
+table.universe3 tr td.relicBattle {
+	background-position: -408px -1071px;
+}
+
+table.universe3 tr td.relicBattleHover {
+	background-position: -460px -1071px;
+}
+
+/*  ======== Desert Battle Planets ======= */
+
+table.universe3 tr td.desertBugsBugs {
+	background-position: -2px -459px;
+}
+
+table.universe3 tr td.desertBugsDarkHumans, table.universe3 tr td.desertDarkHumansBugs {
+	background-position: -51px -460px;
+}
+
+table.universe3 tr td.desertBugsLightHumans, table.universe3 tr td.desertLightHumansBugs {
+	background-position: -102px -460px;
+}
+
+table.universe3 tr td.desertDarkHumansDarkHumans {
+	background-position: -204px -460px;
+}
+
+table.universe3 tr td.desertDarkHumansLightHumans, table.universe3 tr td.desertLightHumansDarkHumans {
+	
+	background-position: -153px -460px;
+}
+
+table.universe3 tr td.desertLightHumansLightHumans {
+	background-position: -255px -460px;
+}
+
+
+/*  ======== Forest Battle Planets ======= */
+
+table.universe3 tr td.forestBugsBugs {
+	background-position: -1px -513px;
+}
+
+table.universe3 tr td.forestBugsDarkHumans, table.universe3 tr td.forestDarkHumansBugs {
+	background-position: -51px -513px;
+}
+
+table.universe3 tr td.forestBugsLightHumans, table.universe3 tr td.forestLightHumansBugs {
+	background-position: -102px -513px;
+}
+
+table.universe3 tr td.forestDarkHumansDarkHumans {
+	background-position: -204px -513px;
+}
+
+table.universe3 tr td.forestDarkHumansLightHumans, table.universe3 tr td.forestLightHumansDarkHumans {
+	
+	background-position: -153px -513px;
+}
+
+table.universe3 tr td.forestLightHumansLightHumans {
+	background-position: -255px -513px;
+}
+
+/*  ======== Rock Battle Planets ======= */
+
+table.universe3 tr td.rockBugsBugs {
+	background-position: -308px -562px;
+}
+
+table.universe3 tr td.rockBugsDarkHumans, table.universe3 tr td.rockDarkHumansBugs {
+	background-position: -357px -562px;
+}
+
+table.universe3 tr td.rockBugsLightHumans, table.universe3 tr td.rockLightHumansBugs {
+	background-position: -408px -562px;
+}
+
+table.universe3 tr td.rockDarkHumansDarkHumans {
+	background-position: -308px -612px;
+}
+
+table.universe3 tr td.rockDarkHumansLightHumans, table.universe3 tr td.rockLightHumansDarkHumans {
+	background-position: -458px -562px;
+}
+
+table.universe3 tr td.rockLightHumansLightHumans {
+	background-position: -357px -612px;
+}
+
+/*  ======== Terrest Battle Planets ======= */
+
+table.universe3 tr td.terrestBugsBugs {
+	background-position: -2px -1021px;
+}
+
+table.universe3 tr td.terrestBugsDarkHumans, table.universe3 tr td.terrestDarkHumansBugs {
+	background-position: -51px -1021px;
+}
+
+table.universe3 tr td.terrestBugsLightHumans, table.universe3 tr td.terrestLightHumansBugs {
+	background-position: -102px -1021px;
+}
+
+table.universe3 tr td.terrestDarkHumansDarkHumans {
+	background-position: -204px -1021px;
+}
+
+table.universe3 tr td.terrestDarkHumansLightHumans, table.universe3 tr td.terrestLightHumansDarkHumans {
+	
+	background-position: -153px -1021px;
+}
+
+table.universe3 tr td.terrestLightHumansLightHumans {
+	background-position: -255px -1021px;
+}
+
+/*  ======== Water Battle Planets ======= */
+
+table.universe3 tr td.waterBugsBugs {
+	background-position: -2px -1073px;
+}
+
+table.universe3 tr td.waterBugsDarkHumans, table.universe3 tr td.waterDarkHumansBugs {
+	background-position: -51px -1073px;
+}
+
+table.universe3 tr td.waterBugsLightHumans, table.universe3 tr td.waterLightHumansBugs {
+	background-position: -102px -1073px;
+}
+
+table.universe3 tr td.waterDarkHumansDarkHumans {
+	background-position: -204px -1073px;
+}
+
+table.universe3 tr td.waterDarkHumansLightHumans, table.universe3 tr td.waterLightHumansDarkHumans {
+	background-position: -153px -1073px;
+}
+
+table.universe3 tr td.waterLightHumansLightHumans {
+	background-position: -255px -1073px;
+}
+/*  ======== Ice Battle Planets ======= */
+
+table.universe3 tr td.iceBugsBugs {
+	background-position: -308px -1021px;
+}
+
+table.universe3 tr td.iceBugsDarkHumans, table.universe3 tr td.iceDarkHumansBugs {
+	background-position: -357px -1021px;
+}
+
+table.universe3 tr td.iceBugsLightHumans, table.universe3 tr td.iceLightHumansBugs {
+	background-position: -408px -1021px;
+}
+
+table.universe3 tr td.iceDarkHumansDarkHumans {
+	background-position: -308px -1073px;
+}
+
+table.universe3 tr td.iceDarkHumansLightHumans, table.universe3 tr td.iceLightHumansDarkHumans {
+	background-position: -458px -1021px;
+}
+
+table.universe3 tr td.iceLightHumansLightHumans {
+	background-position: -357px -1073px;
+}
+
+/* otherstuff */
+
+.undiscovered {
+	background-color:Black;
+	background-image:none !important;
+}
+
+.n {
+	background-image:none !important;	
+}
+
+div.popupFleetUnits {
+	overflow:auto;
+	height:30px;
+}
+
+div.popupPlanetIncome, div.popupPlanetResources {
+	overflow:auto;
+}
+
+div.popupFleetUnits div img{
+	width:15px;
+	height:15px;
+}
+
+div.popupPlanetIncome img, div.popupPlanetResources img{
+	width:25px;
+	height:25px;
+}
+
+div.popupFleetUnits div, div.popupPlanetIncome div, div.popupPlanetResources div{
+	font-size:8px;
+	float:left;
+	text-align:center;
+}
+
+/*============================
+      Wormhole
+=============================*/
+
+
+#wormHoleMapWindow {
+	position:absolute;
+	width:100%;
+}

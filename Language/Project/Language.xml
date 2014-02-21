@@ -1,0 +1,65 @@
+<project name="Language" outputPath="." author="ZI-YU.com" >
+  <loader>
+    <plugin name="Loader.Xmi" />
+  </loader>
+  <codeGenerator>
+    <plugin name="Odin.GenerateBase" />
+    <plugin name="NHibernate.PersistanceClasses" />
+    <plugin name="DAL.BasePersistance" />
+    <plugin name="DAL.MemoryPersistance" />
+    <plugin name="DAL.Formatters" />
+    <plugin name="NHibernate.ModelSchema">
+      <param name="Schema" value="Language" />
+      <param name="IdGenerator" value="hilo" />
+    </plugin>
+    <plugin name="NHibernate.GenerateConfig">
+      <param name="ConnectionString" value="Server=localhost;User ID=midgard;Password=spoon;Database=Language" />
+      <param name="Database" value="MySQL" />
+    </plugin>
+    <plugin name="Odin.CopyBaseFiles" />
+    <plugin name="Odin.GenerateConfigApp" />
+    <plugin name="Odin.Exceptions" />
+    <plugin name="Web.ExceptionLogger" />
+    <plugin name="Web.Authentication" />
+    <plugin name="Web.Admin" />
+    <plugin name="Web.Controls" />
+    <plugin name="Web.Providers" />
+    <plugin name="Web.Default" />
+    <plugin name="Web.WebConfig" />
+    <plugin name="Web.StateClass" />
+    <plugin name="Web.GlobalAsax" />
+    <plugin name="Web.HttpCompression" />
+    <plugin name="Web.I18N.Independent">
+      <param name="SupportedLanguages" value="en" />
+    </plugin>
+  </codeGenerator>
+  <buildGenerator>
+    <plugin name="Odin.MSBuild" />
+    <plugin name="Odin.Nant" />
+  </buildGenerator>
+  <entities>
+    <entity name="LanguageFile">
+      <field name="name" isPreview="true" represents="true" >
+        <maxsize value="500" />
+      </field>
+    </entity>
+    <entity name="LanguageEntry">
+      <field name="name" isPreview="true" represents="true" >
+        <maxsize value="500" />
+      </field>
+    </entity>
+    <entity name="LanguageTranslation">
+      <field name="text" isPreview="false" represents="false" >
+        <maxsize value="50000" />
+      </field>
+      <field name="locale" isPreview="true" represents="true" >
+        <maxsize value="20" />
+      </field>
+    </entity>
+    <entity name="LanguageProject">
+      <field name="name" isPreview="true" represents="true" >
+        <maxsize value="250" />
+      </field>
+    </entity>
+  </entities>
+</project>

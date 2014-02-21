@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D550BBDC-2623-4B2E-8FEE-3631C4337578}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebResources</RootNamespace>
+    <AssemblyName>WebResources</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="htaccess.txt" />
+    <Content Include="Images\Common\arrow.gif" />
+    <Content Include="Images\Common\arrowRed.gif" />
+    <Content Include="Images\Common\Battle.gif" />
+    <Content Include="Images\Common\bubble.png" />
+    <Content Include="Images\Common\bubble1.png" />
+    <Content Include="Images\Common\enemy.gif" />
+    <Content Include="Images\Common\enemyBorder.png" />
+    <Content Include="Images\Common\false.gif" />
+    <Content Include="Images\Common\fill.gif" />
+    <Content Include="Images\Common\Icons\attack.gif" />
+    <Content Include="Images\Common\Icons\cantAttack.gif" />
+    <Content Include="Images\Common\Icons\catapult.gif" />
+    <Content Include="Images\Common\Icons\rebound.gif" />
+    <Content Include="Images\Common\Icons\rotation.gif" />
+    <Content Include="Images\Common\Icons\strikeBack.gif" />
+    <Content Include="Images\Common\Icons\triple.gif" />
+    <Content Include="Images\Common\logo.png" />
+    <Content Include="Images\Common\Messages\Battle\AttackMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\CatapultMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\DamageMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\EndTurnMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\InfestationDamageMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\InfestationMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\MoveMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\ParalyzeDamageMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\ParalyzeMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\PenaltyMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\ReboundMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\RotationMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\StrikeBackMessage.gif" />
+    <Content Include="Images\Common\Messages\Battle\TripleMessage.gif" />
+    <Content Include="Images\Common\portrait.gif" />
+    <Content Include="Images\Common\Terrain\desert.png" />
+    <Content Include="Images\Common\Terrain\desert4.png" />
+    <Content Include="Images\Common\Terrain\desert_dm.png" />
+    <Content Include="Images\Common\Terrain\forest.png" />
+    <Content Include="Images\Common\Terrain\forest_dm.png" />
+    <Content Include="Images\Common\Terrain\ice.png" />
+    <Content Include="Images\Common\Terrain\ice_dm.png" />
+    <Content Include="Images\Common\Terrain\rock.png" />
+    <Content Include="Images\Common\Terrain\rock_dm.png" />
+    <Content Include="Images\Common\Terrain\terrest.png" />
+    <Content Include="Images\Common\Terrain\terrest4.png" />
+    <Content Include="Images\Common\Terrain\terrest_dm.png" />
+    <Content Include="Images\Common\Terrain\water.png" />
+    <Content Include="Images\Common\Terrain\water4.png" />
+    <Content Include="Images\Common\Terrain\water_dm.png" />
+    <Content Include="Images\Common\true.gif" />
+    <Content Include="Images\Common\Units\anubis.gif" />
+    <Content Include="Images\Common\Units\anubis_e.gif" />
+    <Content Include="Images\Common\Units\anubis_n.gif" />
+    <Content Include="Images\Common\Units\anubis_s.gif" />
+    <Content Include="Images\Common\Units\anubis_w.gif" />
+    <Content Include="Images\Common\Units\blackwidow.gif" />
+    <Content Include="Images\Common\Units\blackwidow_e.gif" />
+    <Content Include="Images\Common\Units\blackwidow_n.gif" />
+    <Content Include="Images\Common\Units\blackwidow_s.gif" />
+    <Content Include="Images\Common\Units\blackwidow_w.gif" />
+    <Content Include="Images\Common\Units\bozer.gif" />
+    <Content Include="Images\Common\Units\bozer_e.gif" />
+    <Content Include="Images\Common\Units\bozer_n.gif" />
+    <Content Include="Images\Common\Units\bozer_s.gif" />
+    <Content Include="Images\Common\Units\bozer_w.gif" />
+    <Content Include="Images\Common\Units\colonyship.gif" />
+    <Content Include="Images\Common\Units\colonyship_e.gif" />
+    <Content Include="Images\Common\Units\colonyship_n.gif" />
+    <Content Include="Images\Common\Units\colonyship_s.gif" />
+    <Content Include="Images\Common\Units\colonyship_w.gif" />
+    <Content Include="Images\Common\Units\crusader.gif" />
+    <Content Include="Images\Common\Units\crusader_e.gif" />
+    <Content Include="Images\Common\Units\crusader_n.gif" />
+    <Content Include="Images\Common\Units\crusader_s.gif" />
+    <Content Include="Images\Common\Units\crusader_w.gif" />
+    <Content Include="Images\Common\Units\darkcrusader.gif" />
+    <Content Include="Images\Common\Units\darkcrusader_e.gif" />
+    <Content Include="Images\Common\Units\darkcrusader_n.gif" />
+    <Content Include="Images\Common\Units\darkcrusader_s.gif" />
+    <Content Include="Images\Common\Units\darkcrusader_w.gif" />
+    <Content Include="Images\Common\Units\darkrain.gif" />
+    <Content Include="Images\Common\Units\darkrain_e.gif" />
+    <Content Include="Images\Common\Units\darkrain_n.gif" />
+    <Content Include="Images\Common\Units\darkrain_s.gif" />
+    <Content Include="Images\Common\Units\darkrain_w.gif" />
+    <Content Include="Images\Common\Units\darktaurus.gif" />
+    <Content Include="Images\Common\Units\darktaurus_e.gif" />
+    <Content Include="Images\Common\Units\darktaurus_n.gif" />
+    <Content Include="Images\Common\Units\darktaurus_s.gif" />
+    <Content Include="Images\Common\Units\darktaurus_w.gif" />
+    <Content Include="Images\Common\Units\doomer.gif" />
+    <Content Include="Images\Common\Units\doomer_e.gif" />
+    <Content Include="Images\Common\Units\doomer_n.gif" />
+    <Content Include="Images\Common\Units\doomer_s.gif" />
+    <Content Include="Images\Common\Units\doomer_w.gif" />
+    <Content Include="Images\Common\Units\driller.gif" />
+    <Content Include="Images\Common\Units\driller_e.gif" />
+    <Content Include="Images\Common\Units\driller_n.gif" />
+    <Content Include="Images\Common\Units\driller_s.gif" />
+    <Content Include="Images\Common\Units\driller_w.gif" />
+    <Content Include="Images\Common\Units\eagle.gif" />
+    <Content Include="Images\Common\Units\eagle_e.gif" />
+    <Content Include="Images\Common\Units\eagle_n.gif" />
+    <Content Include="Images\Common\Units\eagle_s.gif" />
+    <Content Include="Images\Common\Units\eagle_w.gif" />
+    <Content Include="Images\Common\Units\fenix.gif" />
+    <Content Include="Images\Common\Units\fenix_e.gif" />
+    <Content Include="Images\Common\Units\fenix_n.gif" />
+    <Content Include="Images\Common\Units\fenix_s.gif" />
+    <Content Include="Images\Common\Units\fenix_w.gif" />
+    <Content Include="Images\Common\Units\flagship.gif" />
+    <Content Include="Images\Common\Units\flagship_e.gif" />
+    <Content Include="Images\Common\Units\flagship_n.gif" />
+    <Content Include="Images\Common\Units\flagship_s.gif" />
+    <Content Include="Images\Common\Units\flagship_w.gif" />
+    <Content Include="Images\Common\Units\ioncannon.gif" />
+    <Content Include="Images\Common\Units\ioncannon_e.gif" />
+    <Content Include="Images\Common\Units\ioncannon_n.gif" />
+    <Content Include="Images\Common\Units\ioncannon_s.gif" />
+    <Content Include="Images\Common\Units\ioncannon_w.gif" />
+    <Content Include="Images\Common\Units\kahuna.gif" />
+    <Content Include="Images\Common\Units\kahuna_e.gif" />
+    <Content Include="Images\Common\Units\kahuna_n.gif" />
+    <Content Include="Images\Common\Units\kahuna_s.gif" />
+    <Content Include="Images\Common\Units\kahuna_w.gif" />
+    <Content Include="Images\Common\Units\kamikaze.gif" />
+    <Content Include="Images\Common\Units\kamikaze_e.gif" />
+    <Content Include="Images\Common\Units\kamikaze_n.gif" />
+    <Content Include="Images\Common\Units\kamikaze_s.gif" />
+    <Content Include="Images\Common\Units\kamikaze_w.gif" />
+    <Content Include="Images\Common\Units\krill.gif" />
+    <Content Include="Images\Common\Units\krill_e.gif" />
+    <Content Include="Images\Common\Units\krill_n.gif" />
+    <Content Include="Images\Common\Units\krill_s.gif" />
+    <Content Include="Images\Common\Units\krill_w.gif" />
+    <Content Include="Images\Common\Units\nova.gif" />
+    <Content Include="Images\Common\Units\novar_w.gif" />
+    <Content Include="Images\Common\Units\nova_e.gif" />
+    <Content Include="Images\Common\Units\nova_n.gif" />
+    <Content Include="Images\Common\Units\nova_s.gif" />
+    <Content Include="Images\Common\Units\panther.gif" />
+    <Content Include="Images\Common\Units\panther_e.gif" />
+    <Content Include="Images\Common\Units\panther_n.gif" />
+    <Content Include="Images\Common\Units\panther_s.gif" />
+    <Content Include="Images\Common\Units\panther_w.gif" />
+    <Content Include="Images\Common\Units\Perspective\Anubis.png" />
+    <Content Include="Images\Common\Units\Perspective\Bozer.png" />
+    <Content Include="Images\Common\Units\Perspective\ColonyShip.png" />
+    <Content Include="Images\Common\Units\Perspective\Crusader.png" />
+    <Content Include="Images\Common\Units\Perspective\Doomer.png" />
+    <Content Include="Images\Common\Units\Perspective\Driller.png" />
+    <Content Include="Images\Common\Units\Perspective\Eagle.png" />
+    <Content Include="Images\Common\Units\Perspective\Fenix.png" />
+    <Content Include="Images\Common\Units\Perspective\FlagShip.png" />
+    <Content Include="Images\Common\Units\Perspective\IonCannon.png" />
+    <Content Include="Images\Common\Units\Perspective\Kahuna.png" />
+    <Content Include="Images\Common\Units\Perspective\Kamikaze.png" />
+    <Content Include="Images\Common\Units\Perspective\Krill.png" />
+    <Content Include="Images\Common\Units\Perspective\Nova.png" />
+    <Content Include="Images\Common\Units\Perspective\Panther.png" />
+    <Content Include="Images\Common\Units\Perspective\Pretorian.png" />
+    <Content Include="Images\Common\Units\Perspective\Rain.png" />
+    <Content Include="Images\Common\Units\Perspective\Raptor.png" />
+    <Content Include="Images\Common\Units\Perspective\Samurai.png" />
+    <Content Include="Images\Common\Units\Perspective\Scarab.png" />
+    <Content Include="Images\Common\Units\Perspective\Spider.png" />
+    <Content Include="Images\Common\Units\Perspective\Squid.png" />
+    <Content Include="Images\Common\Units\Perspective\Taurus.png" />
+    <Content Include="Images\Common\Units\Perspective\Toxic.png" />
+    <Content Include="Images\Common\Units\Perspective\Turret.png" />
+    <Content Include="Images\Common\Units\Perspective\Vector.png" />
+    <Content Include="Images\Common\Units\pretorian.gif" />
+    <Content Include="Images\Common\Units\pretorian_e.gif" />
+    <Content Include="Images\Common\Units\pretorian_n.gif" />
+    <Content Include="Images\Common\Units\pretorian_s.gif" />
+    <Content Include="Images\Common\Units\pretorian_w.gif" />
+    <Content Include="Images\Common\Units\rain.gif" />
+    <Content Include="Images\Common\Units\rain_e.gif" />
+    <Content Include="Images\Common\Units\rain_n.gif" />
+    <Content Include="Images\Common\Units\rain_s.gif" />
+    <Content Include="Images\Common\Units\rain_w.gif" />
+    <Content Include="Images\Common\Units\raptor.gif" />
+    <Content Include="Images\Common\Units\raptor_e.gif" />
+    <Content Include="Images\Common\Units\raptor_n.gif" />
+    <Content Include="Images\Common\Units\raptor_s.gif" />
+    <Content Include="Images\Common\Units\raptor_w.gif" />
+    <Content Include="Images\Common\Units\samurai.gif" />
+    <Content Include="Images\Common\Units\samurai_e.gif" />
+    <Content Include="Images\Common\Units\samurai_n.gif" />
+    <Content Include="Images\Common\Units\samurai_s.gif" />
+    <Content Include="Images\Common\Units\samurai_w.gif" />
+    <Content Include="Images\Common\Units\scarab.gif" />
+    <Content Include="Images\Common\Units\scarab_e.gif" />
+    <Content Include="Images\Common\Units\scarab_n.gif" />
+    <Content Include="Images\Common\Units\scarab_s.gif" />
+    <Content Include="Images\Common\Units\scarab_w.gif" />
+    <Content Include="Images\Common\Units\spider.gif" />
+    <Content Include="Images\Common\Units\spider_e.gif" />
+    <Content Include="Images\Common\Units\spider_n.gif" />
+    <Content Include="Images\Common\Units\spider_s.gif" />
+    <Content Include="Images\Common\Units\spider_w.gif" />
+    <Content Include="Images\Common\Units\squid.gif" />
+    <Content Include="Images\Common\Units\squid_e.gif" />
+    <Content Include="Images\Common\Units\squid_n.gif" />
+    <Content Include="Images\Common\Units\squid_s.gif" />
+    <Content Include="Images\Common\Units\squid_w.gif" />
+    <Content Include="Images\Common\Units\taurus.gif" />
+    <Content Include="Images\Common\Units\taurus_e.gif" />
+    <Content Include="Images\Common\Units\taurus_n.gif" />
+    <Content Include="Images\Common\Units\taurus_s.gif" />
+    <Content Include="Images\Common\Units\taurus_w.gif" />
+    <Content Include="Images\Common\Units\toxic.gif" />
+    <Content Include="Images\Common\Units\toxic_e.gif" />
+    <Content Include="Images\Common\Units\toxic_n.gif" />
+    <Content Include="Images\Common\Units\toxic_s.gif" />
+    <Content Include="Images\Common\Units\toxic_w.gif" />
+    <Content Include="Images\Common\Units\turret.gif" />
+    <Content Include="Images\Common\Units\turret_e.gif" />
+    <Content Include="Images\Common\Units\turret_n.gif" />
+    <Content Include="Images\Common\Units\turret_s.gif" />
+    <Content Include="Images\Common\Units\turret_w.gif" />
+    <Content Include="Images\Common\Units\vector.gif" />
+    <Content Include="Images\Common\Units\vector_e.gif" />
+    <Content Include="Images\Common\Units\vector_n.gif" />
+    <Content Include="Images\Common\Units\vector_s.gif" />
+    <Content Include="Images\Common\Units\vector_w.gif" />
+    <Content Include="Images\Common\Universe\ap.png" />
+    <Content Include="Images\Common\Universe\f.png" />
+    <Content Include="Images\Common\Universe\pw.png" />
+    <Content Include="Images\Common\Universe\s1.png" />
+    <Content Include="Images\Common\Universe\s2.png" />
+    <Content Include="Images\Common\Universe\s3.png" />
+    <Content Include="Images\Common\Universe\s4.png" />
+    <Content Include="Images\Common\Universe\universeMap.png" />
+    <Content Include="Images\Common\Universe\w.png" />
+    <Content Include="Images\Common\Universe\wormHoleSmallest.png" />
+    <Content Include="Images\Common\Universe\wormHoleSmallestCurrent.png" />
+    <Content Include="Images\En\domination_overview.png" />
+    <Content Include="Images\En\domination_team_overview.png" />
+    <Content Include="Images\En\regicide_overview.png" />
+    <Content Include="Images\En\regicide_team_overview.png" />
+    <Content Include="Images\En\totalannihilation_overview.png" />
+    <Content Include="Images\En\totalannihilation_team_overview.png" />
+    <Content Include="Images\IntergalacticTournament\IntergalacticTournament.jpg" />
+    <Content Include="Images\IntergalacticTournament\IntergalaticTournament300x90.jpg" />
+    <Content Include="Images\IntergalacticTournament\IntergalaticTournamentLogo.png" />
+    <Content Include="Images\IntergalacticTournament\IntergalaticTournamentLogoSmall.png" />
+    <Content Include="Images\IntergalacticTournament\TopSecretStamp.png" />
+    <Content Include="Images\Pt\domination_overview.png" />
+    <Content Include="Images\Pt\domination_team_overview.png" />
+    <Content Include="Images\Pt\regicide_overview.png" />
+    <Content Include="Images\Pt\regicide_team_overview.png" />
+    <Content Include="Images\Pt\totalannihilation_overview.png" />
+    <Content Include="Images\Pt\totalannihilation_team_overview.png" />
+    <Content Include="Scripts\Attack.js" />
+    <Content Include="Scripts\AttackUtils.js" />
+    <Content Include="Scripts\Battle.js" />
+    <Content Include="Scripts\Blackbird.js" />
+    <Content Include="Scripts\Advertising.js" />
+    <Content Include="Scripts\Forum.js" />
+    <Content Include="Scripts\FleetCargo.js" />
+    <Content Include="Scripts\Quests.js" />
+    <Content Include="Scripts\Prices.js" />
+    <Content Include="Scripts\Tutorial.js" />
+    <Content Include="Scripts\CustomElements.js" />
+    <Content Include="Scripts\Ticker.js" />
+    <Content Include="Scripts\Deploy.js" />
+    <Content Include="Scripts\HistoryManager.js" />
+    <Content Include="Scripts\Market.js" />
+    <Content Include="Scripts\Fleet.js" />
+    <Content Include="Scripts\Planet.js" />
+    <Content Include="Scripts\FillInformationOnly.js" />
+    <Content Include="Scripts\Information.js" />
+    <Content Include="Scripts\Item.js" />
+    <Content Include="Scripts\Load.js" />
+    <Content Include="Scripts\Menu.js" />
+    <Content Include="Scripts\Mootools.js" />
+    <Content Include="Scripts\Moves.js" />
+    <Content Include="Scripts\RaiseError.js" />
+    <Content Include="Scripts\Replay.js" />
+    <Content Include="Scripts\Reset.js" />
+    <Content Include="Scripts\Site.js" />
+    <Content Include="Scripts\Undo.js" />
+    <Content Include="Scripts\Units.js" />
+    <Content Include="Scripts\UniverseUtils.js" />
+    <Content Include="Scripts\Utils.js" />
+    <Content Include="Styles\Common\Blackbird.css" />
+    <Content Include="Styles\Common\Universe.css" />
+    <Content Include="Styles\Common\ReleaseOnly.css" />
+    <Content Include="Styles\Common\Planets.css" />
+    <Content Include="Styles\Common\Style.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Styles\En\" />
+    <Folder Include="Styles\Pt\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2478</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/WebResources</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

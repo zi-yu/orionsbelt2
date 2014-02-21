@@ -1,0 +1,148 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/OrionsBeltUniverse.Master" Inherits="OrionsBelt.WebUserInterface.Stats" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+
+    <OrionsBelt:RoleVisible Role="gameMaster" runat="server">
+    <ul class="submenu">
+        <li>
+            <a href="ResourceStats.aspx">
+                <OrionsBelt:Label ID="Label6" Key="Resources" runat="server" />
+            </a>
+        </li>
+        <li>
+            <a href="UnitsStats.aspx">
+                <OrionsBelt:Label ID="Label7" Key="Units" runat="server" />
+            </a>
+        </li>
+        <li>
+            <a href="BattleStats.aspx">
+                <OrionsBelt:Label ID="Label8" Key="Battles" runat="server" />
+            </a>
+        </li>
+        <li>
+            <a href="PlayerStats.aspx">
+                <OrionsBelt:Label ID="Label9" Key="Players" runat="server" />
+            </a>
+        </li>
+        
+        <li>
+            <a href="UniverseStats.aspx">
+                <OrionsBelt:Label ID="Label10" Key="Universe" runat="server" />
+            </a>
+        </li>
+        
+        <li>
+            <a href="UniverseDispersion.aspx">Universe Dispersion</a>
+        </li>
+
+        <li>
+            <a href="Referrals.aspx">
+                Referrals
+            </a>
+        </li>
+        <li>
+            <a href="QuestsStats.aspx">
+                <OrionsBelt:Label ID="Label2" Key="Quests" runat="server" />
+            </a>
+        </li>
+        
+        <li>
+            <a href="Duplicates.aspx">
+                <OrionsBelt:Label ID="Label13" Key="Duplicates" runat="server" />
+            </a>
+        </li>
+        <OrionsBelt:RoleVisible Role="financial" runat="server">
+        <li>
+            <a href="Transactions.aspx" class="financialItem">
+                <OrionsBelt:Label Key="Transactions" runat="server" />
+            </a>
+        </li>
+        <li>
+            <a href="Invoices.aspx" class="financialItem">
+                <OrionsBelt:Label Key="Invoices" runat="server" />
+            </a>
+        </li>
+        <li>
+            <a href="ShopStats.aspx" class="financialItem">
+                <OrionsBelt:Label ID="Label1" Key="Shop" runat="server" />
+            </a>
+        </li>
+        <li>
+            <a href="OrionsStats.aspx" class="financialItem">
+                <OrionsBelt:Label ID="Label3" Key="Orions" runat="server" />
+            </a>
+        </li>
+        <li>
+            <a href="AHRegist.aspx" class="financialItem">
+                <OrionsBelt:Label ID="Label4" Key="AuctionHouse" runat="server" />
+            </a>
+        </li> 
+        
+        <li>
+            <a href="Payments.aspx" class="financialItem">
+                <OrionsBelt:Label Key="Payments" runat="server" />
+            </a>
+        </li>
+        
+        <li>
+            <a href="TopPayments.aspx" class="financialItem">
+                <OrionsBelt:Label Key="TopPayments" runat="server" />
+            </a>
+        </li>
+        
+        <li>
+            <a href="MonthlyPayments.aspx" class="financialItem">
+                <OrionsBelt:Label Key="MonthlyPayments" runat="server" />
+            </a>
+        </li>
+        
+        <li>
+            <a href="BonusStats.aspx" class="financialItem">
+                <OrionsBelt:Label ID="Label5" Key="BonusCodes" runat="server" />
+            </a>
+        </li>
+        
+        <li>
+            <a href="CreatePromotion.aspx" class="financialItem">
+                <OrionsBelt:Label ID="Label12" Key="CreatePromotion" runat="server" />
+            </a>
+        </li>
+        <li>
+            <a href="ViewPromotion.aspx" class="financialItem">
+                <OrionsBelt:Label Key="ViewUpdatePromotion" runat="server" />
+            </a>
+        </li>
+        </OrionsBelt:RoleVisible>
+        
+        <OrionsBelt:RoleVisible Role="admin" runat="server">
+               
+        <li>
+            <a href="PlayerResource.aspx" class="adminItem">
+                <OrionsBelt:Label Key="PlayerResource" runat="server" />
+            </a>
+        </li>
+        <li>
+            <a href="PlayerUnit.aspx" class="adminItem">
+                <OrionsBelt:Label Key="PlayerUnit" runat="server" />
+            </a>
+        </li>
+                
+         <li>
+            <a href="CreateBot.aspx" class="adminItem">
+                <OrionsBelt:Label ID="Label11" Key="CreateBot" runat="server" />
+            </a>
+        </li>
+        
+        <li>
+            <a href="GenerateCodes.aspx" class="adminItem">
+                <OrionsBelt:Label Key="GenerateCodes" runat="server" />
+            </a>
+        </li>
+        
+        </OrionsBelt:RoleVisible>
+    </ul>    
+    </OrionsBelt:RoleVisible>
+    
+    
+    <asp:ContentPlaceHolder ID="Content" runat="server" />
+</asp:Content>

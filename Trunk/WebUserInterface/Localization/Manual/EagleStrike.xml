@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="EagleStrikeContent">
+		<lang key="de"><h1>Eagle Strike</h1><div class="content">
+    Die [EagleStrike] Taktik zielt darauf schwache gegnerische [CombatUnits] in den Anfangsrunden zu 
+    eliminieren die eine zukünftige Bedrohung darstellen. Die Taktik opfert kleine [Eagle] Gruppen um 
+    folgende Einheiten zu zerstören:
+    <ul><li>
+    [Kamikaze] - können wichtige [CombatUnits] zerstören, nicht zu erwähnen die immer gegenwärtige 
+    [KamikazeMenace]
+  </li><li>[Rain] - mit einem grossen Bonus gegen [Heavy] Einheiten, ist der [Rain] is eine grosse 
+     Bedrohung</li>
+  <li>[Seeker] - mit einem grossen Bonus gegen [Medium] Einheiten, Sind die [Seeker] auch eine grosse 
+    Bedrohung</li>
+  <li>Gruppen mit einer grossen Anzahl an [Light] Einheiten, können benutzt werden als 
+    [DispensableUnits]
+  </li></ul>
+    All diese [CombatUnits] können unserer [Fleet] eineMenge Schaden zufügen,aber sin sind sehr 
+    schwach. That's why we stellen wir kleine Gruppen von [Eagle] bereit um sie zu zerstören.
+    <p>
+    Die Vorbereitung für einen [EagleStrike] beginnt mit dem [Deploy]. Du solltest 2/3 Gruppen der 
+    [Eagle] in der Front-Reihe positionieren. In deiner ersten Runde, bewege die Gruppen zu einem 
+    Viereck. 
+    Beispiel:
+
+    <img class="block" src="/Resources/Images/EagleStrike.png" alt="Exemplo Chuva de Águias"/>
+
+    Wie du sehen kannst, stellen die [Eagle] Gruppen eine Bedrohung dar für die gegnerischen [Rain] 
+    und [Kamikaze]. Und es wird sehr schwierig für den Gegner, beide Gruppen zu beschützen. Und auch 
+    wenn er es kann, wahrscheinlich wird er dann nicht in der Lage sein andere Bewegungen zu machen.
+    
+    </p><p>
+    
+    Die [Kahuna] können auch anstatt der [Eagle] in Betracht gezogen werden, aber sie werden nicht so 
+    effizient sein.
+
+  </p></div></lang>
+		<lang key="en"><h1>Eagle Strike</h1><div class="content">
+    The [EagleStrike] tactic aims to eliminate on the first turns some weak adversary [CombatUnits] that
+    present a threat in the future. This tactic sacrifices small groups of [Eagle] to destroy:
+    <ul><li>
+    [Kamikaze] - that can destroy important [CombatUnits], not to mention the always present [KamikazeMenace]
+  </li><li>[Rain] - With a big bonus against [Heavy] units, the [Rain] is a relevant threat</li><li>[Seeker] - With a great bonus against [Medium] units, the [Seeker] is also a great threat</li><li>Groups with large amounts of [Light] units, that can be used as [DispensableUnits]</li></ul>
+    All these [CombatUnits] can make a lot of damage to our [Fleet], but they are very weak. That's why we
+    allocate small groups of [Eagle] to destroy them.
+    <p />
+    The preparation for an [EagleStrike] begins on the [Deploy]. You should place 2/3 groups of [Eagle]
+    on the front row. On your first turn, move those groups one square. Example:
+
+    <img class="block" src="/Resources/Images/EagleStrike.png" alt="Exemplo Chuva de Águias" />
+
+    As you can see, the [Eagle] groups pose a threat to the adversary [Rain] and [Kamikaze]. And it'll be
+    very hard for the opponent to protect both groups. And even if he can, he probabilly won't be
+    able to perform any other movements.
+    
+    <p />
+    
+    The [Kahuna] can also be considered instead of the [Eagle], but it won't be so effective.
+
+  </div></lang>
+		<lang key="es"><h1>Lluvia de Aguilas</h1><div class="content">
+   La táctica [EagleStrike] tiene como objetivo eliminar en los primeros turnos algunas [CombatUnits] adversárias
+   fragiles pero que pueden ser una amenaza en el trancurso del juego. Esta táctica sacrifica pequeños grupos de [Eagle]
+   y tiene como objetivo atacar:
+   <ul><li>[Kamikaze] - que en el futuro pueden destruir [CombatUnits] importantes, por no mencionar la siempre presente [KamikazeMenace]</li><li>[Rain] - Con un gran bono contra unidades de [Heavy], la [Rain] es una amenaza relevante</li><li>[Seeker] - Con un gran bono contra unidades de [Medium], el [Seeker] también es una amenaza relevante</li><li>Grupos con grandes cantidades de unidades de [Light], que puedan ser usados para [DispensableUnits]</li></ul>
+   Todas estas [CombatUnits] pueden hacer grandes estragos en nuestra [Fleet], pero tienen como desventaja ser muy fragiles. De ahí la necesidad de colocar pequeños grupos de [Eagle] para que las   destruyan.
+   <p />
+   La preparación para la [EagleStrike] comienza en el [Deploy] y consiste en colocar 2/3 grupos de [Eagle] en la linea de frente. 
+  En la primera jugada esos 3 grupos son movidos a una cuadrícula. Ver ejemplo:
+   
+   <img class="block" src="/Resources/Images/EagleStrike.png" alt="Exemplo Chuva de Águias" />
+
+   Como se puede ver los grupos de [Eagle] ponen en jaque tanto al grupo de [Rain] como al grupo de [Kamikaze].
+   Y va a ser muy complicado para el adversário proteger ambos grupos. Y aún si lo consigue , probablemente no logrará hacer ningún movimiento de ataque.
+
+   <p />
+
+   La [Kahuna] también puede ser considerada en vez de la [Eagle], pero no será tan eficaz.
+
+    </div></lang>
+		<lang key="fr"><h1>L'ataque de l'aigle</h1><div class="content">
+    La tactique [EagleStrike] a pour but d'élimiiner certaines [CombatUnits] adversaes plutôt faible qui pourrait devenir ue menace plus tard dans le combat, dès les premiers tours.
+    present a threat in the future. Il faut sacrifier un petit groupes d'aigles pour détruire:
+    <ul><li>
+    Le [Kamikaze] - qui peut détruire des [CombatUnits] importantes, sans mentionner la [KamikazeMenace] toujours présente!
+  </li><li>[Rain] - Cette unité possède un gros bonus contre les unités [Heavy] et le [Rain] est donc une menace.</li><li>[Seeker] - Cete unité possède un gros bonus contre les unités [Medium], le [Seeker] est donc aussi une menace</li><li>DEs groupes considérable d'unités [Light] pouvant êtres utilisés en tant que [DispensableUnits]</li></ul>
+    Toutes ces [CombatUnits] peuvent faire une grande différence dans une [Fleet]  mais sont très faibles. C'est pour cette raison qu'un petit groupe d'[Eagle] peut les détruire.
+    <p />
+    La préparation pour un [EagleStrike] commence au [Deploy]. Vous devriez placer 2-3 groupes d'[Eagle]
+    au front. Au premier tour, vous bougez ensuite ces unités d'une case. Exemple:
+
+    <img class="block" src="/Resources/Images/EagleStrike.png" alt="Exemplo Chuva de Águias" />
+
+   Comme vous pouvez le voir, les groupes d'[Eagle] sont une menace pour les [Rain] et [Kamikaze] de l'adversaire. Il sera difficile pour l'adversaire de protéger les 2 groupes. Et même si il le peut, ce sera probablement la seule chose qu'il fera en terme de mouvement.
+    
+    <p />
+    
+    Le [Kahuna] peut aussi être utilisé à la place de l'[Eagle], mais il ne sera pas aussi efficace.
+
+  </div></lang>
+		<lang key="hr"><h1>Orlov Udar</h1><div class="content">
+[EagleStrike] taktika cilja na eliminiranje unutar prvih turnova nekih slabih protivnika [CombatUnits] koje predstavljaju prijetnju u budućnosti. Ova taktika žrtvuje male grupe [Eagle] da uništi:
+<ul><li>
+[Kamikaze] - koje mogu uništiti važne [CombatUnits], da ne spominjemoo uvijek prisutnu [KamikazeMenace]
+</li><li>[Rain] - sa velikim bonusom protiv [Heavy] jedinica, [Rain] je značajna prijetnja</li><li>[Seeker] - sa bounusom protiv [Medium] je također  velika prijetnja</li><li>Grupe sa velikim količinama [Light] jedinica, koje se mogu upotrijebiti kao [DispensableUnits]</li></ul>
+Sve ove [CombatUnits] mogu napraviti dosta štete našoj [Fleet], ali su one jako slabe. Zato mi alociramo male grupe [Eagle] da ih uništimo. Primjer:
+
+
+<img class="block" src="/Resources/Images/EagleStrike.png" alt="Exemplo Chuva de Águias" />
+
+Kako možete vidjeti, [Eagle] predstavljaju prijetnju protivnikovim [Rain] i [Kamikaze]. I jako je teško protivniku da zasštiti obje grupe. Čak i ako može, vjerojatno neće moći izvršiti niti jedan drugi potez.
+
+<p />
+
+[Kahuna] se može upotrijebiti umjesto [Eagle], ali neće biti jednako učinkovita.
+</div></lang>
+		<lang key="pt"><h1>Chuva de Águias</h1><div class="content">
+    A táctica [EagleStrike] tem como objectivo eliminar nos primeiros turnos algumas [CombatUnits] adversárias
+    frágeis mas que podem ser uma ameaça no decorrer no jogo. Está táctica sacrifica pequenos grupos de [Eagle]
+    e visa atacar:
+    <ul><li>[Kamikaze] - que no futuro podem destruir [CombatUnits] importantes, já para não mencionar a sempre 
+  presente [KamikazeMenace]</li><li>[Rain] - Com um grande bónus contra unidades de [Heavy], a [Rain] é uma ameaça muito relevante</li><li>[Seeker] - Com um grande bónus contra unidades de [Medium], o [Seeker] também é uma ameaça relevante</li><li>Grupos com grandes quantidades de unidades de [Light], que possam ser usados para [DispensableUnits]</li></ul>
+    Todas estas [CombatUnits] podem fazer grandes estragos na nossa [Fleet], mas têm como desvantagem ser muito
+    frágeis. Daí a alocação de pequenos grupos de [Eagle] para as destruir.
+    <p />
+    A preparação para a [EagleStrike] começa no [Deploy] e consiste em colocar 2/3 grupos de [Eagle] na
+    linha da frente. Na primeira jogada esses 3 grupos são movidos uma quadrícula. Ver exemplo:
+    
+    <img class="block" src="/Resources/Images/EagleStrike.png" alt="Exemplo Chuva de Águias" />
+
+    Como se pode ver os grupos de [Eagle] colocam em cheque tanto o grupo de [Rain] como o grupo de [Kamikaze].
+    E vai ser muito complicado ao adversário proteger ambos os grupos. E mesmo que o consiga, provavelmente não
+    consegue fazer nenhuma movimentação de ataque.
+
+    <p />
+
+    A [Kahuna] também pode ser considerada em vez da [Eagle], mas não será tão eficaz.
+
+  </div></lang>
+	</entry>
+
+</resources>

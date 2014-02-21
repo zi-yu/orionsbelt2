@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="Admin_BetaTester">
+		<lang key="de">Beta Tester</lang>
+		<lang key="en">Beta Tester</lang>
+		<lang key="es">Beta Tester</lang>
+		<lang key="fr">Testeur Beta</lang>
+		<lang key="hr">Beta Tester</lang>
+		<lang key="pt">Beta Tester</lang>
+	</entry>
+
+	<entry key="Admin_CommunityLeader">
+		<lang key="de">Führer der Gemeinde</lang>
+		<lang key="en">Community Leader</lang>
+		<lang key="es">Lícer en la comunidad</lang>
+		<lang key="fr">Chef Charismatique (communauté)</lang>
+		<lang key="hr">Vođa Zajednice</lang>
+		<lang key="pt">Líder na Comunidade</lang>
+	</entry>
+
+	<entry key="Admin_GameMaster">
+		<lang key="de">Spiel-Verwalter</lang>
+		<lang key="en">Game Master</lang>
+		<lang key="es">Administrador del Juego</lang>
+		<lang key="fr">Joueur Maître</lang>
+		<lang key="hr">Game Master</lang>
+		<lang key="pt">Admin_CommunityLeader</lang>
+	</entry>
+
+	<entry key="Admin_Version1Survidor">
+		<lang key="de">1.0 Spieler</lang>
+		<lang key="en">1.0 Survivor</lang>
+		<lang key="es">Jugador de la versión 1.0</lang>
+		<lang key="fr">Survivant version 1.0</lang>
+		<lang key="hr">1.0 Survivor</lang>
+		<lang key="pt">Jogador da versão 1.0</lang>
+	</entry>
+
+	<entry key="BoardMaster">
+		<lang key="de">Brett-Meister</lang>
+		<lang key="en">Board Master</lang>
+		<lang key="es">Master del Tablero</lang>
+		<lang key="fr">Maître du plateau de jeu</lang>
+		<lang key="hr">Majstor Ploče</lang>
+		<lang key="pt">Mestre do Tabuleiro</lang>
+	</entry>
+
+	<entry key="Buddy">
+		<lang key="de">Freund</lang>
+		<lang key="en">Buddy</lang>
+		<lang key="es">Amigo</lang>
+		<lang key="fr">Ami loyal</lang>
+		<lang key="hr">Prijatelj</lang>
+		<lang key="pt">Amigo</lang>
+	</entry>
+
+	<entry key="FairPlay">
+		<lang key="de">Fair Play</lang>
+		<lang key="en">Fair Play</lang>
+		<lang key="es">Juego Limpio</lang>
+		<lang key="fr">Joueur Juste</lang>
+		<lang key="hr">Pošteno Igra</lang>
+		<lang key="pt">Jogo Limpo</lang>
+	</entry>
+
+	<entry key="FastPlayer">
+		<lang key="de">Schnell zu spielen</lang>
+		<lang key="en">Quick to Play</lang>
+		<lang key="es">Rápido en Jugar</lang>
+		<lang key="fr">Rapide à Jouer</lang>
+		<lang key="hr">Brzi Igrač</lang>
+		<lang key="pt">Rápido a Jogar</lang>
+	</entry>
+
+	<entry key="HatedEnemy">
+		<lang key="de">Verhasster Feind</lang>
+		<lang key="en">Hated Enemy</lang>
+		<lang key="es">Enemigo Odiado</lang>
+		<lang key="fr">Ennemi détesté</lang>
+		<lang key="hr">Omtaženi Neprijatelj</lang>
+		<lang key="pt">Inimigo Odiado</lang>
+	</entry>
+
+	<entry key="HonorableEnemy">
+		<lang key="de">Ehrenwerter Gegner</lang>
+		<lang key="en">Honorable Enemy</lang>
+		<lang key="es">Enemigo Honrado</lang>
+		<lang key="fr">Ennemi Honorable</lang>
+		<lang key="hr">Časni Neprijatelj</lang>
+		<lang key="pt">Inimigo Honrado</lang>
+	</entry>
+
+	<entry key="Ladder_Pos1">
+		<lang key="de">1º auf der Rangliste</lang>
+		<lang key="en">Ladder 1º</lang>
+		<lang key="es">1º en la Escala</lang>
+		<lang key="fr">1º En l'échelle</lang>
+		<lang key="hr">Ljestvica 1º</lang>
+		<lang key="pt">1º na Escada</lang>
+	</entry>
+
+	<entry key="Ladder_Pos2">
+		<lang key="de">2º auf der Rangliste</lang>
+		<lang key="en">Ladder 2º</lang>
+		<lang key="es">2º en la Escala</lang>
+		<lang key="fr">2º En l'échelle</lang>
+		<lang key="hr">Ljestvica 2º</lang>
+		<lang key="pt">2º na Escada</lang>
+	</entry>
+
+	<entry key="Ladder_Pos3">
+		<lang key="de">3º auf der Rangliste</lang>
+		<lang key="en">Ladder 3º</lang>
+		<lang key="es">3º en la Escala</lang>
+		<lang key="fr">3º en l'échelle</lang>
+		<lang key="hr">Ljestvica 3º</lang>
+		<lang key="pt">3º na Escada</lang>
+	</entry>
+
+	<entry key="Ladder_Pos4">
+		<lang key="de">4º auf der Rangliste</lang>
+		<lang key="en">Ladder 4º</lang>
+		<lang key="es">4º en la Escala</lang>
+		<lang key="fr">4º en l'échelle</lang>
+		<lang key="hr">Ljestvica 4º</lang>
+		<lang key="pt">4º na Escada</lang>
+	</entry>
+
+	<entry key="Ladder_Pos5">
+		<lang key="de">5º auf der Rangliste</lang>
+		<lang key="en">Ladder 5º</lang>
+		<lang key="es">5º en la Escala</lang>
+		<lang key="fr">5º en l'échelle</lang>
+		<lang key="hr">Ljestvica 5º</lang>
+		<lang key="pt">5º na Escada</lang>
+	</entry>
+
+	<entry key="Leader">
+		<lang key="de">Führer</lang>
+		<lang key="en">Leader</lang>
+		<lang key="es">Líder</lang>
+		<lang key="fr">Chef</lang>
+		<lang key="hr">Vođa</lang>
+		<lang key="pt">Líder</lang>
+	</entry>
+
+	<entry key="Mentor">
+		<lang key="de">Mentor</lang>
+		<lang key="en">Mentor</lang>
+		<lang key="es">Profesor</lang>
+		<lang key="fr">Mentor</lang>
+		<lang key="hr">Mentor</lang>
+		<lang key="pt">Professor</lang>
+	</entry>
+
+	<entry key="Nerd">
+		<lang key="de">Streber</lang>
+		<lang key="en">Nerd</lang>
+		<lang key="es">Nerd</lang>
+		<lang key="fr">Nerd</lang>
+		<lang key="hr">Bezveznjak</lang>
+		<lang key="pt">Nerd</lang>
+	</entry>
+
+	<entry key="Regicide_0">
+		<lang key="de">Königsmord - Erster der Gruppe</lang>
+		<lang key="en">Regicide - First of Group</lang>
+		<lang key="es">Regicídio - Primero del Grupo</lang>
+		<lang key="fr">Régicide - Premier de Groupe</lang>
+		<lang key="hr">Regicid - Prvi u Grupi</lang>
+		<lang key="pt">Regicídio - Primeiro do Grupo</lang>
+	</entry>
+
+	<entry key="Regicide_1">
+		<lang key="de">Königsmord - Zweiter der Gruppe</lang>
+		<lang key="en">Regicide - Second of Group</lang>
+		<lang key="es">Regicídio - Segundo del Grupo</lang>
+		<lang key="fr">Régicide - Deuxième de Groupe</lang>
+		<lang key="hr">Regicid - Drugi u Grupi</lang>
+		<lang key="pt">Regicídio - Segundo do Grupo</lang>
+	</entry>
+
+	<entry key="Regicide_2">
+		<lang key="de">Königsmord - Dritter der Gruppe</lang>
+		<lang key="en">Regicide - Third of Group</lang>
+		<lang key="es">Regicídio - Tercero del Grupo</lang>
+		<lang key="fr">Régicide - Troisième de Groupe</lang>
+		<lang key="hr">Regicid - Treći u Grupi</lang>
+		<lang key="pt">Regicídio - Terceiro do Grupo</lang>
+	</entry>
+
+	<entry key="Regicide_RunnerUp">
+		<lang key="de">Königsmord - Finalist</lang>
+		<lang key="en">Regicide - RunnerUp</lang>
+		<lang key="es">Regicídio - Finalista</lang>
+		<lang key="fr">Régicide - Finaliste</lang>
+		<lang key="hr">Regicid - RunnerUp</lang>
+		<lang key="pt">Regicídio - Finalista</lang>
+	</entry>
+
+	<entry key="Regicide_Winner">
+		<lang key="de">Königsmord - Gewinner</lang>
+		<lang key="en">Regicide - Winner</lang>
+		<lang key="es">Regicídio - Vencedor</lang>
+		<lang key="fr">Régicide - Gagnant</lang>
+		<lang key="hr">Regicid - Pobjednik</lang>
+		<lang key="pt">Regicídio - Vencedor</lang>
+	</entry>
+
+	<entry key="SlowPlayer">
+		<lang key="de">Langsam zu spielen</lang>
+		<lang key="en">Slow to Play</lang>
+		<lang key="es">Lento en Jugar</lang>
+		<lang key="fr">Lent à Jouer</lang>
+		<lang key="hr">Spori Igrač</lang>
+		<lang key="pt">Lento a Jogar</lang>
+	</entry>
+
+	<entry key="SoreLoser">
+		<lang key="de">Schlechter Verlierer</lang>
+		<lang key="en">Sore Loser</lang>
+		<lang key="es">Mal perdedor</lang>
+		<lang key="fr">Mauvais Perdant</lang>
+		<lang key="hr">Bolni Gubitnik</lang>
+		<lang key="pt">Mau perder</lang>
+	</entry>
+
+	<entry key="Survivor">
+		<lang key="de">überlebender</lang>
+		<lang key="en">Survivor</lang>
+		<lang key="es">Sobreviviente</lang>
+		<lang key="fr">Survivant</lang>
+		<lang key="hr">Survivor</lang>
+		<lang key="pt">Sobrevivente</lang>
+	</entry>
+
+	<entry key="TotalAnnihalation_0">
+		<lang key="de">Totale Zerstörung - Erster der Gruppe</lang>
+		<lang key="en">Total Annihilation - First of Group</lang>
+		<lang key="es">Destrucción Total - Primero del Grupo</lang>
+		<lang key="fr">Destruction totale- Premier de groupe</lang>
+		<lang key="hr">Total Annihilation - Prvi u Grupi</lang>
+		<lang key="pt">Destruição Total - Primeiro do Grupo</lang>
+	</entry>
+
+	<entry key="TotalAnnihalation_1">
+		<lang key="de">Totale Zerstörung - Zweiter der Gruppe</lang>
+		<lang key="en">Total Annihilation - Second of Group</lang>
+		<lang key="es">Destrucción Total - Segundo del Grupo</lang>
+		<lang key="fr">Destruction totale- Deuxième de groupe</lang>
+		<lang key="hr">Total Annihilation - Drugi u Grupi</lang>
+		<lang key="pt">Destruição Total - Segundo do Grupo</lang>
+	</entry>
+
+	<entry key="TotalAnnihalation_2">
+		<lang key="de">Totale Zerstörung - Dritter der Gruppe</lang>
+		<lang key="en">Total Annihilation - Third of Group</lang>
+		<lang key="es">Destrucción Total - Tercero del Grupo</lang>
+		<lang key="fr">Destruction totale - Troisième de groupe</lang>
+		<lang key="hr">Total Annihilation - Treći u Grupi</lang>
+		<lang key="pt">Destruição Total - Terceiro do Grupo</lang>
+	</entry>
+
+	<entry key="TotalAnnihalation_RunnerUp">
+		<lang key="de">Totale Zerstörung - Finalist</lang>
+		<lang key="en">Total Annihilation - RunnerUp</lang>
+		<lang key="es">Destrucción Total - Finalista</lang>
+		<lang key="fr">Destruction Totale - Finaliste</lang>
+		<lang key="hr">Total Annihilation - RunnerUp</lang>
+		<lang key="pt">Destruição Total - Finalista</lang>
+	</entry>
+
+	<entry key="TotalAnnihalation_Winner">
+		<lang key="de">Totale Zerstörung - Gewinner</lang>
+		<lang key="en">Total Annihilation - Winner</lang>
+		<lang key="es">Destrucción Total - Vencedor</lang>
+		<lang key="fr">Destruction Totale - Gagnant</lang>
+		<lang key="hr">Total Annihilation  - Pobjednik</lang>
+		<lang key="pt">Destruição Total - Vencedor</lang>
+	</entry>
+
+	<entry key="Tournament_Regicide_Winner">
+		<lang key="de">Königsmord - Gewinner</lang>
+		<lang key="en">Regicide - Winner</lang>
+		<lang key="es">Regicídio - Vencedor</lang>
+		<lang key="fr">Régicide - Gagnant</lang>
+		<lang key="hr">Regicid - Pobjednik</lang>
+		<lang key="pt">Regicídio - Vencedor</lang>
+	</entry>
+
+	<entry key="UnfairPlay">
+		<lang key="de">Unfaires Spiel</lang>
+		<lang key="en">Unfair Play</lang>
+		<lang key="es">Juego Sucio</lang>
+		<lang key="fr">Joueur Injuste</lang>
+		<lang key="hr">Nepošteno Igra</lang>
+		<lang key="pt">Jogo Sujo</lang>
+	</entry>
+
+	<entry key="Warrior">
+		<lang key="de">Krieger</lang>
+		<lang key="en">Warrior</lang>
+		<lang key="es">Guerrero</lang>
+		<lang key="fr">Guerrier</lang>
+		<lang key="hr">Ratnik</lang>
+		<lang key="pt">Guerreiro</lang>
+	</entry>
+
+</resources>

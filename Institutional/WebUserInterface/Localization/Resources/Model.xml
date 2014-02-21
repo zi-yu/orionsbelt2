@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="ExceptionInfo">
+		<lang key="en">ExceptionInfo</lang>
+		<lang key="fr">ExceptionInfo</lang>
+		<lang key="hr">ExceptionInfo</lang>
+		<lang key="hu">ExceptionInfo</lang>
+		<lang key="it">ExceptionInfo</lang>
+		<lang key="pt">ExceptionInfo</lang>
+		<lang key="ro">ExceptionInfo</lang>
+	</entry>
+
+	<entry key="ExceptionInfoCreatedDate">
+		<lang key="en">CreatedDate</lang>
+		<lang key="fr">CreatedDate</lang>
+		<lang key="hr">CreatedDate</lang>
+		<lang key="hu">CreatedDate</lang>
+		<lang key="it">CreatedDate</lang>
+		<lang key="pt">CreatedDate</lang>
+		<lang key="ro">CreatedDate</lang>
+	</entry>
+
+	<entry key="ExceptionInfoDate">
+		<lang key="en">Date</lang>
+		<lang key="fr">Date</lang>
+		<lang key="hr">Date</lang>
+		<lang key="hu">Date</lang>
+		<lang key="it">Date</lang>
+		<lang key="pt">Date</lang>
+		<lang key="ro">Date</lang>
+	</entry>
+
+	<entry key="ExceptionInfoId">
+		<lang key="en">Id</lang>
+		<lang key="fr">Id</lang>
+		<lang key="hr">Id</lang>
+		<lang key="hu">Id</lang>
+		<lang key="it">Id</lang>
+		<lang key="pt">Id</lang>
+		<lang key="ro">Id</lang>
+	</entry>
+
+	<entry key="ExceptionInfoLastActionUserId">
+		<lang key="en">LastActionUserId</lang>
+		<lang key="fr">LastActionUserId</lang>
+		<lang key="hr">LastActionUserId</lang>
+		<lang key="hu">LastActionUserId</lang>
+		<lang key="it">LastActionUserId</lang>
+		<lang key="pt">LastActionUserId</lang>
+		<lang key="ro">LastActionUserId</lang>
+	</entry>
+
+	<entry key="ExceptionInfoMessage">
+		<lang key="en">Message</lang>
+		<lang key="fr">Message</lang>
+		<lang key="hr">Message</lang>
+		<lang key="hu">Message</lang>
+		<lang key="it">Message</lang>
+		<lang key="pt">Message</lang>
+		<lang key="ro">Message</lang>
+	</entry>
+
+	<entry key="ExceptionInfoName">
+		<lang key="en">Name</lang>
+		<lang key="fr">Name</lang>
+		<lang key="hr">Name</lang>
+		<lang key="hu">Name</lang>
+		<lang key="it">Name</lang>
+		<lang key="pt">Name</lang>
+		<lang key="ro">Name</lang>
+	</entry>
+
+	<entry key="ExceptionInfoPrincipal">
+		<lang key="en">Principal</lang>
+		<lang key="fr">Principal</lang>
+		<lang key="hr">Principal</lang>
+		<lang key="hu">Principal</lang>
+		<lang key="it">Principal</lang>
+		<lang key="pt">Principal</lang>
+		<lang key="ro">Principal</lang>
+	</entry>
+
+	<entry key="ExceptionInfoStackTrace">
+		<lang key="en">StackTrace</lang>
+		<lang key="fr">StackTrace</lang>
+		<lang key="hr">StackTrace</lang>
+		<lang key="hu">StackTrace</lang>
+		<lang key="it">StackTrace</lang>
+		<lang key="pt">StackTrace</lang>
+		<lang key="ro">StackTrace</lang>
+	</entry>
+
+	<entry key="ExceptionInfoUpdatedDate">
+		<lang key="en">UpdatedDate</lang>
+		<lang key="fr">UpdatedDate</lang>
+		<lang key="hr">UpdatedDate</lang>
+		<lang key="hu">UpdatedDate</lang>
+		<lang key="it">UpdatedDate</lang>
+		<lang key="pt">UpdatedDate</lang>
+		<lang key="ro">UpdatedDate</lang>
+	</entry>
+
+	<entry key="ExceptionInfoUrl">
+		<lang key="en">Url</lang>
+		<lang key="fr">Url</lang>
+		<lang key="hr">Url</lang>
+		<lang key="hu">Url</lang>
+		<lang key="it">Url</lang>
+		<lang key="pt">Url</lang>
+		<lang key="ro">Url</lang>
+	</entry>
+
+	<entry key="PrincipalApproved">
+		<lang key="en">Approved</lang>
+		<lang key="fr">Approved</lang>
+		<lang key="hr">Approved</lang>
+		<lang key="hu">Approved</lang>
+		<lang key="it">Approved</lang>
+		<lang key="pt">Approved</lang>
+		<lang key="ro">Approved</lang>
+	</entry>
+
+	<entry key="PrincipalConfirmationCode">
+		<lang key="en">ConfirmationCode</lang>
+		<lang key="fr">ConfirmationCode</lang>
+		<lang key="hr">ConfirmationCode</lang>
+		<lang key="hu">ConfirmationCode</lang>
+		<lang key="it">ConfirmationCode</lang>
+		<lang key="pt">ConfirmationCode</lang>
+		<lang key="ro">ConfirmationCode</lang>
+	</entry>
+
+	<entry key="PrincipalCreatedDate">
+		<lang key="en">CreatedDate</lang>
+		<lang key="fr">CreatedDate</lang>
+		<lang key="hr">CreatedDate</lang>
+		<lang key="hu">CreatedDate</lang>
+		<lang key="it">CreatedDate</lang>
+		<lang key="pt">CreatedDate</lang>
+		<lang key="ro">CreatedDate</lang>
+	</entry>
+
+	<entry key="PrincipalEmail">
+		<lang key="en">Email</lang>
+		<lang key="fr">Email</lang>
+		<lang key="hr">Email</lang>
+		<lang key="hu">Email</lang>
+		<lang key="it">Email</lang>
+		<lang key="pt">Email</lang>
+		<lang key="ro">Email</lang>
+	</entry>
+
+	<entry key="PrincipalExceptions">
+		<lang key="en">Exceptions</lang>
+		<lang key="fr">Exceptions</lang>
+		<lang key="hr">Exceptions</lang>
+		<lang key="hu">Exceptions</lang>
+		<lang key="it">Exceptions</lang>
+		<lang key="pt">Exceptions</lang>
+		<lang key="ro">Exceptions</lang>
+	</entry>
+
+	<entry key="PrincipalId">
+		<lang key="en">Id</lang>
+		<lang key="fr">Id</lang>
+		<lang key="hr">Id</lang>
+		<lang key="hu">Id</lang>
+		<lang key="it">Id</lang>
+		<lang key="pt">Id</lang>
+		<lang key="ro">Id</lang>
+	</entry>
+
+	<entry key="PrincipalIp">
+		<lang key="en">Ip</lang>
+		<lang key="fr">Ip</lang>
+		<lang key="hr">Ip</lang>
+		<lang key="hu">Ip</lang>
+		<lang key="it">Ip</lang>
+		<lang key="pt">Ip</lang>
+		<lang key="ro">Ip</lang>
+	</entry>
+
+	<entry key="PrincipalIsOnline">
+		<lang key="en">IsOnline</lang>
+		<lang key="fr">IsOnline</lang>
+		<lang key="hr">IsOnline</lang>
+		<lang key="hu">IsOnline</lang>
+		<lang key="it">IsOnline</lang>
+		<lang key="pt">IsOnline</lang>
+		<lang key="ro">IsOnline</lang>
+	</entry>
+
+	<entry key="PrincipalLastActionUserId">
+		<lang key="en">LastActionUserId</lang>
+		<lang key="fr">LastActionUserId</lang>
+		<lang key="hr">LastActionUserId</lang>
+		<lang key="hu">LastActionUserId</lang>
+		<lang key="it">LastActionUserId</lang>
+		<lang key="pt">LastActionUserId</lang>
+		<lang key="ro">LastActionUserId</lang>
+	</entry>
+
+	<entry key="PrincipalLastLogin">
+		<lang key="en">LastLogin</lang>
+		<lang key="fr">LastLogin</lang>
+		<lang key="hr">LastLogin</lang>
+		<lang key="hu">LastLogin</lang>
+		<lang key="it">LastLogin</lang>
+		<lang key="pt">LastLogin</lang>
+		<lang key="ro">LastLogin</lang>
+	</entry>
+
+	<entry key="PrincipalLocale">
+		<lang key="en">Locale</lang>
+		<lang key="fr">Locale</lang>
+		<lang key="hr">Locale</lang>
+		<lang key="hu">Locale</lang>
+		<lang key="it">Locale</lang>
+		<lang key="pt">Locale</lang>
+		<lang key="ro">Locale</lang>
+	</entry>
+
+	<entry key="PrincipalLocked">
+		<lang key="en">Locked</lang>
+		<lang key="fr">Locked</lang>
+		<lang key="hr">Locked</lang>
+		<lang key="hu">Locked</lang>
+		<lang key="it">Locked</lang>
+		<lang key="pt">Locked</lang>
+		<lang key="ro">Locked</lang>
+	</entry>
+
+	<entry key="PrincipalPassword">
+		<lang key="en">Password</lang>
+		<lang key="fr">Password</lang>
+		<lang key="hr">Password</lang>
+		<lang key="hu">Password</lang>
+		<lang key="it">Password</lang>
+		<lang key="pt">Password</lang>
+		<lang key="ro">Password</lang>
+	</entry>
+
+	<entry key="PrincipalRawRoles">
+		<lang key="en">RawRoles</lang>
+		<lang key="fr">RawRoles</lang>
+		<lang key="hr">RawRoles</lang>
+		<lang key="hu">RawRoles</lang>
+		<lang key="it">RawRoles</lang>
+		<lang key="pt">RawRoles</lang>
+		<lang key="ro">RawRoles</lang>
+	</entry>
+
+	<entry key="PrincipalRegistDate">
+		<lang key="en">RegistDate</lang>
+		<lang key="fr">RegistDate</lang>
+		<lang key="hr">RegistDate</lang>
+		<lang key="hu">RegistDate</lang>
+		<lang key="it">RegistDate</lang>
+		<lang key="pt">RegistDate</lang>
+		<lang key="ro">RegistDate</lang>
+	</entry>
+
+	<entry key="PrincipalUpdatedDate">
+		<lang key="en">UpdatedDate</lang>
+		<lang key="fr">UpdatedDate</lang>
+		<lang key="hr">UpdateDate</lang>
+		<lang key="hu">UpdatedDate</lang>
+		<lang key="it">UpdatedDate</lang>
+		<lang key="pt">UpdatedDate</lang>
+		<lang key="ro">UpdatedDate</lang>
+	</entry>
+
+	<entry key="Servers">
+		<lang key="en">Servers</lang>
+		<lang key="fr">Servers</lang>
+		<lang key="hr">Servers</lang>
+		<lang key="hu">Servers</lang>
+		<lang key="it">Servers</lang>
+		<lang key="pt">Servers</lang>
+		<lang key="ro">Servers</lang>
+	</entry>
+
+	<entry key="ServersCreatedDate">
+		<lang key="en">CreatedDate</lang>
+		<lang key="fr">CreatedDate</lang>
+		<lang key="hr">CreatedDate</lang>
+		<lang key="hu">CreatedDate</lang>
+		<lang key="it">CreatedDate</lang>
+		<lang key="pt">CreatedDate</lang>
+		<lang key="ro">CreatedDate</lang>
+	</entry>
+
+	<entry key="ServersId">
+		<lang key="en">Id</lang>
+		<lang key="fr">Id</lang>
+		<lang key="hr">Id</lang>
+		<lang key="hu">Id</lang>
+		<lang key="it">Id</lang>
+		<lang key="pt">Id</lang>
+		<lang key="ro">Id</lang>
+	</entry>
+
+	<entry key="ServersLastActionUserId">
+		<lang key="en">LastActionUserId</lang>
+		<lang key="fr">LastActionUserId</lang>
+		<lang key="hr">LastActionUserId</lang>
+		<lang key="hu">LastActionUserId</lang>
+		<lang key="it">LastActionUserId</lang>
+		<lang key="pt">LastActionUserId</lang>
+		<lang key="ro">LastActionUserId</lang>
+	</entry>
+
+	<entry key="ServersName">
+		<lang key="en">Name</lang>
+		<lang key="fr">Name</lang>
+		<lang key="hr">Name</lang>
+		<lang key="hu">Name</lang>
+		<lang key="it">Name</lang>
+		<lang key="pt">Name</lang>
+		<lang key="ro">Name</lang>
+	</entry>
+
+	<entry key="ServersUpdatedDate">
+		<lang key="en">UpdatedDate</lang>
+		<lang key="fr">UpdatedDate</lang>
+		<lang key="hr">UpdatedDate</lang>
+		<lang key="hu">UpdatedDate</lang>
+		<lang key="it">UpdatedDate</lang>
+		<lang key="pt">UpdatedDate</lang>
+		<lang key="ro">UpdatedDate</lang>
+	</entry>
+
+	<entry key="ServersUrl">
+		<lang key="en">Url</lang>
+		<lang key="fr">Url</lang>
+		<lang key="hr">Url</lang>
+		<lang key="hu">Url</lang>
+		<lang key="it">Url</lang>
+		<lang key="pt">Url</lang>
+		<lang key="ro">Url</lang>
+	</entry>
+
+</resources>

@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="true">
+
+	<entry key="AlreadyAttacked">
+		<lang key="de">Kann Einheit nicht selektieren weil sie bereits einen Angriff gemacht hat.</lang>
+		<lang key="en">Cannot select the unit because it already attacked.</lang>
+		<lang key="es">No puedes seleccionar la unidad porque ya hizo  un ataque.</lang>
+		<lang key="fr">Vous ne pouvez pas sélectionner cette unité car elle a déjà attaqué.</lang>
+		<lang key="hr">Ne možete odabrati jedinicu jer je već napala.</lang>
+		<lang key="pt">Não podes seleccionar a unidade porque ela já fez um ataque.</lang>
+	</entry>
+
+	<entry key="AlreadyBuyed">
+		<lang key="de">Ressource bereits gekauft.</lang>
+		<lang key="en">Resource already bought.</lang>
+		<lang key="es">El recurso ya fue comprado.</lang>
+		<lang key="fr">Ressources déjà achetée</lang>
+		<lang key="hr">Resurs je već kupljen.</lang>
+		<lang key="pt">O recurso já foi comprado.</lang>
+	</entry>
+
+	<entry key="AttackFirstMove">
+		<lang key="de">Du kannst nicht angreifen wenn du als erster spielst.</lang>
+		<lang key="en">Can't attack when you're the first to play.</lang>
+		<lang key="es">No puedes atacar cuando eres el primero en jugar.</lang>
+		<lang key="fr">Vous ne pouvez pas attaquer quand vous êtes le premier à jouer</lang>
+		<lang key="hr">Ne možete napadati kada prvi igrate.</lang>
+		<lang key="pt">Não podes atacar quando és o primeiro a jogar.</lang>
+	</entry>
+
+	<entry key="CannotStartOnVacations">
+		<lang key="de">Kann das Gefecht nicht starten weil du in den Ferien bist.</lang>
+		<lang key="en">Cannot start a battle because you're on vacations.</lang>
+		<lang key="fr">Vous ne pouvez pas engendrer un combat car vous êtes en vacance.</lang>
+		<lang key="hr">Ne možete početi bitku jer ste na odmoru.</lang>
+		<lang key="pt">Não podes começar uma batalha porque estás de férias.</lang>
+	</entry>
+
+	<entry key="ChooseAtLeastOneUnit">
+		<lang key="de">Du muss mindestens eine Art von Einheit wählen.</lang>
+		<lang key="en">You must choose, at least, one type of unit.</lang>
+		<lang key="fr">Vous devez choisir au moins un type d'unité</lang>
+		<lang key="hr">Morate odabrati bar jedan tip jedinice.</lang>
+		<lang key="pt">Tens de escolher, pelo menos, um tipo de unidade.</lang>
+	</entry>
+
+	<entry key="CoolDown">
+		<lang key="de">Du kannst diese Einheit nicht angreifen weil sie in der Abkühlung von ihrem letzten Angriff ist.</lang>
+		<lang key="en">You can't attack because this unit is in cooldown from it's latest attack.</lang>
+		<lang key="es">No puedes atacar porque la unidad está en espera devido al último ataque.</lang>
+		<lang key="fr">Vous ne pouvez pas attaquer car cette unité est en période de recharge suite à son attaque précédente.</lang>
+		<lang key="hr">Ne možete napadati jer se ova jedinica hladi od prethodnog napada.</lang>
+		<lang key="pt">Não podes atacar porque a unidade está em espera devido ao último ataque.</lang>
+	</entry>
+
+	<entry key="Errors">
+		<lang key="de">Fehler</lang>
+		<lang key="en">Errors</lang>
+		<lang key="es">Errores</lang>
+		<lang key="fr">Erreurs</lang>
+		<lang key="hr">Greške</lang>
+		<lang key="pt">Erros</lang>
+	</entry>
+
+	<entry key="FleetCantPassWormHole">
+		<lang key="de">Die Flotte kann nicht durch das Wurmloch weil ihre Handelsgüter sie davon abhalten.</lang>
+		<lang key="en">The fleet can't pass in the wormhole because it has trade goods that prevent it.</lang>
+		<lang key="es">La flota no puede pasar por un wormhole porque posee carga que lo impide.</lang>
+		<lang key="fr">L'escadrille ne paut traverser le trou stellaire car elle a une cargaison de biens commerciales.</lang>
+		<lang key="hr">Flota ne može proći kroz Crvotočinu jer ima trgovačka dobra koja to sprečavaju.</lang>
+		<lang key="pt">A armada não pode passar por um wormhole porque possui carga que o impede.</lang>
+	</entry>
+
+	<entry key="FleetToWeakToStartBattleMessage">
+		<lang key="de">Flotte zu schwach um Gefecht anzufangen.</lang>
+		<lang key="en">Fleet To Weak To Start Battle.</lang>
+		<lang key="es">Flota demasiado débil para iniciar batalla.</lang>
+		<lang key="fr">L'escadrille est trop faible pour engendrer un combat.</lang>
+		<lang key="hr">Flota je preslaba da Počne Bitku.</lang>
+		<lang key="pt">Armada fraca demais para iniciar batalha.</lang>
+	</entry>
+
+	<entry key="FriendlyBattleCreatedWithSuccess">
+		<lang key="de">Freundliches Gefecht wurde mit Erfolg erschaffen.</lang>
+		<lang key="en">Friendly Battle was created with success.</lang>
+		<lang key="es">Batalla amistosa fue creada .</lang>
+		<lang key="fr">Le combat amical a été crée avec succès</lang>
+		<lang key="hr">Prijateljska bitka je stvorena uspješno.</lang>
+		<lang key="pt">Batalha amigável foi criada com sucesso.</lang>
+	</entry>
+
+	<entry key="GreaterThanBuyout">
+		<lang key="de">Angebot kann nicht grösser sein als die Kaufmenge.</lang>
+		<lang key="en">Bid can't be greater than the buyout.</lang>
+		<lang key="es">La licitación  no puede ser superior a la compra.</lang>
+		<lang key="fr">Votre enchère ne peut être plus élevé que le coût d'achat instantanné.</lang>
+		<lang key="hr">Ponuda ne smije biti veća od otkupa.</lang>
+		<lang key="pt">A licitação não pode ser superior à compra.</lang>
+	</entry>
+
+	<entry key="Information">
+		<lang key="de">Information</lang>
+		<lang key="en">Information</lang>
+		<lang key="es">Información</lang>
+		<lang key="fr">Information</lang>
+		<lang key="hr">Informacije</lang>
+		<lang key="pt">Informação</lang>
+	</entry>
+
+	<entry key="InvalidItem">
+		<lang key="de">Ungültiges Element</lang>
+		<lang key="en">Invalid item.</lang>
+		<lang key="es">Elemento no válido.</lang>
+		<lang key="fr">Objet invalide</lang>
+		<lang key="hr">Nevažeći predmet.</lang>
+		<lang key="pt">Elemento inválido.</lang>
+	</entry>
+
+	<entry key="InvalidOpponent">
+		<lang key="de">Gegner ungültig</lang>
+		<lang key="en">Opponent is invalid.</lang>
+		<lang key="es">Oponente no es válido.</lang>
+		<lang key="fr">L'adversaire est invalide</lang>
+		<lang key="hr">Protivnik je nevažeći.</lang>
+		<lang key="pt">Oponent é inválido.</lang>
+	</entry>
+
+	<entry key="InvalidProduct">
+		<lang key="de">Ungültiges Produkt.</lang>
+		<lang key="en">Invalid Product.</lang>
+		<lang key="es">Producto no válido.</lang>
+		<lang key="fr">Produit Invalide</lang>
+		<lang key="hr">Nevažeći Proizvod</lang>
+		<lang key="pt">Produto inválido.</lang>
+	</entry>
+
+	<entry key="InvalidUnitValue">
+		<lang key="de">Einheit '{0}' hat eine ungültige Anzahl.</lang>
+		<lang key="en">Unit '{0}' has an invalid quantity.</lang>
+		<lang key="es">Unidad '{0}' tiene una cantidad no válida.</lang>
+		<lang key="fr">L'unité '{0}' a une quantité invalide.</lang>
+		<lang key="hr">Jedinica '{0}' ima neveažeću količinu.</lang>
+		<lang key="pt">Unidade '{0}' tem uma quantidade inválida.</lang>
+	</entry>
+
+	<entry key="LowerBid">
+		<lang key="de">Ungültiges Angebot.</lang>
+		<lang key="en">Invalid bid.</lang>
+		<lang key="es">Licitación no válida.</lang>
+		<lang key="fr">Surenchère invalide</lang>
+		<lang key="hr">Nevažeća ponuda.</lang>
+		<lang key="pt">Licitação inválida.</lang>
+	</entry>
+
+	<entry key="Maximum8Units">
+		<lang key="de">Du kannst nur maximal zwischen 8 Einheiten wählen.</lang>
+		<lang key="en">You can only choose a maximum of 8 units.</lang>
+		<lang key="es">Sólo puede escojer un total de 8 Unidades.</lang>
+		<lang key="fr">Vous pouvez seulement choisir un maximum de 8 type d'unités</lang>
+		<lang key="hr">Možete samo odabrati maksimum od 8 jedinica.</lang>
+		<lang key="pt">Só podes escolher um total de 8 unidades.</lang>
+	</entry>
+
+	<entry key="MinimumMove">
+		<lang key="de">Du musst mindestens 20% deiner Einheiten bewegen.</lang>
+		<lang key="en">You have to move at least 20% of your units.</lang>
+		<lang key="es">Tienes que mover por lo menos 20% de tus unidades.</lang>
+		<lang key="fr">Vous devez bouger au moins 20% de vos unités</lang>
+		<lang key="hr">Morate pomaknuti bar 20% vaših jedinica.</lang>
+		<lang key="pt">Tens de mover pelo menos 20% das tuas unidades.</lang>
+	</entry>
+
+	<entry key="MinimumRest">
+		<lang key="de">Du musst mindestens 20% deiner Einheiten lassen.</lang>
+		<lang key="en">You have to leave at least 20% of your units.</lang>
+		<lang key="es">Tienes de dejar por lo menos 20% de tus unidades.</lang>
+		<lang key="fr">Vous devz laisser derrière au moins 20% de vos unités.</lang>
+		<lang key="hr">Morate ostaviti bar 20% vaših jedinica.</lang>
+		<lang key="pt">Tens de deixar pelo menos 20% das tuas unidades.</lang>
+	</entry>
+
+	<entry key="Moves">
+		<lang key="de">Du hast nicht genügend Spielzüge zur Verfügung.</lang>
+		<lang key="en">You don't have enough moves.</lang>
+		<lang key="es">No posees movimentos suficientes.</lang>
+		<lang key="fr">Vous n'avez pas assez de mouvements.</lang>
+		<lang key="hr">Nemate dovoljno poteza.</lang>
+		<lang key="pt">Não possuis movimentos suficientes.</lang>
+	</entry>
+
+	<entry key="MustBePositiveQuantity">
+		<lang key="de">Bitte gib eine Anzahl ein, grösser als Null.</lang>
+		<lang key="en">Please insert a number greater that zero.</lang>
+		<lang key="es">Tiene que ser ingresado un número mayor que cero.</lang>
+		<lang key="fr">Veuillez insérer un nombre plus grand que zéro</lang>
+		<lang key="hr">Molimo umetnite broj veći od nule.</lang>
+		<lang key="pt">Tem de ser inserido um número maior que zero.</lang>
+	</entry>
+
+	<entry key="MustSelectABattleType">
+		<lang key="de">Du musst ein Gefechts-Typ auswählen.</lang>
+		<lang key="en">You must select a battle type.</lang>
+		<lang key="es">Tienes que seleccionar un tipo de batalla.</lang>
+		<lang key="fr">Vous devez choisir un type de bataille</lang>
+		<lang key="hr">Morate izabrati tip bitke.</lang>
+		<lang key="pt">Tens de seleccionar um tipo de batalha.</lang>
+	</entry>
+
+	<entry key="NaN">
+		<lang key="de">Kein numerischer Wert.</lang>
+		<lang key="en">Not a numeric value.</lang>
+		<lang key="es">No es un número.</lang>
+		<lang key="fr">Pas une valeur numérique</lang>
+		<lang key="hr">Nije numerička vrijednost.</lang>
+		<lang key="pt">Não é um número.</lang>
+	</entry>
+
+	<entry key="NoCredits">
+		<lang key="de">Nicht genügend Orions.</lang>
+		<lang key="en">Not enougth orions.</lang>
+		<lang key="es">Orions insuficientes.</lang>
+		<lang key="fr">Pas assez d'orions</lang>
+		<lang key="hr">Nemate dovoljno oriona</lang>
+		<lang key="pt">Orions insuficientes.</lang>
+	</entry>
+
+	<entry key="NoInputProvided">
+		<lang key="de">Bitte gib ein Wert ein.</lang>
+		<lang key="en">Please insert a value.</lang>
+		<lang key="es">Inserte un valor .</lang>
+		<lang key="fr">Veuillez insérer une valeur</lang>
+		<lang key="hr">Molimo umetnite vrijednost.</lang>
+		<lang key="pt">É necessário inserir um valor.</lang>
+	</entry>
+
+	<entry key="NoMovesToSplit">
+		<lang key="de">Du hast nicht genügend Einheiten um aufzuteilen. Diese Einheit zu teilen kostet</lang>
+		<lang key="en">You don't have enough moves to split. Split this unit takes</lang>
+		<lang key="es">No tienes movimientos suficientes para dividir. Dividir esta unidad cuesta</lang>
+		<lang key="fr">Vous n'avez pas assez de points pour séparer cette unité. La séparation nécessite</lang>
+		<lang key="hr">Nemate dovoljno pokreta za razdvajanje. Razdvajanje ove jedince</lang>
+		<lang key="pt">Não tens movimentos suficientes para dividir. Dividir esta unidade custa</lang>
+	</entry>
+
+	<entry key="NoMovesToSplit2">
+		<lang key="de">Spielzüge.</lang>
+		<lang key="en">moves.</lang>
+		<lang key="es">movimientos.</lang>
+		<lang key="fr">Mouvements.</lang>
+		<lang key="hr">Potezi.</lang>
+		<lang key="pt">movimentos.</lang>
+	</entry>
+
+	<entry key="Ok">
+		<lang key="de">Operation erfolgreich.</lang>
+		<lang key="en">Success operation.</lang>
+		<lang key="es">Operación con suceso.</lang>
+		<lang key="fr">Opération est un succès</lang>
+		<lang key="hr">Uspjeh operacije.</lang>
+		<lang key="pt">Operação bem sucedida.</lang>
+	</entry>
+
+	<entry key="Paralysed">
+		<lang key="de">Du kannst diese Einheit nicht bewegen weil sie paralysiert ist.</lang>
+		<lang key="en">you can't move this unit because it's Paralysed.</lang>
+		<lang key="es">No puedes mover la unidad,  está paralizada.</lang>
+		<lang key="fr">Vous ne pouvez pas déplacer cette unité car elle est paralysé.</lang>
+		<lang key="hr">Ne možete micati ovu jedinicu jer je Paralizirana.</lang>
+		<lang key="pt">Não podes mover a unidade por está paralizada.</lang>
+	</entry>
+
+	<entry key="PaymentCancel">
+		<lang key="de">Transaktion abgebrochen durch Benutzer.</lang>
+		<lang key="en">Transaction aborted by user.</lang>
+		<lang key="fr">Transaction abandonné par l'utilisateur.</lang>
+		<lang key="hr">Transakcija prekinuta od strane korisnika.</lang>
+		<lang key="pt">Pagamento cancelado pelo utilizador.</lang>
+	</entry>
+
+	<entry key="PaymentError">
+		<lang key="de">Ein Fehler ist in der Zahlungskonfirmation aufgetreten. Für weitere Erklärungen <a href="Contact.aspx">kontaktiere uns</a>.</lang>
+		<lang key="en">An error has occured in the payment confirmation. For any clarification you can <a href="Contact.aspx">contact us</a>.</lang>
+		<lang key="fr">Une erreur s'est glissé dans la confirmation du paiement. Pour les clarifications, vous pouvez <a href="Contact.aspx">nous contacter</a>.</lang>
+		<lang key="hr">Greška se desila u potvrdi uplate. Za bilo kakvo pojašnjenje možete  
+<a href="Contact.aspx">nas kontaktirati</a>.</lang>
+		<lang key="pt">Ocorreu um erro na confirmação do pagamento. Para algum esclarecimento podes <a href="Contact.aspx">contactar-nos</a>.</lang>
+	</entry>
+
+	<entry key="QuantityError">
+		<lang key="de">Gib eine gültige Anzahl ein.</lang>
+		<lang key="en">Insert a valid quantity.</lang>
+		<lang key="es">ingresa una cantidad válida.</lang>
+		<lang key="fr">Insérer une quantité valide</lang>
+		<lang key="hr">Ubacite važeću količinu.</lang>
+		<lang key="pt">insere uma quantidade válida.</lang>
+	</entry>
+
+	<entry key="SamePrincipalAccountError">
+		<lang key="de">Es ist nicht möglich Produkte zwischen verschiedenen Konten zu transaktionieren.</lang>
+		<lang key="en">You can't transact products among accounts.</lang>
+		<lang key="es">No es possíble transaccionar productos entre cuentas.</lang>
+		<lang key="fr">Vous ne pouvez pas transférer des produits entre comptes.</lang>
+		<lang key="hr">Ne možete prebacivati proizvode između akaunta.</lang>
+		<lang key="pt">Não é possível transaccionar produtos entre contas.</lang>
+	</entry>
+
+	<entry key="Success">
+		<lang key="de">Erfolg</lang>
+		<lang key="en">Success</lang>
+		<lang key="fr">Succès</lang>
+		<lang key="hr">Uspjeh</lang>
+		<lang key="pt">Sucesso</lang>
+	</entry>
+
+	<entry key="UltimateUnitAttack">
+		<lang key="de">Ultimative Einheit hat nicht genügend Bewegungen für den Agriff zur Verfügung.</lang>
+		<lang key="en">Ultimate Unit doesn't have enough moves to attack.</lang>
+		<lang key="es">Unidad Suprema no posee movimientos suficientes para atacar.</lang>
+		<lang key="fr">Vous n'avez pas assez de mouvement pour faire attaquer l'unité ultime.</lang>
+		<lang key="hr">Ultimativna jedinica nema dovoljno poteza za napad.</lang>
+		<lang key="pt">Unidade Suprema não possui movimentos suficientes para atacar.</lang>
+	</entry>
+
+	<entry key="UnitsNotPositioned">
+		<lang key="de">Du musst alle Einheiten positionieren.</lang>
+		<lang key="en">You have to deploy all the units</lang>
+		<lang key="es">Tienes que posicionar todas las unidades.</lang>
+		<lang key="fr">Vous devez déployer toutes vos unités</lang>
+		<lang key="hr">Morate rasporediti sve jedinice</lang>
+		<lang key="pt">Tens de posicionar todas as unidades.</lang>
+	</entry>
+
+</resources>

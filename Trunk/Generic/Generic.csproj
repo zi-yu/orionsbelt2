@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26274F5B-70BC-419A-8062-E53FC5CD009D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrionsBelt.Generic</RootNamespace>
+    <AssemblyName>OrionsBelt.Generic</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\WebUserInterface\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DesignPatterns, Version=1.1.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42" />
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebUserInterface\Bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Loki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clock\Clock.cs" />
+    <Compile Include="Clock\TimeFormatter.cs" />
+    <Compile Include="Clock\ProxyClock.cs" />
+    <Compile Include="Clock\TickClock.cs" />
+    <Compile Include="Clock\IClock.cs" />
+    <Compile Include="GroupPlayer.cs" />
+    <Compile Include="Log\Utils\LogType.cs" />
+    <Compile Include="Log\Utils\OrionsBeltAppender.cs" />
+    <Compile Include="Log\ILog.cs" />
+    <Compile Include="Log\Utils\LogInformation.cs" />
+    <Compile Include="Log\Logger.cs" />
+    <Compile Include="Messages\Alliance\AllianceMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\DonationMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\AllianceCreatedMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\AssetCreatedMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\TaskCreatedMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\NecessityCreatedMessage.cs" />
+    <Compile Include="Messages\Alliance\TaskMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\AllianceRankChangedMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\AllianceDeclaredWarMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\AllianceEndWarMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\AllianceNewConfederationMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\AllianceGoNeutralMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\AllianceNewNAPMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\LeaveAllianceMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\JoinedAllianceMessage.cs" />
+    <Compile Include="Messages\Alliance\Messages\KickPlayerMessage.cs" />
+    <Compile Include="Messages\AuctionHouse\BidBuyoutMessage.cs" />
+    <Compile Include="Messages\AuctionHouse\BidSoldMessage.cs" />
+    <Compile Include="Messages\AuctionHouse\BuyInMarketMessage.cs" />
+    <Compile Include="Messages\AuctionHouse\UnloadTrades.cs" />
+    <Compile Include="Messages\AuctionHouse\LoadTrades.cs" />
+    <Compile Include="Messages\AuctionHouse\OverbidMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\AttackMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\BombAttackDamageMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\BlinkMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\CoolDownMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\CoolDownEndedMessage.cs" />
+    <Compile Include="Messages\MessageType.cs" />
+    <Compile Include="Messages\Dialogue\FriendOrFoe\AddedAsEnemy.cs" />
+    <Compile Include="Messages\Dialogue\FriendOrFoe\AddedAsFriend.cs" />
+    <Compile Include="Messages\Dialogue\FriendOrFoe\RemovedFromList.cs" />
+    <Compile Include="Messages\Player\BountyAcceptedMessage.cs" />
+    <Compile Include="Messages\Player\BuyFiringSquadGeneralSuccessMessage.cs" />
+    <Compile Include="Messages\Player\BuyFiringSquadGeneralEndMessage.cs" />
+    <Compile Include="Messages\Player\BuyOneStarGeneralSuccessMessage.cs" />
+    <Compile Include="Messages\Player\BuyOneStarGeneralEndMessage.cs" />
+    <Compile Include="Messages\Player\BountyCollectedOnYouMessage.cs" />
+    <Compile Include="Messages\Player\RelicIncomeReceived.cs" />
+    <Compile Include="Messages\Player\LostBattleMessage.cs" />
+    <Compile Include="Messages\Player\PlayerMessage.cs" />
+    <Compile Include="Messages\Player\WinBattleMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\GiveUpMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\HatchInMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\HatchMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\EggPlacedMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\ParalyzedEndedMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\ParalyzedTurnsLeftMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\TakeAbilityMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\DeployTimeoutMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\EndTeamBattleMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\InfestationDamageMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\ParalyzeMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\InfestationMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\EndBattleMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\DeployMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\TimeoutMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\LastTimeoutMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\EndTurnMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\PenaltyMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\RotationMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\MoveMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\DamageMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\TripleAttackRightMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\TripleAttackLeftMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\StrikeBackMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\ReplicatorMessage.cs" />
+    <Compile Include="Messages\Battle\Messages\ReboundMessage.cs" />
+    <Compile Include="Messages\Dialogue\AfterBattle\BetterLuckNextTime.cs" />
+    <Compile Include="Messages\Dialogue\AfterBattle\OtherChallenge.cs" />
+    <Compile Include="Messages\Dialogue\AfterBattle\GoodGame.cs" />
+    <Compile Include="Messages\Dialogue\DialogueMessage.cs" />
+    <Compile Include="Messages\Dialogue\DialogueMessageType.cs" />
+    <Compile Include="Messages\Dialogue\Generic\LeaveMeAlone.cs" />
+    <Compile Include="Messages\Dialogue\Generic\NotGonnaHappen.cs" />
+    <Compile Include="Messages\Dialogue\Generic\ThankYou.cs" />
+    <Compile Include="Messages\Dialogue\Generic\No.cs" />
+    <Compile Include="Messages\Dialogue\Generic\Yes.cs" />
+    <Compile Include="Messages\Dialogue\Hostile\SweetRaid.cs" />
+    <Compile Include="Messages\Dialogue\Hostile\YouHaveATargetOnYourHead.cs" />
+    <Compile Include="Messages\Dialogue\Introduction\JoinMyAlliance.cs" />
+    <Compile Include="Messages\Dialogue\Introduction\NonFriendlyIntroduction.cs" />
+    <Compile Include="Messages\Dialogue\Introduction\FriendlyIntroduction.cs" />
+    <Compile Include="Messages\Global\GlobalMessage.cs" />
+    <Compile Include="Messages\Global\Holidays\MerryChristmasAndHappyNewYear.cs" />
+    <Compile Include="Messages\Global\Tournament\TournamentAdvanced.cs" />
+    <Compile Include="Messages\Global\Tournament\TournamentStarts.cs" />
+    <Compile Include="Messages\Global\Tournament\TournamentWarning.cs" />
+    <Compile Include="Messages\Global\Tournament\NewTournament.cs" />
+    <Compile Include="Messages\MessageImportance.cs" />
+    <Compile Include="Messages\IMessageParameterTranslator.cs" />
+    <Compile Include="Messages\MessageBase.cs" />
+    <Compile Include="Messages\Battle\BattleMessage.cs" />
+    <Compile Include="Messages\Category.cs" />
+    <Compile Include="Messages\IMessage.cs" />
+    <Compile Include="Messages\Messenger.cs" />
+    <Compile Include="Messages\Player\AutoVacationsStarted.cs" />
+    <Compile Include="Messages\AuctionHouse\NotSoldMessage.cs" />
+    <Compile Include="Messages\AuctionHouse\SellerMessage.cs" />
+    <Compile Include="Messages\Player\BuyQueueSpaceSuccessMessage.cs" />
+    <Compile Include="Messages\Player\BuyQueueSpaceOverMessage.cs" />
+    <Compile Include="Messages\Player\BuyRareDeductionEndMessage.cs" />
+    <Compile Include="Messages\Player\BuyRareDeductionSuccessMessage.cs" />
+    <Compile Include="Messages\Player\BuyIntrinsicDeductionSuccessMessage.cs" />
+    <Compile Include="Messages\Player\BuyIntrinsicDeductionEndMessage.cs" />
+    <Compile Include="Messages\Player\BuyFastSpeedEndMessage.cs" />
+    <Compile Include="Messages\Player\BuyFastSpeedSuccessMessage.cs" />
+    <Compile Include="Messages\Player\BuyNoUndiscoveredUniverseEndMessage.cs" />
+    <Compile Include="Messages\Player\BuyNoUndiscoveredUniverseSuccessMessage.cs" />
+    <Compile Include="Messages\Player\BuyFullLineOfSightEndMessage.cs" />
+    <Compile Include="Messages\Player\BuyFullLineOfSightSuccessMessage.cs" />
+    <Compile Include="Messages\Player\WelcomeToTheGame.cs" />
+    <Compile Include="Messages\Principal\BountyRewardWonMessage.cs" />
+    <Compile Include="Messages\Principal\BountyRewardMissedMessage.cs" />
+    <Compile Include="Messages\Principal\BonusCodeMessage.cs" />
+    <Compile Include="Messages\Principal\PromotionMessage.cs" />
+    <Compile Include="Messages\Principal\ReferralPrizeMessage.cs" />
+    <Compile Include="Messages\Principal\PaymentMessage.cs" />
+    <Compile Include="Messages\Principal\LostPrincipalBattleMessage.cs" />
+    <Compile Include="Messages\Principal\PrizeMessage.cs" />
+    <Compile Include="Messages\Principal\PrincipalMessage.cs" />
+    <Compile Include="Messages\Principal\WinPrincipalBattleMessage.cs" />
+    <Compile Include="Messages\Profile\Medals\PrincipalNewGameMedalMessage.cs" />
+    <Compile Include="Messages\Profile\Medals\PrincipalNewUserMedalMessage.cs" />
+    <Compile Include="Messages\Profile\Medals\PlayerNewGameMedalMessage.cs" />
+    <Compile Include="Messages\Profile\Medals\PlayerNewUserMedalMessage.cs" />
+    <Compile Include="Messages\Tournament\TeamAbandom.cs" />
+    <Compile Include="Messages\Tournament\YouAbandom.cs" />
+    <Compile Include="Messages\Universe\Messages\BeaconInTheSurroundingDevastationCoordinate.cs" />
+    <Compile Include="Messages\Universe\Messages\CatchResourcesMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\AttackedMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\CancelFleetMovementMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\ConquerMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\AlreadyAtPlanetLimitMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\BattleStartedMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\CannotPassWormHoleMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\BeaconUltimateRefund.cs" />
+    <Compile Include="Messages\Universe\Messages\BeaconInTheSurroundingWormHole.cs" />
+    <Compile Include="Messages\Universe\Messages\BeaconInTheSurroundingBeacon.cs" />
+    <Compile Include="Messages\Universe\Messages\BeaconInTheSurroundingDevastation.cs" />
+    <Compile Include="Messages\Universe\Messages\CannotMoveMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\AllUnitsAreNowOnThePlanetsDefenseFleet.cs" />
+    <Compile Include="Messages\Universe\Messages\MaximumFleets.cs" />
+    <Compile Include="Messages\Universe\Messages\FleetInAttackCoolDown.cs" />
+    <Compile Include="Messages\Universe\Messages\SamePrincipalAttackMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\RelicInAttackCoolDown.cs" />
+    <Compile Include="Messages\Universe\Messages\RelicInConquerCoolDown.cs" />
+    <Compile Include="Messages\Universe\Messages\PlanetInConquerCoolDown.cs" />
+    <Compile Include="Messages\Universe\Messages\PlanetInAttackCoolDown.cs" />
+    <Compile Include="Messages\Universe\Messages\RelicCannotConquerAlreadyHasOwner.cs" />
+    <Compile Include="Messages\Universe\Messages\RelicCannotAttackNoAlliance.cs" />
+    <Compile Include="Messages\Universe\Messages\RelicCannotConquerNoAlliance.cs" />
+    <Compile Include="Messages\Universe\Messages\RelicLostMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\RelicStolenMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\RelicConqueredMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\RelicAttackedMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\RelicDoesntHaveDefense.cs" />
+    <Compile Include="Messages\Universe\Messages\ScanFleetMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\NoCargoToUnload.cs" />
+    <Compile Include="Messages\Universe\Messages\DropCargoSuccessMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\DropAlreadyAtMaxLevelResult.cs" />
+    <Compile Include="Messages\Universe\Messages\DropResourcesSuccessfulResult.cs" />
+    <Compile Include="Messages\Universe\Messages\DropSomeAlreadyAtMaxLevelResult.cs" />
+    <Compile Include="Messages\Universe\Messages\PlayerIsToWeakMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\WormHoleUltimateRefund.cs" />
+    <Compile Include="Messages\Universe\Messages\DevastationCannotBeUsed.cs" />
+    <Compile Include="Messages\Universe\Messages\DevastationAttackDestroyFleet.cs" />
+    <Compile Include="Messages\Universe\Messages\DevastationAttackResult.cs" />
+    <Compile Include="Messages\Universe\Messages\DevastationAttackDamage.cs" />
+    <Compile Include="Messages\Universe\Messages\UltimateWeaponNotReady.cs" />
+    <Compile Include="Messages\Universe\Messages\SamePrincipalMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\PlanetAttackedMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\EmptyFleetDestroyedMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\PillageCoolDownMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\ResourcesStolenMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\StolenResourcesMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\PlanetBattleLostMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\PlanetDoesntHaveDefense.cs" />
+    <Compile Include="Messages\Universe\Messages\FleetLostMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\FleetToWeakToStartBattleMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\LostPlanetMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\FleetDestroyedMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\FleetWonMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\PursuitCanceledMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\FleetCargoUpdatedMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\LostAllCargoMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\StartBattleMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\WormHoleTravelMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\NewWormHoleFoundMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\FleetArrivedMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\FleetStartMovingMessage.cs" />
+    <Compile Include="Messages\Universe\Messages\ScanPlanetMessage.cs" />
+    <Compile Include="Messages\Universe\UniverseMessage.cs" />
+    <Compile Include="NumericUtils.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Results\GenericIgnore.cs" />
+    <Compile Include="Results\GenericSuccess.cs" />
+    <Compile Include="Results\GenericFail.cs" />
+    <Compile Include="Results\Result.cs" />
+    <Compile Include="Results\ResultItem.cs" />
+    <Compile Include="Server\Server.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{D9CDBB66-F267-44AB-AF03-C877489E01B0}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{7A325E24-4700-4E56-85A3-E57CE4622677}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Messages\Planet\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

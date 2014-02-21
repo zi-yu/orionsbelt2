@@ -1,0 +1,36 @@
+<%@ Master Language="C#"  CodeBehind="MainPageMaster.master.cs" Inherits="WebUserInterface.MainPageMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+	<head>
+		<title><InstitutionalUI:MainTitle runat="server" /></title> 
+		<InstitutionalUI:Styles runat="server" />
+        <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/OrionsBeltBlog" />     
+        <link rel='shortcut icon' href='http://resources.orionsbelt.eu/Images/Common/favicon.ico' />
+	</head>
+	<body>
+		<InstitutionalUI:HiddenFields runat="server" />
+        <asp:ContentPlaceHolder ID="mainPageContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <InstitutionalUI:Scripts ID="scripts" runat="server" />
+        <script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript"> 
+try {
+var pageTracker = _gat._getTracker("UA-681136-5");
+pageTracker._trackPageview();
+} catch(err) {}</script> 
+<script type="text/javascript">
+_qoptions={
+qacct:"p-1bYaH28M4CFEs"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-1bYaH28M4CFEs.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+	</body>
+</html>
+

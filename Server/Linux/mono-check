@@ -1,0 +1,14 @@
+#!/bin/bash
+
+PID=`cat /var/run/mono-fastcgi.pid`
+echo "mono fastcgi pid: $PID"
+
+if ! ps -p $PID > /dev/null
+then
+	echo "No server found..."
+	echo "Launching mono fastcgi..."
+	/usr/bin/mono-fastcgi
+	echo "New process lanuched!"
+else
+	echo "Already running!"
+fi

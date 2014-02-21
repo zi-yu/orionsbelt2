@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="LengthValidator">
+		<lang key="en">Maximum Chars: {0}</lang>
+		<lang key="fr">Maximum de Caractères: {0}</lang>
+		<lang key="hr">Maksimalni Znakovi: {0}</lang>
+		<lang key="hu">Maximum karakterek száma:</lang>
+		<lang key="it">Numero Massimo di Caratteri: {0}</lang>
+		<lang key="pt">Maximum Chars: {0}</lang>
+		<lang key="ro">Caractere Maxime: {0}</lang>
+	</entry>
+
+	<entry key="RegularExpressionValidator">
+		<lang key="en">Regex Validation Failed</lang>
+		<lang key="fr">Regex Confirmation Échoué</lang>
+		<lang key="hr">Regex Validation Failed</lang>
+		<lang key="hu">Regex érvényesítési hiba</lang>
+		<lang key="it">Controllo Regex Fallito</lang>
+		<lang key="pt">Regex Validation Failed</lang>
+		<lang key="ro">Validare Regex Eşuată</lang>
+	</entry>
+
+	<entry key="RequiredFieldValidator">
+		<lang key="en">Required Field: {0}</lang>
+		<lang key="fr">Champ obligatoire: {0}</lang>
+		<lang key="hr">Potrebno polje:{0}</lang>
+		<lang key="hu">Szükséges mező:</lang>
+		<lang key="it">Campo Obbligatorio: {0}</lang>
+		<lang key="pt">Required Field: {0}</lang>
+		<lang key="ro">Câmp Obligatoriu: {0}</lang>
+	</entry>
+
+	<entry key="UniquenessValidator">
+		<lang key="en">{0} Already Exists</lang>
+		<lang key="fr">{0} Existe déjà</lang>
+		<lang key="hr">{0} Već Postoji</lang>
+		<lang key="hu">Már lézetik</lang>
+		<lang key="it">{0} Esiste Già</lang>
+		<lang key="pt">{0} Already Exists</lang>
+		<lang key="ro">{0} Deja Existent</lang>
+	</entry>
+
+</resources>

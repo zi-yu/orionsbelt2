@@ -1,0 +1,177 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7E79B98-60BD-49F2-904B-A3FA296F66D5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebUserInterface</RootNamespace>
+    <AssemblyName>Language.WebUserInterface</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin/</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin/</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Loki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\Language.cfg.xml" />
+    <None Include="Config\Language.cfg\Language.cfg.production.xml" />
+    <None Include="Config\Language.cfg\Language.cfg.test.xml" />
+    <None Include="Ajax\Formatter.ashx" />
+    <Compile Include="Ajax\Formatter.ashx.cs">
+      <DependentUpon>Formatter.ashx</DependentUpon>
+    </Compile>
+    <None Include="Config\Model.hbm.xml" />
+    <Compile Include="Controls\LanguageFileTokensPerFlag.cs" />
+    <Compile Include="Controls\LanguageFileFlags.cs" />
+    <Compile Include="Controls\LanguageStats.cs" />
+    <Compile Include="Controls\LanguageTranslationCopy.cs" />
+    <Compile Include="Controls\LanguageTranslationText.cs" />
+    <Compile Include="Controls\LanguageTranslationTextEditor.cs" />
+    <Compile Include="Controls\LanguageEntryActions.cs" />
+    <Compile Include="Controls\LanguageEntryLocalePreview.cs" />
+    <Compile Include="Controls\LanguageEntryName.cs" />
+    <Compile Include="Controls\LanguageFileTokens.cs" />
+    <Compile Include="Controls\LanguageFileLink.cs" />
+    <Compile Include="Controls\LanguageProjectLink.cs" />
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Top.aspx.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Instructions.aspx.cs">
+      <DependentUpon>Instructions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LatestEntries.ashx.cs">
+      <DependentUpon>LatestEntries.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditEntry.aspx.cs">
+      <DependentUpon>EditEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditProjectFile.aspx.cs">
+      <DependentUpon>EditProjectFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProjectFile.aspx.cs">
+      <DependentUpon>ProjectFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project.aspx.cs">
+      <DependentUpon>Project.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Content Include="Search.aspx" />
+    <Content Include="Top.aspx" />
+    <Content Include="Instructions.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="EditEntry.aspx" />
+    <Content Include="EditProjectFile.aspx" />
+    <Content Include="ProjectFile.aspx" />
+    <Content Include="Project.aspx" />
+    <Content Include="Login.aspx" />
+    <None Include="Config\Roles.xml" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Maintenance.html" />
+    <Content Include="Main.Master" />
+    <Content Include="LatestEntries.ashx" />
+    <None Include="Web.config" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Content Include="Global.asax" />
+    <None Include="Localization\Resources\Authentication.xml" />
+    <None Include="Localization\Resources\Validators.xml" />
+    <None Include="Localization\Resources\Model.xml" />
+    <None Include="Localization\LocalizationTemplate.json.vtl" />
+    <None Include="Localization\LocalizationTemplate.cs.vtl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../WebComponents/WebComponents.csproj">
+      <Project>{F1C60F35-F3A6-473A-8386-01F4D97999D3}</Project>
+      <Name>WebComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="../DataAccessLayer/DataAccessLayer.csproj">
+      <Project>{11BE13A1-83C0-4455-B6CC-5E003D181FF0}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="../Core/Core.csproj">
+      <Project>{7189350A-34B2-4C4C-BBF7-3C5266B540E4}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2847</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

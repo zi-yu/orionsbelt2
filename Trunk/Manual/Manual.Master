@@ -1,0 +1,67 @@
+<%@ Master Language="C#" AutoEventWireup="false" CodeBehind="Manual.master.cs" Inherits="Manual.Manual" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title><asp:ContentPlaceHolder ID="title" runat="server">Game Manual</asp:ContentPlaceHolder> | Orion's Belt</title>
+    <%= EngineCSS %>
+    <link rel='stylesheet' media='screen' type='text/css' href='http://resources.orionsbelt.eu/Institutional/Styles/Style.css?v=manual-1' />
+    <link rel='stylesheet' media='screen' type="text/css" href="/Style/Style.css?v=manual-1" />
+    <link rel='shortcut icon' href='http://resources.orionsbelt.eu/Images/Common/favicon.ico' />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="mainContent">
+    <asp:Literal ID="topMenu" runat="server" />
+    <div id="all">
+        <div id="menuPanel">
+            <div style="text-align:center;background:none;margin-top:5px;"><a href="http://www.orionsbelt.eu/" title="Orion's Belt Game"><img style="border:0;width:150px;" src="http://resources.orionsbelt.eu.nyud.net/Images/Common/Banners/Banner01_234x60.jpg" alt="Orion's Belt Tactical MMO" /></a></div> 
+            <asp:Literal ID="flags" runat="server" />
+            <asp:ContentPlaceHolder ID="menu" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="contentPanel">
+            <div id="contentDialogTop800px">
+                <div id="pageTitle">
+                    <asp:ContentPlaceHolder ID="topTitle" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="contentDialogMiddle800px">
+                <div id="contentDialogMiddleContent800px" style="padding:20px 40px;">
+                    <asp:ContentPlaceHolder ID="content" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="contentDialogBottom800px">
+                <div class="footer">
+                    <asp:ContentPlaceHolder ID="footer" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="bottomContent"></div>
+    </form>
+    <%= EngineJS %>
+    <script src='/Script/Script.js' type='text/javascript' ></script> 
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-681136-32");
+        pageTracker._trackPageview();
+        </script>
+        <!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-1bYaH28M4CFEs"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-1bYaH28M4CFEs.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DatabaseConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Data>
+    <DatabaseConfigData File="Data/TeamStorage.xml" EntityName="TeamStorage" Format="Xml" />
+    <DatabaseConfigData File="Data/Principal.xml" EntityName="Principal" Format="Xml" />
+    <DatabaseConfigData File="Data/PrincipalStats.xml" EntityName="PrincipalStats" Format="Xml" />
+    <DatabaseConfigData File="Data/TimedActionStorage.xml" EntityName="TimedActionStorage" Format="Xml" />
+    <DatabaseConfigData File="Data/Countries.xml" EntityName="Country" Format="Xml" />
+    <DatabaseConfigData File="Data/PaymentDescription.xml" EntityName="PaymentDescription" Format="Xml" />
+  </Data>
+</DatabaseConfig>

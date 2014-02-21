@@ -1,0 +1,877 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="BombAttackContent">
+		<lang key="de"><div class="content">
+    [BombAttack] ist wahrscheinlich die mächtigste Attacke im Spiel, wenn ordnungsgemäss ausgeführt. 
+    Eine Kampfeinheit die mit [BombAttack] angreift fügt allen gegnerischen Einheiten Schaden zu die in 
+    der Nähe sind. 
+    Diese Fähigkeit ist exzellent um die [DispensableUnits] des Gegners zu eliminieren oder einer 
+    grossen Anzahl von Gruppen Schaden zuzufügen.
+    <p>
+    Hier ist ein Beispiel einer [BombAttack] in Aktion:
+
+    <img class="block" src="/Resources/Images/Bomb.png" alt="Bomb Attack"/>
+    
+    In diesem Beispiel, wird der Schaden dem die Einheit dem Ziel zufügt, auch allen benachbarten 
+    Gruppen die [Rain] haben, zugefügt. Es gibt keine Schadensverminderung.
+  </p></div></lang>
+		<lang key="en"><div class="content">
+    [BombAttack] may be the most powerful attack in the game, if used properly. A combat unit with [BombAttack]
+    inflicts damage on all adversary units close to it when it attacks. This ability is excelent to eliminate
+    the enemy's [DispensableUnits] or to inflict damage on a large number of groups.
+    <p />
+    Here's an example of the [BombAttack] in action:
+
+    <img class="block" src="/Resources/Images/Bomb.png" alt="Bomb Attack" />
+    
+    On this example, the damage that the unit will inflict on the target, will also be inflicted on all the
+    other adjacent groups of [Rain]. There is no damage attenuation.
+  </div></lang>
+		<lang key="es"><div class="content">
+ Un [BombAttack] puede ser el ataque mas poderoso del juego, si es usado de forma correcta. Una unidad de combate
+ con [BombAttack] genera daño en todas las unidades adversárias que estuvieran encima del ataque.
+ Esta habilidad es excelente para combatir las [DispensableUnits] del adversário, o como arma para dañar a un
+ gran número de grupos de unidades.
+    <p />
+    Aquí está el ejemplo de un [BombAttack]:
+
+    <img class="block" src="/Resources/Images/Bomb.png" alt="Bomb Attack" />
+
+    En este ejemplo, el daño al objetivo, será también sobre todas las unidades adversárias de encima , o sea,
+    todos los grupos de [Rain] serán destruidos. No existe cualquier atenuación de daños.
+
+  </div></lang>
+		<lang key="fr"><div class="content">
+    [BombAttack] est peut-être l'attaque la plus puissante du jeu, si elle est bien utilisée. Une unité de combat avec [BombAttack]
+    inflige ds dégâts sur tous les adversaires à une case adjacente. Cette aptitude est excellente pour éliminer les [DispensableUnits] de l'ennemi ou infliger des dommages collatéraux a un large groupe d'ennemis. 
+    <p />
+    Voici un exemple de la [BombAttack] en action :
+
+    <img class="block" src="/Resources/Images/Bomb.png" alt="Bomb Attack" />
+    
+    Sur cet exemple, les dégâts infligés à la cible initiale seront aussi infligés sur tous les groupes d'ennemis [Rain] adjacents. Les dégâts sont maximaux.
+  </div></lang>
+		<lang key="hr"><div class="content">
+[BombAttack] je najjači napad u igri, ako je upotrijebljen pravilno. Borbena  jedinica sa  [BombAttack] nanosi štetu svim protivnikovim jedinicama koje su joj blizu kada napada. Ova sposobnost je izvrsna za eliminirati  protivnikove [DispensableUnits] ili da se nanese šteta velikom broju grupa.
+<p />
+Ovdje je primjer [BombAttack] u akciji:
+
+ <img class="block" src="/Resources/Images/Bomb.png" alt="Bomb Attack" />
+
+
+U ovome primjeru, šteta koju je jedinica nanijela meti, također će biti nanešena svim drugim grupama jedinica [Rain] koje su blizu. Nema smanjenja štete.
+ </div></lang>
+		<lang key="hu"><div class="content">
+    A [BombAttack] talán a legerősebb támadás a játékban, ha megfelelően használják. Egy harci egység [BombAttack]-el
+    sebzést ad minden környező ellenséges egységnek támadáskor. Ez a képesség tökéletes az ellenség 
+    [DispensableUnits]-ának kiiktatására vagy több ellenséges csoport sebzésére.
+    <p />
+    Íme egy példa a [BombAttack]-re akcióban:
+
+    <img class="block" src="/Resources/Images/Bomb.png" alt="Bomb Attack" />
+    
+    Ennél a példánál, a sebzés melyet a megtámadott egység el fog szenvedni, ugyanúgy kihat az összes 
+    ellenséges [Rain] egységekre. Nincs sebzés csökkenés.
+  </div></lang>
+		<lang key="it"><div class="content">
+    L'[BombAttack] può essere considerato l'attacco più potente del gioco, se usato correttamente. Una unità con l'[BombAttack], quando attacca, infligge danno ad ogni unità avversaria adiacente. Questo potere è perfetta per eliminare le [DispensableUnits] avversarie o per infliggere danno su un grosso numero di gruppi.
+    <p>
+    Ecco un esempio dell'[BombAttack] in azione:
+
+    <img class="block" src="/Resources/Images/Bomb.png" alt="Bomb Attack" />
+    
+    In questo esempio il danno che l'unità infligge al bersaglio sarà inflitto anche a tutte gli altri gruppi di [Rain] adiacenti. Non c'è diminuzione nel danno.
+  </p></div></lang>
+		<lang key="pt"><div class="content">
+    O [BombAttack] pode ser o ataque mais poderoso do jogo, se usado de forma correcta. Uma unidade de combate
+    com [BombAttack] inflite dano em todas as unidades adversárias que estiverem adjacentes quanto ataca.
+    Esta habilidade é excelente para combater a [DispensableUnits] do adversário, tal como dar dano a um
+    grande número de grupos de unidades.
+    <p />
+    Aqui está um exemplo do [BombAttack]:
+
+    <img class="block" src="/Resources/Images/Bomb.png" alt="Bomb Attack" />
+
+    Neste exemplo, o dano dado ao alvo, será também dado a todas as unidades adversárias adjacentes, ou seja,
+    todos os grupos de [Rain] serão destruídos. Não há qualquer atenuação no dano!
+  </div></lang>
+	</entry>
+
+	<entry key="CatapultContent">
+		<lang key="de"><h1>Katapult Attacke</h1><div class="content">
+    Wahrscheinlich ist der [Catapult] Angriff is der unaufhaltbarste von allen, weil auch wenn [Units] 
+    existieren die als [DispensableUnits] dienen, sind sie in diesem Fall nutzlos. <p>
+    Der [Catapult] ignoriert jede Einheit die sich in ihrer Front befindet, Freund oder Feind, und ist 
+    in der Lage jede feindliche Einheit die in ihrer  [Range] anzugreifen. Ein Beispiel zeigt das 
+    folgende Bild:
+
+    <img class="block" src="/Resources/Images/Catapult.png" alt="Catapult"/>
+
+    Dieser Angriff ist perfekt für chirurgische Angriffe hinter einer Verteidigungs-Barriere. </p><p>
+    Ein anderes Feature das den Angriff sehr interessant macht, ist das der [StrikeBack] der 
+    attackierten Einheit ignoriert werden kann, wenn die Einheit die  
+    schiesst eine andere Einheit zwischen ihr und der angegriffenen Einheit hat.
+
+  </p></div></lang>
+		<lang key="en"><h1>Catapult Attack</h1><div class="content">
+    Probably the [Catapult] attack is the most unstoppable of all attacks, because even when exists [Units]
+    serving as [DispensableUnits], they are useless in this case. <p />
+    The [Catapult] ignore any unit that is in its front, friend or foe unit, and it is enable to attack
+    any enemy unit that is in its [Range]. An example is the following image:
+
+    <img class="block" src="/Resources/Images/Catapult.png" alt="Catapult" />
+
+    This attack is perfect for surgical strikes behind a defensive barrier. <p />
+    Another feature that makes this attack very interesting, is the [StrikeBack] of the attacked unit be ignored
+    if the unit that shoots have a unit between it and attacked unit.
+
+  </div></lang>
+		<lang key="es"><h1>Ataque Catapulta</h1><div class="content">
+ Probablemente el ataque [Catapult] es el mas imparable de todos los ataques, esto porque aún  teniendo [Units] que 
+    sirvan de [DispensableUnits], para este caso ellas son inutiles. <p />
+
+    [Catapult] ignora cualquier unidad que esté en frente, sea enemiga o del mismo equipo  [Fleet], y da la pobilidad de 
+ cualquier unidad enemiga que tenga el [Range] de la unidad que vá a efectuar el disparo. Un ejemplo de esta situación
+ es la siguiente imágen:
+
+    <img class="block" src="/Resources/Images/Catapult.png" alt="Catapulta" />
+
+ Este ataque es perfecto para realizar ataques quirurgícos detrás de una barrera defensiva.<p />
+ Otro factor que torna este ataque bastante interesante, es que el [StrikeBack] de la unidad atacada será ignorado en caso
+ que la unidad que efectua el disparo tuviera una unidad entre sí y la unidad atacada. 
+  </div></lang>
+		<lang key="fr"><h1>Catapult Attack</h1><div class="content">
+  Probablement que l?aptitude [Catapult] est l?attaque la plus difficile à arrêter car, même si il y a des [Units]
+    qui sont considérés comme des [DispensableUnits] elles ne servent plus à rien. <p />
+    La[Catapult] permet d?ignorer l?unité qui se trouve en avant pour cibler une unité à sa [Range]. Voici un exemple:
+
+    <img class="block" src="/Resources/Images/Catapult.png" alt="Catapult" />
+
+  Cette attaque est parfaite pour des attaques de précisions pour éliminer de puisantes unités derrière une barrière de défense. <p />
+  Une autre utilité de cette attaque est que l?aptitude [StrikeBack] de la cible peut être ignoré lorsqu?il y a une unité qui bloque son tir de contre-attaque.
+
+  </div></lang>
+		<lang key="hr"><h1>Katapult Napad</h1><div class="content">
+Vjerojatno je [Catapult] napad najnezaustavljiviji od svih jedinica, jer čak i kad postoje [Units] koje služe kao [DispensableUnits], beskorisne su u tom slučaju.
+[Catapult] ignorira bilo koju jedinici koja je ispred njega, bilo prijateljska ili neprijateljsku, i u mogućnosti je da napadne bilo koju neprijateljsku jedinicu koja mu je unutar [Range]. Primjer je sljedeća slika:
+
+<img class="block" src="/Resources/Images/Catapult.png" alt="Catapult" />
+
+Ovaj napad je savršen za kiriuške udare iza obranbene barijere.<p />
+Druga značajka koja čini ovaj napad vrlo zanimiljivim je da će [StrikeBack] napadnute jedinice biti ignoriran ako je jedinica koja puca ima drugu jedinicu između sebe i napadnute jedinice.
+</div></lang>
+		<lang key="hu"><h1>Catapult Attack</h1><div class="content">
+    Valószínűleg a  [Catapult] támadás a legmegállíthatatlanabb az összes támadás közül, mert még ha léteznek is [Units]
+    melyek [DispensableUnits]-ként suolgálnak, ebben az esetben hatástalanok. <p />
+    A [Catapult] figyelmen kívül hagy minden egységet amely előtte található, barát vagy ellenfél, és képes megtámadni
+    bármilyen ellenséges egységet amely a [Range]-en belül található. Egy példa erre a következő képen:
+
+    <img class="block" src="/Resources/Images/Catapult.png" alt="Catapult" />
+
+    Ez a támadás tökéletes sebészi pontosságú csapásra az ellenséges vonalak mögött. <p />
+    Egy további tulajdonság, mely még érdekesebbé teszi ezt a támadást, hogy a megtámadott egység [StrikeBack]-je hatástalan,
+    ha egy másik egység van a támadó és a támadott között.
+
+  </div></lang>
+		<lang key="it"><h1>Attacco Catapulta</h1><div class="content">
+    La [Catapult] è probabilmente l'attacco più difficile da bloccare, perchè anche quando ci sono delle [DispensableUnits] tra l'unità attaccante e il bersaglio, queste sono inutili. <p>
+    La [Catapult] ignora qualsiasi unità si trovi davanti, nemica o amica, ed è in grado di raggiungere ogni unità nella sua [Range]. Un esempio nell'immagine:
+
+    <img class="block" src="/Resources/Images/Catapult.png" alt="Catapult" />
+
+    Questa abilità è perfetta per attacchi strategici dietro le barriere difensive.</p><p>
+    Un altro aspetto che rende quest'abilità interessante è il fatto che, se è presente un gruppo di unità tra l'attaccante con la [Catapult] e il bersaglio, l'abilità di [StrikeBack] dell'unità attaccata viene ignorata.</p></div></lang>
+		<lang key="pt"><h1>Ataque Catapulta</h1><div class="content">
+    Provavelmente o ataque [Catapult] é o mais imparável de todos os ataques, isto porque mesmo tendo [Units] que
+    sirvam de [DispensableUnits], neste caso elas são inúteis. <p />
+    A [Catapult] ignora qualquer unidade que esteja à sua frente, seja inimiga ou da mesma [Fleet], e possibilita atacar
+    qualquer unit inimiga que esteja no [Range] da unidade que vai efectuar o disparo. Um exemplo disso é a imagem seguinte:
+
+    <img class="block" src="/Resources/Images/Catapult.png" alt="Catapulta" />
+
+    Este ataque é perfeito para fazer ataques quirurgícos por detrás de uma barreira defensiva.<p />
+    Outro factor que torna este ataque bastante interessante, é o [StrikeBack] da unidade atacada ser ignorado no
+    caso da unidade que efectua o disparo ter uma unidade entre ela e a unidade atacada.
+
+  </div></lang>
+	</entry>
+
+	<entry key="InfestationAttackContent">
+		<lang key="de"><div class="content">
+    [InfestationAttack] ist wie eine feindliche Einheit zu vergiften. Wenn eine Einheit getroffen wird 
+     mit einer [InfestationAttack] Attacke, wird sie einen gewissen Anteil von Schaden während 3 Runden 
+    erhalten (in diesen 3 Runden ist die Runde des Angriffs mitinbegriffen).
+    <p>
+    Die Grösse des Schadens ist äquivalent zu 20% des Schadens der durch die angreifende Einheit 
+    gemacht wurde. Wenn eine Einheit dir einen Schaden von 1000 gemacht hat, in der ersten Runde (Die 
+    Angriffs-Runde), erhält das Ziel 1200.
+    In den nächsten 2 Runden wird sie einen Schaden von 200 pro Runde erhalten.
+    </p><p>
+    Dieser Angriff ist anwachsend was bedeutet dass ein Ziel-Einheit mehrere "Vergiftungen" zur 
+    gleichen Zeit haben kann.
+    </p><p>
+    Dieser Angrif wird benutzt durch die [BlackWidow] und dem [HiveKing].
+    </p><p>
+    Hier ist ein Bild das zeigt wie ein [HiveKing] die "Infestation" benutzt gegen ein [Scarab]:
+    <img class="block" src="/Resources/Images/Infestation.png" alt="Infestation Attack"/></p></div></lang>
+		<lang key="en"><div class="content">
+    [InfestationAttack] is like poisoning the enemy unit. If a unit is hit with an [InfestationAttack] attack, it will receive a certain ammout of damage during 3 turns (in this 3 turns is included
+    the turn of attack).
+    <p />
+    The amount of damage done is equivalent to 20% of the damage made by the attacked unit. If a unit gave you 1000 of damage, in the first turn (the attack turn), the target will receive 1200.
+    In the next 2 turns it will receive 200 damage per turn.
+    <p />
+    This attack is cummulative which means that a target unit can have several infestations at the same time.
+    <p />
+    This attack is used by the [BlackWidow] and [HiveKing].
+    <p />
+    Here is a image that represents a [HiveKing] using Infestation against a [Scarab]:
+    <img class="block" src="/Resources/Images/Infestation.png" alt="Infestation Attack" /></div></lang>
+		<lang key="es"><div class="content">
+    El ataque [InfestationAttack] es como envenenar una unidad enemiga. Si la unidad fuera alcanzada por un ataque [InfestationAttack], va a recibir un determinado daño 
+    durante 3 turnos ( dentro de estos 3 turnos esta incluído el turno de ataque)    
+    <p />
+    El valor del daño es equivalente al 20% del daño echo por la unidad que ataca. Si la unidad dio 1000 de daño, entonces en el primer turno (turno de ataque) la unidad enemiga    
+    recibira 1200 y en los 2 turnos siguiente recibirá 200 de daño por turno.
+    <p />
+    Esta ataque es acumulativo lo que significa que la unidad objetivo podrá tener várias infecciones al mismo tiempo.
+    <p />
+    Esta ataque es usado por la unidad [BlackWidow] y [HiveKing].
+    <p />
+    La siguiente imagén representa un ataque de [HiveKing] usando [InfestationAttack] contra [Scarab]:
+    <img class="block" src="/Resources/Images/Infestation.png" alt="Ataque Infestação" /></div></lang>
+		<lang key="fr"><div class="content">
+    [InfestationAttack] est un empoisonnement de l'unité adverse. (En réalité, de minuscules larves volatiles et voraces tranperçents vaisseaux et carapaces pour tenter de se nourrir de la matière organique cachée à l?intérieur...) Si une unité avec l?aptitude [InfestationAttack] attaque, elle recevra une certaine quantité de dégâts sur une période de 3 tours, incluant celui où l?attaque a été porté.i
+    <p>
+    La quantité de dégâts subie est l?équivalent de 20 % de l?attaque de l?unité ayant l?aptitude. Si une unité attaque pour 1000 et possède cette aptitude, les dégâts totaux seront à 1200 immédiatement et 200 pour les 2 prochains tours.
+    </p><p>
+    Cette attaque est cumulative, une unité peut souffrir de plus qu?une seule infestation en même temps.
+    </p><p>
+    Cette aptitude est distincte à la [BlackWidow] et le [HiveKing].
+    </p><p>
+    Voici l?image d?un [HiveKing] utilisant une infestation contre un [Scarab]:
+    <img class="block" src="/Resources/Images/Infestation.png" alt="Infestation Attack" /></p></div></lang>
+		<lang key="hr"><div class="content">
+[InfestationAttack] je kao trovanje neprijateljske jedince. Ako je jedinica pogođena sa [InfestationAttack] napadom, primiti će određenu količinu štete tokom 3 turna (u ova 3 turna je uključen turn napada).
+<p />
+Količina štete koje je izvšena je jednaka 20% štete koju radi napadačka jedinica. Ako vam je  jedinica dala 1000 ili više štete,u prvom turnu (turnu napada), meta će primiti 1200. I sljedeća dva turna će primiti 200 štete po turnu.
+<p />
+Napad je kumulativan što znači da ciljana jedinca može imati više infestacija u istom trenutku.
+<p />
+Ovim napadom se služe [BlackWidow] i [HiveKing].
+<p />
+Ovdje je slika koja predstavlja [HiveKing] kako se koristi Infestacijom protiv [Scarab]:
+<img class="block" src="/Resources/Images/Infestation.png" alt="Infestation Attack" /></div></lang>
+		<lang key="hu"><div class="content">
+    A [InfestationAttack] ahhoz hasonlítható, mint amikor megmérgezed azellenséges egységet. Ha egy egységet meg támadnak [InfestationAttack]-el, akkor 3 körön keresztül egy bizonyos mennyiséggel sebződik (ebbe a 3 körbe beletartozik
+    a támadás köre is).
+    <p />
+    A sebzés mértéke egyenlő a megtámadott egység sebzésének 20%-ával. Ha egy egység 1000 pontnyi sebzést ad, akkor az első körben (a támadás körében), a cél 1200 pontnyi sebzést szenved.
+    A következő 2 körben körönként 200 pontnyi sebzést fog kapni.
+    <p />
+    A támadás kummulatív, ami azt jelenti, hogy egy cél egység egyszerre több ilyen támadás hatása alatt is lehet.
+    <p />
+    Ezt a támadást használja a [BlackWidow] és a [HiveKing].
+    <p />
+    Íme egy kép amely bemutatja ahogy a [HiveKing] használja a fertőzés támadást a [Scarab] ellen.:
+    <img class="block" src="/Resources/Images/Infestation.png" alt="Infestation Attack" /></div></lang>
+		<lang key="it"><div class="content">
+    Usare l'[InfestationAttack] è come avvelenare le unità avversarie. Se una unità è colpita dall'[InfestationAttack], riceverà un certo tanto di danno durante i 3 turni successivi (incluso il turno di attacco).
+    <p>
+    La quantità di danno fatto è equivalente al 20% del danno totale fatto dalle unità attaccanti. Se una unità fa 1000 di danno, nel primo turno (quello di attacco) il bersaglio riceverà 1200 di danno. Nei 2 turni successivi riceveranno 200 di danno per turno.
+    </p><p>
+    Questo attacco è cumulativo, che vuol dire che un'unità bersaglio può avere più infestazioni contemporaneamente.
+    </p><p>
+    Questo attacco è usato dalla [BlackWidow] e dal [HiveKing].
+    </p><p>
+    Questa immagina mostra un [HiveKing] che usa l'Infestazione contro uno [Scarab]:
+    <img class="block" src="/Resources/Images/Infestation.png" alt="Infestation Attack" /></p></div></lang>
+		<lang key="pt"><div class="content">
+    o ataque de [InfestationAttack] é como envenenar a unidade inimiga. Se a unidade for atingida por um ataque [InfestationAttack], ela vai receber um determinado dano durante  3 turnos (onde nestes 3 turnos
+    está incluido o turno do ataque).
+    <p />
+    O valor de dano é equivalente a 20% do dano feito pela unidade atacante. Se a unidade deu 1000 de dano, então no primeiro turno (turno de ataque) a unidade inimiga levará  1200 e nos 2 turnos seguintes
+    levará com 200 de dano por turno.
+    <p />
+    Este ataque é cumulativo o que significa que a unidade alvo poderá ter várias infestações ao mesmo tempo.
+    <p />
+    Este ataque é usado pela unidade [BlackWidow] e [HiveKing].
+    <p />
+    A imagem que se segue representa um ataque do [HiveKing] a usar [InfestationAttack] contra [Scarab]:
+    <img class="block" src="/Resources/Images/Infestation.png" alt="Ataque Infestação" /></div></lang>
+	</entry>
+
+	<entry key="ParalyseAttackContent">
+		<lang key="de"><div class="content">
+    [Paralyse] ist ein sehr mächtiger Angriff. Eine einzige Einheit mit dieser Stärke kann die 
+    Benutzung von einer Gruppe von feindlichen Einheiten verhindern ( Angriff und Bewegung) während 
+    einer Schlacht-Runde. Das kann sehr nützlich sein um wichtige Einheiten zu blocken und/oder sie 
+    langsam zerstören oder um das Passieren von wichtigen Einheiten zu verhindern.
+    <p>
+    Beachte dass die Einheit in deiner Runde nicht mehr paralysiert ist. Also wenn du eine Einheit 
+    paralysieren willst (besonders die mit [StrikeBack] un [ParalyseAttack] - wie die [Spider]) 
+    dann vergiss nicht die Ziel-Einheit zuerst zu paralysieren, von den Seiten oder von 
+    hinten anzugreifen.
+    </p><p>
+    Hier ist ein Bild das zeigt wie eine [Spider] einen [Doomer] angreift:
+    <img class="block" src="/Resources/Images/Paralyse.png" alt="Paralyse Attack"/></p></div></lang>
+		<lang key="en"><div class="content">
+    [Paralyse] is a very strong attack. A single unit with this power can prevent a group of enemy units usage ( attack
+    and movement) during a battle turn. This can be very useful to block important units and/or destroy them slowly
+    or to prevent the passage of important units.
+    <p />
+    Be aware that in your turn the unit won't be Paralysed anymore. So if you want to Paralyse a unit (specially the units with
+    [StrikeBack] and [ParalyseAttack] - like [Spider]) don't forget to Paralyse the target unit first or attack it from the sides or behind.
+    <p />
+    Here is a image that represents a [Spider] attacking a [Doomer]:
+    <img class="block" src="/Resources/Images/Paralyse.png" alt="Paralyse Attack" /></div></lang>
+		<lang key="es"><div class="content">
+    [Paralyse] es un ataque muy poderoso. Una única unidad con este poder puede prevenir la utilización de cualquier grupo de unidades ([Attack]
+    y [Movement]) durante 1 turno de batalla. Este ataque puede ser muy útil para bloquear unidades importantes y/o destruir las lentamente, o prevenir
+    el paso de otras unidades.
+    <p />
+    Cuidado que en tu turno las unidades ya no estarán paralizadas. Por lo tanto si las quisieras atacar (especialmente unidades con 
+    [StrikeBack] a [ParalyseAttack] - como [Spider]) no te olvides de paralizar primero y/o atacar por los lados, o por atrás. 
+    <p />
+    Aquí puedes ver una imágen de [Paralyse] cuando una [Spider] ataca una [Doomer]:
+    <img class="block" src="/Resources/Images/Paralyse.png" alt="Ataque paralizante" /></div></lang>
+		<lang key="fr"><div class="content">
+    [Paralyse] est une attaque extrêmement puissante. Une seule unité avec ce pouvoir peut empêcher une unité adverse d?être utilisée pour le prochain tour de combat, que ce soit pour bouger ou attaquer. C?est très utile pour pouvoir bloquer des unités importantes et/ou les détruirent lentement ou encore bloquer le passage à des unités plus menaçantes. 
+    <p>
+    Sachez que l?unité ne sera par contre plus paralysée à votre tour de combat. Donc si vous voulez paralyser une unité (particulièrement celles qui ont les aptitudes 
+[StrikeBack] et [ParalyseAttack] -  comme l?[Spider]) n?oubliez pas de paralyser l?unité à votre tour et attaquer celles avec StrikeBack sur les côtés ou par-derrière.
+    </p><p>
+    Voici l?image d?une [Spider] qui attaque un [Doomer]:
+    <img class="block" src="/Resources/Images/Paralyse.png" alt="Paralyse Attack" /></p></div></lang>
+		<lang key="hr"><div class="content">
+[Paralyse] je jako snažan napad. Samo jedna jedinica sa ovim napadom može spriječiti upotrebu grupe neprijateljskih jedinica (napad i pokretanje) tokom turna bitke. Ovo može biti jako korisno da se blokiraju važne jedinice i/ili da se unište polako ili da se spriječi prolaz važnih jedinica.
+<p />
+Budite svjesni da u vašem turnu jedinica više neće biti Paralizirana. Zato ako želite paralizirati jedinicu (specijano jedince sa [StrikeBack] i [ParalyseAttack] - kao[Spider]) nemojte zaboraviti Paralizirati ciljanu metu prvo ili napasti je sa strane ili straga.
+<p />
+Ovdje je slika na kojoj možete vidjet [Spider] kako napada [Doomer]:
+<img class="block" src="/Resources/Images/Paralyse.png" alt="Paralyse Attack" /></div></lang>
+		<lang key="hu"><div class="content">
+    A [Paralyse] egy nagyon erős támadás. Egyetlen egység ezzel a képességgel megakadályozhatja egy ellenséges csoport használatát ( támadás
+    és mozgás) egy harci kör alatt. Ez nagyon hasznos lehet például: egy fontos egység blokkolása és/vagy lassú elpusztítása
+    vagy fontos egységek mozgásának meggátolása.
+    <p />
+    Vigyázz, mert a te köröd alatt az egység már nem lesz Megbénítva. Tehát ha meg akarsz Bénítani egy egységet (különösen azokat az egységeket
+    amelyek rendelkeznek[StrikeBack]-el és [ParalyseAttack]-el - mint a [Spider]) ne felejtsd el a cél egységet először megbénítani vagy megtámadni oldalról vagy hátulról.
+    <p />
+    Íme egy kép amint egy [Spider] megtámad egy [Doomer]-t:
+    <img class="block" src="/Resources/Images/Paralyse.png" alt="Paralyse Attack" /></div></lang>
+		<lang key="it"><div class="content">
+    [Paralyse] è un attacco molto forte. Una sola unità con questo potere può impedire ad un gruppo di unità avversario l'uso (attacco e movimento) durante un turno della battaglia. Questo può essere molto utile per bloccare gruppi di unità importanti e/o distruggerle lentamente o impedire il passaggio di altri gruppi di unità.
+    <p>
+    Attenzione che durante il tuo turno quella unità non sarà più paralizzata. Quindi se vuoi attaccare una unità (e più precisamente una unità con [StrikeBack] o [ParalyseAttack]) senza che si attivino i suoi poteri, devi prima paralizzarla o attaccarla dai lati o da dietro.
+    </p><p>
+    Questa immagina rappresenta un [Spider] che attacca un [Doomer]:
+    <img class="block" src="/Resources/Images/Paralyse.png" alt="Paralyse Attack" /></p></div></lang>
+		<lang key="pt"><div class="content">
+    [Paralyse] é um ataque muito poderoso. Uma única unidade com este poder pode prevenir a utilização de qualquer grupo de unidades ([Attack]
+    e [Movement]) durante 1 turno de batalha. Este ataque pode ser muito útil para bloquear unidades importantes e/ou destrui-las lentamente ou prevenir
+    a passagem de outras unidades.
+    <p />
+    Cuidado que no teu turno as unidades já não estarão mais paralizadas. Portanto se as quiseres atacar (especialmente unidades com
+    [StrikeBack] and [ParalyseAttack] - like [Spider]) não te esquecças de paralizar primeiro e/ou atacar dos lados ou por trás.
+    <p />
+    Abaixo está uma imagem do [Paralyse] quando uma [Spider] ataca uma [Doomer]:
+    <img class="block" src="/Resources/Images/Paralyse.png" alt="Ataque paralizante" /></div></lang>
+	</entry>
+
+	<entry key="ReboundContent">
+		<lang key="de"><div class="content">
+    Der [Rebound] ist der Angriff wo die Angriffsstärke nicht verschwendet wird. Wenn sie zu gross ist  
+    um die erste Reihe von [Units] zu zerstören, geht die übriggebliebene Power zu den [Units] die 
+    unmittelbar hinter der ersten Reihe von den attackierten [Units] stehen. <p><img class="block" 
+    src="/Resources/Images/Rebound.png" 
+    alt="Rebound"/>
+
+   In diesem Bild kann man sehen wie die [Fenix] die [Pretorian] attackiert, stell dir vor das der 
+  [Fenix] Angriff 10000 ist und der Schutz der [Pretorian] nur 8000
+   , dann erhält die [Kamikaze] einen Schaden von 2000 (10000 - 8000 = 2000). Aber wenn die [Kamikaze] 
+   nicht unmittelbar hinter den [Pretorian] wären, würden sie keinen Schaden erhalten, wenn dort einen 
+  oder mehrere Vierecke stünden zwischen den [Pretorian] und [Kamikaze].
+  </p></div></lang>
+		<lang key="en"><div class="content">
+    The [Rebound] is the attack where no power is wasted, if it is too much to destroy the first set of [Units],
+    the remaind power goes to the [Units] that are immediately behind the first set of [Units] attacked. <p /><img class="block" src="/Resources/Images/Rebound.png" alt="Rebound" />
+
+    In this image can be seen the [Fenix] attacking the [Pretorian], imagine that the [Fenix] attack is 10000 and protection of the
+    [Pretorian] is only for 8000, then the [Kamikaze] will suffer damage of 2000 (10000 - 8000 = 2000). But if the [Kamikaze] were not
+    immediately behind the [Pretorian] will no longer suffer any damage, if there is one or more squares between the [Pretorian] and [Kamikaze].
+  </div></lang>
+		<lang key="es"><div class="content">
+ [Rebound] es el caso en que la fuerza de ataque no es desperdiciada, ya que si fuera demasiado para destruir el primer conjunto de [Units], 
+ la fuerza restante es traspasada al conjunto de [Units] que esté atrás del conjunto de [Units] atacadas.<p /><img class="block" src="/Resources/Images/Rebound.png" alt="Ricochete" />
+ 
+ En esta imágen se puede ver [Fenix] atacando [Pretorian], imagina que el ataque de las unidades [Fenix] es de 10000 y la defensa de las
+ unidades [Pretorian] es de solo 8000, entonces las unidades [Kamikaze] sufrirían un daño de  2000 (10000 - 8000 = 2000). Pero sí, las unidades [Kamikaze] 
+ no estuviesen detrás  de las [Pretorian] no sufrirían daño alguno, basta con que exista un cuadraro entre las unidades [Pretorian] y [Kamikaze].
+
+  </div></lang>
+		<lang key="fr"><div class="content">
+    L’aptitude [Rebound] évite le gaspillage de puissance. Si les dégâts totaux pour détruire un groupe d’[Units] est plus grand que nécessaire, alors la différence est engendrée sur le groupe de [Units] directement derrière le premier groupe attaquée. <p /><img class="block" src="/Resources/Images/Rebound.png" alt="Rebound" />
+
+   On peut voir un [Fenix] qui attaque un [Pretorian] dans cette image. Imaginez que L’attaque du [Fenix] est de 10000 et la protection du [Pretorian] est de seulement 8000. Alors, les [Kamikaze] vont souffrir de 2000 dégâts. (10000 - 8000 = 2000). Par contre, si les [Kamikaze] n’était pas directement derrière le [Pretorian] il n’aurait pas reçu de dégâts.  </div></lang>
+		<lang key="hr"><div class="content">
+[Rebound] je napad gdje se nije potrošilo ništa snage, ako je previše da se uništi prvi set [Units], ostatak snage napada ide na [Units] koje su odmah iza prvog seta napadnutih [Units]. <p /><img class="block" src="/Resources/Images/Rebound.png" alt="Rebound" />
+
+Na ovoj slici možete vidjeti [Fenix] kako napada [Pretorian], zamislite kako je napad [Fenix] 10000, a obrana  [Pretorian] je samo 8000, tada će [Kamikaze] dobiti 2000 štete (10000 - 8000 = 2000). Ali ako [Kamikaze] nisu bile odmah iza [Pretorian] neće dobiti ništa štete ako je jedan ili više kvadrta između [Pretorian] i[Kamikaze].
+</div></lang>
+		<lang key="hu"><div class="content">
+    A [Rebound] olyan támadás, ahol erő nem vész kárba, ha túl sok ahhoz, hogy elpusztítsa az első [Units]-okat,
+    a megmaradt erő azokra a [Units]-okra megy amelyek közvetlenül a megtámadott [Units]-ok mögött vannak. <p /><img class="block" src="/Resources/Images/Rebound.png" alt="Rebound" />
+
+    Ezen a képen látható ahogy a [Fenix] megtámadja a [Pretorian]-t, tételezzük fel, hogy a [Fenix] támadása 10000 és a [Pretorian] védelme
+    csak 8000, ebben az esetben a [Kamikaze] fogaja a maradék 2000 sebzést elszenvedni (10000 - 8000 = 2000). Viszont ha a [Kamikaze] nem volt
+    közvetlenül a [Pretorian] mögött, akkor nem fog sebződni, ha egy vagy több egységnyi hely van a [Pretorian] és a [Kamikaze] között.
+  </div></lang>
+		<lang key="it"><div class="content">
+    Il [Rebound] è un attacco in cui nessun punto di danno viene sprecato. Se è troppo per distruggere il primo gruppo di [Units], il danno rimanente viene dato alle [Units] direttamente dietro a quelle attaccate. <p><img class="block" src="/Resources/Images/Rebound.png" alt="Rebound" />
+
+    In questa immagine si può vedere la [Fenix] che attacca il [Pretorian], immagina che la [Fenix] abbia 10000 di attacco e che il [Pretorian] abbia solo 8000 di difesa, il [Kamikaze] allora riceverà 2000 di danno (10000 - 8000 = 2000). Ma se il [Kamikaze] non fosse stato immediatamente dietro il [Pretorian], con una o più caselle vuote tra loro, non avrebbe subito alcun danno.
+  </p></div></lang>
+		<lang key="pt"><div class="content">
+   O [Rebound] é o caso em que a força do ataque não é desperdiçada , se for demasiado para destruir o primeiro conjunto de [Units], 
+   a restante força do ataque passa para o conjunto de [Units] que esteja imediatamente atrás do conjunto de [Units] atacadas.<p /><img class="block" src="/Resources/Images/Rebound.png" alt="Ricochete" />
+
+    Nesta imagem pode-se ver as [Fenix] a atacar as [Pretorian], imagine-se que o ataque das [Fenix] é de 10000 e a defesa das
+    [Pretorian] é só de 8000, então as [Kamikaze] iríam sofre dano de 2000 (10000 - 8000 = 2000). Mas se as [Kamikaze] não estivessem
+    imediatamente atrás das [Pretorian] já não sofreriam dano algum, bastaria existir um quadrado entre as [Pretorian] e [Kamikaze].
+  </div></lang>
+	</entry>
+
+	<entry key="RemoveAbilityAttackContent">
+		<lang key="de"><div class="content">
+    Dieser Angriff ist sehr nützlich obwohl schwierig durchzuführen weil die einzige Einheit die diesen 
+    Angriff benutzen kann der [HiveKing] ist. Wenn eine Einheit mit [RemoveAbilityAttack]
+    angreift, verliert das Ziel all seine Spezial-Bewegungen während 2 Schlacht-Runden. Das bedeutet 
+    das während dieser Zeit die Einheit nur eine normale Attacke machen kann.
+    <p>
+    Wenn diese Attacke erfolgreich durchgeführt wird, werden einige Einheiten mit zerstörerischer 
+    Stärke (wie die [Taurus]) alles verlieren was sie wirklich mächtig macht.
+   </p></div></lang>
+		<lang key="en"><div class="content">
+    This attack is very useful although it's difficult to perform because the only unit that's got this attack is the [HiveKing]. When a unit with [RemoveAbilityAttack]
+    attacks, the target loses all its special moves during 2 battle turns. This means that during this time the unit can only perform a normal attack.
+    <p />
+    If this attack it's well used, some units with very devastating attack (like [Taurus]) will lose everything that makes
+    them powerful.
+   </div></lang>
+		<lang key="es"><div class="content">
+    Este ataque es muy util Aún que sea complicado de ejecutar porque la única unidad que lo puede hacer es un [HiveKing]. Cuando una unidad con [RemoveAbilityAttack] ataca,
+    un blanco pierde todos los ataques especiales durante 1 turno. Esto significa que la unidad solo puede ejecutar ataque normales.  
+    <p />
+    Si este ataque es bien utilizado, algunas de las unidades con gran poder de devastación (como los [Taurus]) van a perder todo lo que las torna poderosas.
+   </div></lang>
+		<lang key="fr"><div class="content">
+    Cette attaque est très utile même si elle est plutôt difficile à utiliser, car la seule unité qui la possède est le [HiveKing]. Quand une unité avec le [RemoveAbilityAttack]
+    attaque, la cible perd toutes ses aptitudes spéciales pendant un tour de combat. Durant ce temps, l?unité atteinte de cet effet ne peut rien faire d?autre qu?attaquer normalement. 
+    <p>
+    Si cette attaque est bien utilisée, certaine unités habituellement très puissantes, comme le [Taurus], deviendront beaucoup plus faibles.    </p></div></lang>
+		<lang key="hr"><div class="content">
+Ovaj napad je jako koristan iako je tažak za izvršiti jer jedinica koja ima ovaj napad je [HiveKing]. Kada jedinica sa  [RemoveAbilityAttack] napada, meta gubi svoje specijalne pokrete tokom 1 turna bitke. Ovo znači da tokom toga vremene jedinica može izvoditi samo normalan napad.
+<p />
+Ako je napad upotrijebljen ispravno, neke jedinice sa jako razarajućim napadom (kao[Taurus]) će izgubiti sve što ih ćini moćnim.
+</div></lang>
+		<lang key="hu"><div class="content">
+    Ez a támadás nagyon hasznos habár nehéz végrehajtani mert az egyetlen egység amely ezzel a támadással rendelkezik a [HiveKing]. Amikor egy egység [RemoveAbilityAttack]-el
+    támad, a cél elveszti összes speciális mozgási képességét 2 körig. Ez azt jelenti hogy az egység ezalatt az idő alatt nem tud végrehajtani normál támadást.
+    <p />
+   Ha ez a támadás megfelelően van használva, pusztító erejű támadással rendelkező egységek (mint a [Taurus]) mindent elveszít ami erőssá teszi
+   őket.
+   </div></lang>
+		<lang key="it"><div class="content">
+    Questo attacco è molto utile ma molto difficile da eseguire in quanto l'unica unità in grado di usarlo è il [HiveKing]. Quando una unità col [RemoveAbilityAttack] attacca, il bersaglio perde tutte le sue abilità speciali per 1 turno. Questo vuol dire che durante quel tempo l'unità può eseguire solo attacchi normali.
+    <p>
+    Se questo attacco è ben usato, unità con attacchi devastanti (come i [Taurus]) possono perdere tutto quello che li rende così forti.
+   </p></div></lang>
+		<lang key="pt"><div class="content">
+    Este ataque é muito util embora seja complicado de executar porque a única unidade que o pode fazer é o [HiveKing]. Quando uma unidade com [RemoveAbilityAttack] ataca,
+    o alvo perde todos os ataques especiais durante 1 turno. Isto significa que a unidade só pode executar ataques normais.
+    <p />
+    Se este ataque for bem usado, algumas das unidades com grande poder de devastação (como os [Taurus]) vão perder tudo o que as torna poderosas.
+   </div></lang>
+	</entry>
+
+	<entry key="ReplicatorContent">
+		<lang key="de"><div class="content">
+    [Replicator] ist der Angriff der die Zahlen auf jeder Seite ändern kann. Wenn eine Einheit mit 
+    diesem Special-Move angreift, repliziert sie sich mehrere Male, äquivalent
+    zu der Anzahl von Einheiten die du zerstörst. wenn du 6 einheiten zerstörst, wirst du 6 mal 
+    replizieren.
+    <p>
+    Dieser Special-Move funktioniert nur wenn die angegriffene Einheit von der gleichen Kategorie ist 
+    wie oben. Beispiel: eine [Medium] Einheit mit [Replicator] repliziert nur wenn das Ziel eine 
+    [Medium] oder [Heavy] Einheit ist.
+    </p><p>
+    Die einzige Einheit die diese Attacke hat ist der [Stinger]. Das bedeutet das diese Einheit nur 
+    gegen [Medium] und [Heavy] Einheiten repliziert.
+   </p></div></lang>
+		<lang key="en"><div class="content">
+    [Replicator] is the attack that can change the numbers in each side. When a unit with this special move attacks, it replicates a certain number of times, equivalent
+    to the number of units you destroy. If you destroy 6 units, you'll replicate 6 times.
+    <p />
+    This special move only works if the attacked unit is fo the same category of above. Example: a [Medium] unit with [Replicator] only replicates if the target is a [Medium]
+    unit or a [Heavy] unit.
+    <p />
+    The only unit that has this attack is the [Stinger]. Which means that this unit will only replicate against [Medium] and [Heavy] units.
+   </div></lang>
+		<lang key="es"><div class="content">
+    El [Replicator] es un ataque que puede cambiar los números de la batalla. Cuando una unidad use este ataque especial , ella se replica un determinado número de veces, equivalente al número de unidades 
+    destruídas. Si destruyes 6 unidades, la unidad con [Replicator] se replica 6 veces.    
+    <p />
+    Este ataque especial sólo funciona si fueran atacadas unidades de la misma categoría o superior. Ejemplo: Una unidad [Medium] con [Replicator] sólo se replica si el objetivo
+    fuera de la [Category]  [Medium] o [Heavy].
+    <p />
+    La única de juego que posee este ataque es la [Stinger]. Lo qué significa que esta unidad sólo se replica contra unidades [Medium] y [Heavy].
+   </div></lang>
+		<lang key="fr"><div class="content">
+    [Replicator] est l'attaque qui permet d'augmenter le nombre dans votre armée et tout en abaissant celui de l'adversaire. Quand une unité avec cette aptitude spéciale attaque, il y aura réplication un certain nombre de fois; équivalent au nombre d'unités détruites. Si vous détruisez 6 unités, vous répliquez 6 fois. (en terme de quantité détruit; 6 = 6)
+    <p />
+    Cette aptitude particulière seulement si l'unité attaquée est au moins de la même catégorie que l'unité attaquante. Exemple : Une unité [Medium] possédant [Replicator] se réplique seulement si a cible est une unité [Medium]
+    ou [Heavy].
+    <p />
+    La seule unité possédant cette attaque est le [Stinger]. La réplication peut seulement se faire sur les unités [Medium] et [Heavy].
+   </div></lang>
+		<lang key="hr"><div class="content">
+[Replicator] je napad koji može promijeniti brojeve na svakoj strani. Kada jeidinica sa ovim specijalnim poktretom napadne , replicira se određeni broj puta, ekvivalnetno broju jedinica koje uništite. Ako uništite 6 jedinca replicirati ćete se 6 puta.
+<p />
+Ovaj specijalni pokret radi ako je napadnuta jednica iste kategorije ili više. Primjer:[Medium] jedinica sa [Replicator] replicaira se samo ako je meta  [Medium] jedinca ili [Heavy] jedinica.
+<p />
+Jedina jedinaica koja ima ovaj napad je [Stinger]. Što znači da će se ova jedinica replicirati samo protiv [Medium] i [Heavy] jedinica.
+</div></lang>
+		<lang key="hu"><div class="content">
+    [Replicator] az a támadás amely megváltoztathatja a számokat mindkét oldalon. Amikor egy egység ezzel a speciális mozgással támad, akkor másolódik nehány alkalommal, egyenlően
+    az elpusztított egységek számával. Ha 6 egységet semmisítettél meg, 6-szor másolódik az egység.
+    <p />
+    Ez a támadás csak akkor működik ha a megtámadott egység uyganabba a kategóriába tartozik. Például: egy [Medium] egység [Replicator]-al csak akkor másolódik ha a cél [Medium]
+    vagy [Heavy] egység.
+    <p />
+    Az egyetlen egység amely rendelkezik ezzel a támadással a [Stinger]. Ez azt jelenti, hogy ez az egység csak [Medium] vagy [Heavy] egységek ellen másolódik.
+   </div></lang>
+		<lang key="it"><div class="content">
+    [Replicator] è l'attacco che può cambiare i numeri negli schieramenti. Quando una unità con questo potere attacca, si replica tante volte quante unità distrugge. Se distrugge 6 unità si replicherà 6 volte.
+    <p>
+    Questo potere funziona solo se l'unità attaccata è almeno della stessa categoria dell'unità attaccante. Ad esempio una unità [Medium] con [Replicator] si replicherà solo attaccando unità [Medium] o [Heavy].
+    </p><p>
+    L'unica unità che ha questo attacco è lo [Stinger]. Che vuol dire che questa unità si replicherà solo distruggendo unità [Medium] e [Heavy].
+   </p></div></lang>
+		<lang key="pt"><div class="content">
+    o [Replicator] é o ataque que pode mudar os números da batalha. Quando uma unidade com este ataque especial ataca, ela replica-se um determinado número de vezes equivalente 
+    ao número de unidades destruídas. Se destruires 6 unidades, a unidade com [Replicator] replica-se 6 vezes.
+    <p />
+    Este ataque especial só funciona se unidades da mesma category ou acime forem atacadas. Exemplo: uma unidade [Medium] com [Replicator] só se replica se o alvo for da  [Category]  [Medium] ou [Heavy].
+    <p />
+    A única unidade do jogo que possui este ataque é a [Stinger]. O que significa que esta unidade só se replica contra unidades [Medium] e [Heavy].
+   </div></lang>
+	</entry>
+
+	<entry key="StrikeBackContent">
+		<lang key="de"><div class="content">
+    Es ist gut den[StrikeBack] Angriff zu haben, ist aber nicht essentiell um ein Gefecht zu 
+    gewinnen. Was passiert ist wenn eine Gruppe von [Units] mit dieser Charakteristik attackiert wird
+    , werden die [Units] in dieser Gruppe die überleben, automatisch angreifen ohne [Movement] zu 
+    benutzen. 
+    <p>
+    Aber dieser Angriff hat einige Limitationen. Es wird wahrscheinlich nicht auf jeden Angriff ein 
+    Gegenangriff gestartet, die nächsten Bilder helfen dir diese Limitationen zu verstehen:
+
+    </p><div class="block"><img style="margin-right: 90px;" src="/Resources/Images/strikeBack1.png" alt="Strike Back"/><img src="/Resources/Images/strikeBack4.png" alt="Strike Back"/></div><br/><div class="block"><img style="margin-right: 34px;" src="/Resources/Images/strikeBack3.png" alt="Strike Back"/><img src="/Resources/Images/strikeBack2.png" alt="Strike Back"/></div><br/>
+  Die [Pretorian] ist eine Einheit die [StrikeBack] hat und in allen Beispielen, werden wir dir 
+  Angriffe auf die [Pretorian] zeigen.
+  Auf dem ersten Bild benutzt [Pretorian] kein [StrikeBack] weil sie von [Spider] angegriffen werden 
+  die die Fähigkeit [Paralyze] hat, die [Pretorian] werden kein [StrikeBack] benutzen weil sie 
+  paralysiert sind. <p>
+    Auf dem zweiten Bild werden die [Pretorian] von [Eagle] angegriffen, aber [Eagle] und [Pretorian] 
+    haben [Raptor] zwischen ihnen, und so wird die [Eagle] den [Catapult] benutzen, der die 
+    [Pretorian [StrikeBack] Fähigkeit blockieren wird.</p><p>
+    Der dritte Angriff verursacht auch kein [StrikeBack] weil die [Kamikaze] die [Pretorian] nicht 
+    frontal angreifen. </p><p>
+  Zu guter Letzt, die vierte Attacke ist die einzige die [StrikeBack] verursacht, weil der 
+  [Raptor] die [Pretorian] frontal angreift und nicht die Fähigkeit hat [StrikeBack] zu verhindern. </p><p>
+  Es gibt noch zwei Situationen in denen [StrikeBack] nicht aktiviert wird. Ein Fall ist wenn die 
+  Einheit die [StrikeBack] hat nicht genügend [Range] hat um [StrikeBack] zu benutzen. Zum Beispiel 
+  wenn [Pretorian] von  [Nova] attackiert wird in einer [Range] von 5, werden sie nicht auf den 
+  Angriff antworten weil sie nur eine [Range] von 3 haben. Die letzte Situation wo der [StrikeBack] 
+  nicht aktiviert wird, ist wenn die Einheit (z.B.: [Pretorian]) mit  [StrikeBack] von einer 
+  [Rebound] Attacke getroffen wird.
+    </p></div></lang>
+		<lang key="en"><div class="content">
+    The [StrikeBack] is an attack that is nice to have but is not essential to win a battle. What happens is that when a group of
+    [Units] with this caracteristic is attacked, the [Units] in that group who survive, will attack automatically attack without 
+    using any [Movement]. <p />
+    But this attack has some limitations, not all attacks are likely to be counter attacked, the next images
+    help you to understand these limitations:
+
+    <div class="block"><img style="margin-right:90px" src="/Resources/Images/strikeBack1.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack4.png" alt="Strike Back" /></div><br /><div class="block"><img style="margin-right:34px" src="/Resources/Images/strikeBack3.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack2.png" alt="Strike Back" /></div><br />
+  The [Pretorian] is an unit that has the ability to [StrikeBack] and in all examples, we will show you attacks on [Pretorian].
+  In the first image [Pretorian] does not [StrikeBack] because they are being attacked by [Spider] that have the ability to [Paralyze],
+  the [Pretorian] will not [StrikeBack] because they are paralyzed. <p />
+    In the second image [Pretorian] are being attacked by [Eagle], but [Eagle] and [Pretorian] have [Raptor] between them, and so [Eagle] will
+    use the [Catapult], wich will block the [Pretorian [StrikeBack] ability.<p />
+    The third attack also does not cause [StrikeBack] because the [Kamikaze] are not frontally attacking the [Pretorian]. <p />
+  Finally, the fourth attack is the only one that will cause [StrikeBack], because the [Raptor] are frontally attacking [Pretorian]
+  and do not have any ability to avoid the [StrikeBack]. <p />
+  There are still two other situation in wich the [StrikeBack] is not activated. In the case of the unit with [StrikeBack]
+  does not have enough [Range] to [StrikeBack]. For example if [Pretorian] are attacked by [Nova] in a [Range] of 5, they will not respond
+  to the attack because they have only [Range] 3. The last situation where the [StrikeBack] is not activated, is when the unit
+  (eg: [Pretorian]) with the ability of [StrikeBack] is reached by [Rebound].
+    </div></lang>
+		<lang key="es"><div class="content">
+    [StrikeBack] es un ataque que es bueno de tener pero no es fundamental para ganar una batalla. Lo que sucede es que cuando un grupo de
+    [Units] con esta habilidad es atacado las [Units] que sobreviven atacan automáticamente sin que el jugador lo indique o incluso gaste
+    movimientos de ataque.<p />
+ Pero este ataque tiene algunas limitaciones , como que todos los ataque son posibles de ser contraatacados, las siguientes imágenes
+ ayudan a entender esas limitaciones:
+
+    <div class="block"><img style="margin-right:90px" src="/Resources/Images/strikeBack1.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack4.png" alt="Strike Back" /></div><br /><div class="block"><img style="margin-right:34px" src="/Resources/Images/strikeBack3.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack2.png" alt="Strike Back" /></div><br />
+ Las [Pretorian] son unidades que tienen la habilidad de [StrikeBack] , en todos los ejemplos se efectuarán ataques a las [Pretorian].
+ En la primera imágen las unidades [Pretorian] no van a contratacar porque están siendo atacadas por unidades [Spider] que tienen la habilidad de [Paralyse],
+ por lo que las unidades [Pretorian] son paralizadas no efectuando un [StrikeBack].<p />
+
+ En la segunda imágen las unidades [Pretorian]  están siendo atacadas por unidades [Eagle], pero como las unidades [Eagle] tienen unidades [Raptor] en frente atacando 
+ con la habilidad [Catapult], las unidades [Pretorian] no logran alcanzar las unidades [Eagle] con un [StrikeBack] porque tienes unidades [Raptor] 
+    en el camino.<p />
+
+ El tercer ataque también no provoca [StrikeBack] porque las unidades [Kamikaze] no están atacando de manera frontal a las unidades [Pretorian].<p />
+
+ Finalmente, el cuarto ataque es el único que va a provocar [StrikeBack] porque las unidades [Raptor] están atacando de manera frontal a las unidades [Pretorian] 
+ las cuales no tienen ninguna habilidad que evite un [StrikeBack].<p />
+
+ Aún  existen otras dos situaciones en que [StrikeBack] no es activado. En el caso que una unidad con habilidad [StrikeBack] no tenga [Range] suficiente 
+ para responder al ataque. Por ejemplo sí las unidades [Pretorian] fuesen atacadas a 5 de distancia por [Nova] no logran responder al ataque porque solo tienen
+    [Range] de 3. La última situación en que un [StrikeBack] no es activado, se dá cuando una unidad (ej:[Pretorian]) con la habilidad de [StrikeBack] 
+ es alcanzada con [Rebound].
+  </div></lang>
+		<lang key="fr"><div class="content">
+    L’attaque [StrikeBack] est intéressante, mais pas essentielle pour gagner un combat. Lorsqu’un [Units] avec cette caractéristique est attaqué, si des [Units] (une certaine quantité) dans ce groupe survivent, il y a riposte automatique sans même utiliser des points de [Movement]. <p />
+    Mais cette attaque est limitée, car elle fonctionne seulement dans certains cas. Voici quelques images pour vous aidez à comprendre:
+    <div class="block"><img style="margin-right:90px" src="/Resources/Images/strikeBack1.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack4.png" alt="Strike Back" /></div><br /><div class="block"><img style="margin-right:34px" src="/Resources/Images/strikeBack3.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack2.png" alt="Strike Back" /></div><br />
+  Le [Pretorian] est un type d’unité ayant [StrikeBack] et dans tous les exemples, c’est le [Pretorian] qui est attaqué.
+  Dans la première image, le [Pretorian] n’a pas de [StrikeBack] parce qu’il est attaqué par des [Spider] possédant l’aptitude [Paralyze],
+  et le [Pretorian] ne peut [StrikeBack] car il est paralysé. <p />
+    Dans la seconde image, le [Pretorian] est attaqué par un [Eagle], mais il y a un [Raptor] entre les deux. L’[Eagle]  va donc utiliser [Catapult], bloquant l’aptitude du [Pretorian] ability.<p />
+    [StrikeBack] ne fonctionne pas dans la troisième image, car les [Kamikaze] ne font pas une attaque de front sur le [Pretorian]. <p />
+  Finalement, la quatrième attaque, qui est la seule qui provoque [StrikeBack], car les [Raptor] attaque le [Pretorian] sur le front et est incapable d’éviter l’aptitude [StrikeBack]. <p />
+  Il existe deux autres situations ou l’aptitude [StrikeBack] n’est pas activée. Si l’unité ayant [StrikeBack] qui est attaqué a une plus petite [Range] que l’attaquant, alors
+  [StrikeBack] ne fonctionne pas. Par exemple, si le [Pretorian] est attaqué par des [Nova]ayant une[Range] de 5, il n’y a pas de riposte,
+  car une [Range] de 3 est insuffisante. Il existe un dernier car où [StrikeBack] ne fonctionne pas : quand une unité
+  (eg: [Pretorian]) avec l’aptitude [StrikeBack] est atteinte à l’aide de l’aptitude [Rebound].
+    </div></lang>
+		<lang key="hr"><div class="content">
+[StrikeBack] je napad koje je zgodan za imati ali nije esencijalan za dobivanje bitke. Što se dogodi kada je grupa [Units] s ovom karakteristikom napadnuta, [Units] u toj grupi koje prežive, će napasti automatksi bez da se služe s [Movement]. <p />
+Ali ovaj napad ima neka ograničenja, neće svi napadi biti protunapadnuti, sljedeće slike vam pomažu da razumijete ova ograničenja:
+
+<div class="block"><img style="margin-right:90px" src="/Resources/Images/strikeBack1.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack4.png" alt="Strike Back" /></div><br /><div class="block"><img style="margin-right:34px" src="/Resources/Images/strikeBack3.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack2.png" alt="Strike Back" /></div><br />
+[Pretorian] je jedinica koja ima sposobnost da [StrikeBack] jer su napdnuti od strane [Spider] koji ima sposobnost da [Paralyze], [Pretorian] neće [StrikeBack] jer je paraliziran. <p />
+U sljedećoj slici [Pretorian] je napadnut od strane [Eagle], ali [Eagle] i [Pretorian] imaju [Raptor] između njih i tako će [Eagle] upotrijebiti [Catapult], koji će blokirati [Pretorian [StrikeBack] sposobnost.<p />
+Treći napad također ne uzrokuje [StrikeBack] jer [Kamikaze] ne nepadju frontalno [Pretorian]. <p />
+Finalno, četvrti napad je jedini koji će uzrokovati [StrikeBack], jer [Raptor] napada frontalno [Pretorian] i nema mogućnosti da izbjegne [StrikeBack]. <p />
+Postoje još dvije druge situacije u kojima [StrikeBack] nije aktiviran. U slučaju da je jedinica sa  [StrikeBack] nema dovoljno [Range] za [StrikeBack]. Naprimjer ako [Pretorian] je napadnut od  [Nova] na [Range] od 5, neće odgovoriti na napad jer imaju samo [Range] 3. Zadnja situacija kada [StrikeBack] nije aktiviran jekada jedinica (eg: [Pretorian]) sa sposobnosti [StrikeBack]  je dosegnuta od [Rebound].
+</div></lang>
+		<lang key="hu"><div class="content">
+   A [StrikeBack] egy hasznos támadás de nem szükséges egy csata megnyeréséhez. Amikor megtámadnak egy [Units]-okból álló csoportot
+    amely rendelkezik ezzel a tulajdonsággal, az [Units] amelyek a csoportból túlélik a támadást, automatikusan visszatámadnak anélkül,
+    hogy [Movement]-et használnának. <p />
+    De ennek a támadásnak vannak korlátai, nem minden támadásra lesz válaszcsapás, a következő képek
+    segítenek megérteni ezeket a korlátokat:
+
+    <div class="block"><img style="margin-right:90px" src="/Resources/Images/strikeBack1.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack4.png" alt="Strike Back" /></div><br /><div class="block"><img style="margin-right:34px" src="/Resources/Images/strikeBack3.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack2.png" alt="Strike Back" /></div><br />
+ A [Pretorian] egy olyan egység amely rendelkezik [StrikeBack] képességgel és minden példánál, bemutatjuk a támadásokat a [Pretorian]-on.
+  Az első képen a [Pretorian] nem [StrikeBack] mert [Spider] támadta meg őket, amely rendelkezik [Paralyze] képességgel,
+  a [Pretorian] nem fog [StrikeBack] mert meg vannak bénítva. <p />
+    A második képen a [Pretorian]-t egy [Eagle] támadja, de [Eagle] és [Pretorian] között ott a [Raptor] és így [Eagle] a
+    [Catapult]ot fogja használni, amely blokkolja a  [Pretorian [StrikeBack] képességét.<p />
+    A harmadik témadás szintén nem okoz [StrikeBack]-et, mert a [Kamikaze] nem szemből támadja a [Pretorian]-t. <p />
+  Végül, a negyedik támadás az amely [StrikeBack]-et okoz, mert a [Raptor] szemből támadja a [Pretorian]-t
+  és nincs képessége hogy elkerülje a [StrikeBack]-et. <p />
+  Van még két olyan helyzet amelyben a [StrikeBack] nem aktiválódik. Abban az esetben ha ez egységnek amely rendelkezik [StrikeBack]-el
+  nincs elég [Range]-e, hogy végrhajtsa a [StrikeBack]-et. Például ha a [Pretorian]-t [Nova] támadja meg 5 [Range]-ről , akkor a támadás viszonzatlanul
+  marad mert csak 3 [Range] a hatókörük. Az utolsó esetben ahol a [StrikeBack] nem aktiválódik, amikor az egységet
+  (pl: [Pretorian]) a [StrikeBack] képességével egy [Rebound] befolyásolja.
+    </div></lang>
+		<lang key="it"><div class="content">
+    Il [StrikeBack] è un'abilità utile ma non essenziale per vincere una battaglia. Quello che succede è che quando un gruppo di [Units] con questa abilità viene attaccato, le [Units] del gruppo che sopravvivono attaccano automaticamente, e senza spendere [Movement] le unità attaccanti. <p>
+    Questo attacco ha però delle limitazioni, non con tutti gli attacchi si può contrattaccare. Le seguenti immagini ti possono aiutare a capire queste limitazioni:
+
+    </p><div class="block"><img style="margin-right: 90px;" src="/Resources/Images/strikeBack1.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack4.png" alt="Strike Back" /></div><br /><div class="block"><img style="margin-right: 34px;" src="/Resources/Images/strikeBack3.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack2.png" alt="Strike Back" /></div><br />
+
+  Il [Pretorian] è un'unità che ha l'abilità del [StrikeBack] e in ogni esempio è l'unità attaccata. Nella prima immagine il [Pretorian] non usa il [StrikeBack] perchè è attaccato dal [Spider] che ha l'abilità della [Paralyze], quindi il [Pretorian] non userà il [StrikeBack] perchè è paralizzato.<p>
+    Nella seconda immagine il [Pretorian] viene attaccato dall'[Eagle], ma tra l'[Eagle] e il [Pretorian] c'è un [Raptor], quindi l'[Eagle] userà la [Catapult], che non fa attivare il [StrikeBack] del [Pretorian]</p><p>Anche nel terzo esempio non c'è [StrikeBack] perchè i [Kamikaze] stanno attaccando il [Pretorian] dal lato.</p><p> Il quarto esempio è l'unico dove l'attacco causerà l'attivazione del [StrikeBack], in quanto i [Raptor] stanno attaccando il [Pretorian] frontalmente e non hanno alcuna abilità per evitare il [StrikeBack].</p><p>
+  Ci sono altre due situazioni in cui il [StrikeBack] non si attiva. La prima è quando l'unità attaccante è troppo lontana per essere raggiunta dal [StrikeBack], ad esempio se un gruppo di [Nova] attacca dei [Pretorian] con una [Range] di 5, i [Pretorian] non riusciranno a rispondere, avendo una [Range] di 3. L'ultima situazione in cui il [StrikeBack] non viene attivato è quando l'unità con il [StrikeBack] viene colpita dal [Rebound].</p></div></lang>
+		<lang key="pt"><div class="content">
+    O [StrikeBack] é um ataque que é bom ter mas não é fundamental para de ganhar uma batalha. O que acontece é que quando um grupo de 
+    [Units] com esta habilidade é atacado, as [Units] que sobrevivem desse grupo atacam automáticamente sem que o jogador precise de 
+    o indicar ou inclusivé gastar movimentos de ataque.<p />
+    Mas este ataque tem algumas limitações, nem todos os ataques são passíveis de ser contra atacados, as imagens seguintes 
+    ajudam a perceber essas limitações:
+
+    <div class="block"><img style="margin-right:90px" src="/Resources/Images/strikeBack1.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack4.png" alt="Strike Back" /></div><br /><div class="block"><img style="margin-right:34px" src="/Resources/Images/strikeBack3.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack2.png" alt="Strike Back" /></div><br />
+    As [Pretorian] são uma unidade que tem a habilidade de [StrikeBack] e em todos os exemplos vamos efectuar ataques às [Pretorian].
+    Na primeira imagem as [Pretorian] não vão contra atacar porque estão a ser atacadas pela [Spider] que tem a habilidade de [Paralyse],
+    logo as [Pretorian] são paralizadas não efectuando o [StrikeBack].<p />
+    Na segunda imagem as [Pretorian] estão a ser atacadas pelas [Eagle], mas como as [Eagle] têm as [Raptor] à frente estão a atacar 
+    usando a habilidade [Catapult], logo as [Pretorian] não conseguem atingir as [Eagle] com o [StrikeBack] porque têm as [Raptor] 
+    no caminho.<p />
+    O terceiro ataque também não provoca [StrikeBack] porque as [Kamikaze] não estão a atacar frontalmente as [Pretorian].<p />
+    Finalmente, o quarto ataque é o único que vai provocar [StrikeBack] porque as [Raptor] estão a atacar frontalmente as [Pretorian] 
+    e não têm qualquer tipo de habilidade que evite o [StrikeBack].<p />
+    Ainda existem outras duas situação em que o [StrikeBack] não é activo. No caso da unidade com a habilidade de [StrikeBack] não ter [Range] suficiente 
+    para responder ao ataque. Por exemplo se as [Pretorian] forem atacadas a 5 de distância por [Nova] não conseguem responder ao ataque porque só têm 
+    [Range] de 3. A última situação em que o [StrikeBack] não é activado, é quando a unidade (ex:[Pretorian]) com a habilidade de [StrikeBack] 
+    é atingida com [Rebound].
+  </div></lang>
+	</entry>
+
+	<entry key="TripleAttackContent">
+		<lang key="de"><div class="content">
+    [TripleAttack] ist ein zerstörender Angriff der in der Lage ist drei Gruppen von Einheiten mit 
+    nur einem einzigen Schlag zu zerstören. Wenn du eine Gruppe mit [TripleAttack] angreifst, 
+    erhalten die benachbarten Einheits-Gruppen einen <b>50%</b> Schaden von dem erhaltenen Schaden 
+    des Ziels.
+    <p>
+    Dieser Angriff ist ideal um die[DispensableUnits] des Feindes zu zerstören und auch um die 
+    <i>unreachable</i> Gruppen zu erreichen.
+    Hier ein Beispiel eines Angriffs:
+
+    <img class="block" src="/Resources/Images/Triple1.png" alt="Triple Attack"/>
+
+    Der ganze [Rain] des Feindes wird zerstört durch diesen [Driller]. Das ist so weil der [Driller] 
+    [TripleAttack] hat und weil die [Rain] Gruppen sich exakt auf diesen Positionen befinden, 
+    neben dem Ziel liegend, und senkrecht zum [Driller].
+
+    </p><p>
+    [CombatUnits] mit [TripleAttack] sind auch in der Lage die <i>unreachable</i> Gruppen zu 
+    erreichen. Beachte das folgende Beispiel. Die [Fenix] des Feindes ist wohl beschützt durch 
+    [DispensableUnits], die einen Direktangriff verhindern.
+    Dennoch kann der [Driller] sich einschleichen und der [Fenix] Schaden zufügen mit [TripleAttack]:
+
+    <img class="block" src="/Resources/Images/Triple2.png" alt="Triple Attack"/></p></div></lang>
+		<lang key="en"><div class="content">
+    [TripleAttack] is a devastating attack that may destroy three groups of units with just an attack. When
+    you use a group having [TripleAttack] to attack, the adjacent unit groups will get <b>50%</b> of
+    the damage inflicted on the target group.
+    <p />
+    This attack is ideal to destroy the enemy's [DispensableUnits] and also to reach <i>unreachable</i> groups.
+    Here's an example of the attack:
+
+    <img class="block" src="/Resources/Images/Triple1.png" alt="Triple Attack" />
+
+    All the enemy's [Rain] will be destroyed by that [Driller]. That's because the [Driller] has [TripleAttack]
+    and because the [Rain] groups are on exactly that positions, adjacent to the target, and perpendicular
+    to the [Driller].
+
+    <p />
+    [CombatUnits] with [TripleAttack] are also able to reach <i>unreachable</i> groups. Consider the folloging
+    example. The enemy's [Fenix] is well protected by [DispensableUnits], that prevent a direct attack.
+    However, once again, the [Driller] can sneak in and inflict damage on the [Fenix] using [TripleAttack]:
+
+    <img class="block" src="/Resources/Images/Triple2.png" alt="Triple Attack" /></div></lang>
+		<lang key="es"><div class="content">
+  [TripleAttack] Es un ataque devastador que es capaz de destruir hasta tres grupos de unidades  con solo un ataque. 
+ Cuando se ataca con una unidad que tiene [TripleAttack] , las unidades encima al objetivo recibiran un <b>50%</b>
+ del daño recibido por el objetivo.
+
+    <p />
+ Este tipo de ataque es ideal para destruir [DispensableUnits] del adversário, y también para llegar a los [CombatUnits]
+    protegidas contra ataques directos. Un ejemplo de este ataque sería:
+    <img class="block" src="/Resources/Images/Triple1.png" alt="Triple Attack" />
+ Todos los grupos de [Rain] del adversário serán descruidos por [Driller]. Esto porque [Driller] tiene [TripleAttack] 
+ y porque los grupos de [Rain] están en las posiciones encima del objetivo y perpendiculares al [Driller].
+    <p />
+ Las [CombatUnits] con [TripleAttack] son también capaces de llegar a los [DispensableUnits] del adversário.
+ A modo de ejemplo, este grupo de [Fenix] del adversário están bien protegidas por [DispensableUnits] los que 
+ impiden un ataque directo. A pesar de esto un [Driller] consigue rodear la muralla defensiva y dañar el grupo
+ de [Fenix] a través de su [TripleAttack]:
+ 
+    <img class="block" src="/Resources/Images/Triple2.png" alt="Triple Attack" /></div></lang>
+		<lang key="fr"><div class="content">
+    [TripleAttack] est une attaque dévastatrice pouvant détruire 3 groupes d'unités en même temps, en une seule attaque! Lorsqu'un groupe d'unité utilise [TripleAttack] pour attaquer, les groupes adjacents à la cible vont recevoir <b>50 %</b> des dégâts infligés sur la cible principale.
+    <p />
+    Cette aptitude est l'idéale pour détruire les [DispensableUnits] de l'ennemi et attendre des groupes habituellement <i>hors de portée</i>.
+    Voici un exemple :
+
+    <img class="block" src="/Resources/Images/Triple1.png" alt="Triple Attack" />
+
+    Tout les [Rain] de l'ennemi sont détruit parce que le [Driller] a l'aptitude [TripleAttack] et que les groupes de 
+    [Rain] sont directement adjacents à la cible du [Driller] et perpendiculaire à ce dernier.
+
+    <p />
+    [CombatUnits] avec [TripleAttack] peuvent attendre des groupes <i>hors de portée</i> en voici un exemple éloquent : Le [Fenix] ennemi est bien protégé par des [DispensableUnits] empêchant une attaque directe.
+    Par contre, comme expliqué déjà, le [Driller] peut s'introduire à travers la ligne ennemie et infliger des dégâts aux [Fenix] avec la [TripleAttack]:
+
+    <img class="block" src="/Resources/Images/Triple2.png" alt="Triple Attack" /></div></lang>
+		<lang key="hr"><div class="content">
+[TripleAttack] je razarajući napad koji može uništiti tri grupe jedinica sa samo jednim napadom. Kada upotrijebite grupu koja ima  [TripleAttack] za napad. sve jedinice koje su blizu grupe će dobiti  <b>50%</b> štete učinjene ciljanoj grupi.
+<p />
+Ovaj napad je idealan za uništavanje neprijateljevih [DispensableUnits] i također da dosegne <i>nedohvatljive</i> grupe.
+Ovdje je primjer napada:
+
+<img class="block" src="/Resources/Images/Triple1.png" alt="Triple Attack" />
+
+Sve neprijateljeve [Rain] će biti uništene od toga [Driller]. To je zato što [Driller] ima [TripleAttack] i zato što su grupe [Rain] točno na mjestu, blizu mete i okomite u odnosu na [Driller].
+
+<p />
+[CombatUnits] sa [TripleAttack] mogu također dosegnuti <i>nedohvatljive</i> grupe. Uzmite u obzir sljedeći primjer. Neprijateljev [Fenix] je dobro zaštićen od [DispensableUnits], što sprječava direktan napad.
+Ali, još jednom [Driller] se može prišuljati i nanijeti štetu [Fenix] koristeći se [TripleAttack]:
+
+<img class="block" src="/Resources/Images/Triple2.png" alt="Triple Attack" /></div></lang>
+		<lang key="hu"><div class="content">
+    A [TripleAttack] egy pusztító támadás, amely akár három, egységekből álló csoportot is megsemmisíthet egyetlen támadással. Amikor 
+    egy olyan csoportot használsz amely rendelkezik [TripleAttack] támadással , a környező egység csoportok a megtámadott egység sérülésének <b>50%</b>-ával
+    sebződnek.
+    <p />
+    Ez a támadás ideális az ellenség [DispensableUnits] megsemmisítésére és <i>unreachable</i> csoportok elérésére..
+    Itt egy példa a támadásra:
+
+    <img class="block" src="/Resources/Images/Triple1.png" alt="Triple Attack" />
+
+    Az ellenség összes [Rain]-je el fog pusztulni a [Driller]-től. Azért, mert a [Driller] rendelkezik [TripleAttack]-el
+    és mert a [Rain] csoportok pontosan abban a pozícióban vannak, a cél környezetében, és merőlegesen a  [Driller]-re.
+
+    <p />
+    [CombatUnits] [TripleAttack]-el képesek elérni az  <i>unreachable</i> csoportokat iss. Vegyük a következő
+    példát. Az ellenség [Fenix]-je jól védett a  [DispensableUnits]-al, amely meggátol egy közvetlen támadást.
+    Habár a [Driller] bekúszhat és sebzést okozhat a  [Fenix]-nek [TripleAttack] használatával:
+
+    <img class="block" src="/Resources/Images/Triple2.png" alt="Triple Attack" /></div></lang>
+		<lang key="it"><div class="content">
+    [TripleAttack] è un attacco devastante in grado di distruggere 3 gruppi di unità con un solo attacco. Quando viene usato su di un gruppo di unità avversarie, anche i due gruppi adiacenti al gruppo colpito riveceranno il <b>50%</b> del danno causato al primo gruppo.
+    <p>
+    Questo attacco è l'ideale per distruggere le [DispensableUnits] avversarie e per raggiungere gruppi di unità altrimenti <i>irraggiungibili</i>.
+    Ecco un esempio dell'attacco:
+
+    <img class="block" src="/Resources/Images/Triple1.png" alt="Triple Attack" />
+
+    Tutte le [Rain] avversarie saranno distrutte dai [Driller]. Questo perchè i [Driller] hanno il [TripleAttack] e perchè i gruppi di [Rain] sono esattamente in quella posizione, adiacenti al bersaglio e perpendicolari rispetto a dove mirano i [Driller].
+    </p><p>
+    Le [CombatUnits] con il [TripleAttack] sono anche capaci di raggiungere gruppi <i>irraggiungibili</i>, come nel seguente esempio. Le [Fenix] nemiche sono ben protette dalle [DispensableUnits], che prevengono un attacco diretto.
+    Ad ogni modo i [Driller] riescono ad infliggere danno alle [Fenix] usando il [TripleAttack]:
+
+    <img class="block" src="/Resources/Images/Triple2.png" alt="Triple Attack" /></p></div></lang>
+		<lang key="pt"><div class="content">
+    O [TripleAttack] é um ataque devastador que pode destruir três grupos de unidades com apenas um ataque.
+    Quando se ataca com uma unidade que tem [TripleAttack], os grupos adjacentes ao alvo serão atingidos
+    com <b>50%</b> do dano recebido pelo alvo.
+    <p />
+    Este ataque é ideal para destruir a [DispensableUnits] do adversário, tal como conseguir atingir [CombatUnits]
+    protegidas contra ataques directos. Aquí está um exemplo deste ataque:
+
+    <img class="block" src="/Resources/Images/Triple1.png" alt="Triple Attack" />
+
+    Todos os grupos de [Rain] do adversário serão destruídos por aquele [Driller]. Isto porque o [Driller]
+    tem [TripleAttack] e porque os grupos de [Rain] estão naquelas posições: adjacentes ao alvo e perpendiculares
+    ao [Driller].
+    <p />
+    As [CombatUnits] com [TripleAttack] são também capazes de contornar a [DispensableUnits] do inimigo.
+    Vejemos o seguinte exemplo. O grupo de [Fenix] do adversário está bem protegido por [DispensableUnits],
+    que impedem um ataque directo. Contudo, uma unidade como o [Driller] consegue contornar a muralha defensiva
+    e dar dano ao grupo de [Fenix] através do seu [TripleAttack]:
+
+    <img class="block" src="/Resources/Images/Triple2.png" alt="Triple Attack" /></div></lang>
+	</entry>
+
+</resources>

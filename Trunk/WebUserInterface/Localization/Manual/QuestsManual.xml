@@ -1,0 +1,1771 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="">
+		<lang key="de"></lang>
+		<lang key="en"></lang>
+		<lang key="pt"></lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3BetaForceFleetsManual">
+		<lang key="de">Beta Force Flotten sind gesichtet worden in der Level 3 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Beta Force fleets have been spotted on the level 3 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="pt">Armadas da Beta Force foram localizadas na zona de nível 3. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3BlackMercFleetsManual">
+		<lang key="de">Black Mercs Flotten sind gesichtet worden in der Level 9 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Black Mercs fleets have been spotted on the level 9 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="fr">Des escadrilles noires Mercs ont été repérés dans la zone niveau 9. Trouvez les et détruisez 3 escadrilles.</lang>
+		<lang key="hr">Black Mercs flote su uočene na zoni nivoa 9. Pronađite i uništite 3 flote.</lang>
+		<lang key="pt">Armadas de Black Mercs foram localizadas na zona de nível 9. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3DarkMercFleetsManual">
+		<lang key="de">Dark Merc Flotten sind gesichtet worden in der Level 10 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Dark Mercs fleets have been spotted on the level 10 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="fr">Des escadrilles Darks Mercs ont été repérés dans la zone niveau 1. Trouvez les et détruisez 3 escadrilles.</lang>
+		<lang key="hr">Dark Mercs flote su uočene na zoni nivoa 10. Pronađite ih i uništite 3 flote.</lang>
+		<lang key="pt">Armadas de Dark Mercs foram localizadas na zona de nível 10. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3DeltaForceFleetsManual">
+		<lang key="de">Delta Force Flotten sind gesichtet worden in der Level 7 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Delta Force fleets have been spotted on the level 7 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="pt">Armadas da Delta Force foram localizadas na zona de nível 7. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3FleetsManual">
+		<lang key="de">In die Schlacht mit einer anderen [Fleet] gehen ist genauso einfach wie ein [Planet] zu erobern.
+  Du musst nur deine [Fleet] selektiert haben (die die du benutzen willst um den anderen Spieler 
+  anzugreifen) und klicke auf [Fleet] wenn kämpfen möchtest. <p>
+  Ein kleines pop-up Menü erscheint mit der folgenden Option "Flotte verfolgen und angreifen", Klicke 
+  es an und deine [Fleet] wird automatisch die andere [Fleet] angreifen und verfolgen.
+  Sobald deine [Fleet] die andere [Fleet] erreicht fängt der Kampf an und wird zugänglich sein im Kampf-
+  Menü.</p><p>
+  Deine [Fleet] ist natürlich für die Dauer der Schlacht bewegungsunfähig.
+  Sobald die Schlacht vorbei (und wenn du gewinnst natürlich) erlangst du wieder die normale Kontrolle 
+  über deine [Fleet],
+  wenn du deine [Fleet] verlierst wird alles was in der Flotte war zerstört (Ressourcen inklusive).
+  Also sei vorsichtig bevor du eine andere [Fleet] angreifst denn du könntest Ressourcen die du nicht 
+  riskieren willst, verlieren.</p></lang>
+		<lang key="en">Engaging in a battle with another [Fleet] is as easy as Conquering a [Planet].
+  You just need to have your [Fleet] selected (the one you want to engage the other player with) and click the [Fleet] you want to
+  engage (battle with). <p />
+  A little pop-up menu will appear with the option "Follow and Attack Fleet", click it and your [Fleet] will automatically follow
+  and attack that [Fleet].
+  Once your [Fleet] reaches the other [Fleet] the battle will begin and will be accessible in the battle menu.<p />
+  Your [Fleet] will, obviously be immobile for the duration of the battle.
+  Once the battle ends (and if you win of course) you will once again be able to control the [Fleet] as normal,
+  if you lose the [Fleet] and all that was with it will be destroyed (Resources included).
+  So be careful before attacking another [Fleet] if you have resources you don't want to risk going to waste.</lang>
+		<lang key="es">Entrar en batalla con otra [Fleet] es tan fácil como conquistar un [Planet].
+  Sólo tienes que tener tu [Fleet] seleccionada (la que quieres usar para atacar otro jugador) y hacer click en la [Fleet] que pretendes atacar. <p />
+  Un pequeño menu va a aparecer con las opciones de "Atacar", hace click y  tu [Fleet] va automáticamente perseguir y atacar la [Fleet] enemiga.
+  Así que tu [Fleet]  alcancé a la otra, una batalla comenzará y estará acessible en el menu de batallas.<p />
+  Tu [Fleet] obviamente quedará imobilizada durante el tiempo de batalla. De la misma manera cuando la batalla acabe (y si ganas) podrás nuevamente
+  controlar la [Fleet], si pierdes tu [Fleet] será destruída y los recursos que tuviese serán robados. Por lo tanto ten cuidado antes de atacar
+  otra [Fleet], si tuvieras recursos en la carga y no los quieres perder.</lang>
+		<lang key="fr">S'engager dans un cobat avec une autre [Fleet] est aussi facile que conquérir une [Planet].
+ Il suffit d'envoyer une [Fleet] sélectionné (Celle avec laquelle vous voulez attaquer) et cliquer L'[Fleet] que vous voulez combattre. <p />
+  Un petit menu apparaîtra avec l'option "suivre et attaquer l'escadrille", cliquez et votre [Fleet] va suivre et automatiquement attaquer cette [Fleet].
+  Lorsque votre [Fleet]attainte l'autre [Fleet] le combat commence et il vous faudra vous dirger dans le menu des combats. <p /> 
+  Votre [Fleet] sera immobilisé pour la durée du combat. 
+  Lorsque le combat termine (et si vous gagneze) vous pourrez contrôler votre [Fleet] comme d'habitude, 
+  mais si vous perdez,  l'[Fleet] est complètement détruite avec sa cargaison (Ressources incluent). 
+  Il faut donc faire attention avant d'attaquer une autre [Fleet] de vous assurer que l'escadrille d'attaque ne possède pas des ressouces que vous voulez perdre.</lang>
+		<lang key="hr">Započinjanje bitke sa drugom [Fleet] je laki način pokoravanja [Planet].
+  Samo trebate imati vašu [Fleet] odabranu (onu s kojom želite napasti drugog igrača) i klikniti na [Fleet] s kojom želite započeti bitku. <p />
+  Mali pop-up meni će se pojaviti sa opcijom "Slijedi i napadni Flotu", kliknite na  njega i vaša [Fleet] će automatski slijediti i napasti tu [Fleet].
+  Jednom kada vaša [Fleet] dosegne drugu [Fleet] bitka će početi i izbornik bitke će bit dostupan.<p />
+  Vaša [Fleet] će očito biti nepokretna tokom bitke.
+  Jednom kada bitka završi ( i ako vi pobijedite naravno) vi ćete opet moći kontrolirati vašu [Fleet] normalno, ako izgubite [Fleet] i sve što je bilo sa njom će biti uništeno (uključujući resurse).
+  Zato budite oprezni prije nego napadnete drugu [Fleet] ako imate resurse koje ne želite izgubiti.</lang>
+		<lang key="pt">Entrar em batalha com outra [Fleet] é tão fácil como conquistar um [Planet].
+  Só tens de ter a tua [Fleet] seleccionada (a que queres usar para atacar outro jogador) e clicar na [Fleet] que pretendes atacar. <p />
+  Um pequeno menu vai aparecer com as opções "Atacar", clica e a tua [Fleet] vai automaticamente perseguir e atacar a [Fleet] inimiga.
+  Assim que a tua [Fleet]  alcançar a outra, uma batalha irá começar e estará acessível no menu de batalhas.<p />
+  A tua [Fleet] obviamente ficará imobilizada durante o tempo de batalha. Assim que a batalha acabar (e se ganhares) poderás novamente
+  controlar a [Fleet], se perderes a tua [Fleet] será destruída e os recursos que tiver serão roubados. Então tem cuidado antes de atacares
+  outra [Fleet], se tiveres recursos na carga e não os quiseres perder.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3GammaForceFleetsManual">
+		<lang key="de">Gamma Force Flotten sind gesichtet worden in der Level 5 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Gamma Force fleets have been spotted on the level 5 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="pt">Armadas da Gamma Force foram localizadas na zona de nível 5. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3MercFleetsManual">
+		<lang key="de">Mercs Flotten sind gesichtet worden in der Level 1 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Mercs fleets have been spotted on the level 1 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="fr">Des escadrilles Mercs ont été repérés dans la zone niveau 1. Trouvez les et détruisez 3 escadrilles.</lang>
+		<lang key="hr">Merc flote su uočene u zoni nivoa 1. Pronađi ih i uništi 3 flote.</lang>
+		<lang key="pt">Armadas de Mercs foram localizadas na zona de nível 1. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3OmegaForceFleetsManual">
+		<lang key="de">Omega Force Flotten sind gesichtet worden in der Level 10 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Omega Force fleets have been spotted on the level 10 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="pt">Armadas da Omega Force foram localizadas na zona de nível 10. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3RogueMercFleetsManual">
+		<lang key="de">Rogue Mercs Flotten sind gesichtet worden in der Level 5 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Rogue Mercs fleets have been spotted on the level 5 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="fr">Des escadrilles rogue Mercs ont été repérés dans la zone niveau 5. Trouvez les et détruisez 3 escadrilles.</lang>
+		<lang key="hr">Rogue Mercs flote su uočene na zoni nivoa 5. Pronađite i uništite 3 flote.</lang>
+		<lang key="pt">Armadas de Rogue Mercs foram localizadas na zona de nível 5. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3SentryMercFleetsManual">
+		<lang key="de">Sentry Merc Flotten sind gesichtet worden in der Level 3 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Sentry Mercs fleets have been spotted on the level 3 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="fr">Des escadrilles Mercs de sentinelles ont été repérées dans la zone niveau 3. Trouvez les et détruisez 3 escadrilles.</lang>
+		<lang key="hr">Sentry Mercs flote su uočene u području nivoa 3. Pronađite ih i uništite 3 flote.</lang>
+		<lang key="pt">Armadas de Sentry Mercs foram localizadas na zona de nível 3. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3SigmaForceFleetsManual">
+		<lang key="de">Sigma Force Flotten sind gesichtet worden in der Level 9 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Sigma Force fleets have been spotted on the level 9 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="pt">Armadas da Sigma Force foram localizadas na zona de nível 9. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3SpaceForceFleetsManual">
+		<lang key="de">Alpha Force Flotten wurden gesichtet in der Level 1 Zone. Finde sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Alpha Force fleets have been spotted on the level 1 zone. Find them and destroy 3 fleets</lang>
+		<lang key="pt">Armadas da Alpha Force foram detectadas na zona de nível 1. Encontra-as e destroi 3 armadas</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3TechMercFleetsManual">
+		<lang key="de">Tech Mercs Flotten sind gesichtet worden in der Level 7 Zone. Find sie und zerstöre 3 Flotten.</lang>
+		<lang key="en">Tech Mercs fleets have been spotted on the level 7 zone. Find them and destroy 3 fleets.</lang>
+		<lang key="hr">Tech Mercs flote su uočene u zoni nivoa 7. Pronađite ih i uništitie 3 flote.</lang>
+		<lang key="pt">Armadas de Tech Mercs foram localizadas na zona de nível 7. Encontra-as e destroi 3 armadas.</lang>
+	</entry>
+
+	<entry key="BattleIntro">
+		<lang key="de">[Quests] die auf Kämpfe ausgerichtet sind.</lang>
+		<lang key="en">[Quests] that focus on battles.</lang>
+		<lang key="es">[Quests] mas orientadas para las batallas.</lang>
+		<lang key="hr">[Quests] koji se fokusiraju na bitke.</lang>
+		<lang key="pt">[Quests] mais viradas para as batalhas.</lang>
+	</entry>
+
+	<entry key="BountyHunterIntro">
+		<lang key="de">[Quests] die darauf ausgerichtet sind andere Spieler zu jagen.</lang>
+		<lang key="en">[Quests] that focus on hunting other players.</lang>
+		<lang key="es">[Quests] que se enfocan em cazar otros jugadores.</lang>
+		<lang key="hr">[Quests] koji se fokusirauju na lov drugih igrača.</lang>
+		<lang key="pt">[Quests] que se focam em caçar outros jogadores.
+  Ver também <a href="Quest/CustomPlayerBounty.aspx">Caças Encomendadas</a>.</lang>
+	</entry>
+
+	<entry key="BringBeriliumToAcademyLevel3Manual">
+		<lang key="de">Sentry Merc Flotten benutzen ein sehr seltenes Element das ihre Einheiten stärkt, das Berilium. Bringe 3 Proben von diesem Element zu einer Level 3 Akademie.</lang>
+		<lang key="en">Sentry Merc fleets use a very rare element that powers their units, the Berilium. Bring 3 samples of this element to any level 3 Academy.</lang>
+		<lang key="fr">Les Mercs sentinnelles utilisent un élément rare pour alimenter leurs unités, le Bérilyum. Apportez-moi en 3 échantillons à une académie niveau 3.</lang>
+		<lang key="hr">Sentry Merc koriste jako rijteki element koji napaja njihove jedinice, Berilij. Donesite 3 uzorka ovoga elementa na bilo koju Akademiju nivoa 3.</lang>
+		<lang key="pt">As armadas de Sentry Mercs usam um elemento muito raro para dar poder às suas naves, o Berílio. Trás 3 amostras deste elemento a qualquer Academia de nível 3.</lang>
+	</entry>
+
+	<entry key="BringBlackMercSpaceChartToAcademyLevel9Manual">
+		<lang key="de">Mercs haben eine der besten Weltraum-Karten. Ich möchte das du eine von diesen Karten von einer Black Mercs Flotte erwirbst. Wenn du eine erworben hast, bringe sie zu einer Level 9 Akademie.</lang>
+		<lang key="en">Mercs have one of the best charts of the universe. I need you to aquire one of those universe charts from a Black Mercs Fleet. When you adquire one, bring it to a level 9 Academy.</lang>
+		<lang key="fr">Les Black Mercs ont les meilleurs cartes de l'univers. Apportez moi en une à une acadéie de niveau 9.</lang>
+		<lang key="hr">Mercs imaju jednu od najboljih karata svemira. Trebam vas da mi nabavite jednu od tih karata svemira od Black Mercs Flote. Kada nabavite jednu, donesite je na bilo koju Akademiju nivoa 9.</lang>
+		<lang key="pt">Os Mercs têm uns dos melhores mapas do universo. Preciso de adquiras um desses mapas a uma fleet de Black Mercs. Quando o adquirires, leva o mapa a uma Academia de nível 9.</lang>
+	</entry>
+
+	<entry key="BringBlackMercUniformsToAcademyLevel9Manual">
+		<lang key="de">Ich muss die Black Mercs Flotte infiltrieren und dafür brauch ich gewisse Sachen. 6 Black Mercs Uniforme um genauzu sein. Bring sie zu einer Level 9 Akademie.</lang>
+		<lang key="en">I need to infiltrate in a Black Mercs fleet and for that i need certain items. 6 Black Mercs uniforms to be exact. Bring them to any level 9 Academy.</lang>
+		<lang key="fr">J'ai besoin d'infiltrer les Mercs Noires, et il me fait 6 uniformes Black Mercs pour l'opération. Apportez les à une académie niveau 9.</lang>
+		<lang key="hr">Trebam se infiltrirati u Black Mercs flotu i za to trebam određene predmete. 6 Black Mercs uniformi da budem točan. Donesite mi ih na bilo koju Akademiju nivoa 9.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Black Mercs e para isso preciso de determinados items. 6 Uniformes de Black Mercs para ser exacto. Trás esses items a qualquer Academia nível 9.</lang>
+	</entry>
+
+	<entry key="BringBlackMercWrecksToAcademyLevel9Manual">
+		<lang key="de">Ich brauche einige Komponenten aus den Haupt-Einheiten der Black Mercs. Bring diese Komponenten zu einer Level 9 Akademie.</lang>
+		<lang key="en">I need some components from the main units of the Black Mercs. Bring those components to any level 9 Academy.</lang>
+		<lang key="fr">J'ai un rapport comme quoi les mercs les plus puissants possèdent des composantes qui m'intéressent. Apporter ces composantes à une académie niveau 9.</lang>
+		<lang key="hr">Trebam neke komponente iz glavnih jedinica Black Mercs. Donesite te komponente na bilo koju Akademiju nivoa 9.</lang>
+		<lang key="pt">Eu necessito de components nas unidades principais dos Black Mercs. Trás esses componentes a qualquer Academia nível 9.</lang>
+	</entry>
+
+	<entry key="BringBlueMatterContainerToPirateBayLevel9Manual">
+		<lang key="de">Blaue Materie ist ein seltenes Element das in den Einheiten der Sigma Force benutzt wird. Wir möchten dass du 2 Elemente dieser Materie zu einer Bucht der Piraten Level 9 bringst.</lang>
+		<lang key="en">Blue Matter is a rare element that is used in units from the Sigma Force. We need you to bring 2 elements of that matter to any level 9 Pirate Bay.</lang>
+		<lang key="pt">Matéria Azul é um elemento raro que é usado nas unidades da Sigma Force. Precisamos que tragas dois elementos dessa mátéria a qualquer Baía de Piratas de nível 9.</lang>
+	</entry>
+
+	<entry key="BringCarbonNanoTubesToAcademyLevel7Manual">
+		<lang key="de">Tech Mercs benutzen ein neues Material um die Aussehülle ihrer Einheiten zu verstärken. Bring 3 Proben von Carbon Nano-Röhren zu einer Level 7 Akademie.</lang>
+		<lang key="en">Tech Mercs are using a new material to reinforce the hull of their units. Bring 3 samples of Carbon NanoTubes to any level 7 Academy.</lang>
+		<lang key="fr">Les Tech Mercs utilisent un nouveau matériel pour renforcir la coque de leurs vaisseaux. Apporter moi 3 échantillons de leurs nanotubes au carbone à une académie niveau 7.</lang>
+		<lang key="hr">Tech Mercs rabe novi materijal da pojačaju trup njihovih jedinica. Donesite 3 uzorka Ugljikovih Nano Cijevi na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">Os Tech Mercs estão a usar um novo material para reforçar o casco das suas unidades. Trás 3 amostras de NanoTubos de Carbono a qualquer Academia nível 7.</lang>
+	</entry>
+
+	<entry key="BringCommunicationsArrayToPirateBayLevel5Manual">
+		<lang key="de">Space Force wird immer stärker im Universum und wir müssen ihre Kommunikationen abhören. Bring zu irgendeiner Bucht der Piraten Level 5 ein Kommunikations-Array. Du kannst diese in jeder Gamma Force Flotte finden.</lang>
+		<lang key="en">Space Force is becomming strong in the universe and we need to intercept their communications. Bring to any level 5 Pirate Bay 5 Communications Array. You can find them in any Gamma Force Fleet.</lang>
+		<lang key="pt">A Space Force está-se a tornar poderosa no universo e necessitamos de interceptar as suas comunicações. Trás, a qualquer Baía de Piratas de nível 5, 5 Arrays de Comunicação. Podes encontrá-los em qualquer armada da Gamma Force.</lang>
+	</entry>
+
+	<entry key="BringContainersToPirateBayLevel7Manual">
+		<lang key="de">Delta Force haben spezielle Positronen- undd Antimaterie-Containerdie wir haben müssen. Bring 5 Positronen- und 4 Antimaterie-Container zu einer Bucht der Piraten Level 7 und du wirst eine gute Belohnung erhalten.</lang>
+		<lang key="en">Delta Force have special Positron and Anti Matter Containers that we need to have. Bring 5 Positron and 4 Anti Matter Containers to any level 7 Pirate bay and you will be well rewarded.</lang>
+		<lang key="pt">A Delta Force possui Contentores de Positrões e de Anti Matéria que precisamos de ter. Trás 5 contentores de Positrões e 4 Contentores de Anti Matéria a qualquer Baía de Piratas de nível 7.</lang>
+	</entry>
+
+	<entry key="BringCrawlerWrecksToPirateBayLevel9Manual">
+		<lang key="de">Kriecher ist eine mächtige Einheit und wir müssen ihre Geheimnisse herausfinden. Bring 5 Kriecher Gyro- Ausgleicher und 2 Kriecher Statische Pulse zu einer Bucht der Piraten Level 9. Du kannst diese Sachen in jeder Sigma Force Flotte finden.</lang>
+		<lang key="en">Crawler is a powerful unit and we need to obtain its secrets. Bring, to any level 9 Pirate Bay, 5 Crawler Gyro Balancers and 2 Crawler Static Pulses. You can find this items in any Sigma Force Fleets.</lang>
+		<lang key="pt">O Rastejante é uma unidade poderosa e necessitamos de obter os seus segredos. Trás, a qualquer Baía de Piratas de nível 9, 5 Giro-Balanceadores e 2 Impulsos Estáticos de um Rastejante. Podes encontrar estes items em qualuqer armada da Sigma Force.</lang>
+	</entry>
+
+	<entry key="BringDarkMatterToPirateBayLevel10Manual">
+		<lang key="de">Dunkle Materie ist ein seltenes Element das in den Einheiten der Omega Force benutzt wird. Wir möchten dass du 2 Elemente dieser Materie zu einer Bucht der Piraten Level 10 bringst.</lang>
+		<lang key="en">Dark Matter is a rare element that is used in units from the Omega Force. We need you to bring 2 elements of that matter to any level 10 Pirate Bay.</lang>
+		<lang key="pt">Matéria Negra é um elemento raro que é usado nas unidades da Omega Force. Precisamos que tragas dois elementos dessa mátéria a qualquer Baía de Piratas de nível 10.</lang>
+	</entry>
+
+	<entry key="BringDarkMercSpaceChartToAcademyLevel10Manual">
+		<lang key="de">Dark Mercs haben die aktuellste Karte des ganzen Universums. Ich muss eine von diesen Karten erwerben. Wenn du eine erworben hast, bring sie zu einer Akademie Level 10.</lang>
+		<lang key="en">Dark Mercs have the most updated map of the whole the universe. I need to adquire one of those maps. When you adquire one, bring it to a level 10 Academy.</lang>
+		<lang key="fr">Les Darks Mercs ont les meilleurs cartes de l'univers. Apportez moi en une à une acadéie de niveau 10.</lang>
+		<lang key="hr">Dark Mercs imaju najbolje osvježavanu mapu čitavoga svemira. Trebam nabaviti jednu od tih mapa. Kada nabavite jednu, donesite je na bilo koju Akademiju nivoa 10.</lang>
+		<lang key="pt">Os Dark Mercs possuem os mapas mais actualizados de todo o universe. Eu preciso de adquirir um desses mapas. Quando o adquirires, leva o mapa a uma Academia de nível 10.</lang>
+	</entry>
+
+	<entry key="BringDarkMercUniformsToAcademyLevel10Manual">
+		<lang key="de">Ich muss eine Dark Mercs Flotte infiltrieren und dafür brauch ich gewisse Sachen. 6 Dark Mercs Uniforme um genau zu sein. Bring sie zu einer Level 10 Akademie.</lang>
+		<lang key="en">I need to infiltrate in a Dark Mercs fleet and for that i need certain items. 6 Dark Mercs uniforms to be exact. Bring them to any level 10 Academy.</lang>
+		<lang key="fr">J'ai besoin d'infiltrer les Mercs Noires, et il me fait 6 uniformes Dark Mercs pour l'opération. Apportez les à une académie niveau 9.</lang>
+		<lang key="hr">Trebam se infiltrirati u Dark Mercs  flotu i za to trebam određene predmete. 6 Dark Mercs uniformi da budem točan. Donesite mi ih na bilo koju Akademiju nivoa 10.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Dark Mercs e para isso preciso de determinados items. 6 Uniformes de Dark Mercs para ser exacto. Trás esses items a qualquer Academia nível 10.</lang>
+	</entry>
+
+	<entry key="BringDarkMercWrecksToAcademyLevel10Manual">
+		<lang key="de">Ich brauch 4 sehr pezielle Komponenten von den Haupteinheiten der Dark Mercs. Bring diese Komponenten zu einer Level 10 Akademie.</lang>
+		<lang key="en">I need 4 very special components from the main units of the Dark Mercs. Bring those components to any level 10 Academy.</lang>
+		<lang key="fr">J'ai un rapport comme quoi les Dark mercs possèdes des composantes qui m'intéressent. Apporter 4 de ces composantes à une académie niveau 10.</lang>
+		<lang key="hr">Trebam 4 jako specijalne komponente od glavnih jedinica Dark Mercs. Donesite te komponente na bilo koji Akademiju nivoa 10.</lang>
+		<lang key="pt">Eu necessito de 4 components muitos especiais das unidades principais dos Dark Mercs. Trás esses componentes a qualquer Academia nível 10.</lang>
+	</entry>
+
+	<entry key="BringDeutiriumEnergyCapsuleToAcademyLevel9Manual">
+		<lang key="de">Black Mercs benutzen spezielle Deuterium Energy Kapsel um ihre Einheiten zu betreiben. Ich möchte dass du mir 3 Deuterium Energy Kapsel zu einer Level 9 Akademie bringst.</lang>
+		<lang key="en">Black Mercs use some special Deuterium Energy Capsules to power their units. I need you to bring 3 Deuterium Energy Capsules to to any level 9 Academy.</lang>
+		<lang key="fr">Les Mercs noirs utilise des capsules énergie spéciale provenant du Deutérium pour alimenter leurs unités. Trouvez 3 capsules et apportez les à une académie niveau 9.</lang>
+		<lang key="hr">Black Mercs koriste neke specijalne Deuterijeke Energerske Kapsule to napajajz njihove jedinice. Trebam da mi donesete 3 Deuterijske Energetske Kapsule na bilo koju Akademiju nivoa 9.</lang>
+		<lang key="pt">Os Black Mercs usam uma Cápsula de Energia de Deutério Especial para dar poder às suas unidades. Trás 3 Capsulas de Energia de Deutério a qualquer Academia de nível 9.</lang>
+	</entry>
+
+	<entry key="BringEscapePodToPirateBayLevel1Manual">
+		<lang key="de">Wir entwickeln gerade ein Flucht-System für unsere Schiffe. Wer wollen dass du 4 Fluchtkapseln stiehlst von irgendeiner der Alpha Force Flotten und die zu einer Bucht der Piraten Level 1 bringst.</lang>
+		<lang key="en">We are developing a escape system for our ships. We need you to any steal 4 escape pods from any Alpha Force fleets and take them to a  level 1 pirate bay.</lang>
+		<lang key="pt">Estamos a desenvolver um novo sistem de salvação para as nossas naves. Precisamos que tragas a qualquer Baía de Piratas de nível 1, 4 Cápsulas de Fuga de naves da Alpha Force.</lang>
+	</entry>
+
+	<entry key="BringGreyMatterToPirateBayLevel7Manual">
+		<lang key="de">Graue Materie ist ein seltenes Element das von Einheiten der Delta Force benutzt wird. Wir möchten dass du 2 Elemente dieser Materie zu einer Bucht der Piraten Level 7 bringst.</lang>
+		<lang key="en">Grey Matter is a rare element that is used in units from the Delta Force. We need you to bring 2 elements of that matter to any level 7 Pirate Bay.</lang>
+		<lang key="pt">Matéria Cinza é um elemento raro que é usado nas unidades da Delta Force. Precisamos que tragas dois elementos dessa mátéria a qualquer Baía de Piratas de nível 7.</lang>
+	</entry>
+
+	<entry key="BringHolographicCubeToPirateBayLevel3Manual">
+		<lang key="de">Wir führen gerade ein Experiment durch mit Hologramen und müssen ein paar Holographische Würfel besorgen. Plündere alle Beta Force Flotten die du finden kannst und bring 2 Holographische Würfel zu einer Bucht der Piraten Level 3.</lang>
+		<lang key="en">We are conducting an experiment with holograms and we need to arrange some Holographic Cubes. Raid all the Beta Force fleets you find and bring 2 Holographic Cubes to any Pirate Bay level 3.</lang>
+		<lang key="pt">Estamos a conduzir experiências com hologramas e necessitamos de arranjar Cubos Holográficos. Pilha armadas da Beta force e trás 2 cubos holográficos a qualquer Baía de Piratas de nível 3.</lang>
+	</entry>
+
+	<entry key="BringLightEnginesToPirateBayLevel10Manual">
+		<lang key="de">Die Motoren der Lichtgeschwindigkeit erlauben der Space Force Flotten to travel fast unverzüglich durch das Universum zu reisen. Wir müssen diese Motoren haben. Plündere Omega Force Flotten und bring 3 Lichtgeschwindigskeiten-Motoren zu einer Bucht der Piraten Level 10.</lang>
+		<lang key="en">Light Engines enables Space Force Fleets to travel almost instantaniously through the universe. We need to get those engines. Raid Omega Force Fleets and bring 3 Light Engines to any Pirate Bay level 10.</lang>
+		<lang key="pt">Motores de Velocidade da Luz permite às armadas da Space Force viajar instantaneamente pelo universo. Precisamos desses motores. Pilha as armadas da Omega Force e trás 3 Motores de Velocidade da Luz a qualquer Baía de Piratas nível 10.</lang>
+	</entry>
+
+	<entry key="BringMedicineAndAlcoholToMarketLevel7Manual">
+		<lang key="de">Bring eine Flotte mit, sowohl Medizin als auch Alkohol zu einem Level 7 Markt.</lang>
+		<lang key="en">Bring a fleet with both Medicine and Alcohol to a level 7 Market</lang>
+		<lang key="fr">Diriger une escadrille ayant de la médecine et de l'alcool à un marché niveau 7</lang>
+		<lang key="hr">Dovedite flotu sa Lijekovima i Alkoholom (na jednoj floti) na Market nivoa 7</lang>
+		<lang key="pt">Transportar Álcool e Medicamentos numa só armada para um Mercado de nível 7</lang>
+	</entry>
+
+	<entry key="BringMercSiliciumToAcademyLevel1Manual">
+		<lang key="de">Merc Flotten transportieren normalerweise ein Element das leicht zerstörbar ist, das Silicium. Bring 2 Proben von diesem Element zu einer Level 1 Akademie.</lang>
+		<lang key="en">Merc fleets usually transport an element that is easilly destroyed, the Silicium. Bring 2 samples of this element to any level 1 Academy.</lang>
+		<lang key="fr">Les escadrilles Mercs sont composés d'une élément facilement détruit, le silicium. Apportez moi 2 échantillons de l'élément à une académie niveau 1.</lang>
+		<lang key="hr">Merc flote uobičajeno prevoze element koji se lako uništi, Silicium, Donesi 2 uzorka ovoga elementa na bilo koji Akademiju nivoa 1.</lang>
+		<lang key="pt">As armadas de Mercs costumam transportar um elemento que é fácilmente destruído, o Silício. Trás 2 amostras deste elemento a qualquer Academia de nível 1.</lang>
+	</entry>
+
+	<entry key="BringMercSpaceChartToAcademyLevel1Manual">
+		<lang key="de">Mercs haben die besten Weltraum-Karten im Universum. Wir möchten dass du eine von diesen Karten von einer Merc Flotte erwirbst. Wenn du eine erworben hast, bringe sie zu einer Level 1 Akademie.</lang>
+		<lang key="en">Mercs have one of the best charts of the universe. I need you to aquire one of those universe charts from a Merc Fleet. When you adquire one, bring it to a level 1 Academy.</lang>
+		<lang key="fr">Les Mercs on les meilleurs cartes de l'univers. J'ai besoin de ces plans de l'univers que possède les escadrilles Mercs. Si vous en avez une, apporter la à une académie niveau 1.</lang>
+		<lang key="hr">Mercs imaju jednu od najboljih karata svemira. Trebam vas da mi nabavite jednu od tih svemirskih karata od Merc Flote. Kada nabavite jednu, donesite mi je na Akademiju nivoa 1.</lang>
+		<lang key="pt">Os Mercs têm uns dos melhores mapas do universo. Preciso de adquiras um desses mapas a uma fleet de Mercs. Quando o adquirires, leva o mapa a uma Academia de nível 1.</lang>
+	</entry>
+
+	<entry key="BringMercSpaceChartToPirateBay1Manual">
+		<lang key="de">Stehle eine Merc Weltraum-Karte und bring sie zu einer Bucht der Piraten Level 1</lang>
+		<lang key="en">Steal a Merc Space Chart and bring it to a Pirate Bay level 1</lang>
+		<lang key="fr">Voler un plan de l'espace Merc et l'apporter à une station pirate niveau 1.</lang>
+		<lang key="hr">Ukradi Merc Svemirsku Kartu i donesi je na Piratski Dok nivo 1</lang>
+		<lang key="pt">Rouba um Mapa Espacial a um Merc e leva-o até uma Baía de Piratas de nível 1</lang>
+	</entry>
+
+	<entry key="BringMercUniformsToAcademyLevel1Manual">
+		<lang key="de">Ich muss eine Merc Flotte infiltrieren und dafür brauch ich gewisse Sachen. 10 Merc Uniforme um genau zu sein. Bring sie zu einer Level 1 Akademie.</lang>
+		<lang key="en">I need to infiltrate in a Merc fleet and for that i need certain items. 10 Merc uniforms to be exact. Bring them to any level 1 Academy.</lang>
+		<lang key="fr">Il me faut infiltrer une escadrille Merc. Il me faut donc 10 uniformes Mercs pour l'opération. Apportez-les à une académie de niveau 1.</lang>
+		<lang key="hr">Trebam se infiltrirati u Merc flotu i za to trebam određene predmete. 10 Merc uniformi da budem točan. Donesite mi ih na bilo koju Akademiju nivoa 1.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Merc e para isso preciso de determinados items. 10 Uniformes de Mercs para ser exacto. Trás esses items a qualquer Academia nível 1.</lang>
+	</entry>
+
+	<entry key="BringMercuryAndDiamondsToMarketLevel10Manual">
+		<lang key="de">Bring eine Flotte sowohl mit Quecksilber als auch and Diamanten zu einem Level 10 Markt</lang>
+		<lang key="en">Bring a fleet with both Mercury and Diamonds to a level 10 Market</lang>
+		<lang key="fr">Diriger une escadrille ayant du mercure et des diamants à un marché niveau 10</lang>
+		<lang key="hr">Dovedi flotu sa Živom i Dijamantima na Market nivoa 10</lang>
+		<lang key="pt">Transportar Mercúrio e Diamantes numa só armada para um Mercado de nível 10</lang>
+	</entry>
+
+	<entry key="BringMercWrecksToAcademyLevel1Manual">
+		<lang key="de">Ich habe Berichte die sagen dass die Merc Flotten gewisse Komponenten haben die für mich interessant sind. Bringe diese Komponenten zu einer Level 1 Akademie.</lang>
+		<lang key="en">I have reports that say that Merc fleets have certain components that i'm interest in. Bring those components to any level 1 Academy.</lang>
+		<lang key="fr">J'ai un rapport comme quoi les mercs possèdes des composantes qui m'intéressent. Apporter ces composantes à une académie niveau 1.</lang>
+		<lang key="hr">Imam izvještaje koji govore da Merc flote imaju određene komponente koje me zanimaju. Donesi te komponente na bilo koju Akademiju nivoa 1.</lang>
+		<lang key="pt">Tenho relatórios que dizem que as armadas de Mercs têm certos componentes que me interessam. Trás esses componentes a qualquer Academia nível 1.</lang>
+	</entry>
+
+	<entry key="BringPrimaryBoardToAcademyLevel1Manual">
+		<lang key="de">Primäre Tafeln beinhalten detaillierte Information über die Merc Operationen. Ich möchte dass du mir 2 Primäre Tafel bringst zu einer Level 1 Akademie.</lang>
+		<lang key="en">Primary Boards contain detailed information about Mercs operations. I need you to bring me 2 Primary Boards to any level 1 Academy.</lang>
+		<lang key="fr">Les puces électroniques primaire contiennet des informations à propos des intentions Mers. Apportez-moi 2 de ces puces à une Académie niveau 1.</lang>
+		<lang key="hr">Matične Ploče sadrže detaljne informacije o Mercs operacijama. Trebam da mi donesete 2 Matične Ploče na bilo koju Akademiju nivoa 1.</lang>
+		<lang key="pt">Placa Principais das unidades dos Mercs contém informações vitais sobre as suamas operações. Trás 2 Placas Principais a qualquer Academia nível 1.</lang>
+	</entry>
+
+	<entry key="BringReaperControlHelmetToAcademyLevel5Manual">
+		<lang key="de">Ich habe entdeckt dass die Reapers einen speziellen Helm benutzen um kontrolliert zu werden. Ich brauch diesen Helm. Bring 2 funktionierende Helme zu einer Level 5 Akademie.</lang>
+		<lang key="en">I discovered that Reapers use a special Helmet to be controled. I need that helmet. Bring 2 functional helmets to any level 5 Academy.</lang>
+		<lang key="hr">Otkrio sam da Žetalice rabe specijalnu kacigu da se upravlja s njima. Trevam tu kacigu. Donesite 2 funkcionalne kacige na bilo koju Akademiju nivoa 5.</lang>
+		<lang key="pt">Descobri que as unidades Reaper usam um capacete especial para serem controladas. Eu preciso desse capacete. Trás 3 capacetes funcionais a qualquer Academia de nível 5.</lang>
+	</entry>
+
+	<entry key="BringReaperPropulsionSystemToAcademyLevel5Manual">
+		<lang key="de">Du hast bestimmt bemerkt dass die Reapers extrem manövrierbar sind. Ich muss ihr Antriebssystem studieren. Bring 3 voll funktionsfähige Antriebssysteme zu einer Level 5 Akademie.</lang>
+		<lang key="en">You must have noticed that Reapers are extremely manouverable. I need to study its propulsion system. Bring 3 fully functional propulsion systems to any level 5 Academy.</lang>
+		<lang key="hr">Vjerojatno ste primjetili kako su Žetalice ekstremno manevrabilne. Trebam proučiti njezin pogonski sustav. Donesi 3 potpuno funkcionalna pogonska sustavan an bilo koju Akademiju nivoa 5.</lang>
+		<lang key="pt">Deves ter notado que as unidades Reaper são extremamente manobráveis. Eu preciso de as estudar. Trás 3 Sistemas de Propulsão de um Reaper a qualquer Academia nível 5.</lang>
+	</entry>
+
+	<entry key="BringRedMatterToPirateBayLevel1Manual">
+		<lang key="de">Rote Materie ist ein seltenes Element das von den Alpha Force Flotten benutzt wird. Wir möchten dass du 2 Elemente dieser Materie zu einer Bucht der Piraten Level 1 bringst.</lang>
+		<lang key="en">Red Matter is a rare element that is used in units from the Alpha Force. We need you to bring 2 elements of that matter to any level 1 Pirate Bay.</lang>
+		<lang key="pt">Matéria Vermelha é um elemento raro que é usado nas unidades da Alpha Force. Precisamos que tragas dois elementos dessa mátéria a qualquer Baía de Piratas de nível 1.</lang>
+	</entry>
+
+	<entry key="BringRogueMercSpaceChartToAcademyLevel5Manual">
+		<lang key="de">Mercs haben eine der besten Weltraum-Karten im Universum. Ich muss eine dieser Weltraum-Karten von einer Rogue Mercs Flotte erwerben. Wenn du eine erworben hast, bringe sie zu einer Level 5 Akademie.</lang>
+		<lang key="en">Mercs have one of the best charts of the universe. I need you to aquire one of those universe charts from a Rogue Mercs Fleet. When you adquire one, bring it to a level 5 Academy.</lang>
+		<lang key="hr">Mercs imaju jednu od najboljih karata svemira. Trebam da mi nabavite jednu od tih svemirskih karata od Rogue Mercs flote. Kada je nabavite donesite je na bilo koju Akademiju nivoa 5.</lang>
+		<lang key="pt">Os Mercs têm uns dos melhores mapas do universo. Preciso de adquiras um desses mapas a uma fleet de Rogue Mercs. Quando o adquirires, leva o mapa a uma Academia de nível 5.</lang>
+	</entry>
+
+	<entry key="BringRogueMercUniformsToAcademyLevel5Manual">
+		<lang key="de">Ich muss eine Rogue Mercs Flotte infiltrieren und dafür brauche ich gewisse Sachen. 10 Rogue Mercs Uniforme um genau zu sein. Bringe sie zu einer Level 5 Akademie.</lang>
+		<lang key="en">I need to infiltrate in a Rogue Mercs fleet and for that i need certain items. 10 Rogue Mercs uniforms to be exact. Bring them to any level 5 Academy.</lang>
+		<lang key="hr">Trebam se infiltrirati u Rogue Mercs flotu i za to trebam određene predmete. 10 Rogue Mercs uniformi da budem točan. Donesite mi ih na bilo koju Akademiju nivoa 5.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Rogue Mercs e para isso preciso de determinados items. 10 Uniformes de Rogue Mercs para ser exacto. Trás esses items a qualquer Academia nível 5.</lang>
+	</entry>
+
+	<entry key="BringRogueMercWrecksToAcademyLevel5Manual">
+		<lang key="de">Rogue Merc Flotten haben gewisse Komponenten die ich brauche. Bring diese Komponenten zu einer Level 5 Akademie.</lang>
+		<lang key="en">Rogue Merc fleets contains certain components that I need. Bring those components to any level 5 Academy.</lang>
+		<lang key="fr">J'ai un rapport comme quoi les mercs possèdes des composantes qui m'intéressent. Apporter ces composantes à une académie niveau 5.</lang>
+		<lang key="hr">Rogue Merc flota sadrži određene komponente koju trebam. Donesite te komponente na bilo koju Akademiju nivoa 5.</lang>
+		<lang key="pt">As armadas de Rogue Mercs contém componentes que me são uteis. Trás esses componentes a qualquer Academia nível 5.</lang>
+	</entry>
+
+	<entry key="BringScourgeIonCannonsToAcademyLevel7Manual">
+		<lang key="de">Scourge ist die mächtigste Einheit in der Tech Mercs Flotte und muss aufgehalten werden. Ich brauche ihre Ionen-Kanone. Bring 3 Ionen-Kanonen zu einer Level 7 Akademie.</lang>
+		<lang key="en">Scourge is the most powerful unit in the Tech Mercs fleet and must be stopped. I need their Ion Cannons. Bring 3 Ion Cannons to any level 7 Academy.</lang>
+		<lang key="hr">Bič je najmoćnija jedinica u floti Tech Mercs i mora biti zaustavljena. Trebam njihove Ionske Topove. Donesi 3 Ionska Topna na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">A unidade Flagelo é a mais poderosa no arsenal das armadas de Tech Mercs e tem de ser parada. Eu preciso dos seus canões de iões. Trás 3 canhões de iões a qualquer Academia de nível 7.</lang>
+	</entry>
+
+	<entry key="BringSentryMercSpaceChartToAcademyLevel3Manual">
+		<lang key="de">Mercs haben eine der besten Weltraum-Karten im Universum. Ich muss eine dieser Karten von einer Sentry Mercs Flotte erwerben. Wenn du eine erworben hast, bringe sie zu einer Level 3 Akademie.</lang>
+		<lang key="en">Mercs have one of the best charts of the universe. I need you to aquire one of those universe charts from a Sentry Mercs Fleet. When you adquire one, bring it to a level 3 Academy.</lang>
+		<lang key="fr">Les sentinelles Mercs ont les meilleurs cartes de l'univers. Apportez moi en une à une académie de niveau 3.</lang>
+		<lang key="hr">Mercs imaju jednu od najboljih karata svemira. Trebam vas da mi nabavite jednu od tih svemirskih karata od  Sentry Mercs Flote. Kada nabavite jednu, donesite je na bilo koju Akademiju nivoa 3.</lang>
+		<lang key="pt">Os Mercs têm uns dos melhores mapas do universo. Preciso de adquiras um desses mapas a uma fleet de Sentry Mercs. Quando o adquirires, leva o mapa a uma Academia de nível 3.</lang>
+	</entry>
+
+	<entry key="BringSentryMercUniformsToAcademyLevel3Manual">
+		<lang key="de">Ich muss eine Sentry Mercs Flotte infiltrieren und dafür brauche ich gewisse Sachen. 10 Sentry Mercs Uniforme um genau zu sein. Bringe sie zu einer Level 3 Akademie.</lang>
+		<lang key="en">I need to infiltrate in a Sentry Mercs fleet and for that i need certain items. 10 Sentry Mercs uniforms to be exact. Bring them to any level 3 Academy.</lang>
+		<lang key="fr">Pour infiltrer une sentinelle Mercs, il me faut 10 uniformes Sentinelle Mercs et les apporter à une académie niveau 3.</lang>
+		<lang key="hr">Trebam se infiltrirati u Sentry Mercs flotu i za to trebam određene predmete. 10 Sentry Mercs Uniformi da budem točan. Donesite mi ih na bilo koju Akademiju nivoa 3.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Sentry Mercs e para isso preciso de determinados items. 10 Uniformes de Sentry Mercs para ser exacto. Trás esses items a qualquer Academia nível 3.</lang>
+	</entry>
+
+	<entry key="BringSentryMercWrecksToAcademyLevel3Manual">
+		<lang key="de">Sentry Merc Flotten besitzen gewisse Komponenten die nützlich sind. Bring diese Komponenten zu einer Level 3 Akademie.</lang>
+		<lang key="en">Sentry Merc fleets possess certain components that are useful. Bring those components to any level 3 Academy.</lang>
+		<lang key="fr">J'ai un rapport comme quoi les mercs sentilles possèdes des composantes qui m'intéressent. Apporter ces composantes à une académie niveau 3</lang>
+		<lang key="hr">Sentry Merc flote posjeduju određene komponente koje su korisne. Donestite te komponente na bilo koju Akademiju nivoa 3.</lang>
+		<lang key="pt">As armadas de Sentry Mercs contém componentes que nos são uteis. Trás esses componentes a qualquer Academia nível 3.</lang>
+	</entry>
+
+	<entry key="BringSentryReactorToAcademyLevel3Manual">
+		<lang key="de">Sentry Mercs Flotten haben eine sehr schnelle Einheit, die Sentry. I brauche 3 von ihren Reaktoren um sie genauer zu studieren. Bringe zu einer Level 3 Akademie.</lang>
+		<lang key="en">Sentry Mercs fleets contains a very fast unit, the Sentry. I need 3 of its Reactors to reverse engineer them. Bring them to any level 3 Academy.</lang>
+		<lang key="fr">Les sentinelles Mercs, ont des sentinelles très rapides. J'ai besoin de 3 de leurs réacteurs à une académie niveau 3 pour les étudier.</lang>
+		<lang key="hr">Sentry Mercs flote sadrže jako brzu jedinicu, Stražara. Trebam 3 njegova Reaktora da ih "reverse engineer". Donesite mi ih na bilo koju Akademiju nivoa 3.</lang>
+		<lang key="pt">As armadas de Sentry Mercs possui uma unidade muito rápida, a Sentry. Necessito de 3 dos seus reactores para os pode estudar. Trás esses items a qualquer Academia nível 3.</lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListAlphaToPirateBayLevel1Manual">
+		<lang key="de">Die Alpha Force hat eine Liste der meistgesuchten Kriminellen in der Level 1 Zone. Wir wollen dass du diese Liste findest und zu einer Bucht der Piraten Level 1 bringst.</lang>
+		<lang key="en">The Alpha Force has a list with the most wanted criminals in the level 1 zone. We want you to find that list and bring it to any level 1 pirate bay.</lang>
+		<lang key="pt">A Alpha Force possui uma lista com os criminosos mais procurados na zona de nível 1. Queremos que encontres essa lista e a tragas a qualquer baía de piratas de nível 1.</lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListBetaToPirateBayLevel3Manual">
+		<lang key="de">Die Beta Force hat eine Liste mit den meistgesuchten Kriminellen in der Level 1 zone. Wir wollen dass du diese Liste findest und zu einer Bucht der Piraten Level 3 bringst.</lang>
+		<lang key="en">The Beta Force has a list with the most wanted criminals in the level 1 zone. We want you to find that list and bring it to any level 3 pirate bay.</lang>
+		<lang key="pt">A Beta Force possui uma lista com os criminosos mais procurados na zona de nível 1. Queremos que encontres essa lista e a tragas a qualquer baía de piratas de nível 3.</lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListDeltaToPirateBayLevel7Manual">
+		<lang key="de">Die Delta Force hat eine Liste der meistgesuchten Kriminellen in der Level 7 Zone. Wir wollen dass du diese Liste findest und zu einer Bucht der Piraten Level 7 bringst.</lang>
+		<lang key="en">The Delta Force has a list with the most wanted criminals in the level 7 zone. We want you to find that list and bring it to any level 7 pirate bay.</lang>
+		<lang key="pt">A Delta Force possui uma lista com os criminosos mais procurados na zona de nível 7. Queremos que encontres essa lista e a tragas a qualquer baía de piratas de nível 7.</lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListGammaToPirateBayLevel5Manual">
+		<lang key="de">Die Gamma Force hat eine Liste der meistgesuchten Kriminellen in der Level 5 Zone. Wir wollen dass du diese Liste findest und zu einer Bucht der Piraten Level 5 bringst.</lang>
+		<lang key="en">The Gamma Force has a list with the most wanted criminals in the level 5 zone. We want you to find that list and bring it to any level 5 pirate bay.</lang>
+		<lang key="pt">A Gamma Force possui uma lista com os criminosos mais procurados na zona de nível 5. Queremos que encontres essa lista e a tragas a qualquer baía de piratas de nível 5.</lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListOmegaToPirateBayLevel10Manual">
+		<lang key="de">Die Omega Force hat eine Liste der meistgesuchten Kriminellen in der Level 10 Zone. Wir wollen dass du diese Liste findest und zu einer Bucht der Piraten Level 10 bringst.</lang>
+		<lang key="en">The Omega Force has a list with the most wanted criminals in the level 10 zone. We want you to find that list and bring it to any level 10 pirate bay.</lang>
+		<lang key="pt">A Omega Force possui uma lista com os criminosos mais procurados na zona de nível 10. Queremos que encontres essa lista e a tragas a qualquer baía de piratas de nível 10.</lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListSigmaToPirateBayLevel9Manual">
+		<lang key="de">Die Sigma Force hat eine Liste der meistgesuchten Kriminellen in der Level 9 Zone. Wir wollen dass du diese Liste findest und sie zu einer Bucht der Piraten Level 9 bringst.</lang>
+		<lang key="en">The Sigma Force has a list with the most wanted criminals in the level 9 zone. We want you to find that list and bring it to any level 9 pirate bay.</lang>
+		<lang key="pt">A Sigma Force possui uma lista com os criminosos mais procurados na zona de nível 9. Queremos que encontres essa lista e a tragas a qualquer baía de piratas de nível 9.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformAlphaToPirateBayLevel1Manual">
+		<lang key="de">Ich muss die Alpha Force Flotte und dafür brauche ich gewisse Sachen. 10 Alpha Force Uniforme um genau zu sein. Bring sie zu einer Bucht der Piraten Level 1.</lang>
+		<lang key="en">I need to infiltrate in a Alpha Force's fleet and for that i need certain items. 10 Alpha Force's uniforms to be exact. Bring them to any level 1 Pirate Bay.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Alpha Force e para isso preciso de determinados items. 10 Uniformes de Alpha Force para ser exacto. Trás esses items a qualquer Baía de Piratas nível 1.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformBetaToPirateBayLevel3Manual">
+		<lang key="de">Ich muss die Beta Force's Flotte infiltrieren und dafür brauche ich gewisse Sachen. 10 Beta Force Uniforme um genau zu sein. Bring sie zu einer Bucht der Piraten Level 3.</lang>
+		<lang key="en">I need to infiltrate in a Beta Force's fleet and for that i need certain items. 10 Beta Force's uniforms to be exact. Bring them to any level 3 Pirate Bay.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Beta Force e para isso preciso de determinados items. 10 Uniformes de Beta Force para ser exacto. Trás esses items a qualquer Baía de Piratas nível 3.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformDeltaToPirateBayLevel7Manual">
+		<lang key="de">Ich muss die Delta Force infiltrieren und um dass zu machen brauch ich gewisse Gegenstände. 10 Delta Force Uniform um genau zu sein. Bring sie zu einer Bucht der Piraten Level 7.</lang>
+		<lang key="en">I need to infiltrate in a Delta Force's fleet and for that i need certain items. 10 Delta Force's uniforms to be exact. Bring them to any level 7 Pirate Bay.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Delta Force e para isso preciso de determinados items. 10 Uniformes de Delta Force para ser exacto. Trás esses items a qualquer Baía de Piratas nível 7.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformGammaToPirateBayLevel5Manual">
+		<lang key="de">Ich muss die Gamma Force Flotte infiltrieren und dafür brauch ich bestimmte Sachen. 10 Gamma Force Uniformen um genau zu sein. Bring sie zu einer Bucht der Piraten Level 5.</lang>
+		<lang key="en">I need to infiltrate in a Gamma Force's fleet and for that i need certain items. 10 Gamma Force's uniforms to be exact. Bring them to any level 5 Pirate Bay.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Gamma Force e para isso preciso de determinados items. 10 Uniformes de Gamma Force para ser exacto. Trás esses items a qualquer Baía de Piratas nível 5.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformOmegaToPirateBayLevel10Manual">
+		<lang key="de">Ich muss die Omega Force Flotte infiltrieren und dafür brauch ich bestimmte Sachen. 10 Omega Force Uniforme um genau zu sein. Bring zu einer Bucht der Piraten Level 10.</lang>
+		<lang key="en">I need to infiltrate in a Omega Force's fleet and for that i need certain items. 10 Omega Force's uniforms to be exact. Bring them to any level 10 Pirate Bay.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Omega Force e para isso preciso de determinados items. 10 Uniformes de Omega Force para ser exacto. Trás esses items a qualquer Baía de Piratas nível 10.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformSigmaToPirateBayLevel9Manual">
+		<lang key="de">Ich muss die Sigma Force Flotte infiltrieren und dafür brauch bestimmte Sachen. 10 Sigma Force Uniformen um genau zu sein. Bring sie zu einer Bucht der Piraten Level 9.</lang>
+		<lang key="en">I need to infiltrate in a Sigma Force's fleet and for that i need certain items. 10 Sigma Force's uniforms to be exact. Bring them to any level 9 Pirate Bay.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Sigma Force e para isso preciso de determinados items. 10 Uniformes de Sigma Force para ser exacto. Trás esses items a qualquer Baía de Piratas nível 9.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceWrecksToPirateBayLevel10Manual">
+		<lang key="de">Space Force wird zunehmend mächtiger. Wir müssen ihre Waffen in unseren Besitz bringen. Bring 3 Positronen-Kanonen und 2 Fist Zielgeräte-Systeme zu einer Bucht der Piraten Level 10.</lang>
+		<lang key="en">Space Force is becoming very powerful. We need to get our hands in their weapons. Bring, to any Pirate Bay level 10, 3 Positron Cannons and 2 Fist's Targetting System.</lang>
+		<lang key="pt">A Space Force está-se a tornar demasiado poderosa. Temos de obter as suas armas. Trás, a qualquer Baía de Piratas de nível 10, 3 canhões de positrões e 2 Sistemas de Mira de um Punho.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceWrecksToPirateBayLevel3Manual">
+		<lang key="de">Myst ist eine gefährliche Einheit. Wir müssen ihre Komponenten studieren. Bring 4 Myst Antriebs-Systeme und 3 Myst Zielgeräte-Systeme zu einer Bucht der Piraten Level 3.</lang>
+		<lang key="en">Myst is a dangerous unit. We need to study its components. Bring 4 Myst Propulsion Systems and 3 Myst Targeting Systems to any level 3 Pirate Bay.</lang>
+		<lang key="pt">A Myst é uma unidade perigosa. Necessitamos de estudar os seus componentes. Trás 4 sistemas de propulsão e 3 sistemas de Mira de um Myst a qualquer Baía de Piratas de nível 3.</lang>
+	</entry>
+
+	<entry key="BringSubLightToPirateBayLevel5Manual">
+		<lang key="de">Space Force entwickelt gerade eine neue Technologie die wir haben müssen. Diese Technologie ist in jeder Gamma Force Flotte integriert. Bring 5 Sub-Licht Motoren zu einer Bucht der Piraten Level 5.</lang>
+		<lang key="en">Space Force is developing a new technology that we need to have. That technology is integrated in any Gamma Force Fleet. Bring 5 Sub-Light Engines to any Pirate Bay level 5.</lang>
+		<lang key="pt">A Space Force está a desenvolver uma nova tecnologia que nós queremos obter. Essa tecnologia está integrada nas armadas da Gamma Force. Trás 5 Motores Sub-Luz a qualquer Baía de Piratas nível 5.</lang>
+	</entry>
+
+	<entry key="BringSubSpaceSensorsToPirateBayLevel3Manual">
+		<lang key="de">Beta Force ist immer in der Lage deine Flotten aufzuspüren. Das müssen wir vermeiden. Bring 2 Sub-Raum Sensoren zu einer Bucht der Piraten Level 3.</lang>
+		<lang key="en">Beta Force is always able to detect our fleets. We need to avoid that. Bring 2 Sub-Space Sensors to any Pirate Bay level 3.</lang>
+		<lang key="pt">A Beta Force é sempre capaz de detectar as nossas armadas. Nós precisamos de impedir isso. Trás 2 Sensores Sub-Espaço a qualquer Baía de Piratas de Nível 3.</lang>
+	</entry>
+
+	<entry key="BringTacticalComputerToPirateBayLevel5Manual">
+		<lang key="de">Space Force wird immer stärker aufgrund ihrer Taktischen-Computer. Wir müssen diese Computer erbeuten. Bring 5 Taktische-Computer einer Gamma Force Flotte zu irgendeiner Bucht der Piraten Level 5.</lang>
+		<lang key="en">Space Force is becoming very strong due to their Tactical computers. We need to obtain them. Bring 5 tactical computers from a Gamma Force fleet to any Pirate Bay Level 5.</lang>
+		<lang key="pt">A Space Force está a ficar demasiado poderosa muito devido aos seus Computadores Tácticos. Temos de os obter. Trás 5 computadores táticos de uma armada da Gamma Force a qualquer Baía de Piratas de Nível 5.</lang>
+	</entry>
+
+	<entry key="BringTechMercSpaceChartToAcademyLevel7Manual">
+		<lang key="de">Mercs haben eine der besten Weltraum-Karten im Universum.Ich muss eine dieser Karten von einer Tech Mercs Flotte erwerben. Wenn du eine erworben hast, bringe sie zu einer Level 7 Akademie.</lang>
+		<lang key="en">Mercs have one of the best charts of the universe. I need you to aquire one of those universe charts from a Tech Mercs Fleet. When you adquire one, bring it to a level 7 Academy.</lang>
+		<lang key="fr">Les Mercs ont les meilleures cartes de l'univers. J'ai besoin une de ces carte provenant des Tech Mercs. Apportez la à une académie niveau 7</lang>
+		<lang key="hr">Mercs imaju jednu od najboljih karata svemira. Trebam vas da mi nabavite jednu od tih karata od Tech Mercs flote. Kada nabavite jednu, donesite je na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">Os Mercs têm uns dos melhores mapas do universo. Preciso de adquiras um desses mapas a uma fleet de Tech Mercs. Quando o adquirires, leva o mapa a uma Academia de nível 7.</lang>
+	</entry>
+
+	<entry key="BringTechMercUniformsToAcademyLevel7Manual">
+		<lang key="de">I muss eine Tech Mercs Flotte infiltrieren und dafür brauche ich gewisse Sachen. 8 Tech Mercs Uniforme um genau zu sein. Bring sie zu einer Level 7 Akademie.</lang>
+		<lang key="en">I need to infiltrate in a Tech Mercs fleet and for that i need certain items. 8 Tech Mercs uniforms to be exact. Bring them to any level 7 Academy.</lang>
+		<lang key="fr">Je veux infiltrer les Mercs Tech et j'ai donc besoin de 8 uniformes Tech Mercs pour l'opération. Apportez les à une académie niveau 7.</lang>
+		<lang key="hr">Trebam se infiltrirati u Tech Mercs flotu i za to trebam određene predmete. 8 Tech Mercs uniformi da budem točan. Donesite mi ih na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">Preciso de me infiltrar numa armada Tech Mercs e para isso preciso de determinados items. 8 Uniformes de Tech Mercs para ser exacto. Trás esses items a qualquer Academia nível 7.</lang>
+	</entry>
+
+	<entry key="BringTeckMercWrecksToAcademyLevel7Manual">
+		<lang key="de">Teck Merc Flotten haben technologisch fortgeschrittene Einheiten. Ich brauch einige Komponenten aus diesen Einheiten. Bring diese Komponeneten zu einer Level 7 Akademie.</lang>
+		<lang key="en">Teck Merc fleets possess techonological advance units. I need some components from those units. Bring those components to any level 7 Academy.</lang>
+		<lang key="hr">Teck Merc flote posjeduju tehnološki napredne jedinice. Trebam neke konponente iz tih jedinica. Donesite te komponente na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">As armadas de Tech Mercs são tecnologicamente avançadas. Preciso de components dessas unidades. Trás esses componentes a qualquer Academia nível 7.</lang>
+	</entry>
+
+	<entry key="BringToolsAndSuppliesToMarketLevel3Manual">
+		<lang key="de">Bring Werkzeuge und Vorräte zu einem Level 3 or 5 Markt</lang>
+		<lang key="en">Bring Tools and Supplies to a level 3 or 5 Market</lang>
+		<lang key="es">Transportar Herramientas y Mantenimientos para un Mercado de nivel 3</lang>
+		<lang key="fr">Diriger une escadrille ayant des outils et des provisions à un marché niveau 3 ou 5</lang>
+		<lang key="hr">Donesite Alate i Zalihe na Market nivoa 3 ili 5</lang>
+		<lang key="pt">Transportar Ferramentas e Mantimentos para um Mercado de nível 3 ou 5</lang>
+	</entry>
+
+	<entry key="BringTransportSystemToPirateBayLevel7Manual">
+		<lang key="de">Unsere Transport-Systeme sind veraltet und wir müssen sie auf den neuesten Stand bringen. Bring 4 Transport Systeme von irgendeiner Delta Force Flotte zu einer Bucht der Piraten Level 7.</lang>
+		<lang key="en">Our transport systems are becoming outdated and we need to upgrade it. Bring, to any Pirate Bay level 7, 4 Transport Systems from any Delta Force Fleets.</lang>
+		<lang key="pt">O nosso sistema de Transporte está a ficar antigo e precisamos de lhe fazer uma renovação. Trás, a qualquer baía de piratas de nível 7, 4 Sistemas de Transporte de qualquer armada da Delta Force.</lang>
+	</entry>
+
+	<entry key="BringWrecksToPirateBayLevel1Manual">
+		<lang key="de">Wir müssen einige Komponenten von einer Jumper Einheit erbeuten. Plündere alle Alpha Force Flotten die du finden kannst und bring 4 Jumper Reaktoren and 4 Jumper Stabilisatoren zu einer Bucht der Piraten Level 1.</lang>
+		<lang key="en">We need to obtain some components from a Jumper unit. Raid all the Alpha Force fleets you can find and bring 4 Jumper Reactors and 4 Jumper Stabilizers to any level 1 Pirate Bay.</lang>
+		<lang key="pt">Precisamos de obter alguns components de uma unidate Jumper. Pilha todas as Aramdas da Alpha Force que encontrares e trás 4 Reactores e 4 Estabilizadores de um Jumper a qualquer Baía de Pirata de nível 1.</lang>
+	</entry>
+
+	<entry key="BuildCommandCenterQuestManual">
+		<lang key="de">Rüste die Kommando-Zentrale auf deinen Heimatplaneten auf</lang>
+		<lang key="en">Upgrade the Command Center on your Home Planet</lang>
+		<lang key="es">Evolucionar el Centro de Comando en tu planeta madre</lang>
+		<lang key="hr">Unaprijedite Zapovjedni Centar na vašem Početnom Planetu</lang>
+		<lang key="pt">Evoluir o Centro de Comando no teu planeta mãe</lang>
+	</entry>
+
+	<entry key="BuildDarknessHallQuestManual">
+		<lang key="de">Rüste die Darkness Hall auf deinen Heimatplaneten auf</lang>
+		<lang key="en">Upgrade the Darkness Hall on your Home Planet</lang>
+		<lang key="es">Evolucionar la Capital de la oscuridad en tu planeta madre</lang>
+		<lang key="hr">Unaprijedite Dvoranu Tame na vašem Početnom Planetu</lang>
+		<lang key="pt">Evoluir a Capital da Escuridão do teu planeta mãe</lang>
+	</entry>
+
+	<entry key="BuildDevotionSanctuaryQuestManual">
+		<lang key="de">Baue eine Devotion Sanctuary auf deinen Heimatplaneten</lang>
+		<lang key="en">Build a Devotion Sanctuary on your Home Planet</lang>
+		<lang key="es">Construir un Santuário de Devoción en tu planeta madre</lang>
+		<lang key="hr">Izgradite Svetište Devocije na vašem Početnom Planetu</lang>
+		<lang key="pt">Construir um Santuário de Devoção no teu planeta mãe</lang>
+	</entry>
+
+	<entry key="BuildDominationYardQuestManual">
+		<lang key="de">Baue den Domination Yard auf deinen Heimatplaneten, der es dir erlaubt Kampfeinheiten zu bauen</lang>
+		<lang key="en">Build the Domination Yard on your Home Planet, that will allow you to build combat units</lang>
+		<lang key="es">Construir un Puerto de Domínio en tu planeta madre, que te permitirá construir unidades de combate</lang>
+		<lang key="hr">Igradite Brodogradilište Dominacije na vašem Početnom Planetu, koje će vam dopustiti da gradite borebene jedinice</lang>
+		<lang key="pt">Construir um Porto do Domínio no teu planeta mãe, que te permitirá construir unidades de combate</lang>
+	</entry>
+
+	<entry key="BuildElkExtractorQuestManual">
+		<lang key="de">Baue einen Elk Extractor auf deinen Heimatplaneten</lang>
+		<lang key="en">Build an Elk Extractor on your Home Planet</lang>
+		<lang key="es">Construir um Extrator de Elk en tu planeta madre</lang>
+		<lang key="hr">Izgradite Elk Ekstraktor na vašem Početnom Planetu</lang>
+		<lang key="pt">Construir um Extrator de Elk no teu planeta mãe</lang>
+	</entry>
+
+	<entry key="BuildIncubatorQuestManual">
+		<lang key="de">Baue den Incubator auf deinen Heimatplaneten, der es dir erlaubt Kampfeinheiten zu bauen</lang>
+		<lang key="en">Build the Incubator on your Home Planet, that will allow you to build combat units</lang>
+		<lang key="es">Construir una Incubadora en tu planeta madre, que te permitirá construir unidades de combate</lang>
+		<lang key="hr">Izgradite Inkubator na vašem Početnom Planetu, koji će vam dopustiti da gradite borbene jedninice.</lang>
+		<lang key="pt">Construir uma Incubadora no teu planeta mãe, que te permitirá construir unidades de combate</lang>
+	</entry>
+
+	<entry key="BuildNestQuestManual">
+		<lang key="de">Rüste das Nest auf dein Heimatplaneten auf</lang>
+		<lang key="en">Upgrade the Nest on your Home Planet</lang>
+		<lang key="es">Evolucionar el Nido de tu planeta madre</lang>
+		<lang key="hr">Unaprijedite Gnijezdo na vašem Početnom Planetu</lang>
+		<lang key="pt">Evoluir o Ninho do teu planeta mãe</lang>
+	</entry>
+
+	<entry key="BuildProtolExtractorQuestManual">
+		<lang key="de">Baue einen Protol Extraktor auf deinen Heimatplaneten</lang>
+		<lang key="en">Build a Protol Extractor on your Home Planet</lang>
+		<lang key="es">Construir un Extractor de Protol en tu planeta mdre</lang>
+		<lang key="hr">Izgradite Ekstraktor Protola na vašem Početnom Planetu</lang>
+		<lang key="pt">Construir um Extractor de Protol no teu planeta mãe</lang>
+	</entry>
+
+	<entry key="BuildSeriumExtractorQuestManual">
+		<lang key="de">Baue einen Serium Extractor auf deinen Heimatplaneten</lang>
+		<lang key="en">Build a Serium Extractor on your Home Planet</lang>
+		<lang key="es">Construir un Extractor de Serium en tu planeta madre</lang>
+		<lang key="hr">Izgradite Ekstraktor Serija na vašem Početnom Planetu</lang>
+		<lang key="pt">Construir um Extractor de Serium no teu planeta mãe</lang>
+	</entry>
+
+	<entry key="BuildSolarPanelQuestManual">
+		<lang key="de">Baue ein Solar-Modul auf deinen Heimatplaneten</lang>
+		<lang key="en">Build a Solar Panel on your Home Planet</lang>
+		<lang key="es">Construir un Panel Solar en tu planeta madre</lang>
+		<lang key="hr">Izgradire Solarnu Ploču na vašem Početnom Planetu</lang>
+		<lang key="pt">Construir um Painel Solar no teu planeta mãe</lang>
+	</entry>
+
+	<entry key="BuildTitaniumExtractorQuestManual">
+		<lang key="de">Baue einen Titanium Extractor auf deinen Heimat-Planeten</lang>
+		<lang key="en">Build a Titanium Extractor on your Home Planet</lang>
+		<lang key="es">Construir un Extrator de Titanium en tu planeta madre</lang>
+		<lang key="hr">Igradite Ekstraktor Titana na vašem Početnom Planetu</lang>
+		<lang key="pt">Construir um Extrator de Titanium no teu planeta mãe</lang>
+	</entry>
+
+	<entry key="BuildUnitYardQuestManual">
+		<lang key="de">Baue einen Unit Yard auf deinen Heimatplaneten, der dir erlaubt Kampfeinheiten zu bauen</lang>
+		<lang key="en">Build the Unit Yard on your Home Planet, that will allow you to build combat units</lang>
+		<lang key="es">Construir el Puerto Espacial en tu planeta madre, que permitirá construir unidades de combate</lang>
+		<lang key="hr">Izgradite Brodogradilište Jedinica na vašem Početnom Planetu, koje će vam dopustiti da gradite borbene jedinice</lang>
+		<lang key="pt">Construir o Porto Espacial no teu planeta mãe, que permitirá construir unidades de combate</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel10QuestManual">
+		<lang key="de">Besitze ein Planet Level 10 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 10 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nível 10 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planètes de niveau 10 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan planet nivoa 10 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 10 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel1QuestBugsManual">
+		<lang key="de">Besitze ein [Planet] in der [HotZone].
+  Planeten zu erobern in der [HotZone] ist genauso wie Planeten zu erobern in der [PrivateZone], es 
+  gibt nur einen Haken. Die [HotZone] ist eine öffentliche Zone, das bedeutet das du mit anderen 
+  Spielern um die Planeten konkurrieren musst .<p>
+  Der [Planet] den du erobern willst mag bereits im Besitz eines anderen sein. In dem Fall können zwei 
+  Dinge passieren: der [Planet] den du zu erobern versuchst hat keine Verteidigung (der [Planet] hat 
+  keine Verteidiguns- [Fleet]), oder der [Planet] hat Verteidigungen.</p><p>
+  Im ersten Fall wirst du unverzüglich zum Besitzer des [Planet] , wie das Erobern in der 
+  [PrivateZone]. Im zweiten Fall wird die [Fleet] mit der du versucht hast den Planeten zu erobern,
+   in den Kampf gehen mit der Verteidigungs- [Fleet] des [Planet]. Der Spieler der gewinnt <a href="../Battles/BattleConcepts.aspx">Battle</a> wird zum Besitzer des [Planet].</p><p>
+  Beachte das die [HotZone] Planeten anders sind als deine [PrivateZone] Planeten, auf den [HotZone] Planeten bist du in der Lage nur ein Gebäude zu bauen,
+  <a href="../Facility/Extractor.aspx">Extractors</a>.</p></lang>
+		<lang key="en">Own one [Planet] in the [HotZone].
+  Conquering Planets on the [HotZone] is just about the same as conquering Planets on your [PrivateZone], there's only one catch. The [HotZone] is
+  a public zone, that means you'll be competing with other Players for Planets.<p />
+  The [Planet] you want to conquer may already be possession of someone else. In this case two things can happen: the [Planet] you are trying to conquer has
+  no defenses (the [Planet] has no Defense [Fleet]), or the [Planet] does have defenses.<p />
+  In the first case you immediatly gain ownership of the [Planet] in question, just like conquering in the [PrivateZone]. On the second case the [Fleet] you used
+  to try and conquer the Planet will enter in a Battle with the defense [Fleet] of the [Planet]. The Player who gains the <a href="../Battles/BattleConcepts.aspx">Battle</a> will
+  be the owner of the [Planet].<p />
+  Note that [HotZone] planets are different from your [PrivateZone] planets, on the [HotZone] planets you will only be able to build one Facility,
+  <a href="../Facility/Extractor.aspx">Extractors</a>.</lang>
+		<lang key="es">Poseer un [Planet] de nível 1 na [HotZone]. Conquistar planetas na [HotZone] é identico a conquistar planetas na [PrivateZone], existe apenas uma pequena diferença. Estar na [HotZone]
+  significa que vais entrar em competição com outros jogadores pela posse dos planetas.<p />
+  O [Planet] que quiseres conquistar pode já estar na posse de outro jogador. Nesse caso duas coisas podem acontecer: o [Planet] não tem defesas (o [Planet] ainda não tem [Units]
+  na [Fleet] de defesa), ou então o [Planet] já está protegido.<p />
+  No primeiro caso o [Planet] é imediatamente conquistado, como acontecem com os planetas da [PrivateZone]. No segundo caso a [Fleet] utilizada para conquistar o [Planet] entra em
+  batalha com a [Fleet] de desefa do [Planet]. O jogador que ganhar a <a href="../Battles/BattleConcepts.aspx">batalha</a> ficará como o dono do [Planet].<p />
+  Atenção que os planetas da [HotZone] têm uma gestão Diferente dos planetas da [PrivateZone], na [HotZone] só é possível construir um tipo de [Facilities], os
+  <a href="../Facility/Extractor.aspx">Extractores</a>.</lang>
+		<lang key="hr">Posjeduj jedan [Planet] u [HotZone].
+  Pokoravanje Planeta u [HotZone] je isto kao i pokoravanje Planeta u vašoj [PrivateZone], postoji samo jedna kvaka. [HotZone]  je javna zona. što znači da ćete se natjecati sa drugim Igračima za Planete.<p />
+  [Planet] kojega želite pokoriti može već biti u nečijem vlasništvu. U ovome slučaju dvije stvari se mogu dogoditi:[Planet] kojega pokušavate pokoriti nema obrane ([Planet] nema obranbene [Fleet]), ili [Planet] ima obrane.<p />
+  U prvom slučaju odmah dobijate vlasništvo nad [Planet] u pitanju, kao što ste ih pokorili u [PrivateZone]. Udrugom slučaju [Fleet] koju ste poslali da pokuša pokoriti planet će ući u bitku sa obranom [Fleet]  [Planet]. Igrač koji dobije <a href="../Battles/BattleConcepts.aspx">Bitku</a> će biti vlasnik [Planet].<p />
+  Uzmite u obzir da su [HotZone] planeti drukčiji do vaših [PrivateZone] planeta, u [HotZone] planetima ćete moći graditi samo jedno Postrojenje <a href="../Facility/Extractor.aspx">Extractors</a>.</lang>
+		<lang key="pt">Possuir um [Planet] de nível 1 na [HotZone]. Conquistar planetas na [HotZone] é identico a conquistar planetas na [PrivateZone], existe apenas uma pequena diferença. Estar na [HotZone]
+  significa que vais entrar em competição com outros jogadores pela posse dos planetas.<p />
+  O [Planet] que quiseres conquistar pode já estar na posse de outro jogador. Nesse caso duas coisas podem acontecer: o [Planet] não tem defesas (o [Planet] ainda não tem [Units]
+  na [Fleet] de defesa), ou então o [Planet] já está protegido.<p />
+  No primeiro caso o [Planet] é imediatamente conquistado, como acontecem com os planetas da [PrivateZone]. No segundo caso a [Fleet] utilizada para conquistar o [Planet] entra em
+  batalha com a [Fleet] de desefa do [Planet]. O jogador que ganhar a <a href="../Battles/BattleConcepts.aspx">batalha</a> ficará como o dono do [Planet].<p />
+  Atenção que os planetas da [HotZone] têm uma gestão Diferente dos planetas da [PrivateZone], na [HotZone] só é possível construir um tipo de [Facilities], os
+  <a href="../Facility/Extractor.aspx">Extractores</a>.</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel1QuestDarkManual">
+		<lang key="de">Besitze ein [Planet] in der [HotZone].
+  Planeten zu erobern in der [HotZone] ist genauso wie Planeten zu erobern in der [PrivateZone], es 
+  gibt nur einen Haken. Die [HotZone] ist eine öffentliche Zone, das bedeutet das du mit anderen 
+  Spielern um die Planeten konkurrieren musst .<p>
+  Der [Planet] den du erobern willst mag bereits im Besitz eines anderen sein. In dem Fall können zwei 
+  Dinge passieren: der [Planet] den du zu erobern versuchst hat keine Verteidigung (der [Planet] hat 
+  keine Verteidiguns- [Fleet]), oder der [Planet] hat Verteidigungen.</p><p>
+  Im ersten Fall wirst du unverzüglich zum Besitzer des [Planet] , wie das Erobern in der 
+  [PrivateZone]. Im zweiten Fall wird die [Fleet] mit der du versucht hast den Planeten zu erobern,
+   in den Kampf gehen mit der Verteidigungs- [Fleet] des [Planet]. Der Spieler der gewinnt <a href="../Battles/BattleConcepts.aspx">Battle</a> wird zum Besitzer des [Planet].</p><p>
+  Beachte das die [HotZone] Planeten anders sind als deine [PrivateZone] Planeten, auf den [HotZone] Planeten bist du in der Lage nur ein Gebäude zu bauen,
+  <a href="../Facility/Extractor.aspx">Extractors</a>.</p></lang>
+		<lang key="en">Own one [Planet] in the [HotZone].
+  Conquering Planets on the [HotZone] is just about the same as conquering Planets on your [PrivateZone], there's only one catch. The [HotZone] is
+  a public zone, that means you'll be competing with other Players for Planets.<p />
+  The [Planet] you want to conquer may already be possession of someone else. In this case two things can happen: the [Planet] you are trying to conquer has
+  no defenses (the [Planet] has no Defense [Fleet]), or the [Planet] does have defenses.<p />
+  In the first case you immediatly gain ownership of the [Planet] in question, just like conquering in the [PrivateZone]. On the second case the [Fleet] you used
+  to try and conquer the Planet will enter in a Battle with the defense [Fleet] of the [Planet]. The Player who gains the <a href="../Battles/BattleConcepts.aspx">Battle</a> will
+  be the owner of the [Planet].<p />
+  Note that [HotZone] planets are different from your [PrivateZone] planets, on the [HotZone] planets you will only be able to build one Facility,
+  <a href="../Facility/Extractor.aspx">Extractors</a>.</lang>
+		<lang key="es">Poseer un [Planet] de nível 1 na [HotZone]. Conquistar planetas na [HotZone] é identico a conquistar planetas na [PrivateZone], existe apenas uma pequena diferença. Estar na [HotZone]
+  significa que vais entrar em competição com outros jogadores pela posse dos planetas.<p />
+  O [Planet] que quiseres conquistar pode já estar na posse de outro jogador. Nesse caso duas coisas podem acontecer: o [Planet] não tem defesas (o [Planet] ainda não tem [Units]
+  na [Fleet] de defesa), ou então o [Planet] já está protegido.<p />
+  No primeiro caso o [Planet] é imediatamente conquistado, como acontecem com os planetas da [PrivateZone]. No segundo caso a [Fleet] utilizada para conquistar o [Planet] entra em
+  batalha com a [Fleet] de desefa do [Planet]. O jogador que ganhar a <a href="../Battles/BattleConcepts.aspx">batalha</a> ficará como o dono do [Planet].<p />
+  Atenção que os planetas da [HotZone] têm uma gestão Diferente dos planetas da [PrivateZone], na [HotZone] só é possível construir um tipo de [Facilities], os
+  <a href="../Facility/Extractor.aspx">Extractores</a>.</lang>
+		<lang key="fr">Possédez 1 planète niveau sur la zone publique.
+
+ Conquérir une planète sur la [HotZone] se fait de la même façon que sur [PrivateZone], avec une petite différence. La [HotZone] est publique; signifiant que vous êtes en compétition pour l'acquisition de planètes avec les autres joueurs.<p />
+  Les [Planet] que vous alez conquérir peuvent appartenir à quelqu'un d'autre. Dans ce cas, il peut arriver 2 choses: la [Planet] est immédiatement conquit car il n'y a pas d'[Fleet] sur la planète, ou la [Planet] est effectivement défendu.<p />
+  Dans le premier cas, vous allez immédiatement acuérir possession de la planète, et dans le deuxième cas, il y aura combat contre l'escadrille de défense. Le joueur qui gagne sera celui qui gagne ou conserve la planète. <a href="../Battles/BattleConcepts.aspx">Battle</a><p />
+  À noter que sur le [HotZone] les planètes sont différentes que sur le [PrivateZone]car vous pouvez seulement construire des extracteurs.
+  <a href="../Facility/Extractor.aspx">Extractors</a>.</lang>
+		<lang key="hr">Posjeduj jedan [Planet] u [HotZone].
+Pokoravanje Planeta u [HotZone] je isto kao i pokoravanje Planeta u vašoj [PrivateZone], postoji samo jedna kvaka. [HotZone]  je javna zona. što znači da ćete se natjecati sa drugim Igračima za Planete.<p />
+[Planet] kojega želite pokoriti može već biti u nečijem vlasništvu. U ovome slučaju dvije stvari se mogu dogoditi:[Planet] kojega pokušavate pokoriti nema obrane ([Planet] nema obranbene [Fleet]), ili [Planet] ima obrane.<p />
+U prvom slučaju odmah dobijate vlasništvo nad [Planet] u pitanju, kao što ste ih pokorili u [PrivateZone]. Udrugom slučaju [Fleet] koju ste poslali da pokuša pokoriti planet će ući u bitku sa obranom [Fleet]  [Planet]. Igrač koji dobije <a href="../Battles/BattleConcepts.aspx">Bitku</a> će biti vlasnik [Planet].<p />
+Uzmite u obzir da su [HotZone] planeti drukčiji do vaših [PrivateZone] planeta, u [HotZone] planetima ćete moći graditi samo jedno Postrojenje <a href="../Facility/Extractor.aspx">Extractors</a>.</lang>
+		<lang key="pt">Possuir um [Planet] de nível 1 na [HotZone]. Conquistar planetas na [HotZone] é identico a conquistar planetas na [PrivateZone], existe apenas uma pequena diferença. Estar na [HotZone]
+  significa que vais entrar em competição com outros jogadores pela posse dos planetas.<p />
+  O [Planet] que quiseres conquistar pode já estar na posse de outro jogador. Nesse caso duas coisas podem acontecer: o [Planet] não tem defesas (o [Planet] ainda não tem [Units]
+  na [Fleet] de defesa), ou então o [Planet] já está protegido.<p />
+  No primeiro caso o [Planet] é imediatamente conquistado, como acontecem com os planetas da [PrivateZone]. No segundo caso a [Fleet] utilizada para conquistar o [Planet] entra em
+  batalha com a [Fleet] de desefa do [Planet]. O jogador que ganhar a <a href="../Battles/BattleConcepts.aspx">batalha</a> ficará como o dono do [Planet].<p />
+  Atenção que os planetas da [HotZone] têm uma gestão Diferente dos planetas da [PrivateZone], na [HotZone] só é possível construir um tipo de [Facilities], os
+  <a href="../Facility/Extractor.aspx">Extractores</a>.</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel1QuestManual">
+		<lang key="de">Besitze ein [Planet] in der [HotZone].
+  Planeten zu erobern in der [HotZone] ist genauso wie Planeten zu erobern in der [PrivateZone], es 
+  gibt nur einen Haken. Die [HotZone] ist eine öffentliche Zone, das bedeutet das du mit anderen 
+  Spielern um die Planeten konkurrieren musst .<p>
+  Der [Planet] den du erobern willst mag bereits im Besitz eines anderen sein. In dem Fall können zwei 
+  Dinge passieren: der [Planet] den du zu erobern versuchst hat keine Verteidigung (der [Planet] hat 
+  keine Verteidiguns- [Fleet]), oder der [Planet] hat Verteidigungen.</p><p>
+  Im ersten Fall wirst du unverzüglich zum Besitzer des [Planet] , wie das Erobern in der 
+  [PrivateZone]. Im zweiten Fall wird die [Fleet] mit der du versucht hast den Planeten zu erobern,
+   in den Kampf gehen mit der Verteidigungs- [Fleet] des [Planet]. Der Spieler der gewinnt <a href="../Battles/BattleConcepts.aspx">Battle</a> wird zum Besitzer des [Planet].</p><p>
+  Beachte das die [HotZone] Planeten anders sind als deine [PrivateZone] Planeten, auf den [HotZone] Planeten bist du in der Lage nur ein Gebäude zu bauen,
+  <a href="../Facility/Extractor.aspx">Extractors</a>.</p></lang>
+		<lang key="en">Own one [Planet] in the [HotZone].
+  Conquering Planets on the [HotZone] is just about the same as conquering Planets on your [PrivateZone], there's only one catch. The [HotZone] is
+  a public zone, that means you'll be competing with other Players for Planets.<p />
+  The [Planet] you want to conquer may already be possession of someone else. In this case two things can happen: the [Planet] you are trying to conquer has
+  no defenses (the [Planet] has no Defense [Fleet]), or the [Planet] does have defenses.<p />
+  In the first case you immediatly gain ownership of the [Planet] in question, just like conquering in the [PrivateZone]. On the second case the [Fleet] you used
+  to try and conquer the Planet will enter in a Battle with the defense [Fleet] of the [Planet]. The Player who gains the <a href="../Battles/BattleConcepts.aspx">Battle</a> will
+  be the owner of the [Planet].<p />
+  Note that [HotZone] planets are different from your [PrivateZone] planets, on the [HotZone] planets you will only be able to build one Facility,
+  <a href="../Facility/Extractor.aspx">Extractors</a>.</lang>
+		<lang key="es">Poseer un [Planet] de nível 1 na [HotZone]. Conquistar planetas na [HotZone] é identico a conquistar planetas na [PrivateZone], existe apenas uma pequena diferença. Estar na [HotZone]
+  significa que vais entrar em competição com outros jogadores pela posse dos planetas.<p />
+  O [Planet] que quiseres conquistar pode já estar na posse de outro jogador. Nesse caso duas coisas podem acontecer: o [Planet] não tem defesas (o [Planet] ainda não tem [Units]
+  na [Fleet] de defesa), ou então o [Planet] já está protegido.<p />
+  No primeiro caso o [Planet] é imediatamente conquistado, como acontecem com os planetas da [PrivateZone]. No segundo caso a [Fleet] utilizada para conquistar o [Planet] entra em
+  batalha com a [Fleet] de desefa do [Planet]. O jogador que ganhar a <a href="../Battles/BattleConcepts.aspx">batalha</a> ficará como o dono do [Planet].<p />
+  Atenção que os planetas da [HotZone] têm uma gestão Diferente dos planetas da [PrivateZone], na [HotZone] só é possível construir um tipo de [Facilities], os
+  <a href="../Facility/Extractor.aspx">Extractores</a>.</lang>
+		<lang key="hr">Posjeduj jedan [Planet] u [HotZone].
+  Pokoravanje Planeta u [HotZone] je isto kao i pokoravanje Planeta u vašoj [PrivateZone], postoji samo jedna kvaka. [HotZone]  je javna zona. što znači da ćete se natjecati sa drugim Igračima za Planete.<p />
+  [Planet] kojega želite pokoriti može već biti u nečijem vlasništvu. U ovome slučaju dvije stvari se mogu dogoditi:[Planet] kojega pokušavate pokoriti nema obrane ([Planet] nema obranbene [Fleet]), ili [Planet] ima obrane.<p />
+  U prvom slučaju odmah dobijate vlasništvo nad [Planet] u pitanju, kao što ste ih pokorili u [PrivateZone]. Udrugom slučaju [Fleet] koju ste poslali da pokuša pokoriti planet će ući u bitku sa obranom [Fleet]  [Planet]. Igrač koji dobije <a href="../Battles/BattleConcepts.aspx">Bitku</a> će biti vlasnik [Planet].<p />
+  Uzmite u obzir da su [HotZone] planeti drukčiji do vaših [PrivateZone] planeta, u [HotZone] planetima ćete moći graditi samo jedno Postrojenje <a href="../Facility/Extractor.aspx">Extractors</a>.</lang>
+		<lang key="pt">Possuir um [Planet] de nível 1 na [HotZone]. Conquistar planetas na [HotZone] é identico a conquistar planetas na [PrivateZone], existe apenas uma pequena diferença. Estar na [HotZone]
+  significa que vais entrar em competição com outros jogadores pela posse dos planetas.<p />
+  O [Planet] que quiseres conquistar pode já estar na posse de outro jogador. Nesse caso duas coisas podem acontecer: o [Planet] não tem defesas (o [Planet] ainda não tem [Units]
+  na [Fleet] de defesa), ou então o [Planet] já está protegido.<p />
+  No primeiro caso o [Planet] é imediatamente conquistado, como acontecem com os planetas da [PrivateZone]. No segundo caso a [Fleet] utilizada para conquistar o [Planet] entra em
+  batalha com a [Fleet] de desefa do [Planet]. O jogador que ganhar a <a href="../Battles/BattleConcepts.aspx">batalha</a> ficará como o dono do [Planet].<p />
+  Atenção que os planetas da [HotZone] têm uma gestão Diferente dos planetas da [PrivateZone], na [HotZone] só é possível construir um tipo de [Facilities], os
+  <a href="../Facility/Extractor.aspx">Extractores</a>.</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel3QuestManual">
+		<lang key="de">Besitze ein Planet Level 3 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 3 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nível 3 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planète de niveau 3 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan planet nivoa 3 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 3 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel5QuestManual">
+		<lang key="de">Besitze ein Planet Level 5 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 5 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nível 5 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planète de niveau 5 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan planet nivoa 5 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 5 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel7QuestManual">
+		<lang key="de">Besitze ein Planet Level 7 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 7 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nível 7 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planàte de niveau 7 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan planet nivoa 7 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 7 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel9QuestManual">
+		<lang key="de">Besitze einen Planeten Level 9 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 9 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nível 9 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planàtes de niveau 9 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan planet nivoa 9 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 9 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel10QuestManual">
+		<lang key="de">Besitze fünf Planeten level 10 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 10 on the hot zone</lang>
+		<lang key="es">Poseer cinco planetas de nível 10 en la zona pública</lang>
+		<lang key="hr">Posjeduj pet planeta nivoa 10 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 10 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel1QuestManual">
+		<lang key="de">Besitze fünf Planeten Level 1 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 1 on the hot zone</lang>
+		<lang key="es">Posser cinco planetas de nível 1 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planètes de niveau 1 sur la zone publique</lang>
+		<lang key="hr">Posjeduj pet planeta nivoa 1 na hot zone</lang>
+		<lang key="pt">Possuir cinco planetas de nível 1 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel3QuestManual">
+		<lang key="de">Besitze fünf Planeten Level 3 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 3 on the hot zone</lang>
+		<lang key="es">Poseer  cinco planetas de nível 3 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planètes de niveau 3 sur la zone publique</lang>
+		<lang key="hr">Posjeduj pet planeta nivoa 3 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 3 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel5QuestManual">
+		<lang key="de">Besitze fünf Planeten Level 5 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 5 on the hot zone</lang>
+		<lang key="es">Poseer cinco planetas de nível 5 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planètes de niveau 5 sur la zone publique</lang>
+		<lang key="hr">Posjeduj pet planeta nivoa 5 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 5 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel7QuestManual">
+		<lang key="de">Besitze fünf Planeten Level 7 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 7 on the hot zone</lang>
+		<lang key="es">Poseer cinco planetas de nível 7 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planàtes de niveau 7 sur la zone publique</lang>
+		<lang key="hr">Posjeduj pet planeta nivoa 7 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 7 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel9QuestManual">
+		<lang key="de">Besitze fünf Planeten Level 9 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 9 on the hot zone</lang>
+		<lang key="es">Poseer cinco planetas de nível 9 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planètes de niveau 9 sur la zone publique</lang>
+		<lang key="hr">Posjeduj pet planeta nivoa 9 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 9 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel10QuestManual">
+		<lang key="de">Besitze acht Planeten Level 10 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 10 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nível 10 en la zona pública</lang>
+		<lang key="hr">Posjeduj osam planeta nivoa 10 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 10 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel1QuestManual">
+		<lang key="de">Besitze acht Planeten Level 1 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 1 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nível 1 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planète de niveau 1 sur la zone publique</lang>
+		<lang key="hr">Posjedujete osam planeta nivoa 1 u hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 1 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel3QuestManual">
+		<lang key="de">Besitze acht Planeten Level 3 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 3 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nível 3 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planètes de niveau 3 sur la zone publique</lang>
+		<lang key="hr">Posjeduj osam planeta nivoa 3 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 3 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel5QuestManual">
+		<lang key="de">Besitze acht Planeten Level 5 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 5 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nível 5 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planètes de niveau 5 sur la zone publique</lang>
+		<lang key="hr">Posjeduj osam planeta nivoa 5 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 5 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel7QuestManual">
+		<lang key="de">Besitze acht Planeten Level 7 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 7 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nível 7 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planàtes de niveau 7 sur la zone publique</lang>
+		<lang key="hr">Posjeduj osam planeta nivoa 7 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 7 na zona pública</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel9QuestManual">
+		<lang key="de">Besitze acht Planeten Level 9 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 9 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nível 9 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planètes de niveau 9 sur la zone publique</lang>
+		<lang key="hr">Posjeduj osam planeta nivoa 9 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 9 na zona pública</lang>
+	</entry>
+
+	<entry key="ColonizeAllPrivateZonePlanetsQuestManual">
+		<lang key="de">Jetzt weisst du wie man [Planets] besiedelt, dein nächster[Quest] ist all Planeten in deiner [PrivateZone] zu besiedeln.
+In deiner [PrivateZone] gibt es 5 [Planets], erforsche und besiedele diese Planeten. <p></p></lang>
+		<lang key="en">Now you've learned how to colonize [Planets], your next [Quest] is colonize all planets of your [PrivateZone].
+  In your [PrivateZone] there are 5 [Planets], discover and colonize them. <p /></lang>
+		<lang key="es">Ahora ya aprendiste a colonizar [Planets] tu próxima [Quest] es colonizar todos os planetas de tu [PrivateZone].
+  En tu [PrivateZone] existén 5 [Planets], descubrelos y colonizalos.<p /></lang>
+		<lang key="hr">Sada kada ste naučili kako kolonizirati [Planets], vaš sljedeći [Quest] je kolonizirati sve planete u vašoj [PrivateZone]. U vašoj [PrivateZone] ima 5 [Planets], otkrijte ih i kolonizirajete ih. <p /></lang>
+		<lang key="pt">Agora que já aprendeste a colonizar [Planets] a tua próxima [Quest] é colonizar todos os planetas da tua [PrivateZone].
+  Na tua [PrivateZone] existem 5 [Planets], descobre-os e coloniza-os.<p /></lang>
+	</entry>
+
+	<entry key="ColonizeOnePlanetQuestManual">
+		<lang key="de">Das Ziel dieser Mission ist zu lernen wie man einen [Planet] erobert. In deiner [PrivateZone] kannst durch nicht von anderen Spielern geplagt werden, also brauchst du dir keine Sorgen zu machen angegriffen zu werden. <p>
+  Suche das Universum mit einer [Fleet] ab um ein [Planet] zu finden. Dann wähle die [Fleet], Klicke 
+  auf das oberste Ende des [Planet] und erobere. Das folgende Bild zeigt ein Beispiel, und die Mission 
+  ist bereit von dir erledigt zu werden.
+  <img class="block" src="/Resources/Images/en/colonize.png" alt="Besiedeln" title="Besiedeln"/></p></lang>
+		<lang key="en">The objective of this mission is to learn how to conquerer a [Planet]. In your [PrivateZone] you can't be plagued
+  by other players, so you do not have to have concerns about being attacked. <p />
+  Search the universe with a [Fleet] to find a [Planet]. Then select the [Fleet], click on top of the [Planet] and
+  conquerer it. The following image shows an example, and you have the mission ready to be delivered.
+  <img class="block" src="/Resources/Images/en/colonize.png" alt="Colonize" title="Colonize" /></lang>
+		<lang key="es">El objetivo de esta misión es aprender a conquistar un [Planet]. En tu [PrivateZone] no puedes ser molestado
+  por otros jugadores, por eso no tienes que estar preocupado de ser atacado.<p />
+  Navega por el universo com una [Fleet] hasta que encuentres un [Planet]. Enseguida selecciona la [Fleet], haz click encima del [Planet] y
+  haz conquistar,  como lo que sucede en la imagem siguiente, y tienes la mision lista para ser entregada.
+  <img class="block" src="/Resources/Images/pt/colonize.png" alt="Colonizar" title="Colonizar" /></lang>
+		<lang key="hr">Cilj ove misije je da naučite kako pokoriti [Planet]. U vašoj [PrivateZone] ne mogu vas gnjaviti drugi igrači tako da se ne trebate brinuti o tome da li će vas netko napasti. <p />
+  Pretražite svemir sa [Fleet] i pronađite [Planet]. Tada odaberite [Fleet], kliknite poviše [Planet] i pokorite ga. Sljedeća slika pokazuje primjer, i vi imatge misiju spremnu da bude dostavljena.
+  <img class="block" src="/Resources/Images/en/colonize.png" alt="Colonize" title="Colonize" /></lang>
+		<lang key="pt">O objectivo desta missão é aprender a conquistar um [Planet]. Na tua [PrivateZone] não podes ser importunado
+  por outros jogadores, por isso não tens de ter preocupações em ser atacado.<p />
+  Navega pelo universo com uma [Fleet] até encontrares um [Planet]. De seguida selecciona a [Fleet], clica em cima do [Planet] e
+  faz conquistar como o que acontece na imagem seguinte e tens a missão pronta a ser entregue.
+  <img class="block" src="/Resources/Images/pt/colonize.png" alt="Colonizar" title="Colonizar" /></lang>
+	</entry>
+
+	<entry key="ColonizerIntro">
+		<lang key="de">Besiedler sind die die durchs [Universe] reisen und Planeten erobern.</lang>
+		<lang key="en">Colonizers are those that travel trough the [Universe] conquering planets.</lang>
+		<lang key="es">Los colonizadores son aquellos que viajan por el [Universe] a la conquista de planetas.</lang>
+		<lang key="hr">Kolonizatori su oni koji putuju [Universe] pokoravajući planete.</lang>
+		<lang key="pt">Os colonizadores são aqueles que viajam pelo [Universe] à conquista de planetas.</lang>
+	</entry>
+
+	<entry key="Complete10Level1TradeRoutesManual">
+		<lang key="de">Beende zehn Handelsrouten indem du Werkzeuge oder Vorräte in 24 Stunden benutzt</lang>
+		<lang key="en">Complete ten trade routes using Tools or Supplies in 24 hours</lang>
+		<lang key="es">Completar diez rutas comerciales de Herramientas o Mantenimientos en 24 horas</lang>
+		<lang key="fr">Terminer 10 routes commerciales en utilisant des outils ou des provisions en 24 heures</lang>
+		<lang key="hr">Završite 10 trgovačkih ruta koristeći se Alatima ili Zalihama unutar 24 sata</lang>
+		<lang key="pt">Completar dez rotas comerciais de Ferramentas ou Mantimentos em 24 horas</lang>
+	</entry>
+
+	<entry key="Complete12Level3TradeRoutesManual">
+		<lang key="de">Beende zwölf Handels-Routen indem du Alkohol oder Medizin benutzt in 24 Stunden.</lang>
+		<lang key="en">Complete twelve trade routes using Alcohol or Medicine in 24 hours</lang>
+		<lang key="fr">Terminer 12 routes commerciales en utilisant de l'alcool et de la médecine en 24 heures.</lang>
+		<lang key="hr">Završite dvanaest trgovačkih ruta koristeći se Alkoholom ili Lijekovima unutar 24 sata</lang>
+		<lang key="pt">Completar doze rotas comerciais de Álcool ou Medicamentos em 24 horas</lang>
+	</entry>
+
+	<entry key="Complete12Level7TradeRoutesManual">
+		<lang key="de">Beende zwölf Handelsrouten indem du Quecksilber oder Diamanten benutzt</lang>
+		<lang key="en">Complete twelve trade routes using Mercury or Diamonds</lang>
+		<lang key="fr">Terminer 12 routes commerciales en utilisant du mercure ou des diamants</lang>
+		<lang key="hr">Završite dvanaest trgovačkih ruta koristeći Živu ili Dijamante</lang>
+		<lang key="pt">Completar oito rotas comerciais de Mercúrio ou Diamantes</lang>
+	</entry>
+
+	<entry key="Complete16Level10TradeRoutesManual">
+		<lang key="de">Beende zwölf Handelsrouten indem du Tiere oder Kosmischen Staub benutzt</lang>
+		<lang key="en">Complete twelve trade routes using Animals or Cosmic Dust</lang>
+		<lang key="fr">Terminer 12 routes commerciales en utilisant des animaux ou de la poudre cosmique.</lang>
+		<lang key="hr">Završite dvanaest trgovačkih ruta koristeći se Životinjama ili Kozmičkom Prašinom</lang>
+		<lang key="pt">Completar oito rotas comerciais de Animais ou Poeira Cósmica</lang>
+	</entry>
+
+	<entry key="Complete16Level7TradeRoutesManual">
+		<lang key="de">Beende 16 Handelsrouten indem du Quecksilber oder Diamanten in 24 Stunden benutzt.</lang>
+		<lang key="en">Complete 16 trade routes using Mercury or Diamonds in 24 hours</lang>
+		<lang key="fr">Terminer 16 routes commerciales en utilisant des diamants ou ddu mercure en 24 heures.</lang>
+		<lang key="hr">Završite 16 trgovačkih ruta koristeči se Živom ili Dijamantima unutar 24 sata</lang>
+		<lang key="pt">Completar 16 rotas comerciais de Mercúrio ou Diamantes em 24 horas</lang>
+	</entry>
+
+	<entry key="Complete20Level10TradeRoutesManual">
+		<lang key="de">Beende 20 Handelsrouten indem du Tiere oder Kosmischen Staub benutzt in 24 Stunden</lang>
+		<lang key="en">Complete 20 trade routes using Animals or Cosmic Dust in 24 hours</lang>
+		<lang key="fr">Terminer 20 routes commerciales en utilisant des animaux ou de la poudre cosmique en 24 heures.</lang>
+		<lang key="hr">Završite 20 trgovačkih ruta koristeći se Životinjama ili Kozmičkom Prašinom unutar 24 sata.</lang>
+		<lang key="pt">Completar 20 rotas comerciais de Animais ou Poeira Cósmica em 24 horas</lang>
+	</entry>
+
+	<entry key="Complete8Level3TradeRoutesManual">
+		<lang key="de">Beende acht Handelsrouten indem du  Alkohol oder Medizin benutzt</lang>
+		<lang key="en">Complete eight trade routes using Alcohol or Medicine</lang>
+		<lang key="fr">Terminer 8 routes commerciales en utilisant de la médecine ou de l'alccol.</lang>
+		<lang key="hr">Završite osam trgovačkih ruta koristeći se se Alkoholom ili Lijekovima</lang>
+		<lang key="pt">Completar oito rotas comerciais de Álcool ou Medicamentos</lang>
+	</entry>
+
+	<entry key="CompleteForLevel1TradeRoutesManual">
+		<lang key="de">Beende vier Handelsrouten indem du Werkzeuge und Vorraäte benutzt</lang>
+		<lang key="en">Complete four trade routes using Tools or Supplies</lang>
+		<lang key="es">Completar cuatro rutas comerciales de Herramientas o Mantenimientos</lang>
+		<lang key="fr">Terminer 4 routes commerciales en utilisant outils ou provisions.</lang>
+		<lang key="hr">Završite četiri trgovačke rute koristeći se Alatima ili Zalihama</lang>
+		<lang key="pt">Completar quatro rotas comerciais de Ferramentas ou Mantimentos</lang>
+	</entry>
+
+	<entry key="CustomPlayerBounty">
+		<lang key="de">Kopfgeld gesetzt auf Spieler</lang>
+		<lang key="en">Ordered Player Bounty Hunt</lang>
+		<lang key="hr">Naručeni Lov Na Glavu Igrača</lang>
+		<lang key="pt">Caça a um Jogador Encomendada</lang>
+	</entry>
+
+	<entry key="CustomPlayerBountyInfo">
+		<lang key="de"><div class="description">
+    Spieler können Custom-Kopfgelder auf irgendein Ziel setzen. Wenn ein Spieler ein Custom-Ziel 
+    kreiert, muss er dem/der Spieler(in) eine [Orions] Belohnung bezahlen der beauftragt wird . Es 
+    können mehrere Spieler die Kopfgeld- Mission akzeptieren und ihr Fortschritt besteht dadurch das 
+    sie dem Gejagten Punkte stehlen auf dem [GameBoard].
+    <p>
+     Wenn mehr als ein Jäger Punkte stiehlt, wird die [Orions] Belohnung aufgeteilt.
+  </p></div></lang>
+		<lang key="en"><div class="description">
+    Players can request custom bounties on any target. When a player creates a custom target,
+    he has to pay a [Orions] reward to the players that assist him/her. Several players may accept a bounty hunt,
+    and they progress by taking points from the target on battles on the [GameBoard].
+    <p />
+    If more than one hunter steals points, the [Orions] reguard will be split.
+  </div></lang>
+		<lang key="hr"><div class="description">
+    Igrači mogu zahtjevati ucjene na glacvu na bilo koju metu. Kada igrač odredi metu, mora platiti [Orions] nagradu igraču koji mu pomogne. Nekoliko igrača može prihvatiti lov na glavu, i oni napreduju tako da uzimaju bodove od mete preko bitki na [GameBoard].
+    <p />
+    Ako više od jednoga lovca ukrade bodove, [Orions] će biti podijeljenji.
+  </div></lang>
+		<lang key="pt"><div class="description">
+    Os jogadores podem encomendar caças a qualquer alvo que queiram. Quando um jogador cria uma caça, tem de
+    oferecer uma recompensa em [Orions] para os jogadores que a aceitarem. Vários jogadores podem aceitar a caça
+    e eles progridem através de ataques ao alvo.
+    <p />
+    Se mais do que um caçador retira pontos ao alvo, a recompensa será dividida.
+  </div></lang>
+	</entry>
+
+	<entry key="DestroyCaptainWolfManual">
+		<lang key="de">Die Space Force zerstört unser Imperium und das müssen wir verhindern. Kapitän Wolf, die rechte Hand ihres Führers, Kommander Fox, muss augehalten werden. Bring mir seinen Kopf! Berichte sagen dass er sich in der Level 7 Zone aufhält aber manchmal wandert er Level 9 and Level 10 Zonen herum. Finde ihn und bring seinen Kopf zu einer Bucht der Piraten Level 7.</lang>
+		<lang key="en">The Space Force is destroying our empire and we need to stop it. Captain Wolf, the right hand of their leader, Commander Fox, has to be stopped. Bring me his head! Reports locate him in the level 7 zone but sometimes he wonders in the level 9 and level 10 zones. Find him and bring his Head to any level 7 Pirate Bay.</lang>
+		<lang key="pt">A Space Force está a destruir o nosso império e precisamos de os parar. O Capitão Wolf, a mão direita do lider, o Comandante Fox, tem de ser parado. Trás-me a sua cabeça! Relatórios localizam-no na zona de nivel 7, mas também já foi visto em zonas de nivel 9 e nivel 10. Encontra-o e trás a sua cabeça a qualquer Baía de Piratas de nível 7.</lang>
+	</entry>
+
+	<entry key="DestroyCommanderFoxManual">
+		<lang key="de">Ich hab es satt. Bring mir sofort den Kopf von Kommander Fox. Das ist die wichtigste Mission die ich dir heute geben werde, also versage nicht oder du wirst es bereuen. Du musst die Level 9 und 10 durchsuchen und seinen Kopf zu einer Bucht der Piraten Level 10 bringen.</lang>
+		<lang key="en">I've done with it. Bring me Commander Fox head now. This is the most important mission i will give you until today, so don't fail or you will regreat. You must search levels 9 and 10 and bring his head to a level 10 Pirate Bay.</lang>
+		<lang key="pt">Estou farto. Trás-me a cabeça do Comandante Fox. Esta é a missão mais importante que alguma vez te vou dar, por isso não falhes ou vais-te arrepender. Tens de procurar os níveis 9 e 10 e trazer a sua cabeça a qualquer Baía de Piratas de nível 10.</lang>
+	</entry>
+
+	<entry key="DestroyMetallicBeardManual">
+		<lang key="de">Dies ist die wichtigste Mission die ich dir heute geben werde. Du musst die Levels 9 und 10 durchsuchen und die Bedrohung die von Metallic Beard ausgeht, beenden. Bring seinen Kopf zu einer Level 10 Academy.</lang>
+		<lang key="en">This is the most important mission i will give you until today. You must search levels 9 and 10 and end with Metallic Beard's menace. Bring his head to a level 10 Academy.</lang>
+		<lang key="fr">Aujourd'hui, je vous donne votre mission la plus importante. Vous devez trouvez dans les zones de niveau 9 et 10 pour en finir avec la menace qu'est "Barbe métallique". Apportez sa tête à une académie niveau 10.</lang>
+		<lang key="hr">Ovo je najvažnija misija koju sam vam dao do danas. Trebate pretražiti zone 9 i 10 i završiti sa prijetnjom Metalne Brade. Donesite njegovu glavu na bilo koju Akademiju nivoa 10.</lang>
+		<lang key="pt">Esta é a missão mais importante que alguma vez te dei. Procura nos niveis 9 e 10 e acaba com a ameaça do Barba Metálica. Trás a sua cabeça a qualquer Academia de nivel 10.</lang>
+	</entry>
+
+	<entry key="DestroySilverBeardManual">
+		<lang key="de">Wir haben die rücksichtslose Rechte Hand von Metallic Beard lokalisiert. He nennt sich selbst Silver Beard. Berichte sagen dass er sich in der Level 7 Zone aufhält  aber manchmal wandert er in Level 9 und Level 10 Zonen herum. Finde ihn und bringe seinen Kopf zu einer Level 7 Akademie.</lang>
+		<lang key="en">We have located the ruthless right hand of Metallic Beard. He calls himself Silver Beard. Reports locate him in the level 7 zone but sometimes he wonders in the level 9 and level 10 zones. Find him and bring his Head to any level 7 Academy.</lang>
+		<lang key="fr">Nous avons localisé le bras droit de "Barbe métallique". Il s'appel "Barbe Argent". Il aurait été vu dans une zone niveau 7 mais parfois dans les zones 9 et 10. Trouvez le et apporter sa tête dans une académie de niceau 7.</lang>
+		<lang key="hr">Locirali smo nemilosrdnu desnu ruku Metalne Brade. Zove sebe Srebrena Brada. Izvještaju ga lociraju u zonu nivoa 7. ali katkada odluta do zona nivo 9 i 10. Pronađite ga i donesite njegovu glavu na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">Localizámos a impediosa mão direita do Barba Metálica. Ele intitula-se Barba Prateada. Relatórios localizam-no na zona de nivel 7, mas também já foi visto em zonas de nivel 9 e nivel 10. Encontra-o e trás a sua cabeça a qualquer Academia de nível 7.</lang>
+	</entry>
+
+	<entry key="FindOneMarketQuestManual">
+		<lang key="de">Finde einen Markt in der öffentlichen Zone</lang>
+		<lang key="en">Find one market on the public zone</lang>
+		<lang key="es">Encontrar un mercado en la zona pública</lang>
+		<lang key="fr">Trouvez un marché dans la zone publique</lang>
+		<lang key="hr">Pronađi jedan market u javnoj zoni</lang>
+		<lang key="pt">Encontrar um mercado na zona pública</lang>
+	</entry>
+
+	<entry key="FindPrivateWormHoleQuestManual">
+		<lang key="de">Sobald du alle [Planets] in deiner [PrivateZone] besiedelt hast, ist der einzige Weg zusätzliche Planeten zu erobern, die [HotZone] zu verlassen. Es gibt nur einen einzigen Weg zur [HotZone]. Du muss durch das [Wormhole] gehen das sich in deiner [PrivateZone] befindet, es gibt absolut keinen anderen Weg tausende von Lichtjahren zurückzulegen.
+  <p>
+  Dein [Quest] ist das [WormHole] zu finden wie in dem folgenden Bild und durch das Wurmloch zu gehen um in die [HotZone] zu gelangen.
+  <img class="block" src="/Resources/Images/en/Wormhole.png" alt="Worm Hole" title="Worm Hole"/></p></lang>
+		<lang key="en">Once you have colonized all the [Planets] on your [PrivateZone] the only way to conquer more planets will be to
+  leave for the [HotZone]. There is only way to get to the [HotZone]. You'll have to go through the [Wormhole] that
+  is on your [PrivateZone], there is no other way to make the trip of tens of thousands of light years to the [HotZone] otherwise.
+  <p />
+  Your [Quest] is find the [WormHole] similar to the following image and travel through it to the [HotZone].
+  <img class="block" src="/Resources/Images/en/Wormhole.png" alt="Worm Hole" title="Worm Hole" /></lang>
+		<lang key="es">Después de haber colonizado todos los [Planets] de tu [PrivateZone] no tienes opción de poseer mas [Planets]
+  a no ser que existan [Planets] en la [HotZone]. Para que llegues a la [HotZone] sólo existe una manera, que hagas un viaje por el [WormHole] que existe
+  en tu [PrivateZone], en caso contrário nunca conseguirias hacer un viaje de millones de años luz.<p />
+  Tu [Quest] es encontrar el [WormHole] idéntico al de la imagén siguiente y viajar a través de el hasta la [HotZone].
+  <img class="block" src="/Resources/Images/pt/Wormhole.png" alt="Túnel Espacial" title="Tunel Espacial" /></lang>
+		<lang key="hr">Jednonmm kada kolonizirate sve [Planets] u vašoj [PrivateZone], jedini način da pokorite još planeta će biti da napustite [HotZone]. Postoji samo jedan put da se dođe do [HotZone]. Trebate proći kroz [Wormhole] koji je u vašoj [PrivateZone], ne postoji drugi način da napravite put od nekoliko milijuna svjetlosnih godina do [HotZone].
+  <p />
+  Vaš [Quest] je da se pronađe [WormHole] sličan sljedećoj slici i putujete kroz nju u [HotZone].
+  <img class="block" src="/Resources/Images/en/Wormhole.png" alt="Worm Hole" title="Worm Hole" /></lang>
+		<lang key="pt">Depois de teres colonizado todos os [Planets] da tua [PrivateZone] não tens hipoteses de possuir mais [Planets]
+  a não ser [Planets] na [HotZone]. Para chegares à [HotZone] só existe uma maneira, fazeres uma viagem pelo [WormHole] que existe
+  na tua [PrivateZone], caso contrário nunca conseguirias fazer uma viaja de milhões de anos luz.<p />
+  A tua [Quest] é encontrar o [WormHole] idêntico ao da imagem seguinte e viajar através dele até à [HotZone].
+  <img class="block" src="/Resources/Images/pt/Wormhole.png" alt="Túnel Espacial" title="Tunel Espacial" /></lang>
+	</entry>
+
+	<entry key="FinishABattleQuestManual">
+		<lang key="de">Beende eine Schlacht in der öffentlichen Zone</lang>
+		<lang key="en">Finish a battle on the hot zone</lang>
+		<lang key="es">Hacer una batalla en la zona pública</lang>
+		<lang key="fr">Finir une bataille sur la zone publique</lang>
+		<lang key="hr">Završite bitku na hot zoni</lang>
+		<lang key="pt">Fazer uma batalha na zona pública</lang>
+	</entry>
+
+	<entry key="FirstTradeRouteQuestManual">
+		<lang key="de">Beende eine Handelsroute</lang>
+		<lang key="en">Complete a trade route</lang>
+		<lang key="es">Completar una ruta comercial</lang>
+		<lang key="fr">Terminer une route commerciale</lang>
+		<lang key="hr">Završi trgovačku rutu</lang>
+		<lang key="pt">Completar uma rota comercial</lang>
+	</entry>
+
+	<entry key="GetAllPrivateZoneResourcesManual">
+		<lang key="de">Sammle alle Ressourcen in deiner Privat-Zone ein</lang>
+		<lang key="en">Catch all the resources in your private zone</lang>
+		<lang key="es">Tomar todos los recursos que tienes en la zona privada</lang>
+		<lang key="fr">Attraper toutes les ressources sur votre zone privée.</lang>
+		<lang key="hr">Uhvatite sve resurse u vašoj privatnoj zoni</lang>
+		<lang key="pt">Apanhar todos os recursos que tens na zona privada</lang>
+	</entry>
+
+	<entry key="GladiatorIntro">
+		<lang key="de">Gladiatoren sind die durch das [Universe] reisen und [Arenas] erobern.</lang>
+		<lang key="en">Gladiators are those that travel trough the [Universe] conquering [Arenas].</lang>
+		<lang key="es">Los gladiadores son aquellos que viajan por el [Universe] a la conquista de [Arenas].</lang>
+		<lang key="hr">Gladijatori su oni koji putuju [Universe] pokoravajući [Arenas].</lang>
+		<lang key="pt">Os gladiadores são aqueles que viajam pelo [Universe] à conquista de [Arenas].</lang>
+	</entry>
+
+	<entry key="MerchantIntro">
+		<lang key="de">[Quests] die auf [TradeRoutes] ausgerichtet sind.</lang>
+		<lang key="en">[Quests] that focus on [TradeRoutes].</lang>
+		<lang key="es">[Quests] que se enfocan en [TradeRoutes].</lang>
+		<lang key="hr">[Quests] koji se fokusiraju na [TradeRoutes].</lang>
+		<lang key="pt">[Quests] que se focam em [TradeRoutes].</lang>
+	</entry>
+
+	<entry key="OwnExtractorLevel1Manual">
+		<lang key="de">Besitze ein Extraktor Level 1 auf einem Planeten in der öffentlichen Zone</lang>
+		<lang key="en">Own an Extractor level 1 on a hot zone planet</lang>
+		<lang key="es">Poseer un Extractor nível 1 en un planeta de la zona pública</lang>
+		<lang key="hr">Posjeduj Ekstraktor nivoa 1 na planetu hot zone</lang>
+		<lang key="pt">Possuir um Extractor nível 1 num planeta da zona pública</lang>
+	</entry>
+
+	<entry key="OwnExtractorLevel3Manual">
+		<lang key="de">Besitze einen Extraktor Level 3 in der öffentlichen Zone</lang>
+		<lang key="en">Own an Extractor level 3 on a hot zone planet</lang>
+		<lang key="es">Poseer un Extractor nível 3 en un planeta de la zona pública</lang>
+		<lang key="hr">Posjeduj Ekstrakto niva 3 na planetu hot zone</lang>
+		<lang key="pt">Possuir um Extractor nível 3 num planeta da zona pública</lang>
+	</entry>
+
+	<entry key="OwnExtractorLevel5Manual">
+		<lang key="de">Besitze ein Extractor Level 5  auf einen Planeten der öffentlichen Zone</lang>
+		<lang key="en">Own an Extractor level 5 on a hot zone planet</lang>
+		<lang key="es">Poseer un Extractor nível 5 en un planeta de la zona pública</lang>
+		<lang key="fr">Posséder un extracteur niveau 5 sur une planète de la zone publique</lang>
+		<lang key="hr">Posjedujte Ekstraktor nivoa 5 na planetu hot zone.</lang>
+		<lang key="pt">Possuir um Extractor nível 5 num planeta da zona pública</lang>
+	</entry>
+
+	<entry key="Owns10ArenaBugQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 10 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 10 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 10 arenas.</lang>
+	</entry>
+
+	<entry key="Owns10ArenaDarkQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 10 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 10 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 10 arenas.</lang>
+	</entry>
+
+	<entry key="Owns10ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 10 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 10 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 10 arenas.</lang>
+	</entry>
+
+	<entry key="Owns11ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 11 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 11 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 11 arenas.</lang>
+	</entry>
+
+	<entry key="Owns12ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 12 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 12 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 12 arenas.</lang>
+	</entry>
+
+	<entry key="Owns13ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 13 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 13 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 13 arenas.</lang>
+	</entry>
+
+	<entry key="Owns14ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 14 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 14 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 14 arenas.</lang>
+	</entry>
+
+	<entry key="Owns15ArenaBugQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 15 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 15 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 15 arenas.</lang>
+	</entry>
+
+	<entry key="Owns15ArenaDarkQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 15 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 15 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 15 arenas.</lang>
+	</entry>
+
+	<entry key="Owns15ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 15 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 15 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 15 arenas.</lang>
+	</entry>
+
+	<entry key="Owns16ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 16 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 16 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 16 arenas.</lang>
+	</entry>
+
+	<entry key="Owns17ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 17 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 17 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 17 arenas.</lang>
+	</entry>
+
+	<entry key="Owns18ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 18 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 18 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 18 arenas.</lang>
+	</entry>
+
+	<entry key="Owns19ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 19 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 19 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 19 arenas.</lang>
+	</entry>
+
+	<entry key="Owns1ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 1 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 1 arena.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 1 arena.</lang>
+	</entry>
+
+	<entry key="Owns20ArenaBugQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 20 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 20 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 20 arenas.</lang>
+	</entry>
+
+	<entry key="Owns20ArenaDarkQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 20 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 20 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 20 arenas.</lang>
+	</entry>
+
+	<entry key="Owns20ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 20 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 20 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 20 arenas.</lang>
+	</entry>
+
+	<entry key="Owns21ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 21 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 21 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 21 arenas.</lang>
+	</entry>
+
+	<entry key="Owns22ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 22 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 22 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 22 arenas.</lang>
+	</entry>
+
+	<entry key="Owns23ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 23 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 23 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 23 arenas.</lang>
+	</entry>
+
+	<entry key="Owns24ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 24 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 24 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 24 arenas.</lang>
+	</entry>
+
+	<entry key="Owns25ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 25 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 25 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 25 arenas.</lang>
+	</entry>
+
+	<entry key="Owns2ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 2 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 2 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 2 arenas.</lang>
+	</entry>
+
+	<entry key="Owns3ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 3 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 3 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 3 arenas.</lang>
+	</entry>
+
+	<entry key="Owns4ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 4 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 4 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 4 arenas.</lang>
+	</entry>
+
+	<entry key="Owns5ArenaBugQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 5 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 5 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 5 arenas.</lang>
+	</entry>
+
+	<entry key="Owns5ArenaDarkQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 5 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 5 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 5 arenas.</lang>
+	</entry>
+
+	<entry key="Owns5ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 5 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 5 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 5 arenas.</lang>
+	</entry>
+
+	<entry key="Owns6ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 6 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 6 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 6 arenas.</lang>
+	</entry>
+
+	<entry key="Owns7ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 7 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 7 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 7 arenas.</lang>
+	</entry>
+
+	<entry key="Owns8ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 8 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 8 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 8 arenas.</lang>
+	</entry>
+
+	<entry key="Owns9ArenaQuestManual">
+		<lang key="de">Erforsche das [Universe], finde [Arenas] und werde zum unumstrittenen Champion in mindestens 9 Arenen.</lang>
+		<lang key="en">Explore the [Universe], find [Arenas] and become the undisputed champion in at least 9 arenas.</lang>
+		<lang key="pt">Explora o [Universe], encontras as [Arenas] e torna-te o campeão incontestado em pelo menos 9 arenas.</lang>
+	</entry>
+
+	<entry key="PirateIntro">
+		<lang key="de">Als [Pirate] wirst du der Abschaum des [Universe] sein! Du wirst unschuldige Flotten angreifen,
+  [Raid] machen auf unbeschützte Planeten und Spieler und sowiel wie möglich ausrauben!</lang>
+		<lang key="en">As a [Pirate] you will be the scum of the [Universe]! You will attack innocent fleets,
+  [Raid] unprotected planets and players and steal whomever you can!</lang>
+		<lang key="es">Un [Pirata] es la escoría del [Universe]! Como pirata vas a atacar flotas inocentes,
+  hacer [Raids] a planetas desprotegidos y robar lo máximo posíble!</lang>
+		<lang key="hr">Kao [Pirate] vi ćete biti ološ [Universe]! Napadati ćete nevine flote, [Raid] nezaštićene planete i igrače i krasti od koga god da možete!</lang>
+		<lang key="pt">Um [Pirata] é a escumalha do [Universe]! Como pirata vais atacar armadas inocentes,
+  fazer [Raids] a planetas desprotegidos e roubar o máximo possível!</lang>
+	</entry>
+
+	<entry key="PlayerBountyManual">
+		<lang key="de">Jage einen Kopfgeldjäger</lang>
+		<lang key="en">Player Bounty Hunt</lang>
+		<lang key="es">Caza un Jugador</lang>
+		<lang key="hr">Lovu Na Glavu Igrača</lang>
+		<lang key="pt">Caça a um Jogador</lang>
+	</entry>
+
+	<entry key="PMQuestAuxIntro">
+		<lang key="de">[Quests] die darauf ausgerichtet sind deinen Planeten zu verbessern.</lang>
+		<lang key="en">[Quests] that focus on improving your planets.</lang>
+		<lang key="es">[Quests] que se enfocan en mejorar tus planetas.</lang>
+		<lang key="hr">[Quests] koji se fokusiraju na unaprijeđenje vaših planeta.</lang>
+		<lang key="pt">[Quests] que se focam em melhorar os teus planetas.</lang>
+	</entry>
+
+	<entry key="PMQuestIntro">
+		<lang key="de">[Quests] die darauf ausgerichtet sind deinen Planeten zu verbessern.</lang>
+		<lang key="en">[Quests] that focus on improving your planets.</lang>
+		<lang key="es">[Quests] que se enfocan en mejorar tus planetas.</lang>
+		<lang key="hr">[Quests] koji se fokusiraju na unaprijeđenje vaših planeta.</lang>
+		<lang key="pt">[Quests] que se focam em melhorar os teus planetas.</lang>
+	</entry>
+
+	<entry key="QuestsIntro">
+		<lang key="de"><h1>Missionen und Berufe</h1><div class="description">
+    Am Anfang, wirst du einige [Quests] haben die dich durch das Spiel führen und dir die 
+    Grundkonzepte aufzeigen.
+    Danach , kannst du bestimmte [Quests] für eine gegebene [Profession] erledigen. [Quests] sind im 
+    Prinzip ein Weg um dich zu unterhalten und dich beschäftigt zu halten während du spielst. Du 
+    musst keine [Quests] erledigen um in [OB] erfolgreich zu sein, aber du wirst schnell besser 
+    werden im Spiel, wenn du es tust.
+    <p>
+    Eine Mission ist definiert durch ein Ziel und eine Belohnung. Wenn du das definierte Ziel 
+    erreichst wirst du die definierte Belohnung erhalten , so einfach ist das.
+    </p><p>
+    Das Spiel bietet dir eine Menge Auswahl an Missionen: du kannst andere Spieler angreifen, [Raid] 
+    (plündern) auf ihren Planeten, oder sogar [TradeRoutes] oder [Bounties] akzeptieren.
+  </p></div><a name="Types" id="Types"></a><h3>Quest Types</h3><div class="description">
+    Es gibt zwei verschiedene Arten von Missionen:
+    <ul><li><b>Checkpoint Quests</b> - Auf diesen Missionen muss du ein gewisses Ziel erreichen um 
+    sie erfolgreich zu beenden. Du musst sie nicht akzeptieren. Beispiel: auf der
+    [ColonizeOnePlanetQuest], brauchst du nur zu
+    [Colonize] einen Planeten um die Mission zu beenden.
+  </li><li><b>Task Quests</b> - Diese Missionen haben ein Zeitintervall (der ev. limitiert ist oder 
+    nicht). Du muss sie akzeptieren und nur danach zählen deine Aktionen um die Mission zu beenden. 
+    Beispiel: Auf der [FinishABattleQuest]
+    musst du die Mission akzeptieren, dann in den Kampf gehen, und nur dann die Mission beenden.
+  </li></ul></div><a name="Professions" id="Professions"></a><h2>Professions</h2><div class="description">
+    Eine Profession ist der Pfad den du folgen magst um deinen Charakter im Spiel zu definieren.
+    Du kannst machen was du willst, aber du magst auch gewissen Aktionen folgen und effizienter in 
+    einer Profession werden. Das wird dir Zugang verschaffen zu besseren [Quests] mit grösseren 
+    Belohnungen.
+    <p>
+    Es gibt 3 Haupt-Professionen, und du solltest nur eine von ihnen wählen.
+    Du kannst Aktionen für alle [Professions] zu jeder gegeben Zeit vollführen, aber wenn du es so 
+    tust wirst du nicht in der Lage sein in einer spezifischen [Profession] besser zu werden
+    und die damit verbundenen Vorteile zu ziehen. Deshalb, solltest du eines der folgenden Berufe 
+    wählen:
+    </p><ul><li>[Merchant] - macht [TradeRoutes] und konzentriert sich auf deine Wirtschaft</li>
+    <li>[Pirate] - Angreifen, [Raid], der Böse sein! Du muss nichts bauen, nur stehlen
+    it!</li><li>[BountyHunter] - das ist ein guter Typ, er wird jeden [Pirate] jagen um das
+    [Universe] sicherer zu machen</li></ul>
+    Du kannst auch folgende sekundäre [Professions] folgen:
+    <ul><li>[Colonizer] - richtet sich auf Besiedeln aus oder Planeten erobern und verwalten </li><li>[Gladiator] - suche das Universum nach [Arenas] und werde zum ultimativen Gladiator</li></ul></div></lang>
+		<lang key="en"><h1>Quests and Professions</h1><div class="description">
+    At first, you have some [Quests] that will guide you trough the game and teach you the basic concepts.
+    After that, you may follow [Quests] for a given [Profession]. [Quests] are basically a way to entertain you
+    and keep you occupied while you play. You don't have to do any [Quests] to succeed in [OB], but doing
+    so will help you to improve faster.
+    <p />
+    A quest is defined by an objective and a reward. If you accomplish the defined objective you will gain the
+    defined reward, it's as simple as that.
+    <p />
+    The game offers you a wide choice of quests to play: you can attack other players, [Raid] their planets,
+    or event accept [TradeRoutes] or [Bounties].
+  </div><a name="Types" id="Types"></a><h3>Quest Types</h3><div class="description">
+    There are two different types of quest:
+    <ul><li><b>Checkpoint Quests</b> - On these quests you just have to achieve the objective to be able to deliver
+    them. You don't need to accept them. Example: on the [ColonizeOnePlanetQuest], you only need to
+    [Colonize] a planet and deliver the quest.
+  </li><li><b>Task Quests</b> - These quests have a time interval (that may be limited or not). You must accept
+    them and only after that your actions will count for completing the quest. Example: on the [FinishABattleQuest]
+    you need to accept the quest, then perform the battle, and only then deliver the quest.
+  </li></ul></div><a name="Professions" id="Professions"></a><h2>Professions</h2><div class="description">
+    A profession is a path you may follow to define your character on the game.
+    You may do whatever you want, but you may also follow some specific
+    actions and become proficient on a give profession. This will allow you
+    access to better [Quests] with better rewards.
+    <p />
+    There are three main professions, and you should choose only one of these.
+    You may perform actions for all [Professions] at any time, but while doing so
+    you won't be able to improve on a specific [Profession] and take the best
+    advantage of it. So, you should choose one of the following:
+    <ul><li>[Merchant] - perform [TradeRoutes] and focus on your economy</li><li>[Pirate] - attack, [Raid], be the bad guy! You don't have to build anything, just steal it!</li><li>[BountyHunter] - this is the good guy, he'll hunt down any [Pirate] to make the [Universe] a safer place</li></ul>
+    You may also follow other secundary [Professions]:
+    <ul><li>[Colonizer] - focus on colonizing or conquering planets and managing them</li><li>[Gladiator] - search the universe for [Arenas] and become the ultimate gladiator</li></ul></div></lang>
+		<lang key="es"><h1>Misiones y Actividades</h1><div class="description">
+    En el Inicio, hay [Quests] Disponibles que te guian mientras aprendes los conceptos básicos
+    del juego. Posteriormente a esta parte inicial, es posible seguir [Quests] específicas de determinadas [Professions].
+    Las [Quests] son básicamente una forma de entrenerte y ocuparte mientras juegas. No es obligatório de hacer [Quests]
+    para tener Éxito, pero seguir las [Quests] te ayuda a evolucionar más rapidamente.
+    <p />
+    Una [Quest] es definida por un objetivo y una recompensa. Se consiguieras alcanzar el objetivo de la [Quest],
+    entonces ganas la recompensa asociada, así de simple.
+    <p />
+    El juego ofrece una variedad interesante de [Quests] para jugar: puedes atacar otros jugadores, hacer
+    [Raid] a ses planetas, aceptar [TradeRoutes] o hasta [Bounties].
+  </div><a name="Types" id="Types"></a><h3>Tipos de Misiones</h3><div class="description">
+    Hay dos tipos diferentes de misiones:
+    <ul><li><b>Misiones de Meta</b> - En estas misiones sólo necesitas alcanzar una determinada meta.
+    Por ejemplo: en la missão [ColonizeOnePlanetQuest], solo te basta [Colonize] un planeta y entregar la misión.
+  </li><li><b>Misiones de Tarea</b> - Estas misiones tienen un intervalo de tiempo (que puede tener limite ou não). Las tienes que
+    aceptar y sólo despues tus acciones cuentan para completar la misión. Ejemplo:
+    En la missão [FinishABattleQuest], tiens que aceptar la misión primero, despuis hacer una batalha y sólo después
+    entregar la misión.
+  </li></ul></div><a name="Professions" id="Professions"></a><h2>Actividades</h2><div class="description">
+    Una [Profession] es un camino que puedes seguir para definirte mejor como jugador. Puedes hacer
+    lo que quieras en el juego, pero también puedes seguir un camino específico y quedar perito en una
+    determinada profesión. De esta forma vas a tener aceeso a las [Quests] mas avanzadas y con recompesas mejores.
+    <p />
+    Existen tres profesiones principales, y debes escojer una de ellas. Puedes hacer [Quests] para todas las
+    [Professions] en cualquier momento, pero de esa forma no vas a conseguir evolucionar solamente en una profesión
+    y sacar el mejor partido de eso. Por lo tanto, deves escojer una de las siguientes profesiones principales:
+    <ul><li>[Merchant] - efectua [TradeRoutes] y concentrate en acciones económicas</li><li>[Pirate] - ataca, efectua [Raids], tornate un villano! No tienes que construir nada, roba lo que necesitas!</li><li>[BountyHunter] - estos son los buenos da la história, ellos cazan cualquier [Pirate] para transformar el [Universe] un lugar mas seguro</li></ul>
+    También puedes seguir otras profesiones secundárias:
+    <ul><li>[Colonizer] - enfocate en colonizar, conquistar y administrar planetas</li><li>[Gladiator] - busca [Arenas] en el universo y tranformate en un gladiador supremo</li></ul></div></lang>
+		<lang key="hr"><h1>Quests and Professions</h1><div class="description">
+    Na početku, imate neke [Quests] koje će vas voditi kroz igru i naučiti vas osnovne koncepte. Nakon toga, možete slijediti [Quests] za danu [Profession]. [Quests] su u osnovi način da se zabavite i da budete zaokupljeni dok igrate. Ne morate raditi niti jedan [Quests] da uspijete u [OB], ali njihovo izvršavanje će vam pomoći da se unaprijedite brže.
+    <p />
+    Misija je definirana ciljem i nagradom. Ako uspijete izvršiti dane ciljeve dobiti ćete definiranu nagradu, tako je jednostvano.
+    <p />
+    Igra vam nudi široki izbor misija za igrati: možete napadati druge igrače, [Raid] njihove planete, ili čak prihvatiti [TradeRoutes] ili [Bounties].
+  </div><a name="Types" id="Types"></a><h3>Quest Types</h3><div class="description">
+    Postoje dva različita tipa misije:
+    <ul><li><b>Misije Kontrolne Točke</b> - U ovim misijama trebate samo postići cilj da biste mogli dostaviti misiju. Ne trebate ih prihvatiti. Naprimjer: u [ColonizeOnePlanetQuest], samo trebate [Colonize] planet i dostaviti misiju.
+  </li><li><b>Misije:Zadatci</b> - ove misije imaju vremenski interval (koji može biti ograničen ili ne). Morate ih prihvatiti i tek nakon toga vaše akcije će se uračunati u završavanje misije. Naprimjer: u [FinishABattleQuest] trebete prihvaiti misiju, voditi bitku, i tek nakon toga dostaviti misiju.
+  </li></ul></div><a name="Professions" id="Professions"></a><h2>Professions</h2><div class="description">
+    Profesija je put koji možete sliljediti da definirate vašega lika u igri. Možete činiti što god da želite, ali također možete slijediti neke određene akcije i postativješt u danoj profesiji. Ovo će vam dopustiti bolje [Quests]  sa boljim nagradama.
+    <p />
+    Postoje tri glavne profesije, i vi biste trebali odabrati samo jednu od ovih. Možete izvodit akcije za sve [Professions] u bilo kojemu trenutku, ali dok to radite nećete se  moći unaprijediti na specifičnoj [Profession] i uzeti najveću prednost koju ona nudi. Zato biste trebali odabrati jedno od sljedećeg:
+    <ul><li>[Merchant] - izvršava [TradeRoutes] i fokusira se na ekonomiju</li><li>[Pirate] - napadaj, [Raid], budi loši tip! Ne morate graditi ništa, samo to ukradite!</li><li>[BountyHunter] - ovo je dobar tip, loviti će svakog [Pirate] da napravi od  [Universe] sigurnije mjesto</li></ul>
+    Također možete slijediti druge sekundarne [Professions]:
+    <ul><li>[Colonizer] - fokusira se na koloniziranje ili pokoravanje planeta i upravaljenje njima</li><li>[Gladiator] - pretražuje svemir za  [Arenas] i postaje  ultimativni gladijator</li></ul></div></lang>
+		<lang key="pt"><h1>Missões e Actividades</h1><div class="description">
+    No início, há [Quests] disponíveis que te guiam enquanto aprendes os conceitos básicos
+    do jogo. Após esta parte inicial, é possível seguir [Quests] específicas de determinadas [Professions].
+    As [Quests] são basicamente uma forma de te entreter e te ocupar enquanto jogas. Não é obrigatório
+    fazer [Quests] para ter sucesso, mas seguir as [Quests] ajuda-te a evoluir mais rapidamente.
+    <p />
+    Uma [Quest] é definida por um objectivo e uma recompensa. Se conseguires atingir o objectivo da [Quest],
+    então ganhas a recompensa associada, tão simples quanto isto.
+    <p />
+    O jogo oferece uma variedade interessante de [Quests] para jogar: podes atacar outros jogadores, fazer
+    [Raid] aos seus planetas, aceitar [TradeRoutes] ou até [Bounties].
+  </div><a name="Types" id="Types"></a><h3>Tipos de Missões</h3><div class="description">
+    Há dois tipos diferentes de missões:
+    <ul><li><b>Missões de Meta</b> - Nestas missões só precisas de atingir uma dada meta para as poderes entregar.
+    Por exemplo: na missão [ColonizeOnePlanetQuest], basta-te [Colonize] um planeta e entregar a missão.
+  </li><li><b>Missões de Tarefa</b> - Estas missões têm um intervalo de tempo (que pode ter limite ou não). Tens de as
+    aceitar e só depois as tuas acções contam para completar a missão. Exemplo:
+    na missão [FinishABattleQuest], tens de aceitar a missão primeiro, depois fazer uma batalha e só
+    depois entregar a missão.
+  </li></ul></div><a name="Professions" id="Professions"></a><h2>Actividades</h2><div class="description">
+    Uma [Profession] é um caminho que podes seguir para melhor te definir como jogador. Tu podes fazer
+    o que quiseres no jogo, mas também podes seguir um caminho específico e ficar perito numa
+    dada profissão. Desta forma vais ter acesso a [Quests] mais avançadas e com recompesas melhores.
+    <p />
+    Há três profissões principais, e deves escolher uma delas. Tu podes fazer [Quests] para todas as
+    [Professions] a qualquer altura, mas dessa forma não vais conseguir evoluir somente numa profissão
+    e tirar o melhor partido disso. Portanto, deves escolher uma das seguintes profissões principais:
+    <ul><li>[Merchant] - efectua [TradeRoutes] e concentra-te em acções económicas</li><li>[Pirate] - ataca, efectua [Raids], torna-te no vilão! Não tens de construir nada, rouba o que precisas!</li><li>[BountyHunter] - estes são os bons da história, eles caçam qualquer [Pirate] para tornar o [Universe] um local mais seguro</li></ul>
+    Também podes seguir outras profissões secundárias:
+    <ul><li>[Colonizer] - foca-te em colonizar, conquistar e gerir planetas</li><li>[Gladiator] - procura [Arenas] no universo e tornate o gladiador supremo</li></ul></div></lang>
+	</entry>
+
+	<entry key="RaceIntro">
+		<lang key="de">Diese sind [Quests] die das Ansehen deiner [Race] erhöhen.</lang>
+		<lang key="en">These are [Quests] that will increase your reputation on your own [Race].</lang>
+		<lang key="es">Estas [Quests] tienen el objetivo de aumentar a tu reputación ante los de tu [Race].</lang>
+		<lang key="hr">Ovo su [Quests] koji će povećati vašu reputaciju unutar vaše vlastite [Race].</lang>
+		<lang key="pt">Estas [Quests] têm o objectivo de aumentar a tua reputação perante os da tua [Race].</lang>
+	</entry>
+
+	<entry key="Raid3PlanetsManual">
+		<lang key="de">Ein [Planet] zu plündern funktioniert im Prinzip genauso wie ein Planet zu erobern.
+  Wenn du denn linken Mausknopf benutzt (und eine [Fleet] selektiert hast, natürlich) und auf ein [Planet] klickst der einen Besitzer hat erscheinen zwei Optionen:
+  "Planet angreifen und erobern" und "Planet plündern".
+  Die erste Option kennst du bereits, was ist mit der zweiten? Plündern?
+  Plündern ist fast das Gleiche wie ein [Planet] zu plündern, alle Regeln sind gleich , nur eine ändert sich: die Prämie.<p>
+  Mit der ersten Option wirst du zum zum Besitzer des [Planet].
+  Mit der zweiten Option stiehlst du die Ressourcen des [Planet]. Wenn keine [Fleet] der Verteidigung 
+  auf dem [Planet] ist, ist die [Raid] automatisch erfolgreich, andernfalls wird eine Schlacht 
+  anfangen, wenn du gewinnst wird die [Raid] erfolgreich sein.</p><p>
+  Wenn du auf einem niedrigen Level plünderst mag es nicht wie ein nützliches Feature erscheinen weil du vielleicht alle Ressourcen hast die du brauchst, aber als du weiter im Spiel vorankommst wird Plündern immer nützlicher werden mit der Zeit und weil du immer mehr Ressourcen brauchen wirst und immer mehr Ressourcen da sind zum stehlen.
+  Selbstverständlich kannst du keinen [Planet] plündern ohne einen Besitzer.</p><p>
+  Note: Plündern verschafft dir Zugang zu den seltenen Ressourcen, und die Wahrscheinlicht der 
+  gestohlenen Ressourcen hängen von der [Race] des [Planet] Besitzers.</p></lang>
+		<lang key="en">Raiding a [Planet] is much the same as conquering one.
+  When you left click with your mouse button (and have a [Fleet] selected, of course) on a [Planet] with an owner two options appear:
+  "Attack and conquer Planet" and "Raid Planet".
+  You already know what the first is about, but what about the second one? Raiding?
+  Raiding is almost the same as conquering a [Planet], all the rules apply, only one thing changes: the prize.<p />
+  On the first option if you win you gain ownership of the [Planet].
+  On the second option you steal resources from the [Planet]. If there is no Defense [Fleet] on the [Planet] the [Raid] is automatically
+  successful, otherwise a battle will begin, if you win the [Raid] will be successful.<p />
+  While you're low level Raiding may not look like a useful feature as you may have all the resources you need, but as you progress
+  along the game Raiding will be more and more useful as you'll have more need for resources and there are more resources to steal.
+  Of course you can't raid a [Planet] without an owner.<p />
+  Note: Raiding will only give you access to Rare Resources, the probability of the resources you steal will depend on the [Race] of
+  the owner of the [Planet].</lang>
+		<lang key="es">Saquear un [Planet] es una acción idéntica a conquistar un [Planet].
+  Cuando cargas sobre el botón izquierdo del mouse (y tienes una [Fleet] previamente seleccionada) en un [Planet] que tenga dueño, aparecen dos opciones:
+  "Atacar Planeta y Conquistar" y "Saquear Planeta". Ya sabes lo que significa la primeira opción, pero que es la segunda? Saquear?
+  Saquear es casi lo mismo que conquistar un [Planet],  se aplican todas las reglas, sólo una cosa cambia: el Premio .<p />
+  En la primera opción si ganas, ganas el derecho al [Planet].
+  En la segunda opción robas recursos del [Planet]. Si el [Planet] no tuviera [Fleet] de defensa el [Raid] es automático, de lo  contrário comienza
+  una batalla, y si ganas la [Raid] es ejecutada con Éxito.<p />
+  Mientras tengas un nivel bajo de saqueo puede no parecer una acción interesante porque hasta normalmente tienes todos los recursos
+  que necessitas, pero cuando progreses en el juego vas a tener mas necesidades de recursos y existen mas recursos para robar. Claro que no
+  es posible saquear un [Planet] sin dueño.<p />
+  Nota: Saquear solo roba recursos raros, la probabilidad del recurso robado depende de la [Race] del jogador que es dueño del [Planet].</lang>
+		<lang key="fr">Piller une [Planet] est similaire à essayer d'en conquérir une.
+  Lorsque vous cliquez (et vous avez une [Fleet] sélectionné, évidement) sur une [Planet] et il y aura deux options qui vous seront donnés: 
+  "Attaquer et conquérir la planèete" et "Piller la planète".
+  Vous savez ce que fait le premier, mais qu'est-ce que fait le pillage? 
+  Le pillage se passe de la même façon en s'attaquant à la [Planet], les même règles s'appliquent, la seule chose qui change est la récompense.<p />
+  La première option vous permet de prendre possession de la [Planet].
+  la deuxième vous permet de voler les ressources de cette [Planet]. Si il n'y a pas d'[Fleet]  de défense sur la [Planet], le [Raid]fonctionne automatiquement.Sinon, un combat commence, et vous devez le gagner pour que votre [Raid] soit un succès.<p />
+  Le pillage ne semble pas utile au début car vous avez souvent toutes les ressources nécessaires, mais en progressant, votre soif de ressources pourra être comblé à l'aide de pillage.
+  Vous ne pouvez pas piller une [Planet] non-habité.<p />
+  Note: Le pillage vous donne accès à des ressources rare et la race de celui à qui appartient la planète détermine quel ressource risque d'être pillé.</lang>
+		<lang key="hr">Pljačkanje [Planet] je poprilično isto pokoravanju planeta.
+  Kada kliknete lijevim gumbom miša ( i imate [Fleet] odabranu, naravno) na [Planet] sa vlasnikom dvije mogućnosti se pojave:
+  "Napadni i pokori Planet" and "Opljačkaj Planet".
+  Već znate što je prvo, ali što s drugim? Pljačkanje?
+  Pljačkanje je skoro isto kao i pokoravanje [Planet], sva se pravila primjenjuju, samo se jedna stvar mijenja: nagrada.<p />
+  S prvom mogućnosti dobiti ćete vlasništvo nad [Planet].
+  U drugoj mogućnosti vi kradete resurse sa [Planet]. Ako nema obranbene [Fleet] na [Planet]  [Raid] je automatski uspješan, u protivnom počinje bitka, ako dobijete [Raid] će biti uspješan.
+  <p />
+  Dok ste na niskom nivou Pljačkanje vam možda neće izgledati kao korisna značajka jer ćete vjerojatno imati sve reurse koje trebate, ali kako napredujete kroz igru Pljačkanje će biti sve korisnije i korisnije i vi ćete imati veću potrebu za resursima i postoji više resursa za ukrasti. Naravno ne možete oplječkati planet koji nema vlasnika.<p />
+  Uzmite u obzir: Pljačkanje će vam dati pristup Rijetkim Reusrsima, vjerojatnost resursa koje ćete ukrasti ovisi o [Race] vlasnika [Planet].</lang>
+		<lang key="pt">Pilhar um [Planet] é uma acção idêntica a conquistar um [Planet].
+  Quando carregas com o botão esquerdo do rato (e tens uma [Fleet] previamente seleccionada) num [Planet] que tenha dono duas opções aparecem:
+  "Atacar Planeta e Conquistar" e "Pilhar Planeta". Já sabes o que significa a primeira opção, mas o que é a segunda? Pilhar?
+  Pilhar é quase o mesmo que conquistar um [Planet], todas as regras se aplicam, só uma coisa muda: o prémio.<p />
+  Na primeira opção se ganhares, ganhas o direito ao [Planet].
+  Na segunda opção roubas recursos do [Planet]. Se o [Planet] não tiver [Fleet] de defesa o [Raid] é automático, caso contrário começa
+  uma batalha, e se ganhares a [Raid] é executada com sucesso.<p />
+  Enquanto tiveres um nível baixo de pilhagem pode não parecer uma acção interessante porque até normalmente tens todos os recursos
+  que necessitas, mas quando progrides no jogo vais ter mais necessidades de recursos e existem mais recursos para roubar. Claro que não
+  é possível pilhar um [Planet] sem dono.<p />
+  Nota: Pilhar só rouba recursos raros, a probabilidade do recurso roubado depende da [Race] do jogador que é dono do [Planet].</lang>
+	</entry>
+
+	<entry key="ReachPlayerLevel10Manual">
+		<lang key="de">Rüste alle Hauptgebäude auf deinen privaten Planeten und bringe sie auf Level 10</lang>
+		<lang key="en">Upgrade all the main facilities on your private planets to level 10</lang>
+		<lang key="es">Evolucionar el edifício principal de todos tus planetas privados para nível 10</lang>
+		<lang key="fr">Améliorer toutes les constructions principales au niveau 10 sur votre zone privée</lang>
+		<lang key="hr">Unaprijedite sva glavna postrojenja na vašim privatnim planetima na nivo 10</lang>
+		<lang key="pt">Evoluir o edifício principal de todos os teus planetas privados para nível 10</lang>
+	</entry>
+
+	<entry key="ReachPlayerLevel3Manual">
+		<lang key="de">Rüste alle Hauptgebäude auf deinen privaten Planeten auf Level 3 hoch</lang>
+		<lang key="en">Upgrade all the main facilities on your private planets to level 3</lang>
+		<lang key="es">Evolucionar el edificio principal de todos tus planetas privados para nível 3</lang>
+		<lang key="fr">Améliorer toutes vos constructions principales sur vos planètes privée au niveau 3</lang>
+		<lang key="hr">Unaprijedite sva glavna postrojenja na vašim privatnim planetima na nivo 3.</lang>
+		<lang key="pt">Evoluir o edifício principal de todos os teus planetas privados para nível 3</lang>
+	</entry>
+
+	<entry key="ReachPlayerLevel5Manual">
+		<lang key="de">Rüste alle Hauptgebäude auf deinen privaten Planeten auf Level 5 hoch</lang>
+		<lang key="en">Upgrade all the main facilities on your private planets to level 5</lang>
+		<lang key="es">Evolucionar el edificio principal de todos tus planetas privados para nível 5</lang>
+		<lang key="fr">Améliorer toutes vos constructions principales sur vos planètes privée au niveau 5</lang>
+		<lang key="hr">Unaprijedite sva glavna postrojenja na vašim privatnim planetima na nivo 5.</lang>
+		<lang key="pt">Evoluir o edifício principal de todos os teus planetas privados para nível 5</lang>
+	</entry>
+
+	<entry key="ReachPlayerLevel7Manual">
+		<lang key="de">Rüste deine Hauptgebäude auf, auf deinen privaten Planeten Level 7</lang>
+		<lang key="en">Upgrade all the main facilities on your private planets to level 7</lang>
+		<lang key="es">Evolucionar el edifício principal de todos tus planetas privados para nível 7</lang>
+		<lang key="fr">Améliorer toutes vos constructions principales sur vos planètes privée au niveau 7</lang>
+		<lang key="hr">Unaprijedite sva glavna postrojenja na vašim privatnim planetima na nivo 7</lang>
+		<lang key="pt">Evoluir o edifício principal de todos os teus planetas privados para nível 7</lang>
+	</entry>
+
+	<entry key="ReachPlayerLevel9Manual">
+		<lang key="de">Rüste alle Hauptgebäude auf deinen privaten Planeten auf Level 9 hoch</lang>
+		<lang key="en">Upgrade all the main facilities on your private planets to level 9</lang>
+		<lang key="es">Evolucionar el edifício principal de todos tus planetas privados para nível 9</lang>
+		<lang key="fr">Améliorer toutes vos constructions principales sur vos planètes privée au niveau 9</lang>
+		<lang key="hr">Unaprijedite sva glavna postrojenja na vašim privatnim planetima na nivo 9</lang>
+		<lang key="pt">Evoluir o edifício principal de todos os teus planetas privados para nível 9</lang>
+	</entry>
+
+	<entry key="SpaceForceManual">
+		<lang key="de">Space Force</lang>
+		<lang key="en">Space Force</lang>
+		<lang key="pt">Space Force</lang>
+	</entry>
+
+</resources>

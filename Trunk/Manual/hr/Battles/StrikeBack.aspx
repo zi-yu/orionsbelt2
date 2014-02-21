@@ -1,0 +1,26 @@
+﻿<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/hr/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	Protunapad
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="conceptMenu" runat="server">
+	<h2>Borbeni Koncepti</h2><ul><li><a href='/hr/Battles/GameBoard.aspx'>Tabla Igre</a></li><li><a href='/hr/Battles/Deploy.aspx'>Raspoređivanje</a></li><li><a href='/hr/Battles/Movement.aspx'>Pokret</a></li><li><a href='/hr/Battles/Rules.aspx'>Rules</a></li></ul><h2>Napad</h2><ul><li><a href='/hr/Battles/Range.aspx'>Domet</a></li><li><a href='/hr/Battles/Catapult.aspx'>Katapult</a></li><li><a href='/hr/Battles/ParalyseAttack.aspx'>Napad Paralize</a></li><li><a href='/hr/Battles/Replicator.aspx'>Replikator</a></li><li><a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a></li><li><a href='/hr/Battles/InfestationAttack.aspx'>Napad Obuzetosti</a></li><li><a href='/hr/Battles/RemoveAbilityAttack.aspx'>Makni Sposobnost Napad</a></li><li><a href='/hr/Battles/TripleAttack.aspx'>Trostruki Napad</a></li><li><a href='/hr/Battles/BombAttack.aspx'>Napad Bombom</a></li><li><a href='/hr/Battles/Rebound.aspx'>Povratni</a></li></ul><h2>Kategorija</h2><ul><li><a href='/hr/Battles/Light.aspx'>Lagani</a></li><li><a href='/hr/Battles/Medium.aspx'>Srednji</a></li><li><a href='/hr/Battles/Heavy.aspx'>Teški</a></li><li><a href='/hr/Battles/Ultimate.aspx'>Ultimativni</a></li><li><a href='/hr/Battles/Special.aspx'>Izvanredni</a></li></ul><h2>Tip Bitke</h2><ul><li><a href='/hr/Battles/TotalAnnihilation.aspx'>Totalno Uništenje</a></li><li><a href='/hr/Battles/Regicide.aspx'>Regicid</a></li></ul>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1>Protunapad</h1>
+	<div class="content">
+<a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a> je napad koje je zgodan za imati ali nije esencijalan za dobivanje bitke. Što se dogodi kada je grupa <a href='/hr/UnitIndex.aspx'>Jedinice</a> s ovom karakteristikom napadnuta, <a href='/hr/UnitIndex.aspx'>Jedinice</a> u toj grupi koje prežive, će napasti automatksi bez da se služe s <a href='/hr/Battles/Movement.aspx'>Pokret</a>. <p />
+Ali ovaj napad ima neka ograničenja, neće svi napadi biti protunapadnuti, sljedeće slike vam pomažu da razumijete ova ograničenja:
+
+<div class="block"><img style="margin-right:90px" src="/Resources/Images/strikeBack1.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack4.png" alt="Strike Back" /></div><br /><div class="block"><img style="margin-right:34px" src="/Resources/Images/strikeBack3.png" alt="Strike Back" /><img src="/Resources/Images/strikeBack2.png" alt="Strike Back" /></div><br />
+<a class='pretorian' href='/hr/Unit/Pretorian.aspx'>Pretorijanac</a> je jedinica koja ima sposobnost da <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a> jer su napdnuti od strane <a class='spider' href='/hr/Unit/Spider.aspx'>Pauk</a> koji ima sposobnost da [Paralyze], <a class='pretorian' href='/hr/Unit/Pretorian.aspx'>Pretorijanac</a> neće <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a> jer je paraliziran. <p />
+U sljedećoj slici <a class='pretorian' href='/hr/Unit/Pretorian.aspx'>Pretorijanac</a> je napadnut od strane <a class='eagle' href='/hr/Unit/Eagle.aspx'>Orao</a>, ali <a class='eagle' href='/hr/Unit/Eagle.aspx'>Orao</a> i <a class='pretorian' href='/hr/Unit/Pretorian.aspx'>Pretorijanac</a> imaju <a class='raptor' href='/hr/Unit/Raptor.aspx'>Raptor</a> između njih i tako će <a class='eagle' href='/hr/Unit/Eagle.aspx'>Orao</a> upotrijebiti <a href='/hr/Battles/Catapult.aspx'>Katapult</a>, koji će blokirati [Pretorian <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a> sposobnost.<p />
+Treći napad također ne uzrokuje <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a> jer <a class='kamikaze' href='/hr/Unit/Kamikaze.aspx'>Kamikaza</a> ne nepadju frontalno <a class='pretorian' href='/hr/Unit/Pretorian.aspx'>Pretorijanac</a>. <p />
+Finalno, četvrti napad je jedini koji će uzrokovati <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a>, jer <a class='raptor' href='/hr/Unit/Raptor.aspx'>Raptor</a> napada frontalno <a class='pretorian' href='/hr/Unit/Pretorian.aspx'>Pretorijanac</a> i nema mogućnosti da izbjegne <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a>. <p />
+Postoje još dvije druge situacije u kojima <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a> nije aktiviran. U slučaju da je jedinica sa  <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a> nema dovoljno <a href='/hr/Battles/Range.aspx'>Domet</a> za <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a>. Naprimjer ako <a class='pretorian' href='/hr/Unit/Pretorian.aspx'>Pretorijanac</a> je napadnut od  <a class='nova' href='/hr/Unit/Nova.aspx'>Nova</a> na <a href='/hr/Battles/Range.aspx'>Domet</a> od 5, neće odgovoriti na napad jer imaju samo <a href='/hr/Battles/Range.aspx'>Domet</a> 3. Zadnja situacija kada <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a> nije aktiviran jekada jedinica (eg: <a class='pretorian' href='/hr/Unit/Pretorian.aspx'>Pretorijanac</a>) sa sposobnosti <a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a>  je dosegnuta od <a href='/hr/Battles/Rebound.aspx'>Povratni</a>.
+</div>
+	
+</asp:Content>

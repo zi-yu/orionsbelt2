@@ -1,0 +1,11 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/OrionsBeltMaster.Master" Inherits="OrionsBelt.WebUserInterface.Account.AccountMaster" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+    <OrionsBeltUI:AccountMenu runat="server" />
+    <asp:ContentPlaceHolder ID="Content" runat="server" />
+    
+    <div id='siteFooter'>
+        <OrionsBeltUI:LatestPlayersOnline ID="LatestPlayersOnline1" runat="server" />
+        <OrionsBeltUI:UsefullLinks ID="UsefullLinks1" runat="server" />
+    </div>
+</asp:Content>

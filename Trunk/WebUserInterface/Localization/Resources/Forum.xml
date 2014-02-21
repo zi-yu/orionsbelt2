@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="true">
+
+	<entry key="CreateTopic">
+		<lang key="en">Create Topic</lang>
+		<lang key="pt">Criar Tópico</lang>
+	</entry>
+
+  <entry key="NoTopics">
+    <lang key="en">No forum topics to display</lang>
+    <lang key="pt">Sem tópicos para mostrar</lang>
+  </entry>
+
+  <entry key="PrivateForum">
+    <lang key="en">Private Forum</lang>
+    <lang key="pt">Forum Privado</lang>
+  </entry>
+
+  <entry key="PublicForum">
+    <lang key="en">Public Forum</lang>
+    <lang key="pt">Forum Público</lang>
+  </entry>
+
+  <entry key="Topics">
+    <lang key="en">Topics</lang>
+    <lang key="pt">Tópicos</lang>
+  </entry>
+
+  <entry key="Posts">
+    <lang key="en">Posts</lang>
+    <lang key="pt">Posts</lang>
+  </entry>
+
+  <entry key="LastPost">
+    <lang key="en">Last Post</lang>
+    <lang key="pt">Último Post</lang>
+  </entry>
+
+  <entry key="NoThreads">
+    <lang key="en">This topic doesn't have any threads</lang>
+    <lang key="pt">Este tópico não possui nenhuma conversa</lang>
+  </entry>
+
+  <entry key="NoPosts">
+    <lang key="en">This Thread doesn't have any posts</lang>
+    <lang key="pt">Esta conversa não possui nenhum post</lang>
+  </entry>
+
+  <entry key="Close">
+    <lang key="en">Close</lang>
+    <lang key="pt">Fechar</lang>
+  </entry>
+
+  <entry key="InvalidText">
+    <lang key="en">The inserted text is invalid</lang>
+    <lang key="pt">O texto inserido é inválido</lang>
+  </entry>
+  
+  <entry key="NoPost">
+    <lang key="en">No Posts</lang>
+    <lang key="pt">Sem Posts</lang>
+  </entry>
+  
+  <entry key="Erase">
+    <lang key="en">Erase</lang>
+    <lang key="pt">Apagar</lang>
+  </entry>
+  
+  <entry key="Threads">
+    <lang key="en">Threads</lang>
+    <lang key="pt">Conversas</lang>
+  </entry>
+
+  <entry key="Views">
+    <lang key="en">Views</lang>
+    <lang key="pt">Visualizações</lang>
+  </entry>
+
+  <entry key="CreateThread">
+    <lang key="en">Create Thread</lang>
+    <lang key="pt">Criar Conversa</lang>
+  </entry>
+
+  <entry key="Weak">
+    <lang key="en">Weak</lang>
+    <lang key="pt">Fraco</lang>
+  </entry>
+
+  <entry key="Pacific">
+    <lang key="en">Pacific</lang>
+    <lang key="pt">Pacífico</lang>
+  </entry>
+
+  <entry key="Agressive">
+    <lang key="en">Agressive</lang>
+    <lang key="pt">Agressivo</lang>
+  </entry>
+
+  <entry key="Audacious">
+    <lang key="en">Audacious</lang>
+    <lang key="pt">Audacioso</lang>
+  </entry>
+
+  <entry key="Fearless">
+    <lang key="en">Fearless</lang>
+    <lang key="pt">Destemido</lang>
+  </entry>
+
+  <entry key="Legend">
+    <lang key="en">Legend</lang>
+    <lang key="pt">Lenda</lang>
+  </entry>
+
+  <entry key="Joined">
+    <lang key="en">Member since</lang>
+    <lang key="pt">Membro desde</lang>
+  </entry>
+
+  <entry key="CreatePost">
+    <lang key="en">Create Post</lang>
+    <lang key="pt">Criar Post</lang>
+  </entry>
+  
+  <entry key="ErrorRemovingPost">
+    <lang key="en">Error Removing Post</lang>
+    <lang key="pt">Erro ao remover o Post</lang>
+  </entry>
+
+  <entry key="ErrorRemovingThread">
+    <lang key="en">Error Removing Thread</lang>
+    <lang key="pt">Erro ao remover a Conversa</lang>
+  </entry>
+  
+  <entry key="ErrorRemovingTopic">
+    <lang key="en">Error Removing Topic</lang>
+    <lang key="pt">Erro ao remover o Tópico</lang>
+  </entry>
+
+  <entry key="ReturnTopics">
+    <lang key="en">Return to Main Forum Page</lang>
+    <lang key="pt">Regressar à Pagina principal</lang>
+  </entry>
+
+  <entry key="ReturnThread">
+    <lang key="en">Return to </lang>
+    <lang key="pt">Regressar a </lang>
+  </entry>
+  
+  <entry key="Rank">
+    <lang key="en">Rank</lang>
+    <lang key="pt">Nível</lang>
+  </entry>
+  
+  <entry key="By">
+    <lang key="en">By</lang>
+    <lang key="pt">Por</lang>
+  </entry>
+  
+  
+  <entry key="On">
+    <lang key="en">On</lang>
+    <lang key="pt">Em</lang>
+  </entry>
+
+  <entry key="At">
+    <lang key="en">at</lang>
+    <lang key="pt">às</lang>
+  </entry>
+
+  <entry key="EraseThread">
+    <lang key="en">Do you wish to erase this thread?</lang>
+    <lang key="pt">Desejas remover esta conversa?</lang>
+  </entry>
+
+  <entry key="ErasePost">
+    <lang key="en">Do you wish to erase this post?</lang>
+    <lang key="pt">Desejas remover este post?</lang>
+  </entry>
+
+  <entry key="EraseTopic">
+    <lang key="en">Do you wish to erase this topic?</lang>
+    <lang key="pt">Desejas remover este tópico?</lang>
+  </entry>
+
+  <entry key="ErasePostSimple">
+    <lang key="en">Erase Post</lang>
+    <lang key="pt">Eliminar Post</lang>
+  </entry>
+
+  <entry key="EditPost">
+    <lang key="en">Edit Post</lang>
+    <lang key="pt">Editar Post</lang>
+  </entry>
+
+  <entry key="CannotRemovePost">
+    <lang key="en">Cannot remove a post that doesn't belong to you!</lang>
+    <lang key="pt">Não podes remover um post que não te pertence!</lang>
+  </entry>
+  
+  <entry key="forumRead">
+    <lang key="en">No new posts</lang>
+    <lang key="pt">Sem novos posts</lang>
+  </entry>
+
+  <entry key="forumUnreadLightHumans">
+    <lang key="en">New posts</lang>
+    <lang key="pt">Novos posts</lang>
+  </entry>
+
+  <entry key="forumUnreadDarkHumans">
+    <lang key="en">New posts</lang>
+    <lang key="pt">Novos posts</lang>
+  </entry>
+
+  <entry key="forumUnreadBugs">
+    <lang key="en">New posts</lang>
+    <lang key="pt">Novos posts</lang>
+  </entry>
+
+  <entry key="VeryHappy">
+    <lang key="de">Glücklich</lang>
+    <lang key="en">Very Happy</lang>
+    <lang key="pt">Muito Feliz</lang>
+  </entry>
+
+  <entry key="Happy">
+    <lang key="de">Glücklich</lang>
+    <lang key="en">Happy</lang>
+    <lang key="pt">Feliz</lang>
+  </entry>
+
+  <entry key="Sad">
+    <lang key="de">Traurig</lang>
+    <lang key="en">Sad</lang>
+    <lang key="pt">Triste</lang>
+  </entry>
+
+  <entry key="Surprised">
+    <lang key="de">Überrascht</lang>
+    <lang key="en">Surprised</lang>
+    <lang key="pt">Surpreso</lang>
+  </entry>
+
+  <entry key="Shocked">
+    <lang key="de">Schockiert</lang>
+    <lang key="en">Shocked</lang>
+    <lang key="pt">Chocado</lang>
+  </entry>
+
+  <entry key="Confused">
+    <lang key="de">Verwirrt</lang>
+    <lang key="en">Confused</lang>
+    <lang key="pt">Confundido</lang>
+  </entry>
+
+  <entry key="Cool">
+    <lang key="de">Cool</lang>
+    <lang key="en">Cool</lang>
+    <lang key="pt">Cool</lang>
+  </entry>
+
+  <entry key="Laughing">
+    <lang key="de">Lachen</lang>
+    <lang key="en">Laughing</lang>
+    <lang key="pt">Rir</lang>
+  </entry>
+
+  <entry key="Mad">
+    <lang key="de">Mad</lang>
+    <lang key="en">Mad</lang>
+    <lang key="pt">Chateado</lang>
+  </entry>
+
+  <entry key="Cheeky">
+    <lang key="de">Frech</lang>
+    <lang key="en">Cheeky</lang>
+    <lang key="pt">Atrevido</lang>
+  </entry>
+
+  <entry key="RedFace">
+    <lang key="de">Schüchtern</lang>
+    <lang key="en">Shy</lang>
+    <lang key="pt">Envergonhado</lang>
+  </entry>
+
+  <entry key="Cry">
+    <lang key="de">Weinen</lang>
+    <lang key="en">Cry</lang>
+    <lang key="pt">Chorar</lang>
+  </entry>
+
+  <entry key="Twisted">
+    <lang key="de">Verdreht</lang>
+    <lang key="en">Twisted</lang>
+    <lang key="pt">Demoniaco</lang>
+  </entry>
+
+  <entry key="Wink">
+    <lang key="de">Zwinkern</lang>
+    <lang key="en">Wink</lang>
+    <lang key="pt">Piscar os Olhos</lang>
+  </entry>
+  
+  <entry key="Edit">
+      <lang key="de">Bearbeiten</lang>
+    <lang key="en">Edit</lang>
+    <lang key="pt">Editar</lang>
+  </entry>
+
+  <!--
+  <entry key="">
+    <lang key="en"></lang>
+    <lang key="pt"></lang>
+  </entry>
+
+  <entry key="">
+    <lang key="en"></lang>
+    <lang key="pt"></lang>
+  </entry>
+
+  <entry key="">
+    <lang key="en"></lang>
+    <lang key="pt"></lang>
+  </entry>
+
+  <entry key="">
+    <lang key="en"></lang>
+    <lang key="pt"></lang>
+  </entry>
+
+  <entry key="">
+    <lang key="en"></lang>
+    <lang key="pt"></lang>
+  </entry>
+
+  <entry key="">
+    <lang key="en"></lang>
+    <lang key="pt"></lang>
+  </entry>
+
+  <entry key="">
+    <lang key="en"></lang>
+    <lang key="pt"></lang>
+  </entry>
+-->
+
+</resources>

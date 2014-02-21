@@ -1,0 +1,1463 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="AllianceCreatedMessage">
+		<lang key="de">Der Spieler {1} gründete die {0} Allianz!</lang>
+		<lang key="en">The player {1} has founded the {0} alliance!</lang>
+		<lang key="es">El jugador {1} fundó la alianza {0}!</lang>
+		<lang key="fr">Le joueur {1} a fondé l'alliance {0}!</lang>
+		<lang key="hr">Igrač {1} je osnovao {0} savez!</lang>
+		<lang key="pt">O jogador {1} fundou a aliança {0}!</lang>
+	</entry>
+
+	<entry key="AllianceDeclaredWarMessage">
+		<lang key="de">Allianz <a href="/Alliance/Info.aspx?Id=%7B0%7D">{1}</a> erklärte <span>Krieg</span> der <a href="/Alliance/Info.aspx?Id=%7B2%7D">{3}</a>!</lang>
+		<lang key="en">Alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> declared <span>war</span> on <a href="/Alliance/Info.aspx?Id={2}">{3}</a>!</lang>
+		<lang key="es">La Alianza <a href="/Alliance/Info.aspx?Id={0}">{1}</a> declaró la <span>guerra</span> a la alianza <a href="/Alliance/Info.aspx?Id={2}">{3}</a>!</lang>
+		<lang key="fr">L'alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> a déclaré la <span>guerra</span> à <a href="/Alliance/Info.aspx?Id={2}">{3}</a>!</lang>
+		<lang key="hr">Savez <a href="/Alliance/Info.aspx?Id={0}">{1}</a> je objavio <span>rat</span><a href="/Alliance/Info.aspx?Id={2}">{3}</a>!</lang>
+		<lang key="pt">A Aliança <a href="/Alliance/Info.aspx?Id={0}">{1}</a> declarou <span>guerra</span> à aliança <a href="/Alliance/Info.aspx?Id={2}">{3}</a>!</lang>
+	</entry>
+
+	<entry key="AllianceEndWarMessage">
+		<lang key="de">Krieg zwischen <a href="/Alliance/Info.aspx?Id=%7B0%7D">{1}</a> und <a href="/Alliance/Info.aspx?Id=%7B2%7D">{3}</a> ist zu einem Ende gekommen!</lang>
+		<lang key="en">War between the <a href="/Alliance/Info.aspx?Id={0}">{1}</a> and <a href="/Alliance/Info.aspx?Id={2}">{3}</a> has come to an end!</lang>
+		<lang key="es">La guerra entre las alianzas <a href="/Alliance/Info.aspx?Id={0}">{1}</a> e <a href="/Alliance/Info.aspx?Id={2}">{3}</a> llego al fin!</lang>
+		<lang key="fr">La guerre entre <a href="/Alliance/Info.aspx?Id={0}">{1}</a> et <a href="/Alliance/Info.aspx?Id={2}">{3}</a> est arrivé à sa fin!</lang>
+		<lang key="hr">Rat između <a href="/Alliance/Info.aspx?Id={0}">{1}</a> i <a href="/Alliance/Info.aspx?Id={2}">{3}</a> je završio!</lang>
+		<lang key="pt">A guerra entre as alianças <a href="/Alliance/Info.aspx?Id={0}">{1}</a> e <a href="/Alliance/Info.aspx?Id={2}">{3}</a> chegou ao fim!</lang>
+	</entry>
+
+	<entry key="AllianceGoNeutralMessage">
+		<lang key="de">Allianz <a href="/Alliance/Info.aspx?Id=%7B0%7D">{1}</a> änderte den diplomatischen Status <a href="/Alliance/Info.aspx?Id=%7B2%7D">{3}</a> zu neutral.</lang>
+		<lang key="en">Alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> changed diplomatic status with <a href="/Alliance/Info.aspx?Id={2}">{3}</a> to neutral.</lang>
+		<lang key="es">La Alianza <a href="/Alliance/Info.aspx?Id={0}">{1}</a> alteró el estado diplomático con <a href="/Alliance/Info.aspx?Id={2}">{3}</a> para neutro.</lang>
+		<lang key="fr">L'alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> a changé sont status diplomatique avec <a href="/Alliance/Info.aspx?Id={2}">{3}</a> pour neutre.</lang>
+		<lang key="hr">Savez <a href="/Alliance/Info.aspx?Id={0}">{1}</a> je promjenio diplomatski status s vama na <a href="/Alliance/Info.aspx?Id={2}">{3}</a> neutralan.</lang>
+		<lang key="pt">A Aliança <a href="/Alliance/Info.aspx?Id={0}">{1}</a> alterou o estado diplomático com <a href="/Alliance/Info.aspx?Id={2}">{3}</a> para neutro.</lang>
+	</entry>
+
+	<entry key="AllianceNewConfederationMessage">
+		<lang key="de">Allianzen <a href="/Alliance/Info.aspx?Id=%7B0%7D">{1}</a> und <a href="/Alliance/Info.aspx?Id=%7B2%7D">{3}</a> sind jetzt Verbündete!</lang>
+		<lang key="en">Alliances <a href="/Alliance/Info.aspx?Id={0}">{1}</a> and <a href="/Alliance/Info.aspx?Id={2}">{3}</a> have formed a Confederation!</lang>
+		<lang key="es">Las alianzas <a href="/Alliance/Info.aspx?Id={0}">{1}</a> y <a href="/Alliance/Info.aspx?Id={2}">{3}</a> son ahora aliadas!</lang>
+		<lang key="fr">L'alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> et <a href="/Alliance/Info.aspx?Id={2}">{3}</a> ont formées une confédération.</lang>
+		<lang key="hr">Savezi <a href="/Alliance/Info.aspx?Id={0}">{1}</a> i <a href="/Alliance/Info.aspx?Id={2}">{3}</a> su formirali konfederaciju.</lang>
+		<lang key="pt">As alianças <a href="/Alliance/Info.aspx?Id={0}">{1}</a> e <a href="/Alliance/Info.aspx?Id={2}">{3}</a> são agora aliadas!</lang>
+	</entry>
+
+	<entry key="AllianceNewNAPMessage">
+		<lang key="de">Allianzen <a href="/Alliance/Info.aspx?Id=%7B0%7D">{1}</a> und <a href="/Alliance/Info.aspx?Id=%7B2%7D">{3}</a> haben einen Null-Agressionen Pakt gemacht.</lang>
+		<lang key="en">Alliances <a href="/Alliance/Info.aspx?Id={0}">{1}</a> and <a href="/Alliance/Info.aspx?Id={2}">{3}</a> have formed a Non Aggression Pact.</lang>
+		<lang key="es">Las alianzas <a href="/Alliance/Info.aspx?Id={0}">{1}</a> y <a href="/Alliance/Info.aspx?Id={2}">{3}</a> acordaron un pacto de no agresión.</lang>
+		<lang key="fr">L'alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> et <a href="/Alliance/Info.aspx?Id={2}">{3}</a> ont formées un pacte de non-agression.</lang>
+		<lang key="hr">Savezi <a href="/Alliance/Info.aspx?Id={0}">{1}</a> i <a href="/Alliance/Info.aspx?Id={2}">{3}</a> su formirali Pakt NeNapadanja</lang>
+		<lang key="pt">As alianças <a href="/Alliance/Info.aspx?Id={0}">{1}</a> e <a href="/Alliance/Info.aspx?Id={2}">{3}</a> acordaram num pacto de não agressão.</lang>
+	</entry>
+
+	<entry key="AllianceRankChangedMessage">
+		<lang key="de">Spieler {0} ist jetzt ein {2} der {1} Allianz!</lang>
+		<lang key="en">Player {0} is now a {2} of the {1} alliance!</lang>
+		<lang key="es">El jugador {0} es ahora un {2} de la alianza {1}!</lang>
+		<lang key="fr">Le joueur {0} est maintenant un {2} de l'alliance {1}.</lang>
+		<lang key="hr">Igrač {0} je sada {2} saveza {1}!</lang>
+		<lang key="pt">O jogador {0} é agora um {2} da aliança {1}!</lang>
+	</entry>
+
+	<entry key="AllUnitsAreNowOnThePlanetsDefenseFleet">
+		<lang key="de">Die Hälfte der Einheiten der Flotte '{0}' sind jetzt in der Verteidigungsflotte auf dem Planeten '{1}' (Koordinate '{2}').</lang>
+		<lang key="en">Half of the units units of the fleet '{0}' are now at the planet '{1}' defense fleet (coordinate '{2}').</lang>
+		<lang key="fr">La moitié des unités de l'escadrille '{0}' se retrouvent sur la planète '{1}' en tant que escadrille de défense (coordonnées '{2}').</lang>
+		<lang key="pt">Metade das unidades da armada '{0}' estão agora na armada de defesa do planeta '{1}' (coordenada '{2}').</lang>
+		<lang key="se">Hälften av dina enheter i flottan '{0}' är nu i planeten '{0}s' försvarsflotta (koordinat '{2}').</lang>
+	</entry>
+
+	<entry key="AlreadyAtPlanetLimitMessage">
+		<lang key="de">Du kannst diesen Planeten nicht erobern weil du bereits deinen Limit an Planeten erreicht hast!</lang>
+		<lang key="en">You can't conquer this planet because you're already at your planet limit!</lang>
+		<lang key="es">No puedes conquistar este planeta porque já estás en el limite máximo de planetas!</lang>
+		<lang key="fr">Vous ne pouvez pas conquérir cette planète car vous avez déjà atteint le nombre limite de planètes.</lang>
+		<lang key="hr">Ne možeš osvojiti ovaj planet jer si već na limitu planeta.</lang>
+		<lang key="pt">Não podes conquistar este planeta porque já estás no limite máximo de planetas!</lang>
+		<lang key="se">Du kan inte erövra den här planeten eftersom du redan nått ditt maximala antal planeter!</lang>
+	</entry>
+
+	<entry key="AssetCreatedMessage">
+		<lang key="de">Spieler {0} erstellte ein Anlagegut in den <a href="%7B1%7D">tasks</a> der Allianz</lang>
+		<lang key="en">Player {0} create an asset in the alliance's <a href="{1}">tasks</a></lang>
+		<lang key="pt">O jogador {0} criou uma disponibilidade nas <a href="{1}">tarefas</a> da aliança</lang>
+	</entry>
+
+	<entry key="AttackedMessage">
+		<lang key="de">Die Flotte '{0}' wurde attackiert von Spieler '{1}'!</lang>
+		<lang key="en">The fleet '{0}' was attacked by player '{1}'!</lang>
+		<lang key="es">La flota '{0}' fué atacada por el jugador '{1}'!</lang>
+		<lang key="fr">L'escadrille '{0}' a été attaqué par le joueur '{1}'!</lang>
+		<lang key="hr">Flota '{0}' je napadnuta od igrača '{1}'!</lang>
+		<lang key="pt">A armada '{0}' foi atacada pelo jogador '{1}'!</lang>
+		<lang key="se">Flottan '{0}' attackerades av spelaren '{1}'!</lang>
+	</entry>
+
+	<entry key="AttackMessage">
+		<lang key="de">Einheit auf Koordinate <span>{0}</span> attackierte die Einheit auf Koordinate <span>{1}</span>.</lang>
+		<lang key="en">Unit at coordinate <span>{0}</span> attacked the unit at coordinate <span>{1}</span>.</lang>
+		<lang key="es">Unidade en la Coordenada <span>{0}</span> ataco a la unidad en la coordenada<span>{1}</span>.</lang>
+		<lang key="fr">L'unité aux coordonées <span>{0}</span> a attaqué l'unité aux coordonées <span>{1}</span>.</lang>
+		<lang key="hr">Jedinica na koordinatama <span>{0}</span> je napala jedinicu na koordinatama <span>{1}</span>.</lang>
+		<lang key="pt">Unidade na Coordenada <span>{0}</span> atacou a unidade na coordenada<span>{1}</span>.</lang>
+	</entry>
+
+	<entry key="AutoVacationsStarted">
+		<lang key="de">Das Spiel hat dich automatisch in die Ferien versetzt weil du fast einen Timeout in der Schlacht gegeben hast.</lang>
+		<lang key="en">The game put you on vacations automatically because you were almost giving a timeout on a battle.</lang>
+		<lang key="es">El juego te coloco automáticamente de vacaciones porque estabas casi dando timeout en una batalla.</lang>
+		<lang key="fr">Le jeu vous a mis automatiquement en vacances car vous étiez à 2 doigts de donner un temps mort dans un combat.</lang>
+		<lang key="hr">Igra vas je stvila u status odmora jer se već približavate isteku vremena u bitci.</lang>
+		<lang key="pt">O jogo colocou-te automaticamente de férias porque estavas quase a dar timeout numa batalha.</lang>
+		<lang key="se">Spelet satte dig i semester-läge automatiskt eftersom du nästan gav timeout i ett fältslag.</lang>
+	</entry>
+
+	<entry key="BattleStartedMessage">
+		<lang key="de">Eine Schlacht hat angefangen auf der Koordinate {0}.</lang>
+		<lang key="en">A battle has started at coordinate {0}.</lang>
+		<lang key="es">Una batalla comenzó en la coordenada {0}.</lang>
+		<lang key="fr">Un combat a commencé aux coordonées {0}.</lang>
+		<lang key="hr">Bitka je počela na koordinatama '{0}'.</lang>
+		<lang key="pt">Uma batalha começou na coordenada {0}.</lang>
+		<lang key="se">Ett fältslag har startats på koordinat {0}.</lang>
+	</entry>
+
+	<entry key="BeaconInTheSurroundingBeacon">
+		<lang key="de">Wachposten konnte nicht erzeugt werden. Ein anderer Wachposten der sich in der Zone befindet, verhindert die Konstruktion.</lang>
+		<lang key="en">Beacon could not be created. Another Beacon is in the area that avoids its deploy.</lang>
+		<lang key="es">El Centinela no puede ser credo. Otro Centinela está en la área y evita la construcción.</lang>
+		<lang key="fr">Le satellit n'a pas pu être créer. Un autre satellite emp^che sont déploiement.</lang>
+		<lang key="hr">Zraka nije mogla biti stvorena. Druga zraka u ovome području ne dopušta njezinu uporabu.</lang>
+		<lang key="pt">A Sentinela não pode ser criada. Outro Sentinela está na área e evita a construção.</lang>
+		<lang key="se">Boj kunde inte skapas. En annan Boj finns i området och hindrar placeringen.</lang>
+	</entry>
+
+	<entry key="BeaconInTheSurroundingDevastation">
+		<lang key="de">Zerstörung konnte nicht gefeuert werden. Ein Wachposten in der Zone verhindert dessen Benutzung.</lang>
+		<lang key="en">Devastation could not be fired. A Beacon is in the area that avoids its usage.</lang>
+		<lang key="es">La Devastación no puede ser disparada. Un Centinela está en el área lo que evita su utilización.</lang>
+		<lang key="fr">Desvastation n'a pas pu être tiré. Il y a un satellite dans les parrages qui emp^che sont utilisation.</lang>
+		<lang key="hr">Devastacija nije mogla biti ispaljena. Zraka u ovome području izbjegava njegovu upotrebu.</lang>
+		<lang key="pt">A Devastação não pode ser disparada. Uma Sentinela está na área que evita a sua utilização.</lang>
+		<lang key="se">Totalförstörelse kunde inte avfyras. En Boj är i området och hindrar dess användande.</lang>
+	</entry>
+
+	<entry key="BeaconInTheSurroundingDevastationCoordinate">
+		<lang key="de">Zerstörung konnte nicht gefeuert werden auf Koordinate {0}. Ein Wachposten beschützt diesen Sektor.</lang>
+		<lang key="en">Devastation could not be fired at coordinate {0}. A Beacon is protecting that sector.</lang>
+		<lang key="es">La Devastación no puede ser disparada na coordenada {0}. Un Centinela está en el área protegendo esse sector.</lang>
+		<lang key="pt">A Devastação não pode ser disparada na coordenada {0}. Uma Sentinela está a proteger esse sector.</lang>
+	</entry>
+
+	<entry key="BeaconInTheSurroundingWormHole">
+		<lang key="de">Wurmloch konnte nicht erzeugt werden. Ein Wachposten der sich in der Zone befindet, verhindert die Konstruktion.</lang>
+		<lang key="en">WormHole could not be created. A Beacon is in the area that avoids its creation.</lang>
+		<lang key="es">El Túnel Espacial no puede ser creado. Un Centinela está en el área lo que evita  la construcción.</lang>
+		<lang key="fr">Un trou noir n'a pa pu être créer. Un satellite dans les parrages emp^che sont utilisation.</lang>
+		<lang key="hr">Crvotočina nije mogla biti stvorena. Zraka u ovome području ne dopušta njezino stvaranje.</lang>
+		<lang key="pt">O Túnel Espacial não pode ser criada. Uma Sentinela está na área que evita a construção.</lang>
+		<lang key="se">Maskhål kunde inte skapas. En Boj är i området och hindrar dess skapande.</lang>
+	</entry>
+
+	<entry key="BeaconUltimateRefund">
+		<lang key="de">Wachposten konnte nicht erzeugt werden. Ressourcen wurden zurückgegeben.</lang>
+		<lang key="en">Beacon could not be created. Resources were returned.</lang>
+		<lang key="es">No fué posíble crear al Centinela. Los Recursos fueron devueltos.</lang>
+		<lang key="fr">Le satellite n'a pas pu être créer. Les ressources ont été récupérés</lang>
+		<lang key="hr">Zraka nije mogla biti stvorena. Resursi su vraćeni.</lang>
+		<lang key="pt">Não foi possível criar a Sentinela. Os Recursos foram devolvidos.</lang>
+		<lang key="se">Boj kunde inte skapas. Resurserna har återbördats.</lang>
+	</entry>
+
+	<entry key="BetterLuckNextTime">
+		<lang key="de">Viel Glück beim nächsten Mal, Verlierer!</lang>
+		<lang key="en">Better luck next time, loser!</lang>
+		<lang key="es">Mejor suerte para la próxima, Perdedor!</lang>
+		<lang key="fr">Meilleur chance la prochaine fois, le nul!</lang>
+		<lang key="hr">Više sreće sljedeći put luzeru!</lang>
+		<lang key="pt">Melhor sorte para a próxima, seu fraquinho!</lang>
+		<lang key="se">Bättre lycka nästa gång, Loser!</lang>
+	</entry>
+
+	<entry key="BidBuyoutMessage">
+		<lang key="de">Du hast <b>{0} {1}</b> im Auktionshaus gekauft, für <b>{2}</b>. Es ist in deiner Verteigungsflotte auf deinem Heimatplaneten.</lang>
+		<lang key="en">You bought <b>{0} {1}</b> in the auction house for <b>{2}</b>. It is on the defense fleet of your home planet.</lang>
+		<lang key="es">Compraste <b>{0} {1}</b> en casa de remates por <b>{2}</b>. Está en la flota de defensa de tu planeta madre.</lang>
+		<lang key="fr">Vous avez acheté <b>{0} {1}</b> à la maison des enchères pour <b>{2}</b>. Cela se retrouver sur votre escadrille de défense sur votre planète mère.</lang>
+		<lang key="hr">Kupio si <b>{0} {1}</b> u aukcijskoj kući za  <b>{2}</b>. U obranbenoj floti je na Početnom Planetu</lang>
+		<lang key="pt">Compraste <b>{0} {1}</b> na casa de leilões por <b>{2}</b>. Está na armada de defesa do teu planeta mãe.</lang>
+	</entry>
+
+	<entry key="BidSoldMessage">
+		<lang key="de">Dein Angebot für <b>{0} {1}</b> wurde an einem anderen Spieler verkauft</lang>
+		<lang key="en">Your bid at <b>{0} {1}</b> was sold in buyout to another player</lang>
+		<lang key="es">Tu licitación <b>{0} {1}</b> fué vendida en compra inmediata a otro jogador</lang>
+		<lang key="fr">Votre enchère sur <b>{0} {1}</b> a été vendu instantannément à un autre joueur.</lang>
+		<lang key="hr">Vaša ponuda <b>{0} {1}</b>  je otkupljena od strane drugog igrača</lang>
+		<lang key="pt">A tua licitação a <b>{0} {1}</b> foi vendida em compra imediata a outro jogador</lang>
+	</entry>
+
+	<entry key="BlinkMessage">
+		<lang key="de"><span>{0}</span><span>{1}</span> teletransportierten sich von Koordinate <span>{2}</span> zu Koordinate <span>{3}</span>.</lang>
+		<lang key="en"><span>{0}</span><span>{1}</span> blinked from coordinate <span>{2}</span> to coordinate <span>{3}</span>.</lang>
+		<lang key="es"><span>{0}</span><span>{1}</span> teletransportaronse de la coordenada <span>{2}</span> hacia la coordenada<span>{3}</span>.</lang>
+		<lang key="fr"><span>{0}</span><span>{1}</span> a été téléporté des coordonnées  <span>{2}</span> à <span>{3}</span>.</lang>
+		<lang key="hr"><span>{0}</span><span>{1}</span> je trepnuo od koordinata <span>{2}</span> na koordinate <span>{3}</span>.</lang>
+		<lang key="pt"><span>{0}</span><span>{1}</span> teletransportaram-se da coordenada <span>{2}</span> para a coordenada<span>{3}</span>.</lang>
+	</entry>
+
+	<entry key="BombAttackDamageMessage">
+		<lang key="de">Bomben-Angriff machte <span>{0}</span> einen Schaden auf die Einheit auf der Koordinate <span>{1}</span> that destroyed <span>{2}</span><span>{3}</span>.</lang>
+		<lang key="en">Bomb attack made <span>{0}</span> of damage to the unit at coordinate <span>{1}</span> that destroyed <span>{2}</span><span>{3}</span>.</lang>
+		<lang key="es">Ataque bomba hizo <span>{0}</span> de daño a la unidad en la coordenada <span>{1}</span> que destruyó <span>{2}</span><span>{3}</span>.</lang>
+		<lang key="fr">L'attaque explosive a fait <span>{0}</span> à l'unité aux coordonées <span>{1}</span> qui a détruit <span>{2}</span><span>{3}</span>.</lang>
+		<lang key="hr">Napad bombom je napravio <span>{0}</span> štete jedinici na koordinatama <span>{1}</span> i uništio <span>{2}</span><span>{3}</span>.</lang>
+		<lang key="pt">Ataque bomba fez <span>{0}</span> de dano à unidade na coordenada <span>{1}</span> que destruiu <span>{2}</span><span>{3}</span>.</lang>
+	</entry>
+
+	<entry key="BonusCodeMessage">
+		<lang key="de">Du hast einen Preis von <b>{0} Orions</b> erhalten für einen Bonus Code der Kampagne <u>{1}</u></lang>
+		<lang key="en">You received a prize of <b>{0} Orions</b> for a bonus code of the campain <u>{1}</u></lang>
+		<lang key="fr">Vous avez reçu un prix de <b>{0} Orions</b> provenant d'un code bonus issue d'une campagne <u>{1}</u></lang>
+		<lang key="pt">Recebeste um prémio de <b>{0} Orions</b> por um código de bónus da campanha <u>{1}</u></lang>
+	</entry>
+
+	<entry key="BountyAcceptedMessage">
+		<lang key="de">Spieler <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> hat eine Kopfgeldprämie auf dich akzeptiert und ist auf der Jagd nach dir!</lang>
+		<lang key="en">Player <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> has accepted a bounty on you and is out to get you!</lang>
+		<lang key="es">El jugador <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> acepto cazarte a cambio de un Premio !</lang>
+		<lang key="fr">Le joueur <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> a accepté une mise à prix sur votre tête et est à votre poursuite!</lang>
+		<lang key="hr">Igrač <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> je prihvatio ucjenu na vas i sada je vani da vas nađe.</lang>
+		<lang key="pt">O jogador <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> aceitou caçar-te em troca de um prémio!</lang>
+	</entry>
+
+	<entry key="BountyCollectedOnYouMessage">
+		<lang key="de">Der Jäger <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> eine Kopfgeldprämie die auf dich gesetzt war, abgegeben. Es kostet dich <u>{1}</u> Punkte!</lang>
+		<lang key="en">Hunter <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> has delivered a bounty on you that costed you <u>{1}</u> points!</lang>
+		<lang key="fr">Le chasseur <a href="javascript:Utils.searchPlayer('{0}');">{0}</a>  a délivré une mise à prix sur votre tête qui vous a couté <u>{1}</u> points!</lang>
+		<lang key="hr">Lovac <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> je dostavio ucjenu na tvoju glavu koja vas je koštala <u>{1}</u> bodova!</lang>
+		<lang key="pt">O caçador <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> entregou um prémio relativo a ti que te custou <u>{1}</u> pontos!</lang>
+	</entry>
+
+	<entry key="BountyRewardMissedMessage">
+		<lang key="de">Eine Kopfgeldprämie auf <a href="javascript:Utils.searchPlayer('{0}');">{0}</a>  wurde gerade beendet und du hast keine Orions erhalten!</lang>
+		<lang key="en">A bounty on <a href="javascript:Utils.searchPlayer('{0}');">{0}</a>  has just finished and you didn't get any orions!</lang>
+		<lang key="fr">Une mise a prix sur <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> viens de terminer et vous n'avez pas reçu d'Orions!</lang>
+		<lang key="hr">Ucjena na glavu <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> je upravo završila i ti nisi dobio nijedan orion!</lang>
+		<lang key="pt">Um prémio pela cabeça do <a href="javascript:Utils.searchPlayer('{0}');">{0}</a> terminou e tu não ganhaste nada!</lang>
+	</entry>
+
+	<entry key="BountyRewardWonMessage">
+		<lang key="de">Du hast eine Belohnung von {1} Orions erhalten von der Kopfgeldprämie auf 
+<a href="javascript:Utils.searchPlayer('{0}');">{0}</a>!</lang>
+		<lang key="en">You won a reward of {1} Orions on the bounty of <a href="javascript:Utils.searchPlayer('{0}');">{0}</a>!</lang>
+		<lang key="es">Ganaste {1} Orions de Premio por la caza del jugador <a href="javascript:Utils.searchPlayer('{0}');">{0}</a>!</lang>
+		<lang key="fr">Vous avez gagné une récompense de {1} Orions grâce à la mise à prix de <a href="javascript:Utils.searchPlayer('{0}');">{0}</a>!</lang>
+		<lang key="hr">Dobio si nagradu od {1} Oriona za ucjenu glave  
+<a href="javascript:Utils.searchPlayer('{0}');">{0}</a>!</lang>
+		<lang key="pt">Ganhaste {1} Orions de prémio pela caça ao jogador <a href="javascript:Utils.searchPlayer('{0}');">{0}</a>!</lang>
+	</entry>
+
+	<entry key="BuyInMarketMessage">
+		<lang key="de">Du hast gekauft <b>{0} {1}</b> auf dem Markt <b>{2}</b>. Die Ressourcen sind in der Fracht der Flotte <b>{3}</b></lang>
+		<lang key="en">You bought <b>{0} {1}</b> in the market <b>{2}</b>. The resources are in the cargo of the fleet <b>{3}</b></lang>
+		<lang key="es">Compraste <b>{0} {1}</b> en el mercado <b>{2}</b> y los recursos fueron para la carga de tu flota  <b>{3}</b></lang>
+		<lang key="fr">Vous avez acheté  <b>{0} {1}</b> au marché <b>{2}</b>. Les ressources sont dans la cargaison de l'escadrille <b>{3}</b>.</lang>
+		<lang key="hr">Kupio si <b>{0} {1}</b> u matketu <b>{2}</b>. Resursi su u skladištu flote <b>{3}</b></lang>
+		<lang key="pt">Compraste <b>{0} {1}</b> no mercado <b>{2}</b> e os recursos foram para a carga da armada  <b>{3}</b></lang>
+	</entry>
+
+	<entry key="CancelFleetMovementMessage">
+		<lang key="de">Bewegung der Flotte '{0}' wurde abgebrochen.</lang>
+		<lang key="en">Movement of the fleet '{0}' was cancelled.</lang>
+		<lang key="es">Movimiento de la flota '{0}' fué cancelado.</lang>
+		<lang key="fr">Le mouvement sur l'escadrille '{0}' été annulé</lang>
+		<lang key="hr">Pokret flote '{0}' je otkazan.</lang>
+		<lang key="pt">Movimento da armada '{0}' foi cancelado.</lang>
+		<lang key="se">Förflyttningen av flottan '{0}' avbröts.</lang>
+	</entry>
+
+	<entry key="CannotMoveMessage">
+		<lang key="de">Flotte '{0}' ist bewegungsunfähig. Finde einen alternativen Weg oder befreie den Weg indem du eine Schlacht anfängst. Wenn du nicht kämpfen willst, versuche andere Flotten zu schicken um eine Stelle zu erhalten, wo die Bewegung möglich ist.</lang>
+		<lang key="en">Fleet '{0}' is stuck. Try to find an alternative path or clear the path using a battle. If you don't want to battle, try to send other fleets to get a movable spot.</lang>
+		<lang key="fr">L'escadrille est hors d'état de mouvment. Il vous faut trouver un chemin différent ou éclicir la rout à l'aide d'un combat. Si vous ne voulez pas combattre, essayez d'envoyer d'autres escadrilles sur un endroit disponible.</lang>
+		<lang key="hr">Flora '{0}' je zapela. Pokušaj pronaći drugi put ili probij jedan koristeći se bitkom. Ako ne želite  bitku, pokušajte poslati drugu flotu da pronađe mjesto na koje se može pomaknuti.</lang>
+		<lang key="pt">Armada '{0}' está presa. Tenta encontrar um caminho alternativo ou limpa o caminho batalhando. Se não quiseres entrar em batalha, tenta enviar outras armadas de modo a arranjares um quadrado onde seja possivel o movimento.</lang>
+	</entry>
+
+	<entry key="CatchResourcesMessage">
+		<lang key="de">Du hast {0} Einheiten von {1} gefangen.</lang>
+		<lang key="en">You caught {0} units of {1}.</lang>
+		<lang key="es">Tomaste {0} unidades de {1}.</lang>
+		<lang key="fr">Vous avez attrapé {0} unités de {1}.</lang>
+		<lang key="hr">Uhvatio si {0} jedinica  {1}.</lang>
+		<lang key="pt">Apanhaste {0} unidades de {1}.</lang>
+		<lang key="se">Du fångade {0} enheter av {1}.</lang>
+	</entry>
+
+	<entry key="ConquerMessage">
+		<lang key="de">Du hast einen Planeten erobert auf Koordinate '{0}'.</lang>
+		<lang key="en">You conquered a planet at coordinate '{0}'.</lang>
+		<lang key="es">Conquistaste un planeta en la coordenada '{0}'.</lang>
+		<lang key="fr">Vous avez conquis une planète aux coordonées '{0}'.</lang>
+		<lang key="hr">Pokorio si planet na koordinatama '{0}'.</lang>
+		<lang key="pt">Conquistaste um planet na coordenada '{0}'.</lang>
+		<lang key="se">Du erövrade en planet på koordinat '{0}'.</lang>
+	</entry>
+
+	<entry key="CoolDownEndedMessage">
+		<lang key="de">Abkühlung der Einheit <span>{1}</span>'s <span>{0}</span> ist beendet.</lang>
+		<lang key="en">Cooldown of <span>{1}</span>'s <span>{0}</span> has ended.</lang>
+		<lang key="es">Congelamiento de la unidad <span>{0}</span> del jogador <span>{1}</span> termino.</lang>
+		<lang key="fr">Le temps d'attente de <span>{1}</span>'s <span>{0}</span> est terminé.</lang>
+		<lang key="hr">Hlađenje <span>{1}</span> - ova <span>{0}</span> je završilo.</lang>
+		<lang key="pt">Arrefecimento da unidade <span>{0}</span> do jogador <span>{1}</span> acabou.</lang>
+	</entry>
+
+	<entry key="CoolDownMessage">
+		<lang key="de"><span>{2}</span>'s <span>{0}</span> braucht eine weitere Abkühlung von {1} Runde(n).</lang>
+		<lang key="en"><span>{2}</span>'s <span>{0}</span> has a remaining cooldown of {1} turn(s).</lang>
+		<lang key="es">Restán <span>{1}</span> turnos para que la unidad <span>{0}</span> del jugador <span>{2}</span> acabe el congelamiento.</lang>
+		<lang key="fr"><span>{2}</span>'s <span>{0}</span> à un temps de {1} tour(s) d'attente restant.</lang>
+		<lang key="hr"><span>{2}</span>-ov <span>{0}</span> ima preostalo hlađenje u trajanj od {1} turn-a.</lang>
+		<lang key="pt">Restam <span>{1}</span> turnos para que a unidade <span>{0}</span> do jogador <span>{2}</span> acabe o arrefecimento.</lang>
+	</entry>
+
+	<entry key="CoordinateAlreadyHasAUnit">
+		<lang key="de">Koordinate {0} hat bereits eine Einheit.</lang>
+		<lang key="en">Coordinate {0} already has a unit.</lang>
+		<lang key="es">Coordenada {0} ya posee una unidad.</lang>
+		<lang key="fr">Les coordonées {0} sont déjà occupées.</lang>
+		<lang key="hr">Koordinate {0} već imaju jedinicu.</lang>
+		<lang key="pt">Coordenada {0} já possui uma unidade.</lang>
+	</entry>
+
+	<entry key="DamageMessage">
+		<lang key="de"><span>{0}</span><span>{1}</span> machte <span>{2}</span> einen Schaden der <span>{3}</span><span>{4}</span> zerstörte.</lang>
+		<lang key="en"><span>{0}</span><span>{1}</span> made <span>{2}</span> of damage that destroyed <span>{3}</span><span>{4}</span>.</lang>
+		<lang key="es"><span>{0}</span><span>{1}</span> Hizo <span>{2}</span> de daño que destruyó <span>{3}</span><span>{4}</span>.</lang>
+		<lang key="fr"><span>{0}</span><span>{1}</span> a fait <span>{2}</span> dégâts qui a détruit <span>{3}</span><span>{4}</span>.</lang>
+		<lang key="hr"><span>{0}</span><span>{1}</span> je napravio <span>{2}</span> koja je uništila <span>{3}</span><span>{4}</span>.</lang>
+		<lang key="pt"><span>{0}</span><span>{1}</span> fez <span>{2}</span> de dano que destruiu <span>{3}</span><span>{4}</span>.</lang>
+	</entry>
+
+	<entry key="DeployMessage">
+		<lang key="de">Spieler <span>{0}</span> hat seine/ihre Einheiten positioniert.</lang>
+		<lang key="en">Player <span>{0}</span> deployed his/her units.</lang>
+		<lang key="es">Jugador <span>{0}</span> posicionó las unidades.</lang>
+		<lang key="fr">Le joueur <span>{0}</span> a déployé ses unités.</lang>
+		<lang key="hr">Igrač <span>{0}</span> je rasporedio svoje jedinice.</lang>
+		<lang key="pt">Jogador(a) <span>{0}</span> posicionou as unidades.</lang>
+	</entry>
+
+	<entry key="DeployTimeoutMessage">
+		<lang key="de">Spieler <span>{0}</span> hat eine Timeout für Positionierung gegeben.</lang>
+		<lang key="en">Player <span>{0}</span> gave a deploy timeout.</lang>
+		<lang key="es">Jugador <span>{0}</span> dió un timeout de posicionamiento.</lang>
+		<lang key="fr">Le joueur <span>{0}</span> a donnée un temps-mort au déploiement</lang>
+		<lang key="hr">Igrač <span>{0}</span> je dao timeout raspoređivanja.</lang>
+		<lang key="pt">Jogador(a) <span>{0}</span> deu um timeout de posicionamento.</lang>
+	</entry>
+
+	<entry key="DevastationAttackDamage">
+		<lang key="de">Die Flotte '{0}' ({2}) erhält Schaden von einer Zerstörungs-Attacke und verliert insgesamt {1} Einheiten!</lang>
+		<lang key="en">The fleet '{0}' ({2}) received damage from a devastation attack and lost a total of {1} units!</lang>
+		<lang key="es">La flota '{0}' ({2}) recebió daño de un ataque Devastación y perdió un total de {1} unidades.</lang>
+		<lang key="fr">L'escadrille '{0}' ({2}) a reçu des dégats provenant d'une attaque dévastation et a perdu un totel de {1} unités!</lang>
+		<lang key="hr">Flota '{0}' ({2}) je primila štetu napadom devastacije i izgubila je ukupno {1} jedinica!</lang>
+		<lang key="pt">A Armada '{0}' ({2}) recebeu dano de um ataque Devastação e perdeu um total de {1} unidades.</lang>
+		<lang key="se">Flottan '{0}' ådrog sig skada från en totalförstörelse-attack och förlorade totalt {1} enheter!</lang>
+	</entry>
+
+	<entry key="DevastationAttackDestroyFleet">
+		<lang key="de">Alle Einheiten in der Flotte '{0}' ({2}) (insgesamt {0}) wurden vernichtet durch eine Zerstörungs-Attacke!</lang>
+		<lang key="en">All units in the fleet '{0}' ({2}) ({1} total) were destroyed by a devastation attack!</lang>
+		<lang key="es">Todas las unidades de la armada '{0}' ({2}) (un total de {0}) fueron destruídas por un ataque Devastación.</lang>
+		<lang key="fr">Toutes les unités de l'escadrille '{0}' ({2}) ({1} total) ont été détruites par l'attaque de dévastation.</lang>
+		<lang key="hr">Sve jedinice u floti '{0}' ({2}) ({1} ukupno) su uništene napadom devastacije!</lang>
+		<lang key="pt">Todas as unidades da armada '{0}' ({2}) (um total de {0}) foram destruidas por um ataque Devastação.</lang>
+		<lang key="se">All enheter i flottan '{0}' ({1} totalt) förstördes av en totalförstörelse-attack!</lang>
+	</entry>
+
+	<entry key="DevastationAttackResult">
+		<lang key="de">Die Zerstörungs-Attacke wurde auf die Koordinate '{0}' gefeuert. Die Attacke zerstörte insgesamt {1} Einheiten!</lang>
+		<lang key="en">The Devastation attack was fired at coordinate '{0}'. The attack destroyed a total of {1} units!</lang>
+		<lang key="es">Devastación fué disparada en la coordenada '{0}'. El ataque te destruyó un total de {1} unidades.</lang>
+		<lang key="fr">La dévastation a été tirée aux coordonées '{0}'. L'attaque a détruit un total de {1} unités!</lang>
+		<lang key="hr">Napad Devastacije je ispaljen na koordinate '{0}'. Napad je uništio totalno {1} jedinca!</lang>
+		<lang key="pt">Devastação foi disparada na coordenada '{0}'. O ataque destruiu-te um total de {1} unidades.</lang>
+		<lang key="se">Totalförstörelse-attacken avfyrades på koordinat '{0}'. Attacken förstörde totalt {1} enheter!</lang>
+	</entry>
+
+	<entry key="DonationMessage">
+		<lang key="de">Deine Allianz spendete <b>{0} {1}</b> dem Spieler {2} ein Offerte von Spieler {3}</lang>
+		<lang key="en">Your alliance donate <b>{0} {1}</b> to the player {2} offered by {3}</lang>
+		<lang key="pt">A tua aliança doou <b>{0} {1}</b> ao jogador {2} uma oferta do jogador {3}</lang>
+	</entry>
+
+	<entry key="DropCargoSuccessMessage">
+		<lang key="de">Die ganzen Fracht wurde erfolgreich entladen.</lang>
+		<lang key="en">All the cargo was dropped with success.</lang>
+		<lang key="fr">Toutes la cargaison a été déposé avec succès.</lang>
+		<lang key="hr">Sav teret je ispušten uspješno.</lang>
+		<lang key="pt">Toda a carga foi descarregada com sucesso.</lang>
+	</entry>
+
+	<entry key="EggPlacedMessage">
+		<lang key="de">Ei wurde platziert auf Koordinate <span>{0}</span>.</lang>
+		<lang key="en">Egg was placed at coordinate <span>{0}</span>.</lang>
+		<lang key="es">Huevo fué colocado en la coordenada <span>{0}</span>.</lang>
+		<lang key="fr">L'oeuf a été placé aux coordonnés  <span>{0}</span>.</lang>
+		<lang key="hr">Jaje je smješteno na koordinate <span>{0}</span>.</lang>
+		<lang key="pt">Ovo foi colocado na coordenada <span>{0}</span>.</lang>
+	</entry>
+
+	<entry key="EmptyFleetDestroyedMessage">
+		<lang key="de">Die Flotte '{0}' wurde unverzüglich zerstört weil sie leer war.</lang>
+		<lang key="en">The fleet '{0}' was instantaneously destroyed because it was empty.</lang>
+		<lang key="es">La flota '{0}' fué automáticamente destruida porque estaba vacía.</lang>
+		<lang key="fr">L'escadrille '{0}' a été instantannément détruit car elle était vide.</lang>
+		<lang key="hr">Flota '{0}' je trenutačno uništena jer je bila prazna.</lang>
+		<lang key="pt">A armada '{0}' foi automáticamente destruida porque estava vazia.</lang>
+		<lang key="se">Flottan '{0}' förstördes omedelbart då den var tom.</lang>
+	</entry>
+
+	<entry key="EndBattleMessage">
+		<lang key="de">Die Schlacht ist zu Ende. Spieler {0} hat gewonnen.</lang>
+		<lang key="en">The battle ended. Player {0} Won.</lang>
+		<lang key="es">La batalla acabo. El Jugador {0} Ganó.</lang>
+		<lang key="fr">Le combat est terminé. Le joueur {0} a gagné.</lang>
+		<lang key="hr">Bitka je završila. Igrač {0} je Pobjedio.</lang>
+		<lang key="pt">A batalha acabou. O Jogador {0} Ganhou.</lang>
+	</entry>
+
+	<entry key="EndBattleMessageTeams">
+		<lang key="de">Die Schlacht ist zu Ende. Team {0} hat gewonnen.</lang>
+		<lang key="en">The battle ended. Team {0} Won.</lang>
+		<lang key="es">La batalla acabo. El Equipo {0} Ganó.</lang>
+		<lang key="fr">Le combat est terminé. L'équipe {0} a gagné.</lang>
+		<lang key="hr">Bitka je završila. Tim {0} je Pobjedio.</lang>
+		<lang key="pt">A batalha acabou. A Equipa {0} Ganhou.</lang>
+	</entry>
+
+	<entry key="EndMessage">
+		<lang key="de">Das Spiel ist zu Ende. Spieler <span>{0}</span> hat gewonnen.</lang>
+		<lang key="en">The game ended. Player <span>{0}</span> won.</lang>
+		<lang key="es">Juego acabo. El jugador <span>{0}</span> vencio.</lang>
+		<lang key="fr">La partie est terminé. Le joueur <span>{0}</span> est victorieux.</lang>
+		<lang key="hr">Igra je završila. Igrač <span>{0}</span> je dobio.</lang>
+		<lang key="pt">Jogo acabou. O jogador <span>{0}</span> venceu.</lang>
+	</entry>
+
+	<entry key="EndTurnMessage">
+		<lang key="de">Spieler <span>{0}</span> beendet seine/ihre Runde.</lang>
+		<lang key="en">Player <span>{0}</span> ended his/her turn.</lang>
+		<lang key="es">Jugador <span>{0}</span> acabo el turno.</lang>
+		<lang key="fr">Le joueur <span>{0}</span> a terminé son tour.</lang>
+		<lang key="hr">Igrač <span>{0}</span> je završio svoj turn.</lang>
+		<lang key="pt">Jogador(a) <span>{0}</span> acabou o turno.</lang>
+	</entry>
+
+	<entry key="FleetArrivedMessage">
+		<lang key="de">Flotte '{0}' hat die Koordinate '{1}' erreicht.</lang>
+		<lang key="en">Fleet '{0}' arrived to coordinate '{1}'.</lang>
+		<lang key="es">La flota '{0}' llegó a la coordenada '{1}'.</lang>
+		<lang key="fr">L'escadrille '{0}' est arrivé aux coordonéées '{1}'.</lang>
+		<lang key="hr">Flota '{0}' je stigla na koordinate '{1}'.</lang>
+		<lang key="pt">A armada '{0}' chegou à coordenada '{1}'.</lang>
+		<lang key="se">Flottan '{0}' kom fram till koordinaten '{1}'.</lang>
+	</entry>
+
+	<entry key="FleetCargoUpdatedMessage">
+		<lang key="de">Fracht der Flotte '{0}' wurde aktualisiert.</lang>
+		<lang key="en">Cargo of the fleet '{0}' was updated.</lang>
+		<lang key="es">Carga de la flota '{0}' fué actualizada.</lang>
+		<lang key="fr">La cargaison de l'escadrille '{0}' a été mis à jour.</lang>
+		<lang key="hr">Teret flote '{0}' je updatean.</lang>
+		<lang key="pt">Carga da armada '{0}' foi actualizada.</lang>
+		<lang key="se">Lasten på flottan '{0}' uppdaterades.</lang>
+	</entry>
+
+	<entry key="FleetDestroyedMessage">
+		<lang key="de">Flotte '{0}' wurde im Kampf zerstört.</lang>
+		<lang key="en">Fleet '{0}' was destroyed in battle.</lang>
+		<lang key="es">La flota '{0}' fué destruída en batalla.</lang>
+		<lang key="fr">L'escadrille '{0}' a été détruite suite au combat.</lang>
+		<lang key="hr">Flota '{0}' je uništena u bitci.</lang>
+		<lang key="pt">A armada '{0}' foi destruída em batalha.</lang>
+		<lang key="se">Flottan '{0}' förstördes i fält.</lang>
+	</entry>
+
+	<entry key="FleetInAttackCoolDown">
+		<lang key="de">Flotte '{0}' kann nicht attackiert werden weil es momentan immun ist gegen Attacken.</lang>
+		<lang key="en">The fleet '{0}' cannot be attacked because it's on an attack immunity.</lang>
+		<lang key="fr">L'escadrille '{0}' ne peut pas être attaqué car elle est présentement sous immunité.</lang>
+		<lang key="hr">Flota '{0}' ne može biti napadnut jer ima imunitet na napade.</lang>
+		<lang key="pt">A Armada '{0}' não pode ser atacada porque está periodo de imunidade.</lang>
+		<lang key="se">Flottan '{0}' kan inte attackeras eftersom den är i period av immunitet.</lang>
+	</entry>
+
+	<entry key="FleetLostMessage">
+		<lang key="de">Flotte '{0}' hat die Schlacht verloren.</lang>
+		<lang key="en">Fleet '{0}' lost the battle.</lang>
+		<lang key="es">La flota '{0}' perdió la batalla.</lang>
+		<lang key="fr">L'escadrille '{0}' a perdu le combat.</lang>
+		<lang key="hr">Flota '{0}' je izgubila bitku.</lang>
+		<lang key="pt">A armada '{0}' perdeu a batalha.</lang>
+		<lang key="se">Flottan '{0}' förlorade fältslaget.</lang>
+	</entry>
+
+	<entry key="FleetStartMovingMessage">
+		<lang key="de">Flotte '{0}' bewegt sich zur Koordinate '{1}'.</lang>
+		<lang key="en">Fleet '{0}' started to move to coordinate '{1}'.</lang>
+		<lang key="es">La flota '{0}' inició el movimiento para la coordenada '{1}'.</lang>
+		<lang key="fr">L'escadrille '{0}' a commencée ses déplacements vers les coordonées '{1}'.</lang>
+		<lang key="hr">Flota '{0}' počela je da se kreće prema koordinatama '{1}'.</lang>
+		<lang key="pt">A armada '{0}' iniciou o movimento para a coordenada '{1}'.</lang>
+		<lang key="se">Flottan '{0}'  började sin förflyttning till koordinaten '{1}'.</lang>
+	</entry>
+
+	<entry key="FleetWonMessage">
+		<lang key="de">Flotte '{0}' hat die Schlacht gewonnen.</lang>
+		<lang key="en">Fleet '{0}' won the battle.</lang>
+		<lang key="es">La armada '{0}' ganó la batalla.</lang>
+		<lang key="fr">L'escadrille '{0}' a gagné le combat.</lang>
+		<lang key="hr">Flota '{0}' je dobila bitku.</lang>
+		<lang key="pt">A armada '{0}' ganhou a batalha.</lang>
+		<lang key="se">Flottan '{0}' vann fältslaget.</lang>
+	</entry>
+
+	<entry key="FriendlyIntroduction">
+		<lang key="de">Hallo! Nett dich zu treffen! Ich bin ein freundlicher Spieler, und ich verspreche dir dass ich dich nicht angreifen werde, wenn du mich in Frieden lässt. :-)</lang>
+		<lang key="en">Hello! Nice to meet you! I'm a friendly player and I promise that I won't attack you if you don't
+  engage war with me. :-)</lang>
+		<lang key="es">Hola! Placer de interactuar contigo! Soy un jugador pacífico, y prometo que no te atacaré
+  si me dejas en paz. :-)</lang>
+		<lang key="fr">Bonjour! Content de te rencontrer! Je suis un joueur amical et promet de ne pas t'attaquer, si tu ne t'attaques pas à moi. :-)</lang>
+		<lang key="hr">Pozdrav! Drago mi je upoznati te. Ja sam prijateljski igrač i obećavam da te neću napadati ako ne počneš rat sa mnom.  :-)</lang>
+		<lang key="pt">Olá! Prazer em interagir contigo! Eu sou um jogador pacífico, e prometo que não te atacarei
+  se me deixares em paz. :-)</lang>
+		<lang key="se">Hej! Trevligt att träffa dig! Jag är en vänligt sinnad spelare och jag lovar att jag inte ska attackera dig om du inte startar krig mot mig. :-)</lang>
+	</entry>
+
+	<entry key="Generic">
+		<lang key="de">Allgemein</lang>
+		<lang key="en">Generic</lang>
+		<lang key="es">Genérico</lang>
+		<lang key="fr">Générique</lang>
+		<lang key="hr">Generični</lang>
+		<lang key="pt">Genérico</lang>
+		<lang key="se">Allmän</lang>
+	</entry>
+
+	<entry key="GiveUpMessage">
+		<lang key="de">Spieler <span>{0}</span> hat aufgegeben.</lang>
+		<lang key="en">Player <span>{0}</span> gave up.</lang>
+		<lang key="es">Jugador <span>{0}</span> desistio.</lang>
+		<lang key="fr">Le joueur <span>{0}</span> a abandonné.</lang>
+		<lang key="hr">Igrač <span>{0}</span> je odustao.</lang>
+		<lang key="pt">Jogador <span>{0}</span> desistiu.</lang>
+	</entry>
+
+	<entry key="GoodGame">
+		<lang key="de">Gutes Spiel!</lang>
+		<lang key="en">Good game!</lang>
+		<lang key="es">Buen Juego!</lang>
+		<lang key="fr">Bonne Partie!</lang>
+		<lang key="hr">Dobra Igra!</lang>
+		<lang key="pt">Bom Jogo!</lang>
+		<lang key="se">Bra Spel!</lang>
+	</entry>
+
+	<entry key="HatchInMessage">
+		<lang key="de">Ei in der Position <span>{0}</span> wird ausbrüten in <span>{1}</span> Runde(n).</lang>
+		<lang key="en">Egg in position <span>{0}</span> will hatch in <span>{1}</span> turn(s).</lang>
+		<lang key="es">Huevo en la posición <span>{0}</span> va a explotar en <span>{1}</span> turno(s).</lang>
+		<lang key="fr">L'oeuf en position <span>{0}</span> va éclore dans <span>{1}</span> tour(s).</lang>
+		<lang key="hr">Jaje na poziciji <span>{0}</span>  će se izleći za  <span>{1}</span> turna.</lang>
+		<lang key="pt">Ovo na posição <span>{0}</span> vai eclodir em <span>{1}</span> turno(s).</lang>
+	</entry>
+
+	<entry key="HatchMessage">
+		<lang key="de">Ei in Position <span>{0}</span> ist ausgebrütet. <span>{1}</span> Maggots wurden geboren.</lang>
+		<lang key="en">Egg in position <span>{0}</span> hatched. <span>{1}</span> Maggots were born.</lang>
+		<lang key="es">Huevo en la posición <span>{0}</span> explotó. <span>{1}</span> la larvas nacieron.</lang>
+		<lang key="fr">L'oeuf en position <span>{0}</span> a éclot.  <span>{1}</span> asticots sont nés.</lang>
+		<lang key="hr">Jaje na poziciji <span>{0}</span> se izleglo. <span>{1}</span> Crvi su rođeni.</lang>
+		<lang key="pt">Ovo na posição <span>{0}</span> eclodiu. <span>{1}</span> larvas nasceram.</lang>
+	</entry>
+
+	<entry key="Hostile">
+		<lang key="de">Feindschaft</lang>
+		<lang key="en">Hostile</lang>
+		<lang key="es">Hostilidad</lang>
+		<lang key="fr">Hostile</lang>
+		<lang key="hr">Neprijateljski</lang>
+		<lang key="pt">Hostilidade</lang>
+		<lang key="se">Fientlig</lang>
+	</entry>
+
+	<entry key="InfestationDamageMessage">
+		<lang key="de">Einheit auf Koordinate <span>{0}</span> erhielt Schaden durch Verseuchung die <span>{1}</span> Einheit(en) zerstörte. <span>{2}</span> Runde(n) übrig.</lang>
+		<lang key="en">Unit at coordinate <span>{0}</span> received damage from infestation that destroyed <span>{1}</span> unit(s). <span>{2}</span> turn(s) remaining.</lang>
+		<lang key="es">Unidad en la coordenada <span>{0}</span> recibio daño que destruyo <span>{1}</span> unidad(es). Restán <span>{2}</span> turno(s).</lang>
+		<lang key="fr">L'unité aux coordonées <span>{0}</span> a encaissé des dégâts issus d'une infestation qui a détruit <span>{1}</span> unité(s). <span>{2}</span> tour(s) restants.</lang>
+		<lang key="hr">Jedinica na koordinatama <span>{0}</span> je primila štetu od infestacije koja je uništila  <span>{1}</span> jedinica. <span>{2}</span> turnova preostalo.</lang>
+		<lang key="pt">Unidade na coordenada <span>{0}</span> recebeu dano que destruiu <span>{1}</span> unidade(s). Restam <span>{2}</span> turno(s).</lang>
+	</entry>
+
+	<entry key="InfestationMessage">
+		<lang key="de">Einheit auf Koordinate <span>{0}</span> war Ziel einer Verseuchung.</lang>
+		<lang key="en">Unit at coordinate <span>{0}</span> was target of an infestation.</lang>
+		<lang key="es">Unidad en la coordenada <span>{0}</span> fue blanco de una infección.</lang>
+		<lang key="fr">L'unité aux coordonées <span>{0}</span> a été ciblé par une infestation</lang>
+		<lang key="hr">Jedinica na koordinatama <span>{0}</span> je meta infectacije.</lang>
+		<lang key="pt">Unidade na coordenada <span>{0}</span> foi alvo de uma infestação.</lang>
+	</entry>
+
+	<entry key="Introduction">
+		<lang key="de">Einleitung</lang>
+		<lang key="en">Introduction</lang>
+		<lang key="es">Presentación</lang>
+		<lang key="fr">Introduction</lang>
+		<lang key="hr">Uvod</lang>
+		<lang key="pt">Apresentação</lang>
+		<lang key="se">Introduktion</lang>
+	</entry>
+
+	<entry key="JoinedAllianceMessage">
+		<lang key="de">Spieler {1} ist jetzt ein Mitglied der {0} Allianz!</lang>
+		<lang key="en">Player {1} joined the {0} alliance!</lang>
+		<lang key="es">El jugador {1} es  miembro ahora de la alianza {0}!</lang>
+		<lang key="fr">Le joueur {1} s'est joint à l'alliance {0}!</lang>
+		<lang key="hr">Igrač {1} je se pridružio {0} savezu!</lang>
+		<lang key="pt">O jogador {1} é agora membro da aliança {0}!</lang>
+	</entry>
+
+	<entry key="JoinMyAlliance">
+		<lang key="de">Willst du meiner Allianz beitreten?</lang>
+		<lang key="en">Do you want to join my alliance?</lang>
+		<lang key="es">Quieres juntarte a mi alianza?</lang>
+		<lang key="fr">Veux-tu te joindre à mon alliance?</lang>
+		<lang key="hr">Da li se želiš pridružiti mom savezu?</lang>
+		<lang key="pt">Queres juntar-te à minha aliança?</lang>
+		<lang key="se">Vill du ansluta dig till min allians?</lang>
+	</entry>
+
+	<entry key="KickPlayerMessage">
+		<lang key="de">Der Spieler {0} wurde aus der {2} Allianz rausgeworfen durch {1}</lang>
+		<lang key="en">The player {0} was kicked from the {2} alliance by {1}</lang>
+		<lang key="es">El jugador {0} fué removido de la alianza {2} por {1}</lang>
+		<lang key="fr">Le joueur {0} a été rejeté de l'alliance {2} par {1}</lang>
+		<lang key="hr">Igrač {0} je izbačen iz saveza {2} od {1}</lang>
+		<lang key="pt">O jogador {0} foi removido da aliança {2} por {1}</lang>
+	</entry>
+
+	<entry key="LastTimeoutMessage">
+		<lang key="de">Spieler <span>{0}</span> gab den letzten Timeout und verlor.</lang>
+		<lang key="en">Player <span>{0}</span> gave the last timeout and lost.</lang>
+		<lang key="es">Jugador <span>{0}</span> dió el último timeout y perdió.</lang>
+		<lang key="fr">Le joueur <span>{0}</span> a donné son dernier temps-mort et a perdu.</lang>
+		<lang key="hr">Igrač <span>{0}</span> je dao zadnji timeout i izgubio.</lang>
+		<lang key="pt">Jogador <span>{0}</span> deu o último timeout e perdeu.</lang>
+	</entry>
+
+	<entry key="LeaveAllianceMessage">
+		<lang key="de">Spieler {0} hat die {1} Allianz verlassen!</lang>
+		<lang key="en">Player {0} abandoned the {1} alliance!</lang>
+		<lang key="es">El jugador {0} abandono la alianza {1}!</lang>
+		<lang key="fr">Le joueur {0} a abandonné l'alliance {1}.</lang>
+		<lang key="hr">Igrač {0} je napustio {1} savez!</lang>
+		<lang key="pt">O jogador {0} abandonou a aliança {1}!</lang>
+	</entry>
+
+	<entry key="LeaveMeAlone">
+		<lang key="de">Könntest du mich bitte in Frieden lassen?</lang>
+		<lang key="en">Could you please leave me alone?</lang>
+		<lang key="es">Puedes dejarme en paz?</lang>
+		<lang key="fr">Pourrais-tu me laisser tranquille S.V.P.?</lang>
+		<lang key="hr">Da li me možesš pustiti na miru?</lang>
+		<lang key="pt">Podes deixar-me em paz?</lang>
+		<lang key="se">Skulle du kunna vara så snäll och lämna mig ifred?</lang>
+	</entry>
+
+	<entry key="LoadTrades">
+		<lang key="de">Du hast geladen <b>{0}</b> zur Flotte <b>{1}</b>, auf dem Markt <b>{2}</b></lang>
+		<lang key="en">You load <b>{0}</b> to the fleet <b>{1}</b>, in the market <b>{2}</b></lang>
+		<lang key="es">Cargaste <b>{0}</b> a la flota <b>{1}</b> en el mercado <b>{2}</b></lang>
+		<lang key="fr">Vous chargez <b>{0}</b> à l'escadrille <b>{1}</b>, au marché <b>{2}</b></lang>
+		<lang key="hr">Utovario si <b>{0}</b> u flotu <b>{1}</b>, u marketu <b>{2}</b></lang>
+		<lang key="pt">Carregaste <b>{0}</b> para a carga da armada <b>{1}</b> no mercado <b>{2}</b></lang>
+	</entry>
+
+	<entry key="LostAllCargoMessage">
+		<lang key="de">Du hast die ganze Fracht der Flotte '{0}' verloren.</lang>
+		<lang key="en">You lost all the cargo of the fleet '{0}'.</lang>
+		<lang key="es">Perdiste toda la carga de la flota '{0}'.</lang>
+		<lang key="fr">Vous avez perdu la cargaison de l'escadrille '{0}'.</lang>
+		<lang key="hr">Izgubio si sav teret flote '{0}'.</lang>
+		<lang key="pt">Perdeste toda a carga da armada '{0}'.</lang>
+		<lang key="se">Du förlorade all din last till flottan '{0}'.</lang>
+	</entry>
+
+	<entry key="LostBattleMessage">
+		<lang key="de">Du wurdest in einer Schlacht geschlagen und hast {0} Punkte verloren. Siehe <a href="/Battle/Battle.aspx?id=%7B1%7D">here</a>.</lang>
+		<lang key="en">You were defeated in a battle and lost {0} points. Check it <a href="/Battle/Battle.aspx?id={1}">here</a>.</lang>
+		<lang key="es">Fuiste derrotado en una batalla y perdiste {0} puntos. Puedes verla <a href="/battle/battle.aspx?id={1}">aquí</a>.</lang>
+		<lang key="fr">Vous avez connu la défaite durant la bataille et perdu {0} points. À voir <a href="/Battle/Battle.aspx?id={1}">here</a>.</lang>
+		<lang key="hr">Poražen si u bitci i izgubio si {0} bodova. Pogledaj <a href="/Battle/Battle.aspx?id={1}">ovdje</a>.</lang>
+		<lang key="pt">Foste derrotado numa batalha e perdeste {0} pontos. Podes vê-la <a href="/Battle/Battle.aspx?id={1}">aqui</a>.</lang>
+		<lang key="se">Du slogs i ett fältslag och förlorade {0} poäng. Se fältslaget <a href="/Battle/Battle.aspx?id={0}">här</a>.</lang>
+	</entry>
+
+	<entry key="LostPlanetMessage">
+		<lang key="de">Planet auf Koordinate {0} ging in der Schlacht verloren.</lang>
+		<lang key="en">Planet at coordinate {0} was lost in battle.</lang>
+		<lang key="es">Planeta en la coordenada {0} fué perdido en batalla.</lang>
+		<lang key="fr">La planète aux cordonées {0} a été perdu durant le combat.</lang>
+		<lang key="hr">Planet na koordinatama '{0}' je izgubljen u bitci.</lang>
+		<lang key="pt">Planeta na coordenada {0} foi perdido em batalha.</lang>
+		<lang key="se">Planeten på koordinat '{0}' förlorades i fält.</lang>
+	</entry>
+
+	<entry key="LostPrincipalBattleMessage">
+		<lang key="de">Du wurdest in einer Schlacht geschlagen. Siehe <a href="/Battle/Battle.aspx?id=%7B0%7D">here</a>.</lang>
+		<lang key="en">You were defeated in a battle. Check it <a href="/Battle/Battle.aspx?id={0}">here</a>.</lang>
+		<lang key="es">Fuíste derrotado en una batalla. Puedes verla en <a href="/battle/battle.aspx?id={0}">aquí</a>.</lang>
+		<lang key="fr">Vous avez perdu durant le combat. À voir  <a href="/Battle/Battle.aspx?id={0}">here</a>.</lang>
+		<lang key="hr">Poražen si u bitci. Pogledaj <a href="/Battle/Battle.aspx?id={0}">ovdje</a>.</lang>
+		<lang key="pt">Foste derrotado numa batalha. Podes vê-la em <a href="/Battle/Battle.aspx?id={0}">aqui</a>.</lang>
+		<lang key="se">Du led nederlag i ett fältslag. Se hela fältslaget <a href="/Battle/Battle.aspx?id={0}">här</a>.</lang>
+	</entry>
+
+	<entry key="MerryChristmasAndHappyNewYear">
+		<lang key="de">Frohe Weinachten und ein fröhliches neues Jahr!</lang>
+		<lang key="en">Merry christmas and a happy new year!</lang>
+		<lang key="es">Feliz Navidad y feliz año nuevo!</lang>
+		<lang key="fr">Joyeux Noël et bonne année!</lang>
+		<lang key="hr">Čestit Božić i sretna nova godina!</lang>
+		<lang key="pt">Bom natal e feliz ano novo!</lang>
+		<lang key="se">God Jul och Gott Nytt År!</lang>
+	</entry>
+
+	<entry key="Messages">
+		<lang key="de">Nachrichten</lang>
+		<lang key="en">Messages</lang>
+		<lang key="fr">Messages</lang>
+		<lang key="hr">Poruke</lang>
+		<lang key="pt">Mensagens</lang>
+	</entry>
+
+	<entry key="MoveMessage">
+		<lang key="de"><span>{0}</span><span>{1}</span> wurde bewegt von Koordinate <span>{2}</span> zu Koordinate <span>{3}</span>.</lang>
+		<lang key="en"><span>{0}</span><span>{1}</span> were moved from coordinate <span>{2}</span> to coordinate <span>{3}</span>.</lang>
+		<lang key="es"><span>{0}</span><span>{1}</span> fueron movidas de la coordenada <span>{2}</span> para la coordenada<span>{3}</span>.</lang>
+		<lang key="fr"><span>{0}</span><span>{1}</span> ont été déplacés des coordonées <span>{2}</span> aux coordonées <span>{3}</span>.</lang>
+		<lang key="hr"><span>{0}</span><span>{1}</span> su pomaknuti sa koordinata <span>{2}</span> na koordinate  <span>{3}</span>.</lang>
+		<lang key="pt"><span>{0}</span><span>{1}</span> foram movidas da coordenada <span>{2}</span> para a coordenada<span>{3}</span>.</lang>
+	</entry>
+
+	<entry key="NecessityCreatedMessage">
+		<lang key="de">Spieler {0} kreierte ein Bedürfnis in den <a href="%7B1%7D">tasks</a> der Allianz</lang>
+		<lang key="en">Player {0} create a necessity in the alliance's <a href="{1}">tasks</a></lang>
+		<lang key="pt">O jogador {0} criou uma necessidade nas <a href="{1}">tarefas</a> da aliança</lang>
+	</entry>
+
+	<entry key="NewTournament">
+		<lang key="de"><a href="Tournaments.aspx">Das Turnier {0} wurde erschaffen und ist in der Registriegungsphase.</a></lang>
+		<lang key="en"><a href="Tournaments.aspx">The tournament {0} has been created and it's on registration stage.</a></lang>
+		<lang key="es"><a href="Tournaments.aspx">El torneo {0} fué creado y está em faze de registros.</a></lang>
+		<lang key="fr"><a href="Tournaments.aspx"> le Tournoi {0} a été créer et est au stade d'enregistrement.</a></lang>
+		<lang key="hr"><a href="Tournaments.aspx">Turnir {0} je stvoren i sada je u fazi registracije.</a></lang>
+		<lang key="pt"><a href="Tournaments.aspx">O torneio {0} foi criado e está em fase de registos.</a></lang>
+		<lang key="se"><a href="Tournaments.aspx">Turneringen {0} har skapats och den är i registrerings-fasen.</a></lang>
+	</entry>
+
+	<entry key="NewWormHoleFoundMessage">
+		<lang key="de">Du hast ein neues Wurmloch auf der Koordinate '{0}' gefunden. Das neue Wurmloch wurde zu der Liste deiner bereits bekannten Wurmlöcher hinzugefügt.</lang>
+		<lang key="en">You found a new Wormhole at coordinate '{0}'. The new wormhole was added to your list of known wormholes.</lang>
+		<lang key="es">Encontraste un novo WormHole en la coordenada '{0}'. El nuevo orificio WormHole fué adicionado a tu lista de WormHoles conocidos.</lang>
+		<lang key="fr">Vous avez trouvé un nouveau trou stellaire aux coordonées '{0}'. Ce dernier a été ajouté à la liste des trous stellaires que vous connaissez.</lang>
+		<lang key="hr">Pronašao si novu Crvotočinu na koordinatama '{0}'. Nova crvotočina je dodana na listu poznatih crvotočina.</lang>
+		<lang key="pt">Encontraste um novo WormHole na coordenada '{0}'. O novo buraco WormHole foi adicionado à tua lista de WormHoles conhecidos.</lang>
+		<lang key="se">Du hittade ett nytt Maskhål vid koordinaten '{0}'. Det nya Maskhålet har lagts till i din lista av kända Maskhål.</lang>
+	</entry>
+
+	<entry key="NoCargoToUnload">
+		<lang key="de">Flotte '{0}' hat keine Fracht zu entladen.</lang>
+		<lang key="en">Fleet '{0}' has no cargo to unload.</lang>
+		<lang key="fr">L'escadrille '{0}' n'a aucune cargaison à déposer.</lang>
+		<lang key="hr">Flota '{0}' nema tereta za istovar.</lang>
+		<lang key="pt">Armada '{0}' não tem carga para descarregar.</lang>
+	</entry>
+
+	<entry key="NonFriendlyIntroduction">
+		<lang key="de">Grüsse Schwächling! Ich bin hier um dich vom Universum auszulöschen! Fliehe solange du kannst in deine Privat-Zone, und bleibe dort!</lang>
+		<lang key="en">Greetings puny player. I'm here to erase you from the universe. Run away while you can to your private zone,
+  and stay there!</lang>
+		<lang key="es">Saludos Débil! Estoy aquí para eliminarte del universo! Arranca mientras puedes para tu zona privada
+  y mantente allá!</lang>
+		<lang key="fr">Bonjour joueur misérable. J'ai décidé de t'effacer de l'univers. Reste si tu le peux, ou cours jusqu'as ta zone privée pendant qu'il est encore temps...</lang>
+		<lang key="hr">Pozdrav mali igraču. Ovdje sam da te zbrišem iz svemira. Bježi dok možeš u svoju privatnu zonu, i ostani ondje.</lang>
+		<lang key="pt">Saudações fracote! Eu estou aqui para te eliminar do universo! Foge enquanto podes para a tua zona privada
+  e mantém-te por lá!</lang>
+		<lang key="se">Väl mött pyttelilla spelare. Jag är här för att radera dig från Universum. Spring till din privata zon medan du kan - och stanna där!</lang>
+	</entry>
+
+	<entry key="NotGonnaHappen">
+		<lang key="de">Das wird nicht passieren.</lang>
+		<lang key="en">That is not going to happen.</lang>
+		<lang key="es">Dudo mucho que eso suceda.</lang>
+		<lang key="fr">Cela n'arrivera pas.</lang>
+		<lang key="hr">To se neće dogoditi.</lang>
+		<lang key="pt">Duvido muito que isso aconteça.</lang>
+		<lang key="se">Det kommer inte att hända.</lang>
+	</entry>
+
+	<entry key="NotSoldMessage">
+		<lang key="de">Du hast <b>{0} {1}</b> nicht verkauft, was du im Auktionshaus gesetzt hast. Es kehr zurück in dein Besitz.</lang>
+		<lang key="en">You did not sold <b>{0} {1}</b> that you put in the auction house. It returns to your ownership.</lang>
+		<lang key="fr">Vous n'avez pas vendu <b>{0} {1}</b> que vous aviez mis dans la maison des enchères. Cela retourne en votre possession.</lang>
+		<lang key="hr">Nisi prodao  <b>{0} {1}</b> kojega si stavio u aukcijsku kuću. Vraćeno je u vaše vlasništvo.</lang>
+		<lang key="pt">Não vendeste <b>{0} {1}</b> que puseste na casa de leilões. Voltaram à tua posse.</lang>
+		<lang key="se">Du sålde inte <b>{0} {1}</b> som du satt ut på auktion. Objekten har återgetts till dig.</lang>
+	</entry>
+
+	<entry key="OtherChallenge">
+		<lang key="de">Eine andere Herausforderung?</lang>
+		<lang key="en">Other challenge?</lang>
+		<lang key="es">Otro desafio?</lang>
+		<lang key="fr">Autre Défi?</lang>
+		<lang key="hr">Drugi izazov?</lang>
+		<lang key="pt">Outro desafio?</lang>
+		<lang key="se">En annan utmaning?</lang>
+	</entry>
+
+	<entry key="OverbidMessage">
+		<lang key="de">Dein Angebot für <b>{0} {1}</b> wurde überboten</lang>
+		<lang key="en">Your bid at <b>{0} {1}</b> was overbid</lang>
+		<lang key="es">Tu licitación a <b>{0} {1}</b> fué sobrepasada</lang>
+		<lang key="fr">Votre enchère sur <b>{0} {1}</b> a été surenchérit</lang>
+		<lang key="hr">Vašas ponuda  <b>{0} {1}</b> je nadmašena</lang>
+		<lang key="pt">A tua licitação a <b>{0} {1}</b> foi ultrapassada</lang>
+	</entry>
+
+	<entry key="ParalysedDamageMessage">
+		<lang key="de">Einheit auf Koordinate <span>{0}</span> is paralysiert. <span>{1}</span> Runde(n) übrig.</lang>
+		<lang key="en">Unit at coordinate <span>{0}</span> is Paralysed. <span>{1}</span> turn(s) remaining.</lang>
+		<lang key="es">Unidad en la coordenada <span>{0}</span> está paralizada. Restán <span>{1}</span> turno(s).</lang>
+		<lang key="fr">L'unité aux coordonées <span>{0}</span> est paralysée. <span>{1}</span> tour(s) restants.</lang>
+		<lang key="hr">Jedinica na koordinatama <span>{0}</span> je Paralizirana. <span>{1}</span> turnova preostalo.</lang>
+		<lang key="pt">Unidade na coordenada <span>{0}</span> está paralizada. Restam <span>{1}</span> turno(s).</lang>
+	</entry>
+
+	<entry key="ParalysedEndedMessage">
+		<lang key="de">Einheit auf Koordinate <span>{0}</span> ist nicht mehr paralysiert.</lang>
+		<lang key="en">Unit at coordinate <span>{0}</span> is not Paralysed anymore.</lang>
+		<lang key="es">Unidad en la coordenada <span>{0}</span> dejo de estar paralizada.</lang>
+		<lang key="fr">L'unité aux coordonées <span>{0}</span> n'est plus paralysé.</lang>
+		<lang key="hr">Jedinica na koordinatama <span>{0}</span> nije više Paralizirana.</lang>
+		<lang key="pt">Unidade na coordenada <span>{0}</span> ´deixou de estar paralizada.</lang>
+	</entry>
+
+	<entry key="ParalysedTurnsLeftMessage">
+		<lang key="de">Notwendige Runden um das Paralysieren der Einheit zu beenden auf Koordinate <span>{0}</span>: <span>{1}</span> Runde(n).</lang>
+		<lang key="en">Turns remaing for the Paralyse to end on the unit at coordinate <span>{0}</span>: <span>{1}</span> turn(s).</lang>
+		<lang key="es">Turnos para que la paralización desaparezca de la unidad en la coordenada <span>{0}</span>: <span>{1}</span> turno(s).</lang>
+		<lang key="fr">Les tours restant pour que l'état de paralysie de l'unités aux coordonnées <span>{0}</span> termine est de <span>{1}</span> tour(s).</lang>
+		<lang key="hr">Turnovi preostali da Paraliza završi na koordinatama  <span>{0}</span>: <span>{1}</span> turn(ova).</lang>
+		<lang key="pt">Turnos para que a paralização desapareça da unidade na coordenada <span>{0}</span>: <span>{1}</span> turno(s).</lang>
+	</entry>
+
+	<entry key="ParalyseMessage">
+		<lang key="de">Einheit auf Koordinate <span>{0}</span> wurde paralysiert.</lang>
+		<lang key="en">Unit at coordinate <span>{0}</span> was Paralysed.</lang>
+		<lang key="es">Unidad en la coordenada <span>{0}</span> fue paralizada.</lang>
+		<lang key="fr">L'unité aux coordonées <span>{0}</span> était paralysé.</lang>
+		<lang key="hr">Jedinica na koordinatama <span>{0}</span> je Paralizirana.</lang>
+		<lang key="pt">Unidade na coordenada <span>{0}</span> foi paralizada.</lang>
+	</entry>
+
+	<entry key="PaymentMessage">
+		<lang key="de">Du hast <b>{0} Orions</b> erhalten für deine Bezahlung</lang>
+		<lang key="en">You received <b>{0} Orions</b> for you payment</lang>
+		<lang key="fr">Vous avez reçu <b>{0} Orions</b> comme paiement</lang>
+		<lang key="hr">Primio si <b>{0} Oriona</b> kao isplatu</lang>
+		<lang key="pt">Recebeste <b>{0} Orions</b> pelo teu pagamento</lang>
+	</entry>
+
+	<entry key="PenaltyMessage">
+		<lang key="de">Die Attacke hat eine Strafe erhalten <span>{0}</span>% wegen der Distanz (was <span>{1}</span>).</lang>
+		<lang key="en">The attack had a penalty of <span>{0}</span>% because of the distance (was <span>{1}</span>).</lang>
+		<lang key="es">El ataque tuve una penalidad de <span>{0}</span>% debido a la distancia (fué <span>{1}</span>).</lang>
+		<lang key="fr">L'attaque a eu une pénalité de <span>{0}</span>% car la distance. (était <span>{1}</span>.)</lang>
+		<lang key="hr">Ovaj napad je imao hendikep od  <span>{0}</span>% jer je udaljenost (bila <span>{1}</span>).</lang>
+		<lang key="pt">O atacque teve uma penalidade de <span>{0}</span>% devido à distância (foi <span>{1}</span>).</lang>
+	</entry>
+
+	<entry key="PlanetAttackedMessage">
+		<lang key="de">Planet '{0}' auf Koordinate '{1}' wurde attackiert von Spieler '{2}'!</lang>
+		<lang key="en">Planet '{0}' at coordinate '{1}' was attacked by player '{2}'!</lang>
+		<lang key="es">El Planeta '{0}' en la coordenada '{1}' fué atacado por el jugador '{2}'!</lang>
+		<lang key="fr">Planète '{0}' aux coordonnées '{1}' a été attaqué par le joueur '{2}'!</lang>
+		<lang key="hr">Planet '{0}' na koordinatama '{1}' je napadnut od igrača '{2}'!</lang>
+		<lang key="pt">O Planeta '{0}' na coordenada '{1}' foi atacado pelo jogador '{2}'!</lang>
+		<lang key="se">Planeten '{0}' vid koordinaten '{1}' attackerades av spelaren '{2}'!</lang>
+	</entry>
+
+	<entry key="PlanetBattleLostMessage">
+		<lang key="de">Schlacht auf Planet '{0}' wurde verloren.</lang>
+		<lang key="en">Battle at planet '{0}' was lost.</lang>
+		<lang key="es">Batalla en el planeta '{0}' fué perdida.</lang>
+		<lang key="fr">Le combat sur la planète '{0}' a été perdu.</lang>
+		<lang key="hr">Bitka na planetu '{0}' je izgubljena.</lang>
+		<lang key="pt">Batalha no planeta '{0}' foi perdida.</lang>
+		<lang key="se">Fältslaget vid planeten '{0}' förlorades.</lang>
+	</entry>
+
+	<entry key="PlanetDoesntHaveDefense">
+		<lang key="de">Flotte '{0}' fand keine Verteidigung vor auf Planet '{1}'.</lang>
+		<lang key="en">Fleet '{0}' didn't found any defense at planet '{1}'.</lang>
+		<lang key="es">La flota '{0}' no encontró ninguna defensa en el planeta '{1}'.</lang>
+		<lang key="fr">L'escadrille '{0}' a trouvé aucune défense sur la planète '{1}'.</lang>
+		<lang key="hr">Flota '{0}' nije pronašla nikakvu obranu na planetu '{1}'.</lang>
+		<lang key="pt">A armada '{0}' não encontrou nenhuma defesa no planeta '{1}'.</lang>
+		<lang key="se">Flottan '{0}' hittade inget försvar på planeten '{1}'.</lang>
+	</entry>
+
+	<entry key="PlanetInAttackCoolDown">
+		<lang key="de">Der Planet '{0}' kann nicht attackiert werden weil es momentan immun ist gegen Attacken.</lang>
+		<lang key="en">The planet '{0}' cannot be attacked because it's on an attack immunity.</lang>
+		<lang key="fr">La planète '{0}' ne peut pas être attaqué car elle est présentement sous immunité.</lang>
+		<lang key="hr">Planet '{0}' ne može biti napadnut jer ima imunitet na napade.</lang>
+		<lang key="pt">O planeta '{0}' não pode ser atacado porque está periodo de imunidade.</lang>
+		<lang key="se">Planeten '{0}' kan inte attackeras eftersom den är i period av immunitet.</lang>
+	</entry>
+
+	<entry key="PlanetInConquerCoolDown">
+		<lang key="de">Der Planet '{0}' kann nicht attackiert werden weil es momentan immun ist gegen Eroberung.</lang>
+		<lang key="en">The planet '{0}' cannot be attacked because it's on an conquer immunity.</lang>
+		<lang key="fr">La planète '{0}' ne peut pas être attaqué car elle est présentement sous immmunité.</lang>
+		<lang key="pt">O planeta '{0}' não pode ser atacado porque está periodo de imunidade.</lang>
+		<lang key="se">Planeten '{0}' kan inte attackeras eftersom den är i en period av immunitet mot erövringar.</lang>
+	</entry>
+
+	<entry key="PlayerIsToWeakMessage">
+		<lang key="de">Spieler '{0}' ist zu schwach um angegriffen zu werden. Du kannst nur Spieler mit Level {1} or drüber attackieren.</lang>
+		<lang key="en">Player '{0}' is to weak to be attacked. You can only attack players with level {1} or above.</lang>
+		<lang key="fr">Le joueur '{0}' est trop faible pour être attaqué. Vous pouvez seulement attaqué les joueurs ayant un niveau {1} ou plus haut.</lang>
+		<lang key="hr">Igrač '{0}' je preslab da bi bio napadnut. Možete samo napadati igrače sa nivoom {1} ili više.</lang>
+		<lang key="pt">Jogador '{0}' é demasiado fraco para ser atacado. Só podes atacar jogadores de nível {1} ou superior.</lang>
+	</entry>
+
+	<entry key="PlayerNewGameMedalMessage">
+		<lang key="de">Du hast die <u>{0}</u> Medaille erhalten.</lang>
+		<lang key="en">You have received the <u>{0}</u> medal</lang>
+		<lang key="es">Recibiste la medalla <u>{0}</u></lang>
+		<lang key="fr">Vous avez reçu la médaille <u>{0}</u></lang>
+		<lang key="hr">Primio si <u>{0}</u> medalju</lang>
+		<lang key="pt">Recebeste a medalha <u>{0}</u></lang>
+		<lang key="se">Du har fått medaljen <u>{0}</u></lang>
+	</entry>
+
+	<entry key="PlayerNewUserMedalMessage">
+		<lang key="de">Du hast die <u>{0}</u> Medaille erhalten von <u>{1}</u></lang>
+		<lang key="en">You have received the <u>{0}</u> medal from <u>{1}</u></lang>
+		<lang key="es">Recibiste la medalla <u>{0}</u> del jugador <u>{1}</u></lang>
+		<lang key="fr">Vous avez reçu la médaille <u>{0}</u> de <u>{1}</u></lang>
+		<lang key="hr">Primio si <u>{0}</u> medalju od <u>{1}</u></lang>
+		<lang key="pt">Recebeste a medalha <u>{0}</u> do jogador <u>{1}</u></lang>
+		<lang key="se">Du har fått medaljen <u>{0}</u> från <u>{1}</u></lang>
+	</entry>
+
+	<entry key="PrincipalNewGameMedalMessage">
+		<lang key="de">Du hast die <u>{0}</u> Medaille erhalten.</lang>
+		<lang key="en">You have received the <u>{0}</u> medal</lang>
+		<lang key="es">Recibiste la medalla <u>{0}</u></lang>
+		<lang key="fr">Vous avez reçu la médaille <u>{0}</u></lang>
+		<lang key="hr">Primio si <u>{0}</u> medalju</lang>
+		<lang key="pt">Recebeste a medalha <u>{0}</u></lang>
+	</entry>
+
+	<entry key="PrincipalNewUserMedalMessage">
+		<lang key="de">Du hast die <u>{0}</u> Medaille erhalten von <u>{1}</u></lang>
+		<lang key="en">You have received the <u>{0}</u> medal from <u>{1}</u></lang>
+		<lang key="es">Recibiste la medalla <u>{0}</u> del jugador <u>{1}</u></lang>
+		<lang key="fr">Vous avez reçu la médaille <u>{0}</u> de <u>{1}</u></lang>
+		<lang key="hr">Primio si <u>{0}</u> medalju od <u>{1}</u></lang>
+		<lang key="pt">Recebeste a medalha <u>{0}</u> do jogador <u>{1}</u></lang>
+		<lang key="se">Du har fått medaljen <u>{0}</u> från <u>{1}</u></lang>
+	</entry>
+
+	<entry key="PrizeGiven">
+		<lang key="de">Die Prämie von {0} Orions wurde dem Spieler {1} erfolgreich überreicht.</lang>
+		<lang key="en">The prize of {0} Orions was given to player {1} successfully</lang>
+		<lang key="es">El premio de {0} Orions fué entregado al jugador {1} con éxito.</lang>
+		<lang key="fr">La récompense de {0} a été donné au joueur {1} avec succès</lang>
+		<lang key="hr">Nagrada od  {0} Oriona je dana igraču {1} uspješno</lang>
+		<lang key="pt">O prémio de {0} Orions foi dado ao jogador {1} com sucesso.</lang>
+	</entry>
+
+	<entry key="PrizeMessage">
+		<lang key="de">Du hast eine Prämie erhalten von <b>{0} Orions</b></lang>
+		<lang key="en">You received a prize of <b>{0} Orions</b></lang>
+		<lang key="fr">Vous avez reçu une récompense de <b>{0} Orions</b></lang>
+		<lang key="hr">Primio si nagradu od <b>{0} Oriona</b></lang>
+		<lang key="pt">Recebeste um prémio de <b>{0} Orions</b></lang>
+	</entry>
+
+	<entry key="PromotionMessage">
+		<lang key="de">Du hast eine Prämie von <b>{0} Orions</b> erhalten, wegen der Beförderung <u>{1}</u></lang>
+		<lang key="en">You received a prize of <b>{0} Orions</b> in the promotion <u>{1}</u></lang>
+		<lang key="pt">Recebeste um prémio de <b>{0} Orions</b> na promoção <u>{1}</u></lang>
+	</entry>
+
+	<entry key="PursuitCanceledMessage">
+		<lang key="de">Die Flotte '{0}' hat die Verfolgung aufgegeben. Ziel ist zu weit weg.</lang>
+		<lang key="en">The fleet '{0}' canceled it's pursuit. Target is to far away.</lang>
+		<lang key="es">La flota '{0}' canceló la persecusión. El blanco está demasiado distante.</lang>
+		<lang key="fr">L'escadrille '{0}' a arrêté la poursuite. La cible est rendu trop loin.</lang>
+		<lang key="hr">Flota '{0}' je otkazala potjeru. Meta je predaleko.</lang>
+		<lang key="pt">A armada '{0}' cancelou a perseguição. O alvo está demasiado distante.</lang>
+		<lang key="se">Flottan '{0}' avbröt sin jakt. Målet är för långt borta.</lang>
+	</entry>
+
+	<entry key="ReboundMessage">
+		<lang key="de">Rückschlaf der vorigen Attacke machte <span>{0}</span> einen Schaden der <span>{1}</span><span>{2}</span> zerstörte.</lang>
+		<lang key="en">Rebound of the previous attack made <span>{0}</span> of damage that destroyed <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="es">Rebote del ataque anterior hizo <span>{0}</span> de daño que destruyó <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="fr">Le rebond de l'attaque précéente a fait <span>{0}</span> dégâts qui a détruit <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="hr">Rebound prethodnog napada je napravio <span>{0}</span> štete koja je uništila <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="pt">Ricochete do ataque anterior fez <span>{0}</span> de dano que destruiu <span>{1}</span><span>{2}</span>.</lang>
+	</entry>
+
+	<entry key="ReferralPrizeMessage">
+		<lang key="de">Du erhälst <b>{0} Orions</b> als Prämie für Empfehlungen</lang>
+		<lang key="en">You received  <b>{0} Orions</b> as prize for referrals</lang>
+		<lang key="fr">vous avez reçu <b>{0} Orions</b> en tant que récompenses pour vos références à d'autres joueurs.</lang>
+		<lang key="pt">Recebeste <b>{0} Orions</b> como prémio por referências</lang>
+		<lang key="se">Du tog emot <b>{0} Orions</b> som en belöning för rekommendationer</lang>
+	</entry>
+
+	<entry key="RelicAttackedMessage">
+		<lang key="de">Relikt auf der Koordinate '{0}'wurde attackiert von Spieler '{1}'!</lang>
+		<lang key="en">Relic at coordinate '{0}' was attacked by player '{1}'!</lang>
+		<lang key="fr">La relique aux coordonnées '{0}' a été attaqué par le joueur '{1}'!</lang>
+		<lang key="hr">Relikvija na koordinatama '{0}' je napadnuta od igrača '{1}'!</lang>
+		<lang key="pt">Relíquia na coordenada '{0}' foi atacada pelo jogador '{1}'!</lang>
+	</entry>
+
+	<entry key="RelicCannotAttackNoAlliance">
+		<lang key="de">Du kannst das Relikt auf Koordinate '{0}' nicht angreifen weil du nicht in der Allianz bist.</lang>
+		<lang key="en">Cannot attack Relic at coordinate '{0}' because you're not in a Alliance.</lang>
+		<lang key="fr">Ne peut attaquer la relique aux coordonées '{0}' car vous ne faites pas partie d'une alliance.</lang>
+		<lang key="hr">Ne možete napasti relikviju na koordinatama '{0}' jer niste u Savezu.</lang>
+		<lang key="pt">Não podes atacar a Relíquia na coordenada '{0}' porque não estás em nenhuma Aliança.</lang>
+		<lang key="se">Kan inte attackera Relik vid koordinaten '{0}' eftersom du inte är medlem i en Allians.</lang>
+	</entry>
+
+	<entry key="RelicCannotConquerNoAlliance">
+		<lang key="de">Du kannst das Relikt nicht erobern auf Koordinate '{0}' weil du nicht in der Allianz bist.</lang>
+		<lang key="en">Cannot conquer the Relic at coordinate '{0}' because you are not in a Alliance.</lang>
+		<lang key="fr">Vous ne pouvez pas conquérir la relique situé aux coordonnées '{0}' car vous ne faites pas partie de l'alliance.</lang>
+		<lang key="hr">Ne možete pokoriti Relikviju na koordinatama '{0}' jer niste u Savezu.</lang>
+		<lang key="pt">Não podes conquistar a Relíquia na coordenada '{0}' porque não estás em nenhuma Aliança.</lang>
+		<lang key="se">Kan inte erövra Reliken vid koordinaten '{0}' eftersom du inte är i en Allians.</lang>
+	</entry>
+
+	<entry key="RelicConqueredMessage">
+		<lang key="de">Du hast ein Relikt erobert auf Koordinate '{0}'.</lang>
+		<lang key="en">You conquered a Relic at coordinate '{0}'.</lang>
+		<lang key="fr">Vous avez conquis la relique aux coordonnées '{0}'.</lang>
+		<lang key="hr">Pokorili ste Relikviju na koordinatama '{0}'.</lang>
+		<lang key="pt">Conquistaste uma Relíquia na coordenada '{0}'.</lang>
+		<lang key="se">Du erövrade en Relik vid koordinaten '{0}'.</lang>
+	</entry>
+
+	<entry key="RelicDoesntHaveDefense">
+		<lang key="de">Flotte '{0}' fand keine Verteidigung des Relikts vor auf Koordinate'{1}'.</lang>
+		<lang key="en">Fleet '{0}' didn't found any defense at relic in coordinate'{1}'.</lang>
+		<lang key="fr">L'escadrille '{0}' a trouvé aucune défense sur la relique aux coordonnées '{1}'.</lang>
+		<lang key="hr">Flota '{0}' nije pronašla obranu na relikviji na koordinatama '{1}'.</lang>
+		<lang key="pt">A armada '{0}' não encontrou nenhuma defesa na relíquia na coordenada '{1}'.</lang>
+	</entry>
+
+	<entry key="RelicInAttackCoolDown">
+		<lang key="de">Das Relikt '{0}' kann nicht attackiert werden weil es momentan immun ist gegen Attacken.</lang>
+		<lang key="en">The relic at coordinate '{0}' cannot be attacked because it's on an attack immunity.</lang>
+		<lang key="fr">La relique aux coordonnées '{0}' ne peut pas être attaqué car elle est présentement sous immunité.</lang>
+		<lang key="pt">A relíquia na coordenada '{0}' não pode ser atacada por está com imunidade.</lang>
+	</entry>
+
+	<entry key="RelicIncomeReceived">
+		<lang key="de">Deine Allianz hat <u>{2} {1}</u> erhalten von {3} Reliquien! Nach der Aufteilung zwischen allen Mitgliedern hast du <u>{0} {1}</u> erhalten!</lang>
+		<lang key="en">Your alliance have received <u>{2} {1}</u> from {3} relics! After splitting it by all members you received <u>{0} {1}</u>!</lang>
+		<lang key="fr">Votre alliance a reçu <u>{2} {1}</u> provenat de {3} reliques! Après la division entre tout les membres, vous avez reçu <u>{0} {1}</u>!</lang>
+		<lang key="hr">Vaš savez je primio <u>{2} {1}</u> od {3} relikvije! Nakon podjele sa članovima saveza primio si  <u>{0} {1}</u>!</lang>
+		<lang key="pt">A tua aliança recebeu <u>{2} {1}</u> de {3} relíquias! Depois da divisão por todos os membros da aliança, calhou-te <u>{0} {1}</u>!</lang>
+	</entry>
+
+	<entry key="RelicInConquerCoolDown">
+		<lang key="de">Das Relikt auf Koordinate '{0}' kann nicht erobert werden weil es auf momentan immun ist gegen Eroberung.</lang>
+		<lang key="en">The relic at coordinate '{0}' cannot be conquered because it's on an conquer immunity.</lang>
+		<lang key="fr">La relique aux coordonnées '{0}' ne peut pas être conquise car elle est présentement sous immunité.</lang>
+		<lang key="pt">A relíquia na coordenada '{0}' não pode ser conquistada por está com imunidade.</lang>
+	</entry>
+
+	<entry key="RelicLostMessage">
+		<lang key="de">Das Relikt auf Koordinate '{0}' wurde in der Schlacht verloren.</lang>
+		<lang key="en">The Relic at coordinate '{0}' was lost in battle.</lang>
+		<lang key="fr">La relique aux coordonées '{0} a été perdu suite à un combat.</lang>
+		<lang key="hr">Relikvija na koordinatama '{0}' je izgubljena u bitci.</lang>
+		<lang key="pt">A Relíquia na coordenada '{0}' foi perdida em batalha.</lang>
+		<lang key="se">Reliken vid koordinaten '{0}' förlorades i fält.</lang>
+	</entry>
+
+	<entry key="RelicStolenMessage">
+		<lang key="de">Das Relikt auf der Koordinate '{0}' wurde gestohlen von Spieler '{1}'.</lang>
+		<lang key="en">The Relic at coordinate '{0}' was stolen by player '{1}'.</lang>
+		<lang key="fr">La relique aux coordonées '{0}' a été volé par le joueur {1}'.</lang>
+		<lang key="hr">Relikvija na koordinatama '{0}' je ukradena od igrača '{1}'.</lang>
+		<lang key="pt">A Relíquia na coordenada '{0}' foi roubada pelo jogador '{1}'.</lang>
+	</entry>
+
+	<entry key="RemoveAbilityMessage">
+		<lang key="de">Einheit auf Koordinate <span>{0}</span> verlor all ihre Fähigkeiten.</lang>
+		<lang key="en">Unit at coordinate <span>{0}</span> lost all abilities.</lang>
+		<lang key="es">Unidad en la coordenada <span>{0}</span> perdió todas las habilidades.</lang>
+		<lang key="fr">L'unités aux coordonées <span>{0}</span> a perdu toutes se habiletés.</lang>
+		<lang key="hr">Jedinica na koordinatama <span>{0}</span> je izgubila sve sposobnosti.</lang>
+		<lang key="pt">Unidade na coordenada <span>{0}</span> perdeu todas as habilidades.</lang>
+	</entry>
+
+	<entry key="ReplicatorMessage">
+		<lang key="de">Replikator Attacke zwang die Einheit <span>{0}</span> sich <span>{1}</span> Male zu replizieren.</lang>
+		<lang key="en">Replicator attack made the unit <span>{0}</span> replicate <span>{1}</span> times.</lang>
+		<lang key="es">Ataque replicador hizo a la unidad <span>{0}</span> replicarse <span>{1}</span> veces.</lang>
+		<lang key="fr">L'attaque réplications à permis à l'unité <span>{0}</span> de se répliquer <span>{1}</span> fois.</lang>
+		<lang key="hr">Napad Replikatora je napravio jedinicu <span>{0}</span>  das se replicira <span>{1}</span> puta.</lang>
+		<lang key="pt">Ataque replicador fez a unidade <span>{0}</span> replicar-se <span>{1}</span> vezes.</lang>
+	</entry>
+
+	<entry key="ResourcesStolenMessage">
+		<lang key="de">Spieler '{0}' hat dir folgende Ressourcen vom Planeten gestohlen '{1}' ({2}): {3}.</lang>
+		<lang key="en">Player '{0}' has stolen fom you the following resources from planet '{1}' ({2}): {3}.</lang>
+		<lang key="es">El Jugador '{0}' te robo los siguientes recursos del planeta '{1}' ({2}): {3}.</lang>
+		<lang key="fr">Le joueur '{0}' vous a volé les ressources suivantes de la planète '{1}' ({2}): {3}.</lang>
+		<lang key="hr">Igrač '{0}'je ukrao od vas sljeće resurse na planeti '{1}' ({2}): {3}.</lang>
+		<lang key="pt">O Jogador '{0}' roubou-te os seguintes recursos do planeta '{1}' ({2}): {3}.</lang>
+		<lang key="se">Spelare '{0}' har stulit följande resurser från planeten '{1}' ({2}): {3}.</lang>
+	</entry>
+
+	<entry key="RotationMessage">
+		<lang key="de">Einheit auf der Koordinate <span>{0}</span> machte eine '<span>{1}</span>' Rotation.</lang>
+		<lang key="en">Unit at coordinate <span>{0}</span> made a '<span>{1}</span>' rotation.</lang>
+		<lang key="es">Unidad en la coordenada <span>{0}</span> hizo una rotación '<span>{1}</span>'.</lang>
+		<lang key="fr">L'unité aux coordonées <span>{0}</span> a fait une rotation '<span>{1}</span>'</lang>
+		<lang key="hr">Jedinica na koordinatama <span>{0}</span> je napravila '<span>{1}</span>' rotaciju.</lang>
+		<lang key="pt">Unidade na coordenada <span>{0}</span> fez uma rotação '<span>{1}</span>'.</lang>
+	</entry>
+
+	<entry key="SamePrincipalAttackMessage">
+		<lang key="de">Du kannst diesen Spieler nicht angreifen weil Spieler '{0}' in deinem Besitz ist.</lang>
+		<lang key="en">Cannot attack because player '{0}' is owned by you.</lang>
+		<lang key="pt">Não podes atacar o jogador '{0}' porque é detido por ti.</lang>
+	</entry>
+
+	<entry key="ScanFleetMessage">
+		<lang key="de">Deine Flotten wurden von einem Spieler lokalisiert</lang>
+		<lang key="en">Your fleets were localized by a player</lang>
+		<lang key="fr">Vos escadrilles ont été localisés par un autre joueur</lang>
+		<lang key="hr">Tvoje flote su lokalizirane od igrača</lang>
+		<lang key="pt">As tuas armadas foram localizadas por um jogador</lang>
+	</entry>
+
+	<entry key="ScanPlanetMessage">
+		<lang key="de">Deine Planeten wurden von einem Spieler lokalisiert</lang>
+		<lang key="en">Your planets were localized by a player</lang>
+		<lang key="fr">Vos planètes ont été localisés par un autre joueur.</lang>
+		<lang key="hr">Vaši planeti su lokalizirani od igrača</lang>
+		<lang key="pt">Os teus planetas foram localizados por um jogador</lang>
+		<lang key="se">Dina planeter hittades av en spelare</lang>
+	</entry>
+
+	<entry key="SellerMessage">
+		<lang key="de">Du hast in dem Auktionhaus verkauft <b>{0} {1}</b> für <b>{2}</b></lang>
+		<lang key="en">You sold in the auction house <b>{0} {1}</b> for <b>{2}</b></lang>
+		<lang key="es">Vendiste en la casa de remates <b>{0} {1}</b> por <b>{2}</b></lang>
+		<lang key="fr">Vous avez vendu dans la maison des enchères <b>{0} {1}</b> pour <b>{2}</b></lang>
+		<lang key="hr">Prodao si u aukcijskoj kući <b>{0} {1}</b> za <b>{2}</b></lang>
+		<lang key="pt">Vendeste na casa de leilões <b>{0} {1}</b> por <b>{2}</b></lang>
+	</entry>
+
+	<entry key="StartBattleMessage">
+		<lang key="de">Du hast eine Schlacht angefangen mit Spieler '{0}'.</lang>
+		<lang key="en">You started a battle with player '{0}'.</lang>
+		<lang key="es">Comenzaste una batalla con el jugador '{0}'.</lang>
+		<lang key="fr">Vous avez commencez un combat avec le joueur '{0}'.</lang>
+		<lang key="hr">Počeo si bitku sa igračem '{0}'.</lang>
+		<lang key="pt">Começaste uma batalha com o jogador '{0}'.</lang>
+		<lang key="se">Du startade ett fältslag med spelaren '{0}'.</lang>
+	</entry>
+
+	<entry key="StolenResourcesMessage">
+		<lang key="de">Du hast folgende Ressourcen vom Spieler '{0}': {1} gestohlen.</lang>
+		<lang key="en">You stole the following resources of the player '{0}': {1}.</lang>
+		<lang key="es">Robaste los siguientes recursos al jugador '{0}': {1}.</lang>
+		<lang key="fr">Vous avez volé les ressources suivane au joueur '{0}': {1}.</lang>
+		<lang key="hr">Ukrao si sljeće resurse od igrača '{0}': {1}.</lang>
+		<lang key="pt">Roubaste os seguintes recursos ao jogador '{0}': {1}.</lang>
+		<lang key="se">Du stal följande resurser från spelare '{0}': {1}.</lang>
+	</entry>
+
+	<entry key="StrikeBackMessage">
+		<lang key="de">Einheit <span>{0}</span> hat zurückgeschlagen.</lang>
+		<lang key="en">Unit <span>{0}</span> striked back.</lang>
+		<lang key="es">Unidad <span>{0}</span> contra atacó.</lang>
+		<lang key="fr">L'unité <span>{0}</span> contre-attaque.</lang>
+		<lang key="hr">Jedinica <span>{0}</span> je uzvratila napad.</lang>
+		<lang key="pt">Unidade <span>{0}</span> contra-atacou.</lang>
+	</entry>
+
+	<entry key="SweetRaid">
+		<lang key="de">Süsse Plünderung! Wenn du mir weiterhin Ressourcen lieferst, dann lass ich dich vielleicht eines Tages gehen. Oder auch nicht...</lang>
+		<lang key="en">Sweet raid! Keep providing me with resources and I may let you go some day. Or not...</lang>
+		<lang key="es">Dulce Saqueo! Continua dandome recursos y puede ser que un día te deje en paz. O no...</lang>
+		<lang key="fr">Excellent pillage! Continue a me procurer des ressources et je te laisserai un jour tranquille. Ou peut-^être pas...</lang>
+		<lang key="hr">Slatka pljačka. Nastavi me opskbljivati s resursima i možda ću te pustiti jednog dana. Ili možda ne...</lang>
+		<lang key="pt">Doce pilhagem! Continua a dar-me recursos e pode ser que um dia te deixe em paz. Ou não...</lang>
+		<lang key="se">Underbara Plundring! Fortsätt ge mig resurser och jag kanske låter dig gå någon dag. Eller inte...</lang>
+	</entry>
+
+	<entry key="TaskCreatedMessage">
+		<lang key="de">Spieler {0} erstellte eine Aufgabe in den <a href="%7B1%7D">tasks</a> der Allianz</lang>
+		<lang key="en">Player {0} create a task in the alliance's <a href="{1}">tasks</a></lang>
+		<lang key="pt">O jogador {0} criou uma tarefa nas <a href="{1}">tarefas</a> da aliança</lang>
+	</entry>
+
+	<entry key="TeamAbandom">
+		<lang key="de">Der Spieler <b>{0}</b> hat dein Team verlassen</lang>
+		<lang key="en">The player <b>{0}</b> abandom your team</lang>
+		<lang key="fr">Le joueur <b>{0}</b> a abandonné votre équipe</lang>
+		<lang key="pt">O jogador <b>{0}</b> abandonou a tua equipa</lang>
+		<lang key="se">Spelaran <b>{0}</b> överger ditt lag.</lang>
+	</entry>
+
+	<entry key="ThankYou">
+		<lang key="de">Danke!</lang>
+		<lang key="en">Thank You!</lang>
+		<lang key="es">Gracias!</lang>
+		<lang key="fr">Merci!</lang>
+		<lang key="hr">Hvala ti!</lang>
+		<lang key="pt">Obrigado!</lang>
+		<lang key="se">Tack!</lang>
+	</entry>
+
+	<entry key="TimeoutMessage">
+		<lang key="de">Spieler <span>{0}</span> gab einen Timeout.</lang>
+		<lang key="en">Player <span>{0}</span> gave a timeout.</lang>
+		<lang key="es">Jugador <span>{0}</span> dió un timeout.</lang>
+		<lang key="fr">Le joueur <span>{0}</span> a donné un temps-mort</lang>
+		<lang key="hr">Igrač <span>{0}</span> je odustao.</lang>
+		<lang key="pt">Jogador <span>{0}</span> deu um timeout.</lang>
+	</entry>
+
+	<entry key="TournamentAdvanced">
+		<lang key="de"><a href="Tournaments.aspx">Das Turnier '{0}' ist zur nächsten Stufe ubergegangen.</a></lang>
+		<lang key="en"><a href="Tournaments.aspx">The tournament '{0}' advanced to the next stage.</a></lang>
+		<lang key="es"><a href="Tournaments.aspx">El torneo '{0}' avanzó para la faze siguiente.</a></lang>
+		<lang key="fr"><a href="Tournaments.aspx">Le tournoi '{0}' a procédé à la prochaine étape.</a></lang>
+		<lang key="hr"><a href="Tournaments.aspx">Trunir '{0}' je napredovao na sljedeću razinu.</a></lang>
+		<lang key="pt"><a href="Tournaments.aspx">O torneio '{0}' avançou para a fase seguinte.</a></lang>
+		<lang key="se"><a href="Tournaments.aspx">Turneringen '{0}' har gått framåt till nästa steg.</a></lang>
+	</entry>
+
+	<entry key="TournamentStarts">
+		<lang key="de"><a href="Tournaments.aspx">Das Turnier {0} hat begonnen.</a></lang>
+		<lang key="en"><a href="Tournaments.aspx">The tournament {0} starts.</a></lang>
+		<lang key="es"><a href="Tournaments.aspx">El torneo {0} comenzó.</a></lang>
+		<lang key="fr"><a href="Tournaments.aspx"> Le tournoi {0} commence.</a></lang>
+		<lang key="hr"><a href="Tournaments.aspx">Turnir {0} počinje.</a></lang>
+		<lang key="pt"><a href="Tournaments.aspx">O torneio {0} começou.</a></lang>
+		<lang key="se"><a href="Tournaments.aspx">Turneringen {0} startar.</a></lang>
+	</entry>
+
+	<entry key="TournamentWarning">
+		<lang key="de"><a href="Tournaments.aspx">Das Turnier {0} startet in {1}.</a></lang>
+		<lang key="en"><a href="Tournaments.aspx">The tournament {0} will start in {1}.</a></lang>
+		<lang key="es"><a href="Tournaments.aspx">El torneo {0} va a comenzar en {1}.</a></lang>
+		<lang key="fr"><a href="Tournaments.aspx"> Le tournoi {0} commence dans {1}.</a></lang>
+		<lang key="hr"><a href="Tournaments.aspx">Turnir {0} će početi za  {1}.</a></lang>
+		<lang key="pt"><a href="Tournaments.aspx">O torneio {0} vai começar a {1}.</a></lang>
+		<lang key="se"><a href="Tournaments.aspx">Turneringen {0} kommer att starta om {1}.</a></lang>
+	</entry>
+
+	<entry key="TripleAttackLeftMessage">
+		<lang key="de">Dreifach-Angriff machte <span>{0}</span> einen Schaden auf der linken Seite der <span>{1}</span><span>{2}</span> zerstörte.</lang>
+		<lang key="en">Triple Attack attack made <span>{0}</span> of damage to the left that destroyed <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="es">Ataque triple hizo <span>{0}</span> de daño al lado izquierdo que destruyó <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="fr">L'attaque triple a fait <span>{0}</span> dégâts à la gauche et a détruit  <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="hr">Trostruki napad je napravio <span>{0}</span> štete nalijevo i uništio <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="pt">Ataque triplo fez <span>{0}</span> de dano ao lado esquerdo que destruiu <span>{1}</span><span>{2}</span>.</lang>
+	</entry>
+
+	<entry key="TripleAttackRightMessage">
+		<lang key="de">Dreifach-Angriff machte <span>{0}</span> einen Schaden auf der rechten Seite der <span>{1}</span><span>{2}</span> zerstörte.</lang>
+		<lang key="en">Triple Attack attack made <span>{0}</span> of damage to the right that destroyed <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="es">Ataque triple hizo <span>{0}</span> de daño al lado direcho que destruyó <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="fr">L'attaque triple a fait <span>{0}</span> dégâts à la droite et a détruit  <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="hr">Trostruki napad je napravio <span>{0}</span> štete na desno i uništio <span>{1}</span><span>{2}</span>.</lang>
+		<lang key="pt">Ataque triplo fez <span>{0}</span> de dano ao lado direito que destruiu <span>{1}</span><span>{2}</span>.</lang>
+	</entry>
+
+	<entry key="UnloadTrades">
+		<lang key="de">Du hast Ressourcen entladen von der Flotte <b>{0}</b> auf dem Markt <b>{1}</b></lang>
+		<lang key="en">You unload resources from the fleet <b>{0}</b> into the market <b>{1}</b></lang>
+		<lang key="es">Descargaste recursos de la flota <b>{0}</b> para el mercado <b>{1}</b></lang>
+		<lang key="fr">Vous avez déposés les ressources de l'escadrille <b>{0}</b> au marché <b>{1}</b></lang>
+		<lang key="hr">Istovaro si reusrse iz flote <b>{0}</b> u market <b>{1}</b></lang>
+		<lang key="pt">Descarregaste recursos da armada <b>{0}</b> para o mercado <b>{1}</b></lang>
+	</entry>
+
+	<entry key="WarningMessage">
+		<lang key="de">Du bist in einer Untersuchung, weil der Verdacht besteht dass du multiple Benutzer hast.
+  Für eine Aufklärung kannst du <a href="Contact.aspx"> uns kontaktieren</a>.</lang>
+		<lang key="en">You are under investigation on suspicion of having multiple users.
+  For any clarification you can <a href="Contact.aspx">contact us</a>.</lang>
+		<lang key="es">Tu usuario está en investigación sobre sospecha que tiene varios usuarios. 
+    Para cualquier duda puedes <a href="Contact.aspx">contactarnos</a>.</lang>
+		<lang key="fr">Vous êtes sous surveillance car vous êtes suspecté d'utiliser plusieurs comptes. Pour les clarifications vous pouvez <a href="Contact.aspx">contact us</a>.</lang>
+		<lang key="hr">Pod sumnjom ste da imate višestruke korisnike. 
+ Za bilo kakvo objašnjenj možete <a href="Contact.aspx">nas kontaktirati</a>.</lang>
+		<lang key="pt">O teu utilizador está sobre investigação sobre suspeita de teres vários utilizadores. 
+    Para algum esclarecimento podes <a href="Contact.aspx">contactar-nos</a>.</lang>
+		<lang key="se">Du är misstänkt för att använda dig av flera användare. För att klargöra situationen får du gärna <a href="Contact.aspx">kontakta oss</a>.</lang>
+	</entry>
+
+	<entry key="WelcomeToTheGame">
+		<lang key="de"><p>Willkomen zu <b>Orion`s Belt</b>! In diesem Moment bist du allein in deiner <a href="Manual.aspx?path=Universe/PrivateZone.aspx">Privat-Zone</a> mit einem Planeten in deinem Besitz und vier weitere die zu besiedeln sind. Wenn du bereit bist, kannst du durch das Wurmloch reisen um in die <a href="Manual.aspx?path=Universe/HotZone.aspx">Öffentliche Zone</a> zu gelangen und mit anderen Spielern zu interagieren . Vergiss nicht die Ressourcen einzufangen die du im Universum vorfinden wirst!
+  </p><p>
+ Die beste Art das Spiel zu starten ist die <a href="Quests/Default.aspx">Missionen</a> zu folgen die zur Verfügung stehen. Am Anfang sind diese Missionen sehr einfach und das Ziel ist es dir zu zeigen wie man spielt. </p><p>
+Du kannst auch die <a href="Manual.aspx">Anleitung</a> konsultieren, das <a href="Forum.aspx">Forum</a> benutzen, oder den letzten Neuigkeiten folgen auf <a href="Blog.aspx">Blog</a>.</p></lang>
+		<lang key="en"><p>Welcome to <b>Orion`s Belt</b>! At this moment you are alone on your <a href="Manual.aspx?path=Universe/PrivateZone.aspx">Private Zone</a> with
+  only one planet. But you have four more planets to colonize. When you're ready, you'll also be able
+  to use a Worm Hole to travel to the <a href="Manual.aspx?path=Universe/HotZone.aspx">HotZone</a>, where you'll
+  be able to interact with other players. Don't forget to grab all the resources you find!
+  </p><p>
+  The best way to start playing is just to follow the available <a href="Quests/Default.aspx">Quests</a>.
+  The first quests are very easy and will teach you how to play.
+  </p><p>
+  You can also check out the <a href="Manual.aspx">Manual</a>, use the <a href="Forum.aspx">Forum</a>,
+  or follow the latest game news at our <a href="Blog.aspx">Blog</a>.</p></lang>
+		<lang key="es"><p>Bienvenido a <b>Orion`s Belt</b>! En este momento estás solo en tu <a href="Manual.aspx?path=Universe/PrivateZone.aspx">Zona Privada</a> con
+  un planeta en tu poder y otros cuatro planetas para colonizar. Cuando lo hagas puedes usar un túnel
+  para ir para a la <a href="Manual.aspx?path=Universe/HotZone.aspx">Zona Pública</a> e interactuar con otros jugadores. No te olvides
+  de ir tomando los recursos que vas encontrando por el universo!
+  </p><p>
+  La mejor forma de comenzar a jugar es seguir las <a href="Quests/Default.aspx">Misiones</a> Disponibles. Comienzan por ser muy
+  simples y tienen el objetivo de guiarte mientras aprendes a jugar.
+  </p><p>
+  También pudes consultar el <a href="Manual.aspx">Manual</a>, usar el <a href="Forum.aspx">Foro</a>, o seguir las últimas 
+  novedades del juego en nuestro <a href="Blog.aspx">Blog</a>.</p></lang>
+		<lang key="fr"><p>Bienvenue sur <b>Orion`s Belt</b>! En ce moment, vous êtes seul sur votre <a href="Manual.aspx?path=Universe/PrivateZone.aspx">Private Zone</a> avec une seule planète. mais vous avez 4 autres planètes a coloniser. Quand vous êtes prêt, vous serez aussi capable d'utiliser un trou stellaire pour voyager jusqu'à la <a href="Manual.aspx?path=Universe/HotZone.aspx">HotZone</a>, où vous pourrez interagir avec d'autres joueurs. N'oubliez pas de ramasser les ressources que vous pourrez trouver!
+ </p><p>
+La meilleurs façon de commencer à jouerest simplement de terminer les <a href="Quests/Default.aspx">Quests</a> disponibles. Les première qu^tes permettant d'apprendre à jouer.
+</p><p>
+Vous pouvez aussi vérifier sur le <a href="Manual.aspx">Manual</a>,, utiliser le <a href="Forum.aspx">Forum</a>, ou constater les nouveautés du jeu avec le 
+<a href="Blog.aspx">Blog</a>.</p></lang>
+		<lang key="hr"><p>Dobrodošli u <b>Orionov Pojas</b>! U ovome trenutku vi ste sam u vašoj 
+ <a href="Manual.aspx?path=Universe/PrivateZone.aspx">Private Zone</a> sa samo jednim    
+ planetom. Ali imate  još 4 četiri planeta za kolonizirati. Kada ste spremni, vi ćete također 
+ moći upotrijebiti crvotočinu da putujete u  
+ <a href="Manual.aspx?path=Universe/HotZone.aspx">HotZone</a>, gdje ćete moći da  
+ interaktirate s drugim igrčima. 
+ Nemojte zaboraviti zgrabiti sve resurse koje možete naći!
+ </p><p>
+ Najbolji način da počnete igrati je da slijedite dostupne    
+ <a href="Quests/Default.aspx">Quests</a>. 
+ Prvi su jako   jednostavni i naučiti će vas kako da igrate.
+ </p><p>
+ Također možete provjeriti <a href="Manual.aspx">Manual</a>, koristite se 
+ <a href="Forum.aspx">Forum</a>, ili slijedite zadnje vijesti iz igre na 
+ <a href="Blog.aspx">Blog</a>.</p></lang>
+		<lang key="pt"><p>Bem-vindo ao <b>Orion`s Belt</b>! Neste momento estás sozinho na tua <a href="Manual.aspx?path=Universe/PrivateZone.aspx">Zona Privada</a> com
+  um planeta na tua posse e mais quatro planetas para colonizar. Quando o fizeres podes usar um túnel
+  para ir para a <a href="Manual.aspx?path=Universe/HotZone.aspx">Zona Pública</a> e interagir com outros jogadores. Não te esqueças
+  de ir apanhando os recursos que vais encontrando pelo universo!
+  </p><p>
+  A melhor forma de começar a jogar é seguir as <a href="Quests/Default.aspx">Missões</a> disponíveis. Começam por ser muito
+  simples e têm o objectivo de te guiar enquanto aprendes a jogar.
+  </p><p>
+  Também podes consultar o <a href="Manual.aspx">Manual</a>, usar o <a href="Forum.aspx">Fórum</a>, ou seguir as últimas 
+  novidades do jogo no nosso <a href="Blog.aspx">Blog</a>.</p></lang>
+		<lang key="se">Välkommen till <b>Orions' Belt</b>! För närvarande är du ensam i din <a href="Manual.aspx?path=Universe/PrivateZone.aspx">Privata Zon</a> med endast en planet. Men du har ytterligare fyra planeter att kolonisera. När du är klar med detta kan du också börja interagera med andra spelare. Glöm inte att plocka upp alla Resurser som du kan hitta!
+<p />
+Det bästa sättet att börja spela är att genomföra de tillgängliga <a href="Quests/Default.aspx">Uppdragen</a>. De första Uppdragen är väldigt lätta och kommer att lära dig hur du spelar spelet.
+<p />
+Du kan också ta en titt i <a href="Manual.aspx">Manualen</a>, använda <a href="Forum.aspx">Forumet</a>, eller följa de senaste spelnyheterna på vår <a href="Blog.aspx">Blogg</a>.</lang>
+	</entry>
+
+	<entry key="WinBattleMessage">
+		<lang key="de">Du hast eine Schlacht gewonnen und {0} Punkte erhalten. Siehe <a href="/Battle/Battle.aspx?id={1}">here</a>.</lang>
+		<lang key="en">You won a battle and gain {0} points. Check it <a href="/Battle/Battle.aspx?id={1}">here</a>.</lang>
+		<lang key="es">Venciste una batalla donde ganaste {0} puntos. Puedes verla <a href="/battle/battle.aspx?id={1}">aquí</a>.</lang>
+		<lang key="fr">Vous avez gagnez le combat et obtenu {0} points. À voir <a href="/Battle/Battle.aspx?id={1}">here</a>.</lang>
+		<lang key="hr">Pobjedio si u bitci i dobio {0} bodova. Pogledaj <a href="/Battle/Battle.aspx?id={1}">ovdje</a>.</lang>
+		<lang key="pt">Venceste uma batalha onde ganhaste {0} pontos. Podes vê-la <a href="/Battle/Battle.aspx?id={1}">aqui</a>.</lang>
+		<lang key="se">Du har vunnit ett fältslag och fått {0} poäng. Kolla igenom fältslaget <a href="/Battle/Battle.aspx?id={1}">här</a>.</lang>
+	</entry>
+
+	<entry key="WinPrincipalBattleMessage">
+		<lang key="de">Du hast eine Schlacht gewonnen. Siehe <a href="/Battle/Battle.aspx?id={0}">here</a>.</lang>
+		<lang key="en">You won a battle. Check it <a href="/Battle/Battle.aspx?id={0}">here</a>.</lang>
+		<lang key="es">Venciste una batalla. Puedes verla <a href="/battle/battle.aspx?id={0}">aquí</a>.</lang>
+		<lang key="fr">Vous avez gagné un combat. À voir <a href="/Battle/Battle.aspx?id={0}">here</a>.</lang>
+		<lang key="hr">Dobio si bitku. Provjeri je na <a href="/Battle/Battle.aspx?id={0}">ovdje</a>.</lang>
+		<lang key="pt">Venceste uma batalha. Podes vê-la <a href="/Battle/Battle.aspx?id={0}">aqui</a>.</lang>
+		<lang key="se">Du har vunnit fältslaget. Du kan se hela fältslaget <a href="/Battle/Battle.aspx?id={0}">här</a>.</lang>
+	</entry>
+
+	<entry key="WormHoleTravelMessage">
+		<lang key="de">Die Flotte '{0}' is durch ein Wurmloch geflogen. Die Flotte ist jetzt auf Koordinate '{1}'</lang>
+		<lang key="en">The fleet '{0}' traveled through a WormHole. It's now at coordinate '{1}'</lang>
+		<lang key="es">La flota  '{0}' viajó por un WormHole. Está ahora en la coordenada  '{1}'.</lang>
+		<lang key="fr">L'escadrille '{0}' a utilisé le trou stellaire. Elle est maintenent aux coordonées '{1}'</lang>
+		<lang key="hr">Flota '{0}' je putovala kroz Crvotočinu. Sada je na koordinatama '{1}'</lang>
+		<lang key="pt">A armada  '{0}' viajou por um WormHole. Está agora na coordenada  '{1}'.</lang>
+		<lang key="se">Flottan '{0}' färdades genom Maskhålet. Den är nu vid koordinaten '{1}'.</lang>
+	</entry>
+
+	<entry key="WormHoleUltimateRefund">
+		<lang key="de">Wurmloch konnte nicht erzeugt werden. Ressourcen wurden zurückgegeben.</lang>
+		<lang key="en">WormHole could not be created. Resources were returned.</lang>
+		<lang key="es">No fué posíble crear el Túnel Espacial. Los Recursos fueron devueltos.</lang>
+		<lang key="fr">Le trou stellaire n'a pas ou etre créer, les ressources sont récupérés.</lang>
+		<lang key="hr">Crvotočina nije mogla biti stvorena. Resursi su vraćeni.</lang>
+		<lang key="pt">Não foi possível criar o Túnel Espacial. Os Recursos foram devolvidos.</lang>
+		<lang key="se">Maskhål kunde inte skapas. Resurserna återbördades.</lang>
+	</entry>
+
+	<entry key="YouAbandom">
+		<lang key="de">Du hast das Team <b>{0}</b> verlassen</lang>
+		<lang key="en">You abandoned the team <b>{0}</b></lang>
+		<lang key="fr">Vous avez abandonné l'équipe <b>{0}</b></lang>
+		<lang key="pt">Tu abandonaste a equipa <b>{0}</b></lang>
+		<lang key="se">Du överger laget <b>{0}</b></lang>
+	</entry>
+
+	<entry key="YouHaveATargetOnYourHead">
+		<lang key="de">Du hast eine Zielscheibe auf dein Kopf gesetzt! Ich werde dich kriegen!</lang>
+		<lang key="en">You have a target on your head! I'm out to get you!</lang>
+		<lang key="es">Tienes un blanco en tu cabeza! Estoy detrás de ti!</lang>
+		<lang key="fr">Ta tête est mise à prix, je viens te chercher!</lang>
+		<lang key="hr">Imate ucjenjenu glavu! Tražim vas!</lang>
+		<lang key="pt">Tens um alvo na tua testa! Ando atrás de ti!</lang>
+		<lang key="se">Du har ett en röd punkt i din panna! Jag kommer och tar dig!</lang>
+	</entry>
+
+</resources>

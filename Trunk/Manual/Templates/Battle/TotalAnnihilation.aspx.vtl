@@ -1,0 +1,17 @@
+<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/$locale/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	$utils.Localize("TotalAnnihilation")
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="conceptMenu" runat="server">
+	$utils.GetBattleConceptsMenu()
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1>$utils.Localize("TotalAnnihilation")</h1>
+	$utils.Localize("TotalAnnihilationContent")
+	<img class="block" src="http://resources.orionsbelt.eu/Images/Common/Units/Perspective/Vector.png" />
+	
+</asp:Content>

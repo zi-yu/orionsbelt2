@@ -1,0 +1,17 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ContentPageMaster.master.cs" Inherits="WebUserInterface.ContentPageMaster" MasterPageFile="~/MainMaster.Master" %>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+    <div id='contentDialog'>
+        <div id='contentDialogTop'>
+            <asp:ContentPlaceHolder ID="mainHeader" runat="server">
+                <InstitutionalUI:Title ID="Title1" runat="server" />
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id='contentDialogMiddle'>
+            <div id='contentDialogMiddleContent'>
+            <asp:ContentPlaceHolder ID="contentPageContent" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id='contentDialogBottom'></div>
+    </div>
+</asp:Content> 

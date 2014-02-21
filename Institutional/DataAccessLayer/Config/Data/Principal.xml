@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection>
+  <Principal Id="1" Name="psantos" RawRoles="admin"  Email="psantos@zi-yu.com" Password="6F250D1B944FB97A334F372BD77D3E119FE49EC4" />
+  <Principal Id="2" Name="nunos" RawRoles="admin" Email="nunos@zi-yu.com" Password="9266A1DC680D7C19228E02BC5FE5E30A37E51F08" />
+  <Principal Id="3" Name="tsousa" RawRoles="admin" Email="tsousa@zi-yu.com" Password="BD24519D8A96788DE2732CD918FED8D5B293410B" />
+</Collection>

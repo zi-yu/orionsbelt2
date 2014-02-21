@@ -1,0 +1,5 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/OrionsBeltTournament.Master" Inherits="OrionsBelt.WebUserInterface.Campaigns.Campaign" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Content" runat="server">
+   <asp:ContentPlaceHolder ID="Content" runat="server" />
+</asp:Content>

@@ -1,0 +1,6 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/OrionsBeltUniverse.Master" Inherits="OrionsBelt.WebUserInterface.Tops" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+    <OrionsBeltUI:TopsMenu runat="server"></OrionsBeltUI:TopsMenu>    
+    <asp:ContentPlaceHolder ID="Content" runat="server" />
+</asp:Content>

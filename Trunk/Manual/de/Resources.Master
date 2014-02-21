@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/Manual.Master" %>
+
+<asp:Content ContentPlaceHolderID="topTitle" runat="server">
+	<asp:ContentPlaceHolder ID="topTitle" runat="server">
+		Orion's Belt Anleitung
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	<asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="menu" runat="server">
+	<h2>Menü</h2>
+	<ul>
+        <li><a href="/de/Default.aspx">Beginn</a></li>
+        <li><a href="/de/Race/Races.aspx">Rassen</a></li>
+        <li><a href="/de/Universe/Default.aspx">Universum</a></li>
+        <li><a href="/de/Commerce/Default.aspx">Kommerz</a></li>
+        <li><a href="/de/Quests.aspx">Missionen</a></li>
+        <li><a href="/de/API.aspx">API und Nützliches</a></li>
+    </ul>
+	<h2>Schlachten</h2>
+	<ul>
+		<li><a href="/de/Battles/WarZone.aspx">Kriegs-Zone</a></li>
+        <li><a href="/de/Battles/BattleConcepts.aspx">Kampf-Konzepte</a></li>
+        <li><a href="/de/Battles/BattleTactics.aspx">Kampf-Taktiken</a></li>
+    </ul>
+	<h2>Ressourcen</h2>
+	<ul>
+		<li><a href="/de/UnitIndex.aspx">Einheiten</a></li>
+		<li><a href="/de/MobsIndex.aspx">Mobs</a></li>
+		<li><a href="/de/FacilityIndex.aspx">Gebäude</a></li>
+		<li><a href="/de/IntrinsicIndex.aspx">Spezifisch</a></li>
+	</ul>
+	<asp:ContentPlaceHolder ID="menu" runat="server">
+		</asp:ContentPlaceHolder>
+	
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<div id="rightMenu">
+		<asp:ContentPlaceHolder ID="conceptMenu" runat="server">
+		</asp:ContentPlaceHolder>
+    </div>
+
+    <asp:ContentPlaceHolder ID="content" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type='text/javascript'>window.unitTips = {Attack:'Angriff',Defense:'Verteidigung',MovementCost:'Bewegungskosten',Range:'Reichweite',Bozer:{Name:'Bozer'},CommanderFox:{Name:'Kommander Fox'},HiveProtector:{Name:'Bienenstock Beschützer'},Doomer:{Name:'Doomer'},Cypher:{Name:'Cypher'},Stinger:{Name:'Stachel'},CaptainWolf:{Name:'Kapitän Wolf'},Destroyer:{Name:'Zerstörer'},Myst:{Name:'Myst'},Scarab:{Name:'Skarabäus'},Toxic:{Name:'Toxisch'},Fist:{Name:'Faust'},Flag:{Name:'Flagge'},DarkTaurus:{Name:'Dunkler Taurus'},Egg:{Name:'Ei'},Jumper:{Name:'Springer'},BattleMoon:{Name:'Mond-Schlacht'},MetallicBeard:{Name:'Metallischer Bart'},DarkCrusader:{Name:'Dunkler Kreuzfahrer'},Scourge:{Name:'Scourge'},Crawler:{Name:'Kriecher'},Rain:{Name:'Regen'},Samurai:{Name:'Samurai'},Panther:{Name:'Panther'},Queen:{Name:'Königin'},DarkRain:{Name:'Dunkler Regen'},Worm:{Name:'Wurm'},Taurus:{Name:'Taurus'},Kamikaze:{Name:'Kamikaze'},Pretorian:{Name:'Praetorian'},Seeker:{Name:'Sucher'},Nova:{Name:'Nova'},Maggot:{Name:'Made'},BlackWidow:{Name:'Schwarze Witwe'},Crusader:{Name:'Kreuzfahrer'},Anubis:{Name:'Anubis'},HiveKing:{Name:'Bienenstock König'},Kahuna:{Name:'Kahuna'},Driller:{Name:'Bohrer'},Eagle:{Name:'Adler'},Blinker:{Name:'Blinker'},Sentry:{Name:'Sentry'},Vector:{Name:'Vektor'},Walker:{Name:'Walker'},Titan:{Name:'Titan'},SilverBeard:{Name:'Silberbart'},Fenix:{Name:'Fenix'},Interceptor:{Name:'Abfangjäger'},Reaper:{Name:'Reaper'},Raptor:{Name:'Raptor'},Spider:{Name:'Spinne'},Krill:{Name:'Krill'},HeavySeeker:{Name:'Mega Sucher'}};</script>
+
+	<script type="text/javascript">var disqus_iframe_css = "http://manual.orionsbelt.eu/Style/Style.css";</script>
+	<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/orionsbeltmanual/embed.js"></script><noscript><a href="http://orionsbeltmanual.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	<script type="text/javascript">
+	//<![CDATA[
+	(function() {
+			var links = document.getElementsByTagName('a');
+			var query = '?';
+			for(var i = 0; i < links.length; i++) {
+				if(links[i].href.indexOf('#disqus_thread') >= 0) {
+					query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+				}
+			}
+			document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/orionsbeltmanual/get_num_replies.js' + query + '">'+'<'+'/' + 'script>');
+		})();
+	//]]>
+	</script>
+
+
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="footer" runat="server">
+	Bitte hilf uns die Anleitung zu verbessern! Wenn du irgendwelche Fehler findest oder bereit bist zusätzliche Information beizusteuern bitte benutze unsere
+  <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> e-mail
+</asp:Content>

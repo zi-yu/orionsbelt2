@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="HeavyDescription">
+		<lang key="de"><h1>Heavy Einheiten</h1><div class="content">
+    [Heavy] Einheiten sind die stärksten Einheiten von allen. Sie sind die [CombatUnits] die am 
+    mächtigsten sind, sowohl im Angriff, als auch in der Verteidigung, sie werden nur limitiert durch 
+    die [Movement] und [MovCost]. [Heavy] Einheiten sind auch bekannt wegen ihrer grossen 
+    [Range].
+    <p>
+    Natürlich haben wir [CombatUnits] die [Heavy] Einheiten sind und die nicht genau diesem Schema 
+    folgen. Zum Beispiel den [Doomer],
+    Die [BlackWidow] und der [Taurus] haben nur eine [Range] von 3, aber sie werden 
+    kompensiert mit zusätzlicher Freiheit an [Movement], oder extra Kräfte.
+    </p><p>
+    [Heavy] Einheiten müssen extra aufpassen auf [Rain] und [DarkRain], weil sie einen 
+    speziellen Angriffs-Bonus haben..
+    </p><p>
+    Liste der [Heavy] Einheiten:
+  </p></div></lang>
+		<lang key="en"><h1>Heavy Units</h1><div class="content">
+    [Heavy] units are the strongest of them all. They usualy have a huge [Range] and attack power. However,
+    they are limited in [Movement] and [MovCost].
+    <p />
+    Not all [Heavy] units follow this pattern. For example: [Doomer], [BlackWidow] and [Taurus] only have a
+    [Range] of 3, but they are compensated with aditional [Movement] liberty, or extra powers.
+    <p />
+    [Heavy] units should specially fear the [Rain] and the [DarkRain], because they both have damage bonus
+    against [Heavy] units.
+    <p />
+    [Heavy] units:
+  </div></lang>
+		<lang key="es"><h1>Unidades de Gran Porte</h1><div class="content">
+    Las unidades [Heavy] simbolizan poder de ataque. Son las [CombatUnits] mas poderosas, ya sea en ataque, o
+    en defensa, siendo solamente limitadas por el tipo de [Movement] y [MovCost]. Las unidades  [Heavy] también
+    son conocidas por su largo [Range].
+    <p />
+    Naturalmente tenemos [CombatUnits] de [Heavy] que no siguén exactamente este padrón. Por ejemplo la [Doomer],
+    la [BlackWidow] y el [Taurus] sólo tienen 3 de [Range], pero son compensados por mas libertad de [Movement],
+    o poder extra.
+    <p />
+    Las unidades [Heavy] tienen que tener especial atención a la [Rain] y a la [DarkRain], que tienen  bonos especiales de ataque.
+    <p />
+    Lista de unidades de [Heavy]:
+  </div></lang>
+		<lang key="hr"><h1>Teške Jedinice</h1><div class="content">
+[Heavy] jedinice su najjače od sviju. Uobičajeno imaju ogroman [Range] i napadačku snagu. Ali one su ograničene u [Movement] i [MovCost].
+<p />
+Ne slijede sve jedinice ovaj obrazac. Na primjer: [Doomer], [BlackWidow] i [Taurus] imaju samo domet od 3, ali su kompenzirane dodatnom slobodom [Movement], ili dodatnim moćima.
+<p />
+[Heavy] jedinice se trebaju bojati [Rain] i [DarkRain], jer obje imaju bonus štetu protiv [Heavy] jedinica.
+ <p />
+[Heavy] jedinice:
+</div></lang>
+		<lang key="pt"><h1>Unidades de Grande Porte</h1><div class="content">
+    As unidades de [Heavy] simbolizam o poder de ataque. São as [CombatUnits] mais poderosas, quer em ataque, quer
+    em defesa, sendo somente limitadas pelo tipo de [Movement] e [MovCost]. As unidades de [Heavy] também
+    são conhecidas pelo seu longo [Range].
+    <p />
+    Naturalmente temos [CombatUnits] de [Heavy] que não seguem exactamente este padrão. Por exemplo a [Doomer],
+    a [BlackWidow] e o [Taurus] só têm 3 de [Range], mas são compensados por mais liberdade de [Movement],
+    ou por poder extra.
+    <p />
+    As unidades de [Heavy] têm de ter especial atenção à [Rain] e à [DarkRain], que têm bónus especial de ataque.
+    <p />
+    Lista de unidades de [Heavy]:
+  </div></lang>
+		<lang key="ro"><h1>Unităţile Grele</h1><div class="content">
+    Unităţile [Heavy] sunt cele mai puternice dintre toate. De obicei, ele au o [Range] mare precum şi putere de atac.
+    Oricum, ele sunt limitate în [Movement] şi [MovCost].
+    <p />
+    Nu toate unităţile [Heavy] urmează acest model. De exemplu: [Doomer], [BlackWidow] şi [Taurus]
+    au numai o [Range] de 3, dar acestea sunt compensate cu libertate suplimentară de [Movement],
+    puteri extra.
+    <p />
+    Unităţile [Heavy] ar trebui să se teamă în special de [Rain] şi de [DarkRain], pentru că ambele au bonus de daune împotriva unităţilor [Heavy].
+    <p />
+    Unităţile [Heavy]:
+    </div></lang>
+	</entry>
+
+	<entry key="LightDescription">
+		<lang key="de"><h1>Light Einheiten</h1><div class="content">
+    [Light] Einheiten sind dafür bekannt dass sie die schnellsten aber auch die schwächsten im Spiel   
+    sind. Normalerweise, hat eine [Light] Einheit
+    [MovAll] und [MovCost] von 1, und sind günstiger als [Medium] und [Heavy] [Kampfeinheiten].
+    <p>
+    Jede ausgewogene [Flotte] hat einen substantiellen Anteil von [Light] Einheinten, hauptsächlich 
+    weil sie nötig sind als [DispensableUnits], eine der meistbenutzten [BattleTactics] in [OB].
+    </p><p>
+    Aber [Light] Einheiten sind nicht die einzigen die geopfert werden. Sie sind sehr mächtige 
+    Einheiten die ganz leicht jede grössere Einheit niederschlagen kann.
+    </p><p>
+    [Light] Einheiten:
+  </p></div></lang>
+		<lang key="en"><h1>Light Units</h1><div class="content">
+    [Light] units are known to be the fastest and also que weakests of the game. Tipicaly, a [Light] unit
+    has [MovAll] and [MovCost] of 1, and they are cheaper than [Medium] and [Heavy] [CombatUnits].
+    <p />
+    Any balanced [Fleet] has a substantial percentage of [Light] units, mainly because they're
+    necessary as [DispensableUnits], one of the most used [BattleTactics] in [OB].
+    <p />
+    But [Light] units aren't there only to be sacrificed. There're very powerful units that can easily
+    strike down any bigger unit.
+    <p />
+    [Light] units:
+  </div></lang>
+		<lang key="es"><h1>Unidades de Porte Pequeño </h1><div class="content">
+    Las unidades de [Light] son categorizadas como las mas rápidas y mas frágiles del juego. Una unidad de
+    [Light] típica tiene [MovAll] y [MovCost] de 1, mas allá de ser mas barata que las [CombatUnits] de [Medium]
+    y [Heavy].
+    <p />
+    Cualquier [Fleet] equilibrada tiene un porcentaje sustancial de unidades de [Light], esto porque ellas son
+    indispensables como [DispensableUnits], una de las [BattleTactics] mas usadas en el [OB].
+    <p />
+    Pero las unidades de [Light] no son usadas solamente para ser sacrificadas. Existen unidades muy poderosas
+    que imponem respeto a unidades de mayor envergadura.
+    <p />
+    Lista de unidades de [Light]:
+  </div></lang>
+		<lang key="hr"><h1>Lagane Jedinice</h1><div class="content">
+[Light] jednice su najbrže i najslabije u igri. Tipično, [Light] jedinica ima [MovAll] i [MovCost] of 1, i jeftinije su od [Medium] i [Heavy] [CombatUnits].
+<p />
+Svaka balansirana [Fleet] ima značajan postotak [Light] jedinica, uglavno zato što su potrebne kao [DispensableUnits], jedna od najčešće upotrebljavanih [BattleTactics] u [OB].
+<p />
+Ali [Light] jedinice nisu tu samo da bi bile žrtvovane. One su jako jake jedinice koje mogu lako napast bilo koju veću jedinicu.
+<p />
+[Light] units:
+</div></lang>
+		<lang key="pt"><h1>Unidades de Pequeno Porte</h1><div class="content">
+    As unidades de [Light] são categorizadas por serem as mais rápidas e mais frágeis do jogo. Uma unidade de
+    [Light] típica tem [MovAll] e [MovCost] de 1, além de ser mais barata que as [CombatUnits] de [Medium]
+    e [Heavy].
+    <p />
+    Qualquer [Fleet] equilibrada tem uma percentagem substancial de unidades de [Light], isto porque elas são
+    indispensáveis como [DispensableUnits], uma das [BattleTactics] mais usadas no [OB].
+    <p />
+    Mas as unidades de [Light] não são usadas somente para serem sacrificadas. Há unidades muito poderosas
+    que impõem respeito a unidades de maior envergadura.
+    <p />
+    Lista de unidades de [Light]:
+  </div></lang>
+		<lang key="ro"><h1>Unităţile Uşoare</h1><div class="content">
+    Unităţile [Light] sunt cunoscute ca fiind cele mai rapide şi de asemenea ca cele mia slabe din joc. O unitate [Light] are [MovAll] şi [MovCost] de 1, şi sunt mai ieftine decât [Medium] şi [Heavy] [CombatUnits].
+    <p />
+    Orice [Fleet] echilibrată are un procent substanţial din unităţile [Light], în principal pentru că sunt necesare ca [DispensableUnits], una dintre cele mai folosite [BattleTactics] în [OB].
+    <p />
+    Dar unităţile [Light] nu sunt acolo doar pentru a fi sacrificate. Sunt unităţi foarte puternice care pot uşor doborî orice unitate mai mare. 
+    <p />
+    Unităţile [Light]:
+    </div></lang>
+	</entry>
+
+	<entry key="MediumDescription">
+		<lang key="de"><h1>Medium Einheiten</h1><div class="content">
+    [Medium] Einheiten sind dafür bekannt dass sie die ausgewogensten im Spiel sind. Sie sind nicht die 
+    schnellsten, aber auch nicht die langsamsten. Sie sind nicht die stärksten, aber auch nicht die 
+    schwächsten. Diese Ausgeglichenheit von Freiheit an [Bewegungen] macht [Medium] Einheiten zum Herz 
+    jeder [Flotte].
+    <p>
+    [Medium] Einheiten mögen zwar schwächer sein als[Heavy] Einheiten, aber die extra Mobilität 
+    und Hilfe von [DispensableUnits] macht sie zu Gewinnern. Als natürlich Feinde, sollten [Medium] 
+    Einheiten die [Kamikaze] und die [Seeker] vermeiden.
+    </p><p>
+    [Medium] Einheiten:
+  </p></div></lang>
+		<lang key="en"><h1>Medium Units</h1><div class="content">
+    [Medium] units are known for being the most balanced ones on the game. They aren't the fastest, nor are
+    they the slowest. They aren't the strongest, but they aren't the weakest. This balance of force and liberty
+    of [Movement] makes [Medium] units the heart of any [Fleet].
+    <p />
+    [Medium] units may be weaker thatn [Heavy] units, but may times the extra mobility with some help from
+    [DispensableUnits] turns them into winners. As natural enemies, [Medium] units should avoid the
+    [Kamikaze] and the [Seeker].
+    <p />
+    [Medium] units:
+  </div></lang>
+		<lang key="es"><h1>Unidades de Porte Médio </h1><div class="content">
+    Las unidades de [Medium] son categorizadas como las mas equilibradas del juego. No son las mas rápidas,
+    ni las mas lentas, no son las mas fortes ni las mas debiles. Este equilíbrio de fuerza y libertad de 
+    [Movement] hacen  que con las unidades  [Medium] seán el corazón de cualquier [Fleet].
+    <p />
+    A pesar de ser mas debiles que las unidades [Heavy], muchas veces su mobilidad extra, aliada a alguna
+    [DispensableUnits] hacen que sean mejor llevadas. Como enemigas naturales, las unidades [Medium] deven tener 
+    especial atención a las [Kamikaze] y a los [Seeker].
+    <p />
+    Lista de unidades  [Medium]:
+  </div></lang>
+		<lang key="hr"><h1>Srednje Jedinice</h1><div class="content">
+[Medium] su najbalansiranije jedinice u igri. Nisu najbrže niti su najsporije. Nisu najjače ali nisu ni najslabije. Balans snage i slobode [Movement] čini [Medium] jedinice srcem svake [Fleet].
+<p />
+[Medium] mogu biti slabije nego [Heavy] jedinice, ali mnogo puta ekstra mobilnost sa malom pomoći [DispensableUnits] pretvara ih u pobjednike. Kao prirodne neprijatelje, [Medium] jedinice bi trebale izbjeći [Kamikaze] i [Seeker].
+<p />
+[Medium] jedinice:
+</div></lang>
+		<lang key="pt"><h1>Unidades de Médio Porte</h1><div class="content">
+    As unidades de [Medium] são categorizadas por serem as mais equilibradas do jogo. Não são as mais rápidas,
+    nem as mais lentas, não são as mais fortes nem as mais fracas. Este equilíbrio de força e liberdade de 
+    [Movement] faz com que as unidades de [Medium] sejam o coração de qualquer [Fleet].
+    <p />
+    Apesar de mais fracas que as unidades de [Heavy], muitas vezes a sua mobilidade extra, aliada a alguma
+    [DispensableUnits] faz com que levem a melhor. Como inimigas naturais, as unidades de [Medium] têm de
+    ter especial atenção à [Kamikaze] e ao [Seeker].
+    <p />
+    Lista de unidades de [Medium]:
+  </div></lang>
+		<lang key="ro"><h1>Unităţile Medii</h1><div class="content">
+    Unităţile [Medium] sunt cunoscute pentru faptul că sunt cele mai echilibrate din joc.
+    Ele nu sunt cele mai rapide, dar nici cele mai lente. Ele nu sunt cele mai puternice, dar nici cele mai slabe. Acest echilibru de forţă şi libertate de [Movement] face unităţile [Medium] să fie inima oricărei [Fleet].
+    <p />
+    Unităţile [Medium] poate fi mai slabe decât unităţile [Heavy], dar pot obţine extra mobilitate cu ajutor de la [DispensableUnits] pe care le transformă în câştigători. Ca duşmani naturali, unităţile [Medium] ar trebui să evite [Kamikaze] şi [Seeker].
+    <p />
+    Unităţile [Medium]:
+   </div></lang>
+	</entry>
+
+	<entry key="SpecialDescription">
+		<lang key="de"><h1>Spezialeinheiten</h1><div class="content">
+    Eine [Spezial] Einheit wird normalerweise für bestimmte Zwecke benutzt. Sie können auf Planeten gebaut werden und sind nur verfügbar in bestimmten Spiel-Typen.
+    <p>
+    Spezialeinheiten Liste:
+  </p></div></lang>
+		<lang key="en"><h1>Special Units</h1><div class="content">
+    A [Special] unit is usually used for very specific purposes. They can't be built on planets and are only
+    available on certain game types.
+    <p />
+    Special unit list:
+  </div></lang>
+		<lang key="es"><h1>Unidades Especiales</h1><div class="content">
+    Una unidad [Special] es una unidad usada para fines muy específicos. Normalmente no pueden ser construídas,
+    y sólo están Disponibles en algunoes tipos de juegos.
+    <p />
+    Lista de unidades de especiais:
+  </div></lang>
+		<lang key="hr"><h1>Specijalne Jedinice</h1><div class="content">
+[Special] jedinica je uobičajeno korištena za jako specifipčnu svrhu. One ne mogu biti građene na planetu i dostupne su samo za neke tipove igre.
+<p />
+Special unit list:
+</div></lang>
+		<lang key="pt"><h1>Unidades Especiais</h1><div class="content">
+    Uma unidade [Special] é uma unidade usada para fins muito específicos. Normalmente não podem ser construídas,
+    e só estão disponíveis em tipos de jogos.
+    <p />
+    Lista de unidades de especiais:
+  </div></lang>
+		<lang key="ro"><h1>Unităţile Speciale</h1><div class="content">
+    O unitate [Special] este de obicei utilizată pentru scopuri specifice.
+    Ele nu pot fi construite pe planete şi sunt disponibile numai în anumite tipuri de joc.
+    <p />
+    Lista Unităţilor Speciale:
+    </div></lang>
+	</entry>
+
+	<entry key="UltimateDescription">
+		<lang key="de"><h1>Ultimate Einheiten</h1><div class="content">
+    [Ultimate] Einheiten sind die mächtigsten [CombatUnits] jeder Rasse. Die Einheiten sind besonders   
+    weil sie nicht auf dem [GameBoard] platziert werden. Dennoch können sie angreifen und angegriffen 
+    werden.
+    <p>
+    Jede [Ultimate] Einheit hat sehr spezielle Kräfte, die sie äusserst relevant im Kampf machen.
+    </p><p>
+    [Ultimate] Einheiten:
+  </p></div></lang>
+		<lang key="en"><h1>Ultimate Units</h1><div class="content">
+    [Ultimate] units are the most powerful [CombatUnits] of every race. These units are special because they
+    aren't placed on the [GameBoard]. However, they can attack and be attacked.
+    <p />
+    Each [Ultimate] unit has very special powers, that make them the ultimate winner decider.
+    <p />
+    [Ultimate] units:
+  </div></lang>
+		<lang key="es"><h1>Unidades Supremas</h1><div class="content">
+    Una unidad [Ultimate] es la unidad de combate mas poderosa de cada raza. Estas unidades son especiales en la
+    medidada en que no están presentes en el [GameBoard]. Aún así pueden ser atacadas.
+    <p />
+    Cada unidad [Ultimate] tiene poderes muy especiais, que hacen que sean muy importantes en una batalla.
+    <p />
+    Lista de unidades de supremas:
+  </div></lang>
+		<lang key="hr"><h1>Ultimativne Jedinice</h1><div class="content">
+[Ultimate] su najmoćnije [CombatUnits] svake rase. Ove jedinice su specijalne zato što one nisu smještene na [GameBoard]. Ali one mogu napadati i biti napadnute. 
+<p />
+Svaka [Ultimate] ima jako posebne moći. koje od njih čine ultimativnog čimbenika pobjede.
+<p />
+[Ultimate] jedinice:
+</div></lang>
+		<lang key="pt"><h1>Unidades Supremas</h1><div class="content">
+    Uma unidade [Ultimate] é a unidade de combate mais poderosa de cada raça. Estas unidades são especiais na
+    medidada em que não estão presentes no [GameBoard]. Ainda assim conseguem ser atacadas.
+    <p />
+    Cada unidade [Ultimate] tem poderes muito especiais, que fazem com que sejam muito importantes numa batalha.
+    <p />
+    Lista de unidades de supremas:
+  </div></lang>
+		<lang key="ro"><h1>Unităţile Supreme</h1><div class="content">
+    Unităţile [Ultimate] sunt cele mai puternic [CombatUnits] de la fiecare rasă.
+    Aceste unităţi sunt speciale deoarece acestea nu sunt plasate pe [GameBoard].
+    Cu toate acestea, ele pot ataca şi pot fi atacate.
+    <p />
+    Fiecare unitate [Ultimate] are puteri speciale, care o face să decidă caştigătorul.
+    <p />
+    Unităţile [Ultimate] :
+    </div></lang>
+	</entry>
+
+</resources>

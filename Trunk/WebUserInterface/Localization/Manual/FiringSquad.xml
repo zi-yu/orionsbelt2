@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="FiringSquadPart1">
+		<lang key="de"><h1>Erschiessungskommando</h1><div class="content">
+    Die [FiringSquad] war eine populäre Kampfstrategie die vor einer langen Zeit auf [OB] benutzt 
+    wurde. In den alten Tagen, war es möglich [Crusader] sehr früh im Spiel zu bauen. Der 
+    [Crusader] ist eine sehr mächige [Heavy] Einheit und hat eine [Range] von 6. Viele Spieler fingen 
+    an und konzentrierten sich nur darauf Crusader zu bauen um sie an fordester Front zu bringen. Mit 
+    einer [Range] von 6 konnten sie über das ganze [GameBoard] reichen, deshalb nennen wir es das 
+    <i>Erschiessungskommando</i>. <p></p><h2>Beispiel einer Schlacht</h2>
+    Die [FiringSquad] kann auch eine sehr komplexe, taktische Einheit für die VErteidigung deines 
+    Gegners sein, aber sie kann auch sehr einfach zu vertreiben sein. Lass uns folgende Schlacht 
+    analysieren wo einer der Spieler eine [FiringSquad] wählt:
+  </div></lang>
+		<lang key="en"><h1>Firing Squad</h1><div class="content">
+    The [FiringSquad] was a popular battle strategy used a long time ago on [OB]. In the old days,
+    it was possible to build the [Crusader] very early in the game. The [Crusader] is a
+    very powerfull [Heavy] unit that has a [Range] of 6. Many players started to concentrate on building
+    only crusaders to put them on the front row. With a [Range] of 6 they could reach all the
+    [GameBoard], that's why we call it <i>firing squad</i>.
+    <p /><h2>Example Battle</h2>
+    The [FiringSquad] can be a very complex tactic for your opponent do defend, but it can also be
+    very easy to dispel. Let's analyse the following battle where one of the players choose a [FiringSquad]:
+  </div></lang>
+		<lang key="es"><h1>Pelotón de Fusilamiento</h1><div class="content">
+    Los [FiringSquad] fué una estratégia de batalla muy utilizada en los inicios de [OB]. En la antigüedad
+    era posible obtener un [Crusader] muy temprano. El [Crusader] es una unidad [Heavy] muy poderosa y con 6 de
+    [Range], lo que hizo que varios jugadores se concentrasen en producir solamente estas unidades y las
+    colocasen todas en la fila de enfrente. Con un [Range] de 6 ellas conseguian alcanzar todo el [GameBoard].
+    De ahí vino el nombre de <i>pelotón de Fucilamiento</i>.
+    <p /><h2>Batalla de Ejemplo</h2>
+    El [FiringSquad] puede ser una táctica muy compleja de defender por parte del adversário, tal como
+    también puede ser muy simple de contraatacar. Veamos el seguiente ejemplo de una batalla de
+    [FiringSquad]:
+  </div></lang>
+		<lang key="fr"><h1>L'escadrille de tir</h1><div class="content">
+    L' [FiringSquad] est une stratégie populaire utilisée depuis longtemps sur [OB]. Dans les vieux jours,
+    il était possible de construire le [Crusader] très tôt dans la partie. Le [Crusader] est une unité [Heavy] très puissante ayant une [Range]. Plusieurs joueurs se sont concentrés à construire seulement des croiseurs pour les positionner sur la ligne de front. Avec une [Range] de 6, il pouvait atteindre toutes les unités partout sur le
+    [GameBoard], et cela explique pourquoi on appel cette stratégie "escdrille de tir" <i>firing squad</i>.
+    <p /><h2>Exemple de Combat</h2>
+    Le [FiringSquad] peut être une tactique très difficile à contre-attaquer pour votre adversaire, mais il est aussi possible qu'il vous élimine facilement. Analysons un combat où un joueur décide d'essayer la stratégie [FiringSquad]:
+  </div></lang>
+		<lang key="hr"><h1>Napadački Odred</h1><div class="content">
+[FiringSquad] je popularna strategija upotrebljena davno na [OB]. U straim danima bilo je moguće izgradiri [Crusader] jako rano u igri. [Crusader] je jako moćna [Heavy] jednica koja ima [Range]  6. Mnogi igrači su se počeli kocentirati na građenje samo crushadera da ih stave u prvi red. Sa [Range] od 6 oni su mogli dosegnuti sve [GameBoard], zato ih zovemo <i>napadčki odred</i>.
+<p /><h2>Primjer Bitke</h2>
+[FiringSquad] može biti jako kompelksna taktika tvome protivniku da se brani, ali također ju je moguće jako lagano poremetiti. Analizirajmo sljedeću bitku gdje je jedan od igrača odabrao FiringSquad]:
+</div></lang>
+		<lang key="hu"></lang>
+		<lang key="pt"><h1>Pelotão de Fuzilamento</h1><div class="content">
+    O [FiringSquad] foi uma estratégia de batalha muito utilizada nos primórdios do [OB]. Na antiguidade
+    era possível obter o [Crusader] muito cedo. O [Crusader] é uma unidade [Heavy] muito poderosa e com 6 de
+    [Range], o que fez com que vários jogadores se concentrassem em produzir somente destas unidades e as
+    colocassem todas na fila da frente. Com um [Range] de 6 elas conseguiam atingir todo o [GameBoard].
+    Daí veio o nome de <i>pelotão de fuzilamento</i>.
+    <p /><h2>Batalha de Exemplo</h2>
+    O [FiringSquad] pode ser uma táctica muito complexa de defender por parte do adversário, tal como
+    também pode ser muito simples de contra-atacar. Vejamos o seguinte exemplo de uma batalha de
+    [FiringSquad]:
+  </div></lang>
+	</entry>
+
+	<entry key="FiringSquadPart2">
+		<lang key="de"><div class="content"><p>
+ Wie wir sehen können, kann der Gegner die Stärke der [FiringSquad] nicht widerstehen. Diese Taktik 
+ braucht nur eine grosse Anzahl von [CombatUnits] mit grosser Reichweite in deiner [Fleet] um 
+ erfolgreich zu sein.
+    </p><h2>Veränderungen im Spiel</h2><p>
+  [FiringSquad] ist zur Mainstream-Taktik geworden, und das Spiel musste einige Regeln ändern um 
+  diese Taktik zu schwächen:
+  </p><ul><li>
+  Der durch Einheiten verursachte Schaden wird je nach Distanz verringert. Auf diese 
+  Weise kann der [Crusader] die Verteidigungen des Gegners nicht zu sehr schwächen.
+    </li><li>Wir erschuffen mehrere [Light] Einheiten die einen speziellen Bonus haben gegen [Heavy] 
+  Einheiten.</li></ul><h2>Wie man ein Erschiessungskommando bekämpft</h2><p>
+  Selbst mit diesen Spielveränderungen, macht die [FiringSquad] den Eindruck als wäre sie die ideale, 
+  unschlagbare Taktik.
+  Dennoch, kann jeder durchschnittliche Spieler die [FiringSquad] schlagen, auch wenn es bedeutet 
+  dass man viele [CombatUnits] verliert.
+    </p><p>
+  Die folgende Schlacht illustriert die Strategie die benutzt werden kann um die 
+  [FiringSquad] zu schlagen. Wie man sehen kann, braucht es nur eine [Fleet] mit einigen [Light] 
+  Einheiten die als [DispensableUnits] dienen und eine kleine Anzahl von [Medium] Einheiten um eine 
+  grosse Anzahl von [Crusader] zu schlagen.
+    </p></div></lang>
+		<lang key="en"><div class="content"><p>
+  As we can see, the opponent can't resist the power of the [FiringSquad]. This tactic only requires
+  a large amount of long range [CombatUnits] on your [Fleet] to succeed.
+    </p><h2>Changes to the Game</h2><p>
+  [FiringSquad] become a very mainstream tactic, and the game had to change some of it's rules
+  to attenuate this tactic:
+  <ul><li>
+  The damage done by units will be attenuated based on the distance. This way the [Crusader]
+  won't do so much damage to the opponent's defenses
+    </li><li>We created several [Light] units with special bonus against [Heavy] units.</li></ul></p><h2>How to Fight a Firing Squad</h2><p>
+  Even with the changes to the game, [FiringSquad] looks like an ideal, unbeatable tactic.
+  However, every average player can easilly beat the [FiringSquad], even if that means loosing a lot of
+  [CombatUnits].
+    </p><p>
+  The following battle ilustrates on strategy that can be used to beat the [FiringSquad].
+  As one can see, it only takes a [Fleet] with some [Light] units serving as [DispensableUnits]
+  and a small amount of [Medium] units to beat a large quantity of [Crusader].
+    </p></div></lang>
+		<lang key="es"><div class="content"><p>
+  Como podemos ver el adversário no logra resistir al poder de [FiringSquad]. Esta táctica no requiere
+  gran capacidad de batalla, solamente requiere tener en la [Fleet] una enorme cantidad de [CombatUnits] de largo
+  alcance.
+    </p><h2>Alteraciones al Juego para Atenuar el Pelotón de Fusilamiento</h2><p>
+  El [FiringSquad] se volvio una táctica tan común que el juego tuvo que ser modificado y adicionar algunas reglas extra para
+  atenuar su efecto, relativamente:
+  <ul><li>
+  El daño dado por las unidades llevo una atenuación en base a la distancia. De esta forma un
+  [Crusader] no haría tanto daño en las defensas adversárias.
+    </li><li>Fueron creadas unidades de [Light] con bonos especiales contra unidades de [Heavy].</li></ul></p><h2>Desventajas del Pelotón de Fusilamiento</h2><p>
+  Aparentemente,aún con las alteraciones al juego, el [FiringSquad] parece ser una táctica ideal y sin defensa.
+  A pesar que las apariencias engañan y la verdad que cualquier jugador con mas experiencia logra vencer facilmente
+  un [FiringSquad], Aún que no se libere de perder una cantidad razonable de naves.
+    </p><p>
+  La siguiente batalla ilustra exactamente la estratégia usada para vencer un [FiringSquad]. Como se puede ver,
+  una [Fleet] con unidades [Light] con el servicio de  [DispensableUnits] y una pequeñaa cantidad de unidades
+  [Medium] logra vencer una armada con una gra cantidad de [Crusader].
+    </p></div></lang>
+		<lang key="fr"><div class="content"><p>
+  Comme on peut le voir, l'adversaire ne peut résister à la puissance du [FiringSquad]. Cette tactiqe nécessite seulement un gros groupes de [CombatUnits] ayant une longue portée sur votre [Fleet] pour fonctionner.
+    </p><h2>Les changements au jeu</h2><p>
+  [FiringSquad] est alors devenu une tactique obligatoire, et il a été nécessaire de changer certaines règles pour atténuer l'efficacité de cette tactique::
+  <ul><li>
+  Les dégats sont atténués lorsque les ennemis doivent être tirés à très longue portée. De cette façon, le [Crusader]
+  ne fait plus autant de dégats aux défenses de l'adversaire.
+    </li><li>Quleques unités [Light] ayant des bonus contre les unités [Heavy] ont été créer.</li></ul></p><h2>Comment combattre une escadrille de tir</h2><p>
+  Même avec les changeents au jeu, [FiringSquad] semble être une tactique idéal et imbattable. Néanmoins, un joueur peut facilement détruire une [FiringSquad], même si cela signifie perdre une grand nombre de
+  [CombatUnits].
+    </p><p>
+  La bataille suivante illustre la stratégie pouvant être utilisé pour gagner contre un [FiringSquad].
+  Comme vous pouvez le voir, il faut seulement une [Fleet] avec quelques unités [Light] pouvant être utilisés en tant que [DispensableUnits]
+  et une   petite quantité d'unités [Medium] pour détruire la grande quantité de [Crusader].
+  </p></div></lang>
+		<lang key="hr"><div class="content"><p>
+Kako možemo vidjeti, protivnik se ne može oduprijeti moći [FiringSquad]. Ova taktika traži samo velike količine dalekometnih [CombatUnits] u vašoj [Fleet] da uspije.
+ </p><h2>Promjene u Igri</h2><p>
+[FiringSquad] je postala jako prihvaćena taktika, i igra je morala promjeniti neka od svojih pravila da oslabi ovu taktiku:
+<ul><li>
+Šteta učinjena od strane jedinca će biti oslabljena u odnosu s udaljenosti. Na ovaj način [Crusader] neće moći učiniti toliko štete protivnikovoj obrani.
+ </li><li>Stvorili smo nekoliko [Light] jedinica sa specijanim bonusom protiv [Heavy] jedinica. </li></ul></p><h2>Kako se boriti protiv Napadačkih Odreda</h2><p>
+Čak i sa promjenama u igri, [FiringSquad] izgleda koa idealna, nepobjediva taktika.
+Međutim, svaki prosječni igrač može lako pobjediti [FiringSquad], čak i ako to znači gubitak puno[CombatUnits].
+</p><p>
+Sljedeća bitka ilustirira strategiju koja se može upotrijebiti da se porazi [FiringSquad].
+Kako možete vidjeti, potrebna je samo flota sa nekoliko [Light] jedinca koji služe kao [DispensableUnits]
+i mala količina  [Medium] jedinica da se porazi velika količina [Crusader].
+</p></div></lang>
+		<lang key="hu"></lang>
+		<lang key="pt"><div class="content"><p>
+  Como podemos ver o adversário não consegue resistir ao poder do [FiringSquad]. Esta táctica não requer
+  grande capacidade de batalha, somente requer ter na [Fleet] uma enorme quantidade de [CombatUnits] de longo
+  alcance.
+    </p><h2>Alterações ao Jogo para Atenuar o Pelotão de Fuzilamento</h2><p>
+  O [FiringSquad] tornou-se uma táctica tão comum que o jogo teve de levar algumas regras extra para
+  atenuar o seu efeito, nomeadamente:
+  <ul><li>
+  O dano dado pelas unidades levou uma atenuação com base na distância. Desta forma um
+  [Crusader] não faria tanto dano nas defesas adversárias
+    </li><li>Foram criadas unidades de [Light] com bónus especial contra unidades de [Heavy].</li></ul></p><h2>Desvantagens do Pelotão de Fuzilamento</h2><p>
+  Aparentemente, mesmo com as alterações ao jogo, o [FiringSquad] parece ser uma táctica ideal e sem defesa.
+  Contudo as aparências iludem e na verdade qualquer jogador mais experiente consegue vencer facilmente
+  um [FiringSquad], embora não se livre de perder uma quantidade razoável de naves.
+    </p><p>
+  A batalha seguinte ilustra exactamente a estratégia usada para vencer um [FiringSquad]. Como se pode ver,
+  uma [Fleet] com unidades [Light] a servir de [DispensableUnits] e uma pequena quantidade de unidades
+  [Medium] consegue vencer uma armada com uma grande quantidade de [Crusader].
+    </p></div></lang>
+	</entry>
+
+</resources>

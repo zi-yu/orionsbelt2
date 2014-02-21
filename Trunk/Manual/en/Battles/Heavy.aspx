@@ -1,0 +1,28 @@
+﻿<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/en/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	Heavy
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="conceptMenu" runat="server">
+	<h2>Battle Concepts</h2><ul><li><a href='/en/Battles/GameBoard.aspx'>Game Board</a></li><li><a href='/en/Battles/Deploy.aspx'>Deploy</a></li><li><a href='/en/Battles/Movement.aspx'>Movement</a></li><li><a href='/en/Battles/Rules.aspx'>Rules</a></li></ul><h2>Attack</h2><ul><li><a href='/en/Battles/Range.aspx'>Range</a></li><li><a href='/en/Battles/Catapult.aspx'>Catapult</a></li><li><a href='/en/Battles/ParalyseAttack.aspx'>Paralyse Attack</a></li><li><a href='/en/Battles/Replicator.aspx'>Replicator</a></li><li><a href='/en/Battles/StrikeBack.aspx'>Strike Back</a></li><li><a href='/en/Battles/InfestationAttack.aspx'>Infestation Attack</a></li><li><a href='/en/Battles/RemoveAbilityAttack.aspx'>Remove Ability Attack</a></li><li><a href='/en/Battles/TripleAttack.aspx'>Triple Attack</a></li><li><a href='/en/Battles/BombAttack.aspx'>Bomb Attack</a></li><li><a href='/en/Battles/Rebound.aspx'>Rebound</a></li></ul><h2>Category</h2><ul><li><a href='/en/Battles/Light.aspx'>Light</a></li><li><a href='/en/Battles/Medium.aspx'>Medium</a></li><li><a href='/en/Battles/Heavy.aspx'>Heavy</a></li><li><a href='/en/Battles/Ultimate.aspx'>Ultimate</a></li><li><a href='/en/Battles/Special.aspx'>Special</a></li></ul><h2>Battle Type</h2><ul><li><a href='/en/Battles/TotalAnnihilation.aspx'>Total Annihilation</a></li><li><a href='/en/Battles/Regicide.aspx'>Regicide</a></li></ul>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1>Heavy Units</h1>
+<div class="content">
+    <a href='/en/Battles/Heavy.aspx'>Heavy</a> units are the strongest of them all. They usualy have a huge <a href='/en/Battles/Range.aspx'>Range</a> and attack power. However,
+    they are limited in <a href='/en/Battles/Movement.aspx'>Movement</a> and <a href='/en/Battles/Movement.aspx#MovCost'>Movement Cost</a>.
+    <p />
+    Not all <a href='/en/Battles/Heavy.aspx'>Heavy</a> units follow this pattern. For example: <a class='doomer' href='/en/Unit/Doomer.aspx'>Doomer</a>, <a class='blackwidow' href='/en/Unit/BlackWidow.aspx'>Black Widow</a> and <a class='taurus' href='/en/Unit/Taurus.aspx'>Taurus</a> only have a
+    <a href='/en/Battles/Range.aspx'>Range</a> of 3, but they are compensated with aditional <a href='/en/Battles/Movement.aspx'>Movement</a> liberty, or extra powers.
+    <p />
+    <a href='/en/Battles/Heavy.aspx'>Heavy</a> units should specially fear the <a class='rain' href='/en/Unit/Rain.aspx'>Rain</a> and the <a class='darkrain' href='/en/Unit/DarkRain.aspx'>Dark Rain</a>, because they both have damage bonus
+    against <a href='/en/Battles/Heavy.aspx'>Heavy</a> units.
+    <p />
+    <a href='/en/Battles/Heavy.aspx'>Heavy</a> units:
+  </div>
+	<ul class='imageList'><li><a href='/en/Unit/Fist.aspx'><img class='fist' src='http://resources.orionsbelt.eu/Images/Common/Units/fist.png' alt='Fist' /></a></li><li><a href='/en/Unit/Nova.aspx'><img class='nova' src='http://resources.orionsbelt.eu/Images/Common/Units/nova.png' alt='Nova' /></a></li><li><a href='/en/Unit/HiveKing.aspx'><img class='hiveking' src='http://resources.orionsbelt.eu/Images/Common/Units/hiveking.png' alt='Hive King' /></a></li><li><a href='/en/Unit/Bozer.aspx'><img class='bozer' src='http://resources.orionsbelt.eu/Images/Common/Units/bozer.png' alt='Bozer' /></a></li><li><a href='/en/Unit/Doomer.aspx'><img class='doomer' src='http://resources.orionsbelt.eu/Images/Common/Units/doomer.png' alt='Doomer' /></a></li><li><a href='/en/Unit/Titan.aspx'><img class='titan' src='http://resources.orionsbelt.eu/Images/Common/Units/titan.png' alt='Titan' /></a></li><li><a href='/en/Unit/BlackWidow.aspx'><img class='blackwidow' src='http://resources.orionsbelt.eu/Images/Common/Units/blackwidow.png' alt='Black Widow' /></a></li><li><a href='/en/Unit/CaptainWolf.aspx'><img class='captainwolf' src='http://resources.orionsbelt.eu/Images/Common/Units/captainwolf.png' alt='CaptainWolf' /></a></li><li><a href='/en/Unit/Fenix.aspx'><img class='fenix' src='http://resources.orionsbelt.eu/Images/Common/Units/fenix.png' alt='Fenix' /></a></li><li><a href='/en/Unit/Taurus.aspx'><img class='taurus' src='http://resources.orionsbelt.eu/Images/Common/Units/taurus.png' alt='Taurus' /></a></li><li><a href='/en/Unit/CommanderFox.aspx'><img class='commanderfox' src='http://resources.orionsbelt.eu/Images/Common/Units/commanderfox.png' alt='Commander Fox' /></a></li><li><a href='/en/Unit/HeavySeeker.aspx'><img class='heavyseeker' src='http://resources.orionsbelt.eu/Images/Common/Units/heavyseeker.png' alt='Heavy Seeker' /></a></li><li><a href='/en/Unit/SilverBeard.aspx'><img class='silverbeard' src='http://resources.orionsbelt.eu/Images/Common/Units/silverbeard.png' alt='Silver Beard' /></a></li><li><a href='/en/Unit/DarkTaurus.aspx'><img class='darktaurus' src='http://resources.orionsbelt.eu/Images/Common/Units/darktaurus.png' alt='Dark Taurus' /></a></li><li><a href='/en/Unit/DarkCrusader.aspx'><img class='darkcrusader' src='http://resources.orionsbelt.eu/Images/Common/Units/darkcrusader.png' alt='Dark Crusader' /></a></li><li><a href='/en/Unit/MetallicBeard.aspx'><img class='metallicbeard' src='http://resources.orionsbelt.eu/Images/Common/Units/metallicbeard.png' alt='Metallic Beard' /></a></li><li><a href='/en/Unit/Crusader.aspx'><img class='crusader' src='http://resources.orionsbelt.eu/Images/Common/Units/crusader.png' alt='Crusader' /></a></li></ul>
+	
+</asp:Content>

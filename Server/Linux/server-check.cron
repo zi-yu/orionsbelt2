@@ -1,0 +1,81 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Checks mono process every minute
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# use http://cr.yp.to/daemontools/supervise.html instead
+#* * * * * sh /opt/orionsbelt/prd/configs/mono-check > /opt/orionsbelt/prd/configs/mono-check.cron.log 2>&1
+#* * * * * sh /opt/orionsbelt/prd/configs/php-check > /opt/orionsbelt/prd/configs/php-check.cron.log 2>&1
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Maintenance Jobs
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# remove old log files
+0 0 * * 0 find /opt/orionsbelt/prd/configs/ticks/s1/* -mtime 7 -exec rm {} \;
+
+#restart mono
+35 */4 * * * sh /opt/orionsbelt/prd/configs/rmono
+
+#generate feed previews
+25 * * * * sh /opt/orionsbelt/prd/xslt/ProcessFeeds.sh
+
+#unzip universe
+5 6 * * * sh /opt/orionsbelt/prd/configs/unzip-universe
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Language
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# process language
+#37 3 * * * sh /opt/orionsbelt/prd/configs/process-language > /opt/orionsbelt/prd/configs/process-language.log
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Bots
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#*/10 * * * * /usr/bin/mono-ob /opt/orionsbelt/prd/botHandler/public/Bin/OrionsBelt.BotHandler.exe --timeout:50 --poolServers > /opt/orionsbelt/prd/botHandler/log/PoolServers.log 2>&1
+#* * * * * /usr/bin/mono-ob /opt/orionsbelt/prd/botHandler/public/Bin/OrionsBelt.BotHandler.exe --timeout:50 --firingSquad > /opt/orionsbelt/prd/botHandler/log/FiringSquad.log 2>&1
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Server 1 Jobs
+# Init: sh /opt/orionsbelt/prd/configs/init.sh
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Tick
+*/10 * * * * sh /opt/orionsbelt/prd/configs/s1-tick > /opt/orionsbelt/prd/configs/ticks/s1/cron.log 2>&1
+
+# Process relics
+2 5 * * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe -process-relics > /opt/orionsbelt/prd/configs/ticks/s1/process-relics.log 2>&1
+
+# Arena Salary
+5 0 1 * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe -amr > /opt/orionsbelt/prd/configs/ticks/s1/amr.log 2>&1
+
+# Auctioneer
+5 23 * * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe -auc > /opt/orionsbelt/prd/configs/ticks/s1/auc.log 2>&1
+
+# Referrals
+5 22 * * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe --referal-prizes > /opt/orionsbelt/prd/configs/ticks/s1/ref.log 2>&1
+
+# Change Arenas Fleets
+5 4 */7 * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe -caf > /opt/orionsbelt/prd/configs/ticks/s1/caf.log 2>&1
+
+# Database Stats
+5 5 * * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe -dbs > /opt/orionsbelt/prd/configs/ticks/s1/dbs.log 2>&1
+
+# Duplicate finder
+# 5 1 * * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe -df > /opt/orionsbelt/prd/configs/ticks/s1/df.log 2>&1
+
+# File Stats
+5 0 */3 * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe -cs > /opt/orionsbelt/prd/configs/ticks/s1/cs.log 2>&1
+
+# Process Tournaments
+5 2 * * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe -pt > /opt/orionsbelt/prd/configs/ticks/s1/pt.log 2>&1
+
+# Reprocess payments
+5 */4 * * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe -pay > /opt/orionsbelt/prd/configs/ticks/s1/pay.log 2>&1
+
+# Universe DUMP
+5 6 * * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe --dump-universe:"/opt/orionsbelt/prd/s1/public/API/Universe.xml.zip" --universe-views:"/opt/orionsbelt/prd/s1/public/Jobs/Stats/"  > /opt/orionsbelt/prd/configs/ticks/s1/dump-universe.log 2>&1
+ 
+# Vacations
+0 0 1 * * /usr/bin/mono-ob /opt/orionsbelt/prd/s1/public/Jobs/OrionsBelt.Chronos.exe --vacations > /opt/orionsbelt/prd/configs/ticks/s1/vacations.log 2>&1

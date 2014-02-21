@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2FFAB38F-D8DA-4742-9451-51473D7CE886}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrionsBeltTests</RootNamespace>
+    <AssemblyName>OrionsBeltTests</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\WebUserInterface\Bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\WebUserInterface\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DesignPatterns, Version=1.1.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebUserInterface\Bin\DesignPatterns.dll</HintPath>
+    </Reference>
+    <Reference Include="Loki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebUserInterface\Bin\Loki.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.4.6.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AI\AITest.cs" />
+    <Compile Include="BaseTests.cs" />
+    <Compile Include="BattleCoreTests\BaseInterpreterTests.cs" />
+    <Compile Include="BattleCoreTests\BattleGenericTests.cs" />
+    <Compile Include="BattleCoreTests\BattleInterpreterTests.cs" />
+    <Compile Include="BattleCoreTests\SpecialAttacksTests.cs" />
+    <Compile Include="BattleCoreTests\TimeoutTests.cs" />
+    <Compile Include="BattleCoreTests\GiveUpTests.cs" />
+    <Compile Include="BattleCoreTests\EndBattleDominationTests.cs" />
+    <Compile Include="BattleCoreTests\EndBattleTotalAnnihalationTests.cs" />
+    <Compile Include="BattleCoreTests\EndBattleRegicideTests.cs" />
+    <Compile Include="BattleCoreTests\RotationInterpreterTests.cs" />
+    <Compile Include="BattleCoreTests\PositionInterpreterTests.cs" />
+    <Compile Include="BattleCoreTests\MoveInterpreterTests.cs" />
+    <Compile Include="BattleCoreTests\ScoreTests.cs" />
+    <Compile Include="EngineTests\AllianceTests.cs" />
+    <Compile Include="EngineTests\PlanetConquerTests.cs" />
+    <Compile Include="EngineTests\TransactionManagerTests.cs" />
+    <Compile Include="EngineTests\MarketTests.cs" />
+    <Compile Include="EngineTests\QuestsTests.cs" />
+    <Compile Include="EngineTests\TournamentManagerTests.cs" />
+    <Compile Include="EngineTests\ClockTests.cs" />
+    <Compile Include="EngineTests\ActionsTests.cs" />
+    <Compile Include="EngineTests\ActionUtilsTests.cs" />
+    <Compile Include="EngineTests\ConversionTests.cs" />
+    <Compile Include="EngineTests\ModifierTests.cs" />
+    <Compile Include="EngineTests\EntityPersistanceTests.cs" />
+    <Compile Include="EngineTests\QueueTests.cs" />
+    <Compile Include="EngineTests\PlanetManagementTests.cs" />
+    <Compile Include="EngineTests\ResourceLoadingTests.cs" />
+    <Compile Include="EngineTests\EngineUtils.cs" />
+    <Compile Include="EngineTests\ResourcesTests.cs" />
+    <Compile Include="GenericTests\NumericUtilsTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RulesTests\UnitTests.cs" />
+    <Compile Include="RulesTests\UniverseInfoTests.cs" />
+    <Compile Include="RulesTests\DurationTests.cs" />
+    <Compile Include="RulesTests\RulesTests.cs" />
+    <Compile Include="TournamentTests\AnnihalationCreatorTests.cs" />
+    <Compile Include="TournamentTests\ArenaUtilTests.cs" />
+    <Compile Include="TournamentTests\GroupPlayerTests.cs" />
+    <Compile Include="TournamentTests\LadderCreatorTests.cs" />
+    <Compile Include="TournamentTests\TournamentUtilTests.cs" />
+    <Compile Include="TournamentTests\TournamentParserTests.cs" />
+    <Compile Include="UniverseTests\CoordinateTests.cs" />
+    <Compile Include="UniverseTests\FleetTests.cs" />
+    <Compile Include="UniverseTests\UniverseRenderTests.cs" />
+    <Compile Include="UniverseTests\UniverseTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BattleCore\BattleCore.csproj">
+      <Project>{6AA7FC93-B193-4F76-81BF-E3517B2025E1}</Project>
+      <Name>BattleCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BotHandler\BotHandler.csproj">
+      <Project>{82F07D20-1C2E-4970-97CF-107D5FF9CF90}</Project>
+      <Name>BotHandler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bots\Bots.csproj">
+      <Project>{65558AF9-6823-420D-98AE-34375AC85939}</Project>
+      <Name>Bots</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{D9CDBB66-F267-44AB-AF03-C877489E01B0}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{7A325E24-4700-4E56-85A3-E57CE4622677}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Engine.csproj">
+      <Project>{3DF5F937-0E77-4497-88BB-B07D88969D40}</Project>
+      <Name>Engine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generic\Generic.csproj">
+      <Project>{26274F5B-70BC-419A-8062-E53FC5CD009D}</Project>
+      <Name>Generic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RulesCore\RulesCore.csproj">
+      <Project>{8A73B0DB-13D5-43C3-AA75-E8E59870902F}</Project>
+      <Name>RulesCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TournamentCore\TournamentCore.csproj">
+      <Project>{E384B92B-2734-4B18-A495-9F029228094C}</Project>
+      <Name>TournamentCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebUserInterface\WebUserInterface.csproj">
+      <Project>{055F2200-8DF2-4E2D-9AD7-DF3438D10275}</Project>
+      <Name>WebUserInterface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

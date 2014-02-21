@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/OrionsBeltMaster.Master" Inherits="OrionsBelt.WebUserInterface.Profile.PlayerProfileMaster" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+    <OrionsBeltUI:PlayerProfileMenu runat="server" />
+    <OrionsBelt:PlayerStorageItem ID="PlayerStorageItem1" Source="Items" runat="server">
+        <OrionsBeltUI:SuccessBoard ID="SuccessBoard1" runat="server" />
+	    <OrionsBeltUI:InformationBoard ID="InformationBoard1" runat="server" />
+	    <OrionsBeltUI:ErrorBoard ID="ErrorBoard1" runat="server" />
+	    
+	    <div style="float:right;margin-right:20px;">    
+            <OrionsBeltUI:PlayerProfileActions runat="server" />
+            <OrionsBeltUI:PlayerInfoReader ID="reader" Title="Charts" runat="server" />
+        </div>
+        
+        <div id='account' class='normalBorder'>
+            <div class='top'><h1><OrionsBelt:Label ID="Label11" Key="PlayerInfo" runat="server" /></h1></div>
+            <div class='center'>
+                <div class='accountAvatar'><OrionsBeltUI:PlayerStorageAvatar ID="PrincipalAvatar1" runat="server" /></div>
+                <div class='accountInformation'>
+                    <dl>
+                        <dt><OrionsBelt:Label ID="Label1" Key="Name" runat="server" /></dt>
+                        <dd><OrionsBelt:PlayerStorageName ID="PlayerStorageName1" runat="server" /></dd>
+                        <dt><OrionsBelt:Label ID="Label2" Key="Account" runat="server" /></dt>
+                        <dd><OrionsBeltUI:PlayerStoragePrincipal ID="PlayerStoragePrincipal1" runat="server" /></dd>
+                        <dt><OrionsBelt:Label ID="Label3" Key="Alliance" runat="server" /></dt>
+                        <dd><OrionsBeltUI:PlayerStorageAlliance ID="PlayerStorageAlliance1" runat="server" /></dd>
+                        <dt><OrionsBelt:Label ID="Label4" Key="Score" runat="server" /></dt>
+                        <dd><OrionsBelt:PlayerStorageScore ID="PlayerStorageScore1" runat="server" /></dd>
+                        <dt><OrionsBelt:Label ID="Label6" Key="Race" runat="server" /></dt>
+                        <dd><OrionsBeltUI:PlayerStorageRace ID="PlayerStorageRace1" runat="server" /></dd>
+                        <dt><OrionsBelt:Label ID="Label7" Key="Profession" runat="server" /></dt>
+                        <dd><OrionsBeltUI:PlayerStorageProfession ID="PlayerStorageAge1" runat="server" /></dd>
+                        <dt><OrionsBelt:Label ID="Label8" Key="Age" runat="server" /></dt>
+                        <dd><OrionsBeltUI:PlayerStorageAge ID="PlayerStorageAge2" runat="server" /></dd>
+                        <dt><OrionsBelt:Label ID="Label9" Key="LastLogin" runat="server" /></dt>
+                        <dd><OrionsBeltUI:PlayerStorageLastActivity ID="PlayerStorageLastActivity2" runat="server" /></dd>
+                    </dl>
+                </div>  
+            </div>
+            <div class='bottom'></div>
+        </div>    
+        
+        <asp:ContentPlaceHolder ID="Content" runat="server" />        
+        
+    </OrionsBelt:PlayerStorageItem>
+    
+    
+ 
+    <div class='clear'></div>   
+    <div id='siteFooter'>
+        <OrionsBeltUI:LatestPlayersOnline ID="LatestPlayersOnline1" runat="server" />
+        <OrionsBeltUI:UsefullLinks ID="UsefullLinks1" runat="server" />
+    </div>
+    
+
+</asp:Content>

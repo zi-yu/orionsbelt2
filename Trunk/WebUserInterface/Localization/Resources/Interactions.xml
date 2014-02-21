@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="AllianceOfterConfederationForSource">
+		<lang key="de">Du hast der <a href="/Alliance/Info.aspx?Id=%7B2%7D">{3}</a> Allianz den Frieden angeboten</lang>
+		<lang key="en">You ofered a Confederation to the <a href="/Alliance/Info.aspx?Id={2}">{3}</a> alliance</lang>
+		<lang key="es">Sugeriste la creación de una Confederación con la alianza <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="fr">Vous avez offert une Confederation à l'alliance <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="hr">Ponudili ste konfederaciju <a href="/Alliance/Info.aspx?Id={2}">{3}</a> savezu.</lang>
+		<lang key="pt">Sugeriste a criação de uma Confederação com a aliança <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="ro">Aţi oferit o Confederaţie alianţei <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+	</entry>
+
+	<entry key="AllianceOfterConfederationForTarget">
+		<lang key="de">Die Allianz <a href="/Alliance/Info.aspx?Id=%7B0%7D">{1}</a> will ein Bündnis mit dir eingehen!</lang>
+		<lang key="en">The alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> wants to unite in a Confederation!</lang>
+		<lang key="es">La alianza <a href="/Alliance/Info.aspx?Id={0}">{1}</a> pretende unirse con la nuestra en una Confederación!</lang>
+		<lang key="fr">L'alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> veut une union en tant que confédération!</lang>
+		<lang key="hr">Savez <a href="/Alliance/Info.aspx?Id={0}">{1}</a> želi se ujediniti u konfederaciju!</lang>
+		<lang key="pt">A aliança <a href="/Alliance/Info.aspx?Id={0}">{1}</a> pretende unir-se com a nossa numa Confederação!</lang>
+		<lang key="ro">Alianţa <a href="/Alliance/Info.aspx?Id={0}">{1}</a> vrea să se unească într-o Confederaţie!</lang>
+	</entry>
+
+	<entry key="AllianceOfterEndWarForSource">
+		<lang key="de">Du hast der <a href="/Alliance/Info.aspx?Id={2}">{3}</a> Allianz den Frieden angeboten</lang>
+		<lang key="en">You ofered peace to the <a href="/Alliance/Info.aspx?Id={2}">{3}</a> alliance</lang>
+		<lang key="es">Solicitaste el fin de la guerra a la alianza <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="fr">Vous avez offert la paix à l'alliance <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="hr">Ponudili ste mir <a href="/Alliance/Info.aspx?Id={2}">{3}</a> savezu</lang>
+		<lang key="pt">Requisitaste o fim da guerra à aliança <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="ro">Aţi oferit pace alianţei <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+	</entry>
+
+	<entry key="AllianceOfterEndWarForTarget">
+		<lang key="de">Die Allianz <a href="/Alliance/Info.aspx?Id=%7B0%7D">{1}</a> will den Krieg beenden!</lang>
+		<lang key="en">The alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> wants to end the war!</lang>
+		<lang key="es">La alianza <a href="/Alliance/Info.aspx?Id={0}">{1}</a> pretende poner fin a la guerra!</lang>
+		<lang key="fr">L'alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> veut arrêter la guerre.</lang>
+		<lang key="hr">Savez <a href="/Alliance/Info.aspx?Id={0}">{1}</a> želi završiti rat.</lang>
+		<lang key="pt">A aliança <a href="/Alliance/Info.aspx?Id={0}">{1}</a> pretende pôr um fim à guerra!</lang>
+		<lang key="ro">Alianţa <a href="/Alliance/Info.aspx?Id={0}">{1}</a> vrea să pună capăt războiului!</lang>
+	</entry>
+
+	<entry key="AllianceOfterNAPForSource">
+		<lang key="de">Du hast der <a href="/Alliance/Info.aspx?Id={2}">{3}</a> Allianz einen Null-Aggression Pakt angeboten.</lang>
+		<lang key="en">You ofered a Non Aggression Pact to the <a href="/Alliance/Info.aspx?Id={2}">{3}</a> alliance</lang>
+		<lang key="es">Sugeriste la creación de un Pacto de No Agresión con la alianza <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="fr">Vous avez offert un pacte de non-agression à l'alliance <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="hr">Ponudili ste pakt nenapadanja <a href="/Alliance/Info.aspx?Id={2}">{3}</a> savezu</lang>
+		<lang key="pt">Sugeriste a criação de um Pacto de Não Agressão com a aliança <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="ro">Aţi oferit un Pact de Ne Agresiune alianţei <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+	</entry>
+
+	<entry key="AllianceOfterNAPForTarget">
+		<lang key="de">Die Allianz <a href="/Alliance/Info.aspx?Id=%7B0%7D">{1}</a> will sich auf ein Null-Aggression Pakt einigen.</lang>
+		<lang key="en">The alliance <a href="/Alliance/Info.aspx?Id={0}">{1}</a> wants to agree on a Non Aggression Pact.</lang>
+		<lang key="es">La alianza <a href="/Alliance/Info.aspx?Id={0}">{1}</a> pretende acordar un Pacto de No Agresión.</lang>
+		<lang key="fr">L'alliance  <a href="/Alliance/Info.aspx?Id={0}">{1}</a> veut accepter le pacte de non-agression.</lang>
+		<lang key="hr">Savez <a href="/Alliance/Info.aspx?Id={0}">{1}</a> pristaje na pakt nenapadanja (Non Agression Pact)</lang>
+		<lang key="pt">A aliança <a href="/Alliance/Info.aspx?Id={0}">{1}</a> pretende acordar um Pacto de Não Agressão.</lang>
+		<lang key="ro">Alianţa <a href="/Alliance/Info.aspx?Id={0}">{1}</a> vrea să ajungă la un acord privind un Pact de Ne Agresiune.</lang>
+	</entry>
+
+	<entry key="AllianceSubscriptionForSource">
+		<lang key="de">Du hast eine Mitgliedschaft angefordert in der <a href="/Alliance/Info.aspx?Id=%7B2%7D">{3}</a> Allianz</lang>
+		<lang key="en">You requested membership on the <a href="/Alliance/Info.aspx?Id={2}">{3}</a> alliance</lang>
+		<lang key="es">Solicitaste entrada en la alianza <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="fr">Vous avex demandé de devenir membre à l'alliance  <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="hr">Zatražili ste članstvo u <a href="/Alliance/Info.aspx?Id={2}">{3}</a> savezu.</lang>
+		<lang key="pt">Requisitaste entrada na aliança <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="ro">Aţi solicitat statutul de membru alianţei <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+	</entry>
+
+	<entry key="AllianceSubscriptionForTarget">
+		<lang key="de">Spieler <a href="/PlayerInfo.aspx?PlayerStorage=%7B0%7D">{1}</a> will deiner Allianz beitreten</lang>
+		<lang key="en">Player <a href="/PlayerInfo.aspx?PlayerStorage={0}">{1}</a> wants to join your alliance</lang>
+		<lang key="es">El jugador <a href="/PlayerInfo.aspx?PlayerStorage={0}">{1}</a> pretende adherirse a tu alianza</lang>
+		<lang key="fr">Le joueur <a href="/PlayerInfo.aspx?PlayerStorage={0}">{1}</a> veut se joindre à l'alliance</lang>
+		<lang key="hr">Igrač <a href="/PlayerInfo.aspx?PlayerStorage={0}">{1}</a> želi se pridružiti vašem savezu.</lang>
+		<lang key="pt">O jogador <a href="/PlayerInfo.aspx?PlayerStorage={0}">{1}</a> pretende juntar-se à tua aliança</lang>
+		<lang key="ro">Jucătorul <a href="/PlayerInfo.aspx?PlayerStorage={0}">{1}</a> vrea să adere la alianţă</lang>
+	</entry>
+
+	<entry key="TeamInvitationForSource">
+		<lang key="de">Du hast eine Mitgliedschaft angefordert in der <a href="/Alliance/Info.aspx?Id=%7B2%7D">{3}</a> Allianz</lang>
+		<lang key="en">You requested membership on the <a href="/Alliance/Info.aspx?Id={2}">{3}</a> alliance</lang>
+		<lang key="fr">Vous avez demandé d'êre membre à l'alliance <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+		<lang key="hr">Zatražili ste članstvo u <a href="/Alliance/Info.aspx?Id={2}">{3}</a> savezu</lang>
+		<lang key="pt">Requisitaste entrada na aliança <a href="/Alliance/Info.aspx?Id={2}">{3}</a></lang>
+	</entry>
+
+	<entry key="TeamInvitationForTarget">
+		<lang key="de">Der Spieler <a href="/PrincipalInfo.aspx?Principal=%7B0%7D">{1}</a> hat dich eingeladen ein Team zu bilden.</lang>
+		<lang key="en">The player <a href="/PrincipalInfo.aspx?Principal={0}">{1}</a> invited you to form a team</lang>
+		<lang key="fr">Le joueur <a href="/PrincipalInfo.aspx?Principal={0}">{1}</a> vous invite à former une équipe.</lang>
+		<lang key="hr">Igrač <a href="/PrincipalInfo.aspx?Principal={0}">{1}</a> pozvao vas je da oformite tim</lang>
+		<lang key="pt">O jogador <a href="/PrincipalInfo.aspx?Principal={0}">{1}</a> convidou-te para formar uma equipa</lang>
+	</entry>
+
+</resources>

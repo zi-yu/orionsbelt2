@@ -1,0 +1,4 @@
+#!/bin/sh
+echo starting
+exec sh /usr/bin/mono-fastcgi-service
+

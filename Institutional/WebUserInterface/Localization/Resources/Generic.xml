@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="AboutBattles">
+		<lang key="en">The game battles are what makes Orion's Belt unique. All battles are placed on a board game similar to chess.</lang>
+		<lang key="fr">Les combats de ce jeu explique pourquoi Orion's Belt est unique! Toutes les batailles ont lieu sur un plateau similaire au jeu d’échec.</lang>
+		<lang key="hr">Bitke u igri su ono što čini Orionov Pojas jedinstvenim. Sve bitke su smještene na tabli jako sličnoj onoj u šahu.</lang>
+		<lang key="hu">A Harcok amik egyedivé teszik az Orion's Belt-et. Minden csata egy táblán játszódik hasonlóan a sakkhoz.</lang>
+		<lang key="it">Le battaglie sono ciò che rende Orion's Belt unico. Tutte le battaglie vengono giocate su una Tavola da Gioco simile a quella degli scacchi.</lang>
+		<lang key="pt">As batalhas são o que torna o Orion's Belt único. Todas as batalhas são realizadas num jogo de tabuleiro idêntico ao xadrez.</lang>
+		<lang key="ro">Luptele sunt ceea ce fac Orion's Belt unic. Toate luptele au loc pe o tablă de joc asemănătoare unei table de şah.</lang>
+	</entry>
+
+	<entry key="AboutUniverse">
+		<lang key="en">Play on a vast universe. You'll have to move you fleets on the universe, conquer planets and battle with other players.</lang>
+		<lang key="fr">Immergez-vous dans un univers immense où vous devrez déplacer vos escadrilles, conquérir des planètes et combattre d'autres joueurs.</lang>
+		<lang key="hr">Igrajte u prostranom svemiru. Trebate putovati svojim flotama svemirom, pokoravati planete i boriti se s drugim igračima.</lang>
+		<lang key="hu">Játsz egy hatalmas Univerzumban. Flottáidat kell mozgatnod az Univerzumon belül, bolygókat hődítani és harcolni más játékosokkal.</lang>
+		<lang key="it">Gioca in un vasto universo. Dovrai muovere le tue flotte nell'universo, conquistare pianeti e combattere con altri giocatori.</lang>
+		<lang key="pt">Joga num vasto universo. Terás de mover as tuas armadas à descoberta do universo, conquistando planetas e batalhando com outros jogadores.</lang>
+		<lang key="ro">Joacă pe un univers vast. Va trebui să iţi mişti flotele prin univers, să cucereşti planete şi să înfrunţi alţi jucători.</lang>
+	</entry>
+
+	<entry key="ArtWork">
+		<lang key="en">Art Work</lang>
+		<lang key="fr">Gallerie d'art</lang>
+		<lang key="hr">Art Work</lang>
+		<lang key="hu">Art Work</lang>
+		<lang key="it">Disegni</lang>
+		<lang key="pt">Arte e Conceitos</lang>
+		<lang key="ro">Galerie de Artă</lang>
+	</entry>
+
+	<entry key="Battles">
+		<lang key="en">Battles</lang>
+		<lang key="fr">Combats</lang>
+		<lang key="hr">Bitke</lang>
+		<lang key="hu">Csaták</lang>
+		<lang key="it">Battaglie</lang>
+		<lang key="pt">Batalhas</lang>
+		<lang key="ro">Lupte</lang>
+	</entry>
+
+	<entry key="Blog">
+		<lang key="en">Blog</lang>
+		<lang key="fr">Blog</lang>
+		<lang key="hr">Blog</lang>
+		<lang key="hu">Blog</lang>
+		<lang key="it">Blog</lang>
+		<lang key="pt">Blog</lang>
+		<lang key="ro">Blog</lang>
+	</entry>
+
+	<entry key="FrontPageContent">
+		<lang key="en"><h1>Orion's Belt : Free Tactical MMO</h1>
+  Welcome to Orion's Belt: an online browser based game. The game is very easy to play, as soon as you start to know some basic rules.  You play as an emperor that start on a small Private Zone on the Universe. You have five Planets to Colonize before using a WormHole to Travel to the Hot Zone and interact with other players.
+  <p />
+  On your Planets you will be able to build Facilities and Combat Units. Later on you will be able to join those Combat Units on a Fleet and Travel on Universe, making friends and enemies as you play along.
+  <p />
+  When you engage war, you will have your battles played on a Game Board. That's the most fun part of the game!</lang>
+		<lang key="fr"><h1>Orion's Belt : MMO Tactique Gratuit</h1>
+  Bienvenu à Orion's Belt: un jeu internet en ligne. Ce jeu est très facile à jouer, dès que vous connaissez quelques règles de base. Vous êtes un empereur débutant sur une zone privée où 5 planètes sont prêtes à être colonisées avant de pouvoir emprunter votre trou stellaire. Vous serez ensuite dans la zone « chaude » et pourrez interagir avec d'autres joueurs.
+  <p>
+  Sur vos planètes, vous serez capable d'ériger des constructions et construire des unités de combat. Plus tard, vous pourrez envoyer des escadrilles de combats dans la zone chaude et parcourir l'univers; rencontrant amis et ennemis sur votre chemin...
+  </p><p>
+  Lorsque que vous êtes engagé en guerre, vous serez redirigé sur le plateau de jeu. C'est ce qu'il y a de plus génial dans ce jeu!</p></lang>
+		<lang key="hr"><h1>Orionov Pojas : Besplatni Taktički MMO </h1>
+  Dobrodošli u Orionov Pojas: online browser igru. Igra je jako jednostavna za igrati čim se upoznate s nekim osnovnim pravilima . Igrate kao vladar koji počinje u maloj Privatnoj Zoni u svemiru. Imate pet Planeta za Kolonizirati prije nego upotrijebite Crvotočinu da putujete u Hot Zone i interaktirate s drugim igračima.
+  <p>
+Na svom planetu možete graditi Postrojenja i Borbene Jedinice. Kasnije možete spojiti Borbene Jedinice u Flote i Putovati Svemirom, stvarajući prijatelje i neprijatelje.
+  </p><p>l
+  Kada započnete rat, bitke će se odvijati na Tabli Igre. To je najzabavniji dio igre!</p></lang>
+		<lang key="hu"><h1>Orion's Belt : Free Tactical MMO</h1>
+  Üdvözlünk az Orion's Belt-en: egy online böngésző alapú játékban. A játékot könnyű játszani, miután megismertél pár alapvető szabályt.  Uralkodóként játszol aki az Univerzum egyik Privát Zónájában kezd. Öt bolygó áll a rendelkezésedre hogy kolonizáld őket mielőtt egy féregjuk segítségével elutazol Hot Zone-ba hogy más játékosokkal játsz.
+  <p />
+  Bolygóidon lehetőséged van létesítményeket és Harci egységeke építeni. A későbbiekben ezeket az egységeket egyesíted egy Flottában és beutazod az Univerzumot, ahogy játszod a játékot barátokat és ellenségeket szerzel.
+  <p />
+  Amikor háborút indítasz, a saját csatáidat játszod a Game Board-on. Ez a legélvezetesebb része a játéknak!</lang>
+		<lang key="it"><h1>Orion's Belt : MMO Tattico Gratuito</h1>
+  Benvenuto su Orion's Belt: un browser game spaziale. Il gioco è molto semplice da giocare, una volta che si conoscono le regole principali. Tu giochi come un imperatore che inizia su una piccola zona privata dell'universo. Nella tua Zona Privata puoi colonizzare sino a 5 pianeti prima di iniziare ad usare il WormHole per raggiungere la Zona Calda e interagire con gli altri giocatori.
+  <p>
+  Nei tuoi pianeti potrai costruire edifici e unità da combaggimento che potrai unire in una flotta per viaggiare nell'Universo, dove troverai amici e nemici che ti aspettano.
+  </p><p>
+  Quando entrerai in guerra combatterai le tue battaglie su una Tavola da Gioco. Questa è la parte più divertente del gioco!</p></lang>
+		<lang key="pt"><h1>Orion's Belt : MMO Táctico Grátis</h1>
+  Bem-vindo ao Orion's Belt: um jogo online web based, jogado num browser. O jogo é bastante fácil de jogar, assim que conheceres umas regras básicas.  Tu jogas como um imperador que começa numa pequena Zona Privada no Universo. Tens cinco Planetas para Colonizar antes de usares um Túnel Espacial para viajar para a Zona Pública e interagires com outros jogadores.
+  <p />
+  Nos teus Planetas vais podes construir Edifícios e Unidades de Combate. Mais tarde poderás juntar as tuas Unidades de Combate numa Armada e Viajar no Universo, fazendo amigos e inimigos.
+  <p />
+  Quando entras em guerra, vais travar as tuas batalhas num Tabuleiro de Jogo. Essa é a parte mais interassante do jogo!</lang>
+		<lang key="ro"><h1>Orion's Belt: MMO Tactic Gratuit</h1>
+Bine aţi venit la Orion's Belt: un joc online bazat pe un navigator de internet. Jocul este foarte uşor de jucat, de îndată ce veţi începe să ştiţi câteva reguli de bază. Eşti un împărat a cărui zonă de început o reprezintă Zona Privată din cadrul Universului. Ai cinci planete pe care trebuie să le colonizezi înainte de a utiliza o gaură de vierme pentru a călătorii în Zona Fierbinte şi a interacţiona cu jucătorii.
+<p />
+Pe planetele tale vei putea să construieşti clădiri şi unităţi de luptă. Mai tarziu vei putea să aduni aceste unităţi în cadrul unei flote şi să călătoreşti prin univers făcându-ţi prieteni şi duşmani odată cu inaintarea în joc.
+<p />
+Când te vei angaja într-un război, îţi vei juca bătăliile pe o Tablă de Joc. Aceasta este cea mai distractivă parte din joc!</lang>
+	</entry>
+
+	<entry key="FrontPageTitle">
+		<lang key="en">Orion's Belt : Free Tactical MMO Browser Game</lang>
+		<lang key="fr">Orion's Belt : Jeu tactique gratuit de style MMO sur le Net</lang>
+		<lang key="hr">Orionov Pojas : Besplatna Taktička MMO Browser Igra</lang>
+		<lang key="hu">Orion's Belt : Ingyenes Taktikai Online Játék</lang>
+		<lang key="it">Orion's Belt :MMO Browser Game Tattico Gratuito</lang>
+		<lang key="pt">Orion's Belt : Jogo Online Grátis</lang>
+		<lang key="ro">Orion's Belt : Joc Tactic Gratuit de tip MMO.
+Pentru a te putea juca ai nevoie doar de un navigator de internet.</lang>
+	</entry>
+
+	<entry key="Gazette">
+		<lang key="en">Gazette</lang>
+		<lang key="fr">Gazette</lang>
+		<lang key="hr">Vjesnik</lang>
+		<lang key="hu">Napilap</lang>
+		<lang key="it">Gazzetta</lang>
+		<lang key="pt">Gazeta</lang>
+		<lang key="ro">Gazetă</lang>
+	</entry>
+
+	<entry key="Home">
+		<lang key="en">Home</lang>
+		<lang key="fr">Page principale</lang>
+		<lang key="hr">Početna strana</lang>
+		<lang key="hu">Főoldal</lang>
+		<lang key="it">Pagina Iniziale</lang>
+		<lang key="pt">Início</lang>
+		<lang key="ro">Acasă</lang>
+	</entry>
+
+	<entry key="LoginAction">
+		<lang key="en">Login</lang>
+		<lang key="fr">connexion</lang>
+		<lang key="hr">Prijavi se</lang>
+		<lang key="hu">Belépés</lang>
+		<lang key="it">Login</lang>
+		<lang key="pt">Entrar</lang>
+		<lang key="ro">Autentificare</lang>
+	</entry>
+
+	<entry key="LoginPassword">
+		<lang key="en">Password</lang>
+		<lang key="fr">Mot de Passe</lang>
+		<lang key="hr">Šifra</lang>
+		<lang key="hu">Jelszó</lang>
+		<lang key="it">Password</lang>
+		<lang key="pt">Password</lang>
+		<lang key="ro">Parolă</lang>
+	</entry>
+
+	<entry key="LoginServer">
+		<lang key="en">Server</lang>
+		<lang key="fr">Serveur</lang>
+		<lang key="hr">Server</lang>
+		<lang key="hu">Szerver</lang>
+		<lang key="it">Server</lang>
+		<lang key="pt">Servidor</lang>
+		<lang key="ro">Server</lang>
+	</entry>
+
+	<entry key="LoginUsername">
+		<lang key="en">User Name</lang>
+		<lang key="fr">Nom d'utilisateur</lang>
+		<lang key="hr">Korisničko Ime</lang>
+		<lang key="hu">Felhasználónév</lang>
+		<lang key="it">User Name</lang>
+		<lang key="pt">Código de Utilizador</lang>
+		<lang key="ro">Nume Utilizator</lang>
+	</entry>
+
+	<entry key="Manual">
+		<lang key="en">Manual</lang>
+		<lang key="fr">Guide de jeu</lang>
+		<lang key="hr">Priručnik</lang>
+		<lang key="hu">Manuál</lang>
+		<lang key="it">Manuale</lang>
+		<lang key="pt">Manual</lang>
+		<lang key="ro">Manual</lang>
+	</entry>
+
+	<entry key="MediaArticles">
+		<lang key="en">Orion's Belt on the Internet</lang>
+		<lang key="fr">Orion's Belt sur le Net</lang>
+		<lang key="hr">Orionov Pojas na Internetu</lang>
+		<lang key="hu">Orion's Belt az Interneten</lang>
+		<lang key="it">Orion's Belt su Internet</lang>
+		<lang key="pt">O Orion's Belt na Internet</lang>
+		<lang key="ro">Orion's Belt pe Internet</lang>
+	</entry>
+
+	<entry key="Next">
+		<lang key="en">Next »</lang>
+		<lang key="fr">Prochain »</lang>
+		<lang key="hr">Sljedeća »</lang>
+		<lang key="hu">Következő »</lang>
+		<lang key="it">Successivo »</lang>
+		<lang key="pt">Próxima »</lang>
+		<lang key="ro">Următorul »</lang>
+	</entry>
+
+	<entry key="PlayNow">
+		<lang key="en">Play Now!</lang>
+		<lang key="fr">Jouez Maintenant!</lang>
+		<lang key="hr">Igraj sada!</lang>
+		<lang key="hu">Játssz Most!</lang>
+		<lang key="it">Gioca Ora!</lang>
+		<lang key="pt">Joga Já!</lang>
+		<lang key="ro">Joacă Acum!</lang>
+	</entry>
+
+	<entry key="Press">
+		<lang key="en">Press</lang>
+		<lang key="fr">Presse</lang>
+		<lang key="hr">Objavljivanje</lang>
+		<lang key="hu">Sajtó</lang>
+		<lang key="it">Stampa</lang>
+		<lang key="pt">Imprensa</lang>
+		<lang key="ro">Presă</lang>
+	</entry>
+
+	<entry key="PressKit">
+		<lang key="en">We have available for you a <a href="http://www.orionsbelt.eu.nyud.net/OrionsBeltPressKit.zip">press kit</a>
+  with game images, screen shots, art work, lore
+  and press releases.
+  <p />
+  Are you a blogger? Do you have a website? Write a post/page about Orion's Belt and we'll give you
+  a reward and add your site to the list.</lang>
+		<lang key="fr">Nous avons de disponible pour vous un <a href="http://www.orionsbelt.eu.nyud.net/OrionsBeltPressKit.zip">press kit</a>
+  avec des images, captures d'écrans, dessins originaux, des connaissances et des articles à propos du jeu.
+  <p />
+  Vous avez un blogue ou un site web? Écrivez et postez un article à propos d'Orion's et nous vous récompenserons en plus d'ajouter votre site à une liste!</lang>
+		<lang key="hr">Za vas imamo dostupan <a href="http://www.orionsbelt.eu.nyud.net/OrionsBeltPressKit.zip">press kit</a> sa slikama iz igre, screenshotovima, artworkom i  činjenicama.
+<p />
+Jeste li bloger? Imate li website? Napišite post/stranicu o Orionovom Pojasu i ma ćemo vam dati nagradu i dodati vaš site na listu.</lang>
+		<lang key="hu">Elérhetőek vagyunk számodra <a href="http://www.orionsbelt.eu.nyud.net/OrionsBeltPressKit.zip">press kit</a>
+  Képekkel a játékról, Screeb Shots, Művészik munka, tudomány
+  és újság cikkek.
+  <p />
+  Blogger vagy? Van Web oldalad? Írj egy hozzászólást/oldalt az Orion's Belt-ről és megjutalmazunk
+  és hozzáadjuk az oldaladat a listánkhoz.</lang>
+		<lang key="it">Abbiamo a tua disposizione un <a href="http://www.orionsbelt.eu.nyud.net/OrionsBeltPressKit.zip">press kit</a> con immagini del gioco, screenshots, disegni e la storia del gioco. <p>
+  Sei un blogger? Hai un tuo sito web? Scrivi un post o una pagina su Orion's Belt e riceverai una ricompensa e aggiungeremo il tuo sito alla lista.</p></lang>
+		<lang key="pt">Temos disponível um <a href="http://www.orionsbelt.eu.nyud.net/OrionsBeltPressKit.zip">pacote</a> com imagens do jogo,
+  screen shots, arte e conceitos e história do jogo.
+  <p />
+  És um blogger? Tens o teu próprio site? Faz um post/artigo sobre o Orion's Belt e ganha uma recompensa
+  e um link para o teu site nesta lista.</lang>
+		<lang key="ro">Avem disponibil pentru tine: <a href="http://www.orionsbelt.eu.nyud.net/OrionsBeltPressKit.zip">press kit</a>
+cu imagini din joc, poze, galerie de artă, povestea jocului şi comunicate de presă.
+<p />
+Eşti un blogger? Ai un site? Scrie un post/pagină despre Orion's Belt şi noi te vom recompensa, şi îţi vom adauga site-ul pe lista noastră.</lang>
+	</entry>
+
+	<entry key="Prev">
+		<lang key="en">« Previous</lang>
+		<lang key="fr">« Précédent</lang>
+		<lang key="hr">« Posljednja</lang>
+		<lang key="hu">« Előző</lang>
+		<lang key="it">« Precedente</lang>
+		<lang key="pt">« Anterior</lang>
+		<lang key="ro">« Anteriorul</lang>
+	</entry>
+
+	<entry key="RegisterAction">
+		<lang key="en">Register</lang>
+		<lang key="fr">Enregistrer</lang>
+		<lang key="hr">Registriraj se</lang>
+		<lang key="hu">Regisztráció</lang>
+		<lang key="it">Registrati</lang>
+		<lang key="pt">Registar</lang>
+		<lang key="ro">Inregistrare</lang>
+	</entry>
+
+	<entry key="RegisterHere">
+		<lang key="en">Register Here!</lang>
+		<lang key="fr">Enregistrez-vous Ici!</lang>
+		<lang key="hr">Registrirajte se ovdje!</lang>
+		<lang key="hu">Regisztrálj Itt!</lang>
+		<lang key="it">Registrati Qui!</lang>
+		<lang key="pt">Regista-te Aqui!</lang>
+		<lang key="ro">Inregistraţi-vă Aici!</lang>
+	</entry>
+
+	<entry key="ScreenShots">
+		<lang key="en">Screen Shots</lang>
+		<lang key="fr">Captures d'écrans</lang>
+		<lang key="hr">Slike</lang>
+		<lang key="hu">Képek</lang>
+		<lang key="it">Immagini</lang>
+		<lang key="pt">Imagens</lang>
+		<lang key="ro">Poze</lang>
+	</entry>
+
+	<entry key="TagLine">
+		<lang key="en">Free Browser Game</lang>
+		<lang key="fr">Jeu en Ligne Gratuit</lang>
+		<lang key="hr">Besplatna Browser Igra</lang>
+		<lang key="hu">Ingyenes Online Játék</lang>
+		<lang key="it">Browser Game Gratuito</lang>
+		<lang key="pt">Jogo Online Grátis</lang>
+		<lang key="ro">Joc Gratuit de Internet</lang>
+	</entry>
+
+	<entry key="Testimonials">
+		<lang key="en">Testimonials</lang>
+		<lang key="fr">Témoignages</lang>
+		<lang key="hr">Iskustva igrača</lang>
+		<lang key="hu">Ajánlások</lang>
+		<lang key="it">Testimonials</lang>
+		<lang key="pt">Testemunhos</lang>
+		<lang key="ro">Testimoniale</lang>
+	</entry>
+
+	<entry key="Translations">
+		<lang key="en">Translations</lang>
+		<lang key="fr">Traductions</lang>
+		<lang key="hr">Prijevodi</lang>
+		<lang key="hu">Fordítások</lang>
+		<lang key="it">Traduzioni</lang>
+		<lang key="pt">Traduções</lang>
+		<lang key="ro">Traduceri</lang>
+	</entry>
+
+	<entry key="Universe">
+		<lang key="en">Universe</lang>
+		<lang key="fr">Univers</lang>
+		<lang key="hr">Svemir</lang>
+		<lang key="hu">Univerzum</lang>
+		<lang key="it">Universo</lang>
+		<lang key="pt">Universo</lang>
+		<lang key="ro">Univers</lang>
+	</entry>
+
+	<entry key="UniverseName">
+		<lang key="en">Universe {0}</lang>
+		<lang key="fr">Univers {0}</lang>
+		<lang key="hr">Svemir {0}</lang>
+		<lang key="hu">Univerzum {0}</lang>
+		<lang key="it">Universo {0}</lang>
+		<lang key="pt">Universo {0}</lang>
+		<lang key="ro">Univers {0}</lang>
+	</entry>
+
+</resources>

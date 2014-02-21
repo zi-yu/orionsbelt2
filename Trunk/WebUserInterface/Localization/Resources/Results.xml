@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="AddRareToModifier">
+		<lang key="de"></lang>
+		<lang key="en">+1 Random Rare Per Tick</lang>
+		<lang key="es">+1 Raro Aleatório</lang>
+		<lang key="fr">+1 ressource rare au hasard par tour</lang>
+		<lang key="hr">+1 Slučajni Rijetki Po Ticku</lang>
+		<lang key="it">+1 Risorsa Rara Casuale</lang>
+		<lang key="pt">+1 Raro Aleatório</lang>
+		<lang key="se">+1 Slumpmässig Sällsynt Per Tick</lang>
+	</entry>
+
+	<entry key="AlreadyAtMaxLevelResult">
+		<lang key="de">Kann nicht aufrüsten, bereits auf Maximum Level</lang>
+		<lang key="en">Can't upgrade, already at maximum level</lang>
+		<lang key="es">No es posible evolucionar, ya se encuentra en el nivel máximo</lang>
+		<lang key="fr">Vous ne pouvez pas améliorer car le niveau maximal est atteint</lang>
+		<lang key="hr">Ne može se unaprijediti, već je na maksimalnom nivou</lang>
+		<lang key="it">Impossibile evolvere, è già al massimo livello</lang>
+		<lang key="pt">Não é possível evoluir, já se encontra no nível máximo</lang>
+		<lang key="se">Kan inte uppgradera, är redan på den högsta nivån</lang>
+	</entry>
+
+	<entry key="CanQueueResult">
+		<lang key="de">Wartelisten Platz verfügbar</lang>
+		<lang key="en">Queue space available</lang>
+		<lang key="es">Espacio en la lista de espera</lang>
+		<lang key="fr">Espace de chaîne disponible</lang>
+		<lang key="hr">Mjesto na listi za čekanje dostupno</lang>
+		<lang key="it">Spazio in coda disponibile</lang>
+		<lang key="pt">Espaço na lista de espera</lang>
+		<lang key="se">Kö-utrymme tillgängligt</lang>
+	</entry>
+
+	<entry key="CheckPlanetLevel">
+		<lang key="de">Dieser Planet ist auf einer Level {0} Zone, und deswegen ist es nicht möglich weiter aufzurüsten</lang>
+		<lang key="en">This planet is on a level {0} area, and because of that isn't allowed to upgrade further</lang>
+		<lang key="es">Este planeta se encuentra en una zona de nivel {0} y por eso no es posible evolucionar este edifício</lang>
+		<lang key="fr">Cette plantète est dans une zone de niveau {0} et les bâtiments ne peuvent donc pas être améliorés plus haut que ce chiffre.</lang>
+		<lang key="hr">Ovaj planet je na nivou {0} područja, i zbog toga nije dopušteno daljnje unaprijeđivanje</lang>
+		<lang key="it">Questo pianeta è in un'area di livello {0}, e per questo non può evolvere oltre.</lang>
+		<lang key="pt">Este planeta encontra-se numa zona de nível {0} e por isso não é possível evoluir este edifício</lang>
+		<lang key="se">Den här planeten är i ett område på nivå {0} och därför är det inte tillåtet att uppgradera mer än så här.</lang>
+	</entry>
+
+	<entry key="CheckPlayerPlanetLevel">
+		<lang key="de">Du muss alle Hauptgebäude der Planeten deiner Privat-Zone zum Level {1} aufbauen (gegenwärtig ist der niedrigste Level {0})</lang>
+		<lang key="en">You need to evolve all your main facilities from your private zone planets to level {1} (currently the lesser one is level {0})</lang>
+		<lang key="es">Es necesario evolucionar los edificios principales de los planetas de tu zona private hasta el nível {1} (por el momento, el nivel mas bajo es {0})</lang>
+		<lang key="fr">Vous devez améliorer toutes les constructions principales de vos planètes privés au {1} (actuellement, le plus faible niveau est {0})</lang>
+		<lang key="hr">Trebaš unaprijediti sva glavna postrojenja na planetima u svojoj privatnoj zoni na level {1} (trenutačno je manji nivo {0})</lang>
+		<lang key="it">Devi evolvere tutti i tuoi edifici principali dei pianeti della tua zona privata sino al livello {1} (al momento il livello più basso è {0})</lang>
+		<lang key="pt">É necessário evoluir os edifícios principais dos planetas da tua zona private até nível {1} (de momento, o mais baixo é nível {0})</lang>
+		<lang key="se">Du behöver utveckla alla dina huvud-faciliteter på dina privata planeter till nivå {1} (för närvarande är den lägre på nivå {0})</lang>
+	</entry>
+
+	<entry key="CostResult">
+		<lang key="de">Kosten: {1} {0}</lang>
+		<lang key="en">Cost: {1} {0}</lang>
+		<lang key="es">Costo: {1} {0}</lang>
+		<lang key="fr">Coût: {1} {0}</lang>
+		<lang key="hr">Trošak: {1} {0}</lang>
+		<lang key="it">Costo: {1} {0}</lang>
+		<lang key="pt">Custo: {1} {0}</lang>
+		<lang key="se">Kostnad: {1} {0}</lang>
+	</entry>
+
+	<entry key="DependencyFacilityNotRunningResult">
+		<lang key="de">{0} muss verfügbar sein und betriebsbereit</lang>
+		<lang key="en">{0} must be available and running</lang>
+		<lang key="es">Es necesario tener el {0} disponible y en funcionamiento</lang>
+		<lang key="fr">{0} doit être disponible et fonctionner</lang>
+		<lang key="hr">{0} treba biti dostupan i raditi</lang>
+		<lang key="it">{0} dev'essere disponibile e funzionante</lang>
+		<lang key="pt">É necessário ter o {0} disponível e em funcionamento</lang>
+		<lang key="se">{0} måste vara tillgängliga och igång</lang>
+	</entry>
+
+	<entry key="DependencyResult">
+		<lang key="de">{0} level {1} verfügbar</lang>
+		<lang key="en">{0} level {1} available</lang>
+		<lang key="es">{0} nivel {1} disponible</lang>
+		<lang key="fr">{0} Niveau {1} disponible</lang>
+		<lang key="hr">{0} nivo {1} dostupno</lang>
+		<lang key="it">{0} livello {1} disponibile</lang>
+		<lang key="pt">{0} nível {1} disponível</lang>
+		<lang key="se">{0} på nivå {1} tillgänglig(a)</lang>
+	</entry>
+
+	<entry key="DropAlreadyAtMaxLevelResult">
+		<lang key="de">Konnte Ressource nicht abwerfen '{0}' weil die maximale Anzahl erreicht wurde.</lang>
+		<lang key="en">Could not drop resource '{0}' because it's already at it's maximum quantity.</lang>
+		<lang key="es">No fué posible descargar el recurso '{0}' porque este ya se encuentra en la cantidad máxima.</lang>
+		<lang key="fr">Impossible de déposer la ressource '{0}' car cette dernière est déjà à sa quantité maximale.</lang>
+		<lang key="hr">Resurs '{0}' nije mogao biti ispušten jer je već na maksimalnoj količini.</lang>
+		<lang key="it">Impossibile scaricare la risorsa '{0}' perchè è già alla quantità massima.</lang>
+		<lang key="pt">Não foi possível descarregar o recurso '{0}' porque este já se encontra na quantidade máxima.</lang>
+		<lang key="se">kan inte släppa resursen '{0}' eftersom den redan är på sin max-nivå.</lang>
+	</entry>
+
+	<entry key="DropMaximumFleets">
+		<lang key="de">Nicht alle {0}s weil die maximale Anzahl an Flotten erreicht wurde.</lang>
+		<lang key="en">Not all {0}s could be created because the maximum number of fleets has been achieved.</lang>
+		<lang key="es">No todos los {0}s pudieron ser descargados porque el número máximo de flotas fué alcanzado.</lang>
+		<lang key="fr">Les escadrilles {0}s n'ont pas pu être crées car la nombre maximal d'escadrille est déjà atteint.</lang>
+		<lang key="hr">Svi {0} nisu mogli biti stvoreni jer je maksimalan broj flota dosegnut.</lang>
+		<lang key="it">Non è stato possibile creare tutti gli {0} perchè è stato raggiunto il massimo numero di flotte.</lang>
+		<lang key="pt">Nem todos os {0}s puderam ser descarregados porque o número máximo de armadas foi atingido.</lang>
+		<lang key="se">Alla {0] kunde skapas eftersom max antal Flottor har uppnåtts.</lang>
+	</entry>
+
+	<entry key="DropResourcesSuccessfulResult">
+		<lang key="de">{0} Einheiten der Ressource '{1}' wurden erfolgreich abgeworfen.</lang>
+		<lang key="en">{0} units of the resource '{1}' were drop successfully.</lang>
+		<lang key="es">{0} unidades del recurso '{1}' fueron descargadas con éxito.</lang>
+		<lang key="fr">{0} unités de la ressource '{1}' a été déposé avec succès.</lang>
+		<lang key="hr">{0} jedinica resursa '{1}' je ispušteno uspješno.</lang>
+		<lang key="it">{0} unità della risorsa '{1}' sono state scaricate con successo.</lang>
+		<lang key="pt">{0} unidades do recurso '{1}' foram descarregadas com sucesso.</lang>
+		<lang key="se">{0} enheter av resursen '{0}' har släppts.</lang>
+	</entry>
+
+	<entry key="DropSomeAlreadyAtMaxLevelResult">
+		<lang key="de">Nur {0} Einheiten der Ressource '{1}' wurden abgeworfen weil dieser bereits die maximale Anzahl hat.</lang>
+		<lang key="en">Only {0} units of the resource '{1}' were drop because it's already at maximum quantity.</lang>
+		<lang key="es">Sólo fueron descargadas {0} unidades del recurso '{1}' porque este ya se encuentra en la quantidade máxima.</lang>
+		<lang key="fr">Seulement {0} unités de le ressource '{1}' ont été déposés car la capacité maximale est déjà atteinte.</lang>
+		<lang key="hr">Samo {0} jedinica resursa '{1}' je ispušteno jer je već na maksimalnoj količini.</lang>
+		<lang key="it">Solo {0} unità della risorsa '{1}' sono state scaricate perchè ha raggiunto la massima quantità.</lang>
+		<lang key="pt">Só foram descarregadas {0} unidades do recurso '{1}' porque este já se encontra na quantidade máxima.</lang>
+		<lang key="se">Bara {0} enheter av resursen '{1}' släpptes eftersom den redan är på sin max-nivå.</lang>
+	</entry>
+
+	<entry key="FleetCreated">
+		<lang key="de">Flotte erzeugt</lang>
+		<lang key="en">Fleet Created</lang>
+		<lang key="es">Flota Creada</lang>
+		<lang key="fr">Escadrille crée</lang>
+		<lang key="hr">Flota Stvorena</lang>
+		<lang key="it">Flotta Creata</lang>
+		<lang key="pt">Armada Criada</lang>
+		<lang key="se">Flotta Skapad</lang>
+	</entry>
+
+	<entry key="FleetNotAround">
+		<lang key="de">Flotte '{0}' ist nicht nahe genug an Flotte '{1}' um einen Einheiten Transfer zu machen.</lang>
+		<lang key="en">Fleet '{0}' is not close enough from fleet '{1}' to make a unit transfer.</lang>
+		<lang key="es">Flota '{0}' no está lo suficientemente cerca de la flota '{0}' para hacer una transferencia.</lang>
+		<lang key="fr">L'escadrille '{0}' n'est pas assez proche de l'escadrille '{1}' pour faire le transfert.</lang>
+		<lang key="hr">Flota '{0}' nije dovoljno blizu floti '{1}' da bi prebacila jedince.</lang>
+		<lang key="it">La flotta '{0}' non è sufficientemente vicina alla flotta '{1}' per fare il trasferimento.</lang>
+		<lang key="pt">Armada '{0}' não está suficientemente perto da armada '{0}' para fazer uma transferência.</lang>
+		<lang key="se">Flottan '{0}' är inte nära flottan '{1}' nog för att föra över enheter.</lang>
+	</entry>
+
+	<entry key="FleetTradeCargoDropped">
+		<lang key="de">Flotte '{0}' warf all ihre Handelsgüter ab.</lang>
+		<lang key="en">Fleet '{0}' dropped all it's trade goods.</lang>
+		<lang key="es">Flota '{0}' soltó toda la carga comercial.</lang>
+		<lang key="fr">L'escadrille'{0}' à désposé tout ses biens commerciaux.</lang>
+		<lang key="hr">Flota '{0}' je isputila sva trgovačka dobra.</lang>
+		<lang key="it">Flotta '{0}' ha scaricato tutto il carico commerciale</lang>
+		<lang key="pt">Armada '{0}' largou toda a carga comercial.</lang>
+		<lang key="se">Flottan '{0}' släppte alla sina handelsvaror.</lang>
+	</entry>
+
+	<entry key="InvalidFleetName">
+		<lang key="de">Der Name '{0}' ist ein ungültiger Name für eine Flotte.</lang>
+		<lang key="en">The name '{0}' is an invalid name for a fleet.</lang>
+		<lang key="fr">Le nom '{0}' est invalide pour une escadrille.</lang>
+		<lang key="hr">Ime '{0}' je nedopušteno ime za flotu.</lang>
+		<lang key="it">Il nome '{0}' non è un nome valido per una flotta.</lang>
+		<lang key="pt">O nome '{0}' é um nome inválido para uma armada.</lang>
+		<lang key="se">Namnet '{0}' är inte ett tillåtet namn på en flotta.</lang>
+	</entry>
+
+	<entry key="MaximumFleets">
+		<lang key="de">Maximum an Flotten erreicht</lang>
+		<lang key="en">Maximum Fleets Achieved</lang>
+		<lang key="es">Llegaste al número máximo de flotas</lang>
+		<lang key="fr">Nombre d'escadrilles maximum atteint</lang>
+		<lang key="hr">Maksimalne Flote Dosegnute</lang>
+		<lang key="it">Raggiunto numero massimo di flotte</lang>
+		<lang key="pt">Chegaste ao número máximo de armadas</lang>
+		<lang key="se">Max antal uppnådda Flottor</lang>
+	</entry>
+
+	<entry key="MoveSucceded">
+		<lang key="de">Alle Bewegungen waren erfolgreich.</lang>
+		<lang key="en">All moves were made with success.</lang>
+		<lang key="fr">Tout les mouvemnets ont été faits avec succès</lang>
+		<lang key="hr">Svi potezi su odigrani uspješno.</lang>
+		<lang key="it">Tutte le mosse sono state eseguite con successo.</lang>
+		<lang key="pt">Todos os movimentos foram feitos com sucesso.</lang>
+		<lang key="se">Alla förflyttningar kunde genomföras.</lang>
+	</entry>
+
+	<entry key="NotEnoughUnits">
+		<lang key="de">Flotte '{0}' hat nicht {1} {2}.</lang>
+		<lang key="en">Fleet '{0}' doesn't have {1} {2}.</lang>
+		<lang key="es">Flota '{0}' no posee {1} {2}.</lang>
+		<lang key="fr">L'escadrille '{0}' ne possède pas {1} {2}.</lang>
+		<lang key="hr">Flota '{0}' nema {1} {2}.</lang>
+		<lang key="it">La flotta '{0}' non ha {1} {2}.</lang>
+		<lang key="pt">Armada '{0}' não possui {1} {2}.</lang>
+		<lang key="se">Flottan '{0]' har inte {1} {2}.</lang>
+	</entry>
+
+	<entry key="PlayerPlanetLevelDependency">
+		<lang key="de">Spieler/Planet Level Check</lang>
+		<lang key="en">Player/Planet Level Check</lang>
+		<lang key="es">Restricción por Nivel de Jugador/Planeta</lang>
+		<lang key="fr">Vérification du niveau de Planète/Joueur</lang>
+		<lang key="hr">Igrač/Planet Nivo Provjera</lang>
+		<lang key="it">Restrizione per il livello del Giocatore/Pianeta</lang>
+		<lang key="pt">Restricção por Nível de Jogador/Planeta</lang>
+		<lang key="se">Spelares / Planets Nivåkontroll</lang>
+	</entry>
+
+	<entry key="QuantityRestrictionResult">
+		<lang key="de">Du kannst nur eine maximale Anzahl von {1} zur gleichen Zeit bauen.</lang>
+		<lang key="en">You can only build a maximum of {1} simultaneously</lang>
+		<lang key="es">Sólo puedes poner en producción un máximo de {1} al mismo tiempo</lang>
+		<lang key="fr">Vous pouvez seulement construire un maximum de {1} en même temps</lang>
+		<lang key="hr">Možeš samo graditi makismum od {1} odjednom</lang>
+		<lang key="it">Puoi costruire un massimo di {1} contemporaneamente</lang>
+		<lang key="pt">Só podes pôr em produção um máximo de {1} ao mesmo tempo</lang>
+		<lang key="se">Du kan endast bygga maximalt {1} samtidigt.</lang>
+	</entry>
+
+	<entry key="UltimateRestrictionResult">
+		<lang key="de">Du musst mehr Konstruktionsgebäude der höchsten Einheiten ({1}) als höchste Einheiten ({0}) haben</lang>
+		<lang key="en">You need to have more ultimate unit builder facilities({1}) than ultimate units({0})</lang>
+		<lang key="es">Tienes que tener más edificios de construcción de unidades supremas({1}) que unidades supremas({0})</lang>
+		<lang key="fr">Vous devez avoir plus de bâtiments pour construire les unités ultimes ({1}) que d'unités ultime({0})</lang>
+		<lang key="hr">Trebate imati više graditeljskih postrojenja ultimativnih jedinica ({1}) nego ultimativnih jedinica ({0})</lang>
+		<lang key="it">Devi avere più edifici di costruzione di unità supreme({1}) che unità supreme({0})</lang>
+		<lang key="pt">Tens de ter mais edifícios de construção de unidades supremas({1}) do que unidades supremas({0})</lang>
+		<lang key="se">Du behöver fler faciliteter({1}) för ultimata enheter än ultimata enheter({0})</lang>
+	</entry>
+
+	<entry key="UnitsTransferedSuccessfully">
+		<lang key="de">{0} {1} wurden erfolgreich übertragen von Flotte '{2}' zu Flotte '{3}'</lang>
+		<lang key="en">{0} {1} were transfered from fleet '{2}' to fleet '{3}' successfully</lang>
+		<lang key="es">{0} {1} fueron transferidos de la flota '{2}' para la flota '{3}' con éxito</lang>
+		<lang key="fr">{0} {1} ont été transférés de l'escadrille '{2}' à l'escadrille '{3}' avec succès</lang>
+		<lang key="hr">{0} {1} su prebačeni iz flote '{2}' u flotu '{3}' uspješno</lang>
+		<lang key="it">{0} {1} sono stati trasferiti dalla flotta '{2}' alla flotta '{3}' con successo</lang>
+		<lang key="pt">{0} {1} foram transferidos da armada '{2}' para a armada '{3}' com sucesso</lang>
+		<lang key="se">{0} {1} fördes över från flottan '{0}' till flottan '{3}' med gott resultat.</lang>
+	</entry>
+
+</resources>

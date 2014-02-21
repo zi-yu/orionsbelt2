@@ -1,0 +1,82 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/Manual.Master" %>
+
+<asp:Content ContentPlaceHolderID="topTitle" runat="server">
+	<asp:ContentPlaceHolder ID="topTitle" runat="server">
+		$utils.Localize("TopManualTitle")
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	<asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="menu" runat="server">
+	<h2>$utils.Localize("Menu")</h2>
+	<ul>
+        <li><a href="/$locale/Default.aspx">$utils.Localize("Home")</a></li>
+        <li><a href="/$locale/Race/Races.aspx">$utils.Localize("Races")</a></li>
+        <li><a href="/$locale/Universe/Default.aspx">$utils.Localize("Universe")</a></li>
+        <li><a href="/$locale/Commerce/Default.aspx">$utils.Localize("Commerce")</a></li>
+        <li><a href="/$locale/Quests.aspx">$utils.Localize("Quests")</a></li>
+        <li><a href="/$locale/API.aspx">$utils.Localize("API")</a></li>
+    </ul>
+	<h2>$utils.Localize("Battles")</h2>
+	<ul>
+		<li><a href="/$locale/Battles/WarZone.aspx">$utils.Localize("WarZone")</a></li>
+        <li><a href="/$locale/Battles/BattleConcepts.aspx">$utils.Localize("BattleConcepts")</a></li>
+        <li><a href="/$locale/Battles/BattleTactics.aspx">$utils.Localize("BattleTactics")</a></li>
+    </ul>
+	<h2>$utils.Localize("Resources")</h2>
+	<ul>
+		<li><a href="/$locale/UnitIndex.aspx">$utils.Localize("Units")</a></li>
+		<li><a href="/$locale/MobsIndex.aspx">$utils.Localize("Mobs")</a></li>
+		<li><a href="/$locale/FacilityIndex.aspx">$utils.Localize("Facilities")</a></li>
+		<li><a href="/$locale/IntrinsicIndex.aspx">$utils.Localize("Intrinsics")</a></li>
+	</ul>
+	<asp:ContentPlaceHolder ID="menu" runat="server">
+		</asp:ContentPlaceHolder>
+	#*<div class="translate">
+        <script src="http://www.gmodules.com/ig/ifr?url=http://www.google.com/ig/modules/translatemypage.xml&up_source_language=$locale&w=150&h=60&title=&border=&output=js"></script></li>
+    </div>*#
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<div id="rightMenu">
+		<asp:ContentPlaceHolder ID="conceptMenu" runat="server">
+		</asp:ContentPlaceHolder>
+    </div>
+
+    <asp:ContentPlaceHolder ID="content" runat="server">
+    </asp:ContentPlaceHolder>
+
+    $utils.GetUnitTips()
+
+	<script type="text/javascript">var disqus_iframe_css = "http://manual.orionsbelt.eu/Style/Style.css";</script>
+#if( $locale == "pt" )
+	<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/orionsbeltmanualpt/embed.js"></script><noscript><a href="http://orionsbeltmanualpt.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+#else
+	<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/orionsbeltmanual/embed.js"></script><noscript><a href="http://orionsbeltmanual.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+#end
+	<script type="text/javascript">
+	//<![CDATA[
+	(function() {
+			var links = document.getElementsByTagName('a');
+			var query = '?';
+			for(var i = 0; i < links.length; i++) {
+				if(links[i].href.indexOf('#disqus_thread') >= 0) {
+					query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+				}
+			}
+			document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/orionsbeltmanual/get_num_replies.js' + query + '">'+'<'+'/' + 'script>');
+		})();
+	//]]>
+	</script>
+
+
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="footer" runat="server">
+	$utils.GetFooterContent()
+</asp:Content>

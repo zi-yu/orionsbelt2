@@ -1,0 +1,6 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/OrionsBeltUniverse.Master" Inherits="OrionsBelt.WebUserInterface.Quests.QuestsMaster" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+    <OrionsBeltUI:QuestMenu runat="server"></OrionsBeltUI:QuestMenu>
+    <asp:ContentPlaceHolder ID="Content" runat="server" />
+</asp:Content>

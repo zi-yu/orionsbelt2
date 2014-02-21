@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="DiagonalTrapContent">
+		<lang key="de"><h1>Diagonal Trap</h1><div class="content">
+    Die [DiagonalTrap] ist eine Taktik die darauf ausgerichtet ist einen Nutzen zu ziehen aus der 
+    limitierten Beweglichkeit der [MovDiagonal] Einheiten, zum Beispiel: [Eagle], [Pretorian], 
+    [Doomer] or [Interceptor]. 
+    <p>
+    Die [CombatUnits] mit [MovDiagonal] können steckenbleiben ohne jede Möglichkeit der Flucht wenn 
+    sie feindliche [CombatUnits] auf allen Vierecken haben die ihnen zur Verfügung stehen.
+    Eine Einheit kann nur frontal angreifen, deshalb sind sie komplett verwundbar.
+    </p><p>
+    Das folgende Beispiel zeigt eine [DiagonalTrap] an allen vier Ecken:
+
+    <img class="block" src="/Resources/Images/DiagonalTrap2.png" alt="Diagonal Trap Example"/>
+
+    And this example shows a [DiagonalTrap] on the extremity of the [GameBoard]:
+    
+    <img class="block" src="/Resources/Images/DiagonalTrap1.png" alt="Diagonal Trap Example"/>
+
+  Du solltest sehr vorsichtig sein wenn du deine [CombatUnits] mit [MovDiagonal] zu den Extremitäten 
+  des [GameBoard] bewegst. Sie verlieren nicht nur 50% Mobilität, sie werden auch viel anfälliger für 
+  eine [DiagonalTrap].
+
+  </p><h2>Wie bekämpft man eine Diagonal Falle?</h2>
+  Der beste Weg diese Falle zu bekämpfen ist sie total zu vermeiden. Dennoch, wenn dein Gegner es 
+  schafft die Falle anzuwenden, ist der einzige Fluchtweg andere [CombatUnits] zu benutzen um 
+  diejenigen die die Falle aufstellen zu zerstören.
+    </div></lang>
+		<lang key="en"><h1>Diagonal Trap</h1><div class="content">
+    The [DiagonalTrap] is a tactic that aims to take advantage of the movement limitations of the
+    [MovDiagonal] units, for example: [Eagle], [Pretorian], [Doomer] or [Interceptor]. 
+    <p />
+    The [CombatUnits] with [MovDiagonal] can be stuck without any way to escape if they have enemy [CombatUnits]
+    on all the possible movement squares. A unit can only attack to the front, so they become completely 
+    vulnerable.
+    <p />
+    The following example shows a [DiagonalTrap] on four corners:
+
+    <img class="block" src="/Resources/Images/DiagonalTrap2.png" alt="Diagonal Trap Example" />
+
+    And this example shows a [DiagonalTrap] on the extremity of the [GameBoard]:
+    
+    <img class="block" src="/Resources/Images/DiagonalTrap1.png" alt="Diagonal Trap Example" />
+
+  You should be very careful when  moving your [CombatUnits] with [MovDiagonal] to an extremity of the
+  [GameBoard]. Not only do they loose 50% mobility, they also become very much open to a [DiagonalTrap].
+
+  <h2>How to fight the Diagonal Trap?</h2>
+  The best way to fight it is just to avoid completely the enemy's trap. However, if you opponent manages
+  to apply the trap, the only way to escape is using other [CombatUnits] to destroy the ones that
+  form the trap.
+    </div></lang>
+		<lang key="es"><h1>Trampa Diagonal</h1><div class="content">
+ 
+  La [DiagonalTrap] es una táctica que permite aproveitar las limitaciones de movimiento de todas las unidades con
+  [MovDiagonal], como por ejemplo: [Eagle], [Pretorian], [Doomer] o [Interceptor]. Muchos jugadores llaman cariñosamente
+  a esta táctica: <i>prisión de vientre</i>.
+  <p />
+  Las [CombatUnits] con [MovDiagonal] pueden quedar presas sin cualquier forma de escape si tuvieran 
+  [CombatUnits] adversárias en todas las cuadrículas para donde se pueden mover. Como solo atacan hacia adelante, quedan
+  completamente vulnerables.
+  <p />
+  El siguiente ejemplo muestra una [DiagonalTrap] en las cuatro esquinas:
+
+  <img class="block" src="/Resources/Images/DiagonalTrap2.png" alt="Exemplo de Armadilha Diagonal" />
+
+  Y este ejemplo muestra una [DiagonalTrap] en la extremidad del [GameBoard]:
+
+  <img class="block" src="/Resources/Images/DiagonalTrap1.png" alt="Exemplo de Armadilha Diagonal" />
+    
+    Se debe tener siempre mucho cuidado en tener [CombatUnits] con [MovDiagonal] en una extremidade de [GameBoard].
+    Más allá  que pierden el 50% de mobilidad, quedan mucho mas abiertas a una [DiagonalTrap].
+    
+    <h2>Como combatir una Trampa Diagonal?</h2>
+    La mejor forma es evitar por completo caer en la [DiagonalTrap]. A pesar de esto , si el adversário consigue aplicar 
+    la Trampa, la única forma es con outras [CombatUnits] destruir las unidades que compnen la Trampa.
+  </div></lang>
+		<lang key="fr"><h1>Piège Diagonal</h1><div class="content">
+    La [DiagonalTrap] est une tactique dont le but est de prendre avantage des limitations des unités pouvant seulement se déplacer à la diagonale. [MovDiagonal] Par exemple, le [Eagle], le [Pretorian], le [Doomer] et l'[Interceptor]. 
+    <p />
+    Les [CombatUnits] avec [MovDiagonal] peuvent être pris au piège sans pouvoir s'échapper si il y a des [CombatUnits] adverses sur chacun des coins par rapport à cet unité. can be stuck without any way to escape if they have enemy [CombatUnits]
+ Une unité ne peut pas attaquer directement les cases diagonales et devient donc complètement vulnérable.
+    <p />
+    Voici un exemple montrant une [DiagonalTrap] sur les 4 coins:
+
+    <img class="block" src="/Resources/Images/DiagonalTrap2.png" alt="Diagonal Trap Example" />
+
+    Et cet exemple montre une [DiagonalTrap] sur une extremité du [GameBoard]:
+    
+    <img class="block" src="/Resources/Images/DiagonalTrap1.png" alt="Diagonal Trap Example" />
+
+  Vous devriez faire très attention lorsque vous déplacez des [CombatUnits] avec [MovDiagonal] à l'extrêmité du
+  [GameBoard]. Non seulement cette unité perd 50% de sa mobilité, elle risque aussi de tomber plus facilement dans une [DiagonalTrap].
+
+  <h2>Comment combattre un piège diagonal?</h2>
+  La meilleura façon de combattre cette tactique est simplement d'éviter le piège de l'adversaire. Si l'ennemi réussit tout de même à vous attirer dans son piège, la seule façon de sauver l'unité victime est d'utiliser d'autres [CombatUnits] pour détruire celle qui forment la trappe.
+    </div></lang>
+		<lang key="hr"><h1>Dijagonalna Zamka</h1><div class="content">
+[DiagonalTrap] je taktika koja cilja da iskotristi limite pokreta [MovDiagonal] jedinca, na primjer: [Eagle], [Pretorian], [Doomer] or [Interceptor]. 
+<p />
+[CombatUnits] sa [MovDiagonal] mogu zapeti bez bilo kakvog načina da pobjegnu ako imaju naprijateljske [CombatUnits] na svim mogućim kvadratima na koje se mogu pomaknuti. Jedinica može napadati samo naprijed, pa zbog toga postaje kompletno ranjiva. 
+<p />
+Sljedeći primjer pokazuje [DiagonalTrap] u četiri kuta:
+
+<img class="block" src="/Resources/Images/DiagonalTrap2.png" alt="Diagonal Trap Example" />
+
+
+A ovaj primjer pokazuje [DiagonalTrap] na rubu [GameBoard]:
+
+<img class="block" src="/Resources/Images/DiagonalTrap1.png" alt="Diagonal Trap Example" />
+
+Trebali biste biti jako oprezni kada mičete [CombatUnits] sa [MovDiagonal] na rub [GameBoard]. Ne samo da izgube 50% mobilnosti, već postaju i laka meta za [DiagonalTrap].
+
+<h2>Kako se boriti protiv Dijagonalne Zamke</h2>
+Najbolji način da se bori protiv nje je da se u potpunosti izbjegne protivnikova zamka. Međutim, ako protivnik uspije primjeniti zamku, jedini način da se pobjegne iz nje je korištenje drugih [CombatUnits] da unište one koje formiraju zamku.
+</div></lang>
+		<lang key="it"><h1>Trappola Diagonale</h1><div class="content">
+    La [DiagonalTrap] è una tattica che mira ad avantaggiarsi delle limitazioni di movimento delle unità [MovDiagonal], come ad esempio: [Eagle], [Pretorian], [Doomer] o [Interceptor]. 
+    <p>
+    Le [CombatUnits] con [MovDiagonal] possono essere bloccate senza via di fuga se hanno  [CombatUnits] nemiche in ogni possibile casella di movimento. Una unità può attaccare solo di fronte a se, quindi diventa completamente vulnerabile.
+    </p><p>
+    Il seguente esempio mostra una [DiagonalTrap] su quattro angoli:
+
+    <img class="block" src="/Resources/Images/DiagonalTrap2.png" alt="Diagonal Trap Example" />
+
+    E questo mostra una [DiagonalTrap] sul lato della [GameBoard]:
+    
+    <img class="block" src="/Resources/Images/DiagonalTrap1.png" alt="Diagonal Trap Example" />
+
+  Devi essere molto attento quando muovi le tue [CombatUnits] con [MovDiagonal] a una estremità della [GameBoard]. Non solo perdono il 50% della mobilità, ma diventano aperte ad attacchi di tipo [DiagonalTrap].
+
+  </p><h2>Come si contrasta la Trappola Diagonale?</h2>
+  Il modo migliore di contrastarla è evitarla completamente. Ad ogni modo se il tuo avversario riesce a intrappolarti, l'unico modo di scappare è usando altre [CombatUnits] per distruggere quelle che formano la trappola.
+    </div></lang>
+		<lang key="pt"><h1>Armadilha Diagonal</h1><div class="content">
+  A [DiagonalTrap] é uma táctica que visa aproveitar as limitações de movimento de todas as unidades com
+  [MovDiagonal], como por exemplo: [Eagle], [Pretorian], [Doomer] ou [Interceptor]. Muitos jogadores chamam
+  carinhosamente a esta táctica: <i>prisão de ventre</i>.
+  <p />
+  As [CombatUnits] com [MovDiagonal] podem ficar presas sem qualquer forma de escapar se tiverem
+  [CombatUnits] adversárias em todas as quadrículas para onde se podem mover. Como só atacam em frente, ficam
+  completamente vulneráveis.
+  <p />
+  O seguinte exemplo mostra uma [DiagonalTrap] nos quatro cantos:
+
+  <img class="block" src="/Resources/Images/DiagonalTrap2.png" alt="Exemplo de Armadilha Diagonal" />
+
+  E este exemplo mostra uma [DiagonalTrap] na extremidade do [GameBoard]:
+
+  <img class="block" src="/Resources/Images/DiagonalTrap1.png" alt="Exemplo de Armadilha Diagonal" />
+    
+    Deve-se ter sempre muito cuidado em ter [CombatUnits] com [MovDiagonal] numa extremidade do [GameBoard].
+    Além de perderem 50% de mobilidade, ficam muito mais abertas a uma [DiagonalTrap].
+    
+    <h2>Como combater a Armadilha Diagonal?</h2>
+    A melhor forma é evitar por completo cair na [DiagonalTrap]. Contudo, se o adversário conseguir aplicar 
+    a armadilha, a única forma é com outras [CombatUnits] destruir as unidades que compõem a armadilha.
+  </div></lang>
+		<lang key="tr"></lang>
+	</entry>
+
+</resources>

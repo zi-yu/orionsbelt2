@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A73B0DB-13D5-43C3-AA75-E8E59870902F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrionsBelt.RulesCore</RootNamespace>
+    <AssemblyName>OrionsBelt.RulesCore</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\WebUserInterface\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DesignPatterns, Version=1.1.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42" />
+    <Reference Include="Loki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BonusUtils.cs" />
+    <Compile Include="Common\BaseFacility.cs" />
+    <Compile Include="Common\Coordinate.cs" />
+    <Compile Include="Common\BaseIntrinsic.cs" />
+    <Compile Include="Common\BaseResourceWithRules.cs" />
+    <Compile Include="Common\BaseUnit.cs" />
+    <Compile Include="Common\BaseRichness.cs" />
+    <Compile Include="Common\CoordinateDistance.cs" />
+    <Compile Include="Common\ResourceList.cs" />
+    <Compile Include="Common\Race.cs" />
+    <Compile Include="Common\ResourceType.cs" />
+    <Compile Include="Common\ResourceState.cs" />
+    <Compile Include="Common\RulesException.cs" />
+    <Compile Include="Common\SectorCoordinate.cs" />
+    <Compile Include="Enum\BattleMode.cs" />
+    <Compile Include="Enum\BattleType.cs" />
+    <Compile Include="Enum\AllianceRank.cs" />
+    <Compile Include="Enum\AllianceDiplomacyLevel.cs" />
+    <Compile Include="Enum\ActivityStatus.cs" />
+    <Compile Include="Enum\AuctionHouseType.cs" />
+    <Compile Include="Enum\BonusType.cs" />
+    <Compile Include="Enum\PromotionStatusType.cs" />
+    <Compile Include="Enum\PromotionType.cs" />
+    <Compile Include="Enum\RevenueType.cs" />
+    <Compile Include="Enum\StatusEnum.cs" />
+    <Compile Include="Enum\PriorityEnum.cs" />
+    <Compile Include="Enum\TaskType.cs" />
+    <Compile Include="Enum\MedalType.cs" />
+    <Compile Include="Enum\ServiceType.cs" />
+    <Compile Include="Enum\ShowInfo.cs" />
+    <Compile Include="Enum\DuplicateType.cs" />
+    <Compile Include="Enum\Profession.cs" />
+    <Compile Include="Enum\GlobalStatType.cs" />
+    <Compile Include="Enum\SpecialSetorType.cs" />
+    <Compile Include="Enum\QuestContext.cs" />
+    <Compile Include="Enum\TransactionIdentifier.cs" />
+    <Compile Include="Enum\TransactionContext.cs" />
+    <Compile Include="Enum\ProductType.cs" />
+    <Compile Include="Enum\InteractionContext.cs" />
+    <Compile Include="Enum\Visibility.cs" />
+    <Compile Include="Enum\Occurrence.cs" />
+    <Compile Include="Enum\TournamentMode.cs" />
+    <Compile Include="Enum\MovementType.cs" />
+    <Compile Include="Enum\UnitDisplacement.cs" />
+    <Compile Include="Enum\UnitCategory.cs" />
+    <Compile Include="Enum\Terrain.cs" />
+    <Compile Include="Enum\PositionType.cs" />
+    <Compile Include="Enum\UnitType.cs" />
+    <Compile Include="Interfaces\Actions\IActionOwner.cs" />
+    <Compile Include="Interfaces\Alliances\IAlliance.cs" />
+    <Compile Include="Interfaces\Battle\IPrincipalOwner.cs" />
+    <Compile Include="Interfaces\Battle\IPlayerOwner.cs" />
+    <Compile Include="Interfaces\Battle\IBattle.cs" />
+    <Compile Include="Interfaces\Battle\IBattleOwner.cs" />
+    <Compile Include="Interfaces\Battle\IBattleResult.cs" />
+    <Compile Include="Interfaces\Battle\IPlayerStatistics.cs" />
+    <Compile Include="Interfaces\Battle\IBonus.cs" />
+    <Compile Include="Interfaces\Battle\IBattleInfo.cs" />
+    <Compile Include="Interfaces\Battle\IBattleCoordinate.cs" />
+    <Compile Include="Interfaces\Battle\IBattlePlayer.cs" />
+    <Compile Include="Interfaces\Battle\IScore.cs" />
+    <Compile Include="Interfaces\Battle\IUltimateUnit.cs" />
+    <Compile Include="Interfaces\Battle\IUnitBonus.cs" />
+    <Compile Include="Interfaces\Battle\IEffect.cs" />
+    <Compile Include="Interfaces\Battle\IElement.cs" />
+    <Compile Include="Interfaces\Battle\IInitialContainer.cs" />
+    <Compile Include="Interfaces\Battle\ISpecialMove.cs" />
+    <Compile Include="Interfaces\Battle\IBattleStatistics.cs" />
+    <Compile Include="Interfaces\Battle\IPositionConversion.cs" />
+    <Compile Include="Interfaces\Generic\IInteractionType.cs" />
+    <Compile Include="Interfaces\Generic\IBackToStorage.cs" />
+    <Compile Include="Interfaces\Quests\IMobsQuest.cs" />
+    <Compile Include="Interfaces\Quests\IRaidQuest.cs" />
+    <Compile Include="Interfaces\Quests\ITradeRouteQuest.cs" />
+    <Compile Include="Interfaces\Quests\IBattleQuest.cs" />
+    <Compile Include="Interfaces\Quests\IQuestSpecificData.cs" />
+    <Compile Include="Interfaces\Quests\IQuestData.cs" />
+    <Compile Include="Interfaces\Quests\IQuestInfo.cs" />
+    <Compile Include="Interfaces\Resources\IAuctionItem.cs" />
+    <Compile Include="Interfaces\Resources\IFacilitySlot.cs" />
+    <Compile Include="Interfaces\Resources\IResourceQuantity.cs" />
+    <Compile Include="Interfaces\Resources\IResourceRichness.cs" />
+    <Compile Include="Interfaces\Resources\IIntrinsicLimiter.cs" />
+    <Compile Include="Interfaces\Resources\IResourceQueue.cs" />
+    <Compile Include="Interfaces\Resources\IResourceOwner.cs" />
+    <Compile Include="Interfaces\Tournament\ITournament4Creator.cs" />
+    <Compile Include="Interfaces\Tournament\ITournamentCreator.cs" />
+    <Compile Include="Interfaces\Tournament\ITournamentCreatorBase.cs" />
+    <Compile Include="Interfaces\Tournament\ILadderCreator.cs" />
+    <Compile Include="Interfaces\Universe\IUltimateWeaponArgs.cs" />
+    <Compile Include="Interfaces\Universe\IUltimateWeapon.cs" />
+    <Compile Include="Interfaces\Universe\IRaceInfo.cs" />
+    <Compile Include="Interfaces\Universe\ISector.cs" />
+    <Compile Include="Interfaces\Universe\ISystem.cs" />
+    <Compile Include="Interfaces\Universe\ITerrainInfo.cs" />
+    <Compile Include="Interfaces\Universe\IPlanetInfo.cs" />
+    <Compile Include="Interfaces\Universe\IModifierHandler.cs" />
+    <Compile Include="Interfaces\Universe\IPlayer.cs" />
+    <Compile Include="Interfaces\Universe\IFleetElement.cs" />
+    <Compile Include="Interfaces\Universe\IFleetInfo.cs" />
+    <Compile Include="Interfaces\Universe\IUniverseMoveArgs.cs" />
+    <Compile Include="Manual\ManualUtils.cs" />
+    <Compile Include="Races\Bugs\BaseBugsFacility.cs" />
+    <Compile Include="Races\Bugs\Facilities\WormHoleCreator.cs" />
+    <Compile Include="Races\Bugs\Facilities\QueenHatchery.cs" />
+    <Compile Include="Races\Bugs\Facilities\ElkExtractor.cs" />
+    <Compile Include="Races\Bugs\Facilities\Incubator.cs" />
+    <Compile Include="Races\Bugs\Facilities\Nest.cs" />
+    <Compile Include="Races\Bugs\Facilities\ProtolExtractor.cs" />
+    <Compile Include="Races\Bugs\Intrinsic\Protol.cs" />
+    <Compile Include="Races\Bugs\Intrinsic\Elk.cs" />
+    <Compile Include="Races\Bugs\Units\Egg.cs" />
+    <Compile Include="Races\Bugs\Units\Maggot.cs" />
+    <Compile Include="Races\Bugs\Units\HeavySeeker.cs" />
+    <Compile Include="Races\Bugs\Units\HiveKing.cs" />
+    <Compile Include="Races\Bugs\Units\Stinger.cs" />
+    <Compile Include="Races\Bugs\Units\Interceptor.cs" />
+    <Compile Include="Races\Bugs\Units\HiveProtector.cs" />
+    <Compile Include="Races\Bugs\Units\Seeker.cs" />
+    <Compile Include="Races\Bugs\Units\Queen.cs" />
+    <Compile Include="Races\Bugs\Units\BlackWidow.cs" />
+    <Compile Include="Races\Bugs\Units\Spider.cs" />
+    <Compile Include="Races\Bugs\Units\Destroyer.cs" />
+    <Compile Include="Races\Bugs\Units\Worm.cs" />
+    <Compile Include="Races\DarkHumans\Facilities\BattleMoonAssembler.cs" />
+    <Compile Include="Races\DarkHumans\Facilities\Devastation.cs" />
+    <Compile Include="Races\DarkHumans\Facilities\NuclearFacility.cs" />
+    <Compile Include="Races\DarkHumans\Facilities\DevotionSanctuary.cs" />
+    <Compile Include="Races\DarkHumans\Facilities\DominationYard.cs" />
+    <Compile Include="Races\DarkHumans\Facilities\SlaveWarehouse.cs" />
+    <Compile Include="Races\DarkHumans\Units\Anubis.cs" />
+    <Compile Include="Races\DarkHumans\Units\BattleMoon.cs" />
+    <Compile Include="Races\DarkHumans\Units\Bozer.cs" />
+    <Compile Include="Races\DarkHumans\Units\DarkCrusader.cs" />
+    <Compile Include="Races\DarkHumans\Units\Doomer.cs" />
+    <Compile Include="Races\DarkHumans\Units\DarkTaurus.cs" />
+    <Compile Include="Races\DarkHumans\Units\Toxic.cs" />
+    <Compile Include="Races\DarkHumans\Units\Vector.cs" />
+    <Compile Include="Races\DarkHumans\Units\Driller.cs" />
+    <Compile Include="Races\DarkHumans\Units\Scarab.cs" />
+    <Compile Include="Races\DarkHumans\Units\Kamikaze.cs" />
+    <Compile Include="Races\DarkHumans\Units\DarkRain.cs" />
+    <Compile Include="Races\Global\Facilities\Extractor.cs" />
+    <Compile Include="Races\Global\Intrinsic\Argon.cs" />
+    <Compile Include="Races\Global\Intrinsic\Animals.cs" />
+    <Compile Include="Races\Global\Intrinsic\Alcohol.cs" />
+    <Compile Include="Races\Global\Intrinsic\CosmicDust.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce10\CaptainWolfShipSpecifications.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce10\FistTargettingSystem.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce10\LightEngines.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce10\DarkMatter.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce10\CriminalListOmega.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce10\SpaceForceUniformOmega.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce10\PositronCannon.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce7\AntiMatterContainer.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce7\CommanderFoxShipSpecifications.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce7\GreyMatter.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce7\TransportSystem.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce7\PositronContainer.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce9\BlueMatterContainer.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce9\BlueMatter.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce9\CrawlerStaticPulse.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce9\CrawlerGyroBalancer.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce9\CriminalListSigma.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce9\SpaceForceUniformSigma.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\DroppableBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel10\DarkMercSpaceChart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel10\DarkMercUniform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel10\TitanControlHelmet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel10\TitanTargetingSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel10\TitanUnitronCannon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel10\WalkerCore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel1\ElectricCircuit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel1\MercSpaceChart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel1\MercUniform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel1\PlasmaConduit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel1\PrimaryBoard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel1\Silicium.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel3\AirVent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel3\Berilium.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel3\ExhaustionSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel3\SentryMercSpaceChart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel3\SentryMercUniform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel3\SentryReactor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel5\MedicalKit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel5\NanoProbe.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel5\ReaperControlHelmet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel5\ReaperPropulsionSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel5\RogueMercSpaceChart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel5\RogueMercUniform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel7\CarbonNanoTube.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel7\IonCannon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel7\ReaperCoreSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel7\ScourgeCoreSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel7\TechMercSpaceChart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel7\TechMercUniform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel9\BlackMercSpaceChart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel9\BlackMercUniform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel9\DeutiriumEnergyCapsule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel9\ScourgeControlPanel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel9\ScourgePropulsionSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\MercLevel9\WalkerGiroBalancer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce1\CriminalListAlpha.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce1\EscapePod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce1\JumperReactor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce1\JumperStabilizers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce1\RedMatter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce1\SpaceForceUniformAlpha.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce3\SubSpaceSensors.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce3\HolographicCube.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce3\MystTargetingSystem.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce3\MystPropulsionSystem.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce3\CriminalListBeta.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce3\SpaceForceUniformBeta.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce5\CommunicationsArray.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce5\TacticalComputer.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce5\SubLightEngines.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce5\CriminalListGamma.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce5\SpaceForceUniformGamma.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce7\CriminalListDelta.cs" />
+    <Compile Include="Races\Global\Intrinsic\Dropables\SpaceForce7\SpaceForceUniformDelta.cs" />
+    <Compile Include="Races\Global\Intrinsic\Mercury.cs" />
+    <Compile Include="Races\Global\Intrinsic\Diamonds.cs" />
+    <Compile Include="Races\Global\Intrinsic\Medicine.cs" />
+    <Compile Include="Races\Global\Intrinsic\Tools.cs" />
+    <Compile Include="Races\Global\Intrinsic\Supplies.cs" />
+    <Compile Include="Races\Global\Intrinsic\Radon.cs" />
+    <Compile Include="Races\Global\Intrinsic\Prismal.cs" />
+    <Compile Include="Races\Global\Intrinsic\Cryptium.cs" />
+    <Compile Include="Races\Global\Intrinsic\ProductionSpace.cs" />
+    <Compile Include="Races\Global\Intrinsic\QueueSpace.cs" />
+    <Compile Include="Races\Global\Intrinsic\Astatine.cs" />
+    <Compile Include="Races\Global\Units\Flag.cs" />
+    <Compile Include="Races\Humans\BaseHumansFacility.cs" />
+    <Compile Include="Races\Humans\Facilities\CommandCenter.cs" />
+    <Compile Include="Races\Humans\Facilities\BlinkerAssembler.cs" />
+    <Compile Include="Races\Humans\Facilities\DeepSpaceScanner.cs" />
+    <Compile Include="Races\Humans\Facilities\UnitYard.cs" />
+    <Compile Include="Races\Humans\Facilities\Silo.cs" />
+    <Compile Include="Races\Humans\Facilities\MithrilExtractor.cs" />
+    <Compile Include="Races\Humans\Facilities\SeriumExtractor.cs" />
+    <Compile Include="Races\Humans\Facilities\SolarPanel.cs" />
+    <Compile Include="Races\Humans\Intrinsic\Serium.cs" />
+    <Compile Include="Races\Humans\Intrinsic\Mithril.cs" />
+    <Compile Include="Races\Humans\Intrinsic\Energy.cs" />
+    <Compile Include="Races\Humans\Units\Blinker.cs" />
+    <Compile Include="Races\Humans\Units\Nova.cs" />
+    <Compile Include="Races\Humans\Units\Krill.cs" />
+    <Compile Include="Races\Humans\Units\Kahuna.cs" />
+    <Compile Include="Races\Humans\Units\Eagle.cs" />
+    <Compile Include="Races\Humans\Units\Raptor.cs" />
+    <Compile Include="Races\Humans\Units\Pretorian.cs" />
+    <Compile Include="Races\Humans\Units\Samurai.cs" />
+    <Compile Include="Races\Humans\Units\Taurus.cs" />
+    <Compile Include="Races\Humans\Units\Fenix.cs" />
+    <Compile Include="Races\DarkHumans\Units\Panther.cs" />
+    <Compile Include="Races\Humans\Units\Crusader.cs" />
+    <Compile Include="Races\Humans\Units\Rain.cs" />
+    <Compile Include="Races\Mercs\Units\SilverBeard.cs" />
+    <Compile Include="Races\Mercs\Units\MetallicBeard.cs" />
+    <Compile Include="Races\Mercs\Units\Titan.cs" />
+    <Compile Include="Races\Mercs\Units\Walker.cs" />
+    <Compile Include="Races\Mercs\Units\Scourge.cs" />
+    <Compile Include="Races\Mercs\Units\Reaper.cs" />
+    <Compile Include="Races\Mercs\Units\Sentry.cs" />
+    <Compile Include="Races\SpaceForce\Units\CaptainWolf.cs" />
+    <Compile Include="Races\SpaceForce\Units\Jumper.cs" />
+    <Compile Include="Races\SpaceForce\Units\Myst.cs" />
+    <Compile Include="Races\SpaceForce\Units\Cypher.cs" />
+    <Compile Include="Races\SpaceForce\Units\CommanderFox.cs" />
+    <Compile Include="Races\SpaceForce\Units\Fist.cs" />
+    <Compile Include="Races\SpaceForce\Units\Crawler.cs" />
+    <Compile Include="RaceUtils.cs" />
+    <Compile Include="Interfaces\Actions\IAction.cs" />
+    <Compile Include="Interfaces\Actions\ITimedAction.cs" />
+    <Compile Include="Interfaces\Resources\IResourceWithRulesInfo.cs" />
+    <Compile Include="Interfaces\Resources\IIntrinsicInfo.cs" />
+    <Compile Include="Interfaces\Resources\IUnitInfo.cs" />
+    <Compile Include="Interfaces\Resources\IFacilityInfo.cs" />
+    <Compile Include="Interfaces\Resources\IResourceInfo.cs" />
+    <Compile Include="Interfaces\Rules\IFacilityRule.cs" />
+    <Compile Include="Interfaces\Rules\IRuleSet.cs" />
+    <Compile Include="Interfaces\Rules\IRule.cs" />
+    <Compile Include="Interfaces\Universe\ICelestialBody.cs" />
+    <Compile Include="Interfaces\Universe\IPlanet.cs" />
+    <Compile Include="Interfaces\Universe\IPlanetResource.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\BaseResource.cs" />
+    <Compile Include="Races\DarkHumans\BaseDarkHumansFacility.cs" />
+    <Compile Include="Races\DarkHumans\Facilities\TitaniumExtractor.cs" />
+    <Compile Include="Races\DarkHumans\Facilities\DarknessHall.cs" />
+    <Compile Include="Races\DarkHumans\Intrinsic\Titanium.cs" />
+    <Compile Include="Races\DarkHumans\Intrinsic\Uranium.cs" />
+    <Compile Include="Races\DarkHumans\Intrinsic\Gold.cs" />
+    <Compile Include="Results\Battle\AlreadyGaveUp.cs" />
+    <Compile Include="Results\Battle\NotYourTurn.cs" />
+    <Compile Include="Results\Dependencies\DependencyFacilityNotRunningResult.cs" />
+    <Compile Include="Results\Dependencies\DependencyResult.cs" />
+    <Compile Include="Results\Dependencies\ResourceAvailable.cs" />
+    <Compile Include="Results\Dependencies\ResourceNotAvailable.cs" />
+    <Compile Include="Results\Fleet\InvalidFleetName.cs" />
+    <Compile Include="Results\Fleet\DropMaximumFleets.cs" />
+    <Compile Include="Results\Fleet\FleetTradeCargoDropped.cs" />
+    <Compile Include="Results\Fleet\FleetNotAround.cs" />
+    <Compile Include="Results\Fleet\UnitsTransferedSuccessfully.cs" />
+    <Compile Include="Results\Fleet\NotEnoughUnits.cs" />
+    <Compile Include="Results\Fleet\FleetCreated.cs" />
+    <Compile Include="Results\Fleet\MaximumFleets.cs" />
+    <Compile Include="Results\Queue\CanQueueResult.cs" />
+    <Compile Include="Results\Queue\InvalidSlot.cs" />
+    <Compile Include="Results\Queue\InvalidResourceState.cs" />
+    <Compile Include="Results\Resources\AlreadyAtMaxLevelResult.cs" />
+    <Compile Include="Results\Resources\CheckPlayerPlanetLevel.cs" />
+    <Compile Include="Results\Resources\CheckPlanetLevel.cs" />
+    <Compile Include="Results\Resources\DropResourcesSuccessfulResult.cs" />
+    <Compile Include="Results\Resources\DropSomeAlreadyAtMaxLevelResult.cs" />
+    <Compile Include="Results\Resources\DropAlreadyAtMaxLevelResult.cs" />
+    <Compile Include="Results\Resources\QuantityRestrictionResult.cs" />
+    <Compile Include="Results\Resources\UltimateRestrictionResult.cs" />
+    <Compile Include="Results\Resources\CostResult.cs" />
+    <Compile Include="Results\RulesResultItem.cs" />
+    <Compile Include="RulesUtils.cs" />
+    <Compile Include="Rules\Facilities\PlayerPlanetLevelDependency.cs" />
+    <Compile Include="Rules\Resources\AddToModifier.cs" />
+    <Compile Include="Rules\Resources\AddToLimit.cs" />
+    <Compile Include="Rules\Resources\AddRareToMofidier.cs" />
+    <Compile Include="Rules\Resources\AddToProductionFactor.cs" />
+    <Compile Include="Rules\Resources\UpdateUltimateAfterConstruction.cs" />
+    <Compile Include="Rules\Resources\UltimateUnitRestriction.cs" />
+    <Compile Include="Rules\Resources\UpdateScoreAfterConstruction.cs" />
+    <Compile Include="Rules\Resources\UpdateFleetAfterConstruction.cs" />
+    <Compile Include="Rules\Resources\UpdateResourceAfterConstruction.cs" />
+    <Compile Include="Rules\Resources\Cost.cs" />
+    <Compile Include="Rules\RuleSet.cs" />
+    <Compile Include="Rules\Facilities\Dependency.cs" />
+    <Compile Include="Rules\RuleArgs.cs" />
+    <Compile Include="UniverseInfo\FacilitySlots\FacilitySlot.cs" />
+    <Compile Include="UniverseInfo\Planets\ArgonPlanet.cs" />
+    <Compile Include="UniverseInfo\Planets\GenericPlanet.cs" />
+    <Compile Include="UniverseInfo\Planets\PlanetInfo.cs" />
+    <Compile Include="UniverseInfo\Planets\PrivateZone\BugsPrivatePlanet.cs" />
+    <Compile Include="UniverseInfo\Planets\PrivateZone\SpaceForcePrivatePlanet.cs" />
+    <Compile Include="UniverseInfo\Planets\PrivateZone\MercsPrivatePlanet.cs" />
+    <Compile Include="UniverseInfo\Planets\PrivateZone\DarkHumansPrivatePlanet.cs" />
+    <Compile Include="UniverseInfo\Planets\PrivateZone\LightHumansPrivatePlanet.cs" />
+    <Compile Include="UniverseInfo\Races\BugsInfo.cs" />
+    <Compile Include="UniverseInfo\Races\SpaceForce.cs" />
+    <Compile Include="UniverseInfo\Races\HumansInfo.cs" />
+    <Compile Include="UniverseInfo\Races\DarkHumansInfo.cs" />
+    <Compile Include="UniverseInfo\Races\Mercs.cs" />
+    <Compile Include="UniverseInfo\Races\RaceInfo.cs" />
+    <Compile Include="UniverseInfo\Terrain\ArenaTerrainInfo.cs" />
+    <Compile Include="UniverseInfo\Terrain\SpaceTerrainInfo.cs" />
+    <Compile Include="UniverseInfo\Terrain\TerrestTerrainInfo.cs" />
+    <Compile Include="UniverseInfo\Terrain\RockTerrainInfo.cs" />
+    <Compile Include="UniverseInfo\Terrain\ForestTerrainInfo.cs" />
+    <Compile Include="UniverseInfo\Terrain\DesertTerrainInfo.cs" />
+    <Compile Include="UniverseInfo\Terrain\IceTerrainInfo.cs" />
+    <Compile Include="UniverseInfo\Terrain\WaterTerrainInfo.cs" />
+    <Compile Include="UniverseInfo\Terrain\TerrainInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{D9CDBB66-F267-44AB-AF03-C877489E01B0}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generic\Generic.csproj">
+      <Project>{26274F5B-70BC-419A-8062-E53FC5CD009D}</Project>
+      <Name>Generic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

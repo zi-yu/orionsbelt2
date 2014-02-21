@@ -1,0 +1,48 @@
+if( window.AttackUtils == null ) {
+	window.AttackUtils = { getAttack : null, getDefense : null};
+}
+var Unit = {
+#foreach( $unit in $units )
+	'$unit.Name.ToLower()': {
+		'getAttack' : AttackUtils.getAttack,
+		'getDefense' : AttackUtils.getDefense,
+		'name' : '$unit.Name',
+		'code' : '$unit.Code',
+		'category' : '$unit.UnitCategory.ToString()',
+		'baseAttack' : $unit.Attack,
+		'attackCost' : $unit.AttackCost,
+		'baseDefense' : $unit.Defense,
+		'strikeBack' : $obj.HasStrikeBack($unit),
+		'catapult' : $unit.Catapult.ToString().ToLower(),
+		'triple' : $obj.HasTriple($unit),
+		'replicator' : $obj.HasReplicator($unit),
+		'removeAbility' : $obj.HasRemoveAbility($unit),
+		'rebound' : $obj.HasRebound($unit),
+		'infestation' : $obj.HasInfestation($unit),
+		'paralyse' : $obj.HasParalyse($unit),
+		'bomb' : $obj.HasBomb($unit),
+		'range' : $unit.Range,
+		'movementCost' : $unit.MovementCost,
+		'movementType' : '$unit.MovementType.ToString().ToLower()',
+		'level' : '$unit.UnitDisplacement.ToString()',
+		'type' : '$unit.UnitType.ToString()',
+		'canAttack': $unit.CanAttack.ToString().ToLower(),
+		'coolDown': '$unit.CoolDown.ToString()',
+		'attackTargets' : {
+			$obj.GetAttackTargets($unit)
+		},
+		'defenseTargets' : {
+			$obj.GetDefenseTargets($unit)
+		},
+		'rangeTargets' : {
+			$obj.GetRangeTargets($unit)
+		}
+	},
+
+	'$unit.Code': function() {
+		return Unit['$unit.Name.ToLower()'];
+	},
+
+#end
+	dummy : function(){}
+}

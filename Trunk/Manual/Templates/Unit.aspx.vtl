@@ -1,0 +1,69 @@
+<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/$locale/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	$utils.LocalizeUnitTitle($info)
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="conceptMenu" runat="server">
+	$utils.GetUnitMenu()
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<div class='smallerContent'>
+
+	<h1><asp:Literal Text="$utils.Localize($info.Name)" runat="server" /></h1>
+
+	<div class="description">
+		$utils.GetResourceImage($info)
+		$utils.GetDescription($info)
+	</div>
+	
+	<h2>$utils.Localize("BattleInformation")</h2>
+	
+	<table class='table'>
+		<tr>
+			<td>$utils.Localize("Attack")</td>
+			<td>$info.Attack</td>
+		</tr>
+		<tr>
+			<td>$utils.Localize("Defense")</td>
+			<td>$info.Defense</td>
+		</tr>
+		<tr>
+			<td>$utils.Localize("Range")</td>
+			<td>$info.Range</td>
+		</tr>
+		<tr>
+			<td>$utils.Localize("MovementCost")</td>
+			<td>$info.MovementCost</td>
+		</tr>
+		<tr>
+			<td>$utils.Localize("Races")</td>
+			<td>$utils.GetRaces($info)</td>
+		</tr>
+		<tr>
+			<td>$utils.Localize("UnitCategory")</td>
+			<td>$utils.LocalizeAndWikify($info.UnitCategory)</td>
+		</tr>
+		<tr>
+			<td>$utils.Localize("UnitDisplacement")</td>
+			<td>$utils.Localize($info.UnitDisplacement)</td>
+		</tr>
+		<tr>
+			<td>$utils.GetDescription("MovementType")</td>
+			<td>$utils.LocalizeAndWikify("[Mov$info.MovementType]")</td>
+		</tr>
+	</table>
+	
+	$utils.GetUnitSpecialInformation($info)
+	$utils.GetUnitBonusInformation($info)
+	
+#if( $info.IsBuildable )
+	<h2>$utils.Localize("BuildInformation")</h2>
+	$utils.GetBuildInformation($info)
+#end
+	
+	</div>
+	
+</asp:Content>

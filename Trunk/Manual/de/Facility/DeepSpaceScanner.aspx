@@ -1,0 +1,22 @@
+﻿<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/de/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	Weltraum Tiefenscanner Gebäude
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="menu" runat="server">
+	<h2>Gebäude</h2><ul><li><a href='/de/Facility/BlinkerAssembler.aspx'>Blinker Fabrik</a></li><li><a href='/de/Facility/Extractor.aspx'>Extraktor</a></li><li><a href='/de/Facility/BattleMoonAssembler.aspx'>Fabrik der Mondschlachten</a></li><li><a href='/de/Facility/DarknessHall.aspx'>Halle der Dunkelheit</a></li><li><a href='/de/Facility/DominationYard.aspx'>Herrschafts Hangar</a></li><li><a href='/de/Facility/Incubator.aspx'>Inkubator</a></li><li><a href='/de/Facility/QueenHatchery.aspx'>Königin Brutstätte</a></li><li><a href='/de/Facility/MithrilExtractor.aspx'>Mithril Extraktor</a></li><li><a href='/de/Facility/ElkExtractor.aspx'>Nahrungsextraktor</a></li><li><a href='/de/Facility/Nest.aspx'>Nest</a></li><li><a href='/de/Facility/ProtolExtractor.aspx'>Protol Extraktor</a></li><li><a href='/de/Facility/SeriumExtractor.aspx'>Serium Extraktor</a></li><li><a href='/de/Facility/Silo.aspx'>Silo</a></li><li><a href='/de/Facility/SlaveWarehouse.aspx'>Sklaven Warenlager</a></li><li><a href='/de/Facility/SolarPanel.aspx'>Solar Tafel</a></li><li><a href='/de/Facility/TitaniumExtractor.aspx'>Titanium Extraktor</a></li><li><a href='/de/Facility/NuclearFacility.aspx'>Uranium Extraktor</a></li><li><a href='/de/Facility/DeepSpaceScanner.aspx'>Weltraum Tiefenscanner</a></li><li><a href='/de/Facility/UnitYard.aspx'>Weltraumhafen</a></li><li><a href='/de/Facility/WormHoleCreator.aspx'>Wurmloch Erzeuger</a></li><li><a href='/de/Facility/CommandCenter.aspx'>Zentralkommando</a></li><li><a href='/de/Facility/Devastation.aspx'>Zerstörung</a></li><li><a href='/de/Facility/DevotionSanctuary.aspx'>Zufluchtsstätte der Hingabe</a></li></ul>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1><asp:Literal Text="Weltraum Tiefenscanner" runat="server" /></h1>
+
+	<div class="description">
+		Der <a class='deepspacescanner' href='/de/Facility/DeepSpaceScanner.aspx'>Weltraum Tiefenscanner</a> ist das ultimative <a href='/de/Race/LightHumans.aspx'>Utopians</a> Gebäude. Es erlaubt den <a href='/de/Race/LightHumans.aspx'>Utopians</a> einen temporären <a href='/de/Universe/Beacon.aspx'>Wachposten</a> im <a href='/de/Universe/Default.aspx'>Universum</a> zu erzeugen.
+		<img src='http://resources.orionsbelt.eu/Images/Common/Planets/LightHumans/DeepSpaceScannerR.png' alt='Weltraum Tiefenscanner' />
+	</div>
+	<div class="clear"></div>
+	<h2><a href='#Level1' name='Level1'>Weltraum Tiefenscanner Level 1</a></h2><table class='table'><tr><th>Abhängigkeiten</th><th>Kosten</th><th>Dauer</th><th>Wenn es fertig ist</th><th>Freigeben</th></tr><tr><td><ul><li><a href='../Facility/CommandCenter.aspx'>Zentralkommando</a> Level 7</li></ul></td><td><ul><li>22000 <a href='../Intrinsic/Mithril.aspx'>Mithril</a></li><li>26000 <a href='../Intrinsic/Serium.aspx'>Serium</a></li><li>28000 <a href='../Intrinsic/Energy.aspx'>Energie</a></li><li>3000 <a href='../Intrinsic/Argon.aspx'>Argon</a></li><li>2500 <a href='../Intrinsic/Prismal.aspx'>Prismal</a></li><li>3500 <a href='../Intrinsic/Astatine.aspx'>Astatine</a></li></ul></td><td class='duration'>1 Tag 16 Stunden </td><td><ul><li>+3000 Spielstand</li></ul></td><td><ul></ul></td></tr></table><h2><a href='#Level2' name='Level2'>Weltraum Tiefenscanner Level 2</a></h2><table class='table'><tr><th>Abhängigkeiten</th><th>Kosten</th><th>Dauer</th><th>Wenn es fertig ist</th><th>Freigeben</th></tr><tr><td><ul><li>Keine Abhängigkeiten</li></td><td><ul><li>44000 <a href='../Intrinsic/Mithril.aspx'>Mithril</a></li><li>52000 <a href='../Intrinsic/Serium.aspx'>Serium</a></li><li>56000 <a href='../Intrinsic/Energy.aspx'>Energie</a></li><li>6000 <a href='../Intrinsic/Argon.aspx'>Argon</a></li><li>5000 <a href='../Intrinsic/Prismal.aspx'>Prismal</a></li><li>3000 <a href='../Intrinsic/Radon.aspx'>Radon</a></li><li>7000 <a href='../Intrinsic/Astatine.aspx'>Astatine</a></li></ul></td><td class='duration'>3 Tage 8 Stunden </td><td><ul><li>+6000 Spielstand</li></ul></td><td><ul></ul></td></tr></table>
+	
+</asp:Content>

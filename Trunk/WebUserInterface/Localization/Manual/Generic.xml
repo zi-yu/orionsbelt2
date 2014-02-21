@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="Alliances">
+		<lang key="de">Allianzen</lang>
+		<lang key="en">Alliances</lang>
+		<lang key="es">Alianzas</lang>
+		<lang key="fr">Alliances</lang>
+		<lang key="hr">Savezi</lang>
+		<lang key="it">Alleanze</lang>
+		<lang key="pt">Alianças</lang>
+	</entry>
+
+	<entry key="AskManualContributions">
+		<lang key="de">Bitte hilf uns die Anleitung zu verbessern! Wenn du irgendwelche Fehler findest oder bereit bist zusätzliche Information beizusteuern bitte benutze unsere
+  <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> e-mail</lang>
+		<lang key="en">Please help us to improve the manual! If you detected some error or are willing
+  to contribute with additional information please use our 
+  <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> e-mail</lang>
+		<lang key="es">Por favor ayudanos a mejorar el manual! Si detectas un error o quieres contribuir con mas información
+  por favor contratanos a través de: <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a></lang>
+		<lang key="fr">S'il-vous-plaît, aidez-nous à améliorer le manuel! Si vous avez détecté une erreur dans le manuel ou vous voulez contribuer abec de l'information additionnel, contactez nous en utilisantt notre
+  <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> courriel.</lang>
+		<lang key="hr">Molimo pomognite nam da unaprijedimo priručnik! Ako ste orkrili neku grešku ili želite doprinijeti sa dodatnim informacijama molimo poslužite se našim
+ <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> e-mailom</lang>
+		<lang key="it">Per favore aiutaci a migliorare il manuale! Se trovi errori o vuoi contribuire mandaci un'email con le informazioni a: <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a></lang>
+		<lang key="pt">Por favor ajuda-nos a melhorar o manual! Se detectares um erro ou quiseres contribuir com mais informação
+  por favor contracta-nos através de: <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a></lang>
+	</entry>
+
+	<entry key="BattleConcepts">
+		<lang key="de">Kampf-Konzepte</lang>
+		<lang key="en">Battle Concepts</lang>
+		<lang key="es">Conceptos de Batalla</lang>
+		<lang key="fr">Concepts de Bataille</lang>
+		<lang key="hr">Borbeni Koncepti</lang>
+		<lang key="it">Concetti della Battaglia</lang>
+		<lang key="pt">Conceitos de Batalha</lang>
+	</entry>
+
+	<entry key="BattleTactics">
+		<lang key="de">Kampf-Taktiken</lang>
+		<lang key="en">Battle Tactics</lang>
+		<lang key="es">Tácticas de Batalla</lang>
+		<lang key="fr">Tactiques de Combat</lang>
+		<lang key="hr">Taktike Bitke</lang>
+		<lang key="it">Tattiche di Battaglia</lang>
+		<lang key="pt">Tácticas de Batalha</lang>
+	</entry>
+
+	<entry key="Bounties">
+		<lang key="de">Kopfgelder</lang>
+		<lang key="en">Bounties</lang>
+		<lang key="es">Bondades</lang>
+		<lang key="fr">Mises à prix</lang>
+		<lang key="hr">Ucjene</lang>
+		<lang key="it">Taglie</lang>
+		<lang key="pt">Cabeças a Prémio</lang>
+	</entry>
+
+	<entry key="BuildInformation">
+		<lang key="de">Information über die Konstruktion</lang>
+		<lang key="en">Build Information</lang>
+		<lang key="es">Información de Construcción</lang>
+		<lang key="fr">Information de construction</lang>
+		<lang key="hr">Informacije o Gradnji</lang>
+		<lang key="it">Informazioni di Costruzione</lang>
+		<lang key="pt">Informação de Construcção</lang>
+	</entry>
+
+	<entry key="Colonize">
+		<lang key="de">Besiedeln</lang>
+		<lang key="en">Colonize</lang>
+		<lang key="es">Colonizar</lang>
+		<lang key="fr">Coloniser</lang>
+		<lang key="hr">Koloniziraj</lang>
+		<lang key="it">Colonizza</lang>
+		<lang key="pt">Colonizar</lang>
+	</entry>
+
+	<entry key="CombatUnits">
+		<lang key="de">Kampf-Einheiten</lang>
+		<lang key="en">Combat Units</lang>
+		<lang key="es">Unidades de Combate</lang>
+		<lang key="fr">Unités de Combat</lang>
+		<lang key="hr">Borbene Jedinice</lang>
+		<lang key="it">Unità da Combattimento</lang>
+		<lang key="pt">Unidades de Combate</lang>
+	</entry>
+
+	<entry key="Commerce">
+		<lang key="de">Kommerz</lang>
+		<lang key="en">Commerce</lang>
+		<lang key="es">Comercio</lang>
+		<lang key="fr">Commerce</lang>
+		<lang key="hr">Promet</lang>
+		<lang key="it">Commercio</lang>
+		<lang key="pt">Comércio</lang>
+	</entry>
+
+	<entry key="DiagonalTrap">
+		<lang key="de">Diagonale Falle</lang>
+		<lang key="en">Diagonal Trap</lang>
+		<lang key="es">Trampa Diagonal</lang>
+		<lang key="fr">Piège Diagonale</lang>
+		<lang key="hr">Dijagonalna Zamka</lang>
+		<lang key="it">Trappola Diagonale</lang>
+		<lang key="pt">Armadilha Diagonal</lang>
+	</entry>
+
+	<entry key="DispensableUnits">
+		<lang key="de">Kanonenfutter</lang>
+		<lang key="en">Cannon Fodder</lang>
+		<lang key="es">Carne de Cañon</lang>
+		<lang key="fr">Chair à canon</lang>
+		<lang key="hr">Hrana za Topove</lang>
+		<lang key="it">Carne da Macello</lang>
+		<lang key="pt">Carne para Canhão</lang>
+	</entry>
+
+	<entry key="EagleStrike">
+		<lang key="de">Adler Angriff</lang>
+		<lang key="en">Eagle Strike</lang>
+		<lang key="es">Lluvia de Aguilas</lang>
+		<lang key="fr">Attaque de l'aigle</lang>
+		<lang key="hr">Orlov Udar</lang>
+		<lang key="it">Attacco delle Aquile</lang>
+		<lang key="pt">Chuva de Águias</lang>
+	</entry>
+
+	<entry key="ELO">
+		<lang key="de">ELO Rangliste</lang>
+		<lang key="en">ELO Ranking</lang>
+		<lang key="es">Clasificación ELO</lang>
+		<lang key="fr">Classification ELO</lang>
+		<lang key="hr">ELO Ranking</lang>
+		<lang key="it">Classifica ELO</lang>
+		<lang key="pt">Classificação ELO</lang>
+	</entry>
+
+	<entry key="FacilityTitle">
+		<lang key="de">{0} Gebäude</lang>
+		<lang key="en">{0} Facility</lang>
+		<lang key="es">Edifício {0}</lang>
+		<lang key="fr">{0} Bâtiment</lang>
+		<lang key="hr">{0} Postrojenje</lang>
+		<lang key="it">Edificio {0}</lang>
+		<lang key="pt">Edifício {0}</lang>
+	</entry>
+
+	<entry key="FiringSquad">
+		<lang key="de">Erschiessungskommando</lang>
+		<lang key="en">Firing Squad</lang>
+		<lang key="es">Pelotón de Fusilamiento</lang>
+		<lang key="fr">Escouade de tir</lang>
+		<lang key="hr">Napadački Odred</lang>
+		<lang key="it">Plotone d'Esecuzione</lang>
+		<lang key="pt">Pelotão de Fuzilamento</lang>
+	</entry>
+
+	<entry key="Fleet">
+		<lang key="de">Flotte</lang>
+		<lang key="en">Fleet</lang>
+		<lang key="es">Flota</lang>
+		<lang key="fr">Escadrile</lang>
+		<lang key="hr">Flota</lang>
+		<lang key="it">Flotta</lang>
+		<lang key="pt">Armada</lang>
+	</entry>
+
+	<entry key="GameBoard">
+		<lang key="de">Spielbrett</lang>
+		<lang key="en">Game Board</lang>
+		<lang key="es">Tablero de Juego</lang>
+		<lang key="fr">Plateau de jeu</lang>
+		<lang key="hr">Tabla Igre</lang>
+		<lang key="it">Tavola di Gioco</lang>
+		<lang key="pt">Tabuleiro de Jogo</lang>
+	</entry>
+
+	<entry key="HotZone">
+		<lang key="de">Öffentlice Zone</lang>
+		<lang key="en">Hot Zone</lang>
+		<lang key="es">Zona Pública</lang>
+		<lang key="fr">Zone publique</lang>
+		<lang key="hr">Hot Zone</lang>
+		<lang key="it">Zona Calda</lang>
+		<lang key="pt">Zona Pública</lang>
+	</entry>
+
+	<entry key="KamikazeMenace">
+		<lang key="de">Kamikaze Bedrohung</lang>
+		<lang key="en">Kamikaze Menace</lang>
+		<lang key="es">Amenaza Kamikaze</lang>
+		<lang key="fr">Menace Kamikaze</lang>
+		<lang key="hr">Prijetnja Kamikaza</lang>
+		<lang key="it">Minaccia Kamikaze</lang>
+		<lang key="pt">Ameaça Kamikaze</lang>
+	</entry>
+
+	<entry key="LineOfSight">
+		<lang key="de">Sichtlinie</lang>
+		<lang key="en">Line of Sight</lang>
+		<lang key="es">Área de Visión</lang>
+		<lang key="fr">Ligne de vision</lang>
+		<lang key="hr">Linija Vidika</lang>
+		<lang key="it">Campo Visivo</lang>
+		<lang key="pt">Área de Visão</lang>
+	</entry>
+
+	<entry key="MovAll">
+		<lang key="de">Totale Beweglichkeit</lang>
+		<lang key="en">Total Movement</lang>
+		<lang key="es">Movimiento Total</lang>
+		<lang key="fr">Mobilité totale</lang>
+		<lang key="hr">Totalni Pokret</lang>
+		<lang key="it">Movimento Totale</lang>
+		<lang key="pt">Movimento Total</lang>
+	</entry>
+
+	<entry key="MovCost">
+		<lang key="de">Bewegungs-Kost</lang>
+		<lang key="en">Movement Cost</lang>
+		<lang key="es">Costo de Movimiento</lang>
+		<lang key="fr">Coût de mouvemment</lang>
+		<lang key="hr">Cijena Pokreta</lang>
+		<lang key="it">Costo del Movimento</lang>
+		<lang key="pt">Custo de Movimento</lang>
+	</entry>
+
+	<entry key="MovDiagonal">
+		<lang key="de">Diagonale Bewegung</lang>
+		<lang key="en">Diagonal Movement</lang>
+		<lang key="es">Movimiento Diagonal</lang>
+		<lang key="fr">Mouvement Diagonale</lang>
+		<lang key="hr">Dijagonalni Pokret</lang>
+		<lang key="it">Movimento Diagonale</lang>
+		<lang key="pt">Movimento Diagonal</lang>
+	</entry>
+
+	<entry key="MovDrop">
+		<lang key="de">Sturz-Bewegung</lang>
+		<lang key="en">Drop Movement</lang>
+		<lang key="es">Movimento Paracaidas</lang>
+		<lang key="fr">Mobilité de dépôt</lang>
+		<lang key="hr">Pokret Ispuštanja</lang>
+		<lang key="it">Movimento Paracadute</lang>
+		<lang key="pt">Movimento Pára-quedas</lang>
+	</entry>
+
+	<entry key="Movement">
+		<lang key="de">Beweglichkeit</lang>
+		<lang key="en">Movement</lang>
+		<lang key="es">Movimiento</lang>
+		<lang key="fr">Mouvement</lang>
+		<lang key="hr">Pokret</lang>
+		<lang key="it">Movimento</lang>
+		<lang key="pt">Movimento</lang>
+	</entry>
+
+	<entry key="MoveUnitsToDefenseFleet">
+		<lang key="de">Einheiten bewegen zur Verteidigungsflotte</lang>
+		<lang key="en">Move Units To Defense Fleet</lang>
+		<lang key="es">Mover las Unidades para la Flota de Defensa</lang>
+		<lang key="fr">Transférer les unités vers l'escadrille de défense</lang>
+		<lang key="hr">Pomakni Jedinice U Obranbenu Flotu</lang>
+		<lang key="it">Sposta le Unità nella Flotta di Difesa</lang>
+		<lang key="pt">Mover as Unidades para a Armada de Defesa</lang>
+	</entry>
+
+	<entry key="MovFront">
+		<lang key="de">Frontal-Bewegung</lang>
+		<lang key="en">Front Movement</lang>
+		<lang key="es">Movimiento Frontal</lang>
+		<lang key="fr">Mobilité Frontale</lang>
+		<lang key="hr">Frontalni Pokret</lang>
+		<lang key="it">Movimento Frontale</lang>
+		<lang key="pt">Movimento Frontal</lang>
+	</entry>
+
+	<entry key="MovNone">
+		<lang key="de">Keine Bewegung</lang>
+		<lang key="en">No Movement</lang>
+		<lang key="es">Sin Movimiento</lang>
+		<lang key="fr">Aucune mobilité</lang>
+		<lang key="hr">Bez Pokreta</lang>
+		<lang key="it">Senza Movimento</lang>
+		<lang key="pt">Sem Movimento</lang>
+	</entry>
+
+	<entry key="MovNormal">
+		<lang key="de">Normale Bewegung</lang>
+		<lang key="en">Normal Movement</lang>
+		<lang key="es">Movimiento Normal</lang>
+		<lang key="fr">Mobilité normale</lang>
+		<lang key="hr">Normalni Pokret</lang>
+		<lang key="it">Movimento Normale</lang>
+		<lang key="pt">Movimento Normal</lang>
+	</entry>
+
+	<entry key="MovPoints">
+		<lang key="de">Bewegungs-Punkte</lang>
+		<lang key="en">Movement Points</lang>
+		<lang key="es">Puntos de Movimiento</lang>
+		<lang key="fr">Points de mouvement</lang>
+		<lang key="hr">Bodovi Pokreta</lang>
+		<lang key="it">Punti di Movimento</lang>
+		<lang key="pt">Pontos de Movimento</lang>
+	</entry>
+
+	<entry key="Other">
+		<lang key="de">Andere</lang>
+		<lang key="en">Other</lang>
+		<lang key="es">Otros</lang>
+		<lang key="fr">Autre</lang>
+		<lang key="hr">Drugi</lang>
+		<lang key="it">Altro</lang>
+		<lang key="pt">Outros</lang>
+	</entry>
+
+	<entry key="Paralyse">
+		<lang key="de">Paralisier-Attacke</lang>
+		<lang key="en">Paralyse Attack</lang>
+		<lang key="es">Ataque Paralizador</lang>
+		<lang key="fr">Attaque paralysante</lang>
+		<lang key="hr">Napad Paralize</lang>
+		<lang key="it">Attacco Paralizzante</lang>
+		<lang key="pt">Ataque Paralizador</lang>
+	</entry>
+
+	<entry key="PrivateZone">
+		<lang key="de">Privat-Zone</lang>
+		<lang key="en">Private Zone</lang>
+		<lang key="es">Zona Privada</lang>
+		<lang key="fr">Zone privée</lang>
+		<lang key="hr">Privatna Zona</lang>
+		<lang key="it">Zona Privata</lang>
+		<lang key="pt">Zona Privada</lang>
+	</entry>
+
+	<entry key="Professions">
+		<lang key="de">Berufe</lang>
+		<lang key="en">Professions</lang>
+		<lang key="es">Profesiones</lang>
+		<lang key="fr">Professions</lang>
+		<lang key="hr">Profesije</lang>
+		<lang key="it">Professioni</lang>
+		<lang key="pt">Actividades</lang>
+	</entry>
+
+	<entry key="QuestContextTitle">
+		<lang key="de">{0} Missionen</lang>
+		<lang key="en">{0} Quests</lang>
+		<lang key="es">Misiones de {0}</lang>
+		<lang key="fr">{0} Quêtes</lang>
+		<lang key="hr">{0} Misije</lang>
+		<lang key="it">Missioni di {0}</lang>
+		<lang key="pt">Missões de {0}</lang>
+	</entry>
+
+	<entry key="QuestsTitle">
+		<lang key="de">Missionen und Berufe</lang>
+		<lang key="en">Quests and Professions</lang>
+		<lang key="es">Misiones y Profesiones</lang>
+		<lang key="fr">Quêtes et professions</lang>
+		<lang key="hr">Misije i Profesije</lang>
+		<lang key="it">Missioni e Professioni</lang>
+		<lang key="pt">Missões e Profissões</lang>
+	</entry>
+
+	<entry key="Raid">
+		<lang key="de">Plünderung</lang>
+		<lang key="en">Raid</lang>
+		<lang key="es">Saqueo</lang>
+		<lang key="fr">Pillage</lang>
+		<lang key="hr">Pljačka</lang>
+		<lang key="it">Incursione</lang>
+		<lang key="pt">Pilhagem</lang>
+	</entry>
+
+	<entry key="Raids">
+		<lang key="de">Plünderungen</lang>
+		<lang key="en">Raids</lang>
+		<lang key="es">Saqueos</lang>
+		<lang key="fr">Pillage</lang>
+		<lang key="hr">Pljačke</lang>
+		<lang key="it">Incursioni</lang>
+		<lang key="pt">Pilhagens</lang>
+	</entry>
+
+	<entry key="ResetCoolDown">
+		<lang key="de">Abkühlung</lang>
+		<lang key="en">CoolDown</lang>
+		<lang key="es">Refrigración</lang>
+		<lang key="fr">Temps de Recharge</lang>
+		<lang key="hr">Hlađenje</lang>
+		<lang key="it">CoolDown</lang>
+		<lang key="pt">Arrefecimento</lang>
+	</entry>
+
+	<entry key="Ricochet">
+		<lang key="de">Rückschlag</lang>
+		<lang key="en">Rebound</lang>
+		<lang key="es">Rebote</lang>
+		<lang key="fr">Ricochet</lang>
+		<lang key="hr">Odbijanje</lang>
+		<lang key="it">Rimbalzo</lang>
+		<lang key="pt">Ricochete</lang>
+	</entry>
+
+	<entry key="Rules">
+		<lang key="de">Regeln</lang>
+		<lang key="en">Rules</lang>
+		<lang key="pt">Regras</lang>
+	</entry>
+
+	<entry key="TotalAnnihilation">
+		<lang key="de">Totale Zerstörung</lang>
+		<lang key="en">Total Annihilation</lang>
+		<lang key="es">Destrucción Total</lang>
+		<lang key="fr">Anihilation totale</lang>
+		<lang key="hr">Totalno Uništenje</lang>
+		<lang key="it">Distruzione Totale</lang>
+		<lang key="pt">Destruição Total</lang>
+	</entry>
+
+	<entry key="TradeRoute">
+		<lang key="de">Handelsroute</lang>
+		<lang key="en">Trade Route</lang>
+		<lang key="es">Ruta Comercial</lang>
+		<lang key="fr">Route commerciale</lang>
+		<lang key="hr">Trgovačka Ruta</lang>
+		<lang key="it">Rotta Commerciale</lang>
+		<lang key="pt">Rota Comercial</lang>
+	</entry>
+
+	<entry key="Travel">
+		<lang key="de">Reisen</lang>
+		<lang key="en">Travel</lang>
+		<lang key="es">Viajar</lang>
+		<lang key="fr">Voyage</lang>
+		<lang key="hr">Putovanje</lang>
+		<lang key="it">Viaggia</lang>
+		<lang key="pt">Viajar</lang>
+	</entry>
+
+	<entry key="TripleAttack">
+		<lang key="de">Dreifach-Attacke</lang>
+		<lang key="en">Triple Attack</lang>
+		<lang key="es">Ataque Triple</lang>
+		<lang key="fr">Attaque triple</lang>
+		<lang key="hr">Trostruki Napad</lang>
+		<lang key="it">Attacco Triplo</lang>
+		<lang key="pt">Ataque Triplo</lang>
+	</entry>
+
+	<entry key="UnitTitle">
+		<lang key="de">{0} Einheit</lang>
+		<lang key="en">{0} Unit</lang>
+		<lang key="es">Unidad {0}</lang>
+		<lang key="fr">{0} Unité</lang>
+		<lang key="hr">{0} Jedinica</lang>
+		<lang key="it">Unità {0}</lang>
+		<lang key="pt">Unidade {0}</lang>
+	</entry>
+
+	<entry key="UniverseActions">
+		<lang key="de">Universum Aktionen</lang>
+		<lang key="en">Universe Actions</lang>
+		<lang key="es">Accione en el Universo</lang>
+		<lang key="fr">Actions dans l'univers</lang>
+		<lang key="hr">Akcije Svemira</lang>
+		<lang key="it">Azioni nell'Universo</lang>
+		<lang key="pt">Acções no Universo</lang>
+	</entry>
+
+	<entry key="UniverseAttack">
+		<lang key="de">Angriff</lang>
+		<lang key="en">Attack</lang>
+		<lang key="es">Ataque</lang>
+		<lang key="fr">Attaque</lang>
+		<lang key="hr">Napad</lang>
+		<lang key="it">Attacca</lang>
+		<lang key="pt">Ataque</lang>
+	</entry>
+
+	<entry key="UniverseElements">
+		<lang key="de">Elemente des Universums</lang>
+		<lang key="en">Universe Elements</lang>
+		<lang key="es">Elementos del Universo</lang>
+		<lang key="fr">Éléments de l'univers</lang>
+		<lang key="hr">Elementi Svemira</lang>
+		<lang key="it">Elementi dell'Universo</lang>
+		<lang key="pt">Elementos do Universo</lang>
+	</entry>
+
+	<entry key="Utilities">
+		<lang key="de">Nützliches von der Orion's Belt Gemeinde</lang>
+		<lang key="en">Utilities from the Orion's Belt Community</lang>
+		<lang key="fr">Utilités créer par la communauté d'Orions's Belt</lang>
+		<lang key="hr">Utilities iz zajednice Orions Belta</lang>
+		<lang key="it">Utilities dalla Comunità di Orion's Belt</lang>
+		<lang key="pt">Utilitários feitos pela Comunidade</lang>
+	</entry>
+
+</resources>

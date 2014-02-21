@@ -1,0 +1,15 @@
+<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/$locale/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	$utils.Localize("Facilities")
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+	
+	$utils.GetFacilityIndex()
+	
+	<div class="content">
+		$utils.Localize("FacilityIndexContent")
+	</div>
+	
+</asp:Content>

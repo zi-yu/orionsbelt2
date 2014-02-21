@@ -1,0 +1,52 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Xml.Serialization;
+using NHibernate;
+using NHibernate.Cfg;
+using Loki.DataRepresentation;
+using Loki.Exceptions;
+using Loki.Interfaces;
+using Loki.Generic;
+using OrionsBelt.Core;
+
+namespace OrionsBelt.DataAccessLayer {
+
+	/// <summary>
+    /// Specialized Memory class for ForumReadMarking
+    /// </summary>
+	public class SpecializedMemoryForumReadMarking : ForumReadMarking {
+	
+		#region Fields
+		
+		private PlayerStorage player;
+		private ForumThread thread;
+
+		#endregion Fields
+		
+		#region ForumReadMarking Implementation
+	
+		/// <summary>
+        /// Gets the ForumReadMarking's Player
+        /// </summary>
+		public override PlayerStorage Player {
+			get { 
+				return this.player;
+			}
+			set { this.player = value; }
+		}
+
+		/// <summary>
+        /// Gets the ForumReadMarking's Thread
+        /// </summary>
+		public override ForumThread Thread {
+			get { 
+				return this.thread;
+			}
+			set { this.thread = value; }
+		}
+
+		#endregion ForumReadMarking Implementation
+		
+	};
+}

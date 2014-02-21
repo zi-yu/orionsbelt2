@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="KamikazeMenaceContent">
+		<lang key="de"><h1>Kamikaze Bedrohung</h1><div class="content">
+    [Kamikaze] eine der wichtigsten [CombatUnits] im Spiel. Sie sind sehr zerbrechlich, aber sie 
+    haben eine enorme Zerstörerungskraft und eine Bewegungsfreiheit fast jed Ecke des [GameBoard] zu 
+    erreichen.
+    Aufgrund dieser Charakteristiken, [Kamikaze] im Spiel zu haben ist immer <i>Bedrohung</i> für den 
+    Gegner.
+    Trotzallem, musst du diese <i>Bedrohung</i> direkt und dauerhaft anwenden!
+    <p>
+    Wenn du eine Gruppe von [Kamikaze] hast die hinter [CombatUnits] steckengeblieben oder ausserhalb 
+    der [Range] sind, dann werden sie nicht als Bedrohung gesehen, zumindest in den folgenden Runden. 
+    Aber ein guter [Deploy] kann die [KamikazeMenace] gleich von Anfang an verstärken. Lass uns das 
+    folgende Beispiel analysieren:
+
+    <img class="block" src="/Resources/Images/KamikazeMenace.png" alt="Kamikaze Bedrohung Beispiel"/>
+
+    Wie wir sehen können, hat der untere Spieler zwei Gruppen von [Kamikaze], eine auf jeder Seite 
+    des [GameBoard], beschützt durch [Heavy] Einheiten, und mit einer offenen Angriffsroute.
+    </p><p>
+    Diese Disposition erlaubt dem unteren Spieler  mit einer Gruppe von [Kamikaze] mit Leichtigkeit 
+    auf dem gesamten [GameBoard] zuzuschlagen. Und das ist sehr wichtig, weil während er keine 
+    [MovPoints] mit ihnen ausgeben braucht muss der Gegner sich immer der <i>Bedrohung</i> bewusst 
+    sein und [DispensableUnits] benutzen um jede seiner/ihrer Bewegungen zu beschützen.
+    </p><p>
+    Diese <i>Bedrohung</i> verändert komplett die Strategie des Gegners, und limitiert ihn/sie immens.
+
+    </p><h2>Wie bekämpft man eine Kamikaze Bedrohung?</h2>
+
+    Es ist sehr schwierig die [KamikazeMenace] zu kämpfen weil wenn du es machst erlaubt es dem 
+    Gegner [CombatUnits] zu strategischen Positionen zu bewegen. Dennoch gibt es einige Dinge die in 
+    Betracht gezogen werden müssen:
+    <ul><li>
+    Wenn du [CombatUnits] mit [Catapult], [Ricochet] oder [TripleAttack] hast, kannst du sie benutzen 
+    um die [Kamikaze] zu zerstören
+  </li><li>
+   Eine andere Strategie ist zu versuchen den Gegner zu zwingen die [Kamikaze] zu benutzen gegen 
+   Einheiten die leicht zu opfern sind;
+    Auf diese Weise ist es vielleicht möglich die [KamikazeMenace] zu entfernen von anderen 
+    wichtigeren [CombatUnits]
+  </li></ul></div></lang>
+		<lang key="en"><h1>Kamikaze Menace</h1><div class="content">
+    [Kamikaze] are one the the most important [CombatUnits] of the game. They are very fragile, but they
+    have a huge devastating power and a movement liberty to reach almost every square on the [GameBoard].
+    Because of these characteristics, having [Kamikaze] on play is always a <i>menace</i> to the opponent.
+    However, you need to make this <i>menace</i> present at all times!
+    <p />
+    If you have a group of [Kamikaze] stuck behind some other [CombatUnits] or out of [Range], then
+    it's not considered a menace, at least on the upcoming turns. But a good [Deploy] can enforce
+    the [KamikazeMenace] from the start. Lets analyse the following example:
+
+    <img class="block" src="/Resources/Images/KamikazeMenace.png" alt="Kamikaze Menace Example" />
+
+    As we can see, the bottom player has two groups of [Kamikaze], one on each side of the [GameBoard],
+    protected by [Heavy] units, and with an open attack route.
+    <p />
+    This disposition enables the bottom player to easilly strike almost all the [GameBoard] with a group
+    of [Kamikaze]. And this is very important, because while he doesn't need to spend [MovPoints] with them,
+    the opponent needs to be always aware of the <i>menace</i> and use [DispensableUnits] to protect his/her
+    every move.
+    <p />
+    This <i>menace</i> completly changes the opponet's strategy, making him/her act more cautionally.
+
+    <h2>How to fight the Kamikaze Menace?</h2>
+
+    It's very tricky to fight the [KamikazeMenace] because while doing so will allow the opponent to move other
+    [CombatUnits] to strategic positions. However there're some things that can be considered:
+    <ul><li>
+    If you have [CombatUnits] with [Catapult], [Ricochet] or [TripleAttack], you can use them to destroy
+    the [Kamikaze]
+  </li><li>
+    Other strategy is trying to force the opponent to use the [Kamikaze] against some sacrificable unit group;
+    this way it may be possible to remove the [KamikazeMenace] from other more importante [CombatUnits]
+  </li></ul></div></lang>
+		<lang key="es"><h1>Amenaza Kamikaze</h1><div class="content">
+    Las [Kamikaze] son de las [CombatUnits] mas importantes del juego. A pesar de ser muy frágiles, tienen una fuerza
+    devastadora y un tipo de movimiento que les dá libertad para llegar fácilmente de una punta del [GameBoard]
+    a la otra. Por estas características, tener [Kamikaze] en el juego es siempre una <i>amenaza</i> para el adversário.
+    Sin embargo, es necesario aplicar esta amenaza directa y constantemente.
+    <p />
+    Si tuvieramos un grupo de [Kamikaze] preso o fuera de [Range], entonces el no es considerado uma amenaza,
+    por lo menos en los próximos turnos. Pero un buen [Deploy] puede dar relevancia a la [KamikazeMenace] si
+    esta fuera considerada desde el Inicio. Al analizar el siguiente ejemplo:
+
+    <img class="block" src="/Resources/Images/KamikazeMenace.png" alt="Exemplo de Ameaça Kamikaze" />
+
+    Como podemos ver, el jugador de abajo tiene 2 grupos de [Kamikaze], uno de cada lado del [GameBoard],
+    protegidos por unidades de [Heavy], y con una quadrícula libre para que las [Kamikaze] puedan partir para
+    el ataque.
+    <p />
+    Esta disposición hace que el jugador de abajo consiga alcanzar practicamente todo el [GameBoard] con un
+    grupo de [Kamikaze]. Y esto es importante puis, aún no moviendo estos grupos, el adversário tiene que estar
+    siempre atento a su <i>amenaza</i> y usar [DispensableUnits] para proteger las unidades que avanzan en el terreno.
+    <p />
+    Esta amenaza altera completamente ça estratégia del adversário y lo limita de sobremanera.
+
+    <h2>Como combatir la Amenaza Kamikaze?</h2>
+
+    Es complicado combatir las [KamikazeMenace] pués para hacerlo damos libertad al adversário para posicionar
+    estrategicamente otras [CombatUnits]. Sin embargo hay algunas cosas que pueden ser hechas:
+    <ul><li>
+    Si hubieran unidades con [Catapult], [Ricochet] o [TripleAttack], pueden ser usadas para destruir
+    las [Kamikaze]
+  </li><li>
+    Otra estratégia es tratar de forzar al jugador de gastar las [Kamikaze], tratando para eso de sacrificar
+    un grupo de [CombatUnits]; de esta forma puede ser posible eliminar las [KamikazeMenace] para otras [CombatUnits]
+    más importantes
+  </li></ul></div></lang>
+		<lang key="fr"><h1> Menace Kamikaze</h1><div class="content">
+    [Kamikaze] rdt l'une des [CombatUnits] les plus importantes du jeu. Ils sont très fragiles, mais ont une puissance de frappe dévastatrice et une libertés de mouvement leur pemmettant d'atteindre pratiquement toutes les caes sur le [GameBoard].
+    À cause de ces caractéristiques, poaaéder des [Kamikaze] sur le jeu est toujours un <i>menace</i> pour l'adversaire.
+    Néanmoins, vous devez vous assurer que cette menace <i>menace</i> soit présente en toute temps!
+    <p />
+    Si vous avez un groupe de [Kamikaze] bloqué serrière d'autres [CombatUnits] où les ennemis sont hors de [Range], ils ne sont pas considérés comme une menace pour les prochains tours. Un bon [Deploy] peut renforcir l'effet de la
+ [KamikazeMenace] dès le début. Analysons l'exemple suivant:
+
+    <img class="block" src="/Resources/Images/KamikazeMenace.png" alt="Kamikaze Menace Example" />
+
+    Comme vous pouvez le voir, le joueur du bas possède 2 groupes [Kamikaze], sur chaque côté du [GameBoard],
+    protégé par des unités [Heavy] et ayant une route d'attaque disponible.
+    <p />
+    Cette disposition permet au joueur de s'attaquer facilement à presques toutes les unités sur le [GameBoard] avec un groupe de [Kamikaze]. Et cela est très important, car pendant que vous ne dépenser aucun points de mouvement [MovPoints] avec ces derniers,
+    L'adversaire doit toujours être conscient de la <i>menace</i> et utiliser de la [DispensableUnits] pour protéger chacun des ses mouvments.
+    <p />
+    Cette <i>menace</i> change complètement a stratégie de l'adversaire en l'obliigeant d'agir avec précaution.
+
+    <h2>Comment combattre la Menace Kamikae?</h2>
+
+    Il est plutôt embarassant de se défendre contre la stratégie de la [KamikazeMenace] car le temps que cela prend permet à l'adversaire de déplacer d'autres
+    [CombatUnits] dans des positions stratégiques. Il y a néanmoins certaines choses pouvant être considérés:
+    <ul><li>
+    Si vous avez des [CombatUnits] avec [Catapult], [Ricochet] et [TripleAttack], vous pouvez les utiliser pour détruire les [Kamikaze]
+  </li><li>
+    Une autre stratégie implique d'obliger l'adversaire à utiliser ses [Kamikaze] contre un groupe d'unités sacrfiable;
+    il est ainsi possible d'éiminer la [KamikazeMenace] pour protégers des groupes de [CombatUnits] beaucoup plus importants.
+  </li></ul></div></lang>
+		<lang key="hr"><h1>Prijetnja Kamikaza</h1><div class="content">
+[Kamikaze] su jedne od najvažnijih [Kamikaze] igre. One su jako krhke, ali imaju ogromnu moć razaranja i slobodu pokreta da dosegnu skor svaki kvadrat na [GameBoard].
+Zbog ovih karakteristika, imati [Kamikaze] u igri je uvijek <i>prijetnja</i> protivniku,
+Međutim, trebate napraviti <i>prijetnju</i> prisutnu u svakom trenutku!
+<p />
+Ako imate grupu [Kamikaze] koja je zapela iza nekih drugih [CombatUnits]  ili je van [Range], tada se ne smatraju prijetnjom, bar ne u sljedećim turnovima. Ali dobar [Deploy] može nametnuti [KamikazeMenace] od početka. Analizirajmo sljeći primjer:
+
+<img class="block" src="/Resources/Images/KamikazeMenace.png" alt="Kamikaze Menace Example" />
+
+Kako možemo vidjeti, donji igrač ima dvije grupe [Kamikaze], po jednu na svakoj strani [GameBoard], zaštićene [Heavy] jedinicama, i s otvorenom napadačkom rutom.
+<p />
+Ovaj raspored omogućuje donjem igraču da lako udari protiv preko skoro čitave  [GameBoard] sa grupom [Kamikaze]. I ovo je jako važno, jer on ne mora trošiti [MovPoints] sa njima, a protivnik uvijek treba biti svjestan  <i>prijetnje</i> i upotrijebiti [DispensableUnits] da zaštiti svaki svoj potez.
+<p />
+Ova <i>prijetnja</i> kompletno mijenja protivnikovu strategiju, tjerajući ga da se ponaša opreznije.
+
+<h2>Kako se boriti protiv Prijetnje Kamikaza?</h2>
+
+Jako je lukavo boriti se protiv [KamikazeMenace] zato što dok se boriši protiv njih dopuštaš protivniku da miče druge [CombatUnits] u strateško položaje. Međutim neke se stvari trebaju uzeti u obzir:
+<ul><li>
+Ako imate [CombatUnits] sa [Catapult], [Ricochet] ili [TripleAttack], možete ih upotrijebeiti da uništite [Kamikaze]
+</li><li>
+Druga strategija nastoji prisliti protivnika da upotrijebi [Kamikaze] protiv neke grupe jedinica koja se može žrtvovati:
+na ovaj načim moguće je maknuti [KamikazeMenace] od drugih važnijih [CombatUnits]
+</li></ul></div></lang>
+		<lang key="pt"><h1>Ameaça Kamikaze</h1><div class="content">
+    As [Kamikaze] são das [CombatUnits] mais importantes do jogo. Apesar de serem muito frágeis, têm um força
+    devastadora e um tipo de movimento que lhes dá liberdade para chegar facilmente de uma ponta do [GameBoard]
+    à outra. Por estas características, ter [Kamikaze] em jogo é sempre uma <i>ameaça</i> para o adversário.
+    Contudo, é preciso aplicar esta ameaça directa e constantemente.
+    <p />
+    Se tivermos um grupo de [Kamikaze] preso ou fora de [Range], então ele não é considerado uma ameaça,
+    pelo menos nos próximos turnos. Mas um bom [Deploy] pode dar relevância à [KamikazeMenace] se
+    esta for considerada logo de início. Analisemos o seguinte exemplo:
+
+    <img class="block" src="/Resources/Images/KamikazeMenace.png" alt="Exemplo de Ameaça Kamikaze" />
+
+    Como podemos ver, o jogador de baixo tem 2 grupos de [Kamikaze], um de cada lado do [GameBoard],
+    protegidos por unidades de [Heavy], e com uma quadrícula livre para que as [Kamikaze] possam partir para
+    o ataque.
+    <p />
+    Esta disposição faz com que o jogador de baixo consiga atingir praticamente todo o [GameBoard] com um
+    groupo de [Kamikaze]. E isto é importante pois, mesmo não mexendo nestes grupos, o adversário tem de estar
+    sempre atento à sua <i>ameaça</i> e usar [DispensableUnits] para proteger as unidades que avança no terreno.
+    <p />
+    Esta ameaça altera completamente a estratégia do adversário e limita-o imenso.
+
+    <h2>Como combater a Ameaça Kamikaze?</h2>
+
+    É complicado combater a [KamikazeMenace] pois para o fazer damos liberdade ao adversário para posicionar
+    estrategicamente outras [CombatUnits]. Contudo há algumas coisas que podem ser feitas:
+    <ul><li>
+    Se houver unidades com [Catapult], [Ricochet] ou [TripleAttack], podem ser usadas para destruir
+    as [Kamikaze]
+  </li><li>
+    Outra estratégia é tentar forçar o jogador a gastar as [Kamikaze], tentando para isso sacrificar
+    um grupo de [CombatUnits]; desta forma pode ser possível eliminar a [KamikazeMenace] para outras [CombatUnits]
+    mais importantes
+  </li></ul></div></lang>
+	</entry>
+
+</resources>

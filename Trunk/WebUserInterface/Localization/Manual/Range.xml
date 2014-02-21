@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="RangeContent">
+		<lang key="de"><h1>Reichweite der Kampfeinheiten</h1><div class="content">
+    [Range] die Distanz des Angriffs einer Einheit. Jede Einheit kann angreifen, und manche haben  
+    einige sehr mächtige Angriffsstärken.
+    <p>
+    Das folgende Beispiel zeigt den Unterschied der [Range] zwischen zwei [CombatUnits]: Die
+    [Crusader] und die [Krill]. Die [Crusader] hat eine [Range] von 6, und deshalb kann sie jede 
+    Einheit die sich in ihrer Reihe befindet, angreifen. Auf der anderen eite, hat die [Krill] nur 
+    eine [Range] von 3, und deshalb kann sie nur Einheiten angreifen die maximal in einer Distanz von 3 
+    Vierecken stehen.
+    </p><p>
+    Beachte dass wenn du eine andere Einheit zwischen dem Angreifer und dem Ziel hast, wird der Angriff 
+    nicht möglich sein, es sei denn der Angreifer hat[Catapult].
+
+    <img class="block" src="/Resources/Images/Range.png" alt="Mov Nove"/></p></div></lang>
+		<lang key="en"><h1>Range of Combat Units</h1><div class="content">
+    [Range] defines the attack distance of a unit. All units can attack, and some even have some very powerful
+    attack powers.
+    <p />
+    The following example shows the differences of [Range] between two [CombatUnits]: the [Crusader]
+    and the [Krill]. The [Crusader] has a [Range] of 6, and because of that can strike any unit
+    on front of it. On the other hand, the [Krill] only has a [Range] of 3, and because of that can only
+    attack units that are at a maximum of 3 squares.
+    <p />
+    Note that if you have another unit between the attacker and the target, the attack won't be possible,
+    unless the attacker has [Catapult].
+
+    <img class="block" src="/Resources/Images/Range.png" alt="Mov Nove" /></div></lang>
+		<lang key="es"><h1>Alcance de las Unidades de Combate</h1><div class="content">
+    El [Range] define la distancia de ataque de una unidad. Todas las unidades pueden atacar, y algunas hasta tienen
+    poderes de ataque especiales. 
+    <p />
+    El siguiente ejemplo muestra las diferencias de [Range] entre dos [CombatUnits]: el [Crusader] y la [Krill].
+    El [Crusader] tiene [Range] de 6, y por eso logra alcanzar practicamente toda la columna en que está.
+    Por otro lado, la [Krill] sólo tiene [Range] de 3, por lo que sólo logra alcanzar unidades a 3 de distância.
+    <p />
+    Nota que si hubiera una unidad entre el atacante y el blanco, el ataque no es posible, a menos que el
+    atacante tenga [Catapult].
+    
+    <img class="block" src="/Resources/Images/Range.png" alt="Mov Nove" /></div></lang>
+		<lang key="fr"><h1>Portée des unités de combat</h1><div class="content">
+    La [Range] est-ce qui détermine la distance à laquelle peut attaquer une unité. Toutes les unités peuvent attaquer, mais certaines ont des pouvoirs d'attaque très puissants.
+    <p />
+    L'exemple suivant montre la différence entre la [Range] de deux [CombatUnits]: le [Crusader]
+    et le [Krill]. Le [Crusader] a une [Range] de 6, et peut attaquer n'importe quel unité en face de lui. Par contre, le [Krill] a seulement une [Range] de 3, aet à cause de cela, peut seulement attaquer les unités se trouvant àune distance de 3 cases en avant.
+    <p />
+    À noter que s'il y a une autre unité entre l'attaqunt et la cible, l'attaque ne sera pas possible à moins que l'attaquant possède l'aptitude [Catapult].
+
+    <img class="block" src="/Resources/Images/Range.png" alt="Mov Nove" /></div></lang>
+		<lang key="hr"><h1>Domet Borbenih Jedinica</h1><div class="content">
+[Range]definira napadačku udaljenost jedince. Sve jedince mogu napadati, a neke čak imaju neke jako moćne napadačke sposobnosti.
+<p />
+Sljedeći primjer pokazuje razliku [Range] između dvije [CombatUnits]:  [Crusader] i [Krill].
+[Crusader] ima [Range] od 6, i zbog toga može napasti bilo koju jedincu ispred sebe. S druge strane, [Krill] ima samo domet 3, i zbog toga on može napadati samo jedinice koje su maksimalno udaljene 3 kvadrata.
+<p />
+Uzmite u obzir ako imate neku drugu jednicu između napadača i mete, napad neće biti moguće izvršiti, osim ako napadač ima [Catapult].
+
+<img class="block" src="/Resources/Images/Range.png" alt="Mov Nove" /></div></lang>
+		<lang key="pt"><h1>Alcance das Unidades de Combate</h1><div class="content">
+    O [Range] define a distância de ataque de uma unidade. Todas as unidades podem atacar, e algumas até têm
+    poderes de ataque especiais. 
+    <p />
+    O seguinte exemplo mostra as diferenças de [Range] entre duas [CombatUnits]: o [Crusader] e a [Krill].
+    O [Crusader] tem [Range] de 6, e por isso consegue atingir praticamente toda a coluna em que está.
+    Por outro lado, a [Krill] só tem [Range] de 3, pelo que só consegue atingir unidades a 3 de distância.
+    <p />
+    Nota que se houver uma unidade entre o atacante e o alvo, o ataque não é possível, a menos que o
+    atacante tenha [Catapult].
+    
+    <img class="block" src="/Resources/Images/Range.png" alt="Mov Nove" /></div></lang>
+		<lang key="ro"><h1>Raza de acţiune a Unităţilor de Luptă</h1><div class="content">
+    [Range] defineşte distanţa de atac a unei unităţi. Toate unităţile pot atac, iar unele chiar au puteri de atac incredibile. 
+    <p />
+    Următorul exemplu arată diferenţele de [Range] între două [CombatUnits]: [Crusader] şi [Krill].
+    [Crusader] are o [Range] de 6, şi din cauza aceasta poate lovi orice unitate din faţa sa.
+    Pe de altă parte, [Krill]-ul are doar o [Range] de 3, şi din cauza aceasta nu poate decât unităţile care sunt la un maxim de 3 pătrate distanţă.
+    <p />
+    Reţineţi că dacă aveţi o altă unitate între atacator şi ţintă, atacul nu va fi posibil, cu excepţia cazului în care atacatorul are [Catapult].
+
+<img class="block" src="/Resources/Images/Range.png" alt="Mov Nove" /></div></lang>
+	</entry>
+
+</resources>

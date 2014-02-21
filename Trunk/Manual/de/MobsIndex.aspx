@@ -1,0 +1,16 @@
+﻿<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/de/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	Mobs
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1>Mobs</h1><p><div class="content">
+    Ein <u>mob</u> ist ein Feind der von dem Spiel kontrolliert wird (künstliche Intelligenz). Du wirst
+    Mobs begegnen wenn <a href='/de/Universe/Travel.aspx'>Reisen</a>(Reisen) im Universum machst. Du magst auch einige <a href='/de/Quests.aspx'>Missionen</a> erledigen 
+    wo du gewisse Mobs jagen musst. Die Mobs <a href='/de/UnitIndex.aspx'>Kampf-Einheiten</a> sind sehr stark, und du magst einige für 
+    dich selber erwerben indem du <a href='/de/Quests.aspx'>Missionen</a> erledigst oder im <a href='/de/Commerce/AuctionHouse.aspx'>Auktions-Haus</a>.
+  </div></p><table class='table'><tr><th>Rasse</td><th>Kampf-Einheiten</td></tr><tr><td><a href='/de/Race/Mercs.aspx'>Mercs</a></td><td><ul class='unitIndexList'><li><a href='/de/Unit/Sentry.aspx'><img class='sentry' src='http://resources.orionsbelt.eu/Images/Common/Units/sentry.png' alt='Sentry' /></a></li><li><a href='/de/Unit/Reaper.aspx'><img class='reaper' src='http://resources.orionsbelt.eu/Images/Common/Units/reaper.png' alt='Reaper' /></a></li><li><a href='/de/Unit/Scourge.aspx'><img class='scourge' src='http://resources.orionsbelt.eu/Images/Common/Units/scourge.png' alt='Scourge' /></a></li><li><a href='/de/Unit/Walker.aspx'><img class='walker' src='http://resources.orionsbelt.eu/Images/Common/Units/walker.png' alt='Walker' /></a></li><li><a href='/de/Unit/Titan.aspx'><img class='titan' src='http://resources.orionsbelt.eu/Images/Common/Units/titan.png' alt='Titan' /></a></li><li><a href='/de/Unit/SilverBeard.aspx'><img class='silverbeard' src='http://resources.orionsbelt.eu/Images/Common/Units/silverbeard.png' alt='Silberbart' /></a></li><li><a href='/de/Unit/MetallicBeard.aspx'><img class='metallicbeard' src='http://resources.orionsbelt.eu/Images/Common/Units/metallicbeard.png' alt='Metallischer Bart' /></a></li></ul></td></tr><tr><td>[SpaceForce]</td><td><ul class='unitIndexList'><li><a href='/de/Unit/Jumper.aspx'><img class='jumper' src='http://resources.orionsbelt.eu/Images/Common/Units/jumper.png' alt='Springer' /></a></li><li><a href='/de/Unit/Myst.aspx'><img class='myst' src='http://resources.orionsbelt.eu/Images/Common/Units/myst.png' alt='Myst' /></a></li><li><a href='/de/Unit/Cypher.aspx'><img class='cypher' src='http://resources.orionsbelt.eu/Images/Common/Units/cypher.png' alt='Cypher' /></a></li><li><a href='/de/Unit/Crawler.aspx'><img class='crawler' src='http://resources.orionsbelt.eu/Images/Common/Units/crawler.png' alt='Kriecher' /></a></li><li><a href='/de/Unit/Fist.aspx'><img class='fist' src='http://resources.orionsbelt.eu/Images/Common/Units/fist.png' alt='Faust' /></a></li><li><a href='/de/Unit/CommanderFox.aspx'><img class='commanderfox' src='http://resources.orionsbelt.eu/Images/Common/Units/commanderfox.png' alt='Kommander Fox' /></a></li><li><a href='/de/Unit/CaptainWolf.aspx'><img class='captainwolf' src='http://resources.orionsbelt.eu/Images/Common/Units/captainwolf.png' alt='Kapitän Wolf' /></a></li></ul></td></tr></table>
+	
+</asp:Content>

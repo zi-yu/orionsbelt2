@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="MovementContent">
+		<lang key="de"><h1>Schlacht-Bewegungen</h1><div class="content">
+    Schlacht-Bewegungen bezieht sich auf den Akt [CombatUnits] auf dem [GameBoard] zu bewegen, 
+    nachdem man mit dem [Deploy] fertig ist.
+    Jede Einheit hat ihren eigenen Bewegungs-Typ:
+    <ul><li>[MovAll]</li><li>[MovNormal]</li><li>[MovDiagonal]</li><li>[MovFront]</li><li>[MovDrop]</li><li>[MovNone]</li></ul>
+    Der Bewegungs-Typ und die [MovCost] definiert die Geschwindigkeit der Einheit.
+
+    <a name="MovAll" id="MovAll"></a><h2>[MovAll]</h2> 
+    Mit [MovAll] kann die Einheit sich zu einem benachbarten Viereck bewegen. Beispiel:
+    <img class="block" src="/Resources/Images/MovAll.png" alt="Mov All"/><a name="MovNormal" id="MovNormal"></a><h2>[MovNormal]</h2>
+    Mit [MovNormal] kann die Einheit sich zu einem benachbarten Viereck bewegen, mit Ausnahme der 
+    diagonalen. Beispiel:
+    <img class="block" src="/Resources/Images/MovNormal.png" alt="Mov Normal"/><a name="MovDiagonal" id="MovDiagonal"></a><h2>[MovDiagonal]</h2>
+    Mit [MovDiagonal] kann eine Einheit sich nur diagonal bewegen (achte auf die [DiagonalTrap]). 
+    Beispiel:
+    <img class="block" src="/Resources/Images/MovDiagonal.png" alt="Mov Diagonal"/><a name="MovFront" id="MovFront"></a><h2>[MovFront]</h2>
+    Mit [MovFront] kann die Einheit sich nur geradeaus bewegen. Wenn du die Richtung ändern musst, 
+    musst du die Rotation benutzen. Beispiel:
+    <img class="block" src="/Resources/Images/MovFront.png" alt="Mov Front"/><a name="MovDrop" id="MovDrop"></a><h2>[MovDrop]</h2>
+    AEine Einheit mit [MovDrop] ist eine Einheit die eine andere Einheit abwerfen kann auf dem 
+    [GameBoard].
+    Beispiel: Die [Queen] kann ein [Egg] abwerfen auf dem [GameBoard].
+
+    <a name="MovNone" id="MovNone"></a><h2>[MovNone]</h2>
+    Eine Einheit mit [MovNone] kann sich während einer Schlacht nicht bewegen. Beispiel:
+    <img class="block" src="/Resources/Images/MovNone.png" alt="Mov Nove"/><a name="MovCost" id="MovCost"></a><h2>[MovCost]</h2>
+    Der [Movement] Typ definiert wie eine Einheit sich bewegen kann auf dem [GameBoard], Aber alle 
+    [CombatUnits] haben auch eine [MovCost] die ihre Geschwindigkeit beeinflusst. In jeder Schlacht-
+    Runde, hat der Spieler 6 [MovPoints] die er ausgeben kann: er kann Einheiten bewegen, Einheiten 
+    angreifen, oder sie sogar ignorieren.
+    <p>
+    Wenn eine Einheit eine [MovCost] von 2 hat, bedeutet das, dass wir sie 3 Mal in der gleichen 
+    Runde bewegen können (6/2=3).
+    Zum Beispiel, hat der [Doomer] eine Kost von 3 und die [Eagle] eine Kost von 2. Und das macht die 
+    [Eagle] schneller als die [Doomer], auch wenn beide Einheiten [MovDiagonal] benutzen.
+
+    <a name="MovPoints" id="MovPoints"></a></p><h2>[MovPoints]</h2>
+    Die [MovPoints] represäntieren wieviele Aktionen du machen kannst während einer Runde. In jeder 
+    Runde erhälst du 6 [MovPoints] die du ausgeben kannst, und es gibt mehrere Aktion die du machen 
+    kannst:
+    <ul><li>Ein Angriff kostet ein Bewegungs-Punkt</li><li>Eine Einheit zu bewegen hat eine damit 
+    verbundene Kost. Alle [CombatUnits]
+    haben eine definierte [MovCost]</li><li>Eine Einheiten-Gruppe aufzuteilen, kostet dich doppelt 
+    soviel wie diese Gruppe zu bewegen</li></ul></div></lang>
+		<lang key="en"><h1>Battle Movement</h1><div class="content">
+    Battle movements refers to the act of moving [CombatUnits] on the [GameBoard] after finishing the [Deploy].
+    Each unit has its own movement type, that can be one of the following:
+    <ul><li>[MovAll]</li><li>[MovNormal]</li><li>[MovDiagonal]</li><li>[MovFront]</li><li>[MovDrop]</li><li>[MovNone]</li></ul>
+    The movement type and the [MovCost] define the speed of a unit.
+
+    <a name="MovAll" id="MovAll"></a><h2>[MovAll]</h2> 
+    With [MovAll] a unit can move to any adjacent square. Example:
+    <img class="block" src="/Resources/Images/MovAll.png" alt="Mov All" /><a name="MovNormal" id="MovNormal"></a><h2>[MovNormal]</h2>
+    With [MovNormal]  unit can move to any adjacent square, except diagonal ones. Example:
+    <img class="block" src="/Resources/Images/MovNormal.png" alt="Mov Normal" /><a name="MovDiagonal" id="MovDiagonal"></a><h2>[MovDiagonal]</h2>
+    With [MovDiagonal] a unit can only move to a diagonal (be aware of the [DiagonalTrap]). Example:
+    <img class="block" src="/Resources/Images/MovDiagonal.png" alt="Mov Diagonal" /><a name="MovFront" id="MovFront"></a><h2>[MovFront]</h2>
+    With [MovFront] a unit can only move up front. If you need to change the direction, you'll
+    have to use a rotation. Example:
+    <img class="block" src="/Resources/Images/MovFront.png" alt="Mov Front" /><a name="MovDrop" id="MovDrop"></a><h2>[MovDrop]</h2>
+    A unit with [MovDrop] is a unit that may drop another unit on the [GameBoard] by moving.
+    Example: the [Queen] may drop an [Egg] on the [GameBoard].
+
+    <a name="MovNone" id="MovNone"></a><h2>[MovNone]</h2>
+    A unit with [MovNone] can't move during all battle. Example:
+    <img class="block" src="/Resources/Images/MovNone.png" alt="Mov Nove" /><a name="MovCost" id="MovCost"></a><h2>[MovCost]</h2>
+    The [Movement] type defines how a unit can move on the [GameBoard], But all [CombatUnits] also have a
+    [MovCost] that translates to how fast they are. On each battle turn, a player has 6 [MovPoints] to spend:
+    he can move units, attack units, or even ignore them.
+    <p />
+    If a unit has a [MovCost] of 2, that means that we can move it 3 times on the same turn (6/2=3). For
+    example, the [Doomer] has a cost of 3 and the [Eagle] a cost of 2. And this makes the [Eagle]
+    faster than the [Doomer], even thought both units share [MovDiagonal].
+
+    <a name="MovPoints" id="MovPoints"></a><h2>[MovPoints]</h2>
+    The [MovPoints] represent how much actions you can perform on your battle turn. On each turn you'll get
+    six [MovPoints] to spend, and there are several actions that you can take:
+    <ul><li>An attack will cost 1 movement point</li><li>Moving a combat unit will have a cost that will depend on the combat unit. All [CombatUnits]
+  have a defined [MovCost]</li><li>Splitting a unit group, will cost twice as much as moving that group</li></ul></div></lang>
+		<lang key="es"><h1>Movimientos en la Batalla</h1><div class="content">
+    Los movimientos se refieren al acto de mover [CombatUnits] en el [GameBoard] posterior a la fase de [Deploy].
+    Cada unidad de combate tiene un tipo de movimiento específico, los cuales pueden ser :
+    <ul><li>[MovAll]</li><li>[MovNormal]</li><li>[MovDiagonal]</li><li>[MovFront]</li><li>[MovDrop]</li><li>[MovNone]</li></ul>
+    En conjunto al tipo de movimiento está el [MovCost]. Estas dos características definen la velocidad de una unidade.
+
+    <a name="MovAll" id="MovAll"></a><h2>[MovAll]</h2>
+    Con el [MovAll] una unidad se puede mover para cualquier cuadrícula adjacente. Ejemplo:
+    <img class="block" src="/Resources/Images/MovAll.png" alt="Mov All" /><a name="MovNormal" id="MovNormal"></a><h2>[MovNormal]</h2>
+    Con el [MovNormal] una unidad se puede mover para cualquier cuadrícula adjacente, excepto hacía las diagonales. Ejemplo:
+    <img class="block" src="/Resources/Images/MovNormal.png" alt="Mov Normal" /><a name="MovDiagonal" id="MovDiagonal"></a><h2>[MovDiagonal]</h2>
+    Con el [MovDiagonal] una unidad sólo se puede mover para una diagonal (cuidado con la [DiagonalTrap]). Ejemplo:
+    <img class="block" src="/Resources/Images/MovDiagonal.png" alt="Mov Diagonal" /><a name="MovFront" id="MovFront"></a><h2>[MovFront]</h2>
+    Con el [MovFront] una unidad sólo se puede mover hacia adelante. Se necesita cambiar de dirección , tendrá que usar
+    una rotación. Ejemplo:
+    <img class="block" src="/Resources/Images/MovFront.png" alt="Mov Front" /><a name="MovDrop" id="MovDrop"></a><h2>[MovDrop]</h2>
+    Una unidad con [MovDrop] es capaz de introducir otra unidad de combate en el [GameBoard].
+    Por ejemplo: una [Queen] es capaz de  hacer crecer un [Egg] en el [GameBoard].
+
+    <a name="MovNone" id="MovNone"></a><h2>[MovNone]</h2>
+    Una unidad [MovNone] está fija y no se puede mover. Ejemplo:
+    <img class="block" src="/Resources/Images/MovNone.png" alt="Mov Nove" /><a name="MovCost" id="MovCost"></a><h2>[MovCost]</h2>
+    El tipo de [Movement] influye como es que la unidad se mueve. Pero todas las [CombatUnits] tienen un [MovCost]
+    que influyen en cuan rápidas serán. En cada turno de uma batalla, un jugador tiene 6 puntos de movimientos
+    para gastar: puede mover unidades, puede atacar o puede no gastarlos.
+    <p />
+    Si una unidad tiene un [MovCost] de 2, eso quiere decir que podemos moverla 3 veces en un turno (6/2=3). vemos
+    por ejemplo la [Doomer] y la [Eagle]. Ambas tienen [MovDiagonal], pero la [Doomer] tiene un costo 3 y la [Eagle]
+    custo 2, lo que hace que la [Eagle] sea más rápida.
+
+    <a name="MovPoints" id="MovPoints"></a><h2>[MovPoints]</h2>
+    Los [MovPoints] representan el total de acciones que pueden ser realizadas en un turno de batalla. En cada turno
+    están Disponibles seis [MovPoints] para gastar, y cada acción disponible tiene su costo:
+    <ul><li>Atacar cuesta 1 punto</li><li>
+    Mover una unidade de combate tendrá el costo asociado a esa unidad. Todas las [CombatUnits]
+    tienen un [MovCost] definido
+  </li><li>Separar un grupo de unidades, cuesta el doble de [MovCost] de esa unidad</li></ul></div></lang>
+		<lang key="fr"><h1>Mouvement de Combat</h1><div class="content">
+    Les mouvments de combats font références à l'acte de bouger les [CombatUnits] sur le [GameBoard] suite au [Deploy].
+    Chaque unité possède sont propre type de mouvement, pouvant être l'une de ces dernières:
+    <ul><li>[MovAll]</li><li>[MovNormal]</li><li>[MovDiagonal]</li><li>[MovFront]</li><li>[MovDrop]</li><li>[MovNone]</li></ul>
+    Le type de mouvement et le [MovCost] définit la vitesse d'une unité.
+
+    <a name="MovAll" id="MovAll"></a><h2>[MovAll]</h2> 
+    Avec [MovAll] une unité peut se déplacer à n'importe quelle case adjacente. Exemple:
+    <img class="block" src="/Resources/Images/MovAll.png" alt="Mov All" /><a name="MovNormal" id="MovNormal"></a><h2>[MovNormal]</h2>
+    Avec [MovNormal]  une unité peut se déplacer à n'importe quelle case adjacente, sauf les diagonales. Exemple:
+    <img class="block" src="/Resources/Images/MovNormal.png" alt="Mov Normal" /><a name="MovDiagonal" id="MovDiagonal"></a><h2>[MovDiagonal]</h2>
+    Vace [MovDiagonal]une unité peut seulement se déplacer à la diagonale (spyez conscient de la [DiagonalTrap]). Exemple:
+    <img class="block" src="/Resources/Images/MovDiagonal.png" alt="Mov Diagonal" /><a name="MovFront" id="MovFront"></a><h2>[MovFront]</h2>
+    Avec [MovFront]une unité peut seulement bouger vers l'avant. Pour changer de direction, il faudra utiliser la rotation.. Exemple:
+    <img class="block" src="/Resources/Images/MovFront.png" alt="Mov Front" /><a name="MovDrop" id="MovDrop"></a><h2>[MovDrop]</h2>
+    Une unité avec [MovDrop] est une unité pouvant déposer d'autres unités sur le [GameBoard] en bougant.
+    Exemple: la [Queen] peut déposer un [Egg] sur le [GameBoard].
+
+    <a name="MovNone" id="MovNone"></a><h2>[MovNone]</h2>
+    Une unité avec [MovNone] ne peut plus bouger durant toute la bataille. Exemple:
+    <img class="block" src="/Resources/Images/MovNone.png" alt="Mov Nove" /><a name="MovCost" id="MovCost"></a><h2>[MovCost]</h2>
+    Le type de [Movement] comment une unité bouge sur le [GameBoard], Mais toutes les [CombatUnits] ont aussi un
+    [MovCost] qui se traduit par comments rapides ils sont. À chaque tour de combat, un jour reçoit 6 [MovPoints] à dépenser:
+    il peut bouger ses unités, attaquer avec ses unités, ou les ignorer.
+    <p />
+    Si une unité a un [MovCost] de 2, cela signifie qu'il peut bouger 3 trois fois durant le même tour. (6/2=3). Par exemple, le [Doomer] a une coût de 3 et L'[Eagle] un coüt de 2. Cela signifie que l'[Eagle]
+    est plus rapide que le [Doomer], même si chaque unité ont le [MovDiagonal].
+
+    <a name="MovPoints" id="MovPoints"></a><h2>[MovPoints]</h2>
+    Les [MovPoints] représente le nombre d'actions que vous pouvez faire en un seul tour de bataille. À chaque tour vous recevez 6 [MovPoints] à dépenser, et il y a plusieurs actions que vous pouvez faire:
+    <ul><li>Une attaque coûte un point de mouvement</li><li>Déplacer une unité de combat dépends de son coût en mouvement. Toutes les [CombatUnits]
+  ont un [MovCost] prédéfinis.</li><li>Séparer un groupe d'unité, coûte le double du coût de mouvement habituel.</li></ul></div></lang>
+		<lang key="hr"><h1>Borbeni Pokreti</h1><div class="content">
+Borneni pokreti  odnose se na čin pokretanja [CombatUnits] na [GameBoard] nakon završavanja [Deploy].
+Svaka jedinica ima svoj jedinstveni tip pokreta, a ti mogu biti jedni od sljedećih:
+<ul><li>[MovAll]</li><li>[MovNormal]</li><li>[MovDiagonal]</li><li>[MovFront]</li><li>[MovDrop]</li><li>[MovNone]</li></ul>
+Tip pokreta i [MovCost] definiraju brzinu jedinice.
+
+ <a name="MovAll" id="MovAll"></a><h2>[MovAll]</h2> 
+Sa [MovAll] jedinca se može pokrenuti na bilo koji pridruženi kvadrat. Primjer:
+<img class="block" src="/Resources/Images/MovAll.png" alt="Mov All" /><a name="MovNormal" id="MovNormal"></a><h2>[MovNormal]</h2>
+Sa [MovNormal] jedinica se može pomaknuti na bilo koji pridruženi kvadrat, osim dijagonalnih. Primjer:
+<img class="block" src="/Resources/Images/MovNormal.png" alt="Mov Normal" /><a name="MovDiagonal" id="MovDiagonal"></a><h2>[MovDiagonal]</h2>
+Sa [MovDiagonal] jedinica se može pomicati samo dijagonalno (pazite se [DiagonalTrap]). Primjer:
+<img class="block" src="/Resources/Images/MovDiagonal.png" alt="Mov Diagonal" /><a name="MovFront" id="MovFront"></a><h2>[MovFront]</h2>
+Sa [MovFront] jedinica se može pokretati prema naprijed. Ako trebate promjeniti smjer, trebete promjeniti smjer onda trebate upotrijebiti rotaciju. Primjer:
+<img class="block" src="/Resources/Images/MovFront.png" alt="Mov Front" /><a name="MovDrop" id="MovDrop"></a><h2>[MovDrop]</h2>
+Jedinica sa pokretom [MovDrop] je jedinica koja može ispustiti drugu jedinicu na [GameBoard] sa pokretom.
+Primjer: [Queen] može ispustiti [Egg] na  [GameBoard].
+
+<a name="MovNone" id="MovNone"></a><h2>[MovNone]</h2>
+Jedinica sa [MovNone] ne može se micati tokom bitke. Primjer:
+<img class="block" src="/Resources/Images/MovNone.png" alt="Mov Nove" /><a name="MovCost" id="MovCost"></a><h2>[MovCost]</h2>
+[Movement] tip definira kako se jedinica može micati na [GameBoard], ali sve [CombatUnits] također imaju [MovCost] što se prevodi u njihovu brzinu. U svakom turnu bitke, igrač ima 6 [MovPoints] za potrošiti: on može micati jedinice, napadati jedinice, ili čak ne činiti ništa.
+Ako jedinica ima [MovCost] 2, to znači da je možemo pomaknuti 3 puta u istome turnu (6/2=3).
+Na primjer, [Doomer] ima cijenu 3 i [Eagle] ima cjenu 2. Ovo čini [Eagle] bržim od [Doomer], iako obje jedinice dijele tip pokreta [MovDiagonal].
+<a name="MovPoints" id="MovPoints"></a><h2>[MovPoints]</h2>
+[MovPoints] predsravljaju koliko pokreta možete izvesti u vašem turnu bitke. Na svakom turnu dobit ćete šest [MovPoints] za potrošiti, i postoji nekoliko akcija koje možete izvesti:
+<ul><li>Napad se cijenom pokreta od 1 boda pokreta</li><li>Cijena pokretanja borbene jedince ovisi o tipu borbene jedinice. Sve [CombatUnits] imaju definirani [MovCost]</li><li> Razdvajanje grupe neke jedinice košta duplo više nego pokretanje te grupe.</li></ul></div></lang>
+		<lang key="pt"><h1>Movimentação na Batalha</h1><div class="content">
+    A movimentação refere-se ao acto de mover [CombatUnits] no [GameBoard] após a fase de [Deploy].
+    Cada unidade de combate tem um tipo de movimento específico, que pode ser um dos seguintes:
+    <ul><li>[MovAll]</li><li>[MovNormal]</li><li>[MovDiagonal]</li><li>[MovFront]</li><li>[MovDrop]</li><li>[MovNone]</li></ul>
+    Aliando ao tipo de movimento está o [MovCost]. Estas duas características definem a velocidade de uma unidade.
+
+    <a name="MovAll" id="MovAll"></a><h2>[MovAll]</h2>
+    Com o [MovAll] uma unidade pode-se mover para qualquer quadrícula adjacente. Exemplo:
+    <img class="block" src="/Resources/Images/MovAll.png" alt="Mov All" /><a name="MovNormal" id="MovNormal"></a><h2>[MovNormal]</h2>
+    Com o [MovNormal] uma unidade pode-se mover para qualquer quadrícula adjacente, excepto as diagonais. Exemplo:
+    <img class="block" src="/Resources/Images/MovNormal.png" alt="Mov Normal" /><a name="MovDiagonal" id="MovDiagonal"></a><h2>[MovDiagonal]</h2>
+    Com o [MovDiagonal] uma unidade só se pode mover para uma diagonal (cuidado com a [DiagonalTrap]). Exemplo:
+    <img class="block" src="/Resources/Images/MovDiagonal.png" alt="Mov Diagonal" /><a name="MovFront" id="MovFront"></a><h2>[MovFront]</h2>
+    Com o [MovFront] uma unidade só se pode mover em frente. Se precisar de mudar de direcção, terá de usar
+    uma rotação. Exemplo:
+    <img class="block" src="/Resources/Images/MovFront.png" alt="Mov Front" /><a name="MovDrop" id="MovDrop"></a><h2>[MovDrop]</h2>
+    Uma unidade com [MovDrop] é capaz de introduzir uma outra unidade de combate no [GameBoard].
+    Por exemplo: uma [Queen] é capaz de  fazer crescer um [Egg] no [GameBoard].
+
+    <a name="MovNone" id="MovNone"></a><h2>[MovNone]</h2>
+    Uma unidade [MovNone] está fixa e não se pode mover. Exemplo:
+    <img class="block" src="/Resources/Images/MovNone.png" alt="Mov Nove" /><a name="MovCost" id="MovCost"></a><h2>[MovCost]</h2>
+    O tipo de [Movement] influencia como é que a unidade se move. Mas todas as [CombatUnits] têm um [MovCost]
+    que influencia o quão rápidas elas são. Em cada turno de uma batalha, um jogador tem 6 pontos de movimentação
+    para gastar: pode mover unidades, pode atacar ou pode até nem os gastar.
+    <p />
+    Se uma unidade tem um [MovCost] de 2, isso quer dizer que podemos movê-la 3 vezes num turno (6/2=3). Vejemos
+    por exemplo a [Doomer] e a [Eagle]. Ambas têm [MovDiagonal], mas a [Doomer] tem custo 3 e a [Eagle]
+    custo 2, o que faz com que a [Eagle] seja mais rápida.
+
+    <a name="MovPoints" id="MovPoints"></a><h2>[MovPoints]</h2>
+    Os [MovPoints] representam o total de acções que podem ser realizadas num turno de batalha. Em cada turno
+    estão disponíveis seis [MovPoints] para gastar, e cada acção disponível tem o seu custo:
+    <ul><li>Atacar custa 1 ponto</li><li>
+    Mover uma unidade de combate terá o custo associado a essa unidade. Todas as [CombatUnits]
+    têm um [MovCost] definido
+  </li><li>Separar um grupo de unidades, custa o dobro do [MovCost] dessa unidade</li></ul></div></lang>
+	</entry>
+
+</resources>

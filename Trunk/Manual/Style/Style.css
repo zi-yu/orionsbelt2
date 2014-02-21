@@ -1,0 +1,313 @@
+#all 
+{
+	width:990px;
+	margin:auto;
+	padding-top:10px;
+}
+
+#menuPanel, #contentPanel 
+{ 
+	float:left; 
+}
+
+#contentPanel 
+{
+	width:800px;
+	padding-left:10px;
+}
+
+#menuPanel 
+{ 
+	width: 180px; 
+}
+
+table.table tr th, #menuPanel h2, #rightMenu h2, dl dt
+{
+	background-image:url(http://resources.orionsbelt.eu/Images/Common/TableTransparent.png);
+	background-color:Transparent;
+}
+
+#menuPanel h2, #rightMenu h2
+{
+	margin:0;
+	height:22px;
+	padding-top:5px;
+	background-image:url(http://resources.orionsbelt.eu/Images/Common/TableTransparent.png);
+	background-color:Transparent;
+}
+
+#menuPanel ul li, #rightMenu ul li
+{
+	padding:5px;
+	height:25px;
+	background-image:url(http://resources.orionsbelt.eu/Images/Common/TableTransparent.png);
+}
+
+#menuPanel ul li a, #rightMenu ul li a
+{
+	display:block;
+}
+
+#rightMenu ul li a img
+{
+	height:25px;
+	margin-right:8px;
+}
+
+#menuPanel ul li a:hover, #rightMenu ul li a:hover
+{
+	text-decoration:none;
+}
+
+#menuPanel ul li:hover, #rightMenu ul li:hover
+{
+	padding:5px;
+	height:25px;
+}
+
+#rightMenu
+{
+	float:right;
+	width:200px;
+	padding-left:5px;
+	padding-top:20px;
+	padding-right:20px;
+	background:none;
+	height:auto;
+}
+
+#rightMenu ul li
+{
+	text-align:left;
+	padding-left:10px;
+}
+
+#rightMenu ul li:hover
+{
+	text-align:left;
+	padding-left:10px;
+}
+
+div#contentPanel #rightMenu ul
+{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+ul.unitIndexList li
+{
+	float:left;
+	padding:20px;
+}
+
+div.description, div.content
+{
+	margin:20px;
+}
+
+div.description p
+{
+	margin-top:20px;
+}
+
+div.content p
+{
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+div.description img
+{
+	float:left;
+	margin:10px;
+}
+
+div.footer
+{
+	clear:both;
+	padding:20px 60px;
+}
+
+table.table
+{
+}
+
+div.content ul, div.description ul, div#contentPanel ul
+{
+	list-style-type:circle;
+	padding-left:20px;
+	margin:10px;
+}
+
+div#contentPanel table.table tr td ul
+{
+	list-style-type:none;
+	padding-left:0;
+	margin:0;
+}
+
+iframe.battle
+{
+	margin:20px;
+}
+
+.block
+{
+	width:auto;
+}
+
+img.block
+{
+	display:block;
+	margin:10px;
+}
+
+div.manualPreview
+{
+	margin-top:10px;
+}
+
+div#contentPanel ul.imageList
+{
+	list-style:none;
+}
+
+div#contentPanel ul.imageList li
+{
+	display:inline;
+	margin:5px;
+}
+
+div.smallerContent
+{
+	width:540px;
+}
+
+ul.flags
+{
+	margin-left:10px;
+}
+
+#menuPanel ul.flags li
+{
+	float:left;
+	margin:10px 5px 5px 5px;
+	background:none;
+
+}
+
+div.translate
+{
+	margin-top:30px;
+}
+
+ul.resources li img{
+	width:15px;
+	height:15px;
+}
+
+#resourcesCost {
+	margin:5px 0px;
+}
+
+#resourcesCost ul{
+	display:inline;
+}
+
+#resourcesCost ul li{
+	border:0;
+	display:inline;
+}
+
+pre.code
+{
+	margin:0;
+	padding:0;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+table.table tr td
+{
+	padding:5px;
+	background-image:url(http://resources.orionsbelt.eu/Images/Common/TableTransparent.png);
+}
+
+#disqus_thread
+{
+	clear:both;
+	padding:20px;
+}
+
+/**** DISCUS ***/
+
+textarea
+{
+	background-color:#ADADAD;
+}
+
+.form-text-label
+{
+	background:Transparent;
+	color:#FFF;
+}
+
+img.resourceSmall {
+	width:25px;
+	height:25px;
+	background:url(http://resources.orionsbelt.eu/Images/Common/Resources/Resources.png) no-repeat;
+	display:inline-block;
+}
+
+img.resourceRadon {
+	background-position:-27px -1px;
+}
+
+img.resourceArgon {
+	background-position:-53px -1px;
+}
+
+img.resourceAstatine {
+	background-position:-79px -1px;
+}
+
+img.resourceCryptium {
+	background-position:-105px -1px;
+}
+
+img.resourcePrismal {
+	background-position:-131px -1px;
+}
+
+img.resourceSerium {
+	background-position:-158px -1px;
+}
+
+img.resourceEnergy {
+	background-position:-184px -1px;
+}
+
+img.resourceMithril {
+	background-position:-209px -1px;
+}
+
+img.resourceProtol {
+	background-position:-235px -1px;
+}
+
+img.resourceElk {
+	background-position:-261px -1px;
+}
+
+img.resourceTitanium {
+	background-position:-1px -26px;
+}
+
+img.resourceUranium {
+	background-position:-27px -26px;
+}
+
+img.resourceGold {
+	background-position:-53px -26px;
+}

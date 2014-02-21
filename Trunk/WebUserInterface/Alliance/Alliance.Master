@@ -1,0 +1,6 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/OrionsBeltUniverse.Master" Inherits="OrionsBelt.WebUserInterface.Alliance.AllianceMaster" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+    <OrionsBeltUI:AllianceMenu runat="server" />
+    <asp:ContentPlaceHolder ID="Content" runat="server" />
+</asp:Content>

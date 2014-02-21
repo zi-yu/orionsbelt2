@@ -1,0 +1,15 @@
+<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/$locale/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	$utils.Localize($context)
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="menu" runat="server">
+	$utils.GetQuestsMenu()
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	$utils.GetQuestsByContext($context)
+	
+</asp:Content>

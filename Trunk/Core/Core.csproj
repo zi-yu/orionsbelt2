@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{296C550F-FE24-409E-92F0-4DC5D12F1291}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>OrionsBelt.Core</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>../WebUserInterface/bin/</OutputPath>    
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>../WebUserInterface/bin/</OutputPath>    
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Loki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\BotCredential\BotCredential.cs" />
+    <Compile Include="Entities\BotCredential\BotCredentialToChange.cs" />
+    <Compile Include="Entities\PendingBotRequest\PendingBotRequest.cs" />
+    <Compile Include="Entities\PendingBotRequest\PendingBotRequestToChange.cs" />
+    <Compile Include="Entities\Country\Country.cs" />
+    <Compile Include="Entities\Country\CountryToChange.cs" />
+    <Compile Include="Entities\BotHandler\BotHandler.cs" />
+    <Compile Include="Entities\BotHandler\BotHandlerToChange.cs" />
+    <Compile Include="Entities\TeamStorage\TeamStorage.cs" />
+    <Compile Include="Entities\TeamStorage\TeamStorageToChange.cs" />
+    <Compile Include="Entities\AllianceStorage\AllianceStorage.cs" />
+    <Compile Include="Entities\AllianceStorage\AllianceStorageToChange.cs" />
+    <Compile Include="Entities\ServerProperties\ServerProperties.cs" />
+    <Compile Include="Entities\ServerProperties\ServerPropertiesToChange.cs" />
+    <Compile Include="Entities\PlayerStats\PlayerStats.cs" />
+    <Compile Include="Entities\PlayerStats\PlayerStatsToChange.cs" />
+    <Compile Include="Entities\Interaction\Interaction.cs" />
+    <Compile Include="Entities\Interaction\InteractionToChange.cs" />
+    <Compile Include="Entities\Transaction\Transaction.cs" />
+    <Compile Include="Entities\Transaction\TransactionToChange.cs" />
+    <Compile Include="Entities\DuplicateDetection\DuplicateDetection.cs" />
+    <Compile Include="Entities\DuplicateDetection\DuplicateDetectionToChange.cs" />
+    <Compile Include="Entities\PaymentDescription\PaymentDescription.cs" />
+    <Compile Include="Entities\PaymentDescription\PaymentDescriptionToChange.cs" />
+    <Compile Include="Entities\Payment\Payment.cs" />
+    <Compile Include="Entities\Payment\PaymentToChange.cs" />
+    <Compile Include="Entities\WormHolePlayers\WormHolePlayers.cs" />
+    <Compile Include="Entities\WormHolePlayers\WormHolePlayersToChange.cs" />
+    <Compile Include="Entities\GlobalStats\GlobalStats.cs" />
+    <Compile Include="Entities\GlobalStats\GlobalStatsToChange.cs" />
+    <Compile Include="Entities\ForumTopic\ForumTopic.cs" />
+    <Compile Include="Entities\ForumTopic\ForumTopicToChange.cs" />
+    <Compile Include="Entities\Message\Message.cs" />
+    <Compile Include="Entities\Message\MessageToChange.cs" />
+    <Compile Include="Entities\Tournament\Tournament.cs" />
+    <Compile Include="Entities\Tournament\TournamentToChange.cs" />
+    <Compile Include="Entities\SpecialEvent\SpecialEvent.cs" />
+    <Compile Include="Entities\SpecialEvent\SpecialEventToChange.cs" />
+    <Compile Include="Entities\LogStorage\LogStorage.cs" />
+    <Compile Include="Entities\LogStorage\LogStorageToChange.cs" />
+    <Compile Include="Entities\PrincipalStats\PrincipalStats.cs" />
+    <Compile Include="Entities\PrincipalStats\PrincipalStatsToChange.cs" />
+    <Compile Include="Entities\VoteStorage\VoteStorage.cs" />
+    <Compile Include="Entities\VoteStorage\VoteStorageToChange.cs" />
+    <Compile Include="Entities\VoteReferral\VoteReferral.cs" />
+    <Compile Include="Entities\VoteReferral\VoteReferralToChange.cs" />
+    <Compile Include="Entities\Product\Product.cs" />
+    <Compile Include="Entities\Product\ProductToChange.cs" />
+    <Compile Include="Entities\ExceptionInfo\ExceptionInfo.cs" />
+    <Compile Include="Entities\ExceptionInfo\ExceptionInfoToChange.cs" />
+    <Compile Include="Entities\Promotion\Promotion.cs" />
+    <Compile Include="Entities\Promotion\PromotionToChange.cs" />
+    <Compile Include="Entities\Campaign\Campaign.cs" />
+    <Compile Include="Entities\Campaign\CampaignToChange.cs" />
+    <Compile Include="Entities\PrivateBoard\PrivateBoard.cs" />
+    <Compile Include="Entities\PrivateBoard\PrivateBoardToChange.cs" />
+    <Compile Include="Entities\CampaignLevel\CampaignLevel.cs" />
+    <Compile Include="Entities\CampaignLevel\CampaignLevelToChange.cs" />
+    <Compile Include="Entities\Task\Task.cs" />
+    <Compile Include="Entities\Task\TaskToChange.cs" />
+    <Compile Include="Entities\BonusCard\BonusCard.cs" />
+    <Compile Include="Entities\BonusCard\BonusCardToChange.cs" />
+    <Compile Include="Entities\ArenaHistorical\ArenaHistorical.cs" />
+    <Compile Include="Entities\ArenaHistorical\ArenaHistoricalToChange.cs" />
+    <Compile Include="Entities\Principal\Principal.cs" />
+    <Compile Include="Entities\Principal\PrincipalToChange.cs" />
+    <Compile Include="Entities\FogOfWarStorage\FogOfWarStorage.cs" />
+    <Compile Include="Entities\FogOfWarStorage\FogOfWarStorageToChange.cs" />
+    <Compile Include="Entities\BattleExtention\BattleExtention.cs" />
+    <Compile Include="Entities\BattleExtention\BattleExtentionToChange.cs" />
+    <Compile Include="Entities\GroupPointsStorage\GroupPointsStorage.cs" />
+    <Compile Include="Entities\GroupPointsStorage\GroupPointsStorageToChange.cs" />
+    <Compile Include="Entities\PlayersGroupStorage\PlayersGroupStorage.cs" />
+    <Compile Include="Entities\PlayersGroupStorage\PlayersGroupStorageToChange.cs" />
+    <Compile Include="Entities\AuctionHouse\AuctionHouse.cs" />
+    <Compile Include="Entities\AuctionHouse\AuctionHouseToChange.cs" />
+    <Compile Include="Entities\Market\Market.cs" />
+    <Compile Include="Entities\Market\MarketToChange.cs" />
+    <Compile Include="Entities\QuestStorage\QuestStorage.cs" />
+    <Compile Include="Entities\QuestStorage\QuestStorageToChange.cs" />
+    <Compile Include="Entities\PlayerBattleInformation\PlayerBattleInformation.cs" />
+    <Compile Include="Entities\PlayerBattleInformation\PlayerBattleInformationToChange.cs" />
+    <Compile Include="Entities\Battle\Battle.cs" />
+    <Compile Include="Entities\Battle\BattleToChange.cs" />
+    <Compile Include="Entities\TimedActionStorage\TimedActionStorage.cs" />
+    <Compile Include="Entities\TimedActionStorage\TimedActionStorageToChange.cs" />
+    <Compile Include="Entities\Necessity\Necessity.cs" />
+    <Compile Include="Entities\Necessity\NecessityToChange.cs" />
+    <Compile Include="Entities\ForumPost\ForumPost.cs" />
+    <Compile Include="Entities\ForumPost\ForumPostToChange.cs" />
+    <Compile Include="Entities\ForumReadMarking\ForumReadMarking.cs" />
+    <Compile Include="Entities\ForumReadMarking\ForumReadMarkingToChange.cs" />
+    <Compile Include="Entities\ActivatedPromotion\ActivatedPromotion.cs" />
+    <Compile Include="Entities\ActivatedPromotion\ActivatedPromotionToChange.cs" />
+    <Compile Include="Entities\ForumThread\ForumThread.cs" />
+    <Compile Include="Entities\ForumThread\ForumThreadToChange.cs" />
+    <Compile Include="Entities\SectorStorage\SectorStorage.cs" />
+    <Compile Include="Entities\SectorStorage\SectorStorageToChange.cs" />
+    <Compile Include="Entities\AllianceDiplomacy\AllianceDiplomacy.cs" />
+    <Compile Include="Entities\AllianceDiplomacy\AllianceDiplomacyToChange.cs" />
+    <Compile Include="Entities\UniverseSpecialSector\UniverseSpecialSector.cs" />
+    <Compile Include="Entities\UniverseSpecialSector\UniverseSpecialSectorToChange.cs" />
+    <Compile Include="Entities\Medal\Medal.cs" />
+    <Compile Include="Entities\Medal\MedalToChange.cs" />
+    <Compile Include="Entities\FriendOrFoe\FriendOrFoe.cs" />
+    <Compile Include="Entities\FriendOrFoe\FriendOrFoeToChange.cs" />
+    <Compile Include="Entities\PlanetStorage\PlanetStorage.cs" />
+    <Compile Include="Entities\PlanetStorage\PlanetStorageToChange.cs" />
+    <Compile Include="Entities\Invoice\Invoice.cs" />
+    <Compile Include="Entities\Invoice\InvoiceToChange.cs" />
+    <Compile Include="Entities\BidHistorical\BidHistorical.cs" />
+    <Compile Include="Entities\BidHistorical\BidHistoricalToChange.cs" />
+    <Compile Include="Entities\PlanetResourceStorage\PlanetResourceStorage.cs" />
+    <Compile Include="Entities\PlanetResourceStorage\PlanetResourceStorageToChange.cs" />
+    <Compile Include="Entities\BattleStats\BattleStats.cs" />
+    <Compile Include="Entities\BattleStats\BattleStatsToChange.cs" />
+    <Compile Include="Entities\Offering\Offering.cs" />
+    <Compile Include="Entities\Offering\OfferingToChange.cs" />
+    <Compile Include="Entities\PrincipalTournament\PrincipalTournament.cs" />
+    <Compile Include="Entities\PrincipalTournament\PrincipalTournamentToChange.cs" />
+    <Compile Include="Entities\PlayerStorage\PlayerStorage.cs" />
+    <Compile Include="Entities\PlayerStorage\PlayerStorageToChange.cs" />
+    <Compile Include="Entities\ArenaStorage\ArenaStorage.cs" />
+    <Compile Include="Entities\ArenaStorage\ArenaStorageToChange.cs" />
+    <Compile Include="Entities\Asset\Asset.cs" />
+    <Compile Include="Entities\Asset\AssetToChange.cs" />
+    <Compile Include="Entities\Fleet\Fleet.cs" />
+    <Compile Include="Entities\Fleet\FleetToChange.cs" />
+    <Compile Include="Entities\CampaignStatus\CampaignStatus.cs" />
+    <Compile Include="Entities\CampaignStatus\CampaignStatusToChange.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="RoleManager.cs" />
+    <Compile Include="Exceptions\EntityException.cs" />
+    <Compile Include="Exceptions\OrionsBeltException.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+</Project>

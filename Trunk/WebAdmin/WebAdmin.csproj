@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{269BDFB3-46E2-4442-9882-DB46A6C018E0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebAdmin</RootNamespace>
+    <AssemblyName>OrionsBelt.WebAdmin</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin/</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin/</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Loki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42, processorArchitecture=MSIL" />
+    <Reference Include="NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Style\style.css" />
+    <Compile Include="Admin\Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Content Include="Admin\default.aspx" />
+    <Content Include="Admin\adminMaster.master" />
+    <Compile Include="Admin\AdminMaster.master.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>adminMaster.master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Controls\LeftMenu.cs" />
+    <Compile Include="Admin\Controls\TopMenu.cs" />
+    <Compile Include="Admin\Controls\ApplicationEvolution.cs" />
+    <Compile Include="Admin\Controls\EditLink.cs" />
+    <Compile Include="Admin\Controls\StateManager.cs" />
+    <Compile Include="Admin\SmtpSettings.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>smtpsettingsHome.aspx</DependentUpon>
+    </Compile>
+    <Content Include="Admin\smtpsettingsHome.aspx" />
+    <Compile Include="Admin\Controls\HttpHeader.cs" />
+    <Content Include="Admin\httpheadersHome.aspx" />
+    <Compile Include="Admin\HqlAnalyser.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>hqlanalyserHome.aspx</DependentUpon>
+    </Compile>
+    <Content Include="Admin\hqlanalyserHome.aspx" />
+    <Compile Include="Admin\SqlAnalyser.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>sqlanalyserHome.aspx</DependentUpon>
+    </Compile>
+    <Content Include="Admin\sqlanalyserHome.aspx" />
+    <Compile Include="Admin\SendMail.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>sendmailHome.aspx</DependentUpon>
+    </Compile>
+    <Content Include="Admin\sendmailHome.aspx" />
+    <Content Include="Admin\activatedpromotionCreate.aspx" />
+    <Content Include="Admin\activatedpromotionManage.aspx" />
+    <Content Include="Admin\activatedpromotionSearch.aspx" />
+    <Content Include="Admin\activatedpromotionHome.aspx" />
+    <Content Include="Admin\activatedpromotionEdit.aspx" />
+    <Content Include="Admin\alliancediplomacyCreate.aspx" />
+    <Content Include="Admin\alliancediplomacyManage.aspx" />
+    <Content Include="Admin\alliancediplomacySearch.aspx" />
+    <Content Include="Admin\alliancediplomacyHome.aspx" />
+    <Content Include="Admin\alliancediplomacyEdit.aspx" />
+    <Content Include="Admin\alliancestorageCreate.aspx" />
+    <Content Include="Admin\alliancestorageManage.aspx" />
+    <Content Include="Admin\alliancestorageSearch.aspx" />
+    <Content Include="Admin\alliancestorageHome.aspx" />
+    <Content Include="Admin\alliancestorageEdit.aspx" />
+    <Content Include="Admin\arenahistoricalCreate.aspx" />
+    <Content Include="Admin\arenahistoricalManage.aspx" />
+    <Content Include="Admin\arenahistoricalSearch.aspx" />
+    <Content Include="Admin\arenahistoricalHome.aspx" />
+    <Content Include="Admin\arenahistoricalEdit.aspx" />
+    <Content Include="Admin\arenastorageCreate.aspx" />
+    <Content Include="Admin\arenastorageManage.aspx" />
+    <Content Include="Admin\arenastorageSearch.aspx" />
+    <Content Include="Admin\arenastorageHome.aspx" />
+    <Content Include="Admin\arenastorageEdit.aspx" />
+    <Content Include="Admin\assetCreate.aspx" />
+    <Content Include="Admin\assetManage.aspx" />
+    <Content Include="Admin\assetSearch.aspx" />
+    <Content Include="Admin\assetHome.aspx" />
+    <Content Include="Admin\assetEdit.aspx" />
+    <Content Include="Admin\auctionhouseCreate.aspx" />
+    <Content Include="Admin\auctionhouseManage.aspx" />
+    <Content Include="Admin\auctionhouseSearch.aspx" />
+    <Content Include="Admin\auctionhouseHome.aspx" />
+    <Content Include="Admin\auctionhouseEdit.aspx" />
+    <Content Include="Admin\battleCreate.aspx" />
+    <Content Include="Admin\battleManage.aspx" />
+    <Content Include="Admin\battleSearch.aspx" />
+    <Content Include="Admin\battleHome.aspx" />
+    <Content Include="Admin\battleEdit.aspx" />
+    <Content Include="Admin\battleextentionCreate.aspx" />
+    <Content Include="Admin\battleextentionManage.aspx" />
+    <Content Include="Admin\battleextentionSearch.aspx" />
+    <Content Include="Admin\battleextentionHome.aspx" />
+    <Content Include="Admin\battleextentionEdit.aspx" />
+    <Content Include="Admin\battlestatsCreate.aspx" />
+    <Content Include="Admin\battlestatsManage.aspx" />
+    <Content Include="Admin\battlestatsSearch.aspx" />
+    <Content Include="Admin\battlestatsHome.aspx" />
+    <Content Include="Admin\battlestatsEdit.aspx" />
+    <Content Include="Admin\bidhistoricalCreate.aspx" />
+    <Content Include="Admin\bidhistoricalManage.aspx" />
+    <Content Include="Admin\bidhistoricalSearch.aspx" />
+    <Content Include="Admin\bidhistoricalHome.aspx" />
+    <Content Include="Admin\bidhistoricalEdit.aspx" />
+    <Content Include="Admin\bonuscardCreate.aspx" />
+    <Content Include="Admin\bonuscardManage.aspx" />
+    <Content Include="Admin\bonuscardSearch.aspx" />
+    <Content Include="Admin\bonuscardHome.aspx" />
+    <Content Include="Admin\bonuscardEdit.aspx" />
+    <Content Include="Admin\botcredentialCreate.aspx" />
+    <Content Include="Admin\botcredentialManage.aspx" />
+    <Content Include="Admin\botcredentialSearch.aspx" />
+    <Content Include="Admin\botcredentialHome.aspx" />
+    <Content Include="Admin\botcredentialEdit.aspx" />
+    <Content Include="Admin\bothandlerCreate.aspx" />
+    <Content Include="Admin\bothandlerManage.aspx" />
+    <Content Include="Admin\bothandlerSearch.aspx" />
+    <Content Include="Admin\bothandlerHome.aspx" />
+    <Content Include="Admin\bothandlerEdit.aspx" />
+    <Content Include="Admin\campaignCreate.aspx" />
+    <Content Include="Admin\campaignManage.aspx" />
+    <Content Include="Admin\campaignSearch.aspx" />
+    <Content Include="Admin\campaignHome.aspx" />
+    <Content Include="Admin\campaignEdit.aspx" />
+    <Content Include="Admin\campaignlevelCreate.aspx" />
+    <Content Include="Admin\campaignlevelManage.aspx" />
+    <Content Include="Admin\campaignlevelSearch.aspx" />
+    <Content Include="Admin\campaignlevelHome.aspx" />
+    <Content Include="Admin\campaignlevelEdit.aspx" />
+    <Content Include="Admin\campaignstatusCreate.aspx" />
+    <Content Include="Admin\campaignstatusManage.aspx" />
+    <Content Include="Admin\campaignstatusSearch.aspx" />
+    <Content Include="Admin\campaignstatusHome.aspx" />
+    <Content Include="Admin\campaignstatusEdit.aspx" />
+    <Content Include="Admin\countryCreate.aspx" />
+    <Content Include="Admin\countryManage.aspx" />
+    <Content Include="Admin\countrySearch.aspx" />
+    <Content Include="Admin\countryHome.aspx" />
+    <Content Include="Admin\countryEdit.aspx" />
+    <Content Include="Admin\duplicatedetectionCreate.aspx" />
+    <Content Include="Admin\duplicatedetectionManage.aspx" />
+    <Content Include="Admin\duplicatedetectionSearch.aspx" />
+    <Content Include="Admin\duplicatedetectionHome.aspx" />
+    <Content Include="Admin\duplicatedetectionEdit.aspx" />
+    <Content Include="Admin\exceptioninfoCreate.aspx" />
+    <Content Include="Admin\exceptioninfoManage.aspx" />
+    <Content Include="Admin\exceptioninfoSearch.aspx" />
+    <Content Include="Admin\exceptioninfoHome.aspx" />
+    <Content Include="Admin\exceptioninfoEdit.aspx" />
+    <Content Include="Admin\fleetCreate.aspx" />
+    <Content Include="Admin\fleetManage.aspx" />
+    <Content Include="Admin\fleetSearch.aspx" />
+    <Content Include="Admin\fleetHome.aspx" />
+    <Content Include="Admin\fleetEdit.aspx" />
+    <Content Include="Admin\fogofwarstorageCreate.aspx" />
+    <Content Include="Admin\fogofwarstorageManage.aspx" />
+    <Content Include="Admin\fogofwarstorageSearch.aspx" />
+    <Content Include="Admin\fogofwarstorageHome.aspx" />
+    <Content Include="Admin\fogofwarstorageEdit.aspx" />
+    <Content Include="Admin\forumpostCreate.aspx" />
+    <Content Include="Admin\forumpostManage.aspx" />
+    <Content Include="Admin\forumpostSearch.aspx" />
+    <Content Include="Admin\forumpostHome.aspx" />
+    <Content Include="Admin\forumpostEdit.aspx" />
+    <Content Include="Admin\forumreadmarkingCreate.aspx" />
+    <Content Include="Admin\forumreadmarkingManage.aspx" />
+    <Content Include="Admin\forumreadmarkingSearch.aspx" />
+    <Content Include="Admin\forumreadmarkingHome.aspx" />
+    <Content Include="Admin\forumreadmarkingEdit.aspx" />
+    <Content Include="Admin\forumthreadCreate.aspx" />
+    <Content Include="Admin\forumthreadManage.aspx" />
+    <Content Include="Admin\forumthreadSearch.aspx" />
+    <Content Include="Admin\forumthreadHome.aspx" />
+    <Content Include="Admin\forumthreadEdit.aspx" />
+    <Content Include="Admin\forumtopicCreate.aspx" />
+    <Content Include="Admin\forumtopicManage.aspx" />
+    <Content Include="Admin\forumtopicSearch.aspx" />
+    <Content Include="Admin\forumtopicHome.aspx" />
+    <Content Include="Admin\forumtopicEdit.aspx" />
+    <Content Include="Admin\friendorfoeCreate.aspx" />
+    <Content Include="Admin\friendorfoeManage.aspx" />
+    <Content Include="Admin\friendorfoeSearch.aspx" />
+    <Content Include="Admin\friendorfoeHome.aspx" />
+    <Content Include="Admin\friendorfoeEdit.aspx" />
+    <Content Include="Admin\globalstatsCreate.aspx" />
+    <Content Include="Admin\globalstatsManage.aspx" />
+    <Content Include="Admin\globalstatsSearch.aspx" />
+    <Content Include="Admin\globalstatsHome.aspx" />
+    <Content Include="Admin\globalstatsEdit.aspx" />
+    <Content Include="Admin\grouppointsstorageCreate.aspx" />
+    <Content Include="Admin\grouppointsstorageManage.aspx" />
+    <Content Include="Admin\grouppointsstorageSearch.aspx" />
+    <Content Include="Admin\grouppointsstorageHome.aspx" />
+    <Content Include="Admin\grouppointsstorageEdit.aspx" />
+    <Content Include="Admin\interactionCreate.aspx" />
+    <Content Include="Admin\interactionManage.aspx" />
+    <Content Include="Admin\interactionSearch.aspx" />
+    <Content Include="Admin\interactionHome.aspx" />
+    <Content Include="Admin\interactionEdit.aspx" />
+    <Content Include="Admin\invoiceCreate.aspx" />
+    <Content Include="Admin\invoiceManage.aspx" />
+    <Content Include="Admin\invoiceSearch.aspx" />
+    <Content Include="Admin\invoiceHome.aspx" />
+    <Content Include="Admin\invoiceEdit.aspx" />
+    <Content Include="Admin\logstorageCreate.aspx" />
+    <Content Include="Admin\logstorageManage.aspx" />
+    <Content Include="Admin\logstorageSearch.aspx" />
+    <Content Include="Admin\logstorageHome.aspx" />
+    <Content Include="Admin\logstorageEdit.aspx" />
+    <Content Include="Admin\marketCreate.aspx" />
+    <Content Include="Admin\marketManage.aspx" />
+    <Content Include="Admin\marketSearch.aspx" />
+    <Content Include="Admin\marketHome.aspx" />
+    <Content Include="Admin\marketEdit.aspx" />
+    <Content Include="Admin\medalCreate.aspx" />
+    <Content Include="Admin\medalManage.aspx" />
+    <Content Include="Admin\medalSearch.aspx" />
+    <Content Include="Admin\medalHome.aspx" />
+    <Content Include="Admin\medalEdit.aspx" />
+    <Content Include="Admin\messageCreate.aspx" />
+    <Content Include="Admin\messageManage.aspx" />
+    <Content Include="Admin\messageSearch.aspx" />
+    <Content Include="Admin\messageHome.aspx" />
+    <Content Include="Admin\messageEdit.aspx" />
+    <Content Include="Admin\necessityCreate.aspx" />
+    <Content Include="Admin\necessityManage.aspx" />
+    <Content Include="Admin\necessitySearch.aspx" />
+    <Content Include="Admin\necessityHome.aspx" />
+    <Content Include="Admin\necessityEdit.aspx" />
+    <Content Include="Admin\offeringCreate.aspx" />
+    <Content Include="Admin\offeringManage.aspx" />
+    <Content Include="Admin\offeringSearch.aspx" />
+    <Content Include="Admin\offeringHome.aspx" />
+    <Content Include="Admin\offeringEdit.aspx" />
+    <Content Include="Admin\paymentCreate.aspx" />
+    <Content Include="Admin\paymentManage.aspx" />
+    <Content Include="Admin\paymentSearch.aspx" />
+    <Content Include="Admin\paymentHome.aspx" />
+    <Content Include="Admin\paymentEdit.aspx" />
+    <Content Include="Admin\paymentdescriptionCreate.aspx" />
+    <Content Include="Admin\paymentdescriptionManage.aspx" />
+    <Content Include="Admin\paymentdescriptionSearch.aspx" />
+    <Content Include="Admin\paymentdescriptionHome.aspx" />
+    <Content Include="Admin\paymentdescriptionEdit.aspx" />
+    <Content Include="Admin\pendingbotrequestCreate.aspx" />
+    <Content Include="Admin\pendingbotrequestManage.aspx" />
+    <Content Include="Admin\pendingbotrequestSearch.aspx" />
+    <Content Include="Admin\pendingbotrequestHome.aspx" />
+    <Content Include="Admin\pendingbotrequestEdit.aspx" />
+    <Content Include="Admin\planetresourcestorageCreate.aspx" />
+    <Content Include="Admin\planetresourcestorageManage.aspx" />
+    <Content Include="Admin\planetresourcestorageSearch.aspx" />
+    <Content Include="Admin\planetresourcestorageHome.aspx" />
+    <Content Include="Admin\planetresourcestorageEdit.aspx" />
+    <Content Include="Admin\planetstorageCreate.aspx" />
+    <Content Include="Admin\planetstorageManage.aspx" />
+    <Content Include="Admin\planetstorageSearch.aspx" />
+    <Content Include="Admin\planetstorageHome.aspx" />
+    <Content Include="Admin\planetstorageEdit.aspx" />
+    <Content Include="Admin\playerbattleinformationCreate.aspx" />
+    <Content Include="Admin\playerbattleinformationManage.aspx" />
+    <Content Include="Admin\playerbattleinformationSearch.aspx" />
+    <Content Include="Admin\playerbattleinformationHome.aspx" />
+    <Content Include="Admin\playerbattleinformationEdit.aspx" />
+    <Content Include="Admin\playersgroupstorageCreate.aspx" />
+    <Content Include="Admin\playersgroupstorageManage.aspx" />
+    <Content Include="Admin\playersgroupstorageSearch.aspx" />
+    <Content Include="Admin\playersgroupstorageHome.aspx" />
+    <Content Include="Admin\playersgroupstorageEdit.aspx" />
+    <Content Include="Admin\playerstatsCreate.aspx" />
+    <Content Include="Admin\playerstatsManage.aspx" />
+    <Content Include="Admin\playerstatsSearch.aspx" />
+    <Content Include="Admin\playerstatsHome.aspx" />
+    <Content Include="Admin\playerstatsEdit.aspx" />
+    <Content Include="Admin\playerstorageCreate.aspx" />
+    <Content Include="Admin\playerstorageManage.aspx" />
+    <Content Include="Admin\playerstorageSearch.aspx" />
+    <Content Include="Admin\playerstorageHome.aspx" />
+    <Content Include="Admin\playerstorageEdit.aspx" />
+    <Content Include="Admin\principalCreate.aspx" />
+    <Content Include="Admin\principalManage.aspx" />
+    <Content Include="Admin\principalSearch.aspx" />
+    <Content Include="Admin\principalHome.aspx" />
+    <Content Include="Admin\principalEdit.aspx" />
+    <Content Include="Admin\principalstatsCreate.aspx" />
+    <Content Include="Admin\principalstatsManage.aspx" />
+    <Content Include="Admin\principalstatsSearch.aspx" />
+    <Content Include="Admin\principalstatsHome.aspx" />
+    <Content Include="Admin\principalstatsEdit.aspx" />
+    <Content Include="Admin\principaltournamentCreate.aspx" />
+    <Content Include="Admin\principaltournamentManage.aspx" />
+    <Content Include="Admin\principaltournamentSearch.aspx" />
+    <Content Include="Admin\principaltournamentHome.aspx" />
+    <Content Include="Admin\principaltournamentEdit.aspx" />
+    <Content Include="Admin\privateboardCreate.aspx" />
+    <Content Include="Admin\privateboardManage.aspx" />
+    <Content Include="Admin\privateboardSearch.aspx" />
+    <Content Include="Admin\privateboardHome.aspx" />
+    <Content Include="Admin\privateboardEdit.aspx" />
+    <Content Include="Admin\productCreate.aspx" />
+    <Content Include="Admin\productManage.aspx" />
+    <Content Include="Admin\productSearch.aspx" />
+    <Content Include="Admin\productHome.aspx" />
+    <Content Include="Admin\productEdit.aspx" />
+    <Content Include="Admin\promotionCreate.aspx" />
+    <Content Include="Admin\promotionManage.aspx" />
+    <Content Include="Admin\promotionSearch.aspx" />
+    <Content Include="Admin\promotionHome.aspx" />
+    <Content Include="Admin\promotionEdit.aspx" />
+    <Content Include="Admin\queststorageCreate.aspx" />
+    <Content Include="Admin\queststorageManage.aspx" />
+    <Content Include="Admin\queststorageSearch.aspx" />
+    <Content Include="Admin\queststorageHome.aspx" />
+    <Content Include="Admin\queststorageEdit.aspx" />
+    <Content Include="Admin\sectorstorageCreate.aspx" />
+    <Content Include="Admin\sectorstorageManage.aspx" />
+    <Content Include="Admin\sectorstorageSearch.aspx" />
+    <Content Include="Admin\sectorstorageHome.aspx" />
+    <Content Include="Admin\sectorstorageEdit.aspx" />
+    <Content Include="Admin\serverpropertiesCreate.aspx" />
+    <Content Include="Admin\serverpropertiesManage.aspx" />
+    <Content Include="Admin\serverpropertiesSearch.aspx" />
+    <Content Include="Admin\serverpropertiesHome.aspx" />
+    <Content Include="Admin\serverpropertiesEdit.aspx" />
+    <Content Include="Admin\specialeventCreate.aspx" />
+    <Content Include="Admin\specialeventManage.aspx" />
+    <Content Include="Admin\specialeventSearch.aspx" />
+    <Content Include="Admin\specialeventHome.aspx" />
+    <Content Include="Admin\specialeventEdit.aspx" />
+    <Content Include="Admin\taskCreate.aspx" />
+    <Content Include="Admin\taskManage.aspx" />
+    <Content Include="Admin\taskSearch.aspx" />
+    <Content Include="Admin\taskHome.aspx" />
+    <Content Include="Admin\taskEdit.aspx" />
+    <Content Include="Admin\teamstorageCreate.aspx" />
+    <Content Include="Admin\teamstorageManage.aspx" />
+    <Content Include="Admin\teamstorageSearch.aspx" />
+    <Content Include="Admin\teamstorageHome.aspx" />
+    <Content Include="Admin\teamstorageEdit.aspx" />
+    <Content Include="Admin\timedactionstorageCreate.aspx" />
+    <Content Include="Admin\timedactionstorageManage.aspx" />
+    <Content Include="Admin\timedactionstorageSearch.aspx" />
+    <Content Include="Admin\timedactionstorageHome.aspx" />
+    <Content Include="Admin\timedactionstorageEdit.aspx" />
+    <Content Include="Admin\tournamentCreate.aspx" />
+    <Content Include="Admin\tournamentManage.aspx" />
+    <Content Include="Admin\tournamentSearch.aspx" />
+    <Content Include="Admin\tournamentHome.aspx" />
+    <Content Include="Admin\tournamentEdit.aspx" />
+    <Content Include="Admin\transactionCreate.aspx" />
+    <Content Include="Admin\transactionManage.aspx" />
+    <Content Include="Admin\transactionSearch.aspx" />
+    <Content Include="Admin\transactionHome.aspx" />
+    <Content Include="Admin\transactionEdit.aspx" />
+    <Content Include="Admin\universespecialsectorCreate.aspx" />
+    <Content Include="Admin\universespecialsectorManage.aspx" />
+    <Content Include="Admin\universespecialsectorSearch.aspx" />
+    <Content Include="Admin\universespecialsectorHome.aspx" />
+    <Content Include="Admin\universespecialsectorEdit.aspx" />
+    <Content Include="Admin\votereferralCreate.aspx" />
+    <Content Include="Admin\votereferralManage.aspx" />
+    <Content Include="Admin\votereferralSearch.aspx" />
+    <Content Include="Admin\votereferralHome.aspx" />
+    <Content Include="Admin\votereferralEdit.aspx" />
+    <Content Include="Admin\votestorageCreate.aspx" />
+    <Content Include="Admin\votestorageManage.aspx" />
+    <Content Include="Admin\votestorageSearch.aspx" />
+    <Content Include="Admin\votestorageHome.aspx" />
+    <Content Include="Admin\votestorageEdit.aspx" />
+    <Content Include="Admin\wormholeplayersCreate.aspx" />
+    <Content Include="Admin\wormholeplayersManage.aspx" />
+    <Content Include="Admin\wormholeplayersSearch.aspx" />
+    <Content Include="Admin\wormholeplayersHome.aspx" />
+    <Content Include="Admin\wormholeplayersEdit.aspx" />
+    <Content Include="Admin\applicationHome.aspx" />
+    <Content Include="Admin\sessionHome.aspx" />
+    <Content Include="Admin\cacheHome.aspx" />
+    <Content Include="Admin\itemsHome.aspx" />
+    <Compile Include="Admin\Controls\Information.cs" />
+    <Compile Include="Admin\Controls\AdminUpdateButton.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Core/Core.csproj">
+      <Project>{296C550F-FE24-409E-92F0-4DC5D12F1291}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="../DataAccessLayer/DataAccessLayer.csproj">
+      <Project>{8B64097F-CC0D-47EB-B58D-DD641034F8B0}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="../WebComponents/WebComponents.csproj">
+      <Project>{78BF0650-54BF-4870-83D5-FC4904409F65}</Project>
+      <Name>WebComponents</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49437</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

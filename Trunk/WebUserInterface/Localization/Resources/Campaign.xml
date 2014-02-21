@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="Campaign">
+		<lang key="de">Kampagne</lang>
+		<lang key="en">Campaign</lang>
+		<lang key="fr">Campagne</lang>
+		<lang key="hr">Kampanja</lang>
+		<lang key="pt">Campanha</lang>
+		<lang key="ro">Campanie</lang>
+	</entry>
+
+	<entry key="CampaignBotFleet">
+		<lang key="de">Flotte des Gegners</lang>
+		<lang key="en">Bot's Fleet</lang>
+		<lang key="fr">Escadrille de l'A.I.</lang>
+		<lang key="hr">Botova flota</lang>
+		<lang key="pt">Armada do Adversário</lang>
+		<lang key="ro">Flota Robotului</lang>
+	</entry>
+
+	<entry key="CampaignMoves">
+		<lang key="de">Bewegungen</lang>
+		<lang key="en">Moves</lang>
+		<lang key="fr">Mouvements</lang>
+		<lang key="hr">Potezi</lang>
+		<lang key="pt">Movimentos</lang>
+		<lang key="ro">Mutări</lang>
+	</entry>
+
+	<entry key="CampaignPlay">
+		<lang key="de">Spielen</lang>
+		<lang key="en">Play</lang>
+		<lang key="fr">Jouer</lang>
+		<lang key="hr">Igraj</lang>
+		<lang key="pt">Jogar</lang>
+		<lang key="ro">Joacă</lang>
+	</entry>
+
+	<entry key="CampaignPlayerFleet">
+		<lang key="de">Spieler Flotte</lang>
+		<lang key="en">Player's Fleet</lang>
+		<lang key="fr">Escadrille du joueur</lang>
+		<lang key="hr">Igračeva Flota</lang>
+		<lang key="pt">Armada do Jogador</lang>
+		<lang key="ro">Flota Jucătorului</lang>
+	</entry>
+
+	<entry key="CampaignRestart">
+		<lang key="de">Neustarten</lang>
+		<lang key="en">Restart</lang>
+		<lang key="fr">Recommencer</lang>
+		<lang key="hr">Restart</lang>
+		<lang key="pt">Recomeçar</lang>
+		<lang key="ro">Resetare</lang>
+	</entry>
+
+	<entry key="Campaigns">
+		<lang key="de">Kampagnen</lang>
+		<lang key="en">Campaigns</lang>
+		<lang key="fr">Campagnes</lang>
+		<lang key="hr">Kampanja</lang>
+		<lang key="pt">Campanhas</lang>
+		<lang key="ro">Campanii</lang>
+	</entry>
+
+	<entry key="CampaignStatsTitle">
+		<lang key="de">{0} - Statistiken</lang>
+		<lang key="en">{0} - Hall of Fame</lang>
+		<lang key="fr">{0} - Les grands Glorieux</lang>
+		<lang key="hr">{0} - Dvorana Slavnih</lang>
+		<lang key="pt">{0} - Estatísticas</lang>
+		<lang key="ro">{0} - Sala de Glorie</lang>
+	</entry>
+
+	<entry key="FiringSquadDescription">
+		<lang key="de">Kommandier deine Flotten auf präkonfigurierten Schlachten gegen Erschiessungskommandos. Du kannst mehr lernen über das Konzept von Erschiessungskommandos in 
+<a href="%7B0%7DManual.aspx?path=Battles/FiringSquad.aspx">manual</a>.</lang>
+		<lang key="en">Command your fleets on preconfigured battles against firing squads. You can learn more about the concept
+  of firing squad at the <a href="{0}Manual.aspx?path=Battles/FiringSquad.aspx">manual</a>.</lang>
+		<lang key="fr">Diriger vos vaisseau contre une escouade de tir préconfiguré; controlé par l'ordianteur. Vous pouvez en apprendre plus à propos des escouades de tir dans le <a href="{0}Manual.aspx?path=Battles/FiringSquad.aspx">guide</a>.</lang>
+		<lang key="hr">Zapovjedaj svojim flotama na prekofiguriranim bitkama protiv napadačkih odreda. Možeš naučiti više o napadačkim odredima na <a href="{0}Manual.aspx?path=Battles/FiringSquad.aspx">manual</a>.</lang>
+		<lang key="pt">Comanda as tuas armadas em batalhas pré-configuradas contra pelotões de fuzilamento. Podes saber mais
+  sobre o conceito de pelotão de fuzilamento no <a href="{0}Manual.aspx?path=Battles/FiringSquad.aspx">manual</a>.</lang>
+	</entry>
+
+	<entry key="FiringSquadTitle">
+		<lang key="de">Erschiessungskommando Herausforderung</lang>
+		<lang key="en">Firing Squad Challenge</lang>
+		<lang key="fr">Défi de l'escouade de tir</lang>
+		<lang key="hr">Napadački Odred Izazov</lang>
+		<lang key="pt">Desafio de Pelotaão de Fuzilamento</lang>
+	</entry>
+
+	<entry key="HallOfFame">
+		<lang key="de">Statistiken</lang>
+		<lang key="en">Hall of Fame</lang>
+		<lang key="fr">Mur de Glorieux</lang>
+		<lang key="hr">Dvorana Slavnih</lang>
+		<lang key="pt">Estatísticas</lang>
+		<lang key="ro">Sala de Glorie</lang>
+	</entry>
+
+	<entry key="Playing">
+		<lang key="de">Wird gespielt</lang>
+		<lang key="en">Playing</lang>
+		<lang key="fr">Joueur</lang>
+		<lang key="hr">Igra</lang>
+		<lang key="pt">A Decorrer</lang>
+		<lang key="ro">In joc</lang>
+	</entry>
+
+</resources>

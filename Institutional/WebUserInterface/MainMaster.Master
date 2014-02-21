@@ -1,0 +1,15 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainMaster.master.cs" Inherits="WebUserInterface.MainMaster" MasterPageFile="~/MainPageMaster.Master" %>
+
+<asp:Content ContentPlaceHolderID="mainPageContent" runat="server">
+<div id='mainContent'>
+    <InstitutionalUI:TopMenu ID="FlagMenu1" runat="server" />
+    <InstitutionalUI:FlagMenu runat="server" />
+    <div id='content'>
+    <asp:ContentPlaceHolder ID="content" runat="server">
+    </asp:ContentPlaceHolder>
+    </div>
+     <div id='logoContent'>
+        <div>© 2009-2012 Orion's Belt | All rights reserved</div>
+    </div>
+</div>
+</asp:Content>

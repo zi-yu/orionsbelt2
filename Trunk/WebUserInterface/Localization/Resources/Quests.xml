@@ -1,0 +1,1701 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="AbandonQuest">
+		<lang key="de">Mission verlassen</lang>
+		<lang key="en">Abandon Quest</lang>
+		<lang key="es">Abandonar Misión</lang>
+		<lang key="fr">Abandonner la quête</lang>
+		<lang key="hr">Odustani od Misije</lang>
+		<lang key="pt">Abandonar Missão</lang>
+		<lang key="se">Avbryt Uppdrag</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3BetaForceFleets">
+		<lang key="de">Attackiere und zerstöre 3 Beta Force Flotten</lang>
+		<lang key="en">Attack and destroy 3 Beta Force Fleets</lang>
+		<lang key="pt">Ataca de destroi 3 armadas da Beta Force</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3BlackMercFleets">
+		<lang key="de">Attackiere und zerstöre 3 Black Merc Flotten</lang>
+		<lang key="en">Attack and destroy 3 Black Merc Fleets</lang>
+		<lang key="hr">Black Mercs su uočene u zoni nivoa 9. Pronađi ih i uništi tri flote.</lang>
+		<lang key="pt">Ataca de destroi 3 armadas de Black Mercs</lang>
+		<lang key="se">Black Mercs flottor har synts i nivå 9. Hitta dem och förstör 3 flottor.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3DarkMercFleets">
+		<lang key="de">Attackiere und zerstöre 3 Dark Merc Flotten</lang>
+		<lang key="en">Attack end destroy 3 Dark Merc Fleets</lang>
+		<lang key="hr">Dark Mercs flote su uočene u zoni nivoa 10. Pronađi ih i uništi 3 flote.</lang>
+		<lang key="pt">Ataca e destroi 3 armadas de Dark Mercs</lang>
+		<lang key="se">Dark Mercs flottor har setts i nivå 10. Hitta dem och förstör 3 flottor.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3DeltaForceFleets">
+		<lang key="de">Attackiere und zerstöre 3 Delta Force Flotten</lang>
+		<lang key="en">Attack end destroy 3 Delta Force Fleets</lang>
+		<lang key="pt">Ataca e destroi 3 armadas da Delta Force</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3Fleets">
+		<lang key="de">Attackiere und zerstöre 3 Planeten</lang>
+		<lang key="en">Attack and destroy 3 fleets</lang>
+		<lang key="es">Atacar y conquistar 3 flotas</lang>
+		<lang key="fr">Attaquer et détruire 3 escadrilles</lang>
+		<lang key="hr">Napadni i uništi tri flote</lang>
+		<lang key="pt">Atacar e conquistar 3 armadas</lang>
+		<lang key="se">Attackera jag förstör 3 flottor</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3GammaForceFleets">
+		<lang key="de">Attackiere und zerstöre 3 Gamma Force Flotten</lang>
+		<lang key="en">Attack end destroy 3 Gamma Force Fleets</lang>
+		<lang key="pt">Ataca e destroi 3 armadas da Gamma Force</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3MercFleets">
+		<lang key="de">Attackiere und zerstöre 3 Merc Flotten</lang>
+		<lang key="en">Attack end destroy 3 Merc Fleets</lang>
+		<lang key="hr">Mercs flote su uočene u zoni nivoa 1. Nađi ih i uništi 3 flote.</lang>
+		<lang key="pt">Ataca e destroi 3 armadas de Mercs</lang>
+		<lang key="se">Mercs flottor har setts i nivå 1. Hitta dem och förstör 3 flottor.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3OmegaForceFleets">
+		<lang key="de">Attackiere und zerstöre 3 Omega Force Flotten</lang>
+		<lang key="en">Attack end destroy 3 Omega Force Fleets</lang>
+		<lang key="pt">Ataca e destroi 3 armadas da Omega Force</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3RogueMercFleets">
+		<lang key="de">Attackiere und zerstöre 3 Rogue Merc Flotten</lang>
+		<lang key="en">Attack end destroy 3 Rogue Merc Fleets</lang>
+		<lang key="hr">Rogue Mercs flote su uočene u zoni nivoa 5. Pronađi i uništi tri flote.</lang>
+		<lang key="pt">Ataca e destroi 3 armadas de Rogue Mercs</lang>
+		<lang key="se">Rogue Mercs flottor har blivit sedda i nivå 5. Hitta dem och förstör 3 flottor.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3SentryMercFleets">
+		<lang key="de">Attackiere und zerstöre 3 Sentry Merc Flotten</lang>
+		<lang key="en">Attack end destroy 3 Sentry Merc Fleets</lang>
+		<lang key="hr">Sentry Mercs su uočene na zoni nivoa 3. Nađi ih i uništi 3 flote.</lang>
+		<lang key="pt">Ataca e destroi 3 armadas de Sentry Mercs</lang>
+		<lang key="se">Sentry Mercs flottor har setts i nivå 3. Hitta dem och förstör 3 flottor.</lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3SigmaForceFleets">
+		<lang key="de">Attackiere und zerstöre 3 Sigma Force Flotten</lang>
+		<lang key="en">Attack end destroy 3 Sigma Force Fleets</lang>
+		<lang key="pt">Ataca e destroi 3 armadas da Sigma Force</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3SpaceForceFleets">
+		<lang key="de">Attackiere und zerstöre 3 Alpha Force Flotten</lang>
+		<lang key="en">Attack end destroy 3 Alpha Force Fleets</lang>
+		<lang key="pt">Ataca e destroi 3 armadas da Alpha Force</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="AttackAndDestroy3TechMercFleets">
+		<lang key="de">Attackiere und zerstöre 3 Tech Merc Flotten</lang>
+		<lang key="en">Attack end destroy 3 Tech Merc Fleets</lang>
+		<lang key="hr">Tech Mercs flote su uočene u zoni nivoa 7. Pronađi ih i uništi 3 flote.</lang>
+		<lang key="pt">Ataca e destroi 3 armadas de Tech Mercs</lang>
+		<lang key="se">Tech Mercs flottor har setts i nivå 7. Hitta dem och förstör 3 flottor.</lang>
+	</entry>
+
+	<entry key="BountyHunter">
+		<lang key="de">Kopfgeldjäger</lang>
+		<lang key="en">Bounty Hunter</lang>
+		<lang key="es">Cazador de Premios</lang>
+		<lang key="fr">Chasseur de prime</lang>
+		<lang key="hr">Lovac na Glave</lang>
+		<lang key="pt">Caçador de Prémios</lang>
+		<lang key="se">Prisjägare</lang>
+	</entry>
+
+	<entry key="BountyParticipants">
+		<lang key="de">Registrierte Jäger</lang>
+		<lang key="en">Registered Hunters</lang>
+		<lang key="es">Cazadores Registrados</lang>
+		<lang key="fr">Chasseurs enregistrés</lang>
+		<lang key="hr">Registrirani Lovci</lang>
+		<lang key="pt">Caçadores Registados</lang>
+		<lang key="se">Registrerade Jägare</lang>
+	</entry>
+
+	<entry key="BountyReward">
+		<lang key="de">Kopfgeld-Prämie</lang>
+		<lang key="en">Bounty Reward</lang>
+		<lang key="fr">Récompense de la prime</lang>
+		<lang key="hr">Nagrada Ucjene Na Glavu</lang>
+		<lang key="pt">Recompensa de Caça</lang>
+		<lang key="se">Skottpengar</lang>
+	</entry>
+
+	<entry key="BringBeriliumToAcademyLevel3">
+		<lang key="de">Bring Berilium zu einer Level 3 Akademie</lang>
+		<lang key="en">Bring Berilium to a level 3 Academy</lang>
+		<lang key="hr">Sentry Merc flote rabe jako rijedak element da napajaju svoje flote, Berilij. Donesi 3 uzorka ovoga elementa na bilo koju Akademiju nivoa 3.</lang>
+		<lang key="pt">Trás Berilium a uma Academia nível 3</lang>
+		<lang key="se">Sentry Mercs flottor har ett väldigt sällsynt ämne som driver deras enheter: Berilium. Ta med 3 prover av det här ämnet till en valfri Akademi i nivå 3.</lang>
+	</entry>
+
+	<entry key="BringBlackMercSpaceChartToAcademyLevel9">
+		<lang key="de">Bring Black Merc Weltraumkarte zu einer Level 9 Akademie</lang>
+		<lang key="en">Bring Black Merc space chart to a level 9 Academy</lang>
+		<lang key="hr">Mercs imaju jednu od najboljih karata svemira. Želim da mi nabaviš jednu od tih svemirskih karata od  Black Mercs Flote. Kada je nabaviš donesi je na bilo koju Akademiju nivoa 9.</lang>
+		<lang key="pt">Trás um mapa espacial de um Black Merc a uma Academia nível 9</lang>
+		<lang key="se">Mercs har en av de bästa kartorna över Universum. Jag behöver dig till att skaffa en av de här kartorna från en av Black Mercs flottor. Ta med kartan till en Akademi i nivå 9.</lang>
+	</entry>
+
+	<entry key="BringBlackMercUniformsToAcademyLevel9">
+		<lang key="de">Bring eine Black Merc Uniform zu einer Level 9 Akademie</lang>
+		<lang key="en">Bring a Black Merc Uniforms to a level 9 Academy</lang>
+		<lang key="hr">Trebam se infiltrirati u Black Mercs flotu i za to trebam određene predmete, 6 Black Mercs uniformi da budem točan. Donesi mi ih u bilo koju Akademiju nivoa 9.</lang>
+		<lang key="pt">Trás um uniforme de um Black Merc a uma Academia nível 9</lang>
+		<lang key="se">Jag behöver infiltrera en av Black Mercs flottor och jag behöver en del saker för detta. 6 av Black Mercs uniformer för att vara exakt. Ta med dem till en valfri Akademi i nivå 9.</lang>
+	</entry>
+
+	<entry key="BringBlackMercWrecksToAcademyLevel9">
+		<lang key="de">Bring Black Merc Wracks zu einer Level 9 Akademie</lang>
+		<lang key="en">Bring Black Merc Wrecks to a level 9 Academy</lang>
+		<lang key="hr">Trebam neke komponente iz glavnih jedinca Black Mercs-a. Donesi mi te komponente na bilo koju akademiju nivoa 9.</lang>
+		<lang key="pt">Trás destroços de Black Mercs a uma Academia nível 9</lang>
+		<lang key="se">Jag behöver en del komponenter från Black Mercs huvudenheter. Ta med dessa enheter till en valfri Akademi i nivå 9.</lang>
+	</entry>
+
+	<entry key="BringBlueMatterContainerToPirateBayLevel9">
+		<lang key="de">Bring Blaue Materie Container zur Bucht der Piraten Level 9</lang>
+		<lang key="en">Bring Blue Matter Container to a level 9 Pirate Bay</lang>
+		<lang key="pt">Trás um Contentor de matéria azul a uma Baía de Piratas nível 9</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringCarbonNanoTubesToAcademyLevel7">
+		<lang key="de">Bring Karbon Nanorohre zu einer Level 7 Akademie</lang>
+		<lang key="en">Bring Carbon NanoTubes to a level 7 Academy</lang>
+		<lang key="hr">Tech Mercs rabe novi materijal da pojačaju trup njihovih jedinica. Donesi 3 uzorka Ugjikovih NanoCijevi u bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">Trás NanoTubos de Carbono a uma Academia nível 7</lang>
+		<lang key="se">Tech Mercs använder ett nytt material för att förstärka skrovet på sina enheter. Ta med 3 prover av Kol-nanotuber till en Academi i nivå 7.</lang>
+	</entry>
+
+	<entry key="BringCommunicationsArrayToPirateBayLevel5">
+		<lang key="de">Bring ein Kommunikationsfeld zur Bucht der Piraten Level 5</lang>
+		<lang key="en">Bring a Communications Array to a level 5 Pirate Bay</lang>
+		<lang key="pt">Trás um Array de Comunicações a uma Baía de Piratas nível 5</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringContainersToPirateBayLevel7">
+		<lang key="de">Bring Container zur Bucht der Piraten Level 7</lang>
+		<lang key="en">Bring Containers to a level 7 Pirate Bay</lang>
+		<lang key="pt">Trás Contentores a uma Baía de Piratas nível 7</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringCrawlerWrecksToPirateBayLevel9">
+		<lang key="de">Bring Kriecher Wracks zur Bucht der Piraten Level 9</lang>
+		<lang key="en">Bring Crawler Wrecks to a level 9 Pirate Bay</lang>
+		<lang key="pt">Trás destroços de um Crawler a uma Baía de Piratas nível 9</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringDarkMatterToPirateBayLevel10">
+		<lang key="de">Bring Dunkle Materie zur Bucht der Piraten Level 10</lang>
+		<lang key="en">Bring Dark Matter to a level 10 Pirate Bay</lang>
+		<lang key="pt">Trás Matéria negra a uma Baía de Piratas nível 10</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringDarkMercSpaceChartToAcademyLevel10">
+		<lang key="de">Bring eine Dark Merc Weltraumkarte zu einer Level 10 Akademie</lang>
+		<lang key="en">Bring a Dark Merc Space Chart to a level 10 Academy</lang>
+		<lang key="hr">Dark Mercs imaju  najbolju mapu čitavoga svemira. Trebam nabaviti jednu od tih mapa. Kada nabaiš jednu, donesi je na Akademiju nivoa 10.</lang>
+		<lang key="pt">Trás um Mapa Estrelar de Dark Merc a uma Academia nível 10</lang>
+		<lang key="se">Dark Mercs har den mest aktuella kartan över Universum. Jag behöver dig till att skaffa den här kartan. När du har införskaffat den levererar du den till en Akademi i nivå 10.</lang>
+	</entry>
+
+	<entry key="BringDarkMercUniformsToAcademyLevel10">
+		<lang key="de">Bring Dark Merc Uniformen zu einer Level 10 Akademie</lang>
+		<lang key="en">Bring Dark Merc Uniforms to a level 10 Academy</lang>
+		<lang key="hr">Trebam se infliltrirati u Dark Mercs flotu i za to trebam određene predmete. 6 Dark Mercs uniformi da budem točan. Donesi mi ih u bilo koju Akademiju nivoa 10.</lang>
+		<lang key="pt">Trás Uniformes de Dark Mercs a uma Academia nível 10</lang>
+		<lang key="se">Jag behöver infiltrera en flotta från Dark Mercs och för att göra det behöver jag en del saker. 6 av Dark Mercs uniformer för att vara exakt. Ta med dem till an valfri Akademi i nivå 10.</lang>
+	</entry>
+
+	<entry key="BringDarkMercWrecksToAcademyLevel10">
+		<lang key="de">Bring Dark Merc Wracks zu einer Level 10 Akademie</lang>
+		<lang key="en">Bring Dark Merc Wrecks to a level 10 Academy</lang>
+		<lang key="hr">Trebam 4 jako specijalne komponente iz glavnih jedinica Dark Mercs. Donesi te komponente u bilo koju Akademiju nivoa 10.</lang>
+		<lang key="pt">Trás destroços de unidades Dark Mercs a uma Academia nível 10</lang>
+		<lang key="se">Jag behöver 4 väldigt speciella komponenter från Dark Mercs huvudenheter. Ta dessa komponenter till en valfri Akademi i nivå 10.</lang>
+	</entry>
+
+	<entry key="BringDeutiriumEnergyCapsuleToAcademyLevel9">
+		<lang key="de">Bring eine Deuterium Energie Kapsel zu einer Level 9 Akademie</lang>
+		<lang key="en">Bring a Deuterium Energy Capsule to a level 9 Academy</lang>
+		<lang key="hr">Black Mercs rabe specijalne Deuterijske Energetske Kapsule da napajaju njihove jedinice. Donesi mi 3  Deuterijske Energetske Kapsule na bilo koju Akademiju nivoa 9.</lang>
+		<lang key="pt">Trás Cápsulas de Energia de Deutério a uma Academia nível 9</lang>
+		<lang key="se">Black Mercs använder någon sorts Energikapslar av Deuterium för att driva sina enheter. Jag behöver dig till att ta med 3 Energikapslar med Deuterium till en valfri Akademi i nivå 9.</lang>
+	</entry>
+
+	<entry key="BringEscapePodToPirateBayLevel1">
+		<lang key="de">Bring eine Fluchtkapsel zur Bucht der Piraten Level 1</lang>
+		<lang key="en">Bring a Escape Pod to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Cápsulas de Fuga a uma Baía de Piratas nível 1</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringGreyMatterToPirateBayLevel7">
+		<lang key="de">Bring Graue Materie zur Bucht der Piraten Level 7</lang>
+		<lang key="en">Bring Grey Matter to a level 7 Pirate Bay</lang>
+		<lang key="pt">Trás Matéria Cinza a uma Baía de Piratas nível 7</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringHolographicCubeToPirateBayLevel3">
+		<lang key="de">Bring Holographischen Würfel zur Bucht der Piraten Level 3</lang>
+		<lang key="en">Bring Holographic Cube to a level 3 Pirate Bay</lang>
+		<lang key="pt">Trás Cubos Holográficos a uma Baía de Piratas nível 3</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringLightEnginesToPirateBayLevel10">
+		<lang key="de">Bring Motoren der Lichtgeschwindigkeit zur Bucht der Piraten Level 10</lang>
+		<lang key="en">Bring Light Engines to a level 10 Pirate Bay</lang>
+		<lang key="pt">Trás Motores de Velocidade da Luz a uma Baía de Piratas nível 10</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringMedicineAndAlcoholToMarketLevel7">
+		<lang key="de">Bring Medizin und Alkohol zu einem Level 7 Markt</lang>
+		<lang key="en">Bring Medicine and Alcohol to a Market level 7</lang>
+		<lang key="fr">Apporter une escadrille ayant alcool et médicament à un marché niveau 7</lang>
+		<lang key="hr">Dovedi flotu sa Lijekovima  i Alkoholom na Market nivoa 7</lang>
+		<lang key="pt">Trás Medicamentos e Álcool a um Mercado nível 7</lang>
+		<lang key="se">Ta en flotta med både Medicin och Alkohol till en Marknad i nivå 7</lang>
+	</entry>
+
+	<entry key="BringMercSiliciumToAcademyLevel1">
+		<lang key="de">Bring Silicium zu einer Level 1 Akademie</lang>
+		<lang key="en">Bring Silicium to a level 1 Academy</lang>
+		<lang key="hr">Flota Mercsa uobičajeno prevoze element koji se lako uništi, Silicium, Donesi 2 uzorka ovoga elementa na bilo koju Akademiju nivoa 1.</lang>
+		<lang key="pt">Trás Silício a uma Academia nível 1</lang>
+		<lang key="se">Mercks flottor transporterar vanligtvis ett ämne som är lättförstört: Silicium. Ta med 2 prover av det här ämnet till en valfri Akademi i nivå 1.</lang>
+	</entry>
+
+	<entry key="BringMercSpaceChartToAcademyLevel1">
+		<lang key="de">Bring eine Merc Weltraumkarte zu einer Level 1 Akademie</lang>
+		<lang key="en">Bring a Merc Space Chart to a level 1 Academy</lang>
+		<lang key="hr">Mercs imaju jednu od najboljih karata svemira. Trebamm da mi nabaviš jednu od ovih karata od Mercs Flote. Kada nabaviš jednu, donensi je na Akademiju nivoa 1.</lang>
+		<lang key="pt">Trás um mapa espacial de um Merc a uma Academia nível 1</lang>
+		<lang key="se">Mercs har en av de bästa kartorna över Universum. Jag behöver dig till att skaffa mig en av dessa kartor från en av flotta från Mercs. När du har skaffat en tar du med den till en Akademi i nivå 1.</lang>
+	</entry>
+
+	<entry key="BringMercSpaceChartToPirateBay1">
+		<lang key="de">Stehle eine Space Merc Weltraumkarte und bring es zur Bucht der Piraten Level 1</lang>
+		<lang key="en">Steal a Merc Space Chart and bring it to a Pirate Bay level 1</lang>
+		<lang key="hr">Ukradi Mercs Svemirsku Kartu i donesi mi je u Piratski Dok nivoa 1</lang>
+		<lang key="pt">Rouba um Mapa Espacial a um Merc e leva-o até uma Baía de Piratas de nível 1</lang>
+		<lang key="se">Stjäl en Rymdkarta från Mercs och ta med den till en Pirathamn i nivå 1</lang>
+	</entry>
+
+	<entry key="BringMercUniformsToAcademyLevel1">
+		<lang key="de">Bring Merc Uniformen zu einer Level 1 Akademie</lang>
+		<lang key="en">Bring Merc Uniforms to a level 1 Academy</lang>
+		<lang key="hr">Trebam  se infiltrirati u Mercs flotu i za to trebam određene predmete. 10 Mercs uniformi da budem točan. Donesi mi ih na bilo koju Akademiju nivoa 1.</lang>
+		<lang key="pt">Trás Uniformes de Mercs a uma Academia nível 1</lang>
+		<lang key="se">Jag behöver infiltrera en av Mercs flottor och för att göra det behöver jag en del saker. 10 av Mercs uniformer för att vara exakt. Ta med dem till en valfri Akademi i nivå 1.</lang>
+	</entry>
+
+	<entry key="BringMercuryAndDiamondsToMarketLevel10">
+		<lang key="de">Bring Quecksilber und Diamanten zu einem Level 10 Markt</lang>
+		<lang key="en">Bring Mercury and Diamonds to a level 10 Market</lang>
+		<lang key="fr">Apporter une escadrille ayant du mercure et des diamants à un marché niveau 10</lang>
+		<lang key="hr">Dovedi flotu sa  Živom i  Dijamantima na Market nivoa 10</lang>
+		<lang key="pt">Trás Mercúrio e Diamantes a a uma Academia nível 10</lang>
+		<lang key="se">Ta en flotta med både Kvicksilver och Diamanter till en Marknad i nivå 10.</lang>
+	</entry>
+
+	<entry key="BringMercWrecksToAcademyLevel1">
+		<lang key="de">Bring Merc Wracks zu einer Level 1 Akademie</lang>
+		<lang key="en">Bring Merc Wrecks to a level 1 Academy</lang>
+		<lang key="hr">Imam izvještaj koji kaže da  Mercs flote imaju određene komponente koje me zanimaju. Donesi mi te komponente na bilo koju Akademiju nivoa 1.</lang>
+		<lang key="pt">Trás Destroços de Mercs a uma Academia nível 1</lang>
+		<lang key="se">Jag har fått rapporter som säger att Mercs flotta har en vissa komponenter som jag är intresserad av. Ta med en av de här komponenterna till en valfri Akademi i nivå 1.</lang>
+	</entry>
+
+	<entry key="BringPrimaryBoardToAcademyLevel1">
+		<lang key="de">Bring Primär-Tafeln zu einer Level 1 Akademie</lang>
+		<lang key="en">Bring Primary Boards to a level 1 Academy</lang>
+		<lang key="hr">Primarne Ploče sadrže detaljne informacije o operacijama Mercsa. Trebaš mi donijeti 2 Primarne Ploče na bilo koju Akademiju levela 1.</lang>
+		<lang key="pt">Trás Placas Principais a uma Academia nível 1</lang>
+		<lang key="se">Moderkort innehåller detaljerad information om Mercs förehavanden. Jag behöver dig till att skaffa mig 2 Moderkort och ta med dem till en valfri Akademi i nivå 1.</lang>
+	</entry>
+
+	<entry key="BringReaperControlHelmetToAcademyLevel5">
+		<lang key="de">Bring Reapers Kontroll-Helme zu einer Level 5 Akademy</lang>
+		<lang key="en">Bring Reapers Control Helmets to a level 5 Academy</lang>
+		<lang key="hr">Otkrio sam da Žeteoci rabe specijalnu Kacigu da se kontroliraju. Potrebna mi je ta kaciga. Donesi dvije funkcionalne kacige u bilo koju Akademiju nivoa 5.</lang>
+		<lang key="pt">Trás Capacetes de Controlo de Reapers a uma Academia nível 5</lang>
+		<lang key="se">Jag upptäckte att Reapers kontrolleras av en speciell hjälm. Jag behöver den hjälmen. Ta med 2 fungerande hjälmar till en valfri Akademi i nivå 5.</lang>
+	</entry>
+
+	<entry key="BringReaperPropulsionSystemToAcademyLevel5">
+		<lang key="de">Bring Reaper Antriebssysteme zu einer Level 5 Akademie</lang>
+		<lang key="en">Bring Reapers Propulsion Systems to a level 5 Academy</lang>
+		<lang key="hr">Mora da si primjetio da su Žeteoci ekstremno mobilini. Trebam proučiti njihov pogonski sustav. Donesi mi 3 potpuno funkcionalna pogonska sustava na bilo koju Akademiju nivoa 5.</lang>
+		<lang key="pt">Trás Sistemas de Propulsão de Reapers a uma Academia nível 5</lang>
+		<lang key="se">Du måste ha sett att Reapers är extremt manövrerbara. Jag behöver studera dess framdrivningssystem. Ta med 3 fungerande framdrivningssystem till en valfri Akademi i nivå 5.</lang>
+	</entry>
+
+	<entry key="BringRedMatterToPirateBayLevel1">
+		<lang key="de">Bring Rote Materia zu Bucht der Piraten Level 1</lang>
+		<lang key="en">Bring Red Matter to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Matéria Vermelha a uma Baía de Piratas nível 1</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringRogueMercSpaceChartToAcademyLevel5">
+		<lang key="de">Bring Rogue Merc Weltraumkarte zu einer Level 5 Akademie</lang>
+		<lang key="en">Bring Rogue Merc Space Chart to a level 5 Academy</lang>
+		<lang key="hr">Mercs imaju jednu od najboljih karata svemira. Trebam da mi nabaviš jednu od tih svemirskih karata od Rogue Mercs Flote. Kada je nabaviš, donesi je na bilo  koju akademiju nivoa 5.</lang>
+		<lang key="pt">Trás um mapa espacial de um Rogue Merc a uma Academia nível 5</lang>
+		<lang key="se">Mercs har en av de bästa kartorna i Universum. Jag behöver dig till att skaffa en av dessa kartor från en av Rogue Mercs flottor. När du har skaffat en, ta den till en Akademi i nivå 5.</lang>
+	</entry>
+
+	<entry key="BringRogueMercUniformsToAcademyLevel5">
+		<lang key="de">Bring Rogue Merc Uniformen zu einer Level 5 Akademie</lang>
+		<lang key="en">Bring Rogue Merc Uniforms to a level 5 Academy</lang>
+		<lang key="hr">Trebam infiltrirati Rogue Mercs flotu i za to trebam određene predmete. 10 Rogue Mercs uniformi da budem točan. Donesi mi ih na bilo koju Akademiju nivoa 5.</lang>
+		<lang key="pt">Trás Uniformes de Rogue Mercs a uma Academia nível 5</lang>
+		<lang key="se">Jag behöver infiltrera en av Rogue Mercs flottor och för att klara det behöver jag en viss sak. 10 av Rogue Mercs uniformer för att vara exakt. Ta med dem till en valfri Akademi i nivå 5.</lang>
+	</entry>
+
+	<entry key="BringRogueMercWrecksToAcademyLevel5">
+		<lang key="de">Bring Rogue Merc Wracks zu einer Level 5 Akademie</lang>
+		<lang key="en">Bring Rogue Merc Wrecks to a level 5 Academy</lang>
+		<lang key="hr">Rogue Merc flote sadrže određene komponente koje trebam, Donesi te komponente u bilo koju Akademiju nivoa 5.</lang>
+		<lang key="pt">Trás Destroços de Rogue Mercs a uma Academia nível 5</lang>
+		<lang key="se">Rogue Mercs flottor innehåller vissa komponenter som jag behöver. Ta med dessa komponenter till en Akademi i nivå 5.</lang>
+	</entry>
+
+	<entry key="BringScourgeIonCannonsToAcademyLevel7">
+		<lang key="de">Bring Scourge Ionen Kanonen zur einer Akademie Level 7</lang>
+		<lang key="en">Bring Scourge Ion Cannons to a level 7 Academy</lang>
+		<lang key="hr">Bič je najmoćnija jedinica u Tech Mercs floti i mora biti zaustavljena. Trebam njihove Ionske Topove. Donesi 3 Ionska Topa na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">Trás Canhões de Ions da Scourge a uma Academia nível 7</lang>
+		<lang key="se">Scourge är den kraftfullaste enheten i Tech Mercs flottor och måste stoppas. Ta 3 Jon-kanoner till en Akademi i nivå 7.</lang>
+	</entry>
+
+	<entry key="BringSentryMercSpaceChartToAcademyLevel3">
+		<lang key="de">Bring Sentry Merc Weltraumkarte zu einer Level 3 Akademie</lang>
+		<lang key="en">Bring Sentry Merc Space Chart to a level 3 Academy</lang>
+		<lang key="hr">Mercs imaju jednu od najboljih karata svemira. Trebam te da mi nabaviš jednu od ovih karata svemira od Sentry Mercs Flote. Kada je nabaviš, donesi je na bilo koju Akademinu nivoa 3.</lang>
+		<lang key="pt">Trás Mapa Espacial de Sentry Mercs a uma Academia nível 3</lang>
+		<lang key="se">Mercs har en av de bästa kartorna över universum. Jag behöver dig till att skaffa mig en av dessa kartor från en av Sentry Mercs flottor. När du har skaffat en tar du den till en Akademi i nivå 3.</lang>
+	</entry>
+
+	<entry key="BringSentryMercUniformsToAcademyLevel3">
+		<lang key="de">Bring Sentry Merc Uniformen zu einer Level 3 Akademie</lang>
+		<lang key="en">Bring Sentry Merc Uniforms to a level 3 Academy</lang>
+		<lang key="hr">Trebam infiltrirati Sentry Mercs flotu i za to trebam određene predmete. 10 Sentry Mercs uniformi da budem točan. Donesi mi ih na bilo koju Akademiju nivoa 3.</lang>
+		<lang key="pt">Trás Uniformes de Sentry Mercs a uma Academia nível</lang>
+		<lang key="se">Jag behöver infiltrera en av Sentry Mercs flottor och för att göra det behöver jag ett par saker. 10 av Sentry Mercs uniformer för att vara exakt. Ta med den till en valfri Akademi i nivå 3.</lang>
+	</entry>
+
+	<entry key="BringSentryMercWrecksToAcademyLevel3">
+		<lang key="de">Bring Sentry Merc Wracks zu einer Level 3 Akademie</lang>
+		<lang key="en">Bring Sentry Merc Wrecks to a level 3 Academy</lang>
+		<lang key="hr">Sentry Merc posjeduju određene komponente koje su korisne. Donesi te komponete na bilo koju Akademiju nivoa 3.</lang>
+		<lang key="pt">Trás destroços de Sentry Mercs a uma Academia nível 3</lang>
+		<lang key="se">Sentry Mercs flottor innehar en del användbara komponenter. Ta med de här komponenterna till en valfri Akademi i nivå 3.</lang>
+	</entry>
+
+	<entry key="BringSentryReactorToAcademyLevel3">
+		<lang key="de">Bring Sentry Reaktoren zu einer Level 3 Akademie</lang>
+		<lang key="en">Bring Sentry Reactors to a level 3 Academy</lang>
+		<lang key="hr">Sentry Mercs flote sardrže jako brzu jedinicu, Stražara. Trebam 3 njegova Reaktora da na njima napravim "reverse engineer". Donesi mi ih na bilo koju Akademiju nivoa 3.</lang>
+		<lang key="pt">Trás Reactores de Sentries a uma Academia nível 3</lang>
+		<lang key="se">Sentry Mercs flottor innehåller en väldigt snabb enhet: Sentry. Jag behöver 3 av dess Reaktorer för att förstå hur de fungerar. Ta med dem till en valfri Akademi i nivå 3.</lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListAlphaToPirateBayLevel1">
+		<lang key="de">Bring die Liste der Kriminellen Alpha zu der Bucht der Piraten Level 1</lang>
+		<lang key="en">Bring a Criminal List Alpha to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Lista de Criminosos Alpha a uma Baía de Piratas nível 1</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListBetaToPirateBayLevel3">
+		<lang key="de">Bring die Liste der Kriminellen Beta zur Bucht der Piraten Level 3</lang>
+		<lang key="en">Bring a Criminal List Beta to a level 3 Pirate Bay</lang>
+		<lang key="pt">Trás Lista de Criminosos Beta a uma Baía de Piratas nível 3</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListDeltaToPirateBayLevel7">
+		<lang key="de">Bring die Liste der Kriminellen Delta zur Bucht der Piraten Level 7</lang>
+		<lang key="en">Bring a Criminal List Delta to a level 7 Pirate Bay</lang>
+		<lang key="pt">Trás Lista de Criminosos Delta a uma Baía de Piratas nível 7</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListGammaToPirateBayLevel5">
+		<lang key="de">Bring die Liste der Kriminellen Gamma zur Bucht der Piraten Level 5</lang>
+		<lang key="en">Bring a Criminal List Gamma to a level 5 Pirate Bay</lang>
+		<lang key="pt">Trás Lista de Criminosos Gamma a uma Baía de Piratas nível 5</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListOmegaToPirateBayLevel10">
+		<lang key="de">Bring eine Liste der Kriminellen Omega zur Bucht der Piraten Level 10</lang>
+		<lang key="en">Bring a Criminal List Omega to a level 10 Pirate Bay</lang>
+		<lang key="pt">Trás Lista de Criminosos Omega a uma Baía de Piratas nível 10</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringSpaceCriminalListSigmaToPirateBayLevel9">
+		<lang key="de">Bring eine Liste der Kriminellen Sigma zur Bucht der Piraten Level 9</lang>
+		<lang key="en">Bring a Criminal List Sigma to a level 9 Pirate Bay</lang>
+		<lang key="pt">Trás Lista de Criminosos Sigma a uma Baía de Piratas nível 9</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformAlphaToPirateBayLevel1">
+		<lang key="de">Bring die Space Force Alpha Uniformen zur Bucht der Piraten Level 3</lang>
+		<lang key="en">Bring Space Force Alpha Uniforms to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Uniformes da Space Force Alpha a uma Baía de Piratas nível 1</lang>
+		<lang key="se">Jag behöver infiltrera en av Alpha Forces flottor och för att göra det behöver jag ett par saker. 10 av Alpha Forces uniformer för att vara exakt. Ta med dem till en valfri Pirathamn i nivå 1.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformBetaToPirateBayLevel3">
+		<lang key="de">Bring Space Force Gamma Uniformen zur Bucht der Piraten Level 1</lang>
+		<lang key="en">Bring Space Force Beta Uniforms to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Uniformes da Space Force Beta a uma Baía de Piratas nível 1</lang>
+		<lang key="se">I behöver infiltrera en av Beta Forces flottor och för att göra det behöver jag ett par saker. 10 av Beta Forces uniformer för att vara exakt. Te med dem till en valfri Pirathamn i nivå 3.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformDeltaToPirateBayLevel7">
+		<lang key="de">Bring Space Force Delta Uniformen zur Bucht der Piraten Level 1</lang>
+		<lang key="en">Bring Space Force Delta Uniforms to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Uniformes da Space Force Delta a uma Baía de Piratas nível 1</lang>
+		<lang key="se">Jag behöver infiltrera en av Delta Forces flottor och för att göra det behöver jag ett par saker. 10 av Delta Forces uniformer för att vara exakt. Ta med dem till en valfri Pirathamn i nivå 7.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformGammaToPirateBayLevel5">
+		<lang key="de">Bring Space Force Gamma Uniformen zur Bucht der Piraten Level 1</lang>
+		<lang key="en">Bring Space Force Gamma Uniforms to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Uniformes da Space Force Gamma a uma Baía de Piratas nível 1</lang>
+		<lang key="se">Jag behöver infiltrera en av Gamma Forces flottor och för detta behöver jag ett par saker. 10 av Gamma Forces uniformer för att vara exakt. Ta med dem till en valfri Pirathamn i nivå 5.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformOmegaToPirateBayLevel10">
+		<lang key="de">Bring Space Force Omega Uniformen zur Bucht der Piraten Level 1</lang>
+		<lang key="en">Bring Space Force Omega Uniforms to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Uniformes da Space Force Omega a uma Baía de Piratas nível 1</lang>
+		<lang key="se">Jag behöver infiltrera en av Omega Forces flottor och för att göra det behöver jag ett par saker. 10 av Omega Forces uniformer för att vara exakt. Ta med dem till en valfri Pirathamn i nivå 10.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceUniformSigmaToPirateBayLevel9">
+		<lang key="de">Bring Space Force Sigma Uniformen zur Bucht der Piraten Level 1</lang>
+		<lang key="en">Bring Space Force Sigma Uniforms to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Uniformes da Space Force Sigma a uma Baía de Piratas nível 1</lang>
+		<lang key="se">Jag behöver infiltrera en av Sigma Forces flottor och för att göra det behöver jag ett par saker. 10 av Sigma Forces uniformer för att vara exakt. Ta med dem till en valfri Pirathamn i nivå 9.</lang>
+	</entry>
+
+	<entry key="BringSpaceForceWrecksToPirateBayLevel10">
+		<lang key="de">Bring Space Force Wracks zur Bucht der Piraten Level 1</lang>
+		<lang key="en">Bring Space Force Wrecks to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Destroços da Space Force a uma Baía de Piratas nível 1</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringSpaceForceWrecksToPirateBayLevel3">
+		<lang key="de">Bring Space Force Wracks zur Bucht der Piraten Level 3</lang>
+		<lang key="en">Bring Space Force Wrecks to a level 3 Pirate Bay</lang>
+		<lang key="pt">Trás Destroços da Space Force a uma Baía de Piratas nível 3</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringSubLightToPirateBayLevel5">
+		<lang key="de">Bring Sub-Licht Motoren zur Bucht der Piraten Level 5</lang>
+		<lang key="en">Bring Sub Light Engines to a level 5 Pirate Bay</lang>
+		<lang key="pt">Trás Motores Sub-Luz a uma Baía de Piratas nível</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringSubSpaceSensorsToPirateBayLevel3">
+		<lang key="de">Bring Sub-Raum Sensoren zur Bucht der Piraten Level 3</lang>
+		<lang key="en">Bring Sub-Space Sensors to a level 3 Pirate Bay</lang>
+		<lang key="pt">Trás Sensores Sub-Espaço a uma Baía de Piratas nível 3</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringTacticalComputerToPirateBayLevel5">
+		<lang key="de">Bring taktische Computer zur Bucht der Piraten Level 5</lang>
+		<lang key="en">Bring Tactical Computers to a level 5 Pirate Bay</lang>
+		<lang key="pt">Trás Computadores Tácticos a uma Baía de Piratas nível 5</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringTechMercSpaceChartToAcademyLevel7">
+		<lang key="de">Bring zu einer Level 7 Akademie</lang>
+		<lang key="en">Bring to a level 7 Academy</lang>
+		<lang key="hr">Mercs imaju jednu od najboljih karata svemira. Trebam da mi nabaviš jednu od tih karata svemira od
+  Tech Mercs flote. Kada je nabaviš dostavi mi je na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">Trás  a uma Academia nível 7</lang>
+		<lang key="se">Mercs har en av de bästa kartorna i Universum. Jag behöver dig till att skaffa mig en sådan karta från en flotta från Tech Mercs. När du har skaffat en, ta med den till en Akademi i nivå 7.</lang>
+	</entry>
+
+	<entry key="BringTechMercUniformsToAcademyLevel7">
+		<lang key="de">Bring Tech Mercs Uniformen zu einer Level 7 Akademie</lang>
+		<lang key="en">Bring Tech Mercs Uniforms to a level 7 Academy</lang>
+		<lang key="hr">Trebam se infiltrirati u Tech Mercs flotu i za to trebam određene uniforme. 8 Tech Mercs uniformi da budem točan. Donesi mi ih na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">Trás Uniformes de Tech Mercs a uma Academia nível 7</lang>
+		<lang key="se">Jag behöver infiltrera en av Tech Mercs flottor och för att göra det så behöver jag vissa saker. 8 av Tech Mercs uniformer för att vara exakt. Ta med dem till en valfri Akademi i nivå 7.</lang>
+	</entry>
+
+	<entry key="BringTeckMercWrecksToAcademyLevel7">
+		<lang key="de">Bring Tech Mercs Wracks zu einer Level 7 Akademie</lang>
+		<lang key="en">Bring Tech Mercs Wrecks to a level 7 Academy</lang>
+		<lang key="hr">Teck Merc posjeduju tehnološki napredne jedinice. Trebam neke komponente sa tih jedinica. Donesi te komponente na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">Trás Destroços de Tech Mercs a uma Academia nível 7</lang>
+		<lang key="se">Tech Mercs flottor har teknologiskt avancerade enheter.  I behöver några komponenter från dessa enheter. Ta dem till en Akademi i nivå 7.</lang>
+	</entry>
+
+	<entry key="BringToolsAndSuppliesToMarketLevel3">
+		<lang key="de">Bring eine Flotte sowohl mit Werkzeugen als auch mit Vorräten zu einem Level 3 oder Level 5 Markt</lang>
+		<lang key="en">Bring a fleet with both Tools and Supplies to a level 3 or 5 Market</lang>
+		<lang key="es">Transportar Herramientas y Mantenimientos para un Mercado de nivel 3 ou nivel 5</lang>
+		<lang key="fr">Apportez une esadrille avec des outils et approvisionnements à un marché de niveau 3 ou 5</lang>
+		<lang key="hr">Dovedi flotu sa Alatima  i Zalihama na Market između nivoa 3 i 5</lang>
+		<lang key="pt">Transportar Ferramentas e Mantimentos numa só armada para um Mercado de nível 3 ou 5</lang>
+		<lang key="se">Ta en flotta med både Verktyg och Förnödenheter till en Marknad i nivå 3 eller 5</lang>
+	</entry>
+
+	<entry key="BringTransportSystemToPirateBayLevel7">
+		<lang key="de">Bring Transport-Systeme zur Bucht der Piraten Level 7</lang>
+		<lang key="en">Bring Transport Systems to a level 7 Pirate Bay</lang>
+		<lang key="pt">Trás Sistemas de Transporte a uma Baía de Piratas nível 7</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BringWrecksToPirateBayLevel1">
+		<lang key="de">Bring Alpha Force Wracks zur Bucht der Piraten Level 1</lang>
+		<lang key="en">Bring Alpha Force Wrecks to a level 1 Pirate Bay</lang>
+		<lang key="pt">Trás Destroços da Alpha Force a uma Baía de Piratas nível 1</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="BuildCommandCenterQuest">
+		<lang key="de">Rüste die Kommando-Zentral auf, auf deinem Heimatplaneten</lang>
+		<lang key="en">Upgrade the Command Center on your Home Planet</lang>
+		<lang key="es">Evoluciones el  Centro de Comando en tu planeta madre</lang>
+		<lang key="fr">Améliorer le centre de commande sur votre planète mère</lang>
+		<lang key="hr">Unaprijedi Komandni Centar na svome Početnome Planetu</lang>
+		<lang key="pt">Evoluir o Centro de Comando no teu planeta mãe</lang>
+		<lang key="se">Uppgradera Kommandocentret på din Hemplanet</lang>
+	</entry>
+
+	<entry key="BuildDarknessHallQuest">
+		<lang key="de">Rüste die Düstere Halle auf deinem Heimatplaneten</lang>
+		<lang key="en">Upgrade the Darkness Hall on your Home Planet</lang>
+		<lang key="es">Evolucionar la Capital de la Oscuridad de tu planeta madre</lang>
+		<lang key="fr">Améliorer la tour obscure sur votre planète mère</lang>
+		<lang key="hr">Izgradi Dvoranu Tame na Početnoj Planeti</lang>
+		<lang key="pt">Evoluir a Capital da Escuridão do teu planeta mãe</lang>
+		<lang key="se">Uppgradera Mörkerhallen på din Hemplanet</lang>
+	</entry>
+
+	<entry key="BuildDevotionSanctuaryQuest">
+		<lang key="de">Baue eine Zufluchtsstätte der Hingabe auf deinem Heimatplaneten</lang>
+		<lang key="en">Build a Devotion Sanctuary on your Home Planet</lang>
+		<lang key="es">Construir un Santuário de Devoción en tu planeta madre</lang>
+		<lang key="fr">Construire un Sancutaire de dévôts sur votre planète mère</lang>
+		<lang key="hr">Izgradi Svetište Obožavanja na svome Početnom Planetu</lang>
+		<lang key="pt">Construir um Santuário de Devoção no teu planeta mãe</lang>
+		<lang key="se">Bygg en Helgedom på din Hemplanet</lang>
+	</entry>
+
+	<entry key="BuildDominationYardQuest">
+		<lang key="de">Baue eine Herrschafts-Fabrik auf deinem Heimatplaneten, die es dir erlauben wird Kampfeinheiten zu bauen</lang>
+		<lang key="en">Build the Domination Yard on your Home Planet, that will allow you to build combat units</lang>
+		<lang key="es">Construir un Puerto de Domínio en te planeta madre, que te permitirá construir unidades de combate</lang>
+		<lang key="fr">Construire un hangar de domination sur votre planète mère, vous permettant de construire des unités de combat</lang>
+		<lang key="hr">Izgradi Brodogradilište Dominacije  na Početnoj Planeti, koje će ti omogućiti da gradiš borbene jedinice</lang>
+		<lang key="pt">Construir um Porto do Domínio no teu planeta mãe, que te permitirá construir unidades de combate</lang>
+		<lang key="se">Bygg ett Dominerings-Varv på din hemplanet, detta gör så att du kan bygga stridsenheter</lang>
+	</entry>
+
+	<entry key="BuildElkExtractorQuest">
+		<lang key="de">Baue einen Elk Extraktor auf deinem Heimatplaneten</lang>
+		<lang key="en">Build an Elk Extractor on your Home Planet</lang>
+		<lang key="es">Construir un Extractor de Elk en tu planeta madre</lang>
+		<lang key="fr">Construire un extracteur d'elk sur votre planète mère</lang>
+		<lang key="hr">Izgradi Elk Ekstraktor na Početnoj Planeti</lang>
+		<lang key="pt">Construir um Extrator de Elk no teu planeta mãe</lang>
+		<lang key="se">Bygg en Elk-Exktraktor på din Hemplanet</lang>
+	</entry>
+
+	<entry key="BuildIncubatorQuest">
+		<lang key="de">Baue einen Inkubator auf deinem Heimatplaneten, der es dir ermöglicht Kampfeinheiten zu bauen</lang>
+		<lang key="en">Build the Incubator on your Home Planet, that will allow you to build combat units</lang>
+		<lang key="es">Construir una Encubadora en tu planeta madre, que te permitirá construir unidades de combate</lang>
+		<lang key="fr">Construire l'incubateur sur votre planète mère, vous permettant de construire des unités de combat</lang>
+		<lang key="hr">Izgradi Inkubator na svome Početnom Planetu, koji će ti omogućiti da gradiš borbene jedinice</lang>
+		<lang key="pt">Construir uma Incubadora no teu planeta mãe, que te permitirá construir unidades de combate</lang>
+		<lang key="se">Bygg en Inkubator på din Hemplanet, detta låter dig bygga stridsenheter</lang>
+	</entry>
+
+	<entry key="BuildNestQuest">
+		<lang key="de">Rüste das Nest auf, auf deinem Heimatplaneten</lang>
+		<lang key="en">Upgrade the Nest on your Home Planet</lang>
+		<lang key="es">Evolucionar el Nido de tu planeta madre</lang>
+		<lang key="fr">Améliorer le Nid sur votre planète mère</lang>
+		<lang key="hr">Unaprijedi Gnijezdo na Početnoj Planeti</lang>
+		<lang key="pt">Evoluir o Ninho do teu planeta mãe</lang>
+		<lang key="se">Uppgradera Nästet på din Hemmplanet</lang>
+	</entry>
+
+	<entry key="BuildProtolExtractorQuest">
+		<lang key="de">Baue einen Protol Extraktor auf deinem Heimatplaneten</lang>
+		<lang key="en">Build a Protol Extractor on your Home Planet</lang>
+		<lang key="es">Construir un Extractor de Protol en tu planeta madre</lang>
+		<lang key="fr">Construire un extracteur de protol sur votre planète mère</lang>
+		<lang key="hr">Izgradi Protol Ekstraktor na Početnoj Planeti</lang>
+		<lang key="pt">Construir um Extractor de Protol no teu planeta mãe</lang>
+		<lang key="se">Bygg en Protol-Extraktor på din Hemplanet</lang>
+	</entry>
+
+	<entry key="BuildSeriumExtractorQuest">
+		<lang key="de">Baue einen Serium Extraktor auf deinem Heimatplaneten</lang>
+		<lang key="en">Build a Serium Extractor on your Home Planet</lang>
+		<lang key="es">Construir un Extractor de Serium en tu planeta madre</lang>
+		<lang key="fr">Construire un extracteur de serium sur votre planète mère</lang>
+		<lang key="hr">Izgradi Ekstraktor Seriuma na svome Početnom Planetu</lang>
+		<lang key="pt">Construir um Extractor de Serium no teu planeta mãe</lang>
+		<lang key="se">Bygg en Extraktor för Serium på din Hemplanet</lang>
+	</entry>
+
+	<entry key="BuildSolarPanelQuest">
+		<lang key="de">Baue eine Solar Tafel auf deinem Heimatplaneten</lang>
+		<lang key="en">Build a Solar Panel on your Home Planet</lang>
+		<lang key="es">Construir un Panel Solar en tu planeta madre</lang>
+		<lang key="fr">Construire un panneau solaire sur votre planète mère</lang>
+		<lang key="hr">Izgradi Solarnu Ploču na svome Početnom Planetu</lang>
+		<lang key="pt">Construir um Painel Solar no teu planeta mãe</lang>
+		<lang key="se">Bygg en Solpanel på din Hemplanet</lang>
+	</entry>
+
+	<entry key="BuildTitaniumExtractorQuest">
+		<lang key="de">Baue einen Titanium Extraktor auf deinem Heimatplaneten</lang>
+		<lang key="en">Build a Titanium Extractor on your Home Planet</lang>
+		<lang key="es">Construir un Extractor de Titanium en tu planeta madre</lang>
+		<lang key="fr">Construire un extracteur de Titanium sur votre planète mère</lang>
+		<lang key="hr">Izgradi Ekstraktor Titana na svom Početnom Planetu</lang>
+		<lang key="pt">Construir um Extrator de Titanium no teu planeta mãe</lang>
+		<lang key="se">Bygg en Titan-Extraktor på din Hemplanet</lang>
+	</entry>
+
+	<entry key="BuildUnitYardQuest">
+		<lang key="de">Baue eine Einheiten-Fabrik auf deinem Heimatplaneten, die es dir erlauben wird Kampfeinheiten zu bilden.</lang>
+		<lang key="en">Build the Unit Yard on your Home Planet, that will allow you to build combat units</lang>
+		<lang key="es">Construir un Puerto Espacial en tu planeta madre, que permitirá construir unidades de combate</lang>
+		<lang key="fr">Construire un hangar de construction, permettant de construire des unités de combat</lang>
+		<lang key="hr">Izgradi Brodogradilište na svom Početnom Planetu,  koje će ti dopustiti da gradiš borbene jedinice.</lang>
+		<lang key="pt">Construir o Porto Espacial no teu planeta mãe, que permitirá construir unidades de combate</lang>
+		<lang key="se">Bygg Enhets-Varv på din Hemplanet, detta låter dig bygga stridsenheter</lang>
+	</entry>
+
+	<entry key="CheckPoint">
+		<lang key="de">Ziel</lang>
+		<lang key="en">Checkpoint</lang>
+		<lang key="es">Meta</lang>
+		<lang key="fr">Point de sauvegarde</lang>
+		<lang key="hr">Kontrolna Točka</lang>
+		<lang key="pt">Meta</lang>
+		<lang key="se">Kontroll</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel10Quest">
+		<lang key="de">Besitze ein Planet Level 10 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 10 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nivel 10 en la zona pública</lang>
+		<lang key="fr">Possédez une planète niveau 10 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan planet nivoa 10 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 10 na zona pública</lang>
+		<lang key="se">Äg en planet i nivå 10 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel1Quest">
+		<lang key="de">Besitze ein Planet Level 1 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 1 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nivel 1 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planète de niveau 1 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan planet nivoa 1 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 1 na zona pública</lang>
+		<lang key="se">Äg en planet i nivå 1 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel1QuestBugs">
+		<lang key="de">Besitze ein Planet Level 1 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 1 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nivel 1 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planète de niveau 1 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan planet nivoa 1 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 1 na zona pública</lang>
+		<lang key="se">Äg en planet i nivå 1 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel1QuestDark">
+		<lang key="de">Besitze ein Planet Level 1 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 1 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nivel 1 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planète de niveau 1 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan planet nivoa 1 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 1 na zona pública</lang>
+		<lang key="se">Äg en planet i nivå 1 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel3Quest">
+		<lang key="de">Besitze ein Planet Level 3 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 3 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nivel 3 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planète de niveau 3 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan plenet nivoa 3 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 3 na zona pública</lang>
+		<lang key="se">Äg en planet i nivå 3 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel5Quest">
+		<lang key="de">Besitze ein Planet Level 5 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 5 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nivel 5 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planète de niveau 5 sur la zone publique</lang>
+		<lang key="hr">posjeduj jedan planet nivoa 5 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 5 na zona pública</lang>
+		<lang key="se">Äg en planet i nivå 5 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel7Quest">
+		<lang key="de">Besitze ein Planet Level 7 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 7 on the hot zone</lang>
+		<lang key="es">Poseer un planeta de nivel 7 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planète de niveau 7 sur la zone publique</lang>
+		<lang key="hr">Posjeduje jedan planet nivoa 7 u hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 7 na zona pública</lang>
+		<lang key="se">Äg en planet i nivå 7 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize1HotLevel9Quest">
+		<lang key="de">Besitze ein Planet Level 9 in der öffentlichen Zone</lang>
+		<lang key="en">Own one planet level 9 on the hot zone</lang>
+		<lang key="es">Poseer un  planeta de nivel 9 en la zona pública</lang>
+		<lang key="fr">Possédez 1 planète de niveau 9 sur la zone publique</lang>
+		<lang key="hr">Posjeduj jedan planet nivoa 9 na hot zoni</lang>
+		<lang key="pt">Possuir um planeta de nível 9 na zona pública</lang>
+		<lang key="se">Äg en planet i nivå 9 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel10Quest">
+		<lang key="de">Besitze fünf Planeten Level 10 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 10 on the hot zone</lang>
+		<lang key="es">Poseer cinco planetas de nivel 10 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planètes de niveau 10 sur la zone publique</lang>
+		<lang key="hr">Posjeduj pet planeta nivoa 10 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 10 na zona pública</lang>
+		<lang key="se">Äg fem planeter i nivå 10 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel1Quest">
+		<lang key="de">Besitze fünf Planeten Level 1 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 1 on the hot zone</lang>
+		<lang key="es">Poseer cinco planetas de nivel 1 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planètes de niveau 1 sur la zone publique</lang>
+		<lang key="hr">Posjeduj pet planeta nivoa 1 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 1 na zona pública</lang>
+		<lang key="se">Äg fem planeter i nivå 1 den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel3Quest">
+		<lang key="de">Besitze fünf Planeten Level 3 in der öffentlichen Zone.</lang>
+		<lang key="en">Own five planets level 3 on the hot zone</lang>
+		<lang key="es">Poseer cinco planetas de nivel 3 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planètes de niveau 3 sur la zone publique</lang>
+		<lang key="hr">Posjeduj pet pleneta nivoa 3 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 3 na zona pública</lang>
+		<lang key="se">Äg fem planeter i nivå 3 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel5Quest">
+		<lang key="de">Besitze fünf Planeten Level 5 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 5 on the hot zone</lang>
+		<lang key="es">Poseer cinco planetas de nivel 5 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planètes de niveau 5 sur la zone publique</lang>
+		<lang key="hr">Posjeduj pet planeta nivoa 5 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 5 na zona pública</lang>
+		<lang key="se">Äg fem planter i nivå 5 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel7Quest">
+		<lang key="de">Bezitze fünf Planeten Level 7 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 7 on the hot zone</lang>
+		<lang key="es">Poseer cinco planetas de nivel 7 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planètes de niveau 7 sur la zone publique</lang>
+		<lang key="hr">Posjeduj pet planeta levela 7 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 7 na zona pública</lang>
+		<lang key="se">Äg fem planeter i nivå 7 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize5HotLevel9Quest">
+		<lang key="de">Besitze fünf Planeten Level 9 in der öffentlichen Zone</lang>
+		<lang key="en">Own five planets level 9 on the hot zone</lang>
+		<lang key="es">Poseer cinco planetas de nivel 9 en la zona pública</lang>
+		<lang key="fr">Possédez 5 planètes de niveau 9 sur la zone publique</lang>
+		<lang key="hr">Posjeduj osam planeta nivoa 9 na hot zoni</lang>
+		<lang key="pt">Possuir cinco planetas de nível 9 na zona pública</lang>
+		<lang key="se">Äg fem planeter i nivå 9 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel10Quest">
+		<lang key="de">Besitze acht Planeten Level 10 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 10 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nivel 10 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planètes de niveau 10 sur la zone publique</lang>
+		<lang key="hr">Posjeduj osam planeta nivoa 10 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 10 na zona pública</lang>
+		<lang key="se">Äg åtta planeter i nivå 10 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel1Quest">
+		<lang key="de">Besitze acht Planeten Level 1 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 1 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nivel 1 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planètes de niveau 1 sur la zone publique</lang>
+		<lang key="hr">Posjeduj osam pleneta nivoa 1 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 1 na zona pública</lang>
+		<lang key="se">Äg åtta planeter i nivå 1 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel3Quest">
+		<lang key="de">Besitze acht Planeten Level 3 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 3 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nivel 3 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planètes de niveau 3 sur la zone publique</lang>
+		<lang key="hr">Posjeduj osam pleneta nivoa 3 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 3 na zona pública</lang>
+		<lang key="se">Äg åtta planeter i nivå 3 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel5Quest">
+		<lang key="de">Besitze acht Planeten Level 5 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 5 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nivel 5 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planètes de niveau 5 sur la zone publique</lang>
+		<lang key="hr">Posjeduj 8 planeta nivoa 5 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 5 na zona pública</lang>
+		<lang key="se">Äg åtta planeter i nivå 5 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel7Quest">
+		<lang key="de">Besitze acht Planeten Level 7 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 7 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nivel 7 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planètes de niveau 7 sur la zone publique</lang>
+		<lang key="hr">Posjeduj osam planeta nivoa 7 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 7 na zona pública</lang>
+		<lang key="se">Äg åtta plneter i nivå 7 i den heta zonen</lang>
+	</entry>
+
+	<entry key="Colonize8HotLevel9Quest">
+		<lang key="de">Besitze 8 Planeten Level 9 in der öffentlichen Zone</lang>
+		<lang key="en">Own eight planets level 9 on the hot zone</lang>
+		<lang key="es">Poseer ocho planetas de nivel 9 en la zona pública</lang>
+		<lang key="fr">Possédez 8 planètes de niveau 9 sur la zone publique</lang>
+		<lang key="hr">Posjeduj osam planeta nivoa 9 na hot zoni</lang>
+		<lang key="pt">Possuir oito planetas de nível 9 na zona pública</lang>
+		<lang key="se">Äg åtta planeter i nivå 9 i den heta zonen</lang>
+	</entry>
+
+	<entry key="ColonizeAllPrivateZonePlanetsQuest">
+		<lang key="de">Bevölkere alle fünf Planeten in deiner Privat-Zone</lang>
+		<lang key="en">Colonize all five planets on your private zone</lang>
+		<lang key="es">Colonizar los cinco planetas en tu zona privada</lang>
+		<lang key="fr">Colonisez les 5 planètes sur votre zone privée</lang>
+		<lang key="hr">Koloniziraj svih pet planeta u svojoj privatnoj zoni</lang>
+		<lang key="pt">Colonizar todos os cinco planetas na tua zona privada</lang>
+		<lang key="se">Kolonisera alla fem planeter i din privata zon</lang>
+	</entry>
+
+	<entry key="ColonizeOnePlanetQuest">
+		<lang key="de">Besiedle einen weiteren Planeten in deiner Privat-Zone</lang>
+		<lang key="en">Colonize one additional planet on your private zone</lang>
+		<lang key="es">Colonizar otro planeta en tu zona privada</lang>
+		<lang key="fr">Colonisez une planète additionnel sur votre zone privée</lang>
+		<lang key="hr">Koloniziraj jedan dodatni planet u svojoj privatnoj zoni</lang>
+		<lang key="pt">Colonizar um outro planeta na tua zona privada</lang>
+		<lang key="se">Kolonialisera ytterligare en planet i din privata zon</lang>
+	</entry>
+
+	<entry key="Colonizer">
+		<lang key="de">Siedler</lang>
+		<lang key="en">Colonizer</lang>
+		<lang key="es">Colonizador</lang>
+		<lang key="fr">Coloniseur</lang>
+		<lang key="hr">Kolonizator</lang>
+		<lang key="pt">Colonizador</lang>
+		<lang key="se">Kolonisatör</lang>
+	</entry>
+
+	<entry key="Complete10Level1TradeRoutes">
+		<lang key="de">Vollende 10 Handelsrouten mit "Werkzeuge oder Vorräte" in 24 Stunden</lang>
+		<lang key="en">Complete 10 trade routes using Tools or Supplies in 24 hours</lang>
+		<lang key="es">Completar diez rutas comerciales de Herramientas o Mantenimiento en 24 horas</lang>
+		<lang key="fr">Complétez 10 routes commerciales en utilisant les outils ou approvisionnements en 24 heures</lang>
+		<lang key="hr">Završi 10 trgovačkih ruta sa Alatima ili Zalihama unutar 24 sata.</lang>
+		<lang key="pt">Completar 10 rotas comerciais de Ferramentas ou Mantimentos em 24 horas</lang>
+		<lang key="se">Genomför 10 handelsrutter med Verktyg eller Förnödenheter inom 24 timmar</lang>
+	</entry>
+
+	<entry key="Complete12Level3TradeRoutes">
+		<lang key="de">Vollende 12 Handelsrouten indem du Alkohol oder Medizin benutzt, in 24 Stunden</lang>
+		<lang key="en">Complete 12 trade routes using Alcohol or Medicine in 24 hours</lang>
+		<lang key="fr">Terminer 12 routes commerciales en utilisant de l'alcool et de la médecine en 24 heures.</lang>
+		<lang key="hr">Završi 12 trgovačkih ruta sa Alkoholom ili Lijekovima unutar 24 sata</lang>
+		<lang key="pt">Completar 12 rotas comerciais de Álcool ou Medicamentos em 24 horas</lang>
+		<lang key="se">Genom för 12 handelsrutter med Alkohol eller Medicin inom 24 timmar</lang>
+	</entry>
+
+	<entry key="Complete12Level7TradeRoutes">
+		<lang key="de">Vollende 12 Handelsrouten indem du Quecksilber oder Diamanten benutzt</lang>
+		<lang key="en">Complete 12 trade routes using Mercury or Diamonds</lang>
+		<lang key="fr">Terminer 12 routes commerciales en utilisant du mercure ou des diamants</lang>
+		<lang key="hr">Završi 12 trgovačkih ruta sa Živom ili Dijamantima</lang>
+		<lang key="pt">Completar 12 rotas comerciais de Mercúrio ou Diamantes</lang>
+		<lang key="se">Genomför 12 handelsrutter med Kvicksilver och Diamanter</lang>
+	</entry>
+
+	<entry key="Complete16Level10TradeRoutes">
+		<lang key="de">Vollende 16 Handelsrouten indem du Tiere oder Kosmischen Staub benutzt</lang>
+		<lang key="en">Complete 16 trade routes using Animals or Cosmic Dust</lang>
+		<lang key="fr">Complétez 16 routes commerciales avec les animaux ou la poudre cosmique</lang>
+		<lang key="hr">Završi 16 trgovačkih ruta sa Životinjama ili Kozmičkom Prašinom</lang>
+		<lang key="pt">Completar 16 rotas comerciais de Animais ou Poeira Cósmica</lang>
+		<lang key="se">Genomför 16 handelsrutter med Djur eller Kosmiskt damm</lang>
+	</entry>
+
+	<entry key="Complete16Level7TradeRoutes">
+		<lang key="de">Vollende 16 Handelsrouten indem du Quecksilber oder Diamanten benutzt, in 24 Stunden</lang>
+		<lang key="en">Complete 16 trade routes using Mercury or Diamonds in 24 hours</lang>
+		<lang key="fr">Terminer 16 routes commerciales en utilisant des diamants ou du mercure en 24 heures.</lang>
+		<lang key="hr">Završi 16 trgovačkih ruta sa Živom ili Dijamantima unutar 24 sata</lang>
+		<lang key="pt">Completar 16 rotas comerciais de Mercúrio ou Diamantes em 24 horas</lang>
+		<lang key="se">Genomför en handelsrutt med Kvicksilver eller Diamanter inom 24 timmar.</lang>
+	</entry>
+
+	<entry key="Complete20Level10TradeRoutes">
+		<lang key="de">Vollende 20 Handelsrouten indem du Tiere oder Kosmischen Staub benutzt, in 24 Stunden</lang>
+		<lang key="en">Complete 20 trade routes using Animals or Cosmic Dust in 24 hours</lang>
+		<lang key="fr">Terminer 20 routes commerciales en utilisant des animaux ou de la poudre cosmique en 24 heures.</lang>
+		<lang key="hr">Završi 20 trgovačkih ruta rabeći Životinje ili Kozmičku Prašinu u 24 sata.</lang>
+		<lang key="pt">Completar 20 rotas comerciais de Animais ou Poeira Cósmica em 24 horas</lang>
+		<lang key="se">Genomför 20 handelsrutter med Djur eller Kosmiskt Damm inom 24 timmar.</lang>
+	</entry>
+
+	<entry key="Complete8Level3TradeRoutes">
+		<lang key="de">Vollende 8 Handelsrouten indem du Alkohol oder Medizin benutzt</lang>
+		<lang key="en">Complete 8 trade routes using Alcohol or Medicine</lang>
+		<lang key="fr">Complétez 10 routes commerciales en utilisant l'alcool ou des médicaments.</lang>
+		<lang key="hr">Završi 8 trgovačkih ruta sa Alkoholom ili Lijekovima</lang>
+		<lang key="pt">Completar 8 rotas comerciais de Álcool ou Medicamentos</lang>
+		<lang key="se">Genomför 8 handelsrutter med Alkohol eller Medicin</lang>
+	</entry>
+
+	<entry key="CompleteForLevel1TradeRoutes">
+		<lang key="de">Vollende 4 Handelsrouten mit "Werkzeuge und Vorräte"</lang>
+		<lang key="en">Complete 4 trade routes using Tools or Supplies</lang>
+		<lang key="es">Completar cuatro rutas comerciales de Herramientas o Mantenimiento</lang>
+		<lang key="fr">Terminer 4 routes commerciales en utilisant outils ou provisions.</lang>
+		<lang key="hr">Završi 4 trgovačke rute sa Alatima ili Zalihama</lang>
+		<lang key="pt">Completar 4 rotas comerciais de Ferramentas ou Mantimentos</lang>
+		<lang key="se">Genomför 4 handelsrutter med Verktyg eller Förnödenheter</lang>
+	</entry>
+
+	<entry key="CreateBounty">
+		<lang key="de">Spieler jagen</lang>
+		<lang key="en">Create Bounty</lang>
+		<lang key="es">Cazar Jugador</lang>
+		<lang key="fr">Créer la prime</lang>
+		<lang key="hr">Ucjeni Glavu</lang>
+		<lang key="pt">Caçar Jogador</lang>
+		<lang key="se">Utfäst Belöning</lang>
+	</entry>
+
+	<entry key="CreateBountyInfo">
+		<lang key="de">
+      <p>Die Königliche Akademie der Kopfgeldjäger akzeptiert und verwaltet die benutzerdefinierten Kopfgeldprämien auf die beliebigen Spieler. Du kannst eine Kopfgeldprämie auf ein definiertes Ziel setzen, und um das erfolgreich zu tun, musst du die entsprechende Belohnung definieren. Die Akademie behaltet {0}%
+  Kommission für sich selbst.</p>
+  <p>
+  Einmal gesetzt, wird die Prämie allen Spielern zur Verfügung stehen, die dann Schlachten mit deinem definierten Ziel anfangen müssen.
+  Wenn die genommenen Punkte den Limit erreichen, ist die Kopfgeldjagd beendet, und die Orions- Belohnung wird zwischen alle involvierten Spieler aufgeteilt.  
+  </p><p><span class="red">Sobald du die Prämie setzt, wird von deinem Konto, die Menge an Orions abgebucht, die du als Belohnung gesetzt hast!</span></p></lang>
+		<lang key="en"><p>The Royal Academy of Bounty Hunters accepts  and manages custom bounties on arbitrary players. You may create
+  a bounty on a defined target, and to do that you'll have to define the reward. The Academy will keep a {0}%
+  commission to itself.
+  </p><p>
+  Once created, the bounty will be available to all players, that will have to start battles with your target.
+  Once the taken points reach your defined limit, the bounty will finish and the orions reward will be split
+  between all involved.
+  </p><p><span class="red">Note that as soon as you create the bounty, you'll be charged by the selected orions reward!</span></p></lang>
+		<lang key="es"><p>La Real Académia  de Cazadores de Premio s acepta y administra Premio s a quién caza jugadores. Tu puedes crear un Premio
+  para un determinado blanco, y para hacerlo tienes que definir la recompensa. La Académia retendrá {0}% de comisión.
+  </p><p>
+  Cuando el premio esté creado  estará disponíble a todos los jugadores, que tendran que comenzar batallas con
+  el blanco. En la medida que los puntos robados alcancen eç limite, el Premio acaba y la recompensa es distribuída por todos
+  los que estuvieron envueltos.
+  </p><p><span class="red">
+    Nota que en la medida que crees la Premio s de Cabeza , serán descontadas de tu cuenta la cantidad de
+    Orions que seleccionaste como recompensa!
+  </span></p></lang>
+		<lang key="fr"><p>L'académie royale des chasseurs de primes accepte et gère les mises à prix personnels des joueurs. Vous pouvez créer une prime de chasse sur un joueur en particulier, et définir l récompense donné. L'académie conserve un % de  {0}.
+      </p><p>
+Une fois créee, la prime de chasse sera disponible pour tout les joueurs, et ils commenceront à attaquer votre cible. Lorsque la limite de points sur votre cible à été atteinte, la prime est termin. et la récompense sera divisé entre ceux qui ont contribués.
+  </p><p><span class="red">Notez que dès que vous créer le mise à prix, vous serez chargé du nombre d'orions sélectionnée!!</span></p></lang>
+		<lang key="hr"><p>Kraljevka Akademija Lovaca na Glave prihvaća i upravalja ucjenama na igrače. Možete napraviti ucjenu na definiranu metu, i da to napravite trebate definirati nagradu. Akademija će zadržati {0}%
+  provizije za sebe.
+  </p><p>
+  Kade se ucjena odredi, biti će dostupna svim igračima koji će morati započinajti bitke sa tvojom metom. Jednom kada bodovi štete dosegnu definirani limit, ucjena će završiti i orioni će biti podijeljni izmežu sviju uključenih.
+  </p><p><span class="red">Primjetite kako čim napravite ucjenu, orioni za nju se odmah naplaćuju! </span></p></lang>
+		<lang key="pt"><p>A Academia Real de Caçadores de Prémios aceita e gere prémios a quem caça jogadores. Tu podes criar um prémio
+  para um determinado alvo, e para o fazer tens de definir a recompensa. A Academia irá reter {0}% de comissão.
+  </p><p>
+  Assim que esteja criado, o prémio estará disponível a todos os jogadores, que terão de começar batalhas com
+  o alvo. Assim que os pontos roubados atinjam o limite, o prémio acaba e a recompensa é distribuída por todos
+  os envolvidos.
+  </p><p><span class="red">
+    Nota que assim que criares a Cabeça a Prémio, será descontada da tua contaa quantidade de
+    Orions que seleccionaste como recompensa!
+  </span></p></lang>
+		<lang key="se"><p>Den Kungliga Akademien av Prisjägare accepterar och hanterar skräddarsydda skottpengar på valfria spelare. Du kan erbjuda skottpengar på ett definierat mål och för att göra det behöver du ange dess belöning. Akademien kommer att behålla {0}% i kommission.
+  </p><p>
+När skottpengarna väl är erjbudna kommer belöningen att vara tillgänglig för alla spelare som kommer att behöva starta fältslag mot ditt mål.
+När de tagna poängen når den gräns du har angett, kommer erbjudandt att tas bort och de Orions som är belöningen kommer att delas upp nellan de inblandade.
+  </p><p><span class="red">Notera att så snart du har ebjudit skottpengarna kommer du att debiteras den angivna belöningen.</span></p></lang>
+	</entry>  
+
+	<entry key="CustomBountyInfo">
+		<lang key="de">Spieler {0} setzt eine Prämie von <b>{1} Orions</b> auf den Kopf von {2}!</lang>
+		<lang key="en">Player {0} ordered a bounty of <b>{1} Orions</b> on the head of {2}!</lang>
+		<lang key="es">El jugador {0} coloco la cabeza del jugador {1} en Premio , por el valor de <b>{1} Orions</b>!</lang>
+		<lang key="fr">Le joueur {0} à mis le tête à prix de {2} pour <b>{1} Orions</b>!</lang>
+		<lang key="hr">Igrač {0} ucjenio je <b>{1} Orions</b>  glavu {2}!</lang>
+		<lang key="pt">O jogador {0} colocou a cabeça do jogador {2} a prémio, no valor de <b>{1} Orions</b>!</lang>
+		<lang key="se">Spelare {0} utfäste en belöning på <b>{1} Orions</b> för huvudet av {2}!</lang>
+	</entry>
+
+	<entry key="CustomBountyObjective">
+		<lang key="de">Ziel: <b>{0}</b> Punkte</lang>
+		<lang key="en">Objective: <b>{0}</b> points</lang>
+		<lang key="es">Objetivo: <b>{0}</b> puntos</lang>
+		<lang key="fr">Objectif: <b>{0}</b> points</lang>
+		<lang key="hr">Cilj:  <b>{0}</b> bodova</lang>
+		<lang key="pt">Objectivo: <b>{0}</b> pontos</lang>
+		<lang key="se">Mål: <b>{0}</b> poäng</lang>
+	</entry>
+
+	<entry key="Deliver">
+		<lang key="de">Liefern</lang>
+		<lang key="en">Deliver</lang>
+		<lang key="es">Entregar</lang>
+		<lang key="fr">Livrer</lang>
+		<lang key="hr">Dostavi</lang>
+		<lang key="pt">Entregar</lang>
+		<lang key="se">Leverera</lang>
+	</entry>
+
+	<entry key="DeliverQuest">
+		<lang key="de">Mission beenden</lang>
+		<lang key="en">Deliver Quest</lang>
+		<lang key="es">Completar Misión</lang>
+		<lang key="fr">Terminer la quête</lang>
+		<lang key="hr">Dostavi Misiju</lang>
+		<lang key="pt">Completar Missão</lang>
+		<lang key="se">Leverera Uppdrag</lang>
+	</entry>
+
+	<entry key="DestroyCaptainWolf">
+		<lang key="de">Zerstöre Kapitän Wolf</lang>
+		<lang key="en">Destroy Captain Wolf</lang>
+		<lang key="pt">Destrói o Capitão Wolf</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="DestroyCommanderFox">
+		<lang key="de">Zerstöre Kommander Fox</lang>
+		<lang key="en">Destroy Commander Fox</lang>
+		<lang key="pt">Destrói o Comandante Fox</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="DestroyMetallicBeard">
+		<lang key="de">Zerstöre Metallischer Bart</lang>
+		<lang key="en">Destroy Metallic Beard</lang>
+		<lang key="hr">Ovo je najvažnija misija koju sam ti dao do danas. Moraš pretražiti nivoe 9 i 10 i završiti prijetnju Metalne Brade. Donesi njegovu glavu na bilo koju Akademiju nivoa 10.</lang>
+		<lang key="pt">Destrói Metallic Beard</lang>
+		<lang key="se">Det här är det viktigaste uppdraget jag har gett dig hitintills. Du måste söka igenom nivå 9 och 10 och sätta stop för Metallskäggs skräckvälde. Ta med hans huvud till en Akademi i nivå 10.</lang>
+	</entry>
+
+	<entry key="DestroySilverBeard">
+		<lang key="de">Zerstöre Silber Bart</lang>
+		<lang key="en">Destroy Silver Beard</lang>
+		<lang key="hr">Locirali smo nemilosrdnu desnu ruku Metalne Brade. Zove se Srebrena Brada. Izvještaji ga lociraju u zonu nivo 7 ali katkada odluta do zona nivo 9 i 10. Nađi ga i donesi njegovu glavu na bilo koju Akademiju nivoa 7.</lang>
+		<lang key="pt">Destrói Silver Beard</lang>
+		<lang key="se">Vi har lokaliserat Metallskäggs hänsynslösa högra hand. Han kallar sig själv Silverskägg. Rapporter anger att han befinner sig i nivå 7 men ibland vandrar han även i nivåerna 9 och 10. Hitta honom och ta med hans Huvud till en valfri Akademi i nivå 7.</lang>
+	</entry>
+
+	<entry key="FindOneMarketQuest">
+		<lang key="de">Finde einen Markt in der öffentlichen Zone</lang>
+		<lang key="en">Find one market on the public zone</lang>
+		<lang key="es">Encontrar un mercado en la zona pública</lang>
+		<lang key="fr">Trouvez un macrhé sur la zone publique</lang>
+		<lang key="hr">Nađi jedan market u javnoj zoni</lang>
+		<lang key="pt">Encontrar um mercado na zona pública</lang>
+		<lang key="se">Hitta en marknad i den heta zonen</lang>
+	</entry>
+
+	<entry key="FindPrivateWormHoleQuest">
+		<lang key="de">Finde ein Wurmloch in deiner Privat-Zone und benutze es um in die öffentliche Zone zu reisen</lang>
+		<lang key="en">Find a Worm Hole on your private zone and use it to travel to the hot zone</lang>
+		<lang key="es">Encuentra el Túnel Espacial de tu zona privada y usalo para viajar hacia la zona pública</lang>
+		<lang key="fr">Trouvez un trou stellaire sur votre zone privée en direction "zone publique"</lang>
+		<lang key="hr">Pronađi crvotočinu u svojoj privatnoj zoni i upotrijebi je da putuješ u hot zonu</lang>
+		<lang key="pt">Encontra o Túnel Espacial da tua zona privada e usa-o para viajar para a zona pública</lang>
+		<lang key="se">Hitta ett Maskhål i din privata zon och använd det för att resa till den heta zonen</lang>
+	</entry>
+
+	<entry key="FinishABattleQuest">
+		<lang key="de">Beende eine Schlacht in der öffentlichen Zone</lang>
+		<lang key="en">Finish a battle on the hot zone</lang>
+		<lang key="es">Hacer una batalha en la zona pública</lang>
+		<lang key="fr">Terminer une bataille sur la zone publique</lang>
+		<lang key="hr">Završi bitku u hot zoni</lang>
+		<lang key="pt">Fazer uma batalha na zona pública</lang>
+		<lang key="se">Avsluta ett fältslag i heta zonen</lang>
+	</entry>
+
+	<entry key="FirstTradeRouteQuest">
+		<lang key="de">Vollende eine Handelsroute</lang>
+		<lang key="en">Complete a trade route</lang>
+		<lang key="es">Completar una ruta comercial</lang>
+		<lang key="fr">Compléter une route commerciale</lang>
+		<lang key="hr">Završi trgovačku rutu</lang>
+		<lang key="pt">Completar uma rota comercial</lang>
+		<lang key="se">Genomför en handelsrutt</lang>
+	</entry>
+
+	<entry key="GetAllPrivateZoneResources">
+		<lang key="de">Fange all die Ressourcen in deiner Privat-Zone ein</lang>
+		<lang key="en">Catch all the resources in your private zone</lang>
+		<lang key="es">Tomar todos los recursos que tienes en la zona privada</lang>
+		<lang key="fr">Attraper toutes les ressources sur votre zone privée</lang>
+		<lang key="hr">Uhvati sve resurse unutar tvoje privatne zone</lang>
+		<lang key="pt">Apanhar todos os recursos que tens na zona privada</lang>
+		<lang key="se">Samla in alla resurser i din privata zon</lang>
+	</entry>
+
+	<entry key="Gladiator">
+		<lang key="de">Gladiator</lang>
+		<lang key="en">Gladiator</lang>
+		<lang key="es">Gladiador</lang>
+		<lang key="fr">Gladiateur</lang>
+		<lang key="hr">Gladijator</lang>
+		<lang key="pt">Gladiador</lang>
+		<lang key="se">Gladiator</lang>
+	</entry>
+
+	<entry key="Merchant">
+		<lang key="de">Händler</lang>
+		<lang key="en">Merchant</lang>
+		<lang key="es">Comerciante</lang>
+		<lang key="fr">Marchand</lang>
+		<lang key="hr">Trgovac</lang>
+		<lang key="pt">Comerciante</lang>
+		<lang key="se">Köpman</lang>
+	</entry>
+
+	<entry key="More">
+		<lang key="de">Mehr</lang>
+		<lang key="en">More</lang>
+		<lang key="es">Mas</lang>
+		<lang key="fr">Plus</lang>
+		<lang key="hr">Još</lang>
+		<lang key="pt">More</lang>
+		<lang key="se">Mer</lang>
+	</entry>
+
+	<entry key="OrionsToGive">
+		<lang key="de">Orions-Belohnung</lang>
+		<lang key="en">Orions Reward</lang>
+		<lang key="es">Recompensa en Orions</lang>
+		<lang key="fr">Récompense D'Orions</lang>
+		<lang key="hr">Nagrada Oriona</lang>
+		<lang key="pt">Recompensa em Orions</lang>
+		<lang key="se">Belöning i Orions</lang>
+	</entry>
+
+	<entry key="OwnExtractorLevel1">
+		<lang key="de">Besitze einen Extraktor Level 1 auf einem Planeten der öffentlichen Zone</lang>
+		<lang key="en">Own an Extractor level 1 on a hot zone planet</lang>
+		<lang key="es">Poseer un Extractor nível 1 en un planeta de la zona pública</lang>
+		<lang key="fr">Possédez un extracteur niveau 1 sur une planète publique</lang>
+		<lang key="hr">Posjeduj ekstraktor nivoa 1 na planetu hot zone</lang>
+		<lang key="pt">Possuir um Extractor nível 1 num planeta da zona pública</lang>
+		<lang key="se">Äg en Extraktor nivå 1 på en planet i den heta zonen</lang>
+	</entry>
+
+	<entry key="OwnExtractorLevel3">
+		<lang key="de">Besitze ein Level 3 Extraktor auf einem Planeten der öffentlichen Zone</lang>
+		<lang key="en">Own an Extractor level 3 on a hot zone planet</lang>
+		<lang key="es">Poseer un Extractor nivel 3 en un planeta de la zona pública</lang>
+		<lang key="fr">Possédez un extracteur niveau 3 sur une planète publique</lang>
+		<lang key="hr">Posjeduj ekstraktor nivoa 3 na planetu u hot zoni</lang>
+		<lang key="pt">Possuir um Extractor nível 3 num planeta da zona pública</lang>
+		<lang key="se">Äg en Extraktor i nivå 3 på en planet i den heta zonen</lang>
+	</entry>
+
+	<entry key="OwnExtractorLevel5">
+		<lang key="de">Besitze ein Extraktor Level 5 auf einem Planeten der öffentlichen Zone</lang>
+		<lang key="en">Own an Extractor level 5 on a hot zone planet</lang>
+		<lang key="es">Poseer un Extractor nivel 5 en un planeta de la zona pública</lang>
+		<lang key="fr">Possédez un extracteur niveau 5 sur une planète publiques</lang>
+		<lang key="hr">Posjeduj ekstraktor nivo 5 na planetu hot zone</lang>
+		<lang key="pt">Possuir um Extractor nível 5 num planeta da zona pública</lang>
+		<lang key="se">Äg en Extraktor nivå 5 på en planet i den heta zonen</lang>
+	</entry>
+
+	<entry key="Owns10ArenaBugQuest">
+		<lang key="de">Werde zum Champion von 10 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 10 arenas ao mesmo tempo</lang>
+		<lang key="pt">Torna-te campeão de 10 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns10ArenaDarkQuest">
+		<lang key="de">Werde zum Champion von 10 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 10 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 10 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns10ArenaQuest">
+		<lang key="de">Werde zum Champion von 10 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 10 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 10 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns11ArenaQuest">
+		<lang key="de">Werde zum Champion von 11 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 11 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 11 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns12ArenaQuest">
+		<lang key="de">Werde zum Champion von 12 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 12 arenas ao mesmo tempo</lang>
+		<lang key="pt">Torna-te campeão de 12 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns13ArenaQuest">
+		<lang key="de">Werde zum Champion von 13 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 13 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 13 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns14ArenaQuest">
+		<lang key="de">Werde zum Champion von 14 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 14 arenas ao mesmo tempo</lang>
+		<lang key="pt">Torna-te campeão de 14 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns15ArenaBugQuest">
+		<lang key="de">Werde zum Champion von 15 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 15 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 15 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns15ArenaDarkQuest">
+		<lang key="de">Werde zum Champion von 15 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 15 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 15 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns15ArenaQuest">
+		<lang key="de">werde zum Champion von 15 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 15 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 15 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns16ArenaQuest">
+		<lang key="de">Werde zum Champion von 16 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 16 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 16 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns17ArenaQuest">
+		<lang key="de">Werde zum Champion von 17 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 17 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 17 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns18ArenaQuest">
+		<lang key="de">Werde zum Champion von 18 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 18 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 18 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns19ArenaQuest">
+		<lang key="de">Werde zum Champion von 19 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 19 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 19 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns1ArenaQuest">
+		<lang key="de">Werde zum Champion von 1 Arena</lang>
+		<lang key="en">Become champion of 1 arena</lang>
+		<lang key="pt">Torna-te campeão de 1 arena</lang>
+	</entry>
+
+	<entry key="Owns20ArenaBugQuest">
+		<lang key="de">Werde zum Champion von 20 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 20 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 20 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns20ArenaDarkQuest">
+		<lang key="de">Werde champion von 20 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 20 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 20 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns20ArenaQuest">
+		<lang key="de">Werde zum Champion von 20 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 20 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 20 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns21ArenaQuest">
+		<lang key="de">Werde zum Champion von 21 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 21 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 21 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns22ArenaQuest">
+		<lang key="de">Werde zum Champion von 22 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 22 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 22 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns23ArenaQuest">
+		<lang key="de">Werde zum Champion von 23 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 23 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 23 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns24ArenaQuest">
+		<lang key="de">Werde zum Champion von 24 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 24 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 24 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns25ArenaQuest">
+		<lang key="de">Werde zum Champion von 25 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 25 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 25 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns2ArenaQuest">
+		<lang key="de">Werde zum Champion von 2 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 2 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 2 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns3ArenaQuest">
+		<lang key="de">Werde zum Champion von 3 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 3 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 3 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns4ArenaQuest">
+		<lang key="de">Werde zum Champion von 4 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 4 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 4 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns5ArenaBugQuest">
+		<lang key="de">Werde zum Champion von 5 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 5 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 5 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns5ArenaDarkQuest">
+		<lang key="de">Werde zum Champion von 5 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 5 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 5 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns5ArenaQuest">
+		<lang key="de">Werde zum Champion von 5 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 5 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 5 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns6ArenaQuest">
+		<lang key="de">Werde zum Champion von 6 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 6 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 6 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns7ArenaQuest">
+		<lang key="de">Werde zum Champion von 7 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 7 arenas ao mesmo tempo</lang>
+		<lang key="pt">Torna-te campeão de 7 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns8ArenaQuest">
+		<lang key="de">Werde zum Champion von 8 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 8 arenas at the same time</lang>
+		<lang key="pt">Torna-te campeão de 8 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Owns9ArenaQuest">
+		<lang key="de">Werde Champion von 9 Arenen zur gleichen Zeit</lang>
+		<lang key="en">Become champion of 9 arenas ao mesmo tempo</lang>
+		<lang key="pt">Torna-te campeão de 9 arenas ao mesmo tempo</lang>
+	</entry>
+
+	<entry key="Pirate">
+		<lang key="de">Pirat</lang>
+		<lang key="en">Pirate</lang>
+		<lang key="es">Pirata</lang>
+		<lang key="fr">Pirate</lang>
+		<lang key="hr">Pirat</lang>
+		<lang key="pt">Pirata</lang>
+		<lang key="se">Pirat</lang>
+	</entry>
+
+	<entry key="PlanetManagement">
+		<lang key="de">Planeten Management</lang>
+		<lang key="en">Planet Management</lang>
+		<lang key="es">Gestión de Planetas</lang>
+		<lang key="fr">Gérer les planètes</lang>
+		<lang key="hr">Upravljanje Planetom</lang>
+		<lang key="pt">Gestão de Planetas</lang>
+		<lang key="se">Planethantering</lang>
+	</entry>
+
+	<entry key="PlayerBounty">
+		<lang key="de">Spieler jagen</lang>
+		<lang key="en">Player Bounty Hunt</lang>
+		<lang key="es">Cazar Jugador</lang>
+		<lang key="fr">Tête mise à prix par des joueurs</lang>
+		<lang key="hr">Igrač Lovac na Glave</lang>
+		<lang key="pt">Caçar Jogador</lang>
+		<lang key="se">Jaga Spelare</lang>
+	</entry>
+
+	<entry key="PlayerBountyCompleted">
+		<lang key="de"><h2>Mission beendet!</h2><p>Diese Mission wurde bereits beendet.</p></lang>
+		<lang key="en"><h2>Quest Finished!</h2><p>This quest is already finished.</p></lang>
+		<lang key="fr"><h2>Quête terminé!</h2><p>Cette quête est déjà terminé.</p></lang>
+		<lang key="hr"><h2>Misija Završena!</h2><p>Ova misija je već završena.</p></lang>
+		<lang key="pt"><h2>Missão Completada!</h2><p>Esta missão já foi completada.</p></lang>
+		<lang key="se"><h2>Uppdrag Slutfört!</h2><p>Det här uppdraget är redan avklarat.</p></lang>
+	</entry>
+
+	<entry key="PlayerBountyCompleting">
+		<lang key="de"><h2>Mission wird bearbeitet!</h2><p>Die Königliche Akademie macht gerade die Papierarbeit, und alle Jäger werden in einer Stunde oder so, ihren Anteil erhalten.</p></lang>
+		<lang key="en"><h2>Quest is Being Delivered!</h2><p>The Royal Academy is doing the paper work, hunters will receive their share of the bounty in an hour or so.</p></lang>
+		<lang key="fr"><h2>La quêtes est pratiquement close</h2><p>L'académie royale termine de remplir les papiers, et les chasseurs recevront leur part de leur récompense dans environ une heure.</p></lang>
+		<lang key="hr"><h2>Misija je Dostavljena!</h2><p>Kraljevska Akademija radi papirologiju, lovci će primiti njihov dio ucjene kroz jedan sat.</p></lang>
+		<lang key="pt"><h2>A missão está a ser processada!</h2><p>A Academia Real está a tratar da papelada.Os caçadores receberão os prémios dentro de uma hora ou menos.</p></lang>
+		<lang key="se"><h2>Uppdraget levereras!</h2><p>Den Kungliga Akademien utför pappersarbetet, jägarna får sin del av bytet inom en timme eller så.</p></lang>
+	</entry>
+
+	<entry key="PMQuest">
+		<lang key="de">Planeten-Management</lang>
+		<lang key="en">Planet Management</lang>
+		<lang key="es">Gestión de Planetas</lang>
+		<lang key="fr">Gérer les planètes</lang>
+		<lang key="hr">Upravljanje Planetom</lang>
+		<lang key="pt">Gestão de Planetas</lang>
+		<lang key="se">Planethantering</lang>
+	</entry>
+
+	<entry key="PMQuestAux">
+		<lang key="de">Planeten-Management</lang>
+		<lang key="en">Planet Management</lang>
+		<lang key="es">Gestión de Planetas</lang>
+		<lang key="fr">Gérer les planètes</lang>
+		<lang key="hr">Upravljanje Planetom</lang>
+		<lang key="pt">Gestão de Planetas</lang>
+		<lang key="se">Planethantering</lang>
+	</entry>
+
+	<entry key="PointsToTake">
+		<lang key="de">Wieviele Punkte von dem Ziel nehmen</lang>
+		<lang key="en">How much points to take from target</lang>
+		<lang key="es">Cuantos puntos retirar del blanco</lang>
+		<lang key="fr">Combien de points à prendre sur la cible?</lang>
+		<lang key="hr">Koliko bodova uzeti od mete</lang>
+		<lang key="pt">Quantos pontos retirar do alvo</lang>
+		<lang key="se">Hur många poäng tas från målet?</lang>
+	</entry>
+
+	<entry key="ProfessionReceived">
+		<lang key="de">Berufspunkte</lang>
+		<lang key="en">Profession Points</lang>
+		<lang key="fr">Points de profession</lang>
+		<lang key="hr">Bodovi Profesije</lang>
+		<lang key="pt">Pontos de Profissão</lang>
+		<lang key="se">Yrkespoäng</lang>
+	</entry>
+
+	<entry key="QuestDependenciesWarning">
+		<lang key="de">Um diese Missionen zur Verfügung zu haben, musst du zuerst beenden : {0}</lang>
+		<lang key="en">To have these quests available, you must first complete: {0}</lang>
+		<lang key="es">Para desbloquear estas missões, es necesario completar primero: {0}</lang>
+		<lang key="fr">Pour avoir ces quêtes disponibles, vous devez compléter d'abord: {0}</lang>
+		<lang key="hr">Da biste imali ove misije dostupne, prvo završite: {0}</lang>
+		<lang key="pt">Para desbloquear estas missões, é preciso completar primeiro: {0}</lang>
+		<lang key="se">För att få tillgång till dessa uppdrag så måste du först genomföra: {0}</lang>
+	</entry>
+
+	<entry key="QuestObjectives">
+		<lang key="de">Missions-Ziel</lang>
+		<lang key="en">Quest Objectives</lang>
+		<lang key="fr">Objectifs de quête</lang>
+		<lang key="hr">Ciljevi Misije</lang>
+		<lang key="pt">Objecto da Missão</lang>
+		<lang key="se">Uppdragets Mål</lang>
+	</entry>
+
+	<entry key="Raid3Planets">
+		<lang key="de">Überfalle 3 Planeten</lang>
+		<lang key="en">Raid 3 planets</lang>
+		<lang key="es">Saquear 3 planetas</lang>
+		<lang key="fr">Piller 3 planètes</lang>
+		<lang key="hr">Opljačkaj 3 planeta</lang>
+		<lang key="pt">Pilhar 3 planetas</lang>
+		<lang key="se">Plundra 3 planeter</lang>
+	</entry>
+
+	<entry key="ReachPlayerLevel10">
+		<lang key="de">Rüste all die Hauptgebäude auf deinen privaten Planeten auf Level 10</lang>
+		<lang key="en">Upgrade all the main facilities on your private planets to level 10</lang>
+		<lang key="es">Evolucionar el edifício principal de todos tus planetas privados para nivel 10</lang>
+		<lang key="fr">Améliorer toutes les constructions principales au niveau 10 sur votre zone privée</lang>
+		<lang key="hr">Unaprijedi sva glavna postrojenja na planetima tvoje privatne zone na nivo 10</lang>
+		<lang key="pt">Evoluir o edifício principal de todos os teus planetas privados para nível 10</lang>
+		<lang key="se">Uppgradera alla huvudfaciliteter på dina privata planeter till nivå 10</lang>
+	</entry>
+
+	<entry key="ReachPlayerLevel3">
+		<lang key="de">Rüste all die Hauptgebäude auf, auf deinen privaten Planeten Level 3</lang>
+		<lang key="en">Upgrade all the main facilities on your private planets to level 3</lang>
+		<lang key="es">Evolucionar el edifício principal de todos tus planetas privados para nivel 3</lang>
+		<lang key="fr">Améliorer toutes les constructions principales au niveau 3 sur votre zone privée</lang>
+		<lang key="hr">Unaprijedi sva glavna postrojenja na planetima tvoje privatne zone na nivo 3</lang>
+		<lang key="pt">Evoluir o edifício principal de todos os teus planetas privados para nível 3</lang>
+		<lang key="se">Uppgradera alla huvudfaciliteter på dina privata planeter till nivå 3</lang>
+	</entry>
+
+	<entry key="ReachPlayerLevel5">
+		<lang key="de">Rüste all deine Hauptgebäude auf, auf deinen privaten Planeten Level 5</lang>
+		<lang key="en">Upgrade all the main facilities on your private planets to level 5</lang>
+		<lang key="es">Evolucionar el edifício principal de todos tus planetas privados para nivel 5</lang>
+		<lang key="fr">Améliorer toutes les constructions principales au niveau 5 sur votre zone privée</lang>
+		<lang key="hr">Unaprijedi sva glavna postrojenja na svojim privatnim planetima na nivo 5</lang>
+		<lang key="pt">Evoluir o edifício principal de todos os teus planetas privados para nível 5</lang>
+		<lang key="se">Uppgradera alla dina huvudfaciliteter på dina privata planeter till nivå 5</lang>
+	</entry>
+
+	<entry key="ReachPlayerLevel7">
+		<lang key="de">Rüste all die Hauptgebäude auf, auf deinen privaten Planeten Level 7</lang>
+		<lang key="en">Upgrade all the main facilities on your private planets to level 7</lang>
+		<lang key="es">Evolucionar el edifício principal de todos tus planetas privados para nivel 7</lang>
+		<lang key="fr">Améliorer toutes les constructions principales au niveau 7 sur votre zone privée</lang>
+		<lang key="hr">Unaprijedi sva glavna postrojenja na svojim privatnim planetima na nivo 7</lang>
+		<lang key="pt">Evoluir o edifício principal de todos os teus planetas privados para nível 7</lang>
+		<lang key="se">Uppgradera alla dina huvudfaciliteter i din privata zon till nivå 7</lang>
+	</entry>
+
+	<entry key="ReachPlayerLevel9">
+		<lang key="de">Rüste all deine Hauptgebäude auf, auf deinen privaten Planeten Level 9</lang>
+		<lang key="en">Upgrade all the main facilities on your private planets to level 9</lang>
+		<lang key="es">Evolucionar el edifício principal de todos tus planetas privados para nivel 9</lang>
+		<lang key="fr">Améliorer toutes les constructions principales au niveau 9 sur votre zone privée</lang>
+		<lang key="hr">Unaprijedi sva glavna postrojenja na svojim privatnim planetima na nivo 9</lang>
+		<lang key="pt">Evoluir o edifício principal de todos os teus planetas privados para nível 9</lang>
+		<lang key="se">Uppgradera alla huvudfaciliteter i din privata zon till nivå 9</lang>
+	</entry>
+
+	<entry key="ResourcesReceived">
+		<lang key="de">Ressourcen</lang>
+		<lang key="en">Resources</lang>
+		<lang key="fr">Ressources</lang>
+		<lang key="hr">Resursi</lang>
+		<lang key="pt">Recursos</lang>
+		<lang key="se">Resurser</lang>
+	</entry>
+
+	<entry key="ScoreReceived">
+		<lang key="de">Spielstand</lang>
+		<lang key="en">Score</lang>
+		<lang key="fr">Points</lang>
+		<lang key="hr">Rezultat</lang>
+		<lang key="pt">Pontuação</lang>
+		<lang key="se">Poäng</lang>
+	</entry>
+
+	<entry key="SpaceForce">
+		<lang key="de">Space Force</lang>
+		<lang key="en">Space Force</lang>
+		<lang key="pt">Space Force</lang>
+		<lang key="se">Space Force</lang>
+	</entry>
+
+	<entry key="SpaceForceIntro">
+		<lang key="de">Space Force Intro</lang>
+		<lang key="en">Space Force Intro</lang>
+		<lang key="pt">Introdução da Space Force</lang>
+		<lang key="se">Introduktion till Space Force</lang>
+	</entry>
+
+	<entry key="Task">
+		<lang key="de">Aufgabe</lang>
+		<lang key="en">Task</lang>
+		<lang key="es">Tarea</lang>
+		<lang key="fr">Tâche</lang>
+		<lang key="hr">Zadatak</lang>
+		<lang key="pt">Tarefa</lang>
+		<lang key="se">Uppgift</lang>
+	</entry>
+
+	<entry key="Trader">
+		<lang key="de">Händler</lang>
+		<lang key="en">Merchant</lang>
+		<lang key="es">Comerciante</lang>
+		<lang key="fr">Marchand</lang>
+		<lang key="hr">Trgovac</lang>
+		<lang key="pt">Comerciante</lang>
+		<lang key="se">Köpman</lang>
+	</entry>
+
+</resources>

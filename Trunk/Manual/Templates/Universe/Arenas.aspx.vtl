@@ -1,0 +1,18 @@
+<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/$locale/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	$utils.Localize("Arenas")
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="conceptMenu" runat="server">
+	$utils.GetUniverseMenu()
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+	
+	<h1>$utils.Localize("Arenas")</h1>
+	<div class="description">
+	$utils.Localize("ArenaManual")
+	</div>
+	
+</asp:Content>

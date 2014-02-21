@@ -1,0 +1,29 @@
+<%@ Master Language="C#" MasterPageFile="~/OrionsBeltUniverse.Master" AutoEventWireup="false" Inherits="OrionsBelt.WebUserInterface.Planets.PlanetsMaster" %>
+<%@ Register TagPrefix="AH" TagName="Advertising" Src="~/Controls/Market/Advertising.ascx" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+	
+	<div id="planetsPanel">
+	    <h2><asp:Literal ID="planetHeader" runat="server" /></h2>
+	    <div id="planetList">
+	        <OrionsBeltUI:PlanetList runat="server" />
+	    </div>
+	    <div id="planetContentMaster">
+	        <div id="planetContent">
+                <asp:ContentPlaceHolder ID="Content" runat="server" />
+            </div>
+            <OrionsBeltUI:PlanetBottomInfoRenderer runat="server" />
+        </div>
+        <div id="planetFleets">
+            <OrionsBeltUI:PlanetSideInfo runat="server" />
+            <h2><OrionsBelt:Label Key="AuctionHouseItems" ID="ahitems" runat="server" /></h2>
+            <ul>
+                <li>
+                    <AH:Advertising ID="Advertising1" ExcludeHeader="true" runat="server" />
+                </li>
+            </ul>
+            <div class="planetListEnd"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</asp:Content>

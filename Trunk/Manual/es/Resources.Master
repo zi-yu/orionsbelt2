@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/Manual.Master" %>
+
+<asp:Content ContentPlaceHolderID="topTitle" runat="server">
+	<asp:ContentPlaceHolder ID="topTitle" runat="server">
+		Manual de Orion's Belt
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	<asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="menu" runat="server">
+	<h2>Menú</h2>
+	<ul>
+        <li><a href="/es/Default.aspx">Inicio</a></li>
+        <li><a href="/es/Race/Races.aspx">Razas</a></li>
+        <li><a href="/es/Universe/Default.aspx">Universo</a></li>
+        <li><a href="/es/Commerce/Default.aspx">Comercio</a></li>
+        <li><a href="/es/Quests.aspx">Misiones</a></li>
+        <li><a href="/es/API.aspx">API and Utilities</a></li>
+    </ul>
+	<h2>Batallas</h2>
+	<ul>
+		<li><a href="/es/Battles/WarZone.aspx">Zona de Batallas</a></li>
+        <li><a href="/es/Battles/BattleConcepts.aspx">Conceptos de Batalla</a></li>
+        <li><a href="/es/Battles/BattleTactics.aspx">Tácticas de Batalla</a></li>
+    </ul>
+	<h2>Recursos</h2>
+	<ul>
+		<li><a href="/es/UnitIndex.aspx">Unidades</a></li>
+		<li><a href="/es/MobsIndex.aspx">Mobs</a></li>
+		<li><a href="/es/FacilityIndex.aspx">Edificios</a></li>
+		<li><a href="/es/IntrinsicIndex.aspx">Intrínsicos</a></li>
+	</ul>
+	<asp:ContentPlaceHolder ID="menu" runat="server">
+		</asp:ContentPlaceHolder>
+	
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<div id="rightMenu">
+		<asp:ContentPlaceHolder ID="conceptMenu" runat="server">
+		</asp:ContentPlaceHolder>
+    </div>
+
+    <asp:ContentPlaceHolder ID="content" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type='text/javascript'>window.unitTips = {Attack:'Ataque',Defense:'Defensa',MovementCost:'Costo de Movimiento',Range:'Alcance',Bozer:{Name:'Bozer'},CommanderFox:{Name:'Commander Fox'},HiveProtector:{Name:'Protector de la Colmena'},Doomer:{Name:'Aniquiladora'},Cypher:{Name:'Cypher'},Stinger:{Name:'Aguijón'},CaptainWolf:{Name:'CaptainWolf'},Destroyer:{Name:'Destructor'},Myst:{Name:'Myst'},Scarab:{Name:'Escarabajo'},Toxic:{Name:'Toxico'},Fist:{Name:'Fist'},Flag:{Name:'Bandera'},DarkTaurus:{Name:'Toro Oscuro'},Egg:{Name:'Huevo'},Jumper:{Name:'Jumper'},BattleMoon:{Name:'Luna de Batalla'},MetallicBeard:{Name:'Barba de Metal'},DarkCrusader:{Name:'Cruzador Sombrio'},Scourge:{Name:'Flagelo'},Crawler:{Name:'Crawler'},Rain:{Name:'Lluvia'},Samurai:{Name:'Samurai'},Panther:{Name:'Pantera'},Queen:{Name:'Reina'},DarkRain:{Name:'Lluvia Sombría'},Worm:{Name:'Gusano'},Taurus:{Name:'Toro'},Kamikaze:{Name:'Suicida'},Pretorian:{Name:'Pretoriana'},Seeker:{Name:'Buscador'},Nova:{Name:'Nova'},Maggot:{Name:'Larva'},BlackWidow:{Name:'Viuda Negra'},Crusader:{Name:'Cruzador'},Anubis:{Name:'Anubis'},HiveKing:{Name:'Rey de la Colmena'},Kahuna:{Name:'Kahuna'},Driller:{Name:'Perforador'},Eagle:{Name:'Aguila'},Blinker:{Name:'Parpadeante'},Sentry:{Name:'Sentry'},Vector:{Name:'Vector'},Walker:{Name:'Walker'},Titan:{Name:'Titan'},SilverBeard:{Name:'Silver Beard'},Fenix:{Name:'Fénix'},Interceptor:{Name:'Interceptador'},Reaper:{Name:'Reaper'},Raptor:{Name:'Raptor'},Spider:{Name:'Araña'},Krill:{Name:'Krill'},HeavySeeker:{Name:'Mega Buscador'}};</script>
+
+	<script type="text/javascript">var disqus_iframe_css = "http://manual.orionsbelt.eu/Style/Style.css";</script>
+	<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/orionsbeltmanual/embed.js"></script><noscript><a href="http://orionsbeltmanual.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	<script type="text/javascript">
+	//<![CDATA[
+	(function() {
+			var links = document.getElementsByTagName('a');
+			var query = '?';
+			for(var i = 0; i < links.length; i++) {
+				if(links[i].href.indexOf('#disqus_thread') >= 0) {
+					query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+				}
+			}
+			document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/orionsbeltmanual/get_num_replies.js' + query + '">'+'<'+'/' + 'script>');
+		})();
+	//]]>
+	</script>
+
+
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="footer" runat="server">
+	Por favor ayudanos a mejorar el manual! Si detectas un error o quieres contribuir con mas información
+  por favor contratanos a través de: <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a>
+</asp:Content>

@@ -1,0 +1,277 @@
+<project name="OrionsBelt" outputPath="." author="ZI-YU.com" >
+	<loader>
+		<plugin name="Loader.Xmi" />
+	</loader>
+	<codeGenerator>
+		<plugin name="Odin.GenerateBase" />
+		<plugin name="NHibernate.PersistanceClasses" />
+		<plugin name="DAL.BasePersistance" />
+		<plugin name="DAL.MemoryPersistance" />
+		<plugin name="DAL.Formatters" />
+    <plugin name="NHibernate.ModelSchema">
+      <param name="Schema" value="orionsbelt" />
+      <param name="IdGenerator" value="hilo" />
+    </plugin>
+		<plugin name="NHibernate.GenerateConfig">
+			<param name="ConnectionString" value="Server=localhost;User ID=midgard;Password=spoon;Database=orionsbelt" />
+			<param name="Database" value="MySQL" />
+		</plugin>
+		<plugin name="Odin.CopyBaseFiles" />
+		<plugin name="Odin.GenerateConfigApp" />
+    <plugin name="Odin.Metrics" />
+		<plugin name="Odin.Exceptions" />
+		<plugin name="Web.ExceptionLogger" />
+		<plugin name="Web.Authentication" />
+		<plugin name="Web.OAuth" />
+		<plugin name="Web.Facebook" />
+		<plugin name="Web.Admin" />
+		<plugin name="Web.Controls" />
+		<plugin name="Web.Providers" />
+		<plugin name="Web.Default" />
+		<plugin name="Web.WebConfig" />
+		<plugin name="Web.StateClass" />
+		<plugin name="Web.GlobalAsax" />
+		<plugin name="Web.HttpCompression" />
+    <plugin name="Web.I18N.Independent">
+      <param name="SupportedLanguages" value="en,pt,es,hr,fr,de" />
+    </plugin>
+	</codeGenerator>
+	<buildGenerator>
+		<plugin name="Odin.MSBuild2010" />
+		<plugin name="Odin.Nant" />
+	</buildGenerator>
+	<entities>
+    <entity name="Principal">
+      <field name="avatar" isPreview="false" represents="false" >
+        <maxsize value="1000" />
+      </field>
+      <field name="webSite" isPreview="false" represents="false" >
+        <maxsize value="1000" />
+      </field>
+	  <field name="botUrl" isPreview="false" represents="false" >
+        <maxsize value="5000" />
+      </field>
+    </entity>
+	<entity name="CampaignLevel">
+      <field name="playerFleet" isPreview="false" represents="false" >
+        <maxsize value="1000" />
+      </field>
+      <field name="botFleet" isPreview="false" represents="false" >
+        <maxsize value="1000" />
+      </field>
+    </entity>
+    <entity name="PlayerStorage">
+      <field name="id" isPreview="true" represents="false" />
+      <field name="name" isPreview="true" represents="true" >
+        <maxsize value="200" />
+      </field>
+      <field name="services" isPreview="false" represents="false" >
+        <maxsize value="2000" />
+      </field>
+      <field name="avatar" isPreview="false" represents="false" >
+        <maxsize value="1000" />
+      </field>
+      <field name="questContextLevel" isPreview="false" represents="false" >
+        <maxsize value="2000" />
+      </field>
+      <field name="score" isPreview="true" represents="false" />
+      <field name="intrinsicLimits" isPreview="false" represents="false" >
+        <maxsize value="2048" />
+      </field>
+      <field name="intrinsicQuantities" isPreview="false" represents="false" >
+        <maxsize value="2048" />
+      </field>
+    </entity>
+    <entity name="AllianceStorage">
+      <field name="id" isPreview="true" represents="false" />
+      <field name="name" isPreview="true" represents="true" >
+        <maxsize value="200" />
+      </field>
+    </entity>
+		<entity name="PlanetStorage">
+      <field name="id" isPreview="true" represents="false" />
+      <field name="name" isPreview="true" represents="true" >
+        <maxsize value="200" />
+      </field>
+      <field name="productionFactor" isPreview="true" represents="false" />
+      <field name="info" isPreview="true" represents="true" >
+        <maxsize value="200" />
+      </field>
+      <field name="modifiers" isPreview="false" represents="false" >
+        <maxsize value="2000" />
+      </field>
+			<field name="facilities" isPreview="false" represents="false" >
+				<maxsize value="4000" />
+			</field>
+			<field name="intrinsic" isPreview="false" represents="false" >
+				<maxsize value="4000" />
+			</field>
+			<field name="units" isPreview="false" represents="false" >
+				<maxsize value="4000" />
+			</field>
+		</entity>
+    <entity name="PlanetResourceStorage">
+      <field name="id" isPreview="true" represents="false" />
+      <field name="type" isPreview="true" represents="true" >
+        <maxsize value="200" />
+      </field>
+      <field name="quantity" isPreview="true" represents="false" />
+      <field name="level" isPreview="true" represents="false" />
+    </entity>
+    <entity name="SectorStorage">
+      <field name="id" isPreview="true" represents="false" />
+      <field name="type" isPreview="true" represents="true" >
+        <maxsize value="200" />
+      </field>
+      <field name="systemX" isPreview="true" represents="false" />
+      <field name="systemY" isPreview="true" represents="false" />
+      <field name="sectorX" isPreview="true" represents="false" />
+      <field name="sectorY" isPreview="true" represents="false" />
+      <field name="additionalInformation" >
+        <maxsize value="1000" />
+      </field>
+      <field name="subType" >
+        <maxsize value="1000" />
+      </field>
+    </entity>
+    <entity name="Fleet">
+      <field name="id" isPreview="true" represents="false" />
+      <field name="name" isPreview="true" represents="true" >
+        <maxsize value="200" />
+      </field>
+      <field name="units" isPreview="true" represents="true" >
+        <maxsize value="500" />
+      </field>
+      <field name="isInBattle" isPreview="true" represents="false" />
+      <field name="isMovable" isPreview="true" represents="false" />
+			<field name="cargo" isPreview="false" represents="false" >
+				<maxsize value="500" />
+			</field>
+			<field name="wayPoint" isPreview="false" represents="false" >
+				<maxsize value="500" />
+			</field>
+    </entity>
+    <entity name="UniverseSpecialSector">
+      <field name="id" isPreview="true" represents="false" />
+      <field name="systemX" isPreview="true" represents="false" />
+      <field name="systemY" isPreview="true" represents="false" />
+      <field name="sectorX" isPreview="true" represents="false" />
+      <field name="sectorY" isPreview="true" represents="false" />
+    </entity>
+    <entity name="QuestStorage">
+      <field name="id" isPreview="true" represents="false" />
+      <field name="type" isPreview="true" represents="true" >
+        <maxsize value="200" />
+      </field>
+      <field name="name" isPreview="true" represents="false" >
+        <maxsize value="200" />
+      </field>
+      <field name="percentage" isPreview="true" represents="false" />
+      <field name="isCompleted" isPreview="true" represents="false" />
+    </entity>
+    <entity name="BidHistorical">
+      <field name="id" isPreview="true" represents="false" />
+      <field name="value" isPreview="true" represents="false" />
+    </entity>
+    <entity name="AuctionHouse">
+      <field name="id" isPreview="true" represents="false" />
+      <field name="details" isPreview="true" represents="true" >
+        <maxsize value="200" />
+      </field>
+      <field name="currentBid" isPreview="true" represents="false" />
+      <field name="buyedInTick" isPreview="true" represents="false" />
+    </entity>
+    <entity name="TeamStorage">
+      <field name="name" isPreview="true" represents="true" >
+        <maxsize value="450" />
+      </field>
+    </entity>
+    <entity name="BattleExtention">
+      <field name="battleMovements" isPreview="false" represents="false" >
+        <maxsize value="64000" />
+      </field>
+      <field name="battleFinalStates" isPreview="false" represents="false" >
+        <maxsize value="6000" />
+      </field>
+    </entity>
+    <entity name="Battle">
+      <field name="unitsDestroyed" isPreview="false" represents="false" >
+        <maxsize value="6000" />
+      </field>
+    </entity>
+    <entity name="FogOfWarStorage">
+      <field name="sectors" isPreview="false" represents="false" >
+        <maxsize value="64000" />
+      </field>
+      <field name="id" isPreview="true" represents="false" />
+      <field name="systemX" isPreview="true" represents="false" />
+      <field name="systemY" isPreview="true" represents="false" />
+      <field name="hasDiscoveredAll" isPreview="true" represents="false" />
+      <field name="hasDiscoveredHalf" isPreview="true" represents="false" />
+    </entity>
+		<entity name="LogStorage">
+			<field name="url" isPreview="false" represents="false" >
+				<maxsize value="6000" />
+			</field>
+      <field name="content" isPreview="false" represents="false" >
+        <maxsize value="6000" />
+      </field>
+		</entity>
+    <entity name="Payment">
+      <field name="request" isPreview="false" represents="false" >
+        <maxsize value="2000" />
+      </field>
+      <field name="response" isPreview="false" represents="false" >
+        <maxsize value="2000" />
+      </field>
+      <field name="parameters" isPreview="false" represents="false" >
+        <maxsize value="2000" />
+      </field>
+    </entity>
+	<entity name="PendingBotRequest">
+      <field name="xml" isPreview="false" represents="false" >
+        <maxsize value="8000" />
+      </field>
+    </entity>
+	<entity name="VoteStorage">
+      <field name="data" isPreview="false" represents="false" >
+        <maxsize value="8000" />
+      </field>
+    </entity>
+    <entity name="PrivateBoard">
+      <field name="message" isPreview="false" represents="false" >
+        <maxsize value="8000" />
+      </field>
+    </entity>
+    <entity name="BonusCard">
+      <field name="type" isPreview="true" represents="true" >
+        <maxsize value="200" />
+      </field>
+    </entity>
+    <entity name="Necessity">
+      <field name="description" isPreview="true" represents="true" >
+        <maxsize value="1000" />
+      </field>
+    </entity>
+    <entity name="Asset">
+      <field name="description" isPreview="true" represents="true" >
+        <maxsize value="1000" />
+      </field>
+    </entity>
+    <entity name="Tournament">
+      <field name="prize" isPreview="false" represents="false" >
+        <maxsize value="1000" />
+      </field>
+    </entity>
+    <entity name="Promotion">
+      <field name="description" isPreview="false" represents="false" >
+        <maxsize value="500" />
+      </field>
+    </entity>
+    <entity name="Message">
+      <field name="parameters" isPreview="false" represents="false" >
+        <maxsize value="200" />
+      </field>
+    </entity>
+	</entities>
+</project>

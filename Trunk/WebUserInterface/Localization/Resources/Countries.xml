@@ -1,0 +1,1759 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="Afghanistan">
+		<lang key="de">Afghanistan</lang>
+		<lang key="en">Afghanistan</lang>
+		<lang key="hr">Afganistan</lang>
+		<lang key="pt">Afeganistão</lang>
+	</entry>
+
+	<entry key="Albania">
+		<lang key="de">Albanien</lang>
+		<lang key="en">Albania</lang>
+		<lang key="hr">Albanija</lang>
+		<lang key="pt">Albânia</lang>
+	</entry>
+
+	<entry key="Algeria">
+		<lang key="de">Algerien</lang>
+		<lang key="en">Algeria</lang>
+		<lang key="hr">Alžir</lang>
+		<lang key="pt">Argélia</lang>
+	</entry>
+
+	<entry key="AmericanSamoa">
+		<lang key="de">Amerikanisch-Samoa</lang>
+		<lang key="en">American Samoa</lang>
+		<lang key="hr">Američka Samoa</lang>
+		<lang key="pt">Samoa Americana</lang>
+	</entry>
+
+	<entry key="Andorra">
+		<lang key="de">Andorra</lang>
+		<lang key="en">Andorra</lang>
+		<lang key="hr">Andora</lang>
+		<lang key="pt">Andorra</lang>
+	</entry>
+
+	<entry key="Angola">
+		<lang key="de">Angola</lang>
+		<lang key="en">Angola</lang>
+		<lang key="hr">Angola</lang>
+		<lang key="pt">Angola</lang>
+	</entry>
+
+	<entry key="Anguilla">
+		<lang key="de">Anguilla</lang>
+		<lang key="en">Anguilla</lang>
+		<lang key="hr">Anguilla</lang>
+		<lang key="pt"></lang>
+	</entry>
+
+	<entry key="Antarctica">
+		<lang key="de">Antarktika</lang>
+		<lang key="en">Antarctica</lang>
+		<lang key="hr">Antarctica</lang>
+		<lang key="pt">Antárctica</lang>
+	</entry>
+
+	<entry key="AntiguaBarbuda">
+		<lang key="de">Antigua und Barbuda</lang>
+		<lang key="en">Antigua and Barbuda</lang>
+		<lang key="hr">Antigua I Barbuda</lang>
+		<lang key="pt">Antígua e Barbuda</lang>
+	</entry>
+
+	<entry key="AntillesNetherlands">
+		<lang key="de">Niederländische Antillen</lang>
+		<lang key="en">Netherlands Antilles</lang>
+		<lang key="hr">Nizozemski Antili</lang>
+		<lang key="pt"></lang>
+	</entry>
+
+	<entry key="Argentina">
+		<lang key="de">Argentinien</lang>
+		<lang key="en">Argentina</lang>
+		<lang key="hr">Argentina</lang>
+		<lang key="pt">Argentina</lang>
+	</entry>
+
+	<entry key="Armenia">
+		<lang key="de">Armenien</lang>
+		<lang key="en">Armenia</lang>
+		<lang key="hr">Armenija</lang>
+		<lang key="pt">Arménia</lang>
+	</entry>
+
+	<entry key="Aruba">
+		<lang key="de">Aruba</lang>
+		<lang key="en">Aruba</lang>
+		<lang key="hr">Aruba</lang>
+		<lang key="pt">Aruba</lang>
+	</entry>
+
+	<entry key="Australia">
+		<lang key="de">Australien</lang>
+		<lang key="en">Australia</lang>
+		<lang key="hr">Australija</lang>
+		<lang key="pt">Austrália</lang>
+	</entry>
+
+	<entry key="Austria">
+		<lang key="de">Österreich</lang>
+		<lang key="en">Austria</lang>
+		<lang key="hr">Austrija</lang>
+		<lang key="pt">Áustria</lang>
+	</entry>
+
+	<entry key="Azerbaijan">
+		<lang key="de">Azerbaijan</lang>
+		<lang key="en">Azerbaijan</lang>
+		<lang key="hr">Azerbejdžan</lang>
+		<lang key="pt">Azerbaijão</lang>
+	</entry>
+
+	<entry key="Bahamas">
+		<lang key="de">Bahamas</lang>
+		<lang key="en">Bahamas</lang>
+		<lang key="hr">Bahami</lang>
+		<lang key="pt">Bahamas</lang>
+	</entry>
+
+	<entry key="Bahrain">
+		<lang key="de">Bahrain</lang>
+		<lang key="en">Bahrain</lang>
+		<lang key="hr">Bahrein</lang>
+		<lang key="pt">Barém</lang>
+	</entry>
+
+	<entry key="Bangladesh">
+		<lang key="de">Bangladesh</lang>
+		<lang key="en">Bangladesh</lang>
+		<lang key="hr">Bangladeš</lang>
+		<lang key="pt">Bangladesh</lang>
+	</entry>
+
+	<entry key="Barbados">
+		<lang key="de">Barbados</lang>
+		<lang key="en">Barbados</lang>
+		<lang key="hr">Barbados</lang>
+		<lang key="pt">Barbados</lang>
+	</entry>
+
+	<entry key="Belarus">
+		<lang key="de">Belarus</lang>
+		<lang key="en">Belarus</lang>
+		<lang key="hr">Bjelorusija</lang>
+		<lang key="pt">Bielorrússia</lang>
+	</entry>
+
+	<entry key="Belgium">
+		<lang key="de">Belgien</lang>
+		<lang key="en">Belgium</lang>
+		<lang key="hr">Belgija</lang>
+		<lang key="pt">Bélgica</lang>
+	</entry>
+
+	<entry key="Belize">
+		<lang key="de">Belize</lang>
+		<lang key="en">Belize</lang>
+		<lang key="hr">Belize</lang>
+		<lang key="pt">Belize</lang>
+	</entry>
+
+	<entry key="Benin">
+		<lang key="de">Benin</lang>
+		<lang key="en">Benin</lang>
+		<lang key="hr">Benin</lang>
+		<lang key="pt">Benin</lang>
+	</entry>
+
+	<entry key="Bermuda">
+		<lang key="de">Bermudas</lang>
+		<lang key="en">Bermuda</lang>
+		<lang key="hr">Bermuda</lang>
+		<lang key="pt">Bermudas</lang>
+	</entry>
+
+	<entry key="Bhutan">
+		<lang key="de">Bhutan</lang>
+		<lang key="en">Bhutan</lang>
+		<lang key="hr">Butan</lang>
+		<lang key="pt">Butão</lang>
+	</entry>
+
+	<entry key="Bolivia">
+		<lang key="de">Bolivien</lang>
+		<lang key="en">Bolivia</lang>
+		<lang key="hr">Bolivija</lang>
+		<lang key="pt">Bolívia</lang>
+	</entry>
+
+	<entry key="BosniaHerzegovina">
+		<lang key="de">Bosnien und Herzegowina</lang>
+		<lang key="en">Bosnia and Herzegovina</lang>
+		<lang key="hr">Bosna i Hercegovina</lang>
+		<lang key="pt">Bósnia-Herzegovina</lang>
+	</entry>
+
+	<entry key="Botswana">
+		<lang key="de">Botswana</lang>
+		<lang key="en">Botswana</lang>
+		<lang key="hr">Bocvana</lang>
+		<lang key="pt">Botswana</lang>
+	</entry>
+
+	<entry key="BouvetIsland">
+		<lang key="de">Bouvet-Insel</lang>
+		<lang key="en">Bouvet Island</lang>
+		<lang key="hr">Otok Bouvet</lang>
+		<lang key="pt">Ilha Bouvet</lang>
+	</entry>
+
+	<entry key="Brazil">
+		<lang key="de">Brasilien</lang>
+		<lang key="en">Brazil</lang>
+		<lang key="hr">Brazil</lang>
+		<lang key="pt">Brasil</lang>
+	</entry>
+
+	<entry key="BritishIndian">
+		<lang key="de">Britisches Territorium im Indischen Ozean</lang>
+		<lang key="en">British Indian Ocean Territory</lang>
+		<lang key="hr">Britanski Indisjkooceanski Teritorij</lang>
+		<lang key="pt">Território Britânico do Oceano Índico</lang>
+	</entry>
+
+	<entry key="BritishVirgin">
+		<lang key="de">Britische Jungferninseln</lang>
+		<lang key="en">British Virgin Islands</lang>
+		<lang key="hr">Bitanski Djevičanski Otoci</lang>
+		<lang key="pt">Ilhas Virgens (Britânicas)</lang>
+	</entry>
+
+	<entry key="BruneiDarussalam">
+		<lang key="de">Brunei Darussalam</lang>
+		<lang key="en">Brunei Darussalam</lang>
+		<lang key="hr">Brunei Darussalam</lang>
+		<lang key="pt">Brunei Darussalam</lang>
+	</entry>
+
+	<entry key="Bulgaria">
+		<lang key="de">Bulgarien</lang>
+		<lang key="en">Bulgaria</lang>
+		<lang key="hr">Bugarska</lang>
+		<lang key="pt">Bulgária</lang>
+	</entry>
+
+	<entry key="BurkinaFaso">
+		<lang key="de">Burkina Faso</lang>
+		<lang key="en">Burkina Faso</lang>
+		<lang key="hr">Burkina Faso</lang>
+		<lang key="pt">Burkina Faso</lang>
+	</entry>
+
+	<entry key="Burundi">
+		<lang key="de">Burundi</lang>
+		<lang key="en">Burundi</lang>
+		<lang key="hr">Burundi</lang>
+		<lang key="pt">Burundi</lang>
+	</entry>
+
+	<entry key="Caledonia">
+		<lang key="de">Neukaledonien</lang>
+		<lang key="en">New Caledonia</lang>
+		<lang key="fr">La Nouvelle-Calédonie</lang>
+		<lang key="hr">Nova Kaledonija</lang>
+		<lang key="pt">Nova Caledónia</lang>
+	</entry>
+
+	<entry key="Cambodia">
+		<lang key="de">Kambodscha</lang>
+		<lang key="en">Cambodia</lang>
+		<lang key="hr">Kambodža</lang>
+		<lang key="pt">Camboja</lang>
+	</entry>
+
+	<entry key="Cameroon">
+		<lang key="de">Kamerun
+</lang>
+		<lang key="en">Cameroon</lang>
+		<lang key="hr">Kamerun</lang>
+		<lang key="pt">Camarões</lang>
+	</entry>
+
+	<entry key="Canada">
+		<lang key="de">Kanada</lang>
+		<lang key="en">Canada</lang>
+		<lang key="hr">Kanada</lang>
+		<lang key="pt">Canadá</lang>
+	</entry>
+
+	<entry key="CapeVerde">
+		<lang key="de">Kap Verde</lang>
+		<lang key="en">Cape Verde</lang>
+		<lang key="hr">Cape Verde</lang>
+		<lang key="pt">Cabo Verde</lang>
+	</entry>
+
+	<entry key="CaymanIslands">
+		<lang key="de">Cayman Insel</lang>
+		<lang key="en">Cayman Islands</lang>
+		<lang key="hr">Kajmanski Otoci</lang>
+		<lang key="pt">Ilhas Caimão</lang>
+	</entry>
+
+	<entry key="CentralAfrican">
+		<lang key="de">Zentral Afrikanische Republik</lang>
+		<lang key="en">Central African Republic</lang>
+		<lang key="hr">Centralo Afrička Republika</lang>
+		<lang key="pt">Centro-Africana (República)</lang>
+	</entry>
+
+	<entry key="Chad">
+		<lang key="de">Tschad</lang>
+		<lang key="en">Chad</lang>
+		<lang key="hr">Čad</lang>
+		<lang key="pt">Chade</lang>
+	</entry>
+
+	<entry key="Chile">
+		<lang key="de">Chile</lang>
+		<lang key="en">Chile</lang>
+		<lang key="hr">Čile</lang>
+		<lang key="pt">Chile</lang>
+	</entry>
+
+	<entry key="China">
+		<lang key="de">China</lang>
+		<lang key="en">China</lang>
+		<lang key="hr">Kina</lang>
+		<lang key="pt">China</lang>
+	</entry>
+
+	<entry key="ChristmasIsland">
+		<lang key="de">Weihnachtsinsel</lang>
+		<lang key="en">Christmas Island</lang>
+		<lang key="hr">Christmas Otok</lang>
+		<lang key="pt">Ilha Christmas</lang>
+	</entry>
+
+	<entry key="Cocos">
+		<lang key="de">Kocos (Keeling) Insel</lang>
+		<lang key="en">Cocos (Keeling) Islands</lang>
+		<lang key="hr">Kokos (Keeling) Otoci</lang>
+		<lang key="pt">Ilhas Cocos (Keeling)</lang>
+	</entry>
+
+	<entry key="Colombia">
+		<lang key="de">Kolumbien</lang>
+		<lang key="en">Colombia</lang>
+		<lang key="hr">Kolumbija</lang>
+		<lang key="pt">Colômbia</lang>
+	</entry>
+
+	<entry key="Comoros">
+		<lang key="de">Comoros</lang>
+		<lang key="en">Comoros</lang>
+		<lang key="hr">Comoros</lang>
+		<lang key="pt">Comores</lang>
+	</entry>
+
+	<entry key="Congo">
+		<lang key="de">Kongo</lang>
+		<lang key="en">Congo</lang>
+		<lang key="fr">Congo</lang>
+		<lang key="hr">Kongo</lang>
+		<lang key="pt">Congo</lang>
+	</entry>
+
+	<entry key="Cook">
+		<lang key="de">Cook Insel</lang>
+		<lang key="en">Cook Islands</lang>
+		<lang key="hr">Cook otoci</lang>
+		<lang key="pt">Ilhas Cook</lang>
+	</entry>
+
+	<entry key="CostaRica">
+		<lang key="de">Costa Rica</lang>
+		<lang key="en">Costa Rica</lang>
+		<lang key="hr">Kostarika</lang>
+		<lang key="pt">Costa Rica</lang>
+	</entry>
+
+	<entry key="Croatia">
+		<lang key="de">Kroatien</lang>
+		<lang key="en">Croatia</lang>
+		<lang key="hr">Hrvatska</lang>
+		<lang key="pt">Croácia</lang>
+	</entry>
+
+	<entry key="Cuba">
+		<lang key="de">Kuba</lang>
+		<lang key="en">Cuba</lang>
+		<lang key="hr">Kuba</lang>
+		<lang key="pt">Cuba</lang>
+	</entry>
+
+	<entry key="Cyprus">
+		<lang key="de">Zypern</lang>
+		<lang key="en">Cyprus</lang>
+		<lang key="hr">Cipar</lang>
+		<lang key="pt">Chipre</lang>
+	</entry>
+
+	<entry key="CzechRepublic">
+		<lang key="de">Czechische Republik</lang>
+		<lang key="en">Czech Republic</lang>
+		<lang key="hr">Češka Republika</lang>
+		<lang key="pt">República Checa</lang>
+	</entry>
+
+	<entry key="Denmark">
+		<lang key="de">Dänmark</lang>
+		<lang key="en">Denmark</lang>
+		<lang key="hr">Danska</lang>
+		<lang key="pt">Dinamarca</lang>
+	</entry>
+
+	<entry key="Djibouti">
+		<lang key="de">Djibouti</lang>
+		<lang key="en">Djibouti</lang>
+		<lang key="hr">Djibouti</lang>
+		<lang key="pt">Jibuti</lang>
+	</entry>
+
+	<entry key="Dominica">
+		<lang key="de">Dominica</lang>
+		<lang key="en">Dominica</lang>
+		<lang key="hr">Dominica</lang>
+		<lang key="pt">Domínica</lang>
+	</entry>
+
+	<entry key="DominicanRepublic">
+		<lang key="de">Dominikanische Republik</lang>
+		<lang key="en">Dominican Republic</lang>
+		<lang key="hr">Dominikanska Republika</lang>
+		<lang key="pt">República Dominicana</lang>
+	</entry>
+
+	<entry key="EastTimor">
+		<lang key="de">Osttimor</lang>
+		<lang key="en">East Timor</lang>
+		<lang key="hr">Istočni Timor</lang>
+		<lang key="pt"></lang>
+	</entry>
+
+	<entry key="Ecuador">
+		<lang key="de">Ecuador</lang>
+		<lang key="en">Ecuador</lang>
+		<lang key="hr">Ekvador</lang>
+		<lang key="pt">Equador</lang>
+	</entry>
+
+	<entry key="Egypt">
+		<lang key="de">Ägypten</lang>
+		<lang key="en">Egypt</lang>
+		<lang key="hr">Egipat</lang>
+		<lang key="pt">Egipto</lang>
+	</entry>
+
+	<entry key="EquatorialGuinea">
+		<lang key="de">Äquatorialguinea</lang>
+		<lang key="en">Equatorial Guinea</lang>
+		<lang key="hr">Ekvatorijalna Gvineja</lang>
+		<lang key="pt">Guiné Equatorial</lang>
+	</entry>
+
+	<entry key="Eritrea">
+		<lang key="de">Eritrea</lang>
+		<lang key="en">Eritrea</lang>
+		<lang key="hr">Eritreja</lang>
+		<lang key="pt">Eritreia</lang>
+	</entry>
+
+	<entry key="Estonia">
+		<lang key="de">Estland</lang>
+		<lang key="en">Estonia</lang>
+		<lang key="hr">Estonija</lang>
+		<lang key="pt">Estónia</lang>
+	</entry>
+
+	<entry key="Ethiopia">
+		<lang key="de">Äthiopien</lang>
+		<lang key="en">Ethiopia</lang>
+		<lang key="hr">Etijopija</lang>
+		<lang key="pt">Etiópia</lang>
+	</entry>
+
+	<entry key="EuropeanUnion">
+		<lang key="de">Europäische Union</lang>
+		<lang key="en">European Union</lang>
+		<lang key="hr">Europska Unija</lang>
+		<lang key="pt">União Europeia</lang>
+	</entry>
+
+	<entry key="FalklandIslands">
+		<lang key="de">Falkland-Inseln</lang>
+		<lang key="en">Falkland Islands (Malvinas)</lang>
+		<lang key="hr">Falkland Otoci (Malvinas)</lang>
+		<lang key="pt">Ilhas Falkland (Malvinas)</lang>
+	</entry>
+
+	<entry key="FaroeIslands">
+		<lang key="de">Faroer-Inseln</lang>
+		<lang key="en">Faroe Islands</lang>
+		<lang key="hr">Farski Otoci</lang>
+		<lang key="pt">Ilhas Faroé</lang>
+	</entry>
+
+	<entry key="Fiji">
+		<lang key="de">Fiji</lang>
+		<lang key="en">Fiji</lang>
+		<lang key="hr">Fidži</lang>
+		<lang key="pt">Ilhas Fiji</lang>
+	</entry>
+
+	<entry key="Finland">
+		<lang key="de">Finnland</lang>
+		<lang key="en">Finland</lang>
+		<lang key="hr">Finska</lang>
+		<lang key="pt">Finlândia</lang>
+	</entry>
+
+	<entry key="France">
+		<lang key="de">Frankreich</lang>
+		<lang key="en">France</lang>
+		<lang key="hr">Francuska</lang>
+		<lang key="pt">França</lang>
+	</entry>
+
+	<entry key="FrenchGuiana">
+		<lang key="de">Französisch-Guayana</lang>
+		<lang key="en">French Guiana</lang>
+		<lang key="hr">Francuska Gvajana</lang>
+		<lang key="pt">Guiana Francesa</lang>
+	</entry>
+
+	<entry key="FrenchPolynesia">
+		<lang key="de">Französisch-Polynesien</lang>
+		<lang key="en">French Polynesia</lang>
+		<lang key="hr">Francuska Polinenzija</lang>
+		<lang key="pt">Polinésia Francesa</lang>
+	</entry>
+
+	<entry key="Gabon">
+		<lang key="de">Gabun</lang>
+		<lang key="en">Gabon</lang>
+		<lang key="hr">Gabon</lang>
+		<lang key="pt">Gabão</lang>
+	</entry>
+
+	<entry key="Gambia">
+		<lang key="de">Gambia</lang>
+		<lang key="en">Gambia</lang>
+		<lang key="hr">Gambija</lang>
+		<lang key="pt">Gâmbia</lang>
+	</entry>
+
+	<entry key="Georgia">
+		<lang key="de">Georgien</lang>
+		<lang key="en">Georgia</lang>
+		<lang key="hr">Gruzija</lang>
+		<lang key="pt">Geórgia</lang>
+	</entry>
+
+	<entry key="GeorgiaSandwich">
+		<lang key="de">Süd Georgia and S. Sandwich Insel</lang>
+		<lang key="en">S. Georgia and S. Sandwich Is.</lang>
+		<lang key="hr">Južna Goergia i južni Sandwich otoci</lang>
+		<lang key="pt">Geórgia do Sul e Ilhas Sandwich</lang>
+	</entry>
+
+	<entry key="Germany">
+		<lang key="de">Deutschland</lang>
+		<lang key="en">Germany</lang>
+		<lang key="hr">Njemačka</lang>
+		<lang key="pt">Alemanha</lang>
+	</entry>
+
+	<entry key="Ghana">
+		<lang key="de">Ghana</lang>
+		<lang key="en">Ghana</lang>
+		<lang key="hr">Gana</lang>
+		<lang key="pt">Gana</lang>
+	</entry>
+
+	<entry key="Gibraltar">
+		<lang key="de">Gibraltar</lang>
+		<lang key="en">Gibraltar</lang>
+		<lang key="hr">Gibraltar</lang>
+		<lang key="pt">Gibraltar</lang>
+	</entry>
+
+	<entry key="Greece">
+		<lang key="de">Griechenland</lang>
+		<lang key="en">Greece</lang>
+		<lang key="hr">Grčka</lang>
+		<lang key="pt">Grécia</lang>
+	</entry>
+
+	<entry key="Greenland">
+		<lang key="de">Grönland</lang>
+		<lang key="en">Greenland</lang>
+		<lang key="hr">Grenland</lang>
+		<lang key="pt">Gronelândia</lang>
+	</entry>
+
+	<entry key="Grenada">
+		<lang key="de">Grenada</lang>
+		<lang key="en">Grenada</lang>
+		<lang key="hr">Granada</lang>
+		<lang key="pt">Granada</lang>
+	</entry>
+
+	<entry key="Guadeloupe">
+		<lang key="de">Guadeloupe</lang>
+		<lang key="en">Guadeloupe</lang>
+		<lang key="hr">Guadelupe</lang>
+		<lang key="pt">Guadalupe</lang>
+	</entry>
+
+	<entry key="Guam">
+		<lang key="de">Guam</lang>
+		<lang key="en">Guam</lang>
+		<lang key="hr">Guam</lang>
+		<lang key="pt">Guam</lang>
+	</entry>
+
+	<entry key="Guatemala">
+		<lang key="de">Guatemala</lang>
+		<lang key="en">Guatemala</lang>
+		<lang key="hr">Gvatemala</lang>
+		<lang key="pt">Guatemala</lang>
+	</entry>
+
+	<entry key="Guernsey">
+		<lang key="de">Alderney</lang>
+		<lang key="en">Guernsey and Alderney</lang>
+		<lang key="hr">Guernsey i Alderney</lang>
+		<lang key="pt">Guernsey</lang>
+	</entry>
+
+	<entry key="GuianaFrench">
+		<lang key="de">Französisch-Guayana</lang>
+		<lang key="en">French Guiana</lang>
+		<lang key="hr">Francuska Gvajana</lang>
+		<lang key="pt">Guiana Francesa</lang>
+	</entry>
+
+	<entry key="Guinea">
+		<lang key="de">Guinea</lang>
+		<lang key="en">Guinea</lang>
+		<lang key="hr">Gvineja</lang>
+		<lang key="pt">Guiné</lang>
+	</entry>
+
+	<entry key="GuineaBissau">
+		<lang key="de">Guinea-Bissau</lang>
+		<lang key="en">Guinea-Bissau</lang>
+		<lang key="hr">Gvineja - Bisao</lang>
+		<lang key="pt">Guiné-Bissau</lang>
+	</entry>
+
+	<entry key="GuineaEquatorial">
+		<lang key="de">Guadeloupe</lang>
+		<lang key="en">Guadeloupe</lang>
+		<lang key="hr">Guadeloupe</lang>
+		<lang key="pt">Guadalupe</lang>
+	</entry>
+
+	<entry key="Guyana">
+		<lang key="de">Guyana</lang>
+		<lang key="en">Guyana</lang>
+		<lang key="hr">Gvajana</lang>
+		<lang key="pt">Guiana</lang>
+	</entry>
+
+	<entry key="Haiti">
+		<lang key="de">Haiti</lang>
+		<lang key="en">Haiti</lang>
+		<lang key="hr">Haiti</lang>
+		<lang key="pt">Haiti</lang>
+	</entry>
+
+	<entry key="Holland">
+		<lang key="de">Holland</lang>
+		<lang key="en">Netherlands</lang>
+		<lang key="hr">Nizozemska</lang>
+		<lang key="pt">Países Baixos</lang>
+	</entry>
+
+	<entry key="HolySee">
+		<lang key="de">Vatikan</lang>
+		<lang key="en">Vatican City State</lang>
+		<lang key="hr">Vatikan ( Grad Država Vatikan )</lang>
+		<lang key="pt">Santa Sé (Cidade Estado do Vaticano)</lang>
+	</entry>
+
+	<entry key="Honduras">
+		<lang key="de">Honduras</lang>
+		<lang key="en">Honduras</lang>
+		<lang key="hr">Honduras</lang>
+		<lang key="pt">Honduras</lang>
+	</entry>
+
+	<entry key="HongKong">
+		<lang key="de">Hong Kong</lang>
+		<lang key="en">Hong Kong</lang>
+		<lang key="hr">Hong Kong</lang>
+		<lang key="pt">Hong Kong</lang>
+	</entry>
+
+	<entry key="Hungary">
+		<lang key="de">Ungarn</lang>
+		<lang key="en">Hungary</lang>
+		<lang key="hr">Mađarska</lang>
+		<lang key="pt">Hungria</lang>
+	</entry>
+
+	<entry key="Iceland">
+		<lang key="de">Island</lang>
+		<lang key="en">Iceland</lang>
+		<lang key="hr">Island</lang>
+		<lang key="pt">Islândia</lang>
+	</entry>
+
+	<entry key="India">
+		<lang key="de">Indien</lang>
+		<lang key="en">India</lang>
+		<lang key="hr">Indija</lang>
+		<lang key="pt">Índia</lang>
+	</entry>
+
+	<entry key="Indonesia">
+		<lang key="de">Indonesien</lang>
+		<lang key="en">Indonesia</lang>
+		<lang key="hr">Indonezija</lang>
+		<lang key="pt">Indonésia</lang>
+	</entry>
+
+	<entry key="Iran">
+		<lang key="de">Iran</lang>
+		<lang key="en">Iran</lang>
+		<lang key="hr">Iran</lang>
+		<lang key="pt">Irão (República Islâmica)</lang>
+	</entry>
+
+	<entry key="Iraq">
+		<lang key="de">Irak</lang>
+		<lang key="en">Iraq</lang>
+		<lang key="hr">Irak</lang>
+		<lang key="pt">Iraque</lang>
+	</entry>
+
+	<entry key="Ireland">
+		<lang key="de">Irland</lang>
+		<lang key="en">Ireland</lang>
+		<lang key="hr">Irska</lang>
+		<lang key="pt">Irlanda</lang>
+	</entry>
+
+	<entry key="Israel">
+		<lang key="de">Israel</lang>
+		<lang key="en">Israel</lang>
+		<lang key="hr">Izrael</lang>
+		<lang key="pt">Israel</lang>
+	</entry>
+
+	<entry key="Italy">
+		<lang key="de">Italien</lang>
+		<lang key="en">Italy</lang>
+		<lang key="hr">Italija</lang>
+		<lang key="pt">Itália</lang>
+	</entry>
+
+	<entry key="IvoryCoast">
+		<lang key="de">Elfenbeinküste</lang>
+		<lang key="en">Ivory Coast</lang>
+		<lang key="hr">Obala Bjelokosti</lang>
+		<lang key="pt">Costa do Marfim</lang>
+	</entry>
+
+	<entry key="Jamaica">
+		<lang key="de">Jamaika</lang>
+		<lang key="en">Jamaica</lang>
+		<lang key="hr">Jamajka</lang>
+		<lang key="pt">Jamaica</lang>
+	</entry>
+
+	<entry key="Japan">
+		<lang key="de">Japan</lang>
+		<lang key="en">Japan</lang>
+		<lang key="hr">Japan</lang>
+		<lang key="pt">Japão</lang>
+	</entry>
+
+	<entry key="Jersey">
+		<lang key="de">Jersey</lang>
+		<lang key="en">Jersey</lang>
+		<lang key="hr">Jersey</lang>
+		<lang key="pt">Jersey</lang>
+	</entry>
+
+	<entry key="Jordan">
+		<lang key="de">Jordanien</lang>
+		<lang key="en">Jordan</lang>
+		<lang key="hr">Jordan</lang>
+		<lang key="pt">Jordânia</lang>
+	</entry>
+
+	<entry key="Kazakhstan">
+		<lang key="de">Kazakhstan</lang>
+		<lang key="en">Kazakhstan</lang>
+		<lang key="hr">Kazakhstan</lang>
+		<lang key="pt">Cazaquistão</lang>
+	</entry>
+
+	<entry key="Kenya">
+		<lang key="de">Kenia</lang>
+		<lang key="en">Kenya</lang>
+		<lang key="hr">Kenija</lang>
+		<lang key="pt">Quénia</lang>
+	</entry>
+
+	<entry key="Kiribati">
+		<lang key="de">Kiribati</lang>
+		<lang key="en">Kiribati</lang>
+		<lang key="hr">Kiribati</lang>
+		<lang key="pt">Kiribati</lang>
+	</entry>
+
+	<entry key="Korea">
+		<lang key="de">Nord-Korea (demokratische Republik)</lang>
+		<lang key="en">Demo. People's Rep. of Korea</lang>
+		<lang key="hr">Koreja ( Demokratska Narodna Republika )</lang>
+		<lang key="pt">Coreia (República Popular Democrática da)</lang>
+	</entry>
+
+	<entry key="KoreaSouth">
+		<lang key="de">Südkorea</lang>
+		<lang key="en">Republic of Korea</lang>
+		<lang key="hr">Koreja ( Republika )</lang>
+		<lang key="pt">Coreia (República da)</lang>
+	</entry>
+
+	<entry key="Kuwait">
+		<lang key="de">Kuwait</lang>
+		<lang key="en">Kuwait</lang>
+		<lang key="hr">Kuvajt</lang>
+		<lang key="pt">Kuwait</lang>
+	</entry>
+
+	<entry key="Kyrgyzstan">
+		<lang key="de">Kirgisistan</lang>
+		<lang key="en">Kyrgyzstan</lang>
+		<lang key="hr">Kirgistan</lang>
+		<lang key="pt">Quirguizistão</lang>
+	</entry>
+
+	<entry key="LaoPeople">
+		<lang key="de">Volksdemokratische Republik Laos</lang>
+		<lang key="en">Lao People's Democratic Republic</lang>
+		<lang key="hr">Laos ( Narodna Demokratska Republika Laos )</lang>
+		<lang key="pt">Laos (República Popular Democrática do)</lang>
+	</entry>
+
+	<entry key="Latvia">
+		<lang key="de">Lettland</lang>
+		<lang key="en">Latvia</lang>
+		<lang key="hr">Latvija</lang>
+		<lang key="pt">Letónia</lang>
+	</entry>
+
+	<entry key="Lebanon">
+		<lang key="de">Libanon</lang>
+		<lang key="en">Lebanon</lang>
+		<lang key="hr">Libanon</lang>
+		<lang key="pt">Líbano</lang>
+	</entry>
+
+	<entry key="Lesotho">
+		<lang key="de">Lesotho</lang>
+		<lang key="en">Lesotho</lang>
+		<lang key="hr">Lesoto</lang>
+		<lang key="pt">Lesoto</lang>
+	</entry>
+
+	<entry key="Liberia">
+		<lang key="de">Liberien</lang>
+		<lang key="en">Liberia</lang>
+		<lang key="hr">Liberija</lang>
+		<lang key="pt">Libéria</lang>
+	</entry>
+
+	<entry key="Libyan">
+		<lang key="de">Libyien (Arabische Jamahiriya)</lang>
+		<lang key="en">Libyan Arab Jamahiriya</lang>
+		<lang key="hr">Libija</lang>
+		<lang key="pt">Líbia (Jamahiriya Árabe da)</lang>
+	</entry>
+
+	<entry key="Liechtenstein">
+		<lang key="de">Liechtenstein</lang>
+		<lang key="en">Liechtenstein</lang>
+		<lang key="fr">Liechtenstein</lang>
+		<lang key="hr">Lihtenštajn</lang>
+		<lang key="pt">Liechtenstein</lang>
+	</entry>
+
+	<entry key="Lithuania">
+		<lang key="de">Litauen</lang>
+		<lang key="en">Lithuania</lang>
+		<lang key="fr">Lithuanie</lang>
+		<lang key="hr">Litva</lang>
+		<lang key="pt">Lituânia</lang>
+	</entry>
+
+	<entry key="Luxembourg">
+		<lang key="de">Luxemburg</lang>
+		<lang key="en">Luxembourg</lang>
+		<lang key="hr">Luksemburg</lang>
+		<lang key="pt">Luxemburgo</lang>
+	</entry>
+
+	<entry key="Macao">
+		<lang key="de">Makau</lang>
+		<lang key="en">Macao</lang>
+		<lang key="hr">Makao</lang>
+		<lang key="pt">Macau</lang>
+	</entry>
+
+	<entry key="Macedonia">
+		<lang key="de">Macedonien</lang>
+		<lang key="en">Macedonia</lang>
+		<lang key="hr">Makedonija</lang>
+		<lang key="pt">Macedónia (Antiga República Jugoslava da)</lang>
+	</entry>
+
+	<entry key="Madagascar">
+		<lang key="de">Madagascar</lang>
+		<lang key="en">Madagascar</lang>
+		<lang key="hr">Madagaskar</lang>
+		<lang key="pt">Madagáscar</lang>
+	</entry>
+
+	<entry key="Malawi">
+		<lang key="de">Malawi</lang>
+		<lang key="en">Malawi</lang>
+		<lang key="hr">Malavi</lang>
+		<lang key="pt">Malawi</lang>
+	</entry>
+
+	<entry key="Malaysia">
+		<lang key="de">Malaysia</lang>
+		<lang key="en">Malaysia</lang>
+		<lang key="hr">Malezija</lang>
+		<lang key="pt">Malásia</lang>
+	</entry>
+
+	<entry key="Maldives">
+		<lang key="de">Maldiven</lang>
+		<lang key="en">Maldives</lang>
+		<lang key="hr">Maldivi</lang>
+		<lang key="pt">Maldivas</lang>
+	</entry>
+
+	<entry key="Mali">
+		<lang key="de">Mali</lang>
+		<lang key="en">Mali</lang>
+		<lang key="hr">Mali</lang>
+		<lang key="pt">Mali</lang>
+	</entry>
+
+	<entry key="Malta">
+		<lang key="de">Malta</lang>
+		<lang key="en">Malta</lang>
+		<lang key="hr">Malta</lang>
+		<lang key="pt">Malta</lang>
+	</entry>
+
+	<entry key="ManIsle">
+		<lang key="de">die Insel Man</lang>
+		<lang key="en">Isle of Man</lang>
+		<lang key="hr">Isle of Man</lang>
+		<lang key="pt">Ilha de Man</lang>
+	</entry>
+
+	<entry key="MarshallIslands">
+		<lang key="de">Marshallinseln</lang>
+		<lang key="en">Marshall Islands</lang>
+		<lang key="hr">Marshallovi Otoci</lang>
+		<lang key="pt">Ilhas Marshall</lang>
+	</entry>
+
+	<entry key="Martinique">
+		<lang key="de">Martinique</lang>
+		<lang key="en">Martinique</lang>
+		<lang key="hr">Martinique</lang>
+		<lang key="pt">Martinica</lang>
+	</entry>
+
+	<entry key="Mauritania">
+		<lang key="de">Mauretanien</lang>
+		<lang key="en">Mauritania</lang>
+		<lang key="hr">Mauretanija</lang>
+		<lang key="pt">Mauritânia</lang>
+	</entry>
+
+	<entry key="Mauritius">
+		<lang key="de">Mauritius</lang>
+		<lang key="en">Mauritius</lang>
+		<lang key="hr">Mauricijus</lang>
+		<lang key="pt"></lang>
+	</entry>
+
+	<entry key="Mayotte">
+		<lang key="de">Mayotte</lang>
+		<lang key="en">Mayotte</lang>
+		<lang key="hr">Mayotte</lang>
+		<lang key="pt">Mayotte</lang>
+	</entry>
+
+	<entry key="Mexico">
+		<lang key="de">Mexiko</lang>
+		<lang key="en">Mexico</lang>
+		<lang key="hr">Meksiko</lang>
+		<lang key="pt">México</lang>
+	</entry>
+
+	<entry key="Micronesia">
+		<lang key="de">Föderierte Staaten von Mikronesien</lang>
+		<lang key="en">Federated States of Micronesia</lang>
+		<lang key="hr">Federalne Države Mikronezije</lang>
+		<lang key="pt">Micronésia (Estados Federados da</lang>
+	</entry>
+
+	<entry key="Moldova">
+		<lang key="de">Republik {f} Moldau</lang>
+		<lang key="en">Republic of Moldova</lang>
+		<lang key="hr">Republika Moldavija</lang>
+		<lang key="pt">Moldova (República de)</lang>
+	</entry>
+
+	<entry key="Monaco">
+		<lang key="de">Monaco</lang>
+		<lang key="en">Monaco</lang>
+		<lang key="hr">Monako</lang>
+		<lang key="pt">Mónaco</lang>
+	</entry>
+
+	<entry key="Mongolia">
+		<lang key="de">Mongolei</lang>
+		<lang key="en">Mongolia</lang>
+		<lang key="fr">Mongolie</lang>
+		<lang key="hr">Mongolija</lang>
+		<lang key="pt">Mongólia</lang>
+	</entry>
+
+	<entry key="Montenegro">
+		<lang key="de">Montenegro</lang>
+		<lang key="en">Montenegro</lang>
+		<lang key="fr">Montenegro</lang>
+		<lang key="hr">Crna Gora</lang>
+		<lang key="pt"></lang>
+	</entry>
+
+	<entry key="Montserrat">
+		<lang key="de">Montserrat</lang>
+		<lang key="en">Montserrat</lang>
+		<lang key="fr">Montserrat</lang>
+		<lang key="hr">Montserrat</lang>
+		<lang key="pt">Monserrate</lang>
+	</entry>
+
+	<entry key="Morocco">
+		<lang key="de">Marokko</lang>
+		<lang key="en">Morocco</lang>
+		<lang key="fr">Maroc</lang>
+		<lang key="hr">Maroko</lang>
+		<lang key="pt">Marrocos</lang>
+	</entry>
+
+	<entry key="Mozambique">
+		<lang key="de">Mozambique</lang>
+		<lang key="en">Mozambique</lang>
+		<lang key="fr">Mozambique</lang>
+		<lang key="hr">Mozambik</lang>
+		<lang key="pt">Moçambique</lang>
+	</entry>
+
+	<entry key="Myanmar">
+		<lang key="de">Myanmar</lang>
+		<lang key="en">Myanmar</lang>
+		<lang key="fr">Myanmar</lang>
+		<lang key="hr">Myanmar</lang>
+		<lang key="pt">Myanmar</lang>
+	</entry>
+
+	<entry key="Namibia">
+		<lang key="de">Namibia</lang>
+		<lang key="en">Namibia</lang>
+		<lang key="fr">Namibie</lang>
+		<lang key="hr">Namibija</lang>
+		<lang key="pt">Antilhas Holandesas</lang>
+	</entry>
+
+	<entry key="Nauru">
+		<lang key="de">Nauru</lang>
+		<lang key="en">Nauru</lang>
+		<lang key="fr">Nauru</lang>
+		<lang key="hr">Nauru</lang>
+		<lang key="pt">Nauru</lang>
+	</entry>
+
+	<entry key="Nepal">
+		<lang key="de">Nepal</lang>
+		<lang key="en">Nepal</lang>
+		<lang key="fr">Népal</lang>
+		<lang key="hr">Nepal</lang>
+		<lang key="pt">Nepal</lang>
+	</entry>
+
+	<entry key="NetherlandsAntilles">
+		<lang key="de">Niederlanden Antilles</lang>
+		<lang key="en">Netherlands Antilles</lang>
+		<lang key="fr">Les Antilles néerlandaises</lang>
+		<lang key="hr">Nizozemski Antili</lang>
+		<lang key="pt"></lang>
+	</entry>
+
+	<entry key="NewZealand">
+		<lang key="de">Neuseeland</lang>
+		<lang key="en">New Zealand</lang>
+		<lang key="fr">Nouvelle-Zélande</lang>
+		<lang key="hr">Novi Zeland</lang>
+		<lang key="pt">Nova Zelândia</lang>
+	</entry>
+
+	<entry key="Nicaragua">
+		<lang key="de">Nicaragua</lang>
+		<lang key="en">Nicaragua</lang>
+		<lang key="fr">Nicaragua</lang>
+		<lang key="hr">Nikaragva</lang>
+		<lang key="pt">Nicarágua</lang>
+	</entry>
+
+	<entry key="Niger">
+		<lang key="de">Niger</lang>
+		<lang key="en">Niger</lang>
+		<lang key="fr">Niger</lang>
+		<lang key="hr">Niger</lang>
+		<lang key="pt">Niger</lang>
+	</entry>
+
+	<entry key="Nigeria">
+		<lang key="de">Nigeria</lang>
+		<lang key="en">Nigeria</lang>
+		<lang key="fr">Nigeria</lang>
+		<lang key="hr">Nigerija</lang>
+		<lang key="pt">Nigéria</lang>
+	</entry>
+
+	<entry key="Niue">
+		<lang key="de">Niue</lang>
+		<lang key="en">Niue</lang>
+		<lang key="fr">Niue</lang>
+		<lang key="hr">Niue</lang>
+		<lang key="pt">Niue</lang>
+	</entry>
+
+	<entry key="NorfolkIsland">
+		<lang key="de">Norfolk insel</lang>
+		<lang key="en">Norfolk Island</lang>
+		<lang key="fr">Île de Norfolk</lang>
+		<lang key="hr">Otok Norfolk</lang>
+		<lang key="pt">Ilha Norfolk</lang>
+	</entry>
+
+	<entry key="NorthernMariana">
+		<lang key="de">Nördliche Mariana Inseln</lang>
+		<lang key="en">Northern Mariana Islands</lang>
+		<lang key="fr">Les Mariannes du Nord</lang>
+		<lang key="hr">Sjeverni Marijanski Otoci</lang>
+		<lang key="pt">Ilhas Marianas do Norte</lang>
+	</entry>
+
+	<entry key="Norway">
+		<lang key="de">Norwegen</lang>
+		<lang key="en">Norway</lang>
+		<lang key="fr">Norvège</lang>
+		<lang key="hr">Norveška</lang>
+		<lang key="pt">Noruega</lang>
+	</entry>
+
+	<entry key="Oman">
+		<lang key="de">Oman</lang>
+		<lang key="en">Oman</lang>
+		<lang key="fr">L'Oman</lang>
+		<lang key="hr">Oman</lang>
+		<lang key="pt">Omã</lang>
+	</entry>
+
+	<entry key="Pakistan">
+		<lang key="de">Pakistan</lang>
+		<lang key="en">Pakistan</lang>
+		<lang key="fr">Pakistan</lang>
+		<lang key="hr">Pakistan</lang>
+		<lang key="pt">Paquistão</lang>
+	</entry>
+
+	<entry key="Palau">
+		<lang key="de">Palau</lang>
+		<lang key="en">Palau</lang>
+		<lang key="fr">Palau</lang>
+		<lang key="hr">Palau</lang>
+		<lang key="pt">Palau</lang>
+	</entry>
+
+	<entry key="PalestinianTerritory">
+		<lang key="de">Palestinisches Territorium</lang>
+		<lang key="en">Palestinian Territory</lang>
+		<lang key="fr">Territoire palestinien</lang>
+		<lang key="hr">Palestinski Teritorij</lang>
+		<lang key="pt">Território Palestiniano Ocupado</lang>
+	</entry>
+
+	<entry key="Panama">
+		<lang key="de">Panama</lang>
+		<lang key="en">Panama</lang>
+		<lang key="fr">Panama</lang>
+		<lang key="hr">Panama</lang>
+		<lang key="pt">Panamá</lang>
+	</entry>
+
+	<entry key="PapuaNewGuinea">
+		<lang key="de">Papua Neu Guinea</lang>
+		<lang key="en">Papua New Guinea</lang>
+		<lang key="fr">Papouasie-Nouvelle Guinée</lang>
+		<lang key="hr">Papua Nova Gvineja</lang>
+		<lang key="pt">Papuásia-Nova Guiné</lang>
+	</entry>
+
+	<entry key="Paraguay">
+		<lang key="de">Paraguay</lang>
+		<lang key="en">Paraguay</lang>
+		<lang key="fr">Paraguay</lang>
+		<lang key="hr">Paragvaj</lang>
+		<lang key="pt">Paraguai</lang>
+	</entry>
+
+	<entry key="Peru">
+		<lang key="de">Peru</lang>
+		<lang key="en">Peru</lang>
+		<lang key="fr">Pérou</lang>
+		<lang key="hr">Peru</lang>
+		<lang key="pt">Peru</lang>
+	</entry>
+
+	<entry key="Philippines">
+		<lang key="de">Philippinen</lang>
+		<lang key="en">Philippines</lang>
+		<lang key="fr">Philippines</lang>
+		<lang key="hr">Filipini</lang>
+		<lang key="pt">Filipinas</lang>
+	</entry>
+
+	<entry key="PitcairnIsland">
+		<lang key="de">Pitcairn Insel</lang>
+		<lang key="en">Pitcairn Island</lang>
+		<lang key="fr">Île de Pitcairn</lang>
+		<lang key="hr">Otok Piticairn</lang>
+		<lang key="pt">Pitcairn</lang>
+	</entry>
+
+	<entry key="Poland">
+		<lang key="de">Polen</lang>
+		<lang key="en">Poland</lang>
+		<lang key="fr">Pologne</lang>
+		<lang key="hr">Poljska</lang>
+		<lang key="pt">Polónia</lang>
+	</entry>
+
+	<entry key="Portugal">
+		<lang key="de">Portugal</lang>
+		<lang key="en">Portugal</lang>
+		<lang key="fr">Portugal</lang>
+		<lang key="hr">Portugal</lang>
+		<lang key="pt">Portugal</lang>
+	</entry>
+
+	<entry key="PuertoRico">
+		<lang key="de">Puerto Rico</lang>
+		<lang key="en">Puerto Rico</lang>
+		<lang key="fr">Puerto Rico</lang>
+		<lang key="hr">Portoriko</lang>
+		<lang key="pt">Porto Rico</lang>
+	</entry>
+
+	<entry key="Qatar">
+		<lang key="de">Qatar</lang>
+		<lang key="en">Qatar</lang>
+		<lang key="fr">Qatar</lang>
+		<lang key="hr">Katar</lang>
+		<lang key="pt">Catar</lang>
+	</entry>
+
+	<entry key="RepCongo">
+		<lang key="de">Demokratische Republik Kongo</lang>
+		<lang key="en">Democratic Rep. of the Congo</lang>
+		<lang key="hr">Demokratska Republika Kongo</lang>
+		<lang key="pt">Congo (República Democrática do)</lang>
+	</entry>
+
+	<entry key="Reunion">
+		<lang key="de">Reunion</lang>
+		<lang key="en">Reunion</lang>
+		<lang key="fr">Réunion</lang>
+		<lang key="hr">Reunion</lang>
+		<lang key="pt">Reunião</lang>
+	</entry>
+
+	<entry key="Romania">
+		<lang key="de">Romänien</lang>
+		<lang key="en">Romania</lang>
+		<lang key="fr">Roumanie</lang>
+		<lang key="hr">Rumunjska</lang>
+		<lang key="pt">Roménia</lang>
+	</entry>
+
+	<entry key="Russia">
+		<lang key="de">Russland</lang>
+		<lang key="en">Russia</lang>
+		<lang key="fr">Russie</lang>
+		<lang key="hr">Rusija</lang>
+		<lang key="pt">Rússia (Federação da)</lang>
+	</entry>
+
+	<entry key="Rwanda">
+		<lang key="de">Ruanda</lang>
+		<lang key="en">Rwanda</lang>
+		<lang key="hr">Ruanda</lang>
+		<lang key="pt">Ruanda</lang>
+	</entry>
+
+	<entry key="Sahara">
+		<lang key="de">Sahara</lang>
+		<lang key="en">Sahara</lang>
+		<lang key="hr">Sahara</lang>
+		<lang key="pt">Sara Ocidental</lang>
+	</entry>
+
+	<entry key="SaintHelena">
+		<lang key="de">St. Helena</lang>
+		<lang key="en">Saint Helena</lang>
+		<lang key="hr">Sv. Helena</lang>
+		<lang key="pt">Santa Helena</lang>
+	</entry>
+
+	<entry key="SaintKitts">
+		<lang key="de">St. Kitts und Nevis</lang>
+		<lang key="en">Saint Kitts and Nevis</lang>
+		<lang key="hr">Sv. Kitts i Nevis</lang>
+		<lang key="pt">São Cristóvão e Nevis</lang>
+	</entry>
+
+	<entry key="SaintLucia">
+		<lang key="de">Saint Lucia</lang>
+		<lang key="en">Saint Lucia</lang>
+		<lang key="hr">Sv. Lucija</lang>
+		<lang key="pt">Santa Lúcia</lang>
+	</entry>
+
+	<entry key="SaintPierre">
+		<lang key="de">St. Pierre und Miquelon</lang>
+		<lang key="en">Saint Pierre and Miquelon</lang>
+		<lang key="hr">Sv. Petar i Mihael</lang>
+		<lang key="pt">São Pedro e Miquelon</lang>
+	</entry>
+
+	<entry key="SaintVincent">
+		<lang key="de">St. Vincent und die Grenadinen</lang>
+		<lang key="en">Saint Vincent and the Grenadines</lang>
+		<lang key="hr">Sv. Vicent i Grenandin</lang>
+		<lang key="pt">São Vicente e Granadinas</lang>
+	</entry>
+
+	<entry key="Salvador">
+		<lang key="de">El Salvador</lang>
+		<lang key="en">El Salvador</lang>
+		<lang key="hr">Salvador</lang>
+		<lang key="pt">El Salvador</lang>
+	</entry>
+
+	<entry key="Samoa">
+		<lang key="de">Samoa</lang>
+		<lang key="en">Samoa</lang>
+		<lang key="hr">Samoa</lang>
+		<lang key="pt">Samoa</lang>
+	</entry>
+
+	<entry key="SanMarino">
+		<lang key="de">San Marino</lang>
+		<lang key="en">San Marino</lang>
+		<lang key="hr">San Marino</lang>
+		<lang key="pt">São Marino</lang>
+	</entry>
+
+	<entry key="SaoTome">
+		<lang key="de">Sao Tome und Principe</lang>
+		<lang key="en">Sao Tome and Principe</lang>
+		<lang key="hr">Sv. Tome i Principe</lang>
+		<lang key="pt">São Tomé e Príncipe</lang>
+	</entry>
+
+	<entry key="SaudiArabia">
+		<lang key="de">Saudi Arabien</lang>
+		<lang key="en">Saudi Arabia</lang>
+		<lang key="hr">Saudijska Arabija</lang>
+		<lang key="pt">Arábia Saudita</lang>
+	</entry>
+
+	<entry key="Senegal">
+		<lang key="de">Senegal</lang>
+		<lang key="en">Senegal</lang>
+		<lang key="hr">Senegal</lang>
+		<lang key="pt">Senegal</lang>
+	</entry>
+
+	<entry key="Serbia">
+		<lang key="de">Serbien</lang>
+		<lang key="en">Serbia</lang>
+		<lang key="hr">Srbija</lang>
+		<lang key="pt">Sérvia</lang>
+	</entry>
+
+	<entry key="Seychelles">
+		<lang key="de">Seychellen</lang>
+		<lang key="en">Seychelles</lang>
+		<lang key="hr">Sejšeli</lang>
+		<lang key="pt">Seychelles</lang>
+	</entry>
+
+	<entry key="SierraLeone">
+		<lang key="de">Sierra Leone</lang>
+		<lang key="en">Sierra Leone</lang>
+		<lang key="hr">Sijera Leone</lang>
+		<lang key="pt">Serra Leoa</lang>
+	</entry>
+
+	<entry key="Singapore">
+		<lang key="de">Singapur</lang>
+		<lang key="en">Singapore</lang>
+		<lang key="hr">Singapur</lang>
+		<lang key="pt">Singapura</lang>
+	</entry>
+
+	<entry key="Slovakia">
+		<lang key="de">Slovakien</lang>
+		<lang key="en">Slovakia</lang>
+		<lang key="hr">Slovačka</lang>
+		<lang key="pt">Eslováquia</lang>
+	</entry>
+
+	<entry key="Slovenia">
+		<lang key="de">Slovenien</lang>
+		<lang key="en">Slovenia</lang>
+		<lang key="hr">Slovenija</lang>
+		<lang key="pt">Eslovénia</lang>
+	</entry>
+
+	<entry key="SolomonIslands">
+		<lang key="de">Solomon Insel</lang>
+		<lang key="en">Solomon Islands</lang>
+		<lang key="hr">Solomon Otoci</lang>
+		<lang key="pt">Ilhas Salomão</lang>
+	</entry>
+
+	<entry key="Somalia">
+		<lang key="de">Somalien</lang>
+		<lang key="en">Somalia</lang>
+		<lang key="hr">Somalija</lang>
+		<lang key="pt">Somália</lang>
+	</entry>
+
+	<entry key="SouthAfrica">
+		<lang key="de">Süd Afrika</lang>
+		<lang key="en">South Africa</lang>
+		<lang key="hr">Južna Afrika</lang>
+		<lang key="pt">África do Sul</lang>
+	</entry>
+
+	<entry key="Spain">
+		<lang key="de">Spanien</lang>
+		<lang key="en">Spain</lang>
+		<lang key="hr">Španjolska</lang>
+		<lang key="pt">Espanha</lang>
+	</entry>
+
+	<entry key="SriLanka">
+		<lang key="de">Sri Lanka</lang>
+		<lang key="en">Sri Lanka</lang>
+		<lang key="hr">Šri Lanka</lang>
+		<lang key="pt">Sri Lanka</lang>
+	</entry>
+
+	<entry key="Sudan">
+		<lang key="de">Sudan</lang>
+		<lang key="en">Sudan</lang>
+		<lang key="hr">Sudan</lang>
+		<lang key="pt">Sudão</lang>
+	</entry>
+
+	<entry key="Suriname">
+		<lang key="de">Suriname</lang>
+		<lang key="en">Suriname</lang>
+		<lang key="hr">Surinam</lang>
+		<lang key="pt">Suriname</lang>
+	</entry>
+
+	<entry key="Svalbard">
+		<lang key="de">Svalbard and Jan Mayen Insel</lang>
+		<lang key="en">Svalbard and Jan Mayen Islands</lang>
+		<lang key="hr">Svalbard i Jan Mayen Otoci</lang>
+		<lang key="pt">Svalbard e a Ilha de Jan Mayen</lang>
+	</entry>
+
+	<entry key="Swaziland">
+		<lang key="de">Swasiland</lang>
+		<lang key="en">Swaziland</lang>
+		<lang key="hr">Swaziland</lang>
+		<lang key="pt">Suazilândia</lang>
+	</entry>
+
+	<entry key="Sweden">
+		<lang key="de">Schweden</lang>
+		<lang key="en">Sweden</lang>
+		<lang key="hr">Švedska</lang>
+		<lang key="pt">Suécia</lang>
+	</entry>
+
+	<entry key="Switzerland">
+		<lang key="de">Schweiz</lang>
+		<lang key="en">Switzerland</lang>
+		<lang key="hr">Švicarska</lang>
+		<lang key="pt">Suiça</lang>
+	</entry>
+
+	<entry key="SyrianArab">
+		<lang key="de">Syrien Arabische Republik</lang>
+		<lang key="en">Syrian Arab Republic</lang>
+		<lang key="hr">Sirija, ( Arapska Republika )</lang>
+		<lang key="pt">Síria (República Árabe da)</lang>
+	</entry>
+
+	<entry key="Taiwan">
+		<lang key="de">Taiwan</lang>
+		<lang key="en">Taiwan</lang>
+		<lang key="hr">Tajvan</lang>
+		<lang key="pt">Taiwan (Província da China)</lang>
+	</entry>
+
+	<entry key="Tajikistan">
+		<lang key="de">Tajikistan</lang>
+		<lang key="en">Tajikistan</lang>
+		<lang key="hr">Tadžikistan</lang>
+		<lang key="pt">Tajiquistão</lang>
+	</entry>
+
+	<entry key="Tanzania">
+		<lang key="de">Vereinigte Republik von Tanzanien</lang>
+		<lang key="en">United Republic of Tanzania</lang>
+		<lang key="hr">Tanzanija, Ujedinjena Republika</lang>
+		<lang key="pt">Tanzânia, República Unida da</lang>
+	</entry>
+
+	<entry key="Thailand">
+		<lang key="de">Thailand</lang>
+		<lang key="en">Thailand</lang>
+		<lang key="hr">Tajland</lang>
+		<lang key="pt">Tailândia</lang>
+	</entry>
+
+	<entry key="Togo">
+		<lang key="de">Togo</lang>
+		<lang key="en">Togo</lang>
+		<lang key="hr">Togo</lang>
+		<lang key="pt">Togo</lang>
+	</entry>
+
+	<entry key="Tokelau">
+		<lang key="de">Tokelau</lang>
+		<lang key="en">Tokelau</lang>
+		<lang key="hr">Tokelau</lang>
+		<lang key="pt">Tokelau</lang>
+	</entry>
+
+	<entry key="Tonga">
+		<lang key="de">Tonga</lang>
+		<lang key="en">Tonga</lang>
+		<lang key="hr">Tonga</lang>
+		<lang key="pt">Tonga</lang>
+	</entry>
+
+	<entry key="TrinidadTobago">
+		<lang key="de">Trinidad and Tobago</lang>
+		<lang key="en">Trinidad and Tobago</lang>
+		<lang key="hr">Trinidad i Tobago</lang>
+		<lang key="pt">Trindade e Tobago</lang>
+	</entry>
+
+	<entry key="Tunisia">
+		<lang key="de">Tunesien</lang>
+		<lang key="en">Tunisia</lang>
+		<lang key="hr">Tunis</lang>
+		<lang key="pt">Tunísia</lang>
+	</entry>
+
+	<entry key="Turkey">
+		<lang key="de">Türkei</lang>
+		<lang key="en">Turkey</lang>
+		<lang key="hr">Turska</lang>
+		<lang key="pt">Turquia</lang>
+	</entry>
+
+	<entry key="Turkmenistan">
+		<lang key="de">Turkmenistan</lang>
+		<lang key="en">Turkmenistan</lang>
+		<lang key="hr">Turkmenistan</lang>
+		<lang key="pt">Turquemenistão</lang>
+	</entry>
+
+	<entry key="Turks">
+		<lang key="de">Turks and Caicos Insel</lang>
+		<lang key="en">Turks and Caicos Islands</lang>
+		<lang key="hr">Turks i Caicos Otoci</lang>
+		<lang key="pt">Ilhas Turcas e Caicos</lang>
+	</entry>
+
+	<entry key="Tuvalu">
+		<lang key="de">Tuvalu</lang>
+		<lang key="en">Tuvalu</lang>
+		<lang key="hr">Tuvalu</lang>
+		<lang key="pt">Tuvalu</lang>
+	</entry>
+
+	<entry key="Uganda">
+		<lang key="de">Uganda</lang>
+		<lang key="en">Uganda</lang>
+		<lang key="hr">Uganda</lang>
+		<lang key="pt">Uganda</lang>
+	</entry>
+
+	<entry key="Ukraine">
+		<lang key="de">Ukraine</lang>
+		<lang key="en">Ukraine</lang>
+		<lang key="hr">Ukrajina</lang>
+		<lang key="pt">Ucrânia</lang>
+	</entry>
+
+	<entry key="UnitedArabEmirates">
+		<lang key="de">Vereinigte Arabische Emiraten</lang>
+		<lang key="en">United Arab Emirates</lang>
+		<lang key="hr">Ujedninjeni Arapski Emirati</lang>
+		<lang key="pt">Emiratos Árabes Unidos</lang>
+	</entry>
+
+	<entry key="UnitedKingdom">
+		<lang key="de">Vereinigtes Königreich</lang>
+		<lang key="en">United Kingdom</lang>
+		<lang key="hr">Ujedinjeno Kraljevstvo</lang>
+		<lang key="pt">Reino Unido</lang>
+	</entry>
+
+	<entry key="UnitedStates">
+		<lang key="de">Vereinigte Staaten</lang>
+		<lang key="en">United States</lang>
+		<lang key="hr">Sjedinjene Države</lang>
+		<lang key="pt">Estados Unidos</lang>
+	</entry>
+
+	<entry key="Uruguay">
+		<lang key="de">Uruguay</lang>
+		<lang key="en">Uruguay</lang>
+		<lang key="hr">Urugvaj</lang>
+		<lang key="pt">Uruguai</lang>
+	</entry>
+
+	<entry key="Uzbekistan">
+		<lang key="de">Uzbekistan</lang>
+		<lang key="en">Uzbekistan</lang>
+		<lang key="hr">Uzbekistan</lang>
+		<lang key="pt">Usbequistão</lang>
+	</entry>
+
+	<entry key="Vanuatu">
+		<lang key="de">Vanuatu</lang>
+		<lang key="en">Vanuatu</lang>
+		<lang key="hr">Vanuatu</lang>
+		<lang key="pt">Vanuatu</lang>
+	</entry>
+
+	<entry key="Venezuela">
+		<lang key="de">Venezuela</lang>
+		<lang key="en">Venezuela</lang>
+		<lang key="hr">Venezuela</lang>
+		<lang key="pt">Venezuela</lang>
+	</entry>
+
+	<entry key="Vietnam">
+		<lang key="de">Vietnam</lang>
+		<lang key="en">Vietnam</lang>
+		<lang key="hr">Vietnam</lang>
+		<lang key="pt">Vietname</lang>
+	</entry>
+
+	<entry key="VirginIslands">
+		<lang key="de">Virgin Islands, U.S.</lang>
+		<lang key="en">Virgin Islands, U.S.</lang>
+		<lang key="hr">Djevičanski Otoci, U.S.</lang>
+		<lang key="pt">Ilhas Virgens (Estados Unidos)</lang>
+	</entry>
+
+	<entry key="Wallis">
+		<lang key="de">Wallis und Futuna</lang>
+		<lang key="en">Wallis and Futuna</lang>
+		<lang key="hr">Wallis i Futuna</lang>
+		<lang key="pt">Wallis e Futuna (Ilhas)</lang>
+	</entry>
+
+	<entry key="WesternSahara">
+		<lang key="de">Sahara</lang>
+		<lang key="en">Sahara</lang>
+		<lang key="hr">Sahara</lang>
+		<lang key="pt">Sara Ocidental</lang>
+	</entry>
+
+	<entry key="Yemen">
+		<lang key="de">Jemen</lang>
+		<lang key="en">Yemen</lang>
+		<lang key="hr">Jemen</lang>
+		<lang key="pt">Iémen</lang>
+	</entry>
+
+	<entry key="Zambia">
+		<lang key="de">Zambia</lang>
+		<lang key="en">Zambia</lang>
+		<lang key="hr">Zambia</lang>
+		<lang key="pt">Zâmbia</lang>
+	</entry>
+
+	<entry key="Zimbabwe">
+		<lang key="de">Zimbabwe</lang>
+		<lang key="en">Zimbabwe</lang>
+		<lang key="hr">Zimbabve</lang>
+		<lang key="pt">Zimbabwe</lang>
+	</entry>
+
+</resources>

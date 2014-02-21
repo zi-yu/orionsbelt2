@@ -1,0 +1,15 @@
+﻿<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/en/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	Merchant
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="menu" runat="server">
+	<h2>Quests</h2><ul><li><a href='/en/PirateQuests.aspx'>Pirate</a></li><li><a href='/en/RaceQuests.aspx'>Race</a></li><li><a href='/en/ColonizerQuests.aspx'>Colonizer</a></li><li><a href='/en/GladiatorQuests.aspx'>Gladiator</a></li><li><a href='/en/BattleQuests.aspx'>Battle</a></li><li><a href='/en/PMQuestQuests.aspx'>Planet Management</a></li><li><a href='/en/MerchantQuests.aspx'>Merchant</a></li><li><a href='/en/BountyHunterQuests.aspx'>Bounty Hunter</a></li><li><a href='/en/MercsQuests.aspx'>Mercs</a></li><li><a href='/en/SpaceForceQuests.aspx'>Space Force</a></li></ul>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1>Merchant</h1><div class='description'><a href='/en/Quests.aspx'>Quests</a> that focus on <a href='/en/Commerce/TradeRoutes.aspx'>Trade Routes</a>.</div><h2>Merchant Quests</h2><table class='table' id='quests'><tr><th colspan='2'>Utopians</th><th colspan='2'>Renegades</th><th colspan='2'>Levyr</th></tr><tr><td colspan='6'><a href='Quest/GetAllPrivateZoneResources.aspx'>Catch all the resources in your private zone</a></td></tr><tr><td colspan='6'><a href='Quest/FindOneMarketQuest.aspx'>Find one market on the public zone</a></td></tr><tr><td colspan='6'><a href='Quest/FirstTradeRouteQuest.aspx'>Complete a trade route</a></td></tr><tr><td colspan='6'><a href='Quest/CompleteForLevel1TradeRoutes.aspx'>Complete 4 trade routes using Tools or Supplies</a></td></tr><tr><td colspan='6'><a href='Quest/Complete10Level1TradeRoutes.aspx'>Complete 10 trade routes using Tools or Supplies in 24 hours</a></td></tr><tr><td colspan='6'><a href='Quest/BringToolsAndSuppliesToMarketLevel3.aspx'>Bring a fleet with both Tools and Supplies to a level 3 or 5 Market</a></td></tr><tr><td colspan='6'><a href='Quest/Complete8Level3TradeRoutes.aspx'>Complete 8 trade routes using Alcohol or Medicine</a></td></tr><tr><td colspan='6'><a href='Quest/Complete12Level3TradeRoutes.aspx'>Complete 12 trade routes using Alcohol or Medicine in 24 hours</a></td></tr><tr><td colspan='6'><a href='Quest/BringMedicineAndAlcoholToMarketLevel7.aspx'>Bring Medicine and Alcohol to a Market level 7</a></td></tr><tr><td colspan='6'><a href='Quest/Complete12Level7TradeRoutes.aspx'>Complete 12 trade routes using Mercury or Diamonds</a></td></tr><tr><td colspan='6'><a href='Quest/Complete16Level7TradeRoutes.aspx'>Complete 16 trade routes using Mercury or Diamonds in 24 hours</a></td></tr><tr><td colspan='6'><a href='Quest/BringMercuryAndDiamondsToMarketLevel10.aspx'>Bring Mercury and Diamonds to a level 10 Market</a></td></tr><tr><td colspan='6'><a href='Quest/Complete16Level10TradeRoutes.aspx'>Complete 16 trade routes using Animals or Cosmic Dust</a></td></tr><tr><td colspan='6'><a href='Quest/Complete20Level10TradeRoutes.aspx'>Complete 20 trade routes using Animals or Cosmic Dust in 24 hours</a></td></tr></table>
+	
+</asp:Content>

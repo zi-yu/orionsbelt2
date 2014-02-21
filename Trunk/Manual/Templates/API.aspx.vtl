@@ -1,0 +1,19 @@
+<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/$locale/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	$utils.Localize("API")
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="conceptMenu" runat="server">
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1>$utils.Localize("API")</h1>
+	<div class="content">
+		$utils.Localize("APIIntro")
+	</div>
+	
+	$utils.GetAPIMenu()
+	
+</asp:Content>

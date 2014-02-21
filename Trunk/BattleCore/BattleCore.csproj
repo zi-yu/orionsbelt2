@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6AA7FC93-B193-4F76-81BF-E3517B2025E1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrionsBelt.BattleCore</RootNamespace>
+    <AssemblyName>OrionsBelt.BattleCore</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\WebUserInterface\Bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DesignPatterns, Version=1.1.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42">
+      <HintPath>..\WebUserInterface\Bin\DesignPatterns.dll</HintPath>
+    </Reference>
+    <Reference Include="Loki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42, processorArchitecture=MSIL">
+      <HintPath>..\WebUserInterface\Bin\Loki.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Engine\BattleInfos\BattleInfo.cs" />
+    <Compile Include="Engine\BattleInfos\Implementation\BattleInfo2Players.cs" />
+    <Compile Include="Engine\BattleInfos\Implementation\BattleInfo4Players.cs" />
+    <Compile Include="Engine\BattleInfos\Implementation\Domination4.cs" />
+    <Compile Include="Engine\BattleInfos\Implementation\Domination.cs" />
+    <Compile Include="Engine\BattleInfos\Implementation\Regicide4.cs" />
+    <Compile Include="Engine\BattleInfos\Implementation\Regicide.cs" />
+    <Compile Include="Engine\BattleInfos\Implementation\TotalAnnihalation.cs" />
+    <Compile Include="Engine\BattleInfos\Implementation\TotalAnnihalation4.cs" />
+    <Compile Include="Engine\BattleInfos\BattlePlayer.cs" />
+    <Compile Include="Engine\Effects\CoolDown.cs" />
+    <Compile Include="Engine\Effects\Hatch .cs" />
+    <Compile Include="Engine\Effects\RemoveAbility.cs" />
+    <Compile Include="Engine\Effects\Effect.cs" />
+    <Compile Include="Engine\Effects\Infestation.cs" />
+    <Compile Include="Engine\Effects\Paralyze.cs" />
+    <Compile Include="Engine\Element.cs" />
+    <Compile Include="Engine\Generic\Domination\DominationTeam.cs" />
+    <Compile Include="Engine\Generic\Domination\DominationTeamContainer.cs" />
+    <Compile Include="Engine\Generic\Domination\DominationPointsComparer.cs" />
+    <Compile Include="Engine\Generic\Modifier.cs" />
+    <Compile Include="Engine\Generic\ModifierContainer.cs" />
+    <Compile Include="Engine\Generic\Score\ArenaScore.cs" />
+    <Compile Include="Engine\Generic\Score\BattleScore.cs" />
+    <Compile Include="Engine\Generic\Score\BaseScore.cs" />
+    <Compile Include="Engine\Generic\Score\CampaignScore.cs" />
+    <Compile Include="Engine\Generic\Score\Support\ScoreTeamVictoryContainer.cs" />
+    <Compile Include="Engine\Generic\Score\Support\ScoreTeamVictoryComparer.cs" />
+    <Compile Include="Engine\Generic\Score\Support\ScoreTeam.cs" />
+    <Compile Include="Engine\Generic\Score\FriendlyScore.cs" />
+    <Compile Include="Engine\Generic\Score\Support\ScoreTeamTopComparer.cs" />
+    <Compile Include="Engine\Generic\Score\Support\ScoreTeamTopContainer.cs" />
+    <Compile Include="Engine\Generic\Score\TournamentScore.cs" />
+    <Compile Include="Engine\Generic\VictoryPercentage\PlayerStatistics.cs" />
+    <Compile Include="Engine\InitialContainer.cs" />
+    <Compile Include="Engine\PositionConversions\ConvertToPlayer2.cs" />
+    <Compile Include="Engine\PositionConversions\ConvertToPlayer3.cs" />
+    <Compile Include="Engine\PositionConversions\ConvertToPlayer4.cs" />
+    <Compile Include="Engine\PositionConversions\ConvertToPlayer1.cs" />
+    <Compile Include="Engine\SpecialMoves\BombAttack.cs" />
+    <Compile Include="Engine\SpecialMoves\ResetCoolDown.cs" />
+    <Compile Include="Engine\SpecialMoves\RemoveAbilityAttack.cs" />
+    <Compile Include="Engine\SpecialMoves\ParalyzeAttack.cs" />
+    <Compile Include="Engine\SpecialMoves\InfestationAttack.cs" />
+    <Compile Include="Engine\SpecialMoves\Replicator.cs" />
+    <Compile Include="Engine\SpecialMoves\StrikeBack.cs" />
+    <Compile Include="Engine\SpecialMoves\TripleAttack.cs" />
+    <Compile Include="Engine\SpecialMoves\Rebound.cs" />
+    <Compile Include="Engine\Generic\VictoryPercentage\BattleStatistics.cs" />
+    <Compile Include="Interpreters\Implementation\BlinkInterpreter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Interpreters\Implementation\EggInterpreter.cs" />
+    <Compile Include="Interpreters\Implementation\RotationInterpreter.cs" />
+    <Compile Include="Results\BattleEnded.cs" />
+    <Compile Include="Results\AllPlayersMustBePositioned.cs" />
+    <Compile Include="Results\CoordinateAlreadyHasAUnit.cs" />
+    <Compile Include="Results\CoolDownAttack.cs" />
+    <Compile Include="Results\SameTeam.cs" />
+    <Compile Include="Results\InvalidPlayerToPlay.cs" />
+    <Compile Include="Results\InvalidNumberOfParameters.cs" />
+    <Compile Include="Results\InvalidRotation.cs" />
+    <Compile Include="Results\InvalidAttack.cs" />
+    <Compile Include="Translater\Translater.cs" />
+    <Compile Include="Translater\Translaters\BattleTranslater.cs" />
+    <Compile Include="Translater\Translaters\EggTranslater.cs" />
+    <Compile Include="Translater\Translaters\RotationTranslater.cs" />
+    <Compile Include="Translater\Translaters\FinalStateTranslater.cs" />
+    <Compile Include="Translater\Translaters\ITranslate.cs" />
+    <Compile Include="Translater\Translaters\MoveTranslater.cs" />
+    <Compile Include="Unit\Bonus\Bonus.cs" />
+    <Compile Include="Unit\Bonus\AttackBonus.cs" />
+    <Compile Include="Unit\Bonus\RangeBonus.cs" />
+    <Compile Include="Unit\Bonus\DefenseBonus.cs" />
+    <Compile Include="Unit\Bugs\BattleQueen.cs" />
+    <Compile Include="Unit\Bugs\BattleBlackWidow.cs" />
+    <Compile Include="Unit\Bugs\BattleSpider.cs" />
+    <Compile Include="Unit\Bugs\BattleDestroyer.cs" />
+    <Compile Include="Unit\Bugs\BattleHeavySeeker.cs" />
+    <Compile Include="Unit\Bugs\BattleStinger.cs" />
+    <Compile Include="Unit\Bugs\BattleSeeker.cs" />
+    <Compile Include="Unit\Bugs\BattleInterceptor.cs" />
+    <Compile Include="Unit\Bugs\BattleHiveProtector.cs" />
+    <Compile Include="Unit\Bugs\BattleHiveKing.cs" />
+    <Compile Include="Unit\Bugs\BattleWorm.cs" />
+    <Compile Include="Unit\Bugs\BattleMaggot.cs" />
+    <Compile Include="Unit\Bugs\BattleEgg.cs" />
+    <Compile Include="Unit\DarkHumans\BattleBattleMoon.cs" />
+    <Compile Include="Unit\DarkHumans\BattleDarkCrusader.cs" />
+    <Compile Include="Unit\DarkHumans\BattleDarkRain.cs" />
+    <Compile Include="Unit\DarkHumans\BattleKamikaze.cs" />
+    <Compile Include="Unit\DarkHumans\BattleScarab.cs" />
+    <Compile Include="Unit\DarkHumans\BattleDriller.cs" />
+    <Compile Include="Unit\DarkHumans\BattleDarkTaurus.cs" />
+    <Compile Include="Unit\DarkHumans\BattleVector.cs" />
+    <Compile Include="Unit\DarkHumans\BattleAnubis.cs" />
+    <Compile Include="Unit\DarkHumans\BattleToxic.cs" />
+    <Compile Include="Unit\DarkHumans\BattleDoomer.cs" />
+    <Compile Include="Unit\DarkHumans\BattleBoozer.cs" />
+    <Compile Include="Unit\Humans\BattlePanther.cs" />
+    <Compile Include="Unit\Humans\BattleFenix.cs" />
+    <Compile Include="Unit\Humans\BattlePretorian.cs" />
+    <Compile Include="Unit\Humans\BattleTaurus.cs" />
+    <Compile Include="Unit\Humans\BattleSamurai.cs" />
+    <Compile Include="Unit\Humans\BattleRaptor.cs" />
+    <Compile Include="Unit\Humans\BattleEagle.cs" />
+    <Compile Include="Unit\Humans\BattleKahuna.cs" />
+    <Compile Include="Unit\Humans\BattleKrill.cs" />
+    <Compile Include="Unit\Humans\BattleNova.cs" />
+    <Compile Include="Unit\Humans\BattleBlinker.cs" />
+    <Compile Include="Unit\Mercs\SilverBeard.cs" />
+    <Compile Include="Unit\Mercs\MetallicBeard.cs" />
+    <Compile Include="Unit\Mercs\Reaper.cs" />
+    <Compile Include="Unit\Mercs\Scourge.cs" />
+    <Compile Include="Unit\Mercs\Sentry.cs" />
+    <Compile Include="Unit\Mercs\Titan.cs" />
+    <Compile Include="Unit\Mercs\Walker.cs" />
+    <Compile Include="Unit\SpaceForce\CaptainWolf.cs" />
+    <Compile Include="Unit\SpaceForce\Cypher.cs" />
+    <Compile Include="Unit\SpaceForce\Myst.cs" />
+    <Compile Include="Unit\SpaceForce\Jumper.cs" />
+    <Compile Include="Unit\SpaceForce\CommanderFox.cs" />
+    <Compile Include="Unit\SpaceForce\Fist.cs" />
+    <Compile Include="Unit\SpaceForce\Crawler.cs" />
+    <Compile Include="Unit\Special\Flag.cs" />
+    <Compile Include="Unit\UltimateUnit.cs" />
+    <Compile Include="Utils\AttackChecker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\BattleUtils.cs" />
+    <Compile Include="Utils\AttackUtils.cs" />
+    <Compile Include="Utils\ScoreUtils.cs" />
+    <Compile Include="Utils\ElementParser.cs" />
+    <Compile Include="Engine\PositionConversions\PositionConversionBase.cs" />
+    <Compile Include="Engine\SectorTranslator.cs" />
+    <Compile Include="Exceptions\BattleException.cs" />
+    <Compile Include="Exceptions\CoordinateException.cs" />
+    <Compile Include="Interfaces\IBattleEvents.cs" />
+    <Compile Include="Engine\BattleCoordinate.cs" />
+    <Compile Include="Interpreters\Implementation\BattleInterpreter.cs" />
+    <Compile Include="Interpreters\Implementation\MoveInterpreter.cs" />
+    <Compile Include="Interpreters\Implementation\PositionInterpreter.cs" />
+    <Compile Include="Interpreters\Interpreter.cs" />
+    <Compile Include="Utils\MoveChecker.cs" />
+    <Compile Include="Interpreters\InterpreterBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Results\InvalidTarget.cs" />
+    <Compile Include="Results\InvalidUnitToBeAttacked.cs" />
+    <Compile Include="Results\InvalidUnitToAttack.cs" />
+    <Compile Include="Results\InvalidMovement.cs" />
+    <Compile Include="Results\InvalidUnitToMove.cs" />
+    <Compile Include="Results\MustPositionAllTheUnits.cs" />
+    <Compile Include="Results\InvalidUnitPositioning.cs" />
+    <Compile Include="Results\PlayerAlreadyPositioned.cs" />
+    <Compile Include="Results\InvalidDestiny.cs" />
+    <Compile Include="Results\MoveSucceded.cs" />
+    <Compile Include="Results\InvalidInterpretationData.cs" />
+    <Compile Include="Results\InvalidNumberOfMoves.cs" />
+    <Compile Include="Results\InvalidElement.cs" />
+    <Compile Include="Results\MinimumRest.cs" />
+    <Compile Include="Results\MinimumMove.cs" />
+    <Compile Include="Results\InvalidUnit.cs" />
+    <Compile Include="Results\InvalidQuantity.cs" />
+    <Compile Include="Results\InvalidCoordinate.cs" />
+    <Compile Include="Results\FirstAttack.cs" />
+    <Compile Include="Results\InvalidMove.cs" />
+    <Compile Include="Unit\Humans\BattleCrusader.cs" />
+    <Compile Include="Unit\Humans\BattleRain.cs" />
+    <Compile Include="Unit\Unit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{D9CDBB66-F267-44AB-AF03-C877489E01B0}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{7A325E24-4700-4E56-85A3-E57CE4622677}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Generic\Generic.csproj">
+      <Project>{26274F5B-70BC-419A-8062-E53FC5CD009D}</Project>
+      <Name>Generic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RulesCore\RulesCore.csproj">
+      <Project>{8A73B0DB-13D5-43C3-AA75-E8E59870902F}</Project>
+      <Name>RulesCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interpreters\SpecificInterpreters\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,54 @@
+#
+# Update SVN
+#
+
+echo "Updating Laguage SVN..."
+cd /opt/orionsbelt/prd/lang/svn/Institutional/Localization/
+rm -rf Resources
+svn update
+
+cd /opt/orionsbelt/prd/lang/svn/Game/Localization/
+rm -rf Resources
+rm -rf Manual
+svn update
+
+#
+# Merge SVN to database
+#
+
+echo "Merging SVN to DB..."
+/usr/bin/mono-ob /opt/orionsbelt/prd/lang/public/bin/Language.Config.exe --lang-project:Game --import-lang-xml:/opt/orionsbelt/prd/lang/svn/Game/Localization/
+/usr/bin/mono-ob /opt/orionsbelt/prd/lang/public/bin/Language.Config.exe --lang-project:Institutional --import-lang-xml:/opt/orionsbelt/prd/lang/svn/Institutional/Localization/
+
+#
+# Export DB to files
+#
+
+/usr/bin/mono-ob /opt/orionsbelt/prd/lang/public/bin/Language.Config.exe --export-lang-xml:/opt/orionsbelt/prd/lang/svn/
+cp -R /opt/orionsbelt/prd/lang/svn/Institutional/Resources/ /opt/orionsbelt/prd/lang/svn/Institutional/Localization/
+cp -R /opt/orionsbelt/prd/lang/svn/Game/Resources/ /opt/orionsbelt/prd/lang/svn/Game/Localization/
+cp -R /opt/orionsbelt/prd/lang/svn/Game/Manual/ /opt/orionsbelt/prd/lang/svn/Game/Localization/
+
+#
+# Update SVN
+#
+
+echo "Updating SVN..."
+
+cd /opt/orionsbelt/prd/lang/svn/Institutional/Localization/
+svn commit -m "Daily institutional language sync" --username orionsbelt --password orionsbeltf40
+
+cd /opt/orionsbelt/prd/lang/svn/Game/Localization/
+svn commit -m "Daily trunk language sync" --username orionsbelt --password orionsbeltf40
+
+#
+# Generate language reports
+#
+
+echo "Generating Reports..."
+
+/usr/bin/mono-ob /opt/orionsbelt/prd/lang/public/bin/Language.Config.exe --locales:'de;en;es;fr;hu;it;pt;ro;ru;se;tr;hr' --lstats:/opt/orionsbelt/prd/lang/svn/Game/Localization/
+cp /opt/orionsbelt/prd/lang/svn/Game/Localization/Report.html /opt/orionsbelt/prd/lang/public/Metrics/Game.html
+
+/usr/bin/mono-ob /opt/orionsbelt/prd/lang/public/bin/Language.Config.exe --locales:'de;en;es;fr;hu;it;pt;ro;ru;se;tr;hr' --locales:'de;en;es;fr;hu;it;pt;ro;ru;se;tr' --lstats:/opt/orionsbelt/prd/lang/svn/Institutional/Localization/
+cp /opt/orionsbelt/prd/lang/svn/Institutional/Localization/Report.html /opt/orionsbelt/prd/lang/public/Metrics/Institutional.html

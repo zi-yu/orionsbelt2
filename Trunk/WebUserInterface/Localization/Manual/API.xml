@@ -1,0 +1,831 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="API">
+		<lang key="de">API und Nützliches</lang>
+		<lang key="en">API and Utilities</lang>
+		<lang key="fr">API et Utilités</lang>
+		<lang key="hr">API i Utilities</lang>
+		<lang key="hu">API és Utilities</lang>
+		<lang key="it">API e Utilities</lang>
+		<lang key="pt">API e Utilitários</lang>
+		<lang key="ro">API şi Utilităţile</lang>
+	</entry>
+
+	<entry key="APIIntro">
+		<lang key="de">Der [OB] API erlaubt Entwicklern benutzerdefinierte Anwendungen zu erschaffen die über das Spiel hinausgehen. Du kannst benutzerdefinierte Rechner erschaffen, benutzerdefinierte Universum-Karten, Kampf bots die KI benutzen,Kampf Clients, etc.</lang>
+		<lang key="en">The [OB] API allows developers to build custom aplications on top of the game. You can create custom battle calculatores, custom universe maps, battle bots using AI, battle clients, etc.</lang>
+		<lang key="fr">L'[OB] API permet aux créateurs de créer des logiciels personnalisés par rapport au jeu. Vous pouvez créer des calculateurs de combat personnalisés, des cartes de l'univers personnalisé, des combats contre une intelligence artificielle, des « battle clients », etc.</lang>
+		<lang key="hr">[OB] API dopušta developerima da izgrade prilagođene aplikacije na igri. Možete stvoriti prilagođene kallkulatore bitki, prilagođene mape svemira, borbene botove koji rabe AI, borbene klijente, itd.</lang>
+		<lang key="hu">AZ [OB] API lehetőséget nyújt a játékosoknak, hogy egyedi alkalmazásokat hozzanak létre a játékon túl. Létrehozhatsz egyedi csata kalkulátorokat, egyedi univerzum térképeket, harci bot-okat MI felhasználásával, harc résztvevőket, stb.</lang>
+		<lang key="it">L'API di [OB] permette agli sviluppatori di costruire applicazioni che si appoggiano al gioco. Puoi creare simulatori di battaglie, mappe dell'universo, bot da battaglia, client personalizzati per le battaglie, etc.</lang>
+		<lang key="pt">A API do [OB] permite que os jogadores criem aplicações que extendem o jogo. Podes criar calculadoras de batalha, vistas do universo, bots de combate com IA, 
+    clientes para a batalha, etc.</lang>
+		<lang key="ro">[OB] API permite creatorilor să creeze aplicaţii personalizate care se extind în joc. Puteţi crea calculatoare de luptă personalizate, hărţi personalizate ale universului, roboţi de luptă care utilizează Inteligenta Artificială, lupte între clienţi, etc.</lang>
+	</entry>
+
+	<entry key="BattleAPI">
+		<lang key="de">Kämpfe API</lang>
+		<lang key="en">Battle API</lang>
+		<lang key="fr">API de Combat</lang>
+		<lang key="hr">API bitke</lang>
+		<lang key="hu">Csata API</lang>
+		<lang key="it">API delle Battaglie</lang>
+		<lang key="pt">API das Batalhas</lang>
+		<lang key="ro">API de luptă</lang>
+	</entry>
+
+	<entry key="BattleAPIInfo_Part1">
+		<lang key="de"><div class="content">
+    Der <b>Battle API</b> erlaubt Anwendungen von Drittanbietern Schalchten zu spielen auf [OB] als 
+    ein <i>bot</i>. Du kannst diesen API benutzen um künstliche Intelligenz Bots zu erschaffen oder 
+    Spiel Clients die in der Lage sind mit anderen Spielern zu kämpfen oder Bots auf dem [GameBoard]. 
+    Beispiel einer Schlacht:
+    
+    <img src="/Resources/Images/Battle.png" class="block"/><h2>Contents</h2><ul><li><a href="#Apply">How to Apply</a></li><li><a href="#Overview">Overview</a></li><li><a href="#AskBattles">Ask For Battles</a></li><li><a href="#Deploy">Deploy</a></li><li><a href="#TurnMoves">Turn Moves</a></li><li><a href="#More">More Information</a></li></ul><a name="Apply" id="apply"></a><h2>How to Apply</h2>
+    Um in der Lage zu sein eine Anwendung zu entwickeln mit der Schlacht API, musst du uns 
+    kontaktieren. Dann werden wir für dich die Entwicklungsumgebung vorbereiten und dir beim Start 
+    helfen.
+    <p>
+    Du kannst uns kontaktieren in dem du die Mail <a 
+    href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> benutzt.
+
+    <a name="Overview" id="Overview"></a></p><h2>Überblick</h2>
+    Die Schlacht API ist sehr einfach zu bedienen. Du kannst eine Anwendung erzeugen die mit  
+    [OB] kommuniziert und Gefechts-Bewegungen und -Zustände sendet/erhält.
+    Du musst deine Anwendung kodieren um Formierungen und Runden zu machen. Die Grundinteraktion ist 
+    folgende:
+    <ul><li>#1 Du fragst den Server nach Gefechten, ein XML Dokument mit den Gefechten die du zu 
+    spielen hast</li><li>#2 Für jedes erhaltene Gefecht wirst du eine HTTP Anfrage senden zu einer 
+    bereitgestellten URL mit einer Formierung oder Bewegungen</li><li>#3 Warte eine Zeitlang und 
+    kehre zurück zu Schritt #1</li></ul><p>
+    Du hast ein XML Dokument zur Verfügung mit der kompletten <a href="UnitsJSON.aspx">Einheiten-
+    Spezifikation</a>. Wenn wir dein bot/client konfigurieren, bist du in der Lage ein [Friendly] zu 
+    erzeugen und dein Bot in Aktion zu testen.
+
+    <a name="AskBattles" id="AskBattles"></a></p><h2>Gefecht Anfrage</h2>
+    Das erste Mal wenn du nach Gefechten anfragst, wirst du keine erhalten. Du musst eine [Friendly] 
+    mit deinem Bot erzeugen, und nur dann erhälst du einige Gefechte zum spielen. Um nach Gefechten 
+    zu fragen musst du eine HTTP Anfrage senden:
+    
+    <pre class="code">http://<u>server</u>.orionsbelt.eu/Ajax/Battle/BotBattle.ashx?type=<u>botGetBattles</u>&amp;botId=<u>1111</u>&amp;verificationCode=<u>ABC</u></pre>
+
+    Beachte dass du die Anfrage auf den richtigen Server schicken musst. Du hast ein Bot pro Server, 
+    also wenn du auf mehr als einem Server registriet bist wirst du dementsprechend handeln müssen. 
+    Du musst zusätzlich die Bot ID und den Bot Verifizierungs-Code angeben.
+
+    <a name="Deploy" id="Deploy"></a><h2>Deploy</h2>
+    Der erste Teil des Gefechts ist [Deploy]. Wenn du nach Gefechten anfragst indem du die vorige URL 
+    benutzt erhälst du sowas wie:
+    <pre class="code">  &lt;Battles&gt;
+    &lt;Battle id='1339260' state='<u>deploy</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='203'&gt;<u>nunos</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;Bot001&lt;/CurrentPlayer&gt;
+  &lt;Units&gt;
+    &lt;Unit quantity='10' name='Raptor' code='rp' /&gt;
+  &lt;/Units&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    Dies ist ein sehr einfaches Gefecht zwischen <u>Bot001</u> und <u>nunos</u>, und du müsstest 
+    jetzt formieren. Die Kampf- [Fleet] hat nur den [Raptor], keine [CombatUnits] sind mehr präsent. 
+    Du müsstest jetzt eine Anfrage senden zu <u>ResponseUrl</u> und hinweisen dass du [Deploy] 
+    möchtest:
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botdeploy</u>&amp;id=<u>1234</u>&amp;moves=<u>p:rp-8_1-2;p:rp-8_2-8;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    Der <u>moves</u> Parameter ist der wichtigiste und hat folgendes Format:
+    <pre class="code">p:<u>Einheits_Code</u>-<u>Koordinate</u>-<u>Anzahl</u></pre>
+    Du müsstest eine Kette bauen wie diese für jeden Einheiten-Block in der [Deploy] Zone . Du hast 
+    die Einheiten-Codes auf <a href="UnitsJSON.aspx">Einheiten-Spezifikationen</a>. Nach dem Aufruf 
+    der korrekten URL, geht das Gefecht weiter.
+
+    <a name="TurnMoves" id="TurnMoves"></a><h2>Runden-Spielzüge</h2>
+    Nach dem [Deploy] kannst du wieder nach Gefechten fragen, und nun wirst du deine Spielzüge machen 
+    müssen. Beachte dass auf diesen Beispielen nur ein Gefecht zurückgegeben wird, aber du hast 
+    mehrere Gefecht zu spielen, du würdest mehrere &lt;Battle/&gt; Elemente erhalten. Wenn deine Runde zu spielen ist, wirst du etwas ähnliches erhalten:
+    <pre class="code">  &lt;Battles&gt;
+    &lt;Battle id='1339264' state='<u>battle</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='204'&gt;<u>tsousa</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/CurrentPlayer&gt;
+  &lt;Elements&gt;
+    &lt;Element coordinate='2_4' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='1' ownerId='204' direction='S' quantity='1' remainingDefense='300' code='rp'/&gt;
+    &lt;Element coordinate='8_1' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='0' ownerId='1339159' direction='N' quantity='1' remainingDefense='300' code='rp'/&gt;
+  &lt;/Elements&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    Beachte das der Status von <u>deploy</u> zu <u>battle</u> gewechselt hat. Jetzt erhälst du die 
+    aktuelle [GameBoard] Disposition, jede Einheiten-Gruppe, Anzahl, Koordinate, etc.
+    Nachdem deine Spielzüge kalkuliert wurden, müsstest du deine Antworten zurücksenden zum Spiel, 
+    indem du die angegebene URL benutzt <u>ResponseUrl</u>. Eine Beispiel-URL würde sein:
+    
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botbattle</u>&amp;id=<u>1111</u>&amp;moves=<u>r:7_3-n-w;b:7_3-7_2;m:8_3-8_2-5-n;b:8_2-7_2;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    
+    Der <u>moves</u> Parameter ist wie eine Liste von Spielzügen mit der folgenden Syntax:
+    
+    <table class="table" style="width: 100%; margin-top: 10px; margin-bottom: 10px;"><tbody><tr><th>Type</th><th>Syntax</th><th>Description</th></tr><tr><td>Move</td><td><pre>m:<u>unit_coordinate</u>-<u>destination_coordinate</u>-<u>quantity</u>-<u>direction</u>;</pre></td><td>Moves a unit group from one square to another adjacent square</td></tr><tr><td>Rotate</td><td><pre>r:<u>unit_coordinate</u>-<u>current_direction</u>-<u>next_direction</u>;</pre></td><td>Rotates a unit group; direction can be: N, S, E and W</td></tr><tr><td>Attack</td><td><pre>b:<u>unit_coordinate</u>-<u>target_coordinate</u>;</pre></td><td>Attacks the adversary unit group</td></tr></tbody></table>
+    
+    Dann ist die Runde deines Gegners. Wenn er fertig ist, erhälst du den neuen [GameBoard] Status 
+    und du musst dann weitere Spielzüge machen. Das geht so weiter bis die Schalcht nicht vorbei ist. 
+    Beachte dass deine Spielzüge nicht mehr als 6 [MovPoints] kosten dürfen.
+    
+    <a name="More" id="More"></a><h2>Mehr Information</h2>
+    Wenn du Fragen oder Vorschläge hast kontaktiere uns bitte, wir würden dir gerne weiterhelfen.
+  </div></lang>
+		<lang key="en"><div class="content">
+    The <b>Battle API</b> allows third party applications to play battles on [OB] as a <i>bot</i>. You may use this API to create artificial
+    intelligence bots or game clients that'll be able to battle with other players or bots on the [GameBoard]. Example of a battle:
+    
+    <img src="/Resources/Images/Battle.png" class="block" /><h2>Contents</h2><ul><li><a href="#Apply">How to Apply</a></li><li><a href="#Overview">Overview</a></li><li><a href="#AskBattles">Ask For Battles</a></li><li><a href="#Deploy">Deploy</a></li><li><a href="#TurnMoves">Turn Moves</a></li><li><a href="#More">More Information</a></li></ul><a name="Apply" id="apply"></a><h2>How to Apply</h2>
+    In order to be able to develop an application using the Battle API, you'll have to contact us. Then we will prepare the development environment
+    for you and get you started.
+    <p />
+    You may contact us using the <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> mail.
+
+    <a name="Overview" id="Overview"></a><h2>Overview</h2>
+    The Battle API is very simple to use. You may create an application that will comunicate with [OB] and send/receive moves and battle states.
+    You'll have to code your application to perform deploys and turns. The basic interaction is the following:
+    <ul><li>#1 You ask the server for battles, and receive a XML file with the battles you have to play</li><li>#2 For each battle received you'll send a HTTP reques to a provided URL with a deploy or moves</li><li>#3 Wait a while and then return to step #1</li></ul><p />
+    You have available a XML file with the complete <a href="UnitsJSON.aspx">units specification</a>. When we configure your bot/client, you'll
+    be able to create a [Friendly] with it and try your bot in action.
+
+    <a name="AskBattles" id="AskBattles"></a><h2>Ask For Battles</h2>
+    The first time you ask for battles, you won't get any. You'll have to create a [Friendly] with your bot, and only then you'll get some battles
+    to play. To ask for battles you'll have to make an HTTP request to:
+    
+    <pre class="code">http://<u>server</u>.orionsbelt.eu/Ajax/Battle/BotBattle.ashx?type=<u>botGetBattles</u>&amp;botId=<u>1111</u>&amp;verificationCode=<u>ABC</u></pre>
+
+    Note that you'll have to send the request for the right server. You'll have a bot per server, so if you're registered on more than one server you'll have to act
+    accordinally. You also have to give the bot ID and the bot verification code.
+
+    <a name="Deploy" id="Deploy"></a><h2>Deploy</h2>
+    The first part of the battle is the [Deploy]. When you request battles using the previous URL you'll receive something like:
+    <pre class="code">
+  &lt;Battles&gt;
+    &lt;Battle id='1339260' state='<u>deploy</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='203'&gt;<u>nunos</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;Bot001&lt;/CurrentPlayer&gt;
+  &lt;Units&gt;
+    &lt;Unit quantity='10' name='Raptor' code='rp' /&gt;
+  &lt;/Units&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    This is a very simple battle between <u>Bot001</u> and <u>nunos</u>, and you'd have to deploy now. The combat [Fleet] only has the [Raptor], no more [CombatUnits]
+    are present. You'd now have to make a request to <u>ResponseUrl</u> indicating how you'd like to [Deploy]:
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botdeploy</u>&amp;id=<u>1234</u>&amp;moves=<u>p:rp-8_1-2;p:rp-8_2-8;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    The <u>moves</u> parameter is the most important one and has the following format:
+    <pre class="code">p:<u>unit_code</u>-<u>coordinate</u>-<u>quantity</u></pre>
+    You'd have to build a string like this one for each unit block on the deploy zone. You have the unit codes on the <a href="UnitsJSON.aspx">units specification</a>. After invoking
+    the correctly formed URL, the battle will continue.
+
+    <a name="TurnMoves" id="TurnMoves"></a><h2>Turn Moves</h2>
+    After the deploy you may ask again for your battles, and you will now have to play your moves. Note that on these examples only a battle is being returned, but
+    if you had several battles to play, you'd receive several &lt;Battle/&gt; elements. When's your turn to play, you'll receive something like:
+    <pre class="code">
+  &lt;Battles&gt;
+    &lt;Battle id='1339264' state='<u>battle</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='204'&gt;<u>tsousa</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/CurrentPlayer&gt;
+  &lt;Elements&gt;
+    &lt;Element coordinate='2_4' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='1' ownerId='204' direction='S' quantity='1' remainingDefense='300' code='rp'/&gt;
+    &lt;Element coordinate='8_1' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='0' ownerId='1339159' direction='N' quantity='1' remainingDefense='300' code='rp'/&gt;
+  &lt;/Elements&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    Note that the state changed from <u>deploy</u> to <u>battle</u>. Now you receive the current [GameBoard] disposition, each unit group, quantity, coordinate, etc.
+    After calculating your moves, you'd have to send your response again to the game, using the given <u>ResponseUrl</u>. An example URL would be:
+    
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botbattle</u>&amp;id=<u>1111</u>&amp;moves=<u>r:7_3-n-w;b:7_3-7_2;m:8_3-8_2-5-n;b:8_2-7_2;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    
+    The <u>moves</u> parameter is again a list of moves with the following syntax:
+    
+    <table class="table" style="width:100%;margin-top:10px;margin-bottom:10px;"><tr><th>Type</th><th>Syntax</th><th>Description</th></tr><tr><td>Move</td><td><pre>m:<u>unit_coordinate</u>-<u>destination_coordinate</u>-<u>quantity</u>-<u>direction</u>;</pre></td><td>Moves a unit group from one square to another adjacent square</td></tr><tr><td>Rotate</td><td><pre>r:<u>unit_coordinate</u>-<u>current_direction</u>-<u>next_direction</u>;</pre></td><td>Rotates a unit group; direction can be: N, S, E and W</td></tr><tr><td>Attack</td><td><pre>b:<u>unit_coordinate</u>-<u>target_coordinate</u>;</pre></td><td>Attacks the adversary unit group</td></tr></table>
+    
+    Then it's your opponents turn to play. When he's done, you'll receive the new [GameBoard] state and you have to make more moves. This continues until
+    the battle isn't finished. Note that your movements can't spend more than 6 [MovPoints].
+    
+    <a name="More" id="More"></a><h2>More Information</h2>
+    If you have any questions or suggestions please contact us and we'll be happy to help you.
+  </div></lang>
+		<lang key="fr"><div class="content">
+    L'<b>API de Combat</b> permet à un tierce partie extérieur d'utiliser les logiciels pour jouer des combats sur [OB] contre <i>"qu'escadrlle préprogrammé</i>. Vous pouvez utiliser cet API pour créer des escadrilles ayant une intelligence artificielle (communément appelés E.A.I.) ou créer des "Game clients" capable de combattre d'autres joueurs ou d'autres E.A.I. sur le You may use this API to create artificial [GameBoard]. Exemple de bataille:
+    
+    <img src="/Resources/Images/Battle.png" class="block" /><h2>Contents</h2><ul><li><a href="#Apply">How to Apply</a></li><li><a href="#Overview">Overview</a></li><li><a href="#AskBattles">Ask For Battles</a></li><li><a href="#Deploy">Deploy</a></li><li><a href="#TurnMoves">Turn Moves</a></li><li><a href="#More">More Information</a></li></ul><a name="Apply" id="apply"></a><h2>How to Apply</h2>
+    Pour pouvoir développer un logiciel en utilisant l'API de combat, vous devez nous contacter. Nous pourrons ensuite vous préparer un environnement de création et vous aider à débuter.
+    <p>
+    Vous pouvez nous contecter en utilisant ce courriel: <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a><a name="Overview" id="Overview"></a></p><h2>Overview</h2>
+    L'API de combat est très simple à utiliser. Vous pouvez créer un logociel en communication avec avec[OB] pour envoyer et recevoir les mouvements et l'état du combat. and send/receive moves and battle states.
+    Vous devrez coder le logiciel pour exécuter les déploiments et les tours. L'interation principales est celle-ci:
+    <ul><li>#1 Vous demandez au serveur pour des combats et vous recevez un fichier XML avec les batailles que vous devez jouer.</li><li>#2 Pour chaque bataille reçu, vous allez envoyer une demande HTTP à l'URL qui vous sera fournit aves un déploiement ou les mouvements.</li><li>#3 Attendez un momment et répéter l'étape #1.</li></ul><p>
+    Vous avez un fichier XML disponible avec les<a href="UnitsJSON.aspx">spécifications des unités</a>. Lorsque nous aurons configuré votre E.A.I/"client", vous serez capale de créer un [Friendly] avec lui et le tester en action.
+    <a name="AskBattles" id="AskBattles"></a></p><h2>Ask For Battles</h2>
+    La première que vous ferez une demande pour un combat, Il n'y en aura pas. Vous devrez d'abord créer un [Friendly] avec votre E.A.I. pour ensuite pouvoir jouer des batailles. La demande en HTTP pour les batailles doivent se faire à:
+    
+    <pre class="code">http://<u>server</u>.orionsbelt.eu/Ajax/Battle/BotBattle.ashx?type=<u>botGetBattles</u>&amp;botId=<u>1111</u>&amp;verificationCode=<u>ABC</u></pre>
+
+    Notez que vous devez envoyer votre demande directement pour le bon serveur. Vous aurez un E.A.I. par serveur, alors si vous êtes enregistré à plus d'un serveur, vous devrez agir en conséquence. Vous devez aussi donner L'identification de votre E.A.I. ainsi que son ode de vérification.
+    <a name="Deploy" id="Deploy"></a><h2>Deploy</h2>
+    La première partie de la bataille est le déploiment. Quand vous faites une demande pour des combats en utilisant l'URL précédent, vous recevrez quelque chose comme:
+    <pre class="code">  &lt;Battles&gt;
+    &lt;Battle id='1339260' state='<u>deploy</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='203'&gt;<u>nunos</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;Bot001&lt;/CurrentPlayer&gt;
+  &lt;Units&gt;
+    &lt;Unit quantity='10' name='Raptor' code='rp' /&gt;
+  &lt;/Units&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    Voici une bataille très simple entre <u>E.A.I.001</u> et <u>nunos</u>, et vous devez maintenat faire le déploiement. L'[Fleet] de combat a seulement des [Raptor], aucune autre [CombatUnits]
+    est présente. Vous auriez à faire une demande à <u>RéponseUrl</u> indiquant vous aimerez votre [Deploy]:
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botdeploy</u>&amp;id=<u>1234</u>&amp;moves=<u>p:rp-8_1-2;p:rp-8_2-8;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    The <u>moves</u> Ce paramètre est le plus important et a le format suivant:
+    <pre class="code">p:<u>unit_code</u>-<u>coordinate</u>-<u>quantity</u></pre>
+    Vous auriez à construire un fil comme celui-çi pour chaque case où il y a une unité lors du déploiement. Vous avez les codes des unités sur You have the unit codes on the <a href="UnitsJSON.aspx">units specification</a>. Après avoir invoquer le format correcte URL, le combat continue.
+
+    <a name="TurnMoves" id="TurnMoves"></a><h2>Turn Moves</h2>
+    Après le déploiment, vous pouvez encore demander pour les combats et vous devrez maintenant exécuter vos mouvements.Notez que sur cet example il y a seulement une bataile, mais si vous en auriez plusieurs, vous recevrez plusieurs éléments de N &lt;Bataille/&gt;. Quand c?est à votre tour de jouer, vous recevrez:
+    <pre class="code">  &lt;Battles&gt;
+    &lt;Battle id='1339264' state='<u>battle</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='204'&gt;<u>tsousa</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/CurrentPlayer&gt;
+  &lt;Elements&gt;
+    &lt;Element coordinate='2_4' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='1' ownerId='204' direction='S' quantity='1' remainingDefense='300' code='rp'/&gt;
+    &lt;Element coordinate='8_1' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='0' ownerId='1339159' direction='N' quantity='1' remainingDefense='300' code='rp'/&gt;
+  &lt;/Elements&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    Notez que l?état a changé de <u>déploiment</u> to <u>combat</u>. Vous recevez maintenant les dispositions actuelles du [GameBoard], de chaque groupe d?unités, la quantité, les coordonées, etc.
+    Après avoir calculé vos mouvements, vous devriez envoyer votre réponse encore une fois au jeu en utilisant la <u>RéponseURL</u>. Un exemple d?URL serait:
+    
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botbattle</u>&amp;id=<u>1111</u>&amp;moves=<u>r:7_3-n-w;b:7_3-7_2;m:8_3-8_2-5-n;b:8_2-7_2;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    
+    Le paramètre de <u>mouvement</u> est encore une liste de mouvements avec la syntaxe suivante:
+    
+    <table class="table" style="width: 100%; margin-top: 10px; margin-bottom: 10px;"><tbody><tr><th>Type</th><th>Syntax</th><th>Description</th></tr><tr><td>Move</td><td><pre>m:<u>unit_coordinate</u>-<u>destination_coordinate</u>-<u>quantity</u>-<u>direction</u>;</pre></td><td>Bouge un groupe d?unité d?une case à une autre adjacente.</td></tr><tr><td>Rotate</td><td><pre>r:<u>unit_coordinate</u>-<u>current_direction</u>-<u>next_direction</u>;</pre></td><td>Change la direction d?un groupe; les possibilités étant: N, S, E et O</td></tr><tr><td>Attack</td><td><pre>b:<u>unit_coordinate</u>-<u>target_coordinate</u>;</pre></td><td>Attacks the adversary unit group</td></tr></tbody></table>
+    
+    C?est ensuite le tour à vos adversaires de jouer. Quand il a terminé, vous recevrez le nouveau état du [GameBoard] et pourrez faire de nouveaux mouvements. Cela continue jusqu?a ce que la bataille est terminé. À noter que vous ne pouvez pas dépenser plus de 6 [MovPoints].
+    
+    <a name="More" id="More"></a><h2>More Information</h2>
+    Si jamais vous avez des questions ou suggestions, nous serons heureux de vous aider. Il suffit de nous contacter.
+  </div></lang>
+		<lang key="hr"><div class="content">
+    The <b>Battle API</b> allows third party applications to play battles on [OB] as a <i>bot</i>. You may use this API to create artificial
+    intelligence bots or game clients that'll be able to battle with other players or bots on the [GameBoard]. Example of a battle:
+    
+    <img src="/Resources/Images/Battle.png" class="block" /><h2>Contents</h2><ul><li><a href="#Apply">How to Apply</a></li><li><a href="#Overview">Overview</a></li><li><a href="#AskBattles">Ask For Battles</a></li><li><a href="#Deploy">Deploy</a></li><li><a href="#TurnMoves">Turn Moves</a></li><li><a href="#More">More Information</a></li></ul><a name="Apply" id="apply"></a><h2>How to Apply</h2>
+    In order to be able to develop an application using the Battle API, you'll have to contact us. Then we will prepare the development environment
+    for you and get you started.
+    <p />
+    You may contact us using the <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> mail.
+
+    <a name="Overview" id="Overview"></a><h2>Overview</h2>
+    The Battle API is very simple to use. You may create an application that will comunicate with [OB] and send/receive moves and battle states.
+    You'll have to code your application to perform deploys and turns. The basic interaction is the following:
+    <ul><li>#1 You ask the server for battles, and receive a XML file with the battles you have to play</li><li>#2 For each battle received you'll send a HTTP reques to a provided URL with a deploy or moves</li><li>#3 Wait a while and then return to step #1</li></ul><p />
+    You have available a XML file with the complete <a href="UnitsJSON.aspx">units specification</a>. When we configure your bot/client, you'll
+    be able to create a [Friendly] with it and try your bot in action.
+
+    <a name="AskBattles" id="AskBattles"></a><h2>Ask For Battles</h2>
+    The first time you ask for battles, you won't get any. You'll have to create a [Friendly] with your bot, and only then you'll get some battles
+    to play. To ask for battles you'll have to make an HTTP request to:
+    
+    <pre class="code">http://<u>server</u>.orionsbelt.eu/Ajax/Battle/BotBattle.ashx?type=<u>botGetBattles</u>&amp;botId=<u>1111</u>&amp;verificationCode=<u>ABC</u></pre>
+
+    Note that you'll have to send the request for the right server. You'll have a bot per server, so if you're registered on more than one server you'll have to act
+    accordinally. You also have to give the bot ID and the bot verification code.
+
+    <a name="Deploy" id="Deploy"></a><h2>Deploy</h2>
+    The first part of the battle is the [Deploy]. When you request battles using the previous URL you'll receive something like:
+    <pre class="code">
+  &lt;Battles&gt;
+    &lt;Battle id='1339260' state='<u>deploy</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='203'&gt;<u>nunos</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;Bot001&lt;/CurrentPlayer&gt;
+  &lt;Units&gt;
+    &lt;Unit quantity='10' name='Raptor' code='rp' /&gt;
+  &lt;/Units&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    This is a very simple battle between <u>Bot001</u> and <u>nunos</u>, and you'd have to deploy now. The combat [Fleet] only has the [Raptor], no more [CombatUnits]
+    are present. You'd now have to make a request to <u>ResponseUrl</u> indicating how you'd like to [Deploy]:
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botdeploy</u>&amp;id=<u>1234</u>&amp;moves=<u>p:rp-8_1-2;p:rp-8_2-8;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    The <u>moves</u> parameter is the most important one and has the following format:
+    <pre class="code">p:<u>unit_code</u>-<u>coordinate</u>-<u>quantity</u></pre>
+    You'd have to build a string like this one for each unit block on the deploy zone. You have the unit codes on the <a href="UnitsJSON.aspx">units specification</a>. After invoking
+    the correctly formed URL, the battle will continue.
+
+    <a name="TurnMoves" id="TurnMoves"></a><h2>Turn Moves</h2>
+    After the deploy you may ask again for your battles, and you will now have to play your moves. Note that on these examples only a battle is being returned, but
+    if you had several battles to play, you'd receive several &lt;Battle/&gt; elements. When's your turn to play, you'll receive something like:
+    <pre class="code">
+  &lt;Battles&gt;
+    &lt;Battle id='1339264' state='<u>battle</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='204'&gt;<u>tsousa</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/CurrentPlayer&gt;
+  &lt;Elements&gt;
+    &lt;Element coordinate='2_4' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='1' ownerId='204' direction='S' quantity='1' remainingDefense='300' code='rp'/&gt;
+    &lt;Element coordinate='8_1' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='0' ownerId='1339159' direction='N' quantity='1' remainingDefense='300' code='rp'/&gt;
+  &lt;/Elements&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    Note that the state changed from <u>deploy</u> to <u>battle</u>. Now you receive the current [GameBoard] disposition, each unit group, quantity, coordinate, etc.
+    After calculating your moves, you'd have to send your response again to the game, using the given <u>ResponseUrl</u>. An example URL would be:
+    
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botbattle</u>&amp;id=<u>1111</u>&amp;moves=<u>r:7_3-n-w;b:7_3-7_2;m:8_3-8_2-5-n;b:8_2-7_2;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    
+    The <u>moves</u> parameter is again a list of moves with the following syntax:
+    
+    <table class="table" style="width:100%;margin-top:10px;margin-bottom:10px;"><tr><th>Type</th><th>Syntax</th><th>Description</th></tr><tr><td>Move</td><td><pre>m:<u>unit_coordinate</u>-<u>destination_coordinate</u>-<u>quantity</u>-<u>direction</u>;</pre></td><td>Moves a unit group from one square to another adjacent square</td></tr><tr><td>Rotate</td><td><pre>r:<u>unit_coordinate</u>-<u>current_direction</u>-<u>next_direction</u>;</pre></td><td>Rotates a unit group; direction can be: N, S, E and W</td></tr><tr><td>Attack</td><td><pre>b:<u>unit_coordinate</u>-<u>target_coordinate</u>;</pre></td><td>Attacks the adversary unit group</td></tr></table>
+    
+    Then it's your opponents turn to play. When he's done, you'll receive the new [GameBoard] state and you have to make more moves. This continues until
+    the battle isn't finished. Note that your movements can't spend more than 6 [MovPoints].
+    
+    <a name="More" id="More"></a><h2>More Information</h2>
+    If you have any questions or suggestions please contact us and we'll be happy to help you.
+  </div></lang>
+		<lang key="hu"><div class="content">
+    A <b>Battle API</b> lehetőséget nyújt egy harmadik fél számára hogy részt vegyenek a csatában [OB] mint <i>bot</i>. Felhasználhatod az API-t, hogy mesterséges
+    intelligenciával rednelkező bot-okat kreálj, vagy játék klienseket amelyek képesek lesznek harcolni más játékosokkal vagy bot-okkal a [GameBoard]-on. Példa a csatára:
+    
+    <img src="/Resources/Images/Battle.png" class="block" /><h2>Contents</h2><ul><li><a href="#Apply">How to Apply</a></li><li><a href="#Overview">Overview</a></li><li><a href="#AskBattles">Ask For Battles</a></li><li><a href="#Deploy">Deploy</a></li><li><a href="#TurnMoves">Turn Moves</a></li><li><a href="#More">More Information</a></li></ul><a name="Apply" id="apply"></a><h2>How to Apply</h2>
+    Ahhoz, hogy kifejlessz egy alkalmazást Csata API felhasználásaval, kapcsolatba kell lépned velünk. Ezek után elkészítjük neked a fejlesztési környezetet
+    hogy azonnal elkezdhesd.
+    <p />
+    Kapcsolatba tudsz velünk lépni a <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> e-mailen.
+
+    <a name="Overview" id="Overview"></a><h2>Overview</h2>
+    A Battle API-t nagyon egyszerű használni. Létrehozhatsz olyan alkalmazást amely az [OB]-val kommunikál és küld/fogad mozgásokat és csata állapotokat.
+    Kódolnod kell az alkalmazásodat, hogy  végrhajtson telepítést és köröket. Az alapvető kölcsönhatás a következő:
+    <ul><li>#1 Csatákat kérsz a Szervertől, és kapsz egy XML fájlt a csatákkal amiket le kell játszanod</li><li>#2 Minden egyes fogadott csatáért elküldesz egy HTTP igényt egy megadott URL-re egy telepítéssel vagy mozgásokkal</li><li>#3 Várj egy darabig, majd térj vissza az #1 lépéshez</li></ul><p />
+    Elérhető egy XML fájl a teljes<a href="UnitsJSON.aspx">units specification</a>. Amikor konfigurálod a saját bot-ot/klienst, létrehozhatsz
+    vele egy [Friendly] bot-ot és kipróbálhatod a bot-odat éles helyzetben.
+
+    <a name="AskBattles" id="AskBattles"></a><h2>Ask For Battles</h2>
+    Az első alkalommal amikor csatát kérsz, nem fogsz kapni egyet sem. Létre kell hoznod egy [Friendly]-t a bot-oddal, és csak ez után kapsz csatákat.
+    Ahhoz hogy csatát kérj létre kell hoznod egy HTTP igénylést itt:
+    
+    <pre class="code">http://<u>server</u>.orionsbelt.eu/Ajax/Battle/BotBattle.ashx?type=<u>botGetBattles</u>&amp;botId=<u>1111</u>&amp;verificationCode=<u>ABC</u></pre>
+
+    Vigyázz hogy az igénylést a megfelelő szervernek küld. Szerverenként egy bot-od van, így amennyiben több szerveren is regisztrálvan vagy ennek megfelelően
+    kell cselekedned. Ezenkívül meg kell adnod a bot ID-t és az érvényesítő kódot.
+
+    <a name="Deploy" id="Deploy"></a><h2>Deploy</h2>
+   A játék első része a [Deploy]. Amikor csatát igényelsz a fentebbi URL-en valami ilyesmit fogsz kapni:
+    <pre class="code">
+  &lt;Battles&gt;
+    &lt;Battle id='1339260' state='<u>deploy</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='203'&gt;<u>nunos</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;Bot001&lt;/CurrentPlayer&gt;
+  &lt;Units&gt;
+    &lt;Unit quantity='10' name='Raptor' code='rp' /&gt;
+  &lt;/Units&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    Ez egy nagyon egyszerű csata <u>Bot001</u> és <u>nunos</u> között, és most kellene egységeket telepítened. A harci [Fleet] csak a [Raptor]-al rendelkezik, nincs több [CombatUnits]
+    jelen. Most kellene egy igénylést csinálnod <u>ResponseUrl</u> megadva, hogy hogyan szeretnél [Deploy]:
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botdeploy</u>&amp;id=<u>1234</u>&amp;moves=<u>p:rp-8_1-2;p:rp-8_2-8;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    A <u>moves</u> paraméter a legfontosabb és a következő formátummal rendelkezik:
+    <pre class="code">p:<u>unit_code</u>-<u>coordinate</u>-<u>quantity</u></pre>
+    Egy vonalat kellene kiépítened mint ez, minden egyes egység csoportnak a telepítési zónán. Az egység kódokat megtalálod a <a href="UnitsJSON.aspx">units specification</a>. A megfelelő
+    URL formátul létrehozása után, a csata folytatódni fog.
+
+    <a name="TurnMoves" id="TurnMoves"></a><h2>Turn Moves</h2>
+    A telepítés után ismét kérheted a csatáidat és ezek után már a játszanod kell a csatát. Ezeken a példákon csak egy csata tár vissza, de
+    ha számos játszani való csatád volt, akkor különböző &lt;Battle/&gt; elemeket kapnál. Amikor te következel valami ilyesmit kapsz:
+    <pre class="code">
+  &lt;Battles&gt;
+    &lt;Battle id='1339264' state='<u>battle</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='204'&gt;<u>tsousa</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/CurrentPlayer&gt;
+  &lt;Elements&gt;
+    &lt;Element coordinate='2_4' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='1' ownerId='204' direction='S' quantity='1' remainingDefense='300' code='rp'/&gt;
+    &lt;Element coordinate='8_1' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='0' ownerId='1339159' direction='N' quantity='1' remainingDefense='300' code='rp'/&gt;
+  &lt;/Elements&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    A státsuz megváltozott <u>deploy</u>-ről <u>battle</u>-ra. Megkapod az aktuális [GameBoard] elrendezést,minden egyes egység csoportot, mennyiséget, koordinátát, stb.
+    Miután kiszámoltad a mozdulataidat, el kell küldened a válaszlépáseidet, felhasználva a megadott <u>ResponseUrl</u>. Egy példa az URL-re:
+    
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botbattle</u>&amp;id=<u>1111</u>&amp;moves=<u>r:7_3-n-w;b:7_3-7_2;m:8_3-8_2-5-n;b:8_2-7_2;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    
+    A <u>moves</u> paraméter mozgások listája a következő szintaxissal:
+    
+    <table class="table" style="width:100%;margin-top:10px;margin-bottom:10px;"><tr><th>Type</th><th>Syntax</th><th>Description</th></tr><tr><td>Move</td><td><pre>m:<u>unit_coordinate</u>-<u>destination_coordinate</u>-<u>quantity</u>-<u>direction</u>;</pre></td><td>Mozgtja az egységet egyik helyről a kijelölt másikra</td></tr><tr><td>Rotate</td><td><pre>r:<u>unit_coordinate</u>-<u>current_direction</u>-<u>next_direction</u>;</pre></td><td>Forgatja az egységet; irány lehet: N, S, E and W</td></tr><tr><td>Attack</td><td><pre>b:<u>unit_coordinate</u>-<u>target_coordinate</u>;</pre></td><td>ellenséges egység támadása</td></tr></table>
+    
+    Ezután az ellenfeled következik. Amikor végzett, megkapod az új [GameBoard] állást és ezután te következel a körben. Ez addig folytatódik amíg
+    a csata be nem fejeződik. Mozgásaid nem lehetnek többek 6 [MovPoints]-nál.
+    
+    <a name="More" id="More"></a><h2>More Information</h2>
+    Amennyiben kérdésed vagy javaslatod van lépj velünk kapcsolatba, örömmel segítünk.
+  </div></lang>
+		<lang key="it"><div class="content">
+    L' <b>API delle Battaglie</b> permette ad applicazioni terze di combattere su [OB] come <i>bot</i>. Puoi usare questa API per creare bot con intelligenze artificiali o client di gioco in grado di combattere con altri giocatori o altri bot sulla [GameBoard]. Esempio di battaglia:
+    
+    <img src="/Resources/Images/Battle.png" class="block" /><h2>Contents</h2><ul><li><a href="#Apply">How to Apply</a></li><li><a href="#Overview">Overview</a></li><li><a href="#AskBattles">Ask For Battles</a></li><li><a href="#Deploy">Deploy</a></li><li><a href="#TurnMoves">Turn Moves</a></li><li><a href="#More">More Information</a></li></ul><a name="Apply" id="apply"></a><h2>How to Apply</h2>
+    Per sviluppare un'applicazione usando l'API delle Battaglie devi prima contattarci. Noi prepareremo l'ambiente di sviluppo e ti aiuteremo a iniziare.
+    <p>
+    Puoi contattarci a questa email: <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a>.
+
+    <a name="Overview" id="Overview"></a></p><h2>Panoramica</h2>
+    L'API delle Battaglie è molto semplice da usare. Puoi creare un'applicazione che comunichi con [OB] e che mandi/riceva le mosse e gli stati della battaglia.
+    Dovrai programmare la tua applicazione per eseguire gli schieramenti della flotta e i turni. La base dell'interazione è questa:
+    <ul><li>#1 Chiedi al server le battaglie e ricevi un XML con le battaglie che devi giocare.</li><li>#2 Per ogni battaglia ricevuta mandi una richiesta HTTP ad un URL, che ti viene dato, con lo schieramento o i movimenti del turno.</li><li>#3 Aspetta un po' e torna al passo 1</li></ul><p>
+    È disponibile un XML con le <a href="UnitsJSON.aspx">Specifiche delle Unità</a>. Quando configureremo il tuo bot/client, potrai creare una [Friendly] con lui per provarlo in battaglia.
+
+    <a name="AskBattles" id="AskBattles"></a></p><h2>Richiesta Battaglie</h2>
+    La prima volta che chiedi le battaglie al server, non ne ricevi. Devi prima creare una [Friendly] col tuo bot, e solo allora riceverai le battaglie da giocare. Per richiedere le battaglie dovrai mandare una richiesta HTTP del tipo:
+    
+    <pre class="code">http://<u>server</u>.orionsbelt.eu/Ajax/Battle/BotBattle.ashx?type=<u>botGetBattles</u>&amp;botId=<u>1111</u>&amp;verificationCode=<u>ABC</u></pre>
+
+    Nota che dovrai mandare la richiesta al server giusto. Avrai un bot per ogni server, quindi se sei registrato a più server dovrai tenerne conto nello sviluppo. Dovrai anche dare al bot un ID e un codice di verifica.
+
+    <a name="Deploy" id="Deploy"></a><h2>Schieramento</h2>
+    La prima parte della battaglia è lo [Deploy]. Quando richiedi una battaglia con l'URL precedente, ottieni una risposta del tipo:
+    <pre class="code">  &lt;Battles&gt;
+    &lt;Battle id='1339260' state='<u>deploy</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='203'&gt;<u>nunos</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;Bot001&lt;/CurrentPlayer&gt;
+  &lt;Units&gt;
+    &lt;Unit quantity='10' name='Raptor' code='rp' /&gt;
+  &lt;/Units&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    Questa è una battaglia molto semplice tra <u>Bot001</u> e <u>nunos</u>, e devi fare lo schieramento. La [Fleet] della battaglia ha solo i [Raptor], nessun'altra [CombatUnits]. Devi ora mandare una richiesta al <u>ResponseUrl</u> indicando come vuoi eseguire lo [Deploy]:
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botdeploy</u>&amp;id=<u>1234</u>&amp;moves=<u>p:rp-8_1-2;p:rp-8_2-8;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    Il parametro <u>moves</u> è il più importante e ha il seguente formato:
+    <pre class="code">p:<u>codice_unità</u>-<u>coordinate</u>-<u>quantità</u></pre>
+    Dovrai costruire una stringa come questa per ogni blocco di unità nella zona di schieramento. Trovi i codici delle unità nelle  <a href="UnitsJSON.aspx">specifiche delle unità</a>. Dopo aver chiamato l'URL correttamente formato la battaglia continuerà.
+
+    <a name="TurnMoves" id="TurnMoves"></a><h2>Movimenti del turno</h2>
+    Dopo lo schieramento devi chiedere nuovamente per le battaglie, e dovrai ora effettuare le tue mosse. Nota che in questi esempi viene restituita solo una battaglia, ma se avessi più battaglie da giocare riceveresti più elementi &lt;Battle/&gt;. Quando è il tuo turno di giocare ricevi qualcosa di questo tipo:
+    <pre class="code">  &lt;Battles&gt;
+    &lt;Battle id='1339264' state='<u>battle</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='204'&gt;<u>tsousa</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/CurrentPlayer&gt;
+  &lt;Elements&gt;
+    &lt;Element coordinate='2_4' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='1' ownerId='204' direction='S' quantity='1' remainingDefense='300' code='rp'/&gt;
+    &lt;Element coordinate='8_1' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='0' ownerId='1339159' direction='N' quantity='1' remainingDefense='300' code='rp'/&gt;
+  &lt;/Elements&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+    Nota che lo stato è cambiato da <u>deploy</u> (schieramento) a <u>battle</u> (battaglia). A questo punto ricevi la disposizione sulla [GameBoard], ogni gruppo di unità, quantità, coordinate, etc.
+    Dopo aver calcolato le tue mosse dovrai mandare una risposta al server usando il <u>ResponseUrl</u>. Un esempio di URL è:
+    
+    <pre class="code"><u>[ResponseUrl]</u>?type=<u>botbattle</u>&amp;id=<u>1111</u>&amp;moves=<u>r:7_3-n-w;b:7_3-7_2;m:8_3-8_2-5-n;b:8_2-7_2;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+    
+    Il parametro <u>moves</u> è ancora una volta una lista di movimenti con la seguente sintassi:
+
+    <table class="table" style="width: 100%; margin-top: 10px; margin-bottom: 10px;"><tbody><tr><th>Tipo</th><th>Sintassi</th><th>Descrizione</th></tr><tr><td>Movimento</td><td><pre>m:<u>coordinate_unità</u>-<u>coordinate_destinazione</u>-<u>quantità</u>-<u>direzione</u>;</pre></td><td>Muove un gruppo di unità da una casella ad una adiacente</td></tr><tr><td>Rotazione</td><td><pre>r:<u>coordinate_unità</u>-<u>direzione_corrente</u>-<u>direzione_successiva</u>;</pre></td><td>Ruota un gruppo di unità; la direzione può essere: N, S, E e W</td></tr><tr><td>Attacco</td><td><pre>b:<u>coordinate_unità</u>-<u>coordinate_bersaglio</u>;</pre></td><td>Attacca un gruppo di unità avversarie</td></tr></tbody></table>
+    
+    A questo punto è il turno del tuo avversario. Quando finirà riceverai il nuovo stato della [GameBoard] e dovrai fare altre mosse. Questo continua sinchè la battaglia non è finita. Nota che non puoi usare più di 6 [MovPoints].
+    
+    <a name="More" id="More"></a><h2>Ulteriori Informazioni</h2>
+    Se hai qualche domanda o suggerimento contattaci, saremo felici di aiutarti.
+  </div></lang>
+		<lang key="pt"><div class="content"><a href="../../en/API/Battle.aspx">Este artigo só está disponível em Inglês</a>.
+  </div></lang>
+		<lang key="ro"><div class="content"><b>API de luptă</b> permite aplicaţii terţe pentru a juca luptele pe [OB] ca un <i>bot</i>.
+    Puteţi folosi acest API pentru a crea roboti cu inteligenta artificiala, sau clienti de joc
+    care vor putea sa lupte cu alti jucatori, sau roboti pe [GameBoard]. Exemplu de luptă:
+    <img src="/Resources/Images/Battle.png" class="block" /><h2>Contents</h2><ul><li><a href="#Apply">How to Apply</a></li><li><a href="#Overview">Overview</a></li><li><a href="#AskBattles">Ask For Battles</a></li><li><a href="#Deploy">Deploy</a></li><li><a href="#TurnMoves">Turn Moves</a></li><li><a href="#More">More Information</a></li></ul><a name="Apply" id="apply"></a><h2>How to Apply</h2>
+    Pentru a putea să dezvolti o aplicaţie care sa foloseasca API de luptă, va trebui să ne
+    contactezi. Apoi iti vom pregăti mediul de dezvoltare ca sa poti incepe.
+    <p />
+    Poţi să ne contactezi folosind <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a><a name="Overview" id="Overview"></a><h2>Overview</h2>
+    API de luptă este foarte simplu de utilizat. Poţi crea o aplicaţie care va comunica cu [OB] şi va trimite/primi deplasari si statusurile luptelor.
+    Va trebui să-ţi codezi aplicatia pentru a efectua punerea in joc si tururile.
+    Interacţiunea de baza este urmatoarea: <ul><li>#1 Intrebi server-ul pentru lupte, si primesti un fisier XML cu luptele pe care le ai de jucat</li><li>#2 Pentru fiecare bătălie primita vei trimite o cerere HTTP cu punerea in joc sau mutari la un URL dat</li><li>#3 Aşteptaţi un timp şi apoi reveniţi la pasul #1</li></ul><p />
+Aveţi la dispoziţie un fişier XML cu o completa <a href="UnitsJSON.aspx">units specification</a>. Când iti vom configura robotul/clientul vei fi capabil de a crea un joc [Friendly] cu el şi să vă încercaţi robotul în acţiune.
+
+<a name="AskBattles" id="AskBattles"></a><h2>Ask For Battles</h2>
+Prima dată când cereti lupte, nu veti primi nimic. Va trebui să creaţi un [Friendly] cu robotul, şi numai atunci veţi obţine câteva bătălii pentru a juca. Pentru a cere lupte veţi face o solicitare HTTP pentru a:
+
+<pre class="code">http://<u>server</u>.orionsbelt.eu/Ajax/Battle/BotBattle.ashx?type=<u>botGetBattles</u>&amp;botId=<u>1111</u>&amp;verificationCode=<u>ABC</u></pre>
+
+Reţineţi că trebuie sa trimiteti cererea pentru server-ul corect. Veţi avea un robot pe server, aşa că dacă sunteţi înregistrat pe mai mult de un server va trebui să acţionati corespunzator. Va trebui sa furnizati ID-ul robotului cat şi codul de verificare.
+
+<a name="Deploy" id="Deploy"></a><h2>Deploy</h2>
+Prima parte a luptei este [Deploy]. Când cereti lupte folosind URL-ul anterior veţi primi ceva de genul:
+<pre class="code">
+  &lt;Battles&gt;
+    &lt;Battle id='1339260' state='<u>deploy</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='203'&gt;<u>nunos</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;Bot001&lt;/CurrentPlayer&gt;
+  &lt;Units&gt;
+    &lt;Unit quantity='10' name='Raptor' code='rp' /&gt;
+  &lt;/Units&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+Aceasta este o foarte simplă luptă între <u>Bot001</u> şi <u>nunos</u>, şi trebuie sa deplasati piesele pe tabla. [Fleet] luptatoare are doar [Raptor], nu mai sunt prezente nici o [CombatUnits]. Acum trebuie să faceti o cerere catre <u>ResponseUrl</u> indicand modul în care doriţi să [Deploy]:
+<pre class="code"><u>[ResponseUrl]</u>?type=<u>botdeploy</u>&amp;id=<u>1234</u>&amp;moves=<u>p:rp-8_1-2;p:rp-8_2-8;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+Parametrul <u>moves</u> este cel mai important şi are următorul format:
+<pre class="code">p:<u>unit_code</u>-<u>coordinate</u>-<u>quantity</u></pre>
+Trebuie sa construiti un sir ca acesta pentru fiecare unitate de bloc din zona de depuneri a pieselor. Aveti unitate de coduri pe <a href="UnitsJSON.aspx">units specification</a>.
+După invocarea URL-ului corect, lupta va continua.
+
+<a name="TurnMoves" id="TurnMoves"></a><h2>Turn Moves</h2>
+Dupa depunerea pieselor puteti cere din nou luptele dumneavoastra, iar acum va trebui sa va jucati miscarile. Reţineţi că in aceste exemple doar o luptă este returnata, dar dacă aţi avut mai multe lupte jucate vei primi mai multe elemente &lt;Battle/&gt;. Atunci când este rândul tău să joci, vei primi ceva de genul:
+<pre class="code">
+  &lt;Battles&gt;
+    &lt;Battle id='1339264' state='<u>battle</u>'&gt;
+  &lt;ResponseUrl&gt;http://source_server/Ajax/Battle/BotBattle.ashx&lt;/ResponseUrl&gt;
+  &lt;Players&gt;
+    &lt;Player id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/Player&gt;
+    &lt;Player id='1' ownerId='204'&gt;<u>tsousa</u>&lt;/Player&gt;
+  &lt;/Players&gt;
+  &lt;CurrentPlayer id='0' ownerId='1339159'&gt;<u>Bot001</u>&lt;/CurrentPlayer&gt;
+  &lt;Elements&gt;
+    &lt;Element coordinate='2_4' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='1' ownerId='204' direction='S' quantity='1' remainingDefense='300' code='rp'/&gt;
+    &lt;Element coordinate='8_1' canBeMoved='True' canUseSpecialHabilities='True' 
+  id='0' ownerId='1339159' direction='N' quantity='1' remainingDefense='300' code='rp'/&gt;
+  &lt;/Elements&gt;
+    &lt;/Battle&gt;
+  &lt;/Battles&gt;
+    </pre>
+Reţineţi că statutul s-a schimbat de la <u>deploy</u> la <u>battle</u>. Acum veţi primi dispunearea corecta a [GameBoard], fiecare grup de unitati, cantitatea, coordonatele, etc.
+După calcularea mutarilor, trebuie sa trimite-ti raspunsul din nou la joc cu ajutorul <u>ResponseUrl</u>. Un exemplu de URL-ul ar fi:
+<pre class="code"><u>[ResponseUrl]</u>?type=<u>botbattle</u>&amp;id=<u>1111</u>&amp;moves=<u>r:7_3-n-w;b:7_3-7_2;m:8_3-8_2-5-n;b:8_2-7_2;</u>&amp;botId=<u>321</u>&amp;verificationCode=<u>ABC</u></pre>
+Parametrul <u>moves</u> este din nou o listă cu mutari cu următoarea sintaxă:
+<table class="table" style="width:100%;margin-top:10px;margin-bottom:10px;"><tr><th>Type</th><th>Syntax</th><th>Description</th></tr><tr><td>Move</td><td><pre>m:<u>unit_coordinate</u>-<u>destination_coordinate</u>-<u>quantity</u>-<u>direction</u>;</pre></td><td>Moves a unit group from one square to another adjacent square</td></tr><tr><td>Rotate</td><td><pre>r:<u>unit_coordinate</u>-<u>current_direction</u>-<u>next_direction</u>;</pre></td><td>Rotates a unit group; direction can be: N, S, E and W</td></tr><tr><td>Attack</td><td><pre>b:<u>unit_coordinate</u>-<u>target_coordinate</u>;</pre></td><td>Attacks the adversary unit group</td></tr></table>
+Apoi este randul oponentului pentru a juca. Când este gata, veţi primi noua [GameBoard] şi trebuie sa executati alte mutari. Aceasta va continua până cand lupta nu este terminata.
+Reţineţi că mutarile nu pot consuma mai mult de 6 [MovPoints].
+<a name="More" id="More"></a><h2>More Information</h2>
+Dacă aveţi întrebări sau sugestii vă rugăm să ne contactaţi şi vom fi bucuroşi să vă ajutam.
+</div></lang>
+	</entry>
+
+	<entry key="UnitsJSON">
+		<lang key="de">Einheiten Spezifikationen</lang>
+		<lang key="en">Units Specification</lang>
+		<lang key="fr">Spécifications des unités de combat</lang>
+		<lang key="hr">Specifikacije Jedinica</lang>
+		<lang key="hu">Egységek tulajdonságai.</lang>
+		<lang key="it">Specifiche delle Unità</lang>
+		<lang key="pt">Especificação das Unidades</lang>
+		<lang key="ro">Specificaţiile unităţilor de luptă</lang>
+	</entry>
+
+	<entry key="UnitsJSONManual">
+		<lang key="de"><div class="content">
+    Die Spezifikationen der Einheiten sind Dokumente die detaillierte Information über die Einheiten 
+    geben. Diese Dokumente liefern Informationen über [CombatUnits] wie:
+    Angriff, Verteidigung, Reichweite, Bonus, etc. 
+    Du kannst diese Dokumente benutzen um dynamische Webseiten kreiren und Anwendungen die mit dieser 
+    Information arbeiten. Ein gutes Beispiel sind der Schlacht-Rechner oder Spiel-Clients.
+    
+    <h2>Access</h2>
+    Du kannst diese Information im XML format hier abrufen:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.xml">http://resources.orionsbelt.eu/Scripts/Units.xml</a></pre><p>
+    Du kannst diese Information im XML format hier abrufen:
+    </p><pre><a href="http://resources.orionsbelt.eu/Scripts/Units.js">http://resources.orionsbelt.eu/Scripts/Units.js</a></pre></div></lang>
+		<lang key="en"><div class="content">
+    The units specifications are files that detail all the units information, for easy programmatic access.
+    These files provide information on [CombatUnits] such as:
+    attack, defense, range, bonus, etc. 
+    You can consume these files to create dynamic
+    web pages and applications that work on that information. A good example are combat calculators or game clients.
+    
+    <h2>Access</h2>
+    You can access a XML format file here:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.xml">http://resources.orionsbelt.eu/Scripts/Units.xml</a></pre><p />
+    You can access a JSON format file here:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.js">http://resources.orionsbelt.eu/Scripts/Units.js</a></pre></div></lang>
+		<lang key="fr"><div class="content">
+    Les fichiers concernant les unités de combats donnent tous les détails à propos des unités
+    pour un accès facile lors de programmation.
+    Ces fichiers fournissent des informations à propos des [CombatUnits] tel que:
+    l'attaque, la défense, la portée, les bonus contre certaines unités, etc.
+    Vous pouvez utiliser ces fichiers pour créer des pages web dynamiques ou même un logiciel  
+    fonctionnant à l'aide de ces informations. Un bon exemple serait des calculateurs de combat ou
+    bien un "game client". 
+
+    <h2>Access</h2>
+    Vous pouvez accéder au fichier en format XML ici:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.xml">http://resources.orionsbelt.eu/Scripts/Units.xml</a></pre><p />
+    Vous pouvez accéder au fichier en format JSON ici:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.js">http://resources.orionsbelt.eu/Scripts/Units.js</a></pre></div></lang>
+		<lang key="hr"><div class="content">
+Specifikacije jedinica su dokumenti koji sadržavaju sve informacije o jedinici, za jednostavni programatski pristup.
+Ovi dokumenti pružaju informacije o [CombatUnits] kao što su:
+napad, obrana, domet, bonus, itd.
+Možete obraditi ove dokumente da stvorite dinamične web stranice i aplikacije koje rade sa ovim informacijama. Dobar primjer su borbeni kalkulatori ili game klijenti.
+
+ <h2>Access</h2>
+Možete pristupiti XML formatu dokumenta ovdje:
+
+<pre><a href="http://resources.orionsbelt.eu/Scripts/Units.xml">http://resources.orionsbelt.eu/Scripts/Units.xml</a></pre><p />
+    You can access a JSON format file here:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.js">http://resources.orionsbelt.eu/Scripts/Units.js</a></pre></div></lang>
+		<lang key="hu"><div class="content">
+    Az egységek tulajdonságai olyan fájlok amelyek tartalmazzák az összes információt az egységről, az egyszerű hozzáférésért.
+    Ezek a fájlok információkat tartalmaznak a [CombatUnits]-ról, mint: 
+    támadás, védelem, távolság, bonus, stb. 
+    Felhasználhatod ezeket a fájlok hogy létrehozz dinamikus
+    web oldalakat és alkalmazásokat amelyek ezekre az információkra épülnek. Jó példa erre a csata kalkulátorok vagy játék kliensek.
+    
+    <h2>Access</h2>
+    Itt hozzáférhetsz az XML formátumú fájlhoz:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.xml">http://resources.orionsbelt.eu/Scripts/Units.xml</a></pre><p />
+    Itt hozzáférhetsz a JSON formátumú fájlhoz:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.js">http://resources.orionsbelt.eu/Scripts/Units.js</a></pre></div></lang>
+		<lang key="it"><div class="content">
+    Le specifiche delle unità sono dei file, contenenti tutti i dettagli e le informazioni delle unità, che rendono più facile l'accesso ai programmatori.
+    Questi file contengono informazioni sulle [CombatUnits] come:
+    attacco, difesa, portata, bonus, etc. 
+    Puoi usare questi file per creare pagine web dinamiche e applicazioni che elaborano queste informazioni. Un buon esempio sono i simulatori di combattimento o i client di gioco.
+    
+    <h2>Accesso</h2>
+    Puoi prendere il file in formato XML qui:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.xml">http://resources.orionsbelt.eu/Scripts/Units.xml</a></pre><p>
+    in formato JSON qui:
+    </p><pre><a href="http://resources.orionsbelt.eu/Scripts/Units.js">http://resources.orionsbelt.eu/Scripts/Units.js</a></pre></div></lang>
+		<lang key="pt"><div class="content">
+    O jogo disponibiliza um conjunto de ficheiros com a especificação das [CombatUnits] que conteém:
+    ataque, defesa, alcance, bónus, etc.
+    Podes consumir esta informação para criar páginas dinamicas ou aplicações. Um bom exemplo são calculadoras de batalha.
+    <h2>Acesso</h2>
+    Podes aceder a esta informação em formato XML através do URL:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.xml">http://resources.orionsbelt.eu/Scripts/Units.xml</a></pre><p />
+    Podes aceder a esta informação em formato JSON através do URL:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.js">http://resources.orionsbelt.eu/Scripts/Units.js</a></pre></div></lang>
+		<lang key="ro"><div class="content">
+    Specificaţiile unităţilor sunt fisiere care detaliează toate informatiile unităţilor, pentru
+    un acces programatic uşor.
+    Aceste fişiere furnizează informaţii cu privire la [CombatUnits], cum ar fi:
+    atac, apărare, rază de acţiune, bonusuri împotriva altor unităţi, etc.
+    Puteţi utiliza aceste fişiere pentru a crea pagini web dinamice precum şi aplicaţii care
+    lucrează pe baza acestor informaţii. Un bun exemplu sunt calculatoarele de luptă sau clienţii
+    de joc.
+
+    <h2>Access</h2>
+    Aveţi posibilitatea de a accesa un fişier în format XML de aici:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.xml">http://resources.orionsbelt.eu/Scripts/Units.xml</a></pre><p />
+    Aveţi posibilitatea de a accesa un fisier în format JSON de aici:
+    <pre><a href="http://resources.orionsbelt.eu/Scripts/Units.js">http://resources.orionsbelt.eu/Scripts/Units.js</a></pre></div></lang>
+	</entry>
+
+	<entry key="UniverseXML">
+		<lang key="de">Universum XML</lang>
+		<lang key="en">Universe XML</lang>
+		<lang key="fr">XML de l'Univers</lang>
+		<lang key="hr">Svemir XML</lang>
+		<lang key="hu">Univerzum XML</lang>
+		<lang key="it">XML dell'Universo</lang>
+		<lang key="pt">XML do Universo</lang>
+		<lang key="ro">XML-ul Universului</lang>
+	</entry>
+
+	<entry key="UniverseXMLManual">
+		<lang key="de"><div class="content">
+    Das <u>Universum XML</u> ist ein XML Dokument das jeden Tag aktualisiert wird mit der Information 
+    des Universums: Sektoren, Planeten, Flotten, Allianz Eigentum etc.
+    Du kannst dies benutzen um dynamische Karten zu erstellen die Allianz Zonen, leere Zonen 
+    darstellen, etc.
+    <p>
+    Du kannst mehr über die Grösse des Universums und das Koordinaten-System erfahren auf der 
+    [Coordinates] Seite.
+    </p><h2>Access</h2>
+    You can access this file via:
+    <pre><a href="http://s1.orionsbelt.eu/API/Universe.xml.zip">http://s1.orionsbelt.eu/API/Universe.xml.zip</a> (gziped)
+    </pre></div></lang>
+		<lang key="en"><div class="content">
+    The <u>Universe XML</u> is a XML file that's updated every day with the information of the universe: sectors, planets, fleets, alliance ownership etc.
+    You can use this to build dynamic maps representing alliance zones, empty zones, etc.
+    <p />
+    You can know more about the universe size and coordinates system at the [Coordinates] page.
+    <h2>Access</h2>
+    You can access this file via:
+    <pre><a href="http://s1.orionsbelt.eu/API/Universe.xml.zip">http://s1.orionsbelt.eu/API/Universe.xml.zip</a> (gziped)
+    </pre></div></lang>
+		<lang key="fr"><div class="content">
+    L'<u>Universe XML</u> est un fichier constamment mis à jour concernant les événements à travers L'univers. Il contient de l'information concernant les secteurs, les planètes, les escadrilles, la propriété des alliances, etc.
+    Vous pouvez construire des cartes interactives représentant les zones appartenant à une alliance, les zones vides, etc.
+    <p>
+    Vous pouvez en connaître plus sur les dimensions de l'univers et le système de coordonnées à la page de [Coordinates]
+    </p><h2>Access</h2>
+    Vous pouvez accéder à ce fichier par ici :
+    <pre><a href="http://s1.orionsbelt.eu/API/Universe.xml.zip">http://s1.orionsbelt.eu/API/Universe.xml.zip</a> (gziped)
+    </pre></div></lang>
+		<lang key="hr"><div class="content"><u>Universe XML</u> je XML dokument koji je updatean svaki dan s informacijama o svemiru : sektori, planete, vlasništvo saveza itd.
+Možete se poslužiti s ovim da gradite dinamične mape koje predstavljaju zone saveza, prazne zone, itd.
+ <p />
+Možete više saznati o veličini svemira i koordinatama na [Coordinates] stranici.
+  <h2>Access</h2>
+Možete pristupiti ovom dokumentu sljedećim linkom:
+<pre><a href="http://s1.orionsbelt.eu/API/Universe.xml.zip">http://s1.orionsbelt.eu/API/Universe.xml.zip</a> (gziped)
+    </pre></div></lang>
+		<lang key="hu"><div class="content">
+    Az <u>Universe XML</u> egy XML fájl, amely minden nap frissül az Univerzumról szóló információkkal: szektorok, bolygók, flották, szövetségek stb.
+    Ezt felhasználhatod, hogy dinamikus térképeket készíts, melyek megjelenítik a szövetséges zónákat, üres zónákat, stb..
+    <p />
+    A [Coordinates] oldalon többet megtudhatsz az Univerzum méretéről és a koordináta rendszerről.
+    <h2>Access</h2>
+    A fájlt elérheted az alábbi hivatkozások kersztül:
+    <pre><a href="http://s1.orionsbelt.eu/API/Universe.xml.zip">http://s1.orionsbelt.eu/API/Universe.xml.zip</a> (gziped)
+    </pre></div></lang>
+		<lang key="it"><div class="content">
+    Il <u>XML dell'Universo</u> è un file XML aggiornato giornalmente con le informazioni dell'universo: settori, pianeti, flotte, alleanze etc.
+    Puoi usarlo per costruire mappe dinamiche rappresentanti le zone delle alleanze, zone libere etc.
+    <p>
+    Puoi trovare maggiori informazioni sulla dimensione dell'Universo e sul sistema delle coordinate qui: [Coordinates].
+    </p><h2>Accesso al file</h2>
+    Puoi prendere il file qui:
+    <pre><a href="http://s1.orionsbelt.eu/API/Universe.xml.zip">http://s1.orionsbelt.eu/API/Universe.xml.zip</a> (gziped)
+    </pre></div></lang>
+		<lang key="pt"><div class="content">
+    O <u>XML do Universo</u> é um ficheiro XML que é actualizado diariamente com informação sobre o universo: sectores, planets, armadas, alianças, etc.
+    Podes usar esta informação para construir páginas dinamicas que mostram zonas por aliança, zonas vazias, etc.
+    <p />
+    Podes saber mais sobre o tamanho do universo e o sistema de coordenadas na página de [Coordinates].
+    <h2>Acesso</h2>
+    Podes aceder a este ficheiro via:
+    <pre><a href="http://s1.orionsbelt.eu/API/Universe.xml.zip">http://s1.orionsbelt.eu/API/Universe.xml.zip</a> (gziped)
+    </pre></div></lang>
+		<lang key="ro"><div class="content"><u>XML-ul Universului</u> este un fişier XML care este actualizat in fiecare zi cu informaţii
+    din univers:
+    sectoare, planete, flote, proprietăţile alianţei, etc.
+    <p />
+    Aveţi posibilitatea să aflaţi mai multe despre dimensiunea universului şi sistemul de
+    coordonate la pagina [Coordinates].
+    <h2>Access</h2>
+    Aveţi posibilitatea de a accesa acest fişier prin:
+    <pre><a href="http://s1.orionsbelt.eu/API/Universe.xml.zip">http://s1.orionsbelt.eu/API/Universe.xml.zip</a> (gziped)
+    </pre></div></lang>
+	</entry>
+
+</resources>

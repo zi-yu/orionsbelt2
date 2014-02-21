@@ -1,0 +1,25 @@
+﻿<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/hr/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	Lagani
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="conceptMenu" runat="server">
+	<h2>Borbeni Koncepti</h2><ul><li><a href='/hr/Battles/GameBoard.aspx'>Tabla Igre</a></li><li><a href='/hr/Battles/Deploy.aspx'>Raspoređivanje</a></li><li><a href='/hr/Battles/Movement.aspx'>Pokret</a></li><li><a href='/hr/Battles/Rules.aspx'>Rules</a></li></ul><h2>Napad</h2><ul><li><a href='/hr/Battles/Range.aspx'>Domet</a></li><li><a href='/hr/Battles/Catapult.aspx'>Katapult</a></li><li><a href='/hr/Battles/ParalyseAttack.aspx'>Napad Paralize</a></li><li><a href='/hr/Battles/Replicator.aspx'>Replikator</a></li><li><a href='/hr/Battles/StrikeBack.aspx'>Protunapad</a></li><li><a href='/hr/Battles/InfestationAttack.aspx'>Napad Obuzetosti</a></li><li><a href='/hr/Battles/RemoveAbilityAttack.aspx'>Makni Sposobnost Napad</a></li><li><a href='/hr/Battles/TripleAttack.aspx'>Trostruki Napad</a></li><li><a href='/hr/Battles/BombAttack.aspx'>Napad Bombom</a></li><li><a href='/hr/Battles/Rebound.aspx'>Povratni</a></li></ul><h2>Kategorija</h2><ul><li><a href='/hr/Battles/Light.aspx'>Lagani</a></li><li><a href='/hr/Battles/Medium.aspx'>Srednji</a></li><li><a href='/hr/Battles/Heavy.aspx'>Teški</a></li><li><a href='/hr/Battles/Ultimate.aspx'>Ultimativni</a></li><li><a href='/hr/Battles/Special.aspx'>Izvanredni</a></li></ul><h2>Tip Bitke</h2><ul><li><a href='/hr/Battles/TotalAnnihilation.aspx'>Totalno Uništenje</a></li><li><a href='/hr/Battles/Regicide.aspx'>Regicid</a></li></ul>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1>Lagane Jedinice</h1>
+<div class="content">
+<a href='/hr/Battles/Light.aspx'>Lagani</a> jednice su najbrže i najslabije u igri. Tipično, <a href='/hr/Battles/Light.aspx'>Lagani</a> jedinica ima <a href='/hr/Battles/Movement.aspx#MovAll'>Totalni Pokret</a> i <a href='/hr/Battles/Movement.aspx#MovCost'>Cijena Pokreta</a> of 1, i jeftinije su od <a href='/hr/Battles/Medium.aspx'>Srednji</a> i <a href='/hr/Battles/Heavy.aspx'>Teški</a> <a href='/hr/UnitIndex.aspx'>Borbene Jedinice</a>.
+<p />
+Svaka balansirana <a href='/hr/Universe/Fleet.aspx'>Flota</a> ima značajan postotak <a href='/hr/Battles/Light.aspx'>Lagani</a> jedinica, uglavno zato što su potrebne kao <a href='/hr/Battles/DispensableUnits.aspx'>Hrana za Topove</a>, jedna od najčešće upotrebljavanih <a href='/hr/Battles/BattleTactics.aspx'>Taktike Bitke</a> u <a href='http://www.orionsbelt.eu'>Orioniv Pojas</a>.
+<p />
+Ali <a href='/hr/Battles/Light.aspx'>Lagani</a> jedinice nisu tu samo da bi bile žrtvovane. One su jako jake jedinice koje mogu lako napast bilo koju veću jedinicu.
+<p />
+<a href='/hr/Battles/Light.aspx'>Lagani</a> units:
+</div>
+	<ul class='imageList'><li><a href='/hr/Unit/Raptor.aspx'><img class='raptor' src='http://resources.orionsbelt.eu/Images/Common/Units/raptor.png' alt='Raptor' /></a></li><li><a href='/hr/Unit/Rain.aspx'><img class='rain' src='http://resources.orionsbelt.eu/Images/Common/Units/rain.png' alt='Kiša' /></a></li><li><a href='/hr/Unit/Cypher.aspx'><img class='cypher' src='http://resources.orionsbelt.eu/Images/Common/Units/cypher.png' alt='Cypher' /></a></li><li><a href='/hr/Unit/Reaper.aspx'><img class='reaper' src='http://resources.orionsbelt.eu/Images/Common/Units/reaper.png' alt='Žetalica' /></a></li><li><a href='/hr/Unit/Panther.aspx'><img class='panther' src='http://resources.orionsbelt.eu/Images/Common/Units/panther.png' alt='Pantera' /></a></li><li><a href='/hr/Unit/Seeker.aspx'><img class='seeker' src='http://resources.orionsbelt.eu/Images/Common/Units/seeker.png' alt='Tražilac' /></a></li><li><a href='/hr/Unit/Egg.aspx'><img class='egg' src='http://resources.orionsbelt.eu/Images/Common/Units/egg.png' alt='Jaje' /></a></li><li><a href='/hr/Unit/Maggot.aspx'><img class='maggot' src='http://resources.orionsbelt.eu/Images/Common/Units/maggot.png' alt='Crv' /></a></li><li><a href='/hr/Unit/DarkRain.aspx'><img class='darkrain' src='http://resources.orionsbelt.eu/Images/Common/Units/darkrain.png' alt='Crna Kiša' /></a></li><li><a href='/hr/Unit/Toxic.aspx'><img class='toxic' src='http://resources.orionsbelt.eu/Images/Common/Units/toxic.png' alt='Otrovni' /></a></li><li><a href='/hr/Unit/Anubis.aspx'><img class='anubis' src='http://resources.orionsbelt.eu/Images/Common/Units/anubis.png' alt='Anubis' /></a></li><li><a href='/hr/Unit/Jumper.aspx'><img class='jumper' src='http://resources.orionsbelt.eu/Images/Common/Units/jumper.png' alt='Jumper' /></a></li><li><a href='/hr/Unit/Samurai.aspx'><img class='samurai' src='http://resources.orionsbelt.eu/Images/Common/Units/samurai.png' alt='Samuraj' /></a></li><li><a href='/hr/Unit/Interceptor.aspx'><img class='interceptor' src='http://resources.orionsbelt.eu/Images/Common/Units/interceptor.png' alt='Presretač' /></a></li><li><a href='/hr/Unit/Sentry.aspx'><img class='sentry' src='http://resources.orionsbelt.eu/Images/Common/Units/sentry.png' alt='Stražar' /></a></li></ul>
+	
+</asp:Content>

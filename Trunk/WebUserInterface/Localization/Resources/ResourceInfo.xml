@@ -1,0 +1,2092 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="true">
+
+	<entry key="Air">
+		<lang key="de">Luft</lang>
+		<lang key="en">Air</lang>
+		<lang key="es">Aire</lang>
+		<lang key="hr">Zrak</lang>
+		<lang key="it">Aria</lang>
+		<lang key="pt">Ar</lang>
+		<lang key="se">Luft</lang>
+	</entry>
+
+	<entry key="AirVent">
+		<lang key="de">Entlüftungshaube</lang>
+		<lang key="en">Air Vent</lang>
+		<lang key="hr">Zračni Ventil</lang>
+		<lang key="it">Condotta per l'Aria</lang>
+		<lang key="pt">Conduta de Ar</lang>
+		<lang key="se">Luftventil</lang>
+	</entry>
+
+	<entry key="Alcohol">
+		<lang key="de">Alkohol</lang>
+		<lang key="en">Alcohol</lang>
+		<lang key="es">Alcohol</lang>
+		<lang key="fr">Alcool</lang>
+		<lang key="hr">Alkohol</lang>
+		<lang key="it">Alcohol</lang>
+		<lang key="pt">Álcool</lang>
+		<lang key="se">Alkohol</lang>
+	</entry>
+
+	<entry key="All">
+		<lang key="de">Komplett</lang>
+		<lang key="en">All</lang>
+		<lang key="es">Completo</lang>
+		<lang key="fr">complet</lang>
+		<lang key="hr">Svi</lang>
+		<lang key="it">Completo</lang>
+		<lang key="pt">Completo</lang>
+		<lang key="se">Komplett</lang>
+	</entry>
+
+	<entry key="Animals">
+		<lang key="de">Tiere</lang>
+		<lang key="en">Animals</lang>
+		<lang key="es">Animales</lang>
+		<lang key="fr">Animaux</lang>
+		<lang key="hr">Životinje</lang>
+		<lang key="it">Animali</lang>
+		<lang key="pt">Animais</lang>
+		<lang key="se">Djur</lang>
+	</entry>
+
+	<entry key="AntiMatterContainer">
+		<lang key="de">Anti-Materie Container</lang>
+		<lang key="en">Anti Matter Container</lang>
+		<lang key="hr">Antimatrijski Spremnik</lang>
+		<lang key="it">Contenitore di Anti Materia</lang>
+		<lang key="pt">Contentor Anti Mátéria</lang>
+		<lang key="se">Behållare för Antimateria</lang>
+	</entry>
+
+	<entry key="Anubis">
+		<lang key="de">Anubis</lang>
+		<lang key="en">Anubis</lang>
+		<lang key="es">Anubis</lang>
+		<lang key="fr">Anubis</lang>
+		<lang key="hr">Anubis</lang>
+		<lang key="it">Anubis</lang>
+		<lang key="pt">Anubis</lang>
+		<lang key="se">Anubis</lang>
+	</entry>
+
+	<entry key="Argon">
+		<lang key="de">Argon</lang>
+		<lang key="en">Argon</lang>
+		<lang key="es">Argon</lang>
+		<lang key="fr">Argon</lang>
+		<lang key="hr">Argon</lang>
+		<lang key="it">Argon</lang>
+		<lang key="pt">Argon</lang>
+		<lang key="se">Argon</lang>
+	</entry>
+
+	<entry key="Astatine">
+		<lang key="de">Astatine</lang>
+		<lang key="en">Astatine</lang>
+		<lang key="es">Astatine</lang>
+		<lang key="fr">Astatine</lang>
+		<lang key="hr">Astatin</lang>
+		<lang key="it">Astatine</lang>
+		<lang key="pt">Astatine</lang>
+		<lang key="se">Astatine</lang>
+	</entry>
+
+	<entry key="Attack">
+		<lang key="de">Angriff</lang>
+		<lang key="en">Attack</lang>
+		<lang key="es">Ataque</lang>
+		<lang key="fr">Attaque</lang>
+		<lang key="hr">Napad</lang>
+		<lang key="it">Attacco</lang>
+		<lang key="pt">Ataque</lang>
+		<lang key="se">Attack</lang>
+	</entry>
+
+	<entry key="BattleMoon">
+		<lang key="de">Mond-Schlacht</lang>
+		<lang key="en">Battle Moon</lang>
+		<lang key="es">Luna de Batalla</lang>
+		<lang key="fr">Lune de Combat</lang>
+		<lang key="hr">Borbeni Mjesec</lang>
+		<lang key="it">Battle Moon</lang>
+		<lang key="pt">Lua de Batalha</lang>
+		<lang key="se">Fältslagsmåne</lang>
+	</entry>
+
+	<entry key="BattleMoonAssembler">
+		<lang key="de">Fabrik der Mondschlachten</lang>
+		<lang key="en">BattleMoon Assembler</lang>
+		<lang key="es">Fábrica de Lunas de Combate</lang>
+		<lang key="fr">Assembleur de lune de bataille</lang>
+		<lang key="hr">Tvornica Borbenih Mjeseca</lang>
+		<lang key="it">Assemblatore di Battle Moon</lang>
+		<lang key="pt">Fábrica de Luas de Combate</lang>
+		<lang key="se">Fabrik för Fältslagsmåne</lang>
+	</entry>
+
+	<entry key="BattleMoonDescription">
+		<lang key="de">Letzte Einheit der finsteren Menschen</lang>
+		<lang key="en">Dark Human ultimate unit</lang>
+		<lang key="es">La unidades finales de los Humanos Oscuros</lang>
+		<lang key="fr">Unité ultime des humains noirs</lang>
+		<lang key="hr">Tamni Čovjek ultimativna jedinica</lang>
+		<lang key="it">Unità suprema dei Renegade</lang>
+		<lang key="pt">A derradeira unidade dos humanos sombrios</lang>
+		<lang key="se">Ultimat Enhet för Dark Human</lang>
+	</entry>
+
+	<entry key="Berilium">
+		<lang key="de">Berilium</lang>
+		<lang key="en">Berilium</lang>
+		<lang key="hr">Berilium</lang>
+		<lang key="it">Berillio</lang>
+		<lang key="pt">Berílio</lang>
+		<lang key="se">Berilium</lang>
+	</entry>
+
+	<entry key="BlackMercSpaceChart">
+		<lang key="de">Black Merc Weltraumkarte</lang>
+		<lang key="en">Black Merc Space Chart</lang>
+		<lang key="hr">Black Merc Svemirska Karta</lang>
+		<lang key="it">Mappa Spaziale dei Black Merc</lang>
+		<lang key="pt">Mapa Espacial dos Black Mercs</lang>
+		<lang key="se">Black Mercs rymdkarta</lang>
+	</entry>
+
+	<entry key="BlackMercUniform">
+		<lang key="de">Black Merc Uniform</lang>
+		<lang key="en">Black Merc Uniform</lang>
+		<lang key="hr">Uniforma Black Mercs-a</lang>
+		<lang key="it">Uniforme dei Black Mercs</lang>
+		<lang key="pt">Uniforme dos Black Mercs</lang>
+		<lang key="se">Black Mercs Uniform</lang>
+	</entry>
+
+	<entry key="BlackWidow">
+		<lang key="de">Schwarze Witwe</lang>
+		<lang key="en">Black Widow</lang>
+		<lang key="es">Viuda Negra</lang>
+		<lang key="fr">Veuve Noire</lang>
+		<lang key="hr">Crna Udovica</lang>
+		<lang key="it">Black Widow</lang>
+		<lang key="pt">Viúva Negra</lang>
+		<lang key="se">Svart Änka</lang>
+	</entry>
+
+	<entry key="Blinker">
+		<lang key="de">Blinker</lang>
+		<lang key="en">Blinker</lang>
+		<lang key="es">Parpadeante</lang>
+		<lang key="fr">Téléporteur</lang>
+		<lang key="hr">Bljeskalica</lang>
+		<lang key="it">Blinker</lang>
+		<lang key="pt">Pisca-pisca</lang>
+		<lang key="se">Blinker</lang>
+	</entry>
+
+	<entry key="BlinkerAssembler">
+		<lang key="de">Blinker Fabrik</lang>
+		<lang key="en">Blinker Assembler</lang>
+		<lang key="es">Fábrica de Parpadeantes</lang>
+		<lang key="fr">Assembleur de Téléporteur</lang>
+		<lang key="hr">Tvornica Bljeskalica</lang>
+		<lang key="it">Assemblatore di Blinker</lang>
+		<lang key="pt">Fábrica de Pisca-piscas</lang>
+		<lang key="se">Blinker-fabrik</lang>
+	</entry>
+
+	<entry key="BlueMatter">
+		<lang key="de">Blaue Materie</lang>
+		<lang key="en">Blue Matter</lang>
+		<lang key="pt">Matéria Azul</lang>
+		<lang key="se">Blå Materia</lang>
+	</entry>
+
+	<entry key="BlueMatterContainer">
+		<lang key="de">Blaue Materie Container</lang>
+		<lang key="en">BlueMatterContainer</lang>
+		<lang key="pt">Contentor de Matéria Azul</lang>
+		<lang key="se">Behållare för Blå Materia</lang>
+	</entry>
+
+	<entry key="BombAttack">
+		<lang key="de">Bombenattacke</lang>
+		<lang key="en">Bomb Attack</lang>
+		<lang key="es">Ataque Bomba</lang>
+		<lang key="fr">Attaque explosive</lang>
+		<lang key="hr">Napad Bombom</lang>
+		<lang key="it">Attacco Bomba</lang>
+		<lang key="pt">Ataque Bomba</lang>
+		<lang key="se">Bombattack</lang>
+	</entry>
+
+	<entry key="Boozer">
+		<lang key="de">Boozer</lang>
+		<lang key="en">Boozer</lang>
+		<lang key="es">Boozer</lang>
+		<lang key="fr">Boozer</lang>
+		<lang key="hr">Boozer</lang>
+		<lang key="it">Boozer</lang>
+		<lang key="pt">Boozer</lang>
+		<lang key="se">Boozer</lang>
+	</entry>
+
+	<entry key="BoozerDescription">
+		<lang key="de"></lang>
+		<lang key="en"></lang>
+		<lang key="es"></lang>
+		<lang key="hr"></lang>
+		<lang key="it"></lang>
+		<lang key="pt"></lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="Bozer">
+		<lang key="de">Bozer</lang>
+		<lang key="en">Bozer</lang>
+		<lang key="es">Bozer</lang>
+		<lang key="fr">Bozer</lang>
+		<lang key="hr">Bozer</lang>
+		<lang key="it">Bozer</lang>
+		<lang key="pt">Bozer</lang>
+		<lang key="se">Bozer</lang>
+	</entry>
+
+	<entry key="CaptainWolf">
+		<lang key="de">Kapitän Wolf</lang>
+		<lang key="en">CaptainWolf</lang>
+		<lang key="pt">Capitão Lobo</lang>
+		<lang key="se">Kapten Wolf</lang>
+	</entry>
+
+	<entry key="CaptainWolfShipSpecifications">
+		<lang key="de">Spezifikationen des Schiffs von Kapitän Wolf</lang>
+		<lang key="en">Captain Wolf's Ship Specifications</lang>
+		<lang key="pt">Especificações da nave do Capitão Lobo</lang>
+		<lang key="se">Kapten Wolfs skeppsspecifikationer</lang>
+	</entry>
+
+	<entry key="CarbonNanoTube">
+		<lang key="de">Kohle Nanorohre</lang>
+		<lang key="en">Carbon Nano Tube</lang>
+		<lang key="hr">Ugljična Nano Cijev</lang>
+		<lang key="it">Nano Tubo di Carbonio</lang>
+		<lang key="pt">Nano Tubos de Carbono</lang>
+		<lang key="se">Kol-nanotub</lang>
+	</entry>
+
+	<entry key="Catapult">
+		<lang key="de">Katapult</lang>
+		<lang key="en">Catapult</lang>
+		<lang key="es">Catapulta</lang>
+		<lang key="fr">Catapulte</lang>
+		<lang key="hr">Katapult</lang>
+		<lang key="it">Catapulta</lang>
+		<lang key="pt">Catapulta</lang>
+		<lang key="se">Katapult</lang>
+	</entry>
+
+	<entry key="CommandCenter">
+		<lang key="de">Zentralkommando</lang>
+		<lang key="en">Command Center</lang>
+		<lang key="es">Centro de Comando</lang>
+		<lang key="fr">Centre de Commandement</lang>
+		<lang key="hr">Zapovjedni Centar</lang>
+		<lang key="it">Centro di Comando</lang>
+		<lang key="pt">Centro de Comando</lang>
+		<lang key="se">Kommandocenter</lang>
+	</entry>
+
+	<entry key="CommanderFox">
+		<lang key="de">Kommander Fox</lang>
+		<lang key="en">Commander Fox</lang>
+		<lang key="pt">Comandante Raposa</lang>
+		<lang key="se">Kommendör Fox</lang>
+	</entry>
+
+	<entry key="CommanderFoxShipSpecifications">
+		<lang key="de">Spezifikationen von Kommander Fox's Schiff</lang>
+		<lang key="en">Commander Fox's Ship Specifications</lang>
+		<lang key="pt">Especificações da nave do Comandante Raposa</lang>
+		<lang key="se">Kommendör Fox' Skepsspecifkationer</lang>
+	</entry>
+
+	<entry key="CommanderWolf">
+		<lang key="de">Kommander Wolf</lang>
+		<lang key="en">Commander Wolf</lang>
+		<lang key="hr">Komandant Vuk</lang>
+		<lang key="it">Comandante Lupo</lang>
+		<lang key="pt">Comandante Lobo</lang>
+		<lang key="se">Kommendör Wolf</lang>
+	</entry>
+
+	<entry key="CommunicationsArray">
+		<lang key="de">Kommunikationsfeld</lang>
+		<lang key="en">Communications Array</lang>
+		<lang key="hr">Komunikacijska Mreža</lang>
+		<lang key="it">Apparato per le Comunicazioni</lang>
+		<lang key="pt">Array de Comunicações</lang>
+		<lang key="se">Kommunikationsapparat</lang>
+	</entry>
+
+	<entry key="CosmicDust">
+		<lang key="de">Kosmischer Staub</lang>
+		<lang key="en">Cosmic Dust</lang>
+		<lang key="es">Polvadera Cósmica</lang>
+		<lang key="fr">Poudre Cosmique</lang>
+		<lang key="hr">Kozmička Prašina</lang>
+		<lang key="it">Polvere Cosmica</lang>
+		<lang key="pt">Poeira Cósmica</lang>
+		<lang key="se">Kosmiskt Dam</lang>
+	</entry>
+
+	<entry key="Crawler">
+		<lang key="de">Kriecher</lang>
+		<lang key="en">Crawler</lang>
+		<lang key="pt">Rastejante</lang>
+		<lang key="se">Crawler</lang>
+	</entry>
+
+	<entry key="CrawlerGyroBalancer">
+		<lang key="de">Crawler Gyro-Ausgleicher</lang>
+		<lang key="en">Crawler's Gyro Balancer</lang>
+		<lang key="pt">Giro-Balanceador de um Rastejante</lang>
+		<lang key="se">Gyro-Balanserare för en Crawler</lang>
+	</entry>
+
+	<entry key="CrawlerStaticPulse">
+		<lang key="de">Statischer Puls eines Crawlers</lang>
+		<lang key="en">Crawler's Static Pulse</lang>
+		<lang key="pt">Impulso Estático de um Rastejante</lang>
+		<lang key="se">Statiskt Tryck hos en Crawler</lang>
+	</entry>
+
+	<entry key="CriminalListAlpha">
+		<lang key="de">Liste der Alpha Kriminellen</lang>
+		<lang key="en">Criminal List Alpha</lang>
+		<lang key="hr">Krimanlna Lista Alpha</lang>
+		<lang key="it">Lista di Criminali Alpha</lang>
+		<lang key="pt">Lista de Criminosos Alpha</lang>
+		<lang key="se">Brottslingslista Alfa</lang>
+	</entry>
+
+	<entry key="CriminalListBeta">
+		<lang key="de">Kriminellen Liste Beta</lang>
+		<lang key="en">Criminal List Beta</lang>
+		<lang key="hr">Kriminalna Lista Beta</lang>
+		<lang key="it">Lista dei Criminali Beta</lang>
+		<lang key="pt">Lista de Criminosos Beta</lang>
+		<lang key="se">Brottslingslista Beta</lang>
+	</entry>
+
+	<entry key="CriminalListDelta">
+		<lang key="de">Kriminal Liste Delta</lang>
+		<lang key="en">Criminal List Delta</lang>
+		<lang key="hr">Kriminalna Lista Delta</lang>
+		<lang key="it">Lista di Criminali Delta</lang>
+		<lang key="pt">Lista de Criminosos Delta</lang>
+		<lang key="se">Brottslingslista Delta</lang>
+	</entry>
+
+	<entry key="CriminalListGamma">
+		<lang key="de">Kriminellen Liste Gamma</lang>
+		<lang key="en">Criminal List Gamma</lang>
+		<lang key="hr">Kriminalna Lista Gamma</lang>
+		<lang key="it">Lista di Criminali Gamma</lang>
+		<lang key="pt">Lista de Criminosos Gamma</lang>
+		<lang key="se">Brotsslingslista Gamma</lang>
+	</entry>
+
+	<entry key="CriminalListOmega">
+		<lang key="de">Kriminellen Liste Omega</lang>
+		<lang key="en">Criminal List Omega</lang>
+		<lang key="hr">Kriminalna lista Omega</lang>
+		<lang key="it">Lista di Criminali Omega</lang>
+		<lang key="pt">Lista de Criminosos Omega</lang>
+		<lang key="se">Brottsling-lista Omega</lang>
+	</entry>
+
+	<entry key="CriminalListSigma">
+		<lang key="de">Kriminellen Liste Sigma</lang>
+		<lang key="en">Criminal List Sigma</lang>
+		<lang key="hr">Kriminalna Lista Sigma</lang>
+		<lang key="it">Lista di Criminali Sigma</lang>
+		<lang key="pt">Lista de Criminosos Sigma</lang>
+		<lang key="se">Brottslingslista Sigma</lang>
+	</entry>
+
+	<entry key="Crusader">
+		<lang key="de">Kreuzfahrer</lang>
+		<lang key="en">Crusader</lang>
+		<lang key="es">Cruzador</lang>
+		<lang key="fr">Croiseur</lang>
+		<lang key="hr">Crusader</lang>
+		<lang key="it">Crusader</lang>
+		<lang key="pt">Crusador</lang>
+		<lang key="se">Kryssare</lang>
+	</entry>
+
+	<entry key="Cryptium">
+		<lang key="de">Cryptium</lang>
+		<lang key="en">Cryptium</lang>
+		<lang key="es">Cryptium</lang>
+		<lang key="fr">Cryptium</lang>
+		<lang key="hr">Cryptium</lang>
+		<lang key="it">Cryptium</lang>
+		<lang key="pt">Cryptium</lang>
+		<lang key="se">Cryptium</lang>
+	</entry>
+
+	<entry key="Cypher">
+		<lang key="de">Cypher</lang>
+		<lang key="en">Cypher</lang>
+		<lang key="pt">Cypher</lang>
+		<lang key="se">Cypher</lang>
+	</entry>
+
+	<entry key="DarkCrusader">
+		<lang key="de">Dunkler Kreuzfahrer</lang>
+		<lang key="en">Dark Crusader</lang>
+		<lang key="es">Cruzador Sombrio</lang>
+		<lang key="fr">Croiseur Noir</lang>
+		<lang key="hr">Crni Crusader</lang>
+		<lang key="it">Dark Crusader</lang>
+		<lang key="pt">Cruzador Sombrio</lang>
+		<lang key="se">Dark Crusader</lang>
+	</entry>
+
+	<entry key="DarkMatter">
+		<lang key="de">Dunkle Materie</lang>
+		<lang key="en">Dark Matter</lang>
+		<lang key="fr">Matière Obscure</lang>
+		<lang key="pt">Matéria Negra</lang>
+		<lang key="se">Mörk Materia</lang>
+	</entry>
+
+	<entry key="DarkMercSpaceChart">
+		<lang key="de">Dark Merc Weltraumkarte</lang>
+		<lang key="en">Dark Merc Space Chart</lang>
+		<lang key="hr">Dark Merc Svemirska Karta</lang>
+		<lang key="it">Mappa Spaziale dei Dark Mercs</lang>
+		<lang key="pt">Mapa Espacial dos Dark Mercs</lang>
+		<lang key="se">Dark Mercs Rymdkarta</lang>
+	</entry>
+
+	<entry key="DarkMercUniform">
+		<lang key="de">Dark Merc Uniform</lang>
+		<lang key="en">Dark Merc Uniform</lang>
+		<lang key="hr">Dark Merc Uniforma</lang>
+		<lang key="it">Uniforme dei Dark Mercs</lang>
+		<lang key="pt">Unforme dos Dark Mercs</lang>
+		<lang key="se">Dark Mercs Uniform</lang>
+	</entry>
+
+	<entry key="DarknessHall">
+		<lang key="de">Halle der Dunkelheit</lang>
+		<lang key="en">Darkness Hall</lang>
+		<lang key="es">Capital de la Oscuridad</lang>
+		<lang key="fr">Tour Obscure</lang>
+		<lang key="hr">Dvorana Tame</lang>
+		<lang key="it">Villa dell'Oscurità</lang>
+		<lang key="pt">Capital da Escuridão</lang>
+		<lang key="se">Mörkrets Huvudstad</lang>
+	</entry>
+
+	<entry key="DarkRain">
+		<lang key="de">Dunkler Regen</lang>
+		<lang key="en">Dark Rain</lang>
+		<lang key="es">Lluvia Sombría</lang>
+		<lang key="fr">Bruine Noire</lang>
+		<lang key="hr">Crna Kiša</lang>
+		<lang key="it">Dark Rain</lang>
+		<lang key="pt">Rain Sombria</lang>
+		<lang key="se">Dark Rain</lang>
+	</entry>
+
+	<entry key="DarkTaurus">
+		<lang key="de">Dunkler Taurus</lang>
+		<lang key="en">Dark Taurus</lang>
+		<lang key="es">Toro Oscuro</lang>
+		<lang key="fr">Taureau Noir</lang>
+		<lang key="hr">Tamni Bik</lang>
+		<lang key="it">Dark Taurus</lang>
+		<lang key="pt">Touro Sombrio</lang>
+		<lang key="se">Dark Taurus</lang>
+	</entry>
+
+	<entry key="DeepSpaceScanner">
+		<lang key="de">Weltraum Tiefenscanner</lang>
+		<lang key="en">Deep Space Scanner</lang>
+		<lang key="es">Radar de Largo Alcance</lang>
+		<lang key="fr">Satellite d'observation</lang>
+		<lang key="hr">Skener Dubokog Svemira</lang>
+		<lang key="it">Radar per lo Spazio Profondo</lang>
+		<lang key="pt">Radar de Longo Alcance</lang>
+		<lang key="se">Rymdradar, Långdistans</lang>
+	</entry>
+
+	<entry key="Defense">
+		<lang key="de">Verteidigung</lang>
+		<lang key="en">Defense</lang>
+		<lang key="es">Defensa</lang>
+		<lang key="fr">Défense</lang>
+		<lang key="hr">Obrana</lang>
+		<lang key="it">Difesa</lang>
+		<lang key="pt">Defesa</lang>
+		<lang key="se">Försvar</lang>
+	</entry>
+
+	<entry key="Destroyer">
+		<lang key="de">Zerstörer</lang>
+		<lang key="en">Destroyer</lang>
+		<lang key="es">Destructor</lang>
+		<lang key="fr">Destructeur</lang>
+		<lang key="hr">Razarač</lang>
+		<lang key="it">Destroyer</lang>
+		<lang key="pt">Destruidor</lang>
+		<lang key="se">Destroyer</lang>
+	</entry>
+
+	<entry key="DeutiriumEnergyCapsule">
+		<lang key="de">Deutirium Energiekapsel</lang>
+		<lang key="en">Deutirium Energy Capsule</lang>
+		<lang key="hr">Energestka Kapsula Deuterija</lang>
+		<lang key="it">Capsule Energetiche di Deuterio</lang>
+		<lang key="pt">Cápsula de Energia de Deutério</lang>
+		<lang key="se">Energikapsel med Deutrium</lang>
+	</entry>
+
+	<entry key="Devastation">
+		<lang key="de">Zerstörung</lang>
+		<lang key="en">Devastation</lang>
+		<lang key="es">Devastación</lang>
+		<lang key="fr">Dévastation</lang>
+		<lang key="hr">Devastacija</lang>
+		<lang key="it">Devastazione</lang>
+		<lang key="pt">Devastação</lang>
+		<lang key="se">Förstörelse</lang>
+	</entry>
+
+	<entry key="DevotionSanctuary">
+		<lang key="de">Zufluchtsstätte der Hingabe</lang>
+		<lang key="en">Devotion Sanctuary</lang>
+		<lang key="es">Santuário de Devoción</lang>
+		<lang key="fr">Sancutaire de dévôts</lang>
+		<lang key="hr">Svetište Pobožnosti</lang>
+		<lang key="it">Santuario della Devozione</lang>
+		<lang key="pt">Santuário de Devoção</lang>
+		<lang key="se">Fristad för Andakt</lang>
+	</entry>
+
+	<entry key="Diagonal">
+		<lang key="de">Diagonal</lang>
+		<lang key="en">Diagonal</lang>
+		<lang key="es">Diagonal</lang>
+		<lang key="fr">Diagonale</lang>
+		<lang key="hr">Dijagonalni</lang>
+		<lang key="it">Diagonale</lang>
+		<lang key="pt">Diagonal</lang>
+		<lang key="se">Diagonal</lang>
+	</entry>
+
+	<entry key="Diamonds">
+		<lang key="de">Diamanten</lang>
+		<lang key="en">Diamonds</lang>
+		<lang key="es">Diamantes</lang>
+		<lang key="fr">Diamants</lang>
+		<lang key="hr">Dijamanti</lang>
+		<lang key="it">Diamanti</lang>
+		<lang key="pt">Diamantes</lang>
+		<lang key="se">Diamanter</lang>
+	</entry>
+
+	<entry key="DominationYard">
+		<lang key="de">Herrschafts Hangar</lang>
+		<lang key="en">Domination Yard</lang>
+		<lang key="es">Hangar de Domínio</lang>
+		<lang key="fr">Hangar de Domination</lang>
+		<lang key="hr">Brodogradilište Dominacije</lang>
+		<lang key="it">Centro di Dominazione</lang>
+		<lang key="pt">Hangar do Domínio</lang>
+		<lang key="se">Hangar för Domän</lang>
+	</entry>
+
+	<entry key="Doomer">
+		<lang key="de">Doomer</lang>
+		<lang key="en">Doomer</lang>
+		<lang key="es">Aniquiladora</lang>
+		<lang key="fr">Anihilateur</lang>
+		<lang key="hr">Anihilator</lang>
+		<lang key="it">Doomer</lang>
+		<lang key="pt">Aniquiladora</lang>
+		<lang key="se">Doomer</lang>
+	</entry>
+
+	<entry key="Driller">
+		<lang key="de">Bohrer</lang>
+		<lang key="en">Driller</lang>
+		<lang key="es">Perforador</lang>
+		<lang key="fr">Perçeur</lang>
+		<lang key="hr">Bušitelj</lang>
+		<lang key="it">Driller</lang>
+		<lang key="pt">Perfurador</lang>
+		<lang key="se">Driller</lang>
+	</entry>
+
+	<entry key="Eagle">
+		<lang key="de">Adler</lang>
+		<lang key="en">Eagle</lang>
+		<lang key="es">Aguila</lang>
+		<lang key="fr">Aigle</lang>
+		<lang key="hr">Orao</lang>
+		<lang key="it">Eagle</lang>
+		<lang key="pt">Águia</lang>
+		<lang key="se">Örn</lang>
+	</entry>
+
+	<entry key="Egg">
+		<lang key="de">Ei</lang>
+		<lang key="en">Egg</lang>
+		<lang key="es">Huevo</lang>
+		<lang key="fr">Oeuf</lang>
+		<lang key="hr">Jaje</lang>
+		<lang key="it">Egg</lang>
+		<lang key="pt">Ovo</lang>
+		<lang key="se">Ägg</lang>
+	</entry>
+
+	<entry key="ElectricCircuit">
+		<lang key="de">Elektrischer Stromkreis</lang>
+		<lang key="en">Electric Circuit</lang>
+		<lang key="fr">Circuit électrique</lang>
+		<lang key="hr">Električni Krug</lang>
+		<lang key="it">Circuito Elettrico</lang>
+		<lang key="pt">Circuito Elétrico</lang>
+		<lang key="se">Elektrisk Krets</lang>
+	</entry>
+
+	<entry key="Elk">
+		<lang key="de">Nahrung</lang>
+		<lang key="en">Elk</lang>
+		<lang key="es">Comida</lang>
+		<lang key="fr">Elk</lang>
+		<lang key="hr">Elk</lang>
+		<lang key="it">Elk</lang>
+		<lang key="pt">Comida</lang>
+		<lang key="se">Elk</lang>
+	</entry>
+
+	<entry key="ElkExtractor">
+		<lang key="de">Nahrungsextraktor</lang>
+		<lang key="en">Elk Extractor</lang>
+		<lang key="es">Extractor de Comida</lang>
+		<lang key="fr">Extracteur d'Elk</lang>
+		<lang key="hr">Elk Ekstraktor</lang>
+		<lang key="it">Estrattore di Elk</lang>
+		<lang key="pt">Extractor de Comida</lang>
+		<lang key="se">Elk-Extraktor</lang>
+	</entry>
+
+	<entry key="Energy">
+		<lang key="de">Energie</lang>
+		<lang key="en">Energy</lang>
+		<lang key="es">Energía</lang>
+		<lang key="fr">Énergie</lang>
+		<lang key="hr">Energija</lang>
+		<lang key="it">Energia</lang>
+		<lang key="pt">Energia</lang>
+		<lang key="se">Energi</lang>
+	</entry>
+
+	<entry key="EscapePod">
+		<lang key="de">Fluchtkapsel</lang>
+		<lang key="en">Escape Pod</lang>
+		<lang key="hr">Kapsula za Bijeg</lang>
+		<lang key="it">Capsula di Salvataggio</lang>
+		<lang key="pt">Cápsula de Fuga</lang>
+		<lang key="se">Rymdkapsel</lang>
+	</entry>
+
+	<entry key="ExhaustionSystem">
+		<lang key="de">Ausschöpfungssystem</lang>
+		<lang key="en">Exhaustion System</lang>
+		<lang key="hr">Ispušni Sustav</lang>
+		<lang key="it">Sistema di Scarico</lang>
+		<lang key="pt">Sistema de Exaustão</lang>
+		<lang key="se">Avgassystem</lang>
+	</entry>
+
+	<entry key="Extractor">
+		<lang key="de">Extraktor</lang>
+		<lang key="en">Extractor</lang>
+		<lang key="es">Extractor de Recursos</lang>
+		<lang key="fr">Extracteur</lang>
+		<lang key="hr">Ekstraktor</lang>
+		<lang key="it">Estrattore</lang>
+		<lang key="pt">Extractor de Recursos</lang>
+		<lang key="se">Extraktor</lang>
+	</entry>
+
+	<entry key="Facilities">
+		<lang key="de">Gebäude</lang>
+		<lang key="en">Facilities</lang>
+		<lang key="es">Edificios</lang>
+		<lang key="fr">Constructions</lang>
+		<lang key="hr">Postrojenja</lang>
+		<lang key="it">Edifici</lang>
+		<lang key="pt">Edifícios</lang>
+		<lang key="se">Faciliteter</lang>
+	</entry>
+
+	<entry key="Fenix">
+		<lang key="de">Fenix</lang>
+		<lang key="en">Fenix</lang>
+		<lang key="es">Fénix</lang>
+		<lang key="fr">Fénix</lang>
+		<lang key="hr">Feniks</lang>
+		<lang key="it">Fenix</lang>
+		<lang key="pt">Fénix</lang>
+		<lang key="se">Fenix</lang>
+	</entry>
+
+	<entry key="Fist">
+		<lang key="de">Faust</lang>
+		<lang key="en">Fist</lang>
+		<lang key="pt">Punho</lang>
+		<lang key="se">Näve</lang>
+	</entry>
+
+	<entry key="FistTargettingSystem">
+		<lang key="de">Faust Zielgerätesystem</lang>
+		<lang key="en">Fist's Targetting System</lang>
+		<lang key="pt">Sistema de Mira de um Punho</lang>
+		<lang key="se">Målsökningssystem hos en Näve</lang>
+	</entry>
+
+	<entry key="Flag">
+		<lang key="de">Flagge</lang>
+		<lang key="en">Flag</lang>
+		<lang key="es">Bandera</lang>
+		<lang key="fr">Drapeau</lang>
+		<lang key="hr">Zastava</lang>
+		<lang key="it">Bandiera</lang>
+		<lang key="pt">Bandeira</lang>
+		<lang key="se">Flagga</lang>
+	</entry>
+
+	<entry key="Front">
+		<lang key="de">Front</lang>
+		<lang key="en">Front</lang>
+		<lang key="es">Adelante</lang>
+		<lang key="fr">Front</lang>
+		<lang key="hr">Fronta</lang>
+		<lang key="it">Di Fronte</lang>
+		<lang key="pt">Em Frente</lang>
+		<lang key="se">Fram</lang>
+	</entry>
+
+	<entry key="Gold">
+		<lang key="de">Gold</lang>
+		<lang key="en">Gold</lang>
+		<lang key="es">Oro</lang>
+		<lang key="fr">Or</lang>
+		<lang key="hr">Zlato</lang>
+		<lang key="it">Oro</lang>
+		<lang key="pt">Ouro</lang>
+		<lang key="se">Guld</lang>
+	</entry>
+
+	<entry key="GreyMatter">
+		<lang key="de">Graue Materie</lang>
+		<lang key="en">Grey Matter</lang>
+		<lang key="hr">Siva Tvar</lang>
+		<lang key="it">Materia Grigia</lang>
+		<lang key="pt">Matéria Cinzenta</lang>
+		<lang key="se">Grå Materia</lang>
+	</entry>
+
+	<entry key="Ground">
+		<lang key="de">Terrestrisch</lang>
+		<lang key="en">Ground</lang>
+		<lang key="es">Terrestre</lang>
+		<lang key="fr">Terrestre</lang>
+		<lang key="hr">Zemlja</lang>
+		<lang key="it">Terra</lang>
+		<lang key="pt">Terrestre</lang>
+		<lang key="se">Mark</lang>
+	</entry>
+
+	<entry key="Heavy">
+		<lang key="de">Schwer</lang>
+		<lang key="en">Heavy</lang>
+		<lang key="es">Gran Porte</lang>
+		<lang key="fr">Lourde</lang>
+		<lang key="hr">Teški</lang>
+		<lang key="it">Pesante</lang>
+		<lang key="pt">Grande Porte</lang>
+		<lang key="se">Tung</lang>
+	</entry>
+
+	<entry key="HeavySeeker">
+		<lang key="de">Mega Sucher</lang>
+		<lang key="en">Heavy Seeker</lang>
+		<lang key="es">Mega Buscador</lang>
+		<lang key="fr">Ouvrier lourd</lang>
+		<lang key="hr">Teški Tražilac</lang>
+		<lang key="it">Heavy Seeker</lang>
+		<lang key="pt">Mega Batedor</lang>
+		<lang key="se">Tung Seeker</lang>
+	</entry>
+
+	<entry key="HiveKing">
+		<lang key="de">Bienenstock König</lang>
+		<lang key="en">Hive King</lang>
+		<lang key="es">Rey de la Colmena</lang>
+		<lang key="fr">Roi coloniale</lang>
+		<lang key="hr">Kralj Košnice</lang>
+		<lang key="it">Hive King</lang>
+		<lang key="pt">Rei da Colmeia</lang>
+		<lang key="se">Hive King</lang>
+	</entry>
+
+	<entry key="HiveProtector">
+		<lang key="de">Bienenstock Beschützer</lang>
+		<lang key="en">Hive Protector</lang>
+		<lang key="es">Protector de la Colmena</lang>
+		<lang key="fr">protecteur coloniale</lang>
+		<lang key="hr">Zaštitnik Košnice</lang>
+		<lang key="it">Hive Protector</lang>
+		<lang key="pt">Protector da Colmeia</lang>
+		<lang key="se">Hive Protector</lang>
+	</entry>
+
+	<entry key="HolographicCube">
+		<lang key="de">Holographischer Würfel</lang>
+		<lang key="en">Holographic Cube</lang>
+		<lang key="hr">Holografska Kocka</lang>
+		<lang key="it">Cubo Olografico</lang>
+		<lang key="pt">Cubo Holográfico</lang>
+		<lang key="se">Holografisk Kub</lang>
+	</entry>
+
+	<entry key="Incubator">
+		<lang key="de">Inkubator</lang>
+		<lang key="en">Incubator</lang>
+		<lang key="es">Encubadora</lang>
+		<lang key="fr">Incubateur</lang>
+		<lang key="hr">Inkubator</lang>
+		<lang key="it">Incubatore</lang>
+		<lang key="pt">Incubadora</lang>
+		<lang key="se">Inkubator</lang>
+	</entry>
+
+	<entry key="InfestationAttack">
+		<lang key="de">Gift-Attacke</lang>
+		<lang key="en">Infestation Attack</lang>
+		<lang key="es">Ataque Venenoso</lang>
+		<lang key="fr">Attaque Vénéneuse</lang>
+		<lang key="hr">Napad Obuzetosti</lang>
+		<lang key="it">Attacco Velenoso</lang>
+		<lang key="pt">Ataque Venenoso</lang>
+		<lang key="se">Infektionsattack</lang>
+	</entry>
+
+	<entry key="Interceptor">
+		<lang key="de">Abfangjäger</lang>
+		<lang key="en">Interceptor</lang>
+		<lang key="es">Interceptador</lang>
+		<lang key="fr">Intercepteur</lang>
+		<lang key="hr">Presretač</lang>
+		<lang key="it">Interceptor</lang>
+		<lang key="pt">Interceptador</lang>
+		<lang key="se">Interceptor</lang>
+	</entry>
+
+	<entry key="Intrinsics">
+		<lang key="de">Spezifisch</lang>
+		<lang key="en">Intrinsics</lang>
+		<lang key="es">Intrínsicos</lang>
+		<lang key="fr">Intrinsèque</lang>
+		<lang key="hr">Osnovni</lang>
+		<lang key="it">Intrinseche</lang>
+		<lang key="pt">Intrínsecos</lang>
+		<lang key="se">Inneboende</lang>
+	</entry>
+
+	<entry key="IonCannon">
+		<lang key="de">Ionen Kanone</lang>
+		<lang key="en">Ion Cannon</lang>
+		<lang key="hr">Ionski Top</lang>
+		<lang key="it">Cannone Ionico</lang>
+		<lang key="pt">Canhão de Iões</lang>
+		<lang key="se">Jonkanon</lang>
+	</entry>
+
+	<entry key="Jumper">
+		<lang key="de">Springer</lang>
+		<lang key="en">Jumper</lang>
+		<lang key="pt">Jumper</lang>
+		<lang key="se">Jumper</lang>
+	</entry>
+
+	<entry key="JumperReactor">
+		<lang key="de">Springer-Reaktor</lang>
+		<lang key="en">Jumper Reactor</lang>
+		<lang key="hr">Jumper Reaktor</lang>
+		<lang key="it">Reattore dei Jumper</lang>
+		<lang key="pt">Reactor de um Jumper</lang>
+		<lang key="se">Hoppreaktor</lang>
+	</entry>
+
+	<entry key="JumperStabilizers">
+		<lang key="de">Sprung-Stabilisatoren</lang>
+		<lang key="en">Jumper Stabilizers</lang>
+		<lang key="hr">Stabilizatori Jumpera</lang>
+		<lang key="it">Stabilizzatori dei Jumper</lang>
+		<lang key="pt">Estabilizadores de um Jumper</lang>
+		<lang key="se">Hoppstabilisatorer</lang>
+	</entry>
+
+	<entry key="Kahuna">
+		<lang key="de">Kahuna</lang>
+		<lang key="en">Kahuna</lang>
+		<lang key="es">Kahuna</lang>
+		<lang key="fr">Kahuna</lang>
+		<lang key="hr">Kahuna</lang>
+		<lang key="it">Kahuna</lang>
+		<lang key="pt">Kahuna</lang>
+		<lang key="se">Kahuna</lang>
+	</entry>
+
+	<entry key="Kamikaze">
+		<lang key="de">Kamikaze</lang>
+		<lang key="en">Kamikaze</lang>
+		<lang key="es">Suicida</lang>
+		<lang key="fr">Kamikaze</lang>
+		<lang key="hr">Kamikaza</lang>
+		<lang key="it">Kamikaze</lang>
+		<lang key="pt">Suicida</lang>
+		<lang key="se">Kamikaze</lang>
+	</entry>
+
+	<entry key="Krill">
+		<lang key="de">Krill</lang>
+		<lang key="en">Krill</lang>
+		<lang key="es">Krill</lang>
+		<lang key="fr">Krill</lang>
+		<lang key="hr">Krill</lang>
+		<lang key="it">Krill</lang>
+		<lang key="pt">Krill</lang>
+		<lang key="se">Krill</lang>
+	</entry>
+
+	<entry key="Light">
+		<lang key="de">Licht</lang>
+		<lang key="en">Light</lang>
+		<lang key="es">Pequeño Porte</lang>
+		<lang key="fr">Légère</lang>
+		<lang key="hr">Lagani</lang>
+		<lang key="it">Leggera</lang>
+		<lang key="pt">Pequeno Porte</lang>
+		<lang key="se">Lätt</lang>
+	</entry>
+
+	<entry key="LightEngines">
+		<lang key="de">Motoren der Lichtgeschwindigkeit</lang>
+		<lang key="en">Light Speed Engines</lang>
+		<lang key="pt">Motores de Velocidade da Luz</lang>
+		<lang key="se">Överljusmotorer</lang>
+	</entry>
+
+	<entry key="Maggot">
+		<lang key="de">Made</lang>
+		<lang key="en">Maggot</lang>
+		<lang key="es">Larva</lang>
+		<lang key="fr">Asticot</lang>
+		<lang key="hr">Crv</lang>
+		<lang key="it">Larva</lang>
+		<lang key="pt">Larva</lang>
+		<lang key="se">Mask</lang>
+	</entry>
+
+	<entry key="Mechanic">
+		<lang key="de">Mechanisch</lang>
+		<lang key="en">Mechanic</lang>
+		<lang key="es">Mecanico</lang>
+		<lang key="fr">Mécanique</lang>
+		<lang key="hr">Mehaničar</lang>
+		<lang key="it">Meccanico</lang>
+		<lang key="pt">Mecânico</lang>
+		<lang key="se">Mechanic</lang>
+	</entry>
+
+	<entry key="MedicalKit">
+		<lang key="de">Medizinischer Kit</lang>
+		<lang key="en">Medical Kit</lang>
+		<lang key="hr">Medicinski Paket</lang>
+		<lang key="it">Kit Medico</lang>
+		<lang key="pt">Kit Médico</lang>
+		<lang key="se">Medicin-kitt</lang>
+	</entry>
+
+	<entry key="Medicine">
+		<lang key="de">Medizin</lang>
+		<lang key="en">Medicine</lang>
+		<lang key="es">Medicamentos</lang>
+		<lang key="fr">Médicaments</lang>
+		<lang key="hr">Lijekovi</lang>
+		<lang key="it">Medicine</lang>
+		<lang key="pt">Medicamentos</lang>
+		<lang key="se">Medicin</lang>
+	</entry>
+
+	<entry key="Medium">
+		<lang key="de">Medium</lang>
+		<lang key="en">Medium</lang>
+		<lang key="es">Médio Porte</lang>
+		<lang key="fr">Médium</lang>
+		<lang key="hr">Srednji</lang>
+		<lang key="it">Media</lang>
+		<lang key="pt">Médio Porte</lang>
+		<lang key="se">Medium</lang>
+	</entry>
+
+	<entry key="MercSpaceChart">
+		<lang key="de">Mercs Weltraumkarte</lang>
+		<lang key="en">Mercs Space Chart</lang>
+		<lang key="hr">Mercs Svemirska Karta</lang>
+		<lang key="it">Mappa Spaziale dei Merc</lang>
+		<lang key="pt">Mapa Espacial dos Mercs</lang>
+		<lang key="se">Mercs rymdkarta</lang>
+	</entry>
+
+	<entry key="MercUniform">
+		<lang key="de">Merc Uniformen</lang>
+		<lang key="en">Merc Uniforms</lang>
+		<lang key="fr">Uniforme Merc</lang>
+		<lang key="hr">Merc Uniforme</lang>
+		<lang key="it">Uniformi Merc</lang>
+		<lang key="pt">Uniformes de Merc</lang>
+		<lang key="se">Mercs Uniformer</lang>
+	</entry>
+
+	<entry key="Mercury">
+		<lang key="de">Quecksilber</lang>
+		<lang key="en">Mercury</lang>
+		<lang key="es">Mercúrio</lang>
+		<lang key="fr">Mercure</lang>
+		<lang key="hr">Živa</lang>
+		<lang key="it">Mercurio</lang>
+		<lang key="pt">Mercúrio</lang>
+		<lang key="se">Kvicksilver</lang>
+	</entry>
+
+	<entry key="MetallicBeard">
+		<lang key="de">Metallischer Bart</lang>
+		<lang key="en">Metallic Beard</lang>
+		<lang key="es">Barba de Metal</lang>
+		<lang key="hr">Metalna Brada</lang>
+		<lang key="it">Metallic Beard</lang>
+		<lang key="pt">Barba Metálica</lang>
+		<lang key="se">Metallskägg</lang>
+	</entry>
+
+	<entry key="Mithril">
+		<lang key="de">Mithril</lang>
+		<lang key="en">Mithril</lang>
+		<lang key="es">Mithril</lang>
+		<lang key="fr">Mithril</lang>
+		<lang key="hr">Mithril</lang>
+		<lang key="it">Mithril</lang>
+		<lang key="pt">Mithril</lang>
+		<lang key="se">Mithril</lang>
+	</entry>
+
+	<entry key="MithrilExtractor">
+		<lang key="de">Mithril Extraktor</lang>
+		<lang key="en">Mithril Extractor</lang>
+		<lang key="es">Extractor de Mithril</lang>
+		<lang key="fr">Extracteur de Mithril</lang>
+		<lang key="hr">Ekstraktor Mithrila</lang>
+		<lang key="it">Estrattore di Mithril</lang>
+		<lang key="pt">Extractor de Mithril</lang>
+		<lang key="se">Mithril-Extraktor</lang>
+	</entry>
+
+	<entry key="MovementType">
+		<lang key="de">Bewegung</lang>
+		<lang key="en">Movement</lang>
+		<lang key="es">Movimiento</lang>
+		<lang key="fr">Mouvement</lang>
+		<lang key="hr">Pokret</lang>
+		<lang key="it">Movimento</lang>
+		<lang key="pt">Movimento</lang>
+		<lang key="se">Rörelse</lang>
+	</entry>
+
+	<entry key="Myst">
+		<lang key="de">Myst</lang>
+		<lang key="en">Myst</lang>
+		<lang key="pt">Myst</lang>
+		<lang key="se">Myst</lang>
+	</entry>
+
+	<entry key="MystPropulsionSystem">
+		<lang key="de">Myst Antriebssystem</lang>
+		<lang key="en">Myst Propulsion System</lang>
+		<lang key="hr">Pogonski Sustav Myst</lang>
+		<lang key="it">Sistema di Propulsione Myst</lang>
+		<lang key="pt">Sistema de Propulsão de um Myst</lang>
+		<lang key="se">Framdrivningssystem för en Myst</lang>
+	</entry>
+
+	<entry key="MystTargetingSystem">
+		<lang key="de">Myst Zielgeräte-System</lang>
+		<lang key="en">Myst Targeting System</lang>
+		<lang key="hr">Ciljniči Sustav Myst</lang>
+		<lang key="it">Sistema di Puntamento Myst</lang>
+		<lang key="pt">Sistema de Mira das Myst</lang>
+		<lang key="se">Målsökarsystem för Myst</lang>
+	</entry>
+
+	<entry key="NanoProbe">
+		<lang key="de">Nano Sonde</lang>
+		<lang key="en">Nano Probe</lang>
+		<lang key="hr">Nano Sonda</lang>
+		<lang key="it">Nano Sonda</lang>
+		<lang key="pt">Nano Sonda</lang>
+		<lang key="se">Nano-sond</lang>
+	</entry>
+
+	<entry key="Nest">
+		<lang key="de">Nest</lang>
+		<lang key="en">Nest</lang>
+		<lang key="es">Nido</lang>
+		<lang key="fr">Nid</lang>
+		<lang key="hr">Gnijezdo</lang>
+		<lang key="it">Nido</lang>
+		<lang key="pt">Ninho</lang>
+		<lang key="se">Näste</lang>
+	</entry>
+
+	<entry key="Normal">
+		<lang key="de">Normal</lang>
+		<lang key="en">Normal</lang>
+		<lang key="es">Normal</lang>
+		<lang key="fr">Normal</lang>
+		<lang key="hr">Normalni</lang>
+		<lang key="it">Normale</lang>
+		<lang key="pt">Normal</lang>
+		<lang key="se">Normal</lang>
+	</entry>
+
+	<entry key="Nova">
+		<lang key="de">Nova</lang>
+		<lang key="en">Nova</lang>
+		<lang key="es">Nova</lang>
+		<lang key="fr">Nova</lang>
+		<lang key="hr">Nova</lang>
+		<lang key="it">Nova</lang>
+		<lang key="pt">Nova</lang>
+		<lang key="se">Nova</lang>
+	</entry>
+
+	<entry key="NuclearFacility">
+		<lang key="de">Uranium Extraktor</lang>
+		<lang key="en">Uranium Extractor</lang>
+		<lang key="es">Extractor de Uranio</lang>
+		<lang key="fr">Extracteur d'Uranium</lang>
+		<lang key="hr">Ekstraktor Urana</lang>
+		<lang key="it">Estrattore di Uranio</lang>
+		<lang key="pt">Extractor de Urânio</lang>
+		<lang key="se">Uran-Extraktor</lang>
+	</entry>
+
+	<entry key="Organic">
+		<lang key="de">Organisch</lang>
+		<lang key="en">Organic</lang>
+		<lang key="es">Organico</lang>
+		<lang key="fr">Organique</lang>
+		<lang key="hr">Organski</lang>
+		<lang key="it">Organico</lang>
+		<lang key="pt">Orgânico</lang>
+		<lang key="se">Organic</lang>
+	</entry>
+
+	<entry key="Panther">
+		<lang key="de">Panther</lang>
+		<lang key="en">Panther</lang>
+		<lang key="es">Pantera</lang>
+		<lang key="fr">Panthère</lang>
+		<lang key="hr">Pantera</lang>
+		<lang key="it">Panther</lang>
+		<lang key="pt">Pantera</lang>
+		<lang key="se">Panter</lang>
+	</entry>
+
+	<entry key="ParalyseAttack">
+		<lang key="de">Attacke zum Paralysieren</lang>
+		<lang key="en">Paralyse Attack</lang>
+		<lang key="es">Ataque Paralizador</lang>
+		<lang key="fr">Attaque paralysante</lang>
+		<lang key="hr">Napad Paralize</lang>
+		<lang key="it">Attacco Paralizzatore</lang>
+		<lang key="pt">Ataque Paralizador</lang>
+		<lang key="se">Förlamningsattack</lang>
+	</entry>
+
+	<entry key="PlasmaConduit">
+		<lang key="de">Plasmaleitung</lang>
+		<lang key="en">Plasma Conduit</lang>
+		<lang key="fr">Conduit de plasma</lang>
+		<lang key="hr">Vod Plazme</lang>
+		<lang key="it">Condotto per il Plasma</lang>
+		<lang key="pt">Conduta de Plasma</lang>
+		<lang key="se">Plasma-Ledare</lang>
+	</entry>
+
+	<entry key="PositronCannon">
+		<lang key="de">Positronen Kanone</lang>
+		<lang key="en">Positron Cannon</lang>
+		<lang key="hr">Pozitronski Top</lang>
+		<lang key="it">Cannone a Positroni</lang>
+		<lang key="pt">Canhão de Positrões</lang>
+		<lang key="se">Positron-Kanon</lang>
+	</entry>
+
+	<entry key="PositronContainer">
+		<lang key="de">Positron Container</lang>
+		<lang key="en">Positron Container</lang>
+		<lang key="hr">Pozitornski Spremnik</lang>
+		<lang key="it">Contenitore di Positroni</lang>
+		<lang key="pt">Contentor de Positrões</lang>
+		<lang key="se">Behållare för Positroner</lang>
+	</entry>
+
+	<entry key="Pretorian">
+		<lang key="de">Praetorian</lang>
+		<lang key="en">Praetorian</lang>
+		<lang key="es">Pretoriana</lang>
+		<lang key="fr">Prédateur</lang>
+		<lang key="hr">Pretorijanac</lang>
+		<lang key="it">Praetorian</lang>
+		<lang key="pt">Pretoriana</lang>
+		<lang key="se">Pretorian</lang>
+	</entry>
+
+	<entry key="PrimaryBoard">
+		<lang key="de">Haupttafel</lang>
+		<lang key="en">Primary Board</lang>
+		<lang key="hr">Primarna Direkcija</lang>
+		<lang key="it">Tavola Principale</lang>
+		<lang key="pt">Placa Principal</lang>
+		<lang key="se">Huvudbräde</lang>
+	</entry>
+
+	<entry key="Prismal">
+		<lang key="de">Prismal</lang>
+		<lang key="en">Prismal</lang>
+		<lang key="es">Prismal</lang>
+		<lang key="fr">Prismal</lang>
+		<lang key="hr">Prismal</lang>
+		<lang key="it">Prismal</lang>
+		<lang key="pt">Prismal</lang>
+		<lang key="se">Prismal</lang>
+	</entry>
+
+	<entry key="ProductionSpace">
+		<lang key="de">Produktionsplatz</lang>
+		<lang key="en">Production Space</lang>
+		<lang key="es">Espacio para Producción</lang>
+		<lang key="fr">Espace de production</lang>
+		<lang key="hr">Proizvodni Prostor</lang>
+		<lang key="it">Spazio di Produzione</lang>
+		<lang key="pt">Espaço para Produção</lang>
+		<lang key="se">Produktionsplats</lang>
+	</entry>
+
+	<entry key="Protol">
+		<lang key="de">Protol</lang>
+		<lang key="en">Protol</lang>
+		<lang key="es">Protol</lang>
+		<lang key="fr">Protol</lang>
+		<lang key="hr">Protol</lang>
+		<lang key="it">Protol</lang>
+		<lang key="pt">Protol</lang>
+		<lang key="se">Protol</lang>
+	</entry>
+
+	<entry key="ProtolExtractor">
+		<lang key="de">Protol Extraktor</lang>
+		<lang key="en">Protol Extractor</lang>
+		<lang key="es">Extractor de Protol</lang>
+		<lang key="fr">Extracteur de Protol</lang>
+		<lang key="hr">Ekstraktor Protola</lang>
+		<lang key="it">Estrattore di Protol</lang>
+		<lang key="pt">Extractor de Protol</lang>
+		<lang key="se">Protol-Extraktor</lang>
+	</entry>
+
+	<entry key="Queen">
+		<lang key="de">Königin</lang>
+		<lang key="en">Queen</lang>
+		<lang key="es">Reina</lang>
+		<lang key="fr">Reine</lang>
+		<lang key="hr">Kraljica</lang>
+		<lang key="it">Queen</lang>
+		<lang key="pt">Rainha</lang>
+		<lang key="se">Drottning</lang>
+	</entry>
+
+	<entry key="QueenHatchery">
+		<lang key="de">Königin Brutstätte</lang>
+		<lang key="en">Queen Hatchery</lang>
+		<lang key="es">Encubadora de Reinas</lang>
+		<lang key="fr">Incubateur de la reine</lang>
+		<lang key="hr">Kraljičino Mrijestilište</lang>
+		<lang key="it">Incubatore di Regine</lang>
+		<lang key="pt">Incubadora de Rainhas</lang>
+		<lang key="se">Drottning-Kläckeri</lang>
+	</entry>
+
+	<entry key="QueueSpace">
+		<lang key="de">Wartelistenplatz</lang>
+		<lang key="en">Queue Space</lang>
+		<lang key="es">Espacio en Lista de Espera</lang>
+		<lang key="fr">Espace d'attente</lang>
+		<lang key="hr">Prostor u listi čekanja</lang>
+		<lang key="it">Coda Spaziale</lang>
+		<lang key="pt">Espaço na Lista de Espera</lang>
+		<lang key="se">Kö-utrymme</lang>
+	</entry>
+
+	<entry key="Radon">
+		<lang key="de">Radon</lang>
+		<lang key="en">Radon</lang>
+		<lang key="es">Radon</lang>
+		<lang key="fr">Radon</lang>
+		<lang key="hr">Radon</lang>
+		<lang key="it">Radon</lang>
+		<lang key="pt">Radon</lang>
+		<lang key="se">Radon</lang>
+	</entry>
+
+	<entry key="Rain">
+		<lang key="de">Regen</lang>
+		<lang key="en">Rain</lang>
+		<lang key="es">Lluvia</lang>
+		<lang key="fr">Bruine</lang>
+		<lang key="hr">Kiša</lang>
+		<lang key="it">Rain</lang>
+		<lang key="pt">Rain</lang>
+		<lang key="se">Rain</lang>
+	</entry>
+
+	<entry key="Range">
+		<lang key="de">Reichweite</lang>
+		<lang key="en">Range</lang>
+		<lang key="es">Alcance</lang>
+		<lang key="fr">Portée</lang>
+		<lang key="hr">Domet</lang>
+		<lang key="it">Portata</lang>
+		<lang key="pt">Alcance</lang>
+		<lang key="se">Räckvidd</lang>
+	</entry>
+
+	<entry key="Raptor">
+		<lang key="de">Raptor</lang>
+		<lang key="en">Raptor</lang>
+		<lang key="es">Raptor</lang>
+		<lang key="fr">Raptor</lang>
+		<lang key="hr">Raptor</lang>
+		<lang key="it">Raptor</lang>
+		<lang key="pt">Raptor</lang>
+		<lang key="se">Raptor</lang>
+	</entry>
+
+	<entry key="Reaper">
+		<lang key="de">Reaper</lang>
+		<lang key="en">Reaper</lang>
+		<lang key="es">Reaper</lang>
+		<lang key="hr">Žetalica</lang>
+		<lang key="it">Reaper</lang>
+		<lang key="pt">Ceifeiro</lang>
+		<lang key="se">Reaper</lang>
+	</entry>
+
+	<entry key="ReaperControlHelmet">
+		<lang key="de">Kontroll-Helm für einen Reaper</lang>
+		<lang key="en">Reaper Control Helmet</lang>
+		<lang key="hr">Žetaličina Kontrolna Kaciga</lang>
+		<lang key="it">Elmetto di Controollo del Reaper</lang>
+		<lang key="pt">Capacete de Contrôlo de um Reaper</lang>
+		<lang key="se">Kontrollhjälm för en Reaper</lang>
+	</entry>
+
+	<entry key="ReaperCoreSystem">
+		<lang key="de">Reaper Kernsystem</lang>
+		<lang key="en">Reaper Core System</lang>
+		<lang key="hr">Centralni Sustav Žetelice</lang>
+		<lang key="it">Sistema di Controllo dei Reaper</lang>
+		<lang key="pt">Sistema de Contrôlo de um Ceifeiro</lang>
+		<lang key="se">Kärnsystem för en Reaper</lang>
+	</entry>
+
+	<entry key="ReaperPropulsionSystem">
+		<lang key="de">Reaper Antriebssystem</lang>
+		<lang key="en">Reaper Propulsion System</lang>
+		<lang key="hr">Žetaličin Pogonski Sustav</lang>
+		<lang key="it">Sistema di Propulsione del Reaper</lang>
+		<lang key="pt">Sistema de Propulsão de um Reaper</lang>
+		<lang key="se">Framdrivningssystem för en Reaper</lang>
+	</entry>
+
+	<entry key="Rebound">
+		<lang key="de">Rückprall</lang>
+		<lang key="en">Rebound</lang>
+		<lang key="es">Rebote</lang>
+		<lang key="fr">Rebond</lang>
+		<lang key="hr">Povratni</lang>
+		<lang key="it">Rimbalzo</lang>
+		<lang key="pt">Ricochete</lang>
+		<lang key="se">Rikoschett</lang>
+	</entry>
+
+	<entry key="RedMatter">
+		<lang key="de">Rote Materie</lang>
+		<lang key="en">Red Matter</lang>
+		<lang key="hr">Crvena Materija</lang>
+		<lang key="it">Materia Rossa</lang>
+		<lang key="pt">Matéria Vermelha</lang>
+		<lang key="se">Röd Materia</lang>
+	</entry>
+
+	<entry key="RemoveAbilityAttack">
+		<lang key="de">Fähigkeiten entfernen</lang>
+		<lang key="en">Remove Ability Attack</lang>
+		<lang key="es">Remover Habilidad</lang>
+		<lang key="fr">Attaque annulant les habiletés</lang>
+		<lang key="hr">Makni Sposobnost Napad</lang>
+		<lang key="it">Rimozione di Abilità</lang>
+		<lang key="pt">Remoção de Habilidades</lang>
+		<lang key="se">Invalidiserande Attack</lang>
+	</entry>
+
+	<entry key="Replicator">
+		<lang key="de">Replikator</lang>
+		<lang key="en">Replicator</lang>
+		<lang key="es">Replicador</lang>
+		<lang key="fr">Réplicateur</lang>
+		<lang key="hr">Replikator</lang>
+		<lang key="it">Replicazione</lang>
+		<lang key="pt">Replicador</lang>
+		<lang key="se">Replikator</lang>
+	</entry>
+
+	<entry key="Resources">
+		<lang key="de">Ressourcen</lang>
+		<lang key="en">Resources</lang>
+		<lang key="es">Recursos</lang>
+		<lang key="fr">Ressources</lang>
+		<lang key="hr">Resursi</lang>
+		<lang key="it">Risorse</lang>
+		<lang key="pt">Recursos</lang>
+		<lang key="se">Resurser</lang>
+	</entry>
+
+	<entry key="RogueMercSpaceChart">
+		<lang key="de">Rogue Merc Weltraumkarte</lang>
+		<lang key="en">Rogue Merc Space Chart</lang>
+		<lang key="hr">Rogue Merc Svemirska Karta</lang>
+		<lang key="it">Mappa Spaziale dei Rogue Mercs</lang>
+		<lang key="pt">Mapa Espacial dos Rogue Mercs</lang>
+		<lang key="se">Rymdkarta över Rogue Mercs</lang>
+	</entry>
+
+	<entry key="RogueMercUniform">
+		<lang key="de">Rogue Merc Uniform</lang>
+		<lang key="en">Rogue Merc Uniform</lang>
+		<lang key="hr">Rogue Merc Uniforma</lang>
+		<lang key="it">Uniforme dei Rogue Mercs</lang>
+		<lang key="pt">Uniforme de um Rogue Mercs</lang>
+		<lang key="se">Roge Mercs Uniform</lang>
+	</entry>
+
+	<entry key="Samurai">
+		<lang key="de">Samurai</lang>
+		<lang key="en">Samurai</lang>
+		<lang key="es">Samurai</lang>
+		<lang key="fr">Samurai</lang>
+		<lang key="hr">Samuraj</lang>
+		<lang key="it">Samurai</lang>
+		<lang key="pt">Samurai</lang>
+		<lang key="se">Samuraj</lang>
+	</entry>
+
+	<entry key="Scarab">
+		<lang key="de">Skarabäus</lang>
+		<lang key="en">Scarab</lang>
+		<lang key="es">Escarabajo</lang>
+		<lang key="fr">Scarabé</lang>
+		<lang key="hr">Kornjaš</lang>
+		<lang key="it">Scarab</lang>
+		<lang key="pt">Escaravelho</lang>
+		<lang key="se">Scarab</lang>
+	</entry>
+
+	<entry key="Scourge">
+		<lang key="de">Scourge</lang>
+		<lang key="en">Scourge</lang>
+		<lang key="es">Flagelo</lang>
+		<lang key="hr">Bič</lang>
+		<lang key="it">Scourge</lang>
+		<lang key="pt">Flagelo</lang>
+		<lang key="se">Scourge</lang>
+	</entry>
+
+	<entry key="ScourgeControlPanel">
+		<lang key="de">Scourge Kontrolltafel</lang>
+		<lang key="en">Scourge Control Panel</lang>
+		<lang key="hr">Kontrolna Ploča Biča</lang>
+		<lang key="it">Pannello di Controllo Scourge</lang>
+		<lang key="pt">Painel de Controlo de um Flagelo</lang>
+		<lang key="se">Kontrollpanel för en Scourge</lang>
+	</entry>
+
+	<entry key="ScourgeCoreSystem">
+		<lang key="de">Scourge Kernsystem</lang>
+		<lang key="en">Scourge Core System</lang>
+		<lang key="hr">Centralni Sustav Biča</lang>
+		<lang key="it">Sistema di Controllo degli Scourge</lang>
+		<lang key="pt">Sistema de Contrôlo de um Flagelo</lang>
+		<lang key="se">Scourge Kärnsystem</lang>
+	</entry>
+
+	<entry key="ScourgePropulsionSystem">
+		<lang key="de">Scourge Antriebssystem</lang>
+		<lang key="en">Scourge Propulsion System</lang>
+		<lang key="hr">Bičev Pogonski Sustav</lang>
+		<lang key="it">Sistema di Propulsione degli Scourge</lang>
+		<lang key="pt">Sistema de Propulsão de um Flagelo</lang>
+		<lang key="se">Framdrivningssystem för en Scourge</lang>
+	</entry>
+
+	<entry key="Seeker">
+		<lang key="de">Sucher</lang>
+		<lang key="en">Seeker</lang>
+		<lang key="es">Buscador</lang>
+		<lang key="fr">Ouvrier</lang>
+		<lang key="hr">Tražilac</lang>
+		<lang key="it">Seeker</lang>
+		<lang key="pt">Batedor</lang>
+		<lang key="se">Seeker</lang>
+	</entry>
+
+	<entry key="Sentry">
+		<lang key="de">Sentry</lang>
+		<lang key="en">Sentry</lang>
+		<lang key="es">Sentry</lang>
+		<lang key="hr">Stražar</lang>
+		<lang key="it">Sentry</lang>
+		<lang key="pt">Vigilante</lang>
+		<lang key="se">Sentry</lang>
+	</entry>
+
+	<entry key="SentryMercSpaceChart">
+		<lang key="de">Sentry Merc Weltraumkarte</lang>
+		<lang key="en">Sentry Merc Space Chart</lang>
+		<lang key="hr">Sentry Merc Svemirska Karta</lang>
+		<lang key="it">Mappa Spaziale dei Sentry Mercs</lang>
+		<lang key="pt">Mapa Espacial dos Sentry Mercs</lang>
+		<lang key="se">Sentry Mercs rymdkarta</lang>
+	</entry>
+
+	<entry key="SentryMercUniform">
+		<lang key="de">Sentry Merc Uniform</lang>
+		<lang key="en">Sentry Merc Uniform</lang>
+		<lang key="hr">Sentry Merc Uniforma</lang>
+		<lang key="it">Uniforme dei Sentry Mercs</lang>
+		<lang key="pt">Uniforme dos Sentry Mercs</lang>
+		<lang key="se">Uniform för Sentry Mercs</lang>
+	</entry>
+
+	<entry key="SentryReactor">
+		<lang key="de">Wachposten-Reaktor</lang>
+		<lang key="en">Sentry Reactor</lang>
+		<lang key="hr">Stražarski Reaktor</lang>
+		<lang key="it">Reattore dei Sentry</lang>
+		<lang key="pt">Reactor de um Sentry</lang>
+		<lang key="se">Vaktpost-reaktor</lang>
+	</entry>
+
+	<entry key="Serium">
+		<lang key="de">Serium</lang>
+		<lang key="en">Serium</lang>
+		<lang key="es">Serium</lang>
+		<lang key="fr">Serium</lang>
+		<lang key="hr">Serium</lang>
+		<lang key="it">Serium</lang>
+		<lang key="pt">Serium</lang>
+		<lang key="se">Serium</lang>
+	</entry>
+
+	<entry key="SeriumExtractor">
+		<lang key="de">Serium Extraktor</lang>
+		<lang key="en">Serium Extractor</lang>
+		<lang key="es">Extractor de Serium</lang>
+		<lang key="fr">Extracteur de Serium</lang>
+		<lang key="hr">Ekstraktor Seriuma</lang>
+		<lang key="it">Estrattore di Serium</lang>
+		<lang key="pt">Extractor de Serium</lang>
+		<lang key="se">Serium-Extraktor</lang>
+	</entry>
+
+	<entry key="Silicium">
+		<lang key="de">Silicium</lang>
+		<lang key="en">Silicium</lang>
+		<lang key="hr">Silicium</lang>
+		<lang key="it">Silicio</lang>
+		<lang key="pt">Silício</lang>
+		<lang key="se">Silicium</lang>
+	</entry>
+
+	<entry key="Silo">
+		<lang key="de">Silo</lang>
+		<lang key="en">Silo</lang>
+		<lang key="es">Bodega</lang>
+		<lang key="fr">Silo</lang>
+		<lang key="hr">Silos</lang>
+		<lang key="it">Silo</lang>
+		<lang key="pt">Armazém</lang>
+		<lang key="se">Silo</lang>
+	</entry>
+
+	<entry key="SilverBeard">
+		<lang key="de">Silberbart</lang>
+		<lang key="en">Silver Beard</lang>
+		<lang key="hr">Srebrena Brada</lang>
+		<lang key="it">Silver Beard</lang>
+		<lang key="pt">Barba de Prata</lang>
+		<lang key="se">Silverskägg</lang>
+	</entry>
+
+	<entry key="SlaveWarehouse">
+		<lang key="de">Sklaven Warenlager</lang>
+		<lang key="en">Slave Warehouse</lang>
+		<lang key="es">Bodega de Esclavos</lang>
+		<lang key="fr">Entrepôt d'esclavage</lang>
+		<lang key="hr">Skladište Robova</lang>
+		<lang key="it">Magazzino degli Schiavi</lang>
+		<lang key="pt">Poço da Escravatura</lang>
+		<lang key="se">Varuhus för Slavar</lang>
+	</entry>
+
+	<entry key="SolarPanel">
+		<lang key="de">Solar Tafel</lang>
+		<lang key="en">Solar Panel</lang>
+		<lang key="es">Panel Solar</lang>
+		<lang key="fr">Panneau solaire</lang>
+		<lang key="hr">Solarna Ploča</lang>
+		<lang key="it">Pannello Solare</lang>
+		<lang key="pt">Painel Solar</lang>
+		<lang key="se">Solpanel</lang>
+	</entry>
+
+	<entry key="SpaceForceUniformAlpha">
+		<lang key="de">Uniform der Space Force Alpha</lang>
+		<lang key="en">Space Force Uniform Alpha</lang>
+		<lang key="hr">Alfa Uniforma Svemirskih Snaga</lang>
+		<lang key="it">Uniforme Spaziale Alpha</lang>
+		<lang key="pt">Uniforme da Space Force Alpha</lang>
+		<lang key="se">Space Forces Alphas Uniform</lang>
+	</entry>
+
+	<entry key="SpaceForceUniformBeta">
+		<lang key="de">Uniform der Space Force Beta</lang>
+		<lang key="en">Space Force Uniform Beta</lang>
+		<lang key="hr">Beta Uniforma Svemirskih Snaga</lang>
+		<lang key="it">Uniforme Spaziale Beta</lang>
+		<lang key="pt">Uniforme da Space Force Beta</lang>
+		<lang key="se">Space Force Beta's uniform</lang>
+	</entry>
+
+	<entry key="SpaceForceUniformDelta">
+		<lang key="de">Uniform de Space Force Delta</lang>
+		<lang key="en">Space Force Uniform Delta</lang>
+		<lang key="hr">Delta Uniforma Svemirskih Snaga</lang>
+		<lang key="it">Uniforme Spaziale Delta</lang>
+		<lang key="pt">Uniforme da Space Force Delta</lang>
+		<lang key="se">Space Force Delta's uniform</lang>
+	</entry>
+
+	<entry key="SpaceForceUniformGamma">
+		<lang key="de">Uniform der Space Force Gamma</lang>
+		<lang key="en">Space Force Uniform Gamma</lang>
+		<lang key="hr">Gamma Uniforma Svemirskih Snaga</lang>
+		<lang key="it">Uniforme Gamma della Space Force</lang>
+		<lang key="pt">Uniforme da Space Force Gamma</lang>
+		<lang key="se">Space Force Gamma's uniform</lang>
+	</entry>
+
+	<entry key="SpaceForceUniformOmega">
+		<lang key="de">Uniform der Space Force Omega</lang>
+		<lang key="en">Space Force Uniform Omega</lang>
+		<lang key="hr">Omega Uniforma Svemirskih Snaga</lang>
+		<lang key="it">Uniforme Spaziale Omega</lang>
+		<lang key="pt">Uniforme da Space Force Omega</lang>
+		<lang key="se">Space Force Omegas Uniform</lang>
+	</entry>
+
+	<entry key="SpaceForceUniformSigma">
+		<lang key="de">Uniform der Space Force Sigma</lang>
+		<lang key="en">Space Force Uniform Sigma</lang>
+		<lang key="hr">Sigma Uniforma Svemirskih Snaga</lang>
+		<lang key="it">Uniforme Spaziale Sigma</lang>
+		<lang key="pt">Uniforme da Space Force Sigma</lang>
+		<lang key="se">Space Force Sigma's uniform</lang>
+	</entry>
+
+	<entry key="Special">
+		<lang key="de">Spezial</lang>
+		<lang key="en">Special</lang>
+		<lang key="es">Especial</lang>
+		<lang key="fr">Spécial</lang>
+		<lang key="hr">Izvanredni</lang>
+		<lang key="it">Speciale</lang>
+		<lang key="pt">Especial</lang>
+		<lang key="se">Speciell</lang>
+	</entry>
+
+	<entry key="Spider">
+		<lang key="de">Spinne</lang>
+		<lang key="en">Spider</lang>
+		<lang key="es">Araña</lang>
+		<lang key="fr">Araignée</lang>
+		<lang key="hr">Pauk</lang>
+		<lang key="it">Spider</lang>
+		<lang key="pt">Aranha</lang>
+		<lang key="se">Spindel</lang>
+	</entry>
+
+	<entry key="Stinger">
+		<lang key="de">Stachel</lang>
+		<lang key="en">Stinger</lang>
+		<lang key="es">Aguijón</lang>
+		<lang key="fr">Piqueur</lang>
+		<lang key="hr">Žalac</lang>
+		<lang key="it">Stinger</lang>
+		<lang key="pt">Ferrão</lang>
+		<lang key="se">Stringer</lang>
+	</entry>
+
+	<entry key="StrikeBack">
+		<lang key="de">Gegenangriff</lang>
+		<lang key="en">Strike Back</lang>
+		<lang key="es">Contraataque</lang>
+		<lang key="fr">Contre-attaque</lang>
+		<lang key="hr">Protunapad</lang>
+		<lang key="it">Contrattacco</lang>
+		<lang key="pt">Contra-Ataque</lang>
+		<lang key="se">Tillbakaslag</lang>
+	</entry>
+
+	<entry key="SubLightEngines">
+		<lang key="de">Sub-Licht Motoren</lang>
+		<lang key="en">Sub Light Engines</lang>
+		<lang key="hr">Podsvjetlosni Motori</lang>
+		<lang key="it">Motori Sub-Luminali</lang>
+		<lang key="pt">Motores Sub-Luz</lang>
+		<lang key="se">Motorer för Underljusfart</lang>
+	</entry>
+
+	<entry key="SubSpaceSensors">
+		<lang key="de">Sub-Raum Sensoren</lang>
+		<lang key="en">Sub-Space Sensors</lang>
+		<lang key="hr">Podprostorni Senzori</lang>
+		<lang key="it">Sensori Sub-Spaziali</lang>
+		<lang key="pt">Sensores Sub-Espaço</lang>
+		<lang key="se">Subrymdssensorer</lang>
+	</entry>
+
+	<entry key="Supplies">
+		<lang key="de">Vorräte</lang>
+		<lang key="en">Supplies</lang>
+		<lang key="es">Suministros</lang>
+		<lang key="fr">approvisionnements</lang>
+		<lang key="hr">Zalihe</lang>
+		<lang key="it">Forniture</lang>
+		<lang key="pt">Mantimentos</lang>
+		<lang key="se">Förnödenheter</lang>
+	</entry>
+
+	<entry key="TacticalComputer">
+		<lang key="de">Taktischer Computer</lang>
+		<lang key="en">Tactical Computer</lang>
+		<lang key="hr">Taktički Kompjuter</lang>
+		<lang key="it">Computer Tattico</lang>
+		<lang key="pt">Computador Táctico</lang>
+		<lang key="se">Taktisk Dator</lang>
+	</entry>
+
+	<entry key="Taurus">
+		<lang key="de">Taurus</lang>
+		<lang key="en">Taurus</lang>
+		<lang key="es">Toro</lang>
+		<lang key="fr">Taureau</lang>
+		<lang key="hr">Bik</lang>
+		<lang key="it">Taurus</lang>
+		<lang key="pt">Touro</lang>
+		<lang key="se">Taurus</lang>
+	</entry>
+
+	<entry key="TechMercSpaceChart">
+		<lang key="de">Tech Mercs Weltraumkarte</lang>
+		<lang key="en">Tech Mercs Space Chart</lang>
+		<lang key="hr">Tech Mercs Svemirska Karta</lang>
+		<lang key="it">Mappa Spaziale dei Tech Mercs</lang>
+		<lang key="pt">Mapa Espacial dos Tech Mercs</lang>
+		<lang key="se">Tech Mercs Rymdkarta</lang>
+	</entry>
+
+	<entry key="TechMercUniform">
+		<lang key="de">Tech Mech Uniform</lang>
+		<lang key="en">Tech Merc Uniform</lang>
+		<lang key="hr">Uniforma Tech Mercs-a</lang>
+		<lang key="it">Uniforme dei Tech Mercs</lang>
+		<lang key="pt">Uniforme dos Tech Mercs</lang>
+		<lang key="se">Tech Mercs Uniform</lang>
+	</entry>
+
+	<entry key="Titan">
+		<lang key="de">Titan</lang>
+		<lang key="en">Titan</lang>
+		<lang key="es">Titan</lang>
+		<lang key="hr">Titan</lang>
+		<lang key="it">Titan</lang>
+		<lang key="pt">Titã</lang>
+		<lang key="se">Titan</lang>
+	</entry>
+
+	<entry key="TitanControlHelmet">
+		<lang key="de">Titan Kontrollhelm</lang>
+		<lang key="en">Titan Control Helmet</lang>
+		<lang key="hr">Titanova Kontrolna Kaciga</lang>
+		<lang key="it">Elmetto di Controllo del Titan</lang>
+		<lang key="pt">Capacete de Contrôlo de um Titã</lang>
+		<lang key="se">Kontrollhjälp för en Titan</lang>
+	</entry>
+
+	<entry key="Titanium">
+		<lang key="de">Titanium</lang>
+		<lang key="en">Titanium</lang>
+		<lang key="es">Titanio</lang>
+		<lang key="fr">Titane</lang>
+		<lang key="hr">Titan</lang>
+		<lang key="it">Titanio</lang>
+		<lang key="pt">Titânio</lang>
+		<lang key="se">Titan</lang>
+	</entry>
+
+	<entry key="TitaniumExtractor">
+		<lang key="de">Titanium Extraktor</lang>
+		<lang key="en">Titanium Extractor</lang>
+		<lang key="es">Extractor de Titanio</lang>
+		<lang key="fr">Extracteur de Titane</lang>
+		<lang key="hr">Ekstraktor Titana</lang>
+		<lang key="it">Estrattore di Titanio</lang>
+		<lang key="pt">Extractor de Titânio</lang>
+		<lang key="se">Titan-Extraktor</lang>
+	</entry>
+
+	<entry key="TitanTargetingSystem">
+		<lang key="de">Titan Zielgeräte-System</lang>
+		<lang key="en">Titan Targeting System</lang>
+		<lang key="hr">Titanov Ciljnički Sustav</lang>
+		<lang key="it">Sistema di Puntamento dei Titan</lang>
+		<lang key="pt">Sistema de Mira de um Titã</lang>
+		<lang key="se">Målsökande System för en Titan</lang>
+	</entry>
+
+	<entry key="TitanUnitronCannon">
+		<lang key="de">Titan Unitron Kanone</lang>
+		<lang key="en">Titan Unitron Cannon</lang>
+		<lang key="hr">Titanov Unitron Top</lang>
+		<lang key="it">Cannone a Unitroni dei Titan</lang>
+		<lang key="pt">Canhão Unitron de um Titan</lang>
+		<lang key="se">Unitron-kanon för en Titan</lang>
+	</entry>
+
+	<entry key="Tools">
+		<lang key="de">Werkzeuge</lang>
+		<lang key="en">Tools</lang>
+		<lang key="es">Herramientas</lang>
+		<lang key="fr">Outils</lang>
+		<lang key="hr">Alati</lang>
+		<lang key="it">Attrezzi</lang>
+		<lang key="pt">Ferramentas</lang>
+		<lang key="se">Verktyg</lang>
+	</entry>
+
+	<entry key="Toxic">
+		<lang key="de">Toxisch</lang>
+		<lang key="en">Toxic</lang>
+		<lang key="es">Toxico</lang>
+		<lang key="fr">Toxique</lang>
+		<lang key="hr">Otrovni</lang>
+		<lang key="it">Toxic</lang>
+		<lang key="pt">Tóxica</lang>
+		<lang key="se">Toxic</lang>
+	</entry>
+
+	<entry key="TransportSystem">
+		<lang key="de">Transportsystem</lang>
+		<lang key="en">Transport System</lang>
+		<lang key="hr">Transporni Sustav</lang>
+		<lang key="it">Sistema di Trasporto</lang>
+		<lang key="pt">Sistema de Transporte</lang>
+		<lang key="se">Transportsystem</lang>
+	</entry>
+
+	<entry key="Triple">
+		<lang key="de">Dreifach-Attacke</lang>
+		<lang key="en">Triple Attack</lang>
+		<lang key="es">Ataque Triple</lang>
+		<lang key="fr">Attaque triple</lang>
+		<lang key="hr">Trostruki Napad</lang>
+		<lang key="it">Triplo Attacco</lang>
+		<lang key="pt">Ataque Triplo</lang>
+		<lang key="se">Trippelattack</lang>
+	</entry>
+
+	<entry key="Ultimate">
+		<lang key="de">Höchste</lang>
+		<lang key="en">Ultimate</lang>
+		<lang key="es">Suprema</lang>
+		<lang key="fr">Ultime</lang>
+		<lang key="hr">Ultimativni</lang>
+		<lang key="it">Suprema</lang>
+		<lang key="pt">Suprema</lang>
+		<lang key="se">Ultimat</lang>
+	</entry>
+
+	<entry key="UnitCategory">
+		<lang key="de">Kategorie</lang>
+		<lang key="en">Category</lang>
+		<lang key="es">Categoría</lang>
+		<lang key="fr">Catégorie</lang>
+		<lang key="hr">Kategorija</lang>
+		<lang key="it">Categoria</lang>
+		<lang key="pt">Categoria</lang>
+		<lang key="se">Kategori</lang>
+	</entry>
+
+	<entry key="UnitDisplacement">
+		<lang key="de">Position</lang>
+		<lang key="en">Displacement</lang>
+		<lang key="es">Posición</lang>
+		<lang key="fr">Position</lang>
+		<lang key="hr">Pomak</lang>
+		<lang key="it">Posizione</lang>
+		<lang key="pt">Posição</lang>
+		<lang key="se">Deplacement</lang>
+	</entry>
+
+	<entry key="UnitValue">
+		<lang key="de">Wert der Einheit</lang>
+		<lang key="en">Unit Value</lang>
+		<lang key="es">Valor de la Unidad</lang>
+		<lang key="fr">Valeur d'unité</lang>
+		<lang key="hr">Vrijednost Jedinice</lang>
+		<lang key="it">Valore Unità</lang>
+		<lang key="pt">Valor de Unidade</lang>
+		<lang key="se">Enhetens Värde</lang>
+	</entry>
+
+	<entry key="UnitYard">
+		<lang key="de">Weltraumhafen</lang>
+		<lang key="en">Unit Yard</lang>
+		<lang key="es">Puerto Espacial</lang>
+		<lang key="fr">Hangar de construction</lang>
+		<lang key="hr">Brodogradilište Jedinica</lang>
+		<lang key="it">Porto Spaziale</lang>
+		<lang key="pt">Porto Espacial</lang>
+		<lang key="se">Rymdhamn</lang>
+	</entry>
+
+	<entry key="Uranium">
+		<lang key="de">Uranium</lang>
+		<lang key="en">Uranium</lang>
+		<lang key="es">Uranio</lang>
+		<lang key="fr">Uranium</lang>
+		<lang key="hr">Uran</lang>
+		<lang key="it">Uranio</lang>
+		<lang key="pt">Urânio</lang>
+		<lang key="se">Uran</lang>
+	</entry>
+
+	<entry key="Vector">
+		<lang key="de">Vektor</lang>
+		<lang key="en">Vector</lang>
+		<lang key="es">Vector</lang>
+		<lang key="fr">Vecteur</lang>
+		<lang key="hr">Vector</lang>
+		<lang key="it">Vector</lang>
+		<lang key="pt">Vector</lang>
+		<lang key="se">Vector</lang>
+	</entry>
+
+	<entry key="Walker">
+		<lang key="de">Walker</lang>
+		<lang key="en">Walker</lang>
+		<lang key="es">Walker</lang>
+		<lang key="hr">Walker</lang>
+		<lang key="it">Walker</lang>
+		<lang key="pt">Caminhante</lang>
+		<lang key="se">Walker</lang>
+	</entry>
+
+	<entry key="WalkerCore">
+		<lang key="de">Walker Kern</lang>
+		<lang key="en">Walker Core</lang>
+		<lang key="hr">Jezgra Walkera</lang>
+		<lang key="it">Nucleo dei Walker</lang>
+		<lang key="pt">Núcleo de um Walker</lang>
+		<lang key="se">Kärna för en Walker</lang>
+	</entry>
+
+	<entry key="WalkerGiroBalancer">
+		<lang key="de">Walker Giro-Ausgleicher</lang>
+		<lang key="en">Walker Giro Balancer</lang>
+		<lang key="hr">Walkerov Giro Balancer</lang>
+		<lang key="it">Giroscopio dei Walker</lang>
+		<lang key="pt">Giro-Balanceador de um Walker</lang>
+		<lang key="se">Gyro-Balancerare för en Walker</lang>
+	</entry>
+
+	<entry key="Worm">
+		<lang key="de">Wurm</lang>
+		<lang key="en">Worm</lang>
+		<lang key="es">Gusano</lang>
+		<lang key="fr">Vers</lang>
+		<lang key="hr">Glista</lang>
+		<lang key="it">Worm</lang>
+		<lang key="pt">Minhoca</lang>
+		<lang key="se">Worm</lang>
+	</entry>
+
+	<entry key="WormHoleCreator">
+		<lang key="de">Wurmloch Erzeuger</lang>
+		<lang key="en">Worm Hole Creator</lang>
+		<lang key="es">Generador de Pasajes</lang>
+		<lang key="fr">Synthétiseur à trou stellaire</lang>
+		<lang key="hr">Kreator Crvotočine</lang>
+		<lang key="it">Generatore di WormHole</lang>
+		<lang key="pt">Gerador de Túneis Espaciais</lang>
+		<lang key="se">Maskhålsskapare</lang>
+	</entry>
+
+</resources>

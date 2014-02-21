@@ -1,0 +1,20 @@
+echo "Dumping databases..."
+mysqldump -u root --password=sarava2k --all-databases > /opt/orionsbelt/prd/backups/limegreen.sql
+
+echo "Ziping them..."
+gzip /opt/orionsbelt/prd/backups/limegreen.sql 
+
+echo "Organizing..."
+
+mv /opt/orionsbelt/prd/backups/limegreen.sql-5.gz /opt/orionsbelt/prd/backups/limegreen.sql-6.gz
+
+mv /opt/orionsbelt/prd/backups/limegreen.sql-4.gz /opt/orionsbelt/prd/backups/limegreen.sql-5.gz
+
+mv /opt/orionsbelt/prd/backups/limegreen.sql-3.gz /opt/orionsbelt/prd/backups/limegreen.sql-4.gz
+
+mv /opt/orionsbelt/prd/backups/limegreen.sql-2.gz /opt/orionsbelt/prd/backups/limegreen.sql-3.gz
+
+mv /opt/orionsbelt/prd/backups/limegreen.sql-1.gz /opt/orionsbelt/prd/backups/limegreen.sql-2.gz
+
+mv /opt/orionsbelt/prd/backups/limegreen.sql.gz /opt/orionsbelt/prd/backups/limegreen.sql-1.gz
+

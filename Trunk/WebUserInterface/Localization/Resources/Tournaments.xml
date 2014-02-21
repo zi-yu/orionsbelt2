@@ -1,0 +1,1464 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="Abandom">
+		<lang key="de">Team verlassen</lang>
+		<lang key="en">Abandon team</lang>
+		<lang key="pt">Abandonar equipa</lang>
+		<lang key="ru">Покинуть команду</lang>
+		<lang key="se">Lämna lag</lang>
+	</entry>
+
+	<entry key="AlreadyRegisted">
+		<lang key="de">Du bist bereits registriert</lang>
+		<lang key="en">You are already registered</lang>
+		<lang key="es">Ya estás registrado en este torneo</lang>
+		<lang key="fr">Vous êtes déjà enregistré</lang>
+		<lang key="hr">Već si registriran</lang>
+		<lang key="it">Sei già registrato</lang>
+		<lang key="pt">Já estás registado neste torneio</lang>
+		<lang key="ro">Sunteţi deja înregistrat</lang>
+		<lang key="se">Du är redan registrerad</lang>
+	</entry>
+
+	<entry key="AlreadyRegistedTeam">
+		<lang key="de">Dein Team ist bereits registriert</lang>
+		<lang key="en">Your team is already registered</lang>
+		<lang key="es">Tu equipo está registrado en este torneo</lang>
+		<lang key="fr">Votre équipe est déjà enregistrée</lang>
+		<lang key="hr">Vaš tim je već registriran</lang>
+		<lang key="it">La tua squadra è già registrata</lang>
+		<lang key="pt">A sua equipa está registada neste torneio</lang>
+		<lang key="ro">Echipa ta este deja înregistrată</lang>
+		<lang key="se">Ditt lag är redan registrerat</lang>
+	</entry>
+
+	<entry key="Annihalation">
+		<lang key="de">Totale Zerstörung</lang>
+		<lang key="en">Total Annihalation</lang>
+		<lang key="es">Destrucción Total</lang>
+		<lang key="fr">Annihilation total</lang>
+		<lang key="hr">Totalno Istrebljenje</lang>
+		<lang key="it">Distruzione Totale</lang>
+		<lang key="pt">Destruição Total</lang>
+		<lang key="ro">Anihilare</lang>
+		<lang key="se">Utrotning</lang>
+	</entry>
+
+	<entry key="Annihalation4">
+		<lang key="de">Totale Zerstörung Teams</lang>
+		<lang key="en">Total Annihalation Teams</lang>
+		<lang key="es">Destrucción Total Equipas</lang>
+		<lang key="fr">Anihilation total en équipe</lang>
+		<lang key="hr">Totalno Istrebljenje Tima</lang>
+		<lang key="it">Squadre Distruzione Totale</lang>
+		<lang key="pt">Destruição Total Equipas</lang>
+		<lang key="ro">Echipe de anihilare totală</lang>
+		<lang key="se">Totalförstörelse Lag</lang>
+	</entry>
+
+	<entry key="BeginDate">
+		<lang key="de">Datum Beginn</lang>
+		<lang key="en">Begin Date</lang>
+		<lang key="es">Fecha de Inicio</lang>
+		<lang key="fr">Date de commencement</lang>
+		<lang key="hr">Datum Početka</lang>
+		<lang key="it">Data di inizio</lang>
+		<lang key="pt">Data de início</lang>
+		<lang key="ro">Data de începere</lang>
+		<lang key="se">Startdatum</lang>
+	</entry>
+
+	<entry key="Best">
+		<lang key="de">Bester</lang>
+		<lang key="en">Best</lang>
+		<lang key="es">Mejor</lang>
+		<lang key="fr">Meilleur</lang>
+		<lang key="hr">Najbolji</lang>
+		<lang key="it">Migliore</lang>
+		<lang key="pt">Melhor</lang>
+		<lang key="ro">Cel mai bun</lang>
+		<lang key="se">Bästa</lang>
+	</entry>
+
+	<entry key="Create">
+		<lang key="de">Erzeugen</lang>
+		<lang key="en">Create</lang>
+		<lang key="es">Crear</lang>
+		<lang key="fr">Créer</lang>
+		<lang key="hr">Kreiraj</lang>
+		<lang key="it">Crea</lang>
+		<lang key="pt">Criar</lang>
+		<lang key="ro">Creaţi</lang>
+		<lang key="se">Skapa</lang>
+	</entry>
+
+	<entry key="CreateTeam">
+		<lang key="de">Team erstellen</lang>
+		<lang key="en">Create Team</lang>
+		<lang key="es">Formar Equipo</lang>
+		<lang key="fr">Créer l'équipe</lang>
+		<lang key="hr">Stvori tim</lang>
+		<lang key="it">Crea Squadra</lang>
+		<lang key="pt">Formar Equipa</lang>
+		<lang key="ro">Crează Echipa</lang>
+		<lang key="ru">Создать Команду</lang>
+		<lang key="se">Skapa Lag</lang>
+	</entry>
+
+	<entry key="CreateTournament">
+		<lang key="de">Turnier erschaffen</lang>
+		<lang key="en">Create Tournament</lang>
+		<lang key="es">Crear Torneo</lang>
+		<lang key="fr">Créer le tournoi</lang>
+		<lang key="hr">Otvori Turnir</lang>
+		<lang key="it">Crea Torneo</lang>
+		<lang key="pt">Criar Torneio</lang>
+		<lang key="ro">Crează Turneu</lang>
+		<lang key="se">Skapa Turnering</lang>
+	</entry>
+
+	<entry key="Credits">
+		<lang key="de">Orions benötigt</lang>
+		<lang key="en">Orions required</lang>
+		<lang key="es">Orions necesarios</lang>
+		<lang key="fr">Orions nécessaires</lang>
+		<lang key="hr">Oriona potrebno</lang>
+		<lang key="it">Orions necessari</lang>
+		<lang key="pt">Orions necessários</lang>
+		<lang key="ro">Orions necesari</lang>
+		<lang key="se">Begärda Orions</lang>
+	</entry>
+
+	<entry key="CurrElo">
+		<lang key="de">Aktueller ELO</lang>
+		<lang key="en">Current ELO</lang>
+		<lang key="es">ELO actual</lang>
+		<lang key="fr">ELO actuel</lang>
+		<lang key="hr">Trenutačni ELO</lang>
+		<lang key="it">ELO Corrente</lang>
+		<lang key="pt">ELO actual</lang>
+		<lang key="ro">ELO Curent</lang>
+		<lang key="se">Nuvarande ELO</lang>
+	</entry>
+
+	<entry key="CurrentTurn">
+		<lang key="de">Aktuelle Runde</lang>
+		<lang key="en">Current Turn</lang>
+		<lang key="es">Ronda actual</lang>
+		<lang key="fr">Tour actuel</lang>
+		<lang key="hr">Trenutačni Turn</lang>
+		<lang key="it">Turno Corrente</lang>
+		<lang key="pt">Ronda actual</lang>
+		<lang key="ro">Tur actual</lang>
+		<lang key="se">Nuvarande Vända</lang>
+	</entry>
+
+	<entry key="CurrPoints">
+		<lang key="de">Aktuelle Punktzahl</lang>
+		<lang key="en">Current points</lang>
+		<lang key="es">Puntos actuales</lang>
+		<lang key="fr">Points actuellement</lang>
+		<lang key="hr">Trenutačni bodovi</lang>
+		<lang key="it">Punti attuali</lang>
+		<lang key="pt">Pontos actuais</lang>
+		<lang key="ro">Puncte curente</lang>
+		<lang key="se">Nuvarande poäng</lang>
+	</entry>
+
+	<entry key="CurrPosition">
+		<lang key="de">Aktuelle Position</lang>
+		<lang key="en">Current position</lang>
+		<lang key="es">Posición actual</lang>
+		<lang key="fr">Position actuel</lang>
+		<lang key="hr">Trenutačna pozicija</lang>
+		<lang key="it">Posizione attuale</lang>
+		<lang key="pt">Posição actual</lang>
+		<lang key="ro">Poziţia actuală</lang>
+		<lang key="se">Nuvarande position</lang>
+	</entry>
+
+	<entry key="Default30Days">
+		<lang key="de">0 oder leer bedeutet 30 Tage</lang>
+		<lang key="en">0 or empty means 30 days</lang>
+		<lang key="es">El vacio significa 30 días</lang>
+		<lang key="fr">0 ou vide signifie 30 jours</lang>
+		<lang key="hr">0 ili prazan znači 30 dana</lang>
+		<lang key="it">0 o vuoto significa 30 giorni</lang>
+		<lang key="pt">0 ou vazio significa 30 dias</lang>
+		<lang key="ro">0 sau gol înseamnă 30 de zile</lang>
+		<lang key="se">0 eller tom betyder 30 dagar</lang>
+	</entry>
+
+	<entry key="Default32">
+		<lang key="de">Standardwert=32; Mögliche Werte:64, 32, 16, 8, 4</lang>
+		<lang key="en">Default=32; Possible values:64, 32, 16, 8, 4</lang>
+		<lang key="es">Defecto=32; Valores posibles:64, 32, 16, 8, 4</lang>
+		<lang key="fr">Défault=32; Valeurs possible:64, 32, 16, 8, 4</lang>
+		<lang key="hr">Zadano=32; Moguće vrijednosti:64, 32, 16, 8, 4</lang>
+		<lang key="it">Predefinito=32; Valori Possibili:64, 32, 16, 8, 4</lang>
+		<lang key="pt">Omissão=32; Valores possíveis:64, 32, 16, 8, 4</lang>
+		<lang key="ro">Implicit=32; Valori posibile:64, 32, 16, 8, 4</lang>
+		<lang key="se">Standardvärde=32; Möjliga värden: 64, 32, 8, 4</lang>
+	</entry>
+
+	<entry key="Domination">
+		<lang key="de">Herrschaft</lang>
+		<lang key="en">Domination</lang>
+		<lang key="es">Domínio</lang>
+		<lang key="fr">Domination</lang>
+		<lang key="hr">Dominacija</lang>
+		<lang key="it">Dominazione</lang>
+		<lang key="pt">Domínio</lang>
+		<lang key="ro">Dominare</lang>
+		<lang key="se">Dominans</lang>
+	</entry>
+
+	<entry key="Domination4">
+		<lang key="de">Team Herrschaft</lang>
+		<lang key="en">Domination Teams</lang>
+		<lang key="es">Domínio Equipos</lang>
+		<lang key="fr">Équipes de domination</lang>
+		<lang key="hr">Dominacijski Timovi</lang>
+		<lang key="it">Squadre Dominazione</lang>
+		<lang key="pt">Domínio Equipas</lang>
+		<lang key="ro">Echipe Dominante</lang>
+		<lang key="se">Dominans Lag</lang>
+	</entry>
+
+	<entry key="EliminatedInFase">
+		<lang key="de">Im Turnier <b>{0}</b>, {1} hat erreicht <b>{2}</b></lang>
+		<lang key="en">In the tournament <b>{0}</b>, {1} reached the <b>{2}</b></lang>
+		<lang key="es">En el torneo <b>{0}</b>, el {1} alcanzó <b>{2}</b></lang>
+		<lang key="fr">Dans le tournoi <b>{0}</b>, {1} a atteint le <b>{2}</b></lang>
+		<lang key="hr">U turniru  <b>{0}</b>, {1} dosegao je <b>{2}</b></lang>
+		<lang key="it">Nel torneo <b>{0}</b>, {1} è arrivato in <b>{2}</b></lang>
+		<lang key="pt">No torneio <b>{0}</b>, o {1} alcançou <b>{2}</b></lang>
+		<lang key="ro">În turneul <b>{0}</b>, {1} a ajuns la <b>{2}</b></lang>
+		<lang key="se">I turneringen <b>{0}</b>, nådde {1} <b>{2}</b></lang>
+	</entry>
+
+	<entry key="Ended">
+		<lang key="de">Beendet</lang>
+		<lang key="en">Ended</lang>
+		<lang key="fr">Terminé</lang>
+		<lang key="hr">Završeno</lang>
+		<lang key="it">Concluso</lang>
+		<lang key="pt">Terminado</lang>
+		<lang key="ro">Finalizat</lang>
+		<lang key="ru">Завершен</lang>
+		<lang key="se">Avslutad</lang>
+	</entry>
+
+	<entry key="Final1">
+		<lang key="de">Finale</lang>
+		<lang key="en">final</lang>
+		<lang key="es">final</lang>
+		<lang key="fr">Finale</lang>
+		<lang key="hr">finale</lang>
+		<lang key="it">Finale</lang>
+		<lang key="pt">final</lang>
+		<lang key="ro">Finală</lang>
+		<lang key="ru">Финал</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="Final16">
+		<lang key="de">1/16 der Finale</lang>
+		<lang key="en">1/16 of final</lang>
+		<lang key="es">1/16 de final</lang>
+		<lang key="fr">1/16 de Finale</lang>
+		<lang key="hr">1/16 finala</lang>
+		<lang key="it">1/16 di Finale</lang>
+		<lang key="pt">1/16 de final</lang>
+		<lang key="ro">1/16 de finală</lang>
+		<lang key="ru">1/16 финала</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="Final2">
+		<lang key="de">1/2 der Finale</lang>
+		<lang key="en">1/2 of final</lang>
+		<lang key="es">1/2 de final</lang>
+		<lang key="fr">1/2 de Finale</lang>
+		<lang key="hr">1/2 finala</lang>
+		<lang key="it">SemiFinale</lang>
+		<lang key="pt">1/2 de final</lang>
+		<lang key="ro">1/2 de finală</lang>
+		<lang key="ru">Полуфинал</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="Final32">
+		<lang key="de">1/32 der Finale</lang>
+		<lang key="en">1/32 of final</lang>
+		<lang key="es">1/32 de final</lang>
+		<lang key="fr">1/32 de Finale</lang>
+		<lang key="hr">1/32 finala</lang>
+		<lang key="it">1/32 di Finale</lang>
+		<lang key="pt">1/32 de final</lang>
+		<lang key="ro">1/32 de finală</lang>
+		<lang key="ru">1/32 финала</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="Final4">
+		<lang key="de">1/4 der Finale</lang>
+		<lang key="en">1/4 of final</lang>
+		<lang key="es">1/4 de final</lang>
+		<lang key="fr">1/4 de finale</lang>
+		<lang key="hr">1/4 finala</lang>
+		<lang key="it">1/4 di Finale</lang>
+		<lang key="pt">1/4 de final</lang>
+		<lang key="ro">1/4 de finală</lang>
+		<lang key="ru">Четверть финала</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="Final8">
+		<lang key="de">1/8 der Finale</lang>
+		<lang key="en">1/8 of final</lang>
+		<lang key="es">1/8 de final</lang>
+		<lang key="fr">1/8 de Finale</lang>
+		<lang key="hr">1/8 finala</lang>
+		<lang key="it">1/8 di Finale</lang>
+		<lang key="pt">1/8 de final</lang>
+		<lang key="ro">1/8 de finală</lang>
+		<lang key="ru">1/8 финала</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="Finals1">
+		<lang key="de">Finale</lang>
+		<lang key="en">Final</lang>
+		<lang key="es">Final</lang>
+		<lang key="fr">Finale</lang>
+		<lang key="hr">Finale</lang>
+		<lang key="it">Finale</lang>
+		<lang key="pt">Final</lang>
+		<lang key="ro">Finală</lang>
+		<lang key="ru">Финал</lang>
+		<lang key="se"></lang>
+	</entry>
+
+	<entry key="Finals16">
+		<lang key="de">1/16 der Finale</lang>
+		<lang key="en">1/16 Finals</lang>
+		<lang key="es">1/16 Final</lang>
+		<lang key="fr">1/16 de Finale</lang>
+		<lang key="hr">1/16 Finala</lang>
+		<lang key="it">1/16 di Finale</lang>
+		<lang key="pt">1/16 Final</lang>
+		<lang key="ro">1/16 Finale</lang>
+		<lang key="ru">1/16 финала</lang>
+		<lang key="se">1/16 - Final</lang>
+	</entry>
+
+	<entry key="Finals2">
+		<lang key="de">1/2 der Finale</lang>
+		<lang key="en">1/2 Finals</lang>
+		<lang key="es">1/2 Final</lang>
+		<lang key="fr">1/2 de Finale</lang>
+		<lang key="hr">1/2 Finala</lang>
+		<lang key="it">SemiFinale</lang>
+		<lang key="pt">1/2 Final</lang>
+		<lang key="ro">1/2 Finale</lang>
+		<lang key="ru">Полуфинал</lang>
+		<lang key="se">Semifinal</lang>
+	</entry>
+
+	<entry key="Finals32">
+		<lang key="de">1/32 der Finale</lang>
+		<lang key="en">1/32 Finals</lang>
+		<lang key="es">1/32 Final</lang>
+		<lang key="fr">1/32 de Finale</lang>
+		<lang key="hr">1/32 Finala</lang>
+		<lang key="it">1/32 di Finale</lang>
+		<lang key="pt">1/32 Final</lang>
+		<lang key="ro">1/32 Finale</lang>
+		<lang key="se">1/32 - Final</lang>
+	</entry>
+
+	<entry key="Finals4">
+		<lang key="de">1/4 der Finale</lang>
+		<lang key="en">1/4 Finals</lang>
+		<lang key="es">1/4 Final</lang>
+		<lang key="fr">1/4 de Finale</lang>
+		<lang key="hr">1/4 Finala</lang>
+		<lang key="it">1/4 di Finale</lang>
+		<lang key="pt">1/4 Final</lang>
+		<lang key="ro">1/4 Finale</lang>
+		<lang key="ru">Четверть финала</lang>
+		<lang key="se">!/4 - Final</lang>
+	</entry>
+
+	<entry key="Finals64">
+		<lang key="de">1/64 der Finale</lang>
+		<lang key="en">1/64 Finals</lang>
+		<lang key="es">1/64 Final</lang>
+		<lang key="fr">1/64 de Finale</lang>
+		<lang key="hr">1/64 Finala</lang>
+		<lang key="it">1/64 di Finale</lang>
+		<lang key="pt">1/64 Final</lang>
+		<lang key="ro">1/64 Finale</lang>
+		<lang key="se">1/64 - Final</lang>
+	</entry>
+
+	<entry key="Finals8">
+		<lang key="de">1/8 der Finale</lang>
+		<lang key="en">1/8 Finals</lang>
+		<lang key="es">1/8 Final</lang>
+		<lang key="fr">1/8 de Finale</lang>
+		<lang key="hr">1/8 Finala</lang>
+		<lang key="it">1/8 di Finale</lang>
+		<lang key="pt">1/8 Final</lang>
+		<lang key="ro">1/8 Finale</lang>
+		<lang key="ru">1/8 финала</lang>
+		<lang key="se">1/8 - Final</lang>
+	</entry>
+
+	<entry key="Finished">
+		<lang key="de">Beendet</lang>
+		<lang key="en">Finished</lang>
+		<lang key="es">Concluído</lang>
+		<lang key="fr">Terminé</lang>
+		<lang key="hr">Završeno</lang>
+		<lang key="it">Concluso</lang>
+		<lang key="pt">Concluído</lang>
+		<lang key="ro">Incheiat</lang>
+		<lang key="se">Avslutad</lang>
+	</entry>
+
+	<entry key="FleetIdentifier">
+		<lang key="de">Flotten ID</lang>
+		<lang key="en">Fleet ID</lang>
+		<lang key="es">ID de la flota</lang>
+		<lang key="fr">ID d'escadrille</lang>
+		<lang key="hr">ID Flote</lang>
+		<lang key="it">ID della flotta</lang>
+		<lang key="pt">ID da armada</lang>
+		<lang key="ro">ID flotă</lang>
+		<lang key="se">Flottans ID</lang>
+	</entry>
+
+	<entry key="Group">
+		<lang key="de">Gruppe</lang>
+		<lang key="en">Group</lang>
+		<lang key="es">Grupos</lang>
+		<lang key="fr">Groupe</lang>
+		<lang key="hr">Grupa</lang>
+		<lang key="it">Gruppi</lang>
+		<lang key="pt">Groups</lang>
+		<lang key="ro">Grupul</lang>
+		<lang key="se">Grupp</lang>
+	</entry>
+
+	<entry key="HaveBattles">
+		<lang key="de">Du hast Schlachten zu spielen</lang>
+		<lang key="en">You have battles to play</lang>
+		<lang key="es">Tienes batallas para jugar</lang>
+		<lang key="fr">Vous avez des combats à jouer</lang>
+		<lang key="hr">Imaš bitke za voditi</lang>
+		<lang key="it">Hai battaglie da giocare</lang>
+		<lang key="pt">Tens batalhas para jogar</lang>
+		<lang key="ro">Ai lupte de jucat</lang>
+		<lang key="se">Du har fältslag att spela</lang>
+	</entry>
+
+	<entry key="HaveTeam">
+		<lang key="de">Der ausgewählte Spieler gehört bereits zu einem Team.</lang>
+		<lang key="en">The player you choose already have a team</lang>
+		<lang key="es">El compañero que escojiste ya está en un equipo</lang>
+		<lang key="fr">Le joueur que vous avez choisi est déjà dans une équipe.</lang>
+		<lang key="hr">Igrač kojega si odabrao već ima tim</lang>
+		<lang key="it">Il giocatore che hai scelto ha già una squadra</lang>
+		<lang key="pt">O companheiro que escolheste já está numa equipa</lang>
+		<lang key="ro">Jucătorul ales are deja o echipă</lang>
+		<lang key="ru">У выбранного игрока уже есть команда</lang>
+		<lang key="se">Spelaren du valt har redan ett lag</lang>
+	</entry>
+
+	<entry key="Inactive">
+		<lang key="de">Inaktiv</lang>
+		<lang key="en">Inactive</lang>
+		<lang key="es">Inactivo</lang>
+		<lang key="fr">Inactif</lang>
+		<lang key="hr">Inaktivan</lang>
+		<lang key="it">Inattivo</lang>
+		<lang key="pt">Inactivo</lang>
+		<lang key="ro">Inactiv</lang>
+		<lang key="se">Inaktiv</lang>
+	</entry>
+
+	<entry key="InitPlayers">
+		<lang key="de">Anzahl der anfänglichen Spieler</lang>
+		<lang key="en">Initial number of players</lang>
+		<lang key="es">Nº de jugadores iniciales</lang>
+		<lang key="fr">Nombre initial de joueurs</lang>
+		<lang key="hr">Početni broj igrača</lang>
+		<lang key="it">Numero iniziale di giocatori</lang>
+		<lang key="pt">Nº de jogadores iniciais</lang>
+		<lang key="ro">Numărul iniţial de jucători</lang>
+		<lang key="se">Antal spelare från början</lang>
+	</entry>
+
+	<entry key="Instructions">
+		<lang key="de">Instruktionen : Ein Turnier fängt an wenn die Zeit um sich einzuschreiben überschritten wird, und die minimale Anzahl von Spielern registriert ist. Wenn die minimale Anzahl, die maximale Anzahl, und die Nummer der Spieler um die Playoffs zu starten, gleich sind, dann beginnt das Turnier in der Playoff Phase.</lang>
+		<lang key="en">Instructions: A tournament begins when the subscription time limit is reached and the minimum number of players is registered.
+  If minimum number, maximum number and number of player to begin playoff are equals the tournament will begin in the playoff fase</lang>
+		<lang key="es">Instrucciones: Un torneo comienza cuando es sobrepasado el tiempo limite de subscripción y se han registrados el número mínimo de jugadores.
+  Si el número mínimo, número máximo y número de jugadores para comenzar la faze eliminatoria fueran iguales, entonces el torneo comienza en la faze de eliminátorias</lang>
+		<lang key="fr">Instructions: Un tournoi débute quand le temps limite à l'inscrption est terminé et le nombre minimum de joueurs est atteint. Si le nombre minimal, maximal et le nombre de jouers à atteindre le finales est le même, alors le tournois commence immédiatement avec les finales.</lang>
+		<lang key="hr">Upute: Turnir počinje kada se dosegne kraj vremena za prijavu i kada je minimalan broj igrača prijavljen. Ako je minimalan broj, maksimalan broj igrača i broj igrača za započinjanje doigravanja jednak turnir će početi u fazi doigravanja.</lang>
+		<lang key="it">Istruzioni: Un torneo inizia quando scade il termine per le iscrizioni ed è stato raggiunto il minimo numero di iscritti. Se il numero minimo, il numero massimo e il numero di giocatori che accedono ai playoff sono uguali, il torneo inizierà direttamente nella fase dei playoff.</lang>
+		<lang key="pt">Instruções: Um torneio começa quando é ultrapassado o tempo limite de subscrição e estão registados o número mínimo de jogadores.
+  Se o número mínimo, número máximo e número de jogadores para começar a fase a eliminar forem iguais, então o torneio começa logo na fase de eliminárias</lang>
+		<lang key="ro">Instrucţiuni: Un turneu începe atunci când se atinge limita de timp necesară înscrierilor si este atins numărul minim de jucători înregistrati.
+În cazul în care numărul minim, numărul maxim şi numărul de jucatori sunt egale turneul va începe cu finala.</lang>
+		<lang key="se">Instruktioner: En turnering börjar när tidsgränsen för registreringar har nåtts och det minsta tillåtna antalet spelare har registrerat sig. Om det minsta antalet, högsta antalet och det aktuella antalet spelare för att starta slutspel är lika så börjar turneringen direkt i slutspelsfasen.</lang>
+	</entry>
+
+	<entry key="InTeam">
+		<lang key="de">Du bist bereits in einem Team</lang>
+		<lang key="en">You are already in a team</lang>
+		<lang key="es">Ya tienes equipo</lang>
+		<lang key="fr">Vous êtes déjà dans une équipe</lang>
+		<lang key="hr">Već si u timu</lang>
+		<lang key="it">Sei già in una squadra</lang>
+		<lang key="pt">Já tens equipa</lang>
+		<lang key="ro">Sunteţi deja într-o echipă</lang>
+		<lang key="ru">Вы уже в команде</lang>
+		<lang key="se">Du är redan i ett lag</lang>
+	</entry>
+
+	<entry key="IntergalacticDescription">
+		<lang key="de"></lang>
+		<lang key="en"><div class="center"><img alt="Intergalactic Tournament" title="Intergalactic Tournament" src="http://pdm.velocix.orionsbelt.eu/Images/IntergalacticTournament/IntergalaticTournamentLogo.png" /></div><div class="center"><a href="http://www.orionsbelt.eu/intergalactic-tournament-money-prize/" class="tournamentRules">Intergalactic Tournament Rules</a></div></lang>
+		<lang key="pt"><div class="center"><img alt="Intergalactic Tournament" title="Intergalactic Tournament" src="http://pdm.velocix.orionsbelt.eu/Images/IntergalacticTournament/IntergalaticTournamentLogo.png" /></div><div class="center"><h1><a href="http://www.orionsbelt.eu/torneio-intergalactico-premio-dinheiro/" class="tournamentRules">Regras do Torneio Intergalático</a></h1></div></lang>
+	</entry>
+
+	<entry key="InTournament">
+		<lang key="de">Turniere in denen du mitspielst</lang>
+		<lang key="en">You are playing in these Tournament(s)</lang>
+		<lang key="es">Torneos que estás jugando</lang>
+		<lang key="fr">Vous jouez dans ces tournoi(s):</lang>
+		<lang key="hr">Vi igrate u ovom/im Turniru/ima</lang>
+		<lang key="it">Tornei in cui stai giocando</lang>
+		<lang key="pt">Torneios em que estás a jogar</lang>
+		<lang key="ro">Joci in acest(e) Turneu(ri)</lang>
+		<lang key="se">Du spelar i följande Turnering(ar)</lang>
+	</entry>
+
+	<entry key="InvalidName">
+		<lang key="de">Ungültiger Name</lang>
+		<lang key="en">Invalid name</lang>
+		<lang key="es">Nombre no válido</lang>
+		<lang key="fr">Nom invalide</lang>
+		<lang key="hr">Nepostojeće ime</lang>
+		<lang key="it">Nome non valido</lang>
+		<lang key="pt">Nome inválido</lang>
+		<lang key="ro">Nume invalid</lang>
+		<lang key="ru">Неправильное имя</lang>
+		<lang key="se">Ogiltigt namn</lang>
+	</entry>
+
+	<entry key="Invite">
+		<lang key="de">Einladen</lang>
+		<lang key="en">Invite</lang>
+		<lang key="pt">Convidar</lang>
+		<lang key="ru">Пригласить</lang>
+		<lang key="se">Bjud in</lang>
+	</entry>
+
+	<entry key="InviteTeamMate">
+		<lang key="de">Teamspieler einladen</lang>
+		<lang key="en">Invite team mate</lang>
+		<lang key="pt">Convidar colega</lang>
+		<lang key="ru">Пригласить участника команды</lang>
+		<lang key="se">Bjud in lagkamrat</lang>
+	</entry>
+
+	<entry key="InviteTo">
+		<lang key="de">Einladen zu: {0}</lang>
+		<lang key="en">Invite to: {0}</lang>
+		<lang key="pt">Convidar para: {0}</lang>
+		<lang key="ru">Пригласить в: {0}</lang>
+		<lang key="se">Bjud in till: {0}</lang>
+	</entry>
+
+	<entry key="IsPublic">
+		<lang key="de">Öffentliches Turnier</lang>
+		<lang key="en">Public tournament</lang>
+		<lang key="es">Torneo público</lang>
+		<lang key="fr">Tournoi publique</lang>
+		<lang key="hr">Javni turniri</lang>
+		<lang key="it">Torneo pubblico</lang>
+		<lang key="pt">Torneio público</lang>
+		<lang key="ro">Turneu public</lang>
+		<lang key="se">Publik turnering</lang>
+	</entry>
+
+	<entry key="IsSurvival">
+		<lang key="de">Survival Turnier</lang>
+		<lang key="en">Survival tournament</lang>
+		<lang key="es">Torneo de sobrevivencia</lang>
+		<lang key="fr">Tournoi mode survie</lang>
+		<lang key="hr">Turniri preživljavanja</lang>
+		<lang key="it">Torneo di sopravvivenza</lang>
+		<lang key="pt">Torneio de sobrevivencia</lang>
+		<lang key="ro">Turneu de supravieţuire</lang>
+		<lang key="se">Överlevnads-turnering</lang>
+	</entry>
+
+	<entry key="Ladder">
+		<lang key="de">Rangliste</lang>
+		<lang key="en">Ladder</lang>
+		<lang key="es">Escala</lang>
+		<lang key="fr">Échelle</lang>
+		<lang key="hr">Ljestvica</lang>
+		<lang key="it">Classifica</lang>
+		<lang key="pt">Escada</lang>
+		<lang key="ro">Clasament</lang>
+		<lang key="se">Stege</lang>
+	</entry>
+
+	<entry key="LadderTeam">
+		<lang key="de">Team Rangliste</lang>
+		<lang key="en">Team Ladder</lang>
+		<lang key="es">Escala Eq.</lang>
+		<lang key="fr">Échelle d'équipe</lang>
+		<lang key="hr">Timska Ljestvica</lang>
+		<lang key="it">Classifica Squadre</lang>
+		<lang key="pt">Escada Eq.</lang>
+		<lang key="ro">Clasament Echipă</lang>
+		<lang key="se">Lag-stege</lang>
+	</entry>
+
+	<entry key="LatestTournamentBattles">
+		<lang key="de">Letzte Spielbewegungen</lang>
+		<lang key="en">Latest Moves</lang>
+		<lang key="es">Últimas Jugadas</lang>
+		<lang key="fr">Derniers mouvements</lang>
+		<lang key="hr">Zadnji potezi</lang>
+		<lang key="it">Ultime Mosse</lang>
+		<lang key="pt">Últimas Jogadas</lang>
+		<lang key="ro">Ultimele Mutări</lang>
+		<lang key="se">Senaste Förflyttningarna</lang>
+	</entry>
+
+	<entry key="Losses">
+		<lang key="de">Niederlagen</lang>
+		<lang key="en">Losses</lang>
+		<lang key="es">Derrotas</lang>
+		<lang key="fr">Défaites</lang>
+		<lang key="hr">Gubitci</lang>
+		<lang key="it">Sconfitte</lang>
+		<lang key="pt">Derrotas</lang>
+		<lang key="ro">Pierderi</lang>
+		<lang key="se">Förluster</lang>
+	</entry>
+
+	<entry key="MakeRegist">
+		<lang key="de">Registrieren</lang>
+		<lang key="en">Regist</lang>
+		<lang key="es">Registrar</lang>
+		<lang key="fr">Registre</lang>
+		<lang key="hr">Registriraj se</lang>
+		<lang key="it">Iscriviti</lang>
+		<lang key="pt">Registar</lang>
+		<lang key="ro">Inregistrare</lang>
+		<lang key="se">Registrera</lang>
+	</entry>
+
+	<entry key="Max">
+		<lang key="de">Max</lang>
+		<lang key="en">Max</lang>
+		<lang key="es">Máx</lang>
+		<lang key="fr">Max</lang>
+		<lang key="hr">Max</lang>
+		<lang key="it">Max</lang>
+		<lang key="pt">Máx</lang>
+		<lang key="ro">Max</lang>
+		<lang key="se">Max</lang>
+	</entry>
+
+	<entry key="MaxElo">
+		<lang key="de">Max ELO</lang>
+		<lang key="en">Max ELO</lang>
+		<lang key="es">ELO Máx</lang>
+		<lang key="fr">ELO Max</lang>
+		<lang key="hr">Max ELO</lang>
+		<lang key="it">ELO Massimo</lang>
+		<lang key="pt">ELO Máx</lang>
+		<lang key="ro">Max ELO</lang>
+		<lang key="se">Max ELO</lang>
+	</entry>
+
+	<entry key="Min">
+		<lang key="de">Min</lang>
+		<lang key="en">Min</lang>
+		<lang key="es">Min</lang>
+		<lang key="fr">Min</lang>
+		<lang key="hr">Min</lang>
+		<lang key="it">Min</lang>
+		<lang key="pt">Min</lang>
+		<lang key="ro">Min</lang>
+		<lang key="se">Min</lang>
+	</entry>
+
+	<entry key="MinElo">
+		<lang key="de">Min ELO</lang>
+		<lang key="en">Min ELO</lang>
+		<lang key="es">ELO Mín</lang>
+		<lang key="fr">ELO Min</lang>
+		<lang key="hr">Minimalni ELO</lang>
+		<lang key="it">ELO Minimo</lang>
+		<lang key="pt">ELO Mín</lang>
+		<lang key="ro">Min ELO</lang>
+		<lang key="se">Min ELO</lang>
+	</entry>
+
+	<entry key="MiniTeamTournament">
+		<lang key="de">Mini Team Turnier</lang>
+		<lang key="en">Mini Team Tournament</lang>
+		<lang key="pt">Mini Torneio de equipa</lang>
+		<lang key="ro">Mini Turneu Echipă</lang>
+		<lang key="ru">Командный Мини Турнир</lang>
+		<lang key="se">Miniturnering med lag</lang>
+	</entry>
+
+	<entry key="MiniTournament">
+		<lang key="de">Mini Turnier</lang>
+		<lang key="en">Mini Tournament</lang>
+		<lang key="pt">Mini Torneio</lang>
+		<lang key="ro">Mini Turneu</lang>
+		<lang key="ru">Мини Турнир</lang>
+		<lang key="se">Miniturnering</lang>
+	</entry>
+
+	<entry key="MinRegistPlayers">
+		<lang key="de">Minimale Anzahl der Registrierungen im Turnier</lang>
+		<lang key="en">Minimum regists in tournament</lang>
+		<lang key="es">Registros mínimos en el torneo</lang>
+		<lang key="fr">Nombre minimum enregistré dans le tournoi</lang>
+		<lang key="hr">Minimalno registracija u turniru</lang>
+		<lang key="it">Numero minimo di iscrizioni al torneo</lang>
+		<lang key="pt">Registos mínimos no torneio</lang>
+		<lang key="ro">Numărul minim de înregistrări în turneu</lang>
+		<lang key="se">Minsta antal registreringar i turnering</lang>
+	</entry>
+
+	<entry key="Name">
+		<lang key="de">Name</lang>
+		<lang key="en">Name</lang>
+		<lang key="es">Nombre</lang>
+		<lang key="fr">Nom</lang>
+		<lang key="hr">Ime</lang>
+		<lang key="it">Nome</lang>
+		<lang key="pt">Nome</lang>
+		<lang key="ro">Nume</lang>
+		<lang key="se">Namn</lang>
+	</entry>
+
+	<entry key="NeverEnter">
+		<lang key="de">Hat noch nie ein Turnier betreten</lang>
+		<lang key="en">Never entered in a tournament before</lang>
+		<lang key="es">Nunca entrá a un torneo</lang>
+		<lang key="fr">N'a jamais participé à un tournois</lang>
+		<lang key="hr">Nikada do sada nije ušao u turnir</lang>
+		<lang key="it">Mai stato in un torneo prima</lang>
+		<lang key="pt">Nunca entrou num torneio</lang>
+		<lang key="ro">Niciodată nu a mai intrat într-un turneu</lang>
+		<lang key="ru">Никогда раньше не заходил на турнир</lang>
+		<lang key="se">Har aldrig gått med i en turnering</lang>
+	</entry>
+
+	<entry key="NoLimit">
+		<lang key="de">Ohne Limit</lang>
+		<lang key="en">Unlimited</lang>
+		<lang key="es">Sin limite</lang>
+		<lang key="fr">Illimité</lang>
+		<lang key="hr">Neograničeno</lang>
+		<lang key="it">Senza Limite</lang>
+		<lang key="pt">Sem limite</lang>
+		<lang key="ro">Nelimitat</lang>
+		<lang key="se">Obebgränsat</lang>
+	</entry>
+
+	<entry key="NoTeam">
+		<lang key="de">Du musst in einem Team sein um dem Turnier beizutreten</lang>
+		<lang key="en">You need to be in a team to enter in this tournament</lang>
+		<lang key="es">Tienes que tener un equipo para entrar en este torneo</lang>
+		<lang key="fr">Vous devez être dans une équipe pour participer à ce tournoi</lang>
+		<lang key="hr">Trebate biti u timu da uđete u ovaj turnir</lang>
+		<lang key="it">Devi essere in una squadra per entrare in questo torneo</lang>
+		<lang key="pt">Tens de ter uma equipa para entrar neste torneio</lang>
+		<lang key="ro">Trebuie să fi într-o echipă pentru a intra în acest turneu</lang>
+		<lang key="se">Du behöver tillhöra ett lag för att gå med i den har turneringen</lang>
+	</entry>
+
+	<entry key="NotEliminatedYet">
+		<lang key="de">In diesem Turnier <b>{0}</b>, {1} wurde noch nicht eliminiert</lang>
+		<lang key="en">In the tournament <b>{0}</b>, {1} wasn't yet eliminated</lang>
+		<lang key="es">En el torneo <b>{0}</b>, el {1} aún no fué eliminado</lang>
+		<lang key="fr">Dans le tournoi <b>{0}</b>, {1} n'a pas encore été éliminé</lang>
+		<lang key="hr">U tuniru <b>{0}</b>, {1} nije još eliminiran</lang>
+		<lang key="it">Nel torneo <b>{0}</b>, {1} non è stato ancora eliminato</lang>
+		<lang key="pt">No torneio <b>{0}</b>, o {1} ainda não foi eliminado</lang>
+		<lang key="ro">În turneul <b>{0}</b>, {1} nu a fost eliminat</lang>
+		<lang key="se">I turneringen <b>{0}</b>, var inte {1} eliminerad ännu</lang>
+	</entry>
+
+	<entry key="NotEnoughtOrions">
+		<lang key="de"><a href="../Account/Payment.aspx">Du hast nicht genügend Orions.</a>
+  Bei Schwierigkeiten <a href="../Contact.aspx">Kontaktieren Sie uns</a></lang>
+		<lang key="en"><a href="../Account/Payment.aspx">You don't have enought Orions.</a>
+  Any doubt <a href="../Contact.aspx">contact us</a></lang>
+		<lang key="pt"><a href="../Account/Payment.aspx">Não tens Orions suficientes</a>
+  Alguma dúvida <a href="../Contact.aspx">contacta-nos</a></lang>
+	</entry>
+
+	<entry key="NotEnoughtPayments">
+		<lang key="de"><a href="../Account/Payment.aspx">Um dich in diesem Turnier zu registrieren musst du wenigstens {0} Bezahlung(en) gemacht haben.</a>
+  Bei Schwierigkeiten   <a href="../Contact.aspx">Kontaktieren Sie uns</a></lang>
+		<lang key="en"><a href="../Account/Payment.aspx">To regist in this tournament you need to have at least {0} payment(s) made.</a>
+  Any doubt <a href="../Contact.aspx">contact us</a></lang>
+		<lang key="pt"><a href="../Account/Payment.aspx">Para te registares neste torneio tens de ter feito pelo menos {0} pagamento(s).</a>
+  Alguma dúvida <a href="../Contact.aspx">contacta-nos</a></lang>
+	</entry>
+
+	<entry key="NPlayers">
+		<lang key="de">Maximale Anzahl Spieler</lang>
+		<lang key="en">Max Players</lang>
+		<lang key="es">Max Jugadores</lang>
+		<lang key="fr">Max de joueurs</lang>
+		<lang key="hr">Max Igrača</lang>
+		<lang key="it">Numero massimo Giocatori</lang>
+		<lang key="pt">Max Jogadores</lang>
+		<lang key="ro">Numărul maxim de jucători</lang>
+		<lang key="se">Max Antal Spelare</lang>
+	</entry>
+
+	<entry key="NumberOfBattles">
+		<lang key="de">Anzahl der Schlachten</lang>
+		<lang key="en">Number Of Battles</lang>
+		<lang key="es">Número de batallas</lang>
+		<lang key="fr">Nombre de Combats</lang>
+		<lang key="hr">Broj Bitki</lang>
+		<lang key="it">Numero di Battaglie</lang>
+		<lang key="pt">Número de batalhas</lang>
+		<lang key="ro">Numărul de Lupte</lang>
+		<lang key="se">Antal Fältslag</lang>
+	</entry>
+
+	<entry key="PlayoffNum">
+		<lang key="de">Playoff Spieler Nummer</lang>
+		<lang key="en">Playoff players number</lang>
+		<lang key="es">Número de jugadores para playoff</lang>
+		<lang key="fr">Nombre de joueurs aux finales</lang>
+		<lang key="hr">Broj igrača u doigravanju</lang>
+		<lang key="it">Numero di giocatori per i playoff</lang>
+		<lang key="pt">Número de jogadores para playoff</lang>
+		<lang key="ro">Număr de jucători în finală</lang>
+		<lang key="se">Antal spelare i slutspel</lang>
+	</entry>
+
+	<entry key="Playoffs">
+		<lang key="de">Endspiele</lang>
+		<lang key="en">Playoffs</lang>
+		<lang key="es">Eliminatórias</lang>
+		<lang key="fr">Finales</lang>
+		<lang key="hr">Doigravanje</lang>
+		<lang key="it">Playoff</lang>
+		<lang key="pt">Eliminatórias</lang>
+		<lang key="ro">Finale</lang>
+		<lang key="ru">Плей-офф</lang>
+		<lang key="se">Slutspel</lang>
+	</entry>
+
+	<entry key="Points">
+		<lang key="de">Punkte</lang>
+		<lang key="en">Points</lang>
+		<lang key="es">Puntos</lang>
+		<lang key="fr">Points</lang>
+		<lang key="hr">Bodovi</lang>
+		<lang key="it">Punti</lang>
+		<lang key="pt">Pontos</lang>
+		<lang key="ro">Puncte</lang>
+		<lang key="se">Poäng</lang>
+	</entry>
+
+	<entry key="Pot">
+		<lang key="de">Pot</lang>
+		<lang key="en">Pot</lang>
+		<lang key="es">Pote</lang>
+		<lang key="fr">Pot</lang>
+		<lang key="hr">Pot</lang>
+		<lang key="it">Pentola</lang>
+		<lang key="pt">Pote</lang>
+		<lang key="ro">Potul</lang>
+		<lang key="se">Pot</lang>
+	</entry>
+
+	<entry key="Prize">
+		<lang key="de">Prämie</lang>
+		<lang key="en">Prize</lang>
+		<lang key="es">Premio</lang>
+		<lang key="fr">Prix</lang>
+		<lang key="hr">Nagrada</lang>
+		<lang key="it">Premio</lang>
+		<lang key="pt">Prémio</lang>
+		<lang key="ro">Premiu</lang>
+		<lang key="se">Pris</lang>
+	</entry>
+
+	<entry key="ProcessTournament">
+		<lang key="de">Mit dem Turnier fortfahren</lang>
+		<lang key="en">Process Tournament</lang>
+		<lang key="es">Avanzar Torneo</lang>
+		<lang key="fr">Processus de tournoi</lang>
+		<lang key="hr">Proces Turnira</lang>
+		<lang key="it">Avanza Torneo</lang>
+		<lang key="pt">Avançar Torneio</lang>
+		<lang key="ro">Procesul de turneu</lang>
+		<lang key="ru">Обработать Турнир</lang>
+		<lang key="se">Kör fram Turnering</lang>
+	</entry>
+
+	<entry key="Regicide">
+		<lang key="de">Königsmord</lang>
+		<lang key="en">Regicide</lang>
+		<lang key="es">Regicidio</lang>
+		<lang key="fr">Régicide</lang>
+		<lang key="hr">Regicid</lang>
+		<lang key="it">Regicidio</lang>
+		<lang key="pt">Regicídeo</lang>
+		<lang key="ro">Regicid</lang>
+		<lang key="se">Kungamord</lang>
+	</entry>
+
+	<entry key="Regicide4">
+		<lang key="de">Königsmord Teams</lang>
+		<lang key="en">Regicide Teams</lang>
+		<lang key="es">Regicidio Equipos</lang>
+		<lang key="fr">Régicide en équipe</lang>
+		<lang key="hr">Vrijeme Regicida</lang>
+		<lang key="it">Squadre Regicidio</lang>
+		<lang key="pt">Regicídeo Equipas</lang>
+		<lang key="ro">Echipe de Regicid</lang>
+		<lang key="se">Kungamord Lag</lang>
+	</entry>
+
+	<entry key="RegistedPlayers">
+		<lang key="de">Registrierte Spieler:</lang>
+		<lang key="en">Registered Players:</lang>
+		<lang key="es">Jugadores registrados:</lang>
+		<lang key="fr">Joueurs enregistrés:</lang>
+		<lang key="hr">Registriarani Igrači</lang>
+		<lang key="it">Giocatori Iscritti:</lang>
+		<lang key="pt">Jogadores registados:</lang>
+		<lang key="ro">Jucători înregistraţi:</lang>
+		<lang key="se">Registrerade Spelare:</lang>
+	</entry>
+
+	<entry key="RegistFase">
+		<lang key="de">Turnier in der Registrierungsphase</lang>
+		<lang key="en">Soon to start Tournaments</lang>
+		<lang key="es">Torneos en faze de Registro</lang>
+		<lang key="fr">Tournoi(s) débutant bientôt</lang>
+		<lang key="hr">Turniri koji ubrzo počinju</lang>
+		<lang key="it">Tornei in fase di Iscrizione</lang>
+		<lang key="pt">Torneios em fase de Registo</lang>
+		<lang key="ro">Turneele încep în curând</lang>
+		<lang key="se">Turneringar i Registreringsfasen</lang>
+	</entry>
+
+	<entry key="RegistPlayers">
+		<lang key="de">Maximale Anzahl Registrierungen im Turnier</lang>
+		<lang key="en">Maximum regists in tournament</lang>
+		<lang key="es">Registros máximos en el torneo</lang>
+		<lang key="fr">Nombre maximum d'enregistrés dans le tournoi</lang>
+		<lang key="hr">Maksimalno registracija u turniru</lang>
+		<lang key="it">Numero massimo di iscritti al torneo</lang>
+		<lang key="pt">Registos máximos no torneio</lang>
+		<lang key="ro">Numărul maxim de înregistrări în turneu</lang>
+		<lang key="se">Max antal registreringar i turnering</lang>
+	</entry>
+
+	<entry key="RegistTime">
+		<lang key="de">Zeit zum Registrieren</lang>
+		<lang key="en">Regist time</lang>
+		<lang key="es">Tiempo de registro</lang>
+		<lang key="fr">Temps d'enregistrement</lang>
+		<lang key="hr">Vrijeme registracije</lang>
+		<lang key="it">Tempo di iscrizione</lang>
+		<lang key="pt">Tempo de registo</lang>
+		<lang key="ro">Timp de înregistrare</lang>
+		<lang key="se">Tid för registrering</lang>
+	</entry>
+
+	<entry key="SamePrincipal">
+		<lang key="de">Du kannst kein Team bilden mit dir selbst</lang>
+		<lang key="en">You can't form a team with yourself</lang>
+		<lang key="es">No puedes formar un equipo contigo mismo</lang>
+		<lang key="fr">Vous ne pouvez pas créer une équipe avec vous-même.</lang>
+		<lang key="hr">Nemožeš napraviti tim sam sa sobom</lang>
+		<lang key="it">Non puoi creare una squadra con te stesso</lang>
+		<lang key="pt">Não podes formar uma equipa contigo próprio</lang>
+		<lang key="ro">Nu se poate crea o echipă cu tine însuţi</lang>
+		<lang key="ru">Вы не можете создать команду с самим собой</lang>
+		<lang key="se">Du kan bilda ett lag med dig själv</lang>
+	</entry>
+
+	<entry key="SingleTournaments">
+		<lang key="de">Einzelturniere</lang>
+		<lang key="en">Single Tournaments</lang>
+		<lang key="es">Torneos Individuales</lang>
+		<lang key="fr">Tournois solo</lang>
+		<lang key="hr">Pojedinačni Turnir</lang>
+		<lang key="it">Tornei Individuali</lang>
+		<lang key="pt">Torneios Individuais</lang>
+		<lang key="ro">Turnee Individuale</lang>
+		<lang key="se">Individuella Turneringar</lang>
+	</entry>
+
+	<entry key="SoldOut">
+		<lang key="de">Turnier ausgebucht</lang>
+		<lang key="en">Tournament sold out</lang>
+		<lang key="pt">Torneio sem vagas</lang>
+		<lang key="ro">Turneu vândut</lang>
+		<lang key="ru">Турнир продан</lang>
+		<lang key="se">Turneringen slutsåld</lang>
+	</entry>
+
+	<entry key="Stage">
+		<lang key="de">Phase</lang>
+		<lang key="en">Stage</lang>
+		<lang key="es">Faze</lang>
+		<lang key="fr">Phase</lang>
+		<lang key="hr">Etapa</lang>
+		<lang key="it">Fase</lang>
+		<lang key="pt">Fase</lang>
+		<lang key="ro">Etapă</lang>
+		<lang key="ru">Этап</lang>
+		<lang key="se">Fas</lang>
+	</entry>
+
+	<entry key="Stage1">
+		<lang key="de">Phase 1</lang>
+		<lang key="en">Stage 1</lang>
+		<lang key="es">Faze 1</lang>
+		<lang key="fr">Phase 1</lang>
+		<lang key="hr">Etapa 1</lang>
+		<lang key="it">Fase 1</lang>
+		<lang key="pt">Fase 1</lang>
+		<lang key="ro">Etapa 1</lang>
+		<lang key="ru">Этап 1</lang>
+		<lang key="se">Fas 1</lang>
+	</entry>
+
+	<entry key="Stage2">
+		<lang key="de">Phase 2</lang>
+		<lang key="en">Stage 2</lang>
+		<lang key="es">Faze 2</lang>
+		<lang key="fr">Phase 2</lang>
+		<lang key="hr">Etapa 2</lang>
+		<lang key="it">Fase 2</lang>
+		<lang key="pt">Fase 2</lang>
+		<lang key="ro">Etapa 2</lang>
+		<lang key="ru">Этап 2</lang>
+		<lang key="se">Fas 2</lang>
+	</entry>
+
+	<entry key="Stage3">
+		<lang key="de">Phase 3</lang>
+		<lang key="en">Stage 3</lang>
+		<lang key="es">Faze 3</lang>
+		<lang key="fr">Phase 3</lang>
+		<lang key="hr">Etapa 3</lang>
+		<lang key="it">Fase 3</lang>
+		<lang key="pt">Fase 3</lang>
+		<lang key="ro">Etapa 3</lang>
+		<lang key="ru">Этап 3</lang>
+		<lang key="se">Fas 3</lang>
+	</entry>
+
+	<entry key="Stage4">
+		<lang key="de">Phase 4</lang>
+		<lang key="en">Stage 4</lang>
+		<lang key="es">Faze 4</lang>
+		<lang key="fr">Phase 4</lang>
+		<lang key="hr">Etapa 4</lang>
+		<lang key="it">Fase 4</lang>
+		<lang key="pt">Fase 4</lang>
+		<lang key="ro">Etapa 4</lang>
+		<lang key="ru">Этап 4</lang>
+		<lang key="se">Fas 4</lang>
+	</entry>
+
+	<entry key="Stage5">
+		<lang key="de">Phase 5</lang>
+		<lang key="en">Stage 5</lang>
+		<lang key="es">Faze 5</lang>
+		<lang key="fr">Phase 5</lang>
+		<lang key="hr">Etapa 5</lang>
+		<lang key="it">Fase 5</lang>
+		<lang key="pt">Fase 5</lang>
+		<lang key="ro">Etapa 5</lang>
+		<lang key="ru">Этап 5</lang>
+		<lang key="se">Fas 5</lang>
+	</entry>
+
+	<entry key="Stage6">
+		<lang key="de">Phase 6</lang>
+		<lang key="en">Stage 6</lang>
+		<lang key="es">Faze 6</lang>
+		<lang key="fr">Phase 6</lang>
+		<lang key="hr">Etapa 6</lang>
+		<lang key="it">Fase 6</lang>
+		<lang key="pt">Fase 6</lang>
+		<lang key="ro">Etapa 6</lang>
+		<lang key="ru">Этап 6</lang>
+		<lang key="se">Fas 6</lang>
+	</entry>
+
+	<entry key="StartDate">
+		<lang key="de">Zeitpunkt Start</lang>
+		<lang key="en">Start Date</lang>
+		<lang key="es">Fecha de comienzo</lang>
+		<lang key="fr">Date de départ</lang>
+		<lang key="hr">Datum Početka</lang>
+		<lang key="it">Data di inizio</lang>
+		<lang key="pt">Data de arranque</lang>
+		<lang key="ro">Data de început</lang>
+		<lang key="se">Startdatum</lang>
+	</entry>
+
+	<entry key="StartTournament">
+		<lang key="de">Turnier beginnen</lang>
+		<lang key="en">Start tournament</lang>
+		<lang key="es">Iniciar torneo</lang>
+		<lang key="fr">Début de tournoi</lang>
+		<lang key="hr">Početak Turnira</lang>
+		<lang key="it">Inizia torneo</lang>
+		<lang key="pt">Iniciar torneio</lang>
+		<lang key="ro">Inceputul turneului</lang>
+		<lang key="se">Starta Turnering</lang>
+	</entry>
+
+	<entry key="SubscriptionTime">
+		<lang key="de">Beginnt in</lang>
+		<lang key="en">Starts In</lang>
+		<lang key="es">Comienza En</lang>
+		<lang key="fr">Commence dans</lang>
+		<lang key="hr">Počinje za</lang>
+		<lang key="it">Inizia in</lang>
+		<lang key="pt">Começa Em</lang>
+		<lang key="ro">Începe în</lang>
+		<lang key="se">Startar om</lang>
+	</entry>
+
+	<entry key="SuccessRegisted">
+		<lang key="de">Erfolreich Registriert</lang>
+		<lang key="en">Register successfully</lang>
+		<lang key="pt">Registo com sucesso</lang>
+		<lang key="ro">Înregistrare cu succes</lang>
+		<lang key="ru">Регистрация прошла успешно</lang>
+		<lang key="se">Registrering utförd</lang>
+	</entry>
+
+	<entry key="SucessOperation">
+		<lang key="de">Einsatz erfolgreich beendet</lang>
+		<lang key="en">Operation executed sucessfully</lang>
+		<lang key="es">Operación ejecutada con éxito</lang>
+		<lang key="fr">L'opérations a été executé avec succès</lang>
+		<lang key="hr">Operacija izvršena uspješno</lang>
+		<lang key="it">Operazione eseguita con successo</lang>
+		<lang key="pt">Operação executada com sucesso</lang>
+		<lang key="ro">Operaţiune executată cu succes</lang>
+		<lang key="ru">Операция выполнена успешно</lang>
+		<lang key="se">Åtgärden utfördes med gott resultat</lang>
+	</entry>
+
+	<entry key="Team">
+		<lang key="de">Team</lang>
+		<lang key="en">Team</lang>
+		<lang key="es">Equipo</lang>
+		<lang key="fr">Équipe</lang>
+		<lang key="hr">Tim</lang>
+		<lang key="it">Squadra</lang>
+		<lang key="pt">Equipa</lang>
+		<lang key="ro">Echipă</lang>
+		<lang key="ru">Команда</lang>
+		<lang key="se">Lag</lang>
+	</entry>
+
+	<entry key="TeamMate">
+		<lang key="de">Teamspieler Name</lang>
+		<lang key="en">Team mate name</lang>
+		<lang key="es">Nombre del compañero de equipo</lang>
+		<lang key="fr">Nom du coéquipier</lang>
+		<lang key="hr">Ime kolege iz tima</lang>
+		<lang key="it">Nome del compagno di squadra</lang>
+		<lang key="pt">Nome do companheiro de equipa</lang>
+		<lang key="ro">Numele coechipierului</lang>
+		<lang key="ru">Имя участника команды</lang>
+		<lang key="se">Lagkamrat</lang>
+	</entry>
+
+	<entry key="TeamMateValidator">
+		<lang key="de">Der Name des Teamspielers kann nicht leer sein</lang>
+		<lang key="en">Team mate name can´t be empty</lang>
+		<lang key="es">El nombre del compañero de equipo no puede ser vacio</lang>
+		<lang key="fr">Le nom du céquipier ne peut être vide</lang>
+		<lang key="hr">Ime kolege iz tima ne može biti prazno</lang>
+		<lang key="it">Il nome del compagno non può essere vuoto</lang>
+		<lang key="pt">O nome do companheiro de equipa não pode ser vazio</lang>
+		<lang key="ro">Numele coechipierului nu poate fi gol</lang>
+		<lang key="ru">Имя участника команды не может быть пустым</lang>
+		<lang key="se">Lagkamratens namn kan inte vara tomt</lang>
+	</entry>
+
+	<entry key="TeamNameValidator">
+		<lang key="de">Team Name kann nicht leer sein</lang>
+		<lang key="en">Team name can´t be empty</lang>
+		<lang key="es">El nombre del equipo no puede ser vacio</lang>
+		<lang key="fr">Le nom de l'équipe ne peut être vide</lang>
+		<lang key="hr">Ime tima ne smije biti prazno</lang>
+		<lang key="it">Il nome della squadra non può essere vuoto</lang>
+		<lang key="pt">O nome da equipa não pode ser vazio</lang>
+		<lang key="ro">Numele echipei nu poate fi gol</lang>
+		<lang key="ru">Имя команды не может быть пустым</lang>
+		<lang key="se">Laget namn kan inte vara tomt</lang>
+	</entry>
+
+	<entry key="TeamTournaments">
+		<lang key="de">Team Turniere</lang>
+		<lang key="en">Team Tournaments</lang>
+		<lang key="es">Torneos de Equipo</lang>
+		<lang key="fr">Tournoi d'équipe</lang>
+		<lang key="hr">Timski Turnir</lang>
+		<lang key="it">Tornei di Squadra</lang>
+		<lang key="pt">Torneios de Equipa</lang>
+		<lang key="ro">Turnee pe Echipe</lang>
+		<lang key="se">Lagbaserade Turneringar</lang>
+	</entry>
+
+	<entry key="TotalAnnihalation">
+		<lang key="de">Totale Zerstörung</lang>
+		<lang key="en">Total Annihalation</lang>
+		<lang key="es">Destrucción Total</lang>
+		<lang key="fr">Annihilation  Total</lang>
+		<lang key="hr">Totalno Istrebljenje</lang>
+		<lang key="it">Distruzione Totale</lang>
+		<lang key="pt">Destruição Total</lang>
+		<lang key="ro">Anihilare Totală</lang>
+		<lang key="se">Totalförstörelse</lang>
+	</entry>
+
+	<entry key="TotalAnnihalation4">
+		<lang key="de">Totale Zerstörung Teams</lang>
+		<lang key="en">Total Annihalation Teams</lang>
+		<lang key="es">Destrucción Total Equipas</lang>
+		<lang key="fr">Anihilation total en équipe</lang>
+		<lang key="hr">Totalno Istrebljenje Tima</lang>
+		<lang key="it">Squadre Distruzione Totale</lang>
+		<lang key="pt">Destruição Total Equipas</lang>
+		<lang key="ro">Echipe de anihilare totală</lang>
+		<lang key="ru">Команды Полного Уничтожения</lang>
+		<lang key="se">Totalförstörelse-Lag</lang>
+	</entry>
+
+	<entry key="TournamentBattles">
+		<lang key="de">Turnier Schlachten:</lang>
+		<lang key="en">Tournament Battles:</lang>
+		<lang key="es">Batallas de torneos:</lang>
+		<lang key="fr">Combats de tournoi:</lang>
+		<lang key="hr">Bitke Turnira:</lang>
+		<lang key="it">Battaglie dei Tornei</lang>
+		<lang key="pt">Batalhas de torneios:</lang>
+		<lang key="ro">Lupte Turneu:</lang>
+		<lang key="ru">Турнирные бои:</lang>
+		<lang key="se">Turneringens Fältslag</lang>
+	</entry>
+
+	<entry key="TournamentHistory">
+		<lang key="de">Turnier Verlauf</lang>
+		<lang key="en">Tournament History</lang>
+		<lang key="es">Historial de torneos</lang>
+		<lang key="fr">Histoire du tournois</lang>
+		<lang key="hr">Povijest turnira</lang>
+		<lang key="it">Storia nei Tornei</lang>
+		<lang key="pt">Historial de torneios</lang>
+		<lang key="ro">Istorie Turneu</lang>
+		<lang key="ru">Турнирная История</lang>
+		<lang key="se">Turnerings-historik</lang>
+	</entry>
+
+	<entry key="TournamentName">
+		<lang key="de">Turnier</lang>
+		<lang key="en">Tournament</lang>
+		<lang key="es">Torneo</lang>
+		<lang key="fr">Tournoi</lang>
+		<lang key="hr">Turnir</lang>
+		<lang key="it">Torneo</lang>
+		<lang key="pt">Torneio</lang>
+		<lang key="ro">Turneu</lang>
+		<lang key="se">Turnering</lang>
+	</entry>
+
+	<entry key="TournamentStats">
+		<lang key="de">Turnier Statistiken</lang>
+		<lang key="en">Tournament Stats</lang>
+		<lang key="es">Estadísticas de torneo</lang>
+		<lang key="fr">Statistiques de tournoi</lang>
+		<lang key="hr">Statistike Turnira</lang>
+		<lang key="it">Statistiche del Torneo</lang>
+		<lang key="pt">Estatísticas de torneio</lang>
+		<lang key="ro">Statistică Turneu</lang>
+		<lang key="se">Turningsstatistik</lang>
+	</entry>
+
+	<entry key="TournamentType">
+		<lang key="de">Typ</lang>
+		<lang key="en">Type</lang>
+		<lang key="es">Tipo</lang>
+		<lang key="fr">Type</lang>
+		<lang key="hr">Tip</lang>
+		<lang key="it">Tipo</lang>
+		<lang key="pt">Tipo</lang>
+		<lang key="ro">Tip</lang>
+		<lang key="se">Typ</lang>
+	</entry>
+
+	<entry key="TourRegist">
+		<lang key="de">In Turnier registrieren</lang>
+		<lang key="en">Regist in tournament</lang>
+		<lang key="es">Registrar en el torneo</lang>
+		<lang key="fr">Enregistré dans le tournoi</lang>
+		<lang key="hr">Registriraj se u turnir</lang>
+		<lang key="it">Registrati al torneo</lang>
+		<lang key="pt">Registar no torneio</lang>
+		<lang key="ro">Înregistrare în turneu</lang>
+		<lang key="se">Registrera dig i turnering</lang>
+	</entry>
+
+	<entry key="TurnTime">
+		<lang key="de">Maximale Rundenzeit</lang>
+		<lang key="en">Maximum turn time</lang>
+		<lang key="es">Tiempo máximo de turno</lang>
+		<lang key="fr">Temps maximum de tour</lang>
+		<lang key="hr">Maksimalno vrijeme turna</lang>
+		<lang key="it">Tempo massimo del turno</lang>
+		<lang key="pt">Tempo máximo de turno</lang>
+		<lang key="ro">Timp maxim pe tur</lang>
+		<lang key="se">Maximal tid för vända</lang>
+	</entry>
+
+	<entry key="UnallowedElo">
+		<lang key="de">Dein ELO erlaubt es dir nicht, dich im Turnier zu registrieren.</lang>
+		<lang key="en">Your ELO don't allow you to regist in the tournament</lang>
+		<lang key="es">Tu ELO no te permite registrarte en el torneo</lang>
+		<lang key="fr">Votre ELO vous empêche de vous inscrire dans le tournoi.</lang>
+		<lang key="hr">Vaš ELO vam ne dopušta da se registrirate u turniru</lang>
+		<lang key="it">Il tuo ELO non ti permette di iscriverti al torneo</lang>
+		<lang key="pt">O teu ELO não te permite registares no torneio</lang>
+		<lang key="ro">ELO-ul dumneavoastra nu vă permite să vă înregistraţi în turneu</lang>
+		<lang key="se">Din ELO tillåter inte att du registrerar dig i en turnering</lang>
+	</entry>
+
+	<entry key="ViewTournament">
+		<lang key="de">Siehe Turnier</lang>
+		<lang key="en">View tournament</lang>
+		<lang key="es">Ver torneo</lang>
+		<lang key="fr">Voir Tournoi</lang>
+		<lang key="hr">Pogledaj turnir</lang>
+		<lang key="it">Vedi tornei</lang>
+		<lang key="pt">Ver torneio</lang>
+		<lang key="ro">Vezi turneul</lang>
+		<lang key="se">Visa turnering</lang>
+	</entry>
+
+	<entry key="Winner">
+		<lang key="de">Gewinner</lang>
+		<lang key="en">Winner</lang>
+		<lang key="es">Vencedor</lang>
+		<lang key="fr">Gagnant</lang>
+		<lang key="hr">Pobjednik</lang>
+		<lang key="it">Vincitore</lang>
+		<lang key="pt">Vencedor</lang>
+		<lang key="ro">Câştigător</lang>
+		<lang key="ru">Победитель</lang>
+		<lang key="se">Vinnare</lang>
+	</entry>
+
+	<entry key="Wins">
+		<lang key="de">Siege</lang>
+		<lang key="en">Wins</lang>
+		<lang key="es">victorias.</lang>
+		<lang key="fr">Victoires</lang>
+		<lang key="hr">Pobjede</lang>
+		<lang key="it">Vittorie</lang>
+		<lang key="pt">Vitórias.</lang>
+		<lang key="ro">Victorii</lang>
+		<lang key="se">Vinster</lang>
+	</entry>
+
+	<entry key="WinTournament">
+		<lang key="de">In diesem Turnier <b>{0}</b>, {1} waren die Gewinner</lang>
+		<lang key="en">In the tournament <b>{0}</b>, {1} were the winner</lang>
+		<lang key="es">En el torneo <b>{0}</b>, el {1} fué el vencedor</lang>
+		<lang key="fr">Dans le tournoi <b>{0}</b>, {1} a été le gagnant</lang>
+		<lang key="hr">U turniru  <b>{0}</b>, {1} su pobjednici</lang>
+		<lang key="it">Nel torneo <b>{0}</b>, {1} ha vinto</lang>
+		<lang key="pt">No torneio <b>{0}</b>, o {1} foi o vencedor</lang>
+		<lang key="ro">În turneul <b>{0}</b>, {1} a fost câştigătorul</lang>
+		<lang key="se">I turneringen <b>{0}</b>, var {1} vinnaren</lang>
+	</entry>
+
+	<entry key="Worst">
+		<lang key="de">Schlechtester</lang>
+		<lang key="en">Worst</lang>
+		<lang key="es">Peor</lang>
+		<lang key="fr">Pire</lang>
+		<lang key="hr">Najgori</lang>
+		<lang key="it">Peggiore</lang>
+		<lang key="pt">Pior</lang>
+		<lang key="ro">Mai rău</lang>
+		<lang key="se">Värsta</lang>
+	</entry>
+
+	<entry key="XLPartyTournament">
+		<lang key="de">XLParty Turnier</lang>
+		<lang key="en">XLParty Tournament</lang>
+		<lang key="pt">Torneio XLParty</lang>
+	</entry>
+
+	<entry key="YouCantRegist">
+		<lang key="de">Du kannst dich in dieses Turnier nicht registrieren</lang>
+		<lang key="en">You can't regist in this tournament</lang>
+		<lang key="pt">Não te podes inscrever neste torneio</lang>
+		<lang key="ro">Nu te poţi înregistra în acest turneu</lang>
+		<lang key="ru">Вы не можете зарегистрироваться в этом турнире</lang>
+		<lang key="se">Du kan inte registrera dig in den här turneringen</lang>
+	</entry>
+
+	<entry key="ZeroMessage">
+		<lang key="de">Null bedeutet kein Limit</lang>
+		<lang key="en">Zero means no limit</lang>
+		<lang key="es">Cero signifíca ilimitado</lang>
+		<lang key="fr">Zéro signifie aucune limite</lang>
+		<lang key="hr">Nula znači bez limita</lang>
+		<lang key="it">Zero vuol dire illimitato</lang>
+		<lang key="pt">Zero significa ilimitado</lang>
+		<lang key="ro">Zero înseamnă fără limită</lang>
+		<lang key="se">Med noll menas ingen gräns</lang>
+	</entry>
+
+  <entry key="PlayingInTournaments">
+    <lang key="en">Your team is playing in, at least, one tournament</lang>
+    <lang key="pt">A tua equipa está a jogar em pelo menos 1 torneio</lang>
+  </entry>
+
+
+</resources>

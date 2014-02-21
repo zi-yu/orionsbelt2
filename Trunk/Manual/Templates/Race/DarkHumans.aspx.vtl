@@ -1,0 +1,27 @@
+<%@ Page Language="C#" AutoEventWireup="false" MasterPageFile="~/$locale/Resources.Master" %>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	$utils.Localize("DarkHumans")
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="conceptMenu" runat="server">
+	$utils.GetRacesMenu()
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<h1>$utils.Localize("DarkHumans")</h1>
+	
+	$utils.Localize("DarkHumansIntro")
+	
+	$utils.Localize("DarkHumansFacilitiesContent")
+	<div class="content">
+		$utils.GetFacilityList("DarkHumans")
+	</div>
+	
+	$utils.Localize("DarkHumansUnitsContent")
+	<div class="content">
+		$utils.GetUnitList("DarkHumans")
+	</div>
+	
+</asp:Content>

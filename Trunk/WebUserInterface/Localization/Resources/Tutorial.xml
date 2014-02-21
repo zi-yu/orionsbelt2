@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="true">
+
+	<entry key="BattleCalculatorContent">
+		<lang key="de">Hier hast du einen Rechner für die Schlachten. Diese Funktion erlaubt dir zu sehen, wieviel Schaden die selektierte Einheit, allen Einheiten die auf dem Brett sind, zufügen kann.</lang>
+		<lang key="en">Here you have the battle calculator. This utility shows how much damade the selected unit can inflict on every unit
+  on the board.</lang>
+		<lang key="es">Aquí abajo tienes la calculadora. Este utilitário te permite saber cuanto daño  la unidad seleccionada consigue
+  hacer en cada una de las unidades enemigas.</lang>
+		<lang key="fr">Voici le calculateur de combat. Cette application montre combien de dégats peut être fait sur toutes les unités sur le plateau.</lang>
+		<lang key="hr">Ovdje imate kalkulator bitke. Ovaj utility pokazuje koliko puno štete odabrana jedinica može uzrokovati svakoj drugoj jedinici na tabli.</lang>
+		<lang key="hu">Itt találod a csata kalkulátort. Ez az alkalmazás mutatja, hogy a kiválasztott egység mennyi sebzést okozhat az összes egységnek a táblán.</lang>
+		<lang key="it">Qua hai il calcolatore per la battaglia. Questa utility mostra quanto danno l'unità selezionata può infliggere su ciascuna unità nel campo di battaglia.</lang>
+		<lang key="pt">Cá em baixo tens a calculadora. Este utilitário permite-te saber quando dano é que a unidade seleccionada consegue
+  fazer em cada uma das unidades inimigas.</lang>
+		<lang key="ru">Здесь у вас есть боевой калькулятор. Он показывает, сколько урона выбранный юнит может нанести каждому из юнитов на поле.</lang>
+		<lang key="se">Här har du fältslags-kalkylatorn. Det här verktyget visar hur mycket skada den valda enheten kan orsaka på respektive fiende-enhet på brädet.</lang>
+	</entry>
+
+	<entry key="BattleContent">
+		<lang key="de">Nun bist du an der Reihe. Du hast deine Einheiten unten im Feld, und kannst die Einheiten deines Gegners im oberen Teil des Feldes sehen. Deine Gegner haben einen roten Hintergrund.</lang>
+		<lang key="en">It's now your turn to play on this battle. You have your units on the bottom, and you can see your opponent's units on top,
+  they have a faded red background.</lang>
+		<lang key="es">Es tu oportunidad de jugar una batalla. Tienes tus unidades en la parte de abajo, y puedes ver las unidades de tu adversário en
+  la parte de encima. Ellas tienen un fondo rojo.</lang>
+		<lang key="fr">C'est maintenant à votre tour de jouer dans cette bataille. Votre armée est située en bas et vous pouvez voir l'armée de l'adversaire dans le haut. L'arrière-plan des unités ennemies est rouge.</lang>
+		<lang key="hr">Sada je vaš red da igrate u ovoj bitci. Imate vaše jedinice na dnu, i možete vidjeti jedinice vašega protivnika na vrhu, one imaju zasjenjenu crvenu pozadinu.</lang>
+		<lang key="hu">Most a te köröd következik a harcban. Alul vannak az egységeid, az ellenfél egységeit felül látod, halvány vörös háttérrel.</lang>
+		<lang key="it">Ora è il tuo turno di giocare in questa battaglia. Le tue unità sono quelle sotto, e puoi vedere quelle del tuo avversario sopra, hanno uno sfondo rosso.</lang>
+		<lang key="pt">É a tua vez de jogar na batalha. Tu tens as tuas unidades na parte de baixo, e podes ver as unidades do teu adversário na
+  parte de cima. Elas têm um fundo vermelho.</lang>
+		<lang key="pt-BR">Agora é a sua vez de jogar nessa batalha. Você tem suas unidades na parte de baixo, e você pode ver as unidades do seu adversário na parte de cima, elas têm um fundo vermelho claro.</lang>
+		<lang key="ru">Теперь ваш ход. Ваши боевые единицы (юниты) расположены в нижней части доски, а юниты противника - в верхней. Они выделены прозрачным красным фоном.</lang>
+		<lang key="se">Det är nu din tur att göra ditt drag. Du har dina enheter längst ner och du kan se din motståndares enheter längst upp, de har en svagt röd bakgrund.</lang>
+	</entry>
+
+	<entry key="BattleDeployContent">
+		<lang key="de">Die Schlacht beginnt mit der Positionierung. Hier bewegst du die Kampfeinheiten deiner Kriegsflotte und positionierst sie auf dem Schlachtfeld. Du kannst sie auf sie auf irgendeinem Quadrat der ersten zwei Linien plazieren, und dein Gegner wird das Gleiche tun.</lang>
+		<lang key="en">The first part of a battle is the deploy. It's when you move the combat units on your fleet and
+  place them on the battle field. You can put them on the first two square lines, and your opponent will do the same.</lang>
+		<lang key="es">La parte inicial de una batalla es el posicionamiento. Es en este punto que mueves las unidades de combate de tu flota
+  y las colocas en el tablero de batalla. Puedes colocrlas en cualquier cuadrado de las dos prmeras líneas, y tu adversário
+  hará lo mismo.</lang>
+		<lang key="fr">La première partie d'une bataille est le déploiement. C'est le temps de positionner les unités de votre escadrille sur le cham de bataille. Vous pouvez les placer sur les deux premières lignes du bas. Même chose dans les lignes du haut pour l'adversaire.</lang>
+		<lang key="hr">Prvi dio bitke je raspoređivanje. To je kada mičete svoje borbene jedince u flote i stavljate ih na bojno polje. Možete ih postaviti na prve dvije kvadratne linije, i vaš protivnik će napraviti isto.</lang>
+		<lang key="hu">A Csata első része a telepítés. Ez azt jelenti, hogy az egységeidet a flottából felsorakoztatod a csatamezőn.
+  Rakhatod őket az első két négyzetvonalra, és az ellenséged is ugyanezt teszi.</lang>
+		<lang key="it">La prima parte della battaglia è lo schieramento. È quando sposti le unità da combattimento della tua flotta sul campo di battaglia. Puoi posizionarle nelle due righe inferiori, il tuo avversario farà lo stesso.</lang>
+		<lang key="pt">A parte inicial de uma batalha é o posicionamento. É aqui que tu moves as unidades de combate da tua armada
+  e as colocas no tabuleiro de batalha. Podes colocá-las em qualquer quadrado das duas primeiras linhas, e o teu adversário
+  fará o mesmo.</lang>
+		<lang key="ru">Первая часть боя это размещение. Это когда вы берете боевые единицы из флота и помещаете их на поле боя. Вы можете поместить их где угодно в пределах первых двух рядов и затем ваш противник делает то же самое.</lang>
+		<lang key="se">Den första delen av fältslaget är sjösättningen. Detta är när du flyttar stridsenheterna till din flotta och placerar dem på slagfältet. Du kan placera dem på de två första raderna med rutor och din motståndare kommer att göra samma sak.</lang>
+	</entry>
+
+	<entry key="BattleDeployDropContent">
+		<lang key="de">Jetzt klicke auf irgeindein Quadrat in den ersten 2 Linien, um die Einheit zu platzieren.</lang>
+		<lang key="en">Now click on any square on the two first lines to place the unit.</lang>
+		<lang key="es">Ahora, haz click en cualquier cuadrado de las dos primeras líneas para que coloques la unidad.</lang>
+		<lang key="fr">Cliquez maintenant sur n'importe quelle case des deux premières rangées pour placer l'unité.</lang>
+		<lang key="hr">Sada kliknite na bilo koji kvadrat unutar prve dvije linije table da postavite jedincu.</lang>
+		<lang key="hu">Most kattints bármely négyzetre az első két sorból, hogy telepítsd az egységet.</lang>
+		<lang key="it">Ora clicca su un quadrato delle prime due righe per posizionare le unità.</lang>
+		<lang key="pt">Agora, clicka num quadrado qualquer das duas primeiras linhas para colocares a unidade.</lang>
+		<lang key="ru">Теперь нажмите на любой квадрат из первых двух рядов чтобы поместить юнит в него.</lang>
+		<lang key="se">Klicka nu på valfri ruta på de två första raderna för att placera en enhet.</lang>
+	</entry>
+
+	<entry key="BattleDeployDropNextContent">
+		<lang key="de">Genau! Um das Positionieren zu beenden, musst du nun dasselbe mit allen Kampfeinheiten deiner Kriegsflotte machen. Beachte dass du eine Einheit wählen und dann die Anzahl ändern kannst (rechts). Auf diese Weise kannst du verschiedene Gruppen der gleichen Einheit positionieren.</lang>
+		<lang key="en">That's it! You need to do that to all the combat units on your fleet, to be able to finish the deploy. Note
+  that you may select a unit and then change the quantity (on the right). That way you may deploy several
+  grups of the same unit.</lang>
+		<lang key="es">Exactamente! Ahora sólo necesitas hacer lo mismo para todas las unidades en tu flota, y así conseguiras concluir
+  el posicionamiento. Nota que puedes seleccionar una unidad y alterar la cantidad a mover (aquí a la direcha). De esa
+  forma logras posicionar vários grupos de la misma unidad.</lang>
+		<lang key="fr">Voilà! Vous devrez faire cela avec toutes les unités de combat de votre escadrille pour terminer le déploiement. À noter que vous pouvez sélectionner une unité et changer la quantité dans la case à droite. Il est ainsi possible de déployer plusieurs groupes à partir d'un même type unité.</lang>
+		<lang key="hr">To je to! Trebate to učiniti  svim borbenim jedicama u vašoj floti, kako biste mogli završiti raspoređivanje. Pripazite na to da možete odabrati jedinicu i onda promijeniti količinu (s desna).
+Na taj način možete rasporediti nekoliko grupa iste jedinice.</lang>
+		<lang key="hu">Ez az! A flottád minden harci egységével ezt kell tenned, hogy befejezd a telepítást. Kiválaszthatsz
+  egy egységet és ezután megváltoztathatod a mennyiséget (a jobb oldalon). Ezzel a módszerrel több csoportot
+  telepíthetsz ugyanabból az egységből.</lang>
+		<lang key="it">Ecco fatto! Devi fare lo stesso con tutte le unità da combattimento della tua flotta per riuscire a concludere lo schieramento. Nota che puoi selezionare una unità e cambiarne la quantità (sulla destra). In questo modo puoi schierare diversi gruppi della stessa unità.</lang>
+		<lang key="pt">Isso! Agora só precisavas de fazer o mesmo para todas as unidades na tua armada, e assim conseguirias concluir
+  o posicionamento. Nota que podes seleccionar uma unidade e alterar a quantidade a mover (aqui à direita). Dessa
+  forma consegues posicionar vários grupos da mesma unidade.</lang>
+		<lang key="ru">Вот так! Вы должны проделать это со всеми боевыми единицами вашего флота перед тем как вы сможете закончить размешение. Отметьте, что вы можете выбрать юнит, а затем изменить количество (справа). Таким образом вы можете разместить несколько групп одинаковых юнитов.</lang>
+		<lang key="se">Det var allt! Du behöver göra det här på alla stridsenheterna i din flotta för att avsluta sjösättningen. Tänk på att du kan välja en enhet och sedan ändra antalet (till höger). På det sättet kan du sjösätta flera enheter av samma typ.</lang>
+	</entry>
+
+	<entry key="BattleDeployFinishContent">
+		<lang key="de">Wenn du fertig bist, klicke einfach auf 'Positionieren'. Danach musst du warten bis es deine Runde ist zu spielen. Wenn es soweit ist, wird dir eine weitere Anleitung zur Verfügung stehen.</lang>
+		<lang key="en">When you're done, simply click on the 'Deploy' button. After that you'll have to wait for your turn to play. When it's
+  time, another tutorial will be available.</lang>
+		<lang key="es">Cuando acabes de posicionar todas las unidades, haz click en el botón 'Posicionar'. Después tendrás que esperar tu turno de juego,
+  en ese momento habrá otro tutorial para auxiliarte.</lang>
+		<lang key="fr">Quand vous avez terminé, cliquez sur le bouton « déploiement ». Par la suite, vous devez attendre votre tour pour jouer. Un autre tutoriel sera disponible lorsque le moment sera venu.</lang>
+		<lang key="hr">Kada ste gotovi, jednostavno kliknite na "rasporedi". Nakon toga trebate čekati da bude vaš red (turn) za igrati. Kada dođe do toga, drugi tutorial će biti dostupan.</lang>
+		<lang key="hu">Amikor készen vagy egyszerűen kattints a 'Telepít' gombra. Ezután várnod kell amíg ismét rád kerül a sor. Mikor itt az ideje
+  egy másik Tutorial lesz elérhető.</lang>
+		<lang key="it">Quando hai finito premi sul tasto 'Schiera'. Dopo di ciò dovrai aspettare per il tuo turno di gioco. Quando sarà ora un'altro tutorial sarà disponibile.</lang>
+		<lang key="pt">Quando acabares de posicionar todas as unidades, clicka no botão 'Posicionar'. Depois terás de esperar a tua vez de jogar,
+  e nessa altura haverá outro tutorial para te auxiliar.</lang>
+		<lang key="ru">Когда вы закончите, просто нажмите кнопку "Разместить". После этого вам придется ждать своего хода. Когда придет время, будет доступно еще одно обучение.</lang>
+		<lang key="se">När du är klar klickar du på knappen "Sjösätt". Sedan behöver du vänta tills det är din tur att spela. När detta är dags så finns en annan handledning tillgänglig.</lang>
+	</entry>
+
+	<entry key="BattleDeploySelectContent">
+		<lang key="de">Lass uns anfangen indem wir eine Einheit aus deiner Flotte selektieren. Hier unten hast du all die Kampfeinheiten, die für die Schlacht zur Verfügung stehen. Bitte klicke auf eine Einheit um mit der Anleitung fortzufahren.</lang>
+		<lang key="en">Lets start by selecting a unit from your fleet. Down here you have all the combat units available for battle.
+  Please click on one to proceed with the tutorial.</lang>
+		<lang key="es">Vamos comenzar por seleccionar una unidad de tu flota. Aquí abajo tienes todas las unidades de combate Disponibles
+  para la batalla. Por favor haz click en uma de ellas para que continuemos el tutorial.</lang>
+		<lang key="fr">Commençons par sélectionner une unité sur votre escadrille. En bas ici vous avez toutes les unités disponibles pour le combat. Cliquez sur l'une d'elles pour continuer à travers le tutoriel.</lang>
+		<lang key="hr">Počnimo tako da odaberemo jedinicu iz tvoje flote. Ovdje dolje imate sve borbene jedinice spremne na bitku. Molimo kliknite na nastavi sa tutorialom.</lang>
+		<lang key="hu">Kezdjük egy egység kiválasztásával a flottádból. Itt lenn megtalálod az összes rendelkezésre álló harci egységet.
+  Kattints rá az egyikre hogy folytasd a Tutorialt.</lang>
+		<lang key="it">Partiamo selezionando una unità dalla tua flotta. Qua sotto hai tutte le unità da combattimento disponibili per la battaglia. Clicca su di una per procedere col tutorial.</lang>
+		<lang key="pt">Vamos começar por seleccionar uma unidade da tua armada. Cá em baixo tens todas as unidades de combate disponíveis
+  para a batalha. Por favor clicka numa delas para continuarmos o tutorial.</lang>
+		<lang key="ru">Давайте начнем с выбора юнита из вашего флота. Внизу вы видите все доступные для битвы боевые единицы. Пожалуйста нажмите на одну из них, чтобы продолжить обучение</lang>
+		<lang key="se">Låt oss börja genom att välja en enhet från din flotta. Här nere har du alla dina stridsenheter som är redo för strid. Vänligen klicka på en för att fortsätta med handledningen.</lang>
+	</entry>
+
+	<entry key="BattleDeployTutorial">
+		<lang key="de">Anleitung zur Positionierung auf dem Schlachtfeld</lang>
+		<lang key="en">Battle Deploy Tutorial</lang>
+		<lang key="es">Tutorial de Posicionamiento en Batalla</lang>
+		<lang key="fr">Tutoriel de déploiement de combat</lang>
+		<lang key="hr">Raspoređivanje za Bitku Tutorial</lang>
+		<lang key="hu">Csata Telepítés Tutorial</lang>
+		<lang key="it">Tutorial sullo Schieramento in Battaglia</lang>
+		<lang key="pt">Tutorial de Posicionamento na Batalha</lang>
+		<lang key="ro">Tutorial de plasare in luptă.</lang>
+		<lang key="ru">Обучение Боевому Размещению</lang>
+		<lang key="se">Handling i Sjösättning inför Fältslag</lang>
+	</entry>
+
+	<entry key="BattleOptionsContent">
+		<lang key="de">Nun weisst du wie du deine Runden spielen kannst. Wenn du fertig bist, musst du " Runde beenden" anklicken, und dann auf den gegnerischen Spielzug warten. Auf dieser Tafel, kannst du eine Bewegung rückgängig machen, or deine ganzen Bewegungen annulieren und wieder neu anfangen.
+<p />
+Guten Kampf!</lang>
+		<lang key="en">You now have the knowledge to play your turns. When you are finished, you must click 'End Turn', and then
+  wait for your opponent's play. On this panel you can also undo a move, or reset all your moves and start again.
+  <p />
+  Good battles!</lang>
+		<lang key="es">Ya tienes todo el conocimiento necesario para hacer tus jugadas. Cuando acabes, tienes que hacer click en 'Acabar Turno' y
+  esperar por la jugada de tu adversário. En este panel también puedes cancelar un movimiento o hacer reset y recomenzar la jugada.
+  <p />
+  Buena batallas!</lang>
+		<lang key="fr">Vous savez maintenant comment jouer votre tour. Quand vous avez terminé, vous devez cliquer sur "tour terminé" et attandre que votre adversaire joue. Sur ce panneau, vous pouvez aussi revenir en arrière d'un mouvement ou recommencer du début.
+<p />
+Bon Combat!</lang>
+		<lang key="hr">Sada imate znanje da igrate svoje turnove. Kada završite, morate klinknuti na "Završi Turn", i tada pričekati dok vaš protivnik igra. Na ovom panelu također možete undo poteze, ili resetirati sve poteze i početi ispočetka.
+<p />
+Dobre Bitke!</lang>
+		<lang key="hu">Most már tudod hogyan kell a köreidet játszani. Amikor végeztél rá kell kattintanod a 'Kör befejezése' gombra, és
+  ezután várni az ellenfeled lépését. Ezen a panelen vissza is tudod vonni a lépést, vagy az összes lépésedet visszavonni és újra kezdeni.
+  <p />
+  Sok Sikert!</lang>
+		<lang key="it">Ora sai come giocare i tuoi turni. Quando hai finito devi premere su 'Termina Turno', e devi aspettare che giochi il tuo avversario. In questo pannello puoi anche annullare un movimento o resettare tutti i movimento e ricominciare da capo. <p /> Buone Battaglie!</lang>
+		<lang key="pt">Já tens todo o conhecimento necessário para fazer as tuas jogadas. Quando acabares, tens de clickar em 'Acabar Turno' e então
+  esperar pela jogada do teu adversário. Neste painel também podes cancelar um movimento ou fazer reset e recomeçar a jogada.
+  <p />
+  Boas batalhas!</lang>
+		<lang key="ru">Теперь вы знаете достаточно, чтобы быть опасным противником. Для кого - еще предстоит решить. Когда вы закончили ходить, нажмите "Завершить ход" и ждите вашего противника. На этой понели вы также можете отменить  последнее действие, сбросить ходи начать заново.
+ <p />
+  Желаем славных сражений!</lang>
+		<lang key="se">Du har nu tillräckligt med kunskap för att spela själv. När du är färdig klickar du på "Slutför Vända" och väntar sedan på att din motståndare ska spela. I den här panelen kan du också ångra en förflyttning eller återställa alla din förflyttningar för att börja om.
+<p />
+Ha Goda Fältslag!</lang>
+	</entry>
+
+	<entry key="BattleSelectContent">
+		<lang key="de">Bitte wähle eine deiner Einheiten, um zur Anleitung zu gelangen...</lang>
+		<lang key="en">Please select any unit to continue the tutorial...</lang>
+		<lang key="es">Por favor selecciona una de tus unidades para continuar con el tutorial...</lang>
+		<lang key="fr">Veuillez choisir n'importe quelle unité pour continuer le tutoriel...</lang>
+		<lang key="hr">Molimo odaberite bilo koju jedinicu da nastavite tutorial...</lang>
+		<lang key="hu">A Tutorial folytatásához válaszd ki valamelyik egységet.</lang>
+		<lang key="it">Seleziona una unità per continuare col tutorial...</lang>
+		<lang key="pt">Por favor selecciona uma das tuas unidades para prosseguir com o tutorial...</lang>
+		<lang key="pt-BR">Por favor, selecione uma de suas unidades para prosseguir com o tutorial...</lang>
+		<lang key="ro">Vă rugăm să selectaţi orice unitate pentru a continua tutorialul ...</lang>
+		<lang key="ru">Пожалуйста, выберите любую боевую единицу чтобы продолжить обучение...</lang>
+		<lang key="se">Vänligen välj vilken enhet som  helst för att fortsätta handledningen</lang>
+	</entry>
+
+	<entry key="BattleTutorial">
+		<lang key="de">Kampfanleitung</lang>
+		<lang key="en">Battle Tutorial</lang>
+		<lang key="es">Tutorial de Batalla</lang>
+		<lang key="fr">Tutoriel de Combat</lang>
+		<lang key="hr">Tutorial Bitki</lang>
+		<lang key="hu">Csata Tutorial</lang>
+		<lang key="it">Tutorial della Battaglia</lang>
+		<lang key="pt">Tutorial da Batalha</lang>
+		<lang key="pt-BR">Tutorial de Batalha</lang>
+		<lang key="ro">Tutorial de luptă.</lang>
+		<lang key="ru">Справочник по битвам</lang>
+		<lang key="se">Handledning för Fältslag</lang>
+	</entry>
+
+	<entry key="BattleUnitDirectionContent">
+		<lang key="">Az egységet át is irányíthatod egy másik irányba. Ez ismételten 1 mozgás pontba kerül.</lang>
+		<lang key="de">Du kannst die Einheit auch in eine andere Richtung drehen, das wird 1 Bewegungspunkt kosten.</lang>
+		<lang key="en">You can also rotate the unit to a different direction. That will also cost 1 movement point.</lang>
+		<lang key="es">También puedes rotar la unidad seleccionada, lo que también cuesta 1 punto de movimiento.</lang>
+		<lang key="fr">Vous pouvez aussi tourner une unité dans une direction différenteé Cela coûte un point de mouvement.</lang>
+		<lang key="hr">Također možete rotirati jedincu u drugom smjeru. Ovo će također koštati jedan bod pokreta.</lang>
+		<lang key="hu">Az egységet át is irányíthatod egy másik irányba. Ez ismételten 1 mozgás pontba kerül.</lang>
+		<lang key="it">Puoi anche ruotare l'unità selezionata verso una direzione diversa. Anche questa azione costa 1 punto movimento.</lang>
+		<lang key="pt">Também podes rodar a unidade seleccionada, o que também custa 1 ponto de movimento.</lang>
+		<lang key="ru">Вы также можете повораживать юнит в разные направления. Это будет стоить 1 очко движения</lang>
+		<lang key="se">Du kan också vända enheten i en annan riktning. Detta kostar också en 1 förflyttningspoäng.</lang>
+	</entry>
+
+	<entry key="BattleUnitSelectedAttackContent">
+		<lang key="">Ez a panel utalásokat tartalmaz, hogy hogyan támadj. Emlékezz rá, hogy minden egységnek van hatóköre. De vannak olyan egységek amelyek speciális
+  képeségekkel rendelkeznek és haszálhatják a Katapult támadást, hármas támadést stb. Tekintsd meg az egységet a Manuál oldalán hogy megtudd
+  mire képes.</lang>
+		<lang key="de">Diese Tafel zeigt wie man einen Angriff startet. Beachte dass jede Einheit eine Angriffsreichweite hat. Es gibt aber auch Einheiten mit speziellen Fähigkeiten, wie Katapult-Angriff, Dreifach-Angriff, etc. Du solltest die Anleitungsseite für die Einheit durchlesen, um zu sehen was diese Einheit alles machen kann.</lang>
+		<lang key="en">This panel shows a little hint on how to attack. Remeber that each unit has a range. But there are also units with special abilities
+  that can use catapult attack, triple attack, etc. You should check the manual page for the unit to really understand what's
+  it capable of.</lang>
+		<lang key="es">Este panel ilustra como atacar. Nota que cada unidad tiene un alcance de ataque. Pero hay unidades que también tienen habilidades especiales,
+  como ataque catapulta, ataque triple, etc. Debes ver la página del manual de la unidad para entender exactamente lo que ella es capaz de
+  hacer.</lang>
+		<lang key="fr">Ce panneau est un petit indice de comment atttaquer. Rappelez vous que chaque unité a une portée différente. Et il y a aussi des unités ayant des aptitudes spéciales comme la catapulte, l'attaque triple, etc. Vous devriez consulter le manuel pour comprendre ce que cjaque unité est capble de faire.</lang>
+		<lang key="hr">Ovaj panel pokazuje malu natuknicu kako napadati. Sjetite se da svaka jedinica ima domet. Ali također postoje jedinice sa specijalnim napadima ( katapult napad, trostruki napad itd.). Trebali biste provjeriti stranicu priručnika za jedinicu da stvarno razumijete za što je sposobna.</lang>
+		<lang key="hu">Ez a panel utalásokat tartalmaz, hogy hogyan támadj. Emlékezz rá, hogy minden egységnek van hatóköre. De vannak olyan egységek amelyek speciális
+  képeségekkel rendelkeznek és haszálhatják a Katapult támadást, hármas támadést stb. Tekintsd meg az egységet a Manuál oldalán hogy megtudd
+  mire képes.</lang>
+		<lang key="it">Questo pannello mostra un piccolo indizio su come attaccare. Ricorda che ogni unità ha la sua portata d'attacco. Ma ci sono anche unità con abilità che usano l'attacco catapulta, l'attacco triplo, etc. Dovresti controllare il manuale per capire veramente di cosa è capace una unità.</lang>
+		<lang key="pt">Este painel ilustra como atacar. Nota que cada unidade tem um alcance de ataque. Mas há unidades que também têm habilidades especiais,
+  como ataque catapulta, ataque triplo, etc. Deves ver a página do manual da unidade para perceber exactamente o que ela é capaz de
+  fazer.</lang>
+		<lang key="ru">Эта панель показывает небольшую подсказку как атаковать. Помните, что у каждого юнита есть дальность атаки. Также существуют юниты со специальными возможностями, такими как катапульта, тройная атака и др. Вам следует заглянуть в руководство и почитать о юните чтобы полностью понять, на что он способен.</lang>
+		<lang key="se">Den här panelen ger en liten fingervisning i hur du bör anfalla. Kom ihåg att varje enhet har en räckvidd, men det finns också enheter med speciella färdigheter som kan använda katapult-anfall, trippel-anfall, etc. Du bör läsa manual-sidan för enheten för att verkligen förstå vad den kan göra.</lang>
+	</entry>
+
+	<entry key="BattleUnitSelectedContent">
+		<lang key="de">Auf dieser Tafel kannst du die Eigenschaften der ausgewählten Einheit sehen. Hier kannst du Angriff/Verteidigung, Anzahl, Bewegungskosten und Angriffsreichweite sehen.</lang>
+		<lang key="en">On this panel you have the selected unit properties. You can see its attack/defense, quantity, movement cost
+  and attack range.</lang>
+		<lang key="es">En este panel puedes ver las características de la unidad. Puedes ver su ataque y defensa, cantidad, costo de movimiento
+  y alcance de ataque.</lang>
+		<lang key="fr">Sur ce panneau se trouvent les informations à propos des aptitudes de l'unité sélectionnée. Vous avez aussi des détails sur son attaque/défense, la quantité, son coût en mouvement et sa portée d'attaque.</lang>
+		<lang key="hr">Na ovom panelu imate karakteristike odabrane jedinice. Možete vidjeti njezin napad/obranu, količinu, cijenu pokreta i domet napada</lang>
+		<lang key="hu">Ezen a panelen a kiválasztott egység tulajdonságai jelennek meg. Láthatod az egység pontjait: támadás/védekezés, mennyiség, mozgás és atámadás hatókörét</lang>
+		<lang key="it">In questo pannello puoi vedere le caratteristiche dell'unità selezionata. Puoi vedere il suo attacco e difesa, la quantità, il costo per il movimento e la portata dell'attacco.</lang>
+		<lang key="pt">Neste painel podes ver as características da unidade. Podes ver o ataque e defesa, quantidade, custo de movimento
+  e alcance de ataque.</lang>
+		<lang key="ru">На этой панели вы видите свойства выбранного юнита. Вы можете видеть его атаку/защиту, количество, стоимость хода и дальность атаки.</lang>
+		<lang key="se">I den här panel har du den valda enhetens egenskaper. Du kan se dess anfall/försvar, antal, rörelsekostnad och räckvidd.</lang>
+	</entry>
+
+	<entry key="BattleUnitSelectedMovContent">
+		<lang key="de">Und diese Tafel zeigt wie man eine Einheit bewegt. Jede Einheit bewegt sich auf eine andere Art und Weise: normal, total, frontal, diagonal, etc. Beachte dass wenn du eine Einheit bewegst, dass es Bewegungspunkte kostet, und du hast 6 Bewegungspunkte zur Verfügung. So kannst du diese Punkte nutzen, um die gleiche Einheit mehrere Male in deiner Runde zu bewegen.</lang>
+		<lang key="en">And this panel shows how to move the unit. Every unit has a movement type: normal, all, front, diagonal, etc. Note that moving the unit
+  has a cost, and you have 6 movement points to spend. So you can use them to move several times the same unit on your turn.</lang>
+		<lang key="es">Y este panel muestra como se mueve una unidad . Cada unidad tiene un tipo de movimiento: normal, total, adelante, diagonal, etc. Nota que
+  mover la unidad tiene un costo, y que tienes 6 puntos de movimiento para gastar. Por lo tanto, puedes usarlos para mover várias veces la misma
+  unidad en tu turno.</lang>
+		<lang key="fr">Et ce panneau montre quend bouger l'unité. Chaque unité possède un type de mouvements: normal, total, frontal, diagonal, etc. Chaque unité a un co¨ût en mouvement et vous avez 6 points à dépenser. Vous pouvez les utiliser pour bouger la même unité plusieurs fois en un seul tour.</lang>
+		<lang key="hr">Ovaj panel vam pokazuje kako pomicati jedinice. Svaka jedinica ima tip pokreta: normalan, svi, naprijed, dijagonalan, itd. Primjetite da pomicanje jedinice ima cijenu, a vi imate 6 bodova pokreta koje možete potrošiti. Tako da ih možete upotrijbiti da mičete jedicu nekoliko puta u turnu.</lang>
+		<lang key="hu">És ez a panel mutatja az egység mozgását. Minden egységnek vagy egy moszgás fajtája: normál, összes, előre, átlósan stb. Az egység mozgatása
+  pontokba kerül, és összesen 6 mozgás pontot költhetsz. Felhasználhatod hogy több alkalommal is ugyanazt az egységet mozgasd a körön belül.</lang>
+		<lang key="it">E questo pannello mostra come muovere l'unità. Ogni unità ha un tipo di movimento: normale, completo, frontale, diagonale, etc. Nota che muovere una unità ha un costo, e hai 6 punti movimento da spendere, quindi puoi muovere la stessa unità più volte in un singolo turno.</lang>
+		<lang key="pt">E este painel mostra como a unidade se move. Cada unidade tem um tipo de movimento: normal, total, em frente, diagonal, etc. Nota que
+  mover a unidade tem um custo, e tu tens 6 pontos de movimento para gastar. Portanto, podes usá-los para mover várias vezes a mesma
+  unidade no teu turno.</lang>
+		<lang key="ru">А эта панель показывает как движется юнит. У каждого юнита есть тип движения: нормальное, полное, фронтальное, диагональное и т. д. Учтите, что передвижение юнита имеет цену и у вас есть 6 очков движения. Вы можете использовать их несколько раз для передвижения одного и того же юнита во время вашего хода.</lang>
+		<lang key="se">Och den här panelen visar hur du flyttar en enhet. Varje enhet har en typ av förflyttning: normal, alla, framåt, diagonal, etc. Tänk på att varje förflyttning har en kostnad och du har 6 förflyttningspoäng att spendera. Om du vill kan du använda dem till att flytta samma enhet flera gånger.</lang>
+	</entry>
+
+	<entry key="BattleUnitSelectedMovPoints2Content">
+		<lang key="de">...und dieser Wert wurde verringert, durch die Bewegungskost der selektierten Einheit. Du kannst die Einheit wieder bewegen wenn du noch weitere Punkte hast. Oder du kannst zusätzliche Aktionen machen. Zum Beispiel, kannst du eine Einheit angreifen für einen Bewegungspunkt. Du kannst in der gleichen Runde bewegen und angreifen.</lang>
+		<lang key="en">... and this value was decremented. The selected unit movement cost was taken. You can move it again if you have the points. Or you
+  can do several other actions. For example, attacking an enemy unit costs 1 movement point. You can move and attack on the same turn.</lang>
+		<lang key="es">... y este valor fué decrementado con el costo de movimiento de la unidad seleccionada. Puedes moverla nuevamente se tuvieras aún
+  más puntos. O puedes hacer otras accioes, Por ejemplo, atacar una unidad enemiga cuesta 1 punto de movimiento. Puedes mover
+  y atacar en el mismo turno.</lang>
+		<lang key="fr">...Et la valeur a été décrémenté. Le nombre de points dépends du coût de l'unité qui a été bougé. Vous pouvez la bouger encore si vous avez suffisament de points ou en bouger plusieurs autres. Attaquer coûte toujours 1 point de mouvement et il est possible d'attaquer et bouger durant le même tour à l'exception du premier.</lang>
+		<lang key="hr">...i ova vrijednost se smanjila. Pokret odabrane jedince je izvršen. Možete je opet pokrenuti ako imate bodove. Ili možete izvršiti neke druge akcije. Na primjer, napadanje neprijateljske jedince košta jedan bod pokreta. Možete se micati i napadati u istom turnu.</lang>
+		<lang key="hu">...és ez az érték csökkent. A kiválasztott egység mozgatásának költsége levonásra került. Újra mozgathatod őket ha rendelkezel a szükséges pontokkal.
+  Vagy számos más dolgot csinálhatsz. Például egy ellenséges egység megtámadása 1 mozgás pontba kerül. Mozgathatsz és témadhatsz ugyanazon a körön belül.</lang>
+		<lang key="it">... e questo valore è stato decrementato del costo per il movimento dell'unità selezionata. Puoi muoverla ancora se hai abbastanza punti. O puoi fare altri movimenti. Ad esempio attaccare un nemico costa 1 punto movimento. Puoi muovere e attaccare nello stesso turno.</lang>
+		<lang key="pt">... e este valor foi decrementado com o custo de movimento da unidade seleccionada. Tu podes movê-la novamente se ainda tiveres
+  mais pontos. Ou podes fazer outras acções. Por exemplo, atacar uma unidade inimiga custa 1 ponto de movimento. Tu podes mover
+  e atacar no mesmo turno.</lang>
+		<lang key="ru">... и это значение уменьшилось. Было потрачено количество очков передвижения выбранного юнита. Вы можете передвинуть его еще, если у вас остались очки. Или можете сделать несколько других действий. Например, атаковать противника стоит 1 очко. Вы можете ходить и атаковать за один ход.</lang>
+		<lang key="se">... och det här värdet minskades. Den valda förflyttningskostnaden togs. Du kan flytta enheten igen om du har poäng över. Eller så kan du göra flera andra saker. Till exempel kostar det 1 poäng att anfalla en fiendes enhet. Du kan flytta och anfalla i samma vända.</lang>
+	</entry>
+
+	<entry key="BattleUnitSelectedMovPointsContent">
+		<lang key="de">Und hier sind die Bewegungspunkte die du in deiner Runde ausgeben darfst. Wie du sehen kannst, hast du 6 Punkte die dir zur Verfügung stehen. Bitte bewege die selektierte Einheit um mit der Anleitung fortzufahren.</lang>
+		<lang key="en">And here are the movement points you have to spend on your turn. As you can see, you have 6 points to spend. Please move the selected
+  unit to continue the tutorial...</lang>
+		<lang key="es">Y aquí están los puntos de movimiento que tienes para gastar en tu turno. Como puedes ver, tienes los 6 puntos. Ahora mueve la unidad
+  seleccionada para continuar el tutorial...</lang>
+		<lang key="fr">Et voilà les points de mouveents à dépenser à votre tour. Commes vous pouvez le constater, vous avez 6 points. Bougez l'unité sélectionné pour continuer le tutoriel.</lang>
+		<lang key="hr">Ovdje su bodovi pokreta koje možete potrošiti u jednom turnu. Kako možete vidjeti, imate 6 bodova za potrošiti. Molimo pomaknite odabrane jedinice kako biste završili ovaj tutorial...</lang>
+		<lang key="hu">És itt vannak a mozgás pontok amiket el kell költened a körödön belül. Ahogy láthatod, 6 elköltendő pontod van. A tutorial folytatásához
+  mozgasd a kiválasztott egységet.</lang>
+		<lang key="it">E questi sono i punti movimento che puoi spendere nel tuo turno. Come puoi vedere hai 6 punti. Muovi l'unità selezionata per continuare col tutorial...</lang>
+		<lang key="pt">E aqui estão os pontos de movimento que tens para gastar no teu turno. Como podes ver, tens os 6 pontos. Agora move a unidade
+  seleccionada para continuar o tutorial...</lang>
+		<lang key="ru">А здесь находятся очки движения, которые вы должны потратить на свой ход. Как вы видите, вы можете потратить 6 очков. Пожалуйста, двигайте выбранный юнит чтобы продолжить обучение</lang>
+		<lang key="se">Och här hittar du de förflyttningspoäng du har att använda under din vända. Som du kan se så har du 6 poång att spendera. Vänligen flytta en enhet för att fortsätta handledningen...</lang>
+	</entry>
+
+	<entry key="BattleUnitSelectedStrongContent">
+		<lang key="de">Diese Tafel zeigt die Einheiten auf dem Schlachtfeld an, die besonders verwundbar sind um Schaden von der selektierten Einheit zu erhalten. Du solltest die selektierte Einheit nutzen um die gegnerischen Einheiten anzugreifen, die in der List aufgeführt sind.</lang>
+		<lang key="en">This panel shows witch units on the battle field are especially vulnerable taking damage from the selected unit.
+  You should use the selected unit to target the opponent's units that are on this list.</lang>
+		<lang key="es">Este panel muestra las unidades presentes en batalla que son especialmente vulnerábles de llevar daño de la unidad seleccionada.
+  Debes usar la unidad seleccionada para atacar las unidades del adversário que estén en esta lista.</lang>
+		<lang key="fr">Ce panneau indique quelles unités sur le terrain de combatsont particulièrement vulnérables aux dégâts causés par l'unité sélectionné. Vous devriez cibler les unités qui sont faibles à certaines unités que vous possédez.</lang>
+		<lang key="hr">Ovaj panel pokazuje koje jedinice na polju bitke su specijalno ranjive na štetu od odabranih jedinica. Trebali bi upotrijebiti odabranu jedinicu da ciljate protivnikove jedinice koje su na ovoj listi.</lang>
+		<lang key="hu">Ez a panel mutatja melyik egység a csatatéren a legsebezhetőbb a kiválasztott egységtől.
+  Használd a kiválasztott egységet és célozd meg az ellenség azon egységeit amelyek a listán vannak.</lang>
+		<lang key="it">Questo pannello mostra quali unità nel campo di battaglia sono fortemente vulnerabili agli attacchi dell'unità selezionata. 
+Dovresti usare l'unità selezionata per attaccare le unità avversarie che sono in questa lista.</lang>
+		<lang key="pt">Este painel mostra as unidades presentes na batalha que são especialmente vulneráveis a levar dano da unidade seleccionada.
+  Deves usar a unidade seleccionada para atacar as unidades do adversário que estejam nesta lista.</lang>
+		<lang key="ru">Эта панель показывает, какие юниты на поле боя особенно уязвимы перед выбранным юнитом. Вы должны использовать его против таких юнитов.</lang>
+		<lang key="se">Den här panelen visar vilka enheter i fältslaget som är särskilt sårbara för den valda enheten. Du bör styra den valda enheten mot de av din motståndares enheter som finns i den här listan.</lang>
+	</entry>
+
+	<entry key="BattleUnitSelectedWeakContent">
+		<lang key="de">Auf der anderen Seite, kann die gewählte Einheit zu schwach sein gegen einige der gegnerischen Einheiten. Du solltest die gewählte Einheit schützen, gegen die anderen die in der Liste sind.</lang>
+		<lang key="en">On the other hand, the selected unit may have to watch out for certain units. You should protect the selected unit
+  against those on this list.</lang>
+		<lang key="es">Por otro lado, la unidad seleccionada puede ser especialmente débil contra algunas de tu adversário. Conviene que protejas la
+  unidad seleccionada de aquellas que están en esta lista.</lang>
+		<lang key="fr">D'un autre côté, l'unité sélectionnée doit faire attention à certains types d'unités. Vous devriez protéger l'unité sélectionnée contre celles mentionnées sur cette liste.</lang>
+		<lang key="hr">S druge strane, izabrana jedinica treba paziti na određene jedinice. Trebali biste zaštititi izabranu jedinicu od onih na listi.</lang>
+		<lang key="hu">Másrészről, a kiválasztott egységnek lehet hogy figyelemmell kell lennie bizonyos egységekre. Ajánlatos védened a kiválasztott egységet
+  a listán szereplőkkel szemben.</lang>
+		<lang key="it">D'altro canto, l'unità selezionata deve stare attenta ad alcune unità. Dovresti proteggere l'unità selezionata da quelle in questa lista.</lang>
+		<lang key="pt">Por outro lado, a unidade seleccionada pode ser especialmente fraca contra algumas do adversário. Convém protegeres a
+  unidade seleccionada daquelas que estão nesta lista.</lang>
+		<lang key="ru">С другой стороны, выбранный юнит вероятно должен опасаться определенных юнитов. Вы должны защищать выбранный юнит от них.</lang>
+		<lang key="se">Å andra sidan så behöver den valda enheten se upp för vissa enheter. Du borde skydda den valda enheten mot de som finns i listan.</lang>
+	</entry>
+
+	<entry key="BattleUnitSplitContent">
+		<lang key="de">Wenn du die Einheiten bewegst, kannst du deren Anzahl ändern, und die Gruppe aufteilen. Beachte dass wenn du eine Gruppe aufteilst, es dich das doppelte kostet, wie eine Einheit zu bewegen.</lang>
+		<lang key="en">When you move units you can change the quantity to move, and split the group. Note that splitting a group will cost twice as
+  much as moving it.</lang>
+		<lang key="es">Cuando mueves una unidad puedes alterar la cantidad a mover, y dividir el grupo. Nota que separar un grupo en dos cuesta
+  el doble de los puntos de movimiento de mover la unidad.</lang>
+		<lang key="fr">Quand vous bougez des unités, vous pouvez aussi modifé la quantité à bouger et les séparer en 2 groupes. Cela coûte néanmoins le double des points de mouvement habituel.</lang>
+		<lang key="hr">Kada pomičete jedinice možete promijenit količinu koja se pomiče, i razdvojiti grupu. Primjetite kako razdvajanje grupe košta duplo više nego pomicanje grupe.</lang>
+		<lang key="hu">Amikor egységeket mozgatsz, akkor lehetőséged van a mennyiséget változtatni, és megosztani a csoportot. Egy csoport megosztása  
+  kétszer annyiba kerül mint a mozgatása.</lang>
+		<lang key="it">Quando muovi le unità puoi cambiare la quantità da muovere e dividere il gruppo. Nota che dividere un gruppo costerà il doppio di quanto costa muoverlo.</lang>
+		<lang key="pt">Quando moves uma unidade podes alterar a quantidade a mover, a dividir o grupo. Nota que separar um grupo em dois custa
+  o dobro dos pontos de movimento de mover a unidade.</lang>
+		<lang key="ru">Когда вы двигаете юниты, вы можете изменить количество, которое хотите передвинуть и тем самым разделить юнит на группы. Учтите, что разделение на группы в два раз дороже стоимости передвижения выбранного юнита.</lang>
+		<lang key="se">När du flyttar enheter kan du ändra antalet förflyttningar och att dela gruppen. Tänk på att det kostar dubbelt så mycket att dela en grupp som att förflytta den.</lang>
+	</entry>
+
+	<entry key="BuildFacilityActionContent">
+		<lang key="de">Nun lass uns ein Gebäude bauen. Klicke auf den "Bauen" Knopf um zu starten.</lang>
+		<lang key="en">Now lets build a facility. Click on the 'Build' button to get started.</lang>
+		<lang key="es">Ahora vamos a construir un edifício. Haz Click en el botón 'Construir' para comenzar.</lang>
+		<lang key="fr">Maintenant, construison un bâtiment. Cliquez sur "construire" pour commencer.</lang>
+		<lang key="hr">Idemo sada izgraditi postrojenje. Kliknite na "gradi" da počnemo.</lang>
+		<lang key="hu">Most peedig építsünk egy létesítményt. Kattints az 'Építés' gomra a kezdéshez.</lang>
+		<lang key="it">Ora costruiamo un edificio. Clicca sul bottone 'Costruisci' per iniziare.</lang>
+		<lang key="pt">Agora vamos construir um edifício. Clicka no botão de 'Construir' para o começar.</lang>
+		<lang key="ru">Теперь давайте построим сооружение. Для начала, нажмите на кнопку "Строить"</lang>
+		<lang key="se">Nu bygger vi oss en facilitet. Klicka på knappen "Bygg" för att sätta igång.</lang>
+	</entry>
+
+	<entry key="BuildFacilityContent">
+		<lang key="de">Dies ist eine Konstruktionszone, wo du ein Gebäude bauen kannst. Du hast mehrere leere Felder auf denen du bauen kannst. Klicke auf diesem Feld um ein Gebäude zu bauen...</lang>
+		<lang key="en">This is a build spot, where you can build a facility. You have several empty spots to build on. Click on this build
+  spot to build a facility...</lang>
+		<lang key="es">Esta es una zona de construcción, donde puedes construir un edifício. Tienes várias zonas de construcción Disponibles para
+  construir. Haz Click en esta zona para construir un edifício...</lang>
+		<lang key="fr">Voilà un endroit pour construire un bâtiment. Vous avez plusieurs endroits vide pour construire. Cliquez sur ces cases pour y construire quelque chose...</lang>
+		<lang key="hr">Ovo je mjesto gradnje, gdje možete graditi postrojenja. Imate nekoliko praznih mjesta na kojima možete graditi. Kliknite na ovo mjesto gradnje da izgradite postrojenje.</lang>
+		<lang key="hu">Ez egy építési pont ahová létesítményt építhetsz. számos óres pont van ahová építhetsz. Kattints erre az építési pontra
+  létesítmény felépítéséhez.</lang>
+		<lang key="it">Questa è una zona di costruzione, dove puoi costruire un edificio. Hai diverse zone vuote dove costruire. Clicca su questa zona di costruzione per costruire un edificio..</lang>
+		<lang key="pt">Esta é uma zona de construção, onde podes construir um edifício. Tens várias zonas de construção disponíveis para
+  construir. Clicka nesta zona para construir um edifício...</lang>
+		<lang key="ru">Это строительная площадка, где вы можете построить сооружение. У вас есть несколько пустых площадок под строительство. Нажмите на на эту площадку чтобы построить сооружение...</lang>
+		<lang key="se">Det här är en byggplats där du kan bygga en facilitet. Du har flera tomma platser att bygga på. Klicka på den här byggplatsen för att bygga en facilitet.</lang>
+	</entry>
+
+	<entry key="BuildFacilityScreenContent">
+		<lang key="de">...wie du sehen kannst, nachdem du einen Baubereich (oder ein bereits konstruiertes Gebäude) anklickst , gelangst du zu der Konstruktions/Evolutions Seite. Auf dieser Seite kannst du auswählen was du in diesem Bereich bauen möchtest.</lang>
+		<lang key="en">... as you can see, after clicking a build spot (or an already build facility) you come to the build/upgrade
+  page. On this page you'll be able to select the facility to build on that spot.</lang>
+		<lang key="es">... como puedes ver, después del click en la zona de construcción (o en un edificio ya Construido), vienes para la página de
+  de construcción/evolución. En esta página puedes escojer que construir en aquella zona.</lang>
+		<lang key="fr">...Comme vous pouvez voir, après avoir cliqué sur un endroit vide pour construire, (ou un endroit ou quelque chose est déjà construit) vous arrivez à la page de construction/amélioration. C'est sur cette page que vous pouvez choisir qu'elle bâtiment vous désirez construire.</lang>
+		<lang key="hr">...kako možete vidjeti, nakon što kliknete na mjeto gradnje (ili na već izgrađeno postrojenje) otvori se gradi/unaprijedi stranica. Na ovoj stranici možete odabrati postrojenje za graditi na tom mjetu.</lang>
+		<lang key="hu">...ahogy láthatod, miután rákattintasz az építésre (vagy már egy kész létesítményre) az építés/fejlesztés oldalra jutsz.
+  Ezen az oldalon kiválaszthatod azt a létesítményt amit az adott pontra szeretnél építeni.</lang>
+		<lang key="it">..come puoi vedere, dopo aver cliccato una zona di costruzione (o un edificio già costruito) arrivi alla pagina di costruzione/aggiornamento. In questa pagina puoi selezionare l'edificio da costruire nella zona.</lang>
+		<lang key="pt">... como podes ver, depois do click na zona de construção (ou num edifício já construído), vens para a página de
+  de construção/evolução. Nesta página podes escolher o que construir naquela zona.</lang>
+		<lang key="ru">... как видите, после нажатия на строительную площадку (или на уже построенное сооружение) вы попадаете на страницу постройки/улучшения. На этой странице вы можете выбрать сооружение, которое хотитие построить на месте этой площадки.</lang>
+		<lang key="se">... som du kan se kommer du till bygg/uppgradera-sidan efter att ha klickat på en byggplats. På den här sidan kan du välja vilken facilitet du ska bygga på den valda byggplatsen.</lang>
+	</entry>
+
+	<entry key="HomePlanetContent">
+		<lang key="de">Dies ist einer von denen: dein Heimatplanet. Dieser wurde bereits von dir besiedelt. Du hast Zugriff auf diesen Planeten, und kannst es später managen, in dem du es anklickt und "Siehe Planet" selektierst, oder in dem du "Planeten" im Master Menu anwählst.</lang>
+		<lang key="en">This is one of them: your Home Planet. This one is already colonized by you. You can access it and manage it
+  later by clicking on it and selecting 'View Planet', or by selecting 'Planets' no the master menu.</lang>
+		<lang key="es">Este es uno  de ellos: tu Planeta Madre. El cual ya se encuentra colonizado por ti. Puedes accederlo y administrarlo más tarde
+  haciendo click en el y seleccionando 'Ver Planeta', o seleccionando 'Planetas' en el menu de arriba.</lang>
+		<lang key="fr">En voici une: votre planète mère. Cette dernière a déjà été colonisé par vous. Vous pouvez y avoir accès plus tard en cliquant dessus pour choisir "Voir Planète" ou choissisant "Planètes" dans le menu principal.</lang>
+		<lang key="hr">Ovo je jedan od njih: vaš Početni Planet. Ovaj je već koloniziran za vas. Možete mu pristupiti i upravljati s njim kasnije kliknanjem i odabiranjem "Pogledaj Planet", ili izabiranje "Planeti" u glavnom izborniku.</lang>
+		<lang key="hu">Ez az egyik közülük: az anyabolygód. Ezt már kolonizáltad. Hozzáférhetsz és a későbbiekben változtathatod rákattintva 
+  a 'Bolygó megtekintése'-re vagy a főmenüben a 'Bolygók'-at kiválasztva.</lang>
+		<lang key="it">Questo è uno di quelli: il tuo pianeta natale. Questo è già colonizzato da te. Puoi accederci e gestirlo dopo cliccandoci sopra e selezionando 'Vedi Pianeta', o selezionando 'Pianeti' nel menu di sopra.</lang>
+		<lang key="pt">Este é um deles: o teu Planeta Mãe. Este já se encontra colonizado por ti. Podes aceder-lhe e geri-lo mais tarde
+  clickando nele e seleccionando 'Ver Planeta', ou seleccionando 'Planetas' no menu de topo.</lang>
+		<lang key="ru">Вот одна из них: ваша Родная Планета. Она уже колонизирована вами. Вы сможете получить доступ и упралять ею, кликнув на ней и выбрав "Смотреть планету", или выбрав "Планеты" в главном меню.</lang>
+		<lang key="se">Det här är en av dem: din Hemplanet. Den här är redan kolonialiserad av dig. Du kan hantera den senare genom att klicka på den och välja "Visa Planet", eller genom att välja "Planeter" i toppmenyn.</lang>
+	</entry>
+
+	<entry key="HomeTutorial">
+		<lang key="de">Anleitung zu deiner Hauptseite</lang>
+		<lang key="en">Your Home Page Tutorial</lang>
+		<lang key="es">Tutorial de tu Página Principal</lang>
+		<lang key="fr">Votre page principal de Tutoriel</lang>
+		<lang key="hr">Vaša Početna Strana Tutorial</lang>
+		<lang key="hu">Saját Főoldal Tutorial</lang>
+		<lang key="it">Tutorial sulla tua Pagina Principale</lang>
+		<lang key="pt">Tutorial da tua Página Principal</lang>
+		<lang key="ro">Tutorialul paginei acasă</lang>
+		<lang key="ru">Обучение по Домашней Странице</lang>
+		<lang key="se">Handledning för Din Hemsida</lang>
+	</entry>
+
+	<entry key="HomeTutorialContent">
+		<lang key="de">Auf der Hauptseite erhälst du Nachrichten jeder Art über dein Imperium. In diesem Bereich erhälst du Nachrichten über das Imperium und Spieler Interaktionen.</lang>
+		<lang key="en">The Home Page is where you are notified of everything on your empire. On this zone you'll get
+  your empire messages and player interactions.</lang>
+		<lang key="es">Tu Página Principal es donde eres notificado de todo lo que sucede en tu império. En esta zona tienes tus
+  mensajes e interacciones con otros jugadores.</lang>
+		<lang key="fr">C'est sur la page principale que voue êtes mis au courant de tout ce qui se passe dans votre empire. C'est donc sur cette zone que vous serez mis au courant des interactions entre joueurs et messages de votre empire.</lang>
+		<lang key="hr">Početna strana je mjesto gdje ste obavješteni o svemu u vašem carstvu. U ovoj zoni dobit ćete poruke o vašem carstvu i interakcijama s igračima.</lang>
+		<lang key="hu">A Főoldal az ahol a birodalmaddal kapcsolatos összes hírről értesülsz. Ebben a zónában kapod meg a 
+  birodalmi üzeneteket és a játékos interakciókat.</lang>
+		<lang key="it">La Pagina Principale è dove vieni notificato di tutto ciò che succede nel tuo impero. In questa zona riceverai i messaggi dall'impero e le interazioni con gli altri giocatori.</lang>
+		<lang key="pt">A tua Página Principal é onde és notificado de tudo o que se passa no teu império. Nesta zona tens as tuas
+  mensagens e interacções com outros jogadores.</lang>
+		<lang key="ru">Домашняя Страница - это место где вы получаете сообщения обо всех событиях в вашей империи. Здесь отображаются сообщения и взаимодействие с игроками.</lang>
+		<lang key="se">Hemsidan är där du meddelas om allt som rör ditt imperium. I den här zonen får du meddelanden från imperiet och andra spelare.</lang>
+	</entry>
+
+	<entry key="HomeTutorialContent2">
+		<lang key="de">Hier hast du eine Vorschau von dem was im Auktionshaus gehandelt wird.</lang>
+		<lang key="en">Here you'll have a preview of what's being traded on the Auction House.</lang>
+		<lang key="es">En esta zona tienes una muestra de lo que se encuentra siendo comercializado en la Casa de Remates.</lang>
+		<lang key="fr">Ici vous aurez une aperçu de ce qui est échangé aux enchères.</lang>
+		<lang key="hr">Ovdje imate pregled onoga što se trguje u Aukcijskoj Kući.</lang>
+		<lang key="hu">Itt megtekintheted hogy mik cserélnek gazdát az Aukciós Házban.</lang>
+		<lang key="it">Qua hai un'anteprima di ciò che c'è in vendita nella Casa d'Aste.</lang>
+		<lang key="pt">Nesta zona tens uma amostra do que se encontra a ser comercializado na Casa de Leilões.</lang>
+		<lang key="ro">Aici veţi avea o previzualizare a ceea ce este tranzacţionat la casa de licitaţie.</lang>
+		<lang key="ru">Здесь в можете видеть, чем торгуют на Аукционе.</lang>
+		<lang key="se">Här har du en förhandsvisning av som handlas i Auktionshuset.</lang>
+	</entry>
+
+	<entry key="HomeTutorialContentCharts">
+		<lang key="de">Hier sind einige Tabellen die deine Entwicklung im Spiel aufzeigen. Die Tabellen werden von Zeit zu Zeit aktuallisiert.</lang>
+		<lang key="en">Here you'll have some charts that represent your evolution on the game. The charts are updated
+  from time to time.</lang>
+		<lang key="es">Aquí se encuentran gráficos que demuestran tu evolución en el juego. Estos gráficos son actualizados
+  periodicamente.</lang>
+		<lang key="fr">Ici vous aurez des chartes représentant l'évolution du jeu. Ces chartes seront mise à jours de temps en temps.</lang>
+		<lang key="hr">Ovdje imate neke dijagrame koji pokazuju vaš napredak kroz igru. Oni su updateani s vremena na vrijeme.</lang>
+		<lang key="hu">Itt találsz néhány diagrammot amelyek a fejlődésedet mutatják. A diagrammok időről időre frissülnek.</lang>
+		<lang key="it">Qua hai alcuni grafici rappresentanti la tua evoluzione nel gioco. I grafici sono aggiornati periodicamente.</lang>
+		<lang key="pt">Aqui encontram-se gráficos que demonstram a tua evolução no jogo. Estes gráficos são actualizados
+  periodicamente.</lang>
+		<lang key="ru">Здесь у вас есть несколько графиков, которые отображают вашу эволющию в игре. Время от времени они обновляются.</lang>
+		<lang key="se">Här kommer du att ha se en del diagram som representerar din utveckling i spelet. Diagrammen uppdateras då och då.</lang>
+	</entry>
+
+	<entry key="IncomeContent">
+		<lang key="de">Dies sind die Einkünfte des aktuellen Planeten. Wie du sehen kannst, hast du bereits einige Einkünfte die dir vom Hauptgebäude zur Verfügung stehen.. Nun musst du weitere Gebäude bauen, um deine Einkünfte zu erhöhen.</lang>
+		<lang key="en">This is the income of the current planet. As you can see, you already have some income that is given by your main facility.
+  Now you need to build extra facilities to increase this income.</lang>
+		<lang key="es">Esta es la producción del planeta actual. Como puedes ver, ya tienes alguna producción que es dada por tu edifício madre.
+  Ahora necesitas construir otros edificios para aumentar esta producción.</lang>
+		<lang key="fr">Voilà les revenus que vous apporte votre planète actuelle. Comme vous pouvez voir, il y a déjà un petit revenu généré par votre bêtiment principal. Vous devez construire des bâtiments supplémentaires pour augmenter votre revenu.</lang>
+		<lang key="hr">Ovo je prihod odabranog planeta. Kako možete vidjeti, već imate nešto prihoda kojega zarađuje glavno postrojenje. Sada trebate graditi dodatna postrojenja da povećate prihode.</lang>
+		<lang key="hu">Az a jelenleg bolygódról származó bevétel. Ahogy láthatod, már van valamennyi bevételed amelyet a fő létesítményed adott.
+  Most további létesítményeket kell építened hogy nőveld bevételeidet.</lang>
+		<lang key="it">Questa è la produzione del pianeta corrente. Come puoi vedere hai già un po' di produzione dovuta al tuo edificio principale. Ora devi costruire altri edifici per incrementare la produzione.</lang>
+		<lang key="pt">Esta é a produção do planeta actual. Como podes ver, já tens alguma produção que é dada pelo teu edifício mãe.
+  Agora precisas de construir outros edifícios para aumentar esta produção.</lang>
+		<lang key="ru">Здесь отображается доход от текущей планеты. Как видите, у вас уже есть некоторый доход, полученный от вашего главного сооружения. Теперь вам надо построить дополнительные сооружения, чтобы увеличить доход.</lang>
+		<lang key="se">Det här är inkomsten för den här planeten. Som du kan se så har du redan en liten inkomst som kommer från din huvud-facilitet. Nu behöver du bygga ytterligare faciliteter för att öka inkomsten.</lang>
+	</entry>
+
+	<entry key="LHBuildingInConstructionContent">
+		<lang key="de">Und nun wird dieses Gebäude gebaut. Es wird in ein paar Minuten fertig sein.</lang>
+		<lang key="en">And now you have that facility being built. It will be finished in a couple of minutes.</lang>
+		<lang key="es">Y ahora tienes aquel edífício  siendo Construido. Estará completo dentro de minutos.</lang>
+		<lang key="fr">Le bâtiment choisi est maintenant en train de se construire. Il sera fini dans quelques minutes.</lang>
+		<lang key="hr">I sada se to postrojenje gradi. Biti će zavšeno za par minuta.</lang>
+		<lang key="hu">És most a létesítmény épül. Néhány percen belül készen lesz.</lang>
+		<lang key="it">Ora hai l'edificio in costruzione. Sarà finito in qualche minuto.</lang>
+		<lang key="pt">E agora tens aquele edífício a ser construído. Estará completo dentro de minutos.</lang>
+		<lang key="ru">И теперь у вас есть строящееся сооружение. Оно будет завершено через пару минут.</lang>
+		<lang key="se">Och nu har faciliteten börjat byggas. Den kommer att vara klar inom ett par minuter.</lang>
+	</entry>
+
+	<entry key="LHGoToFleetsContent">
+		<lang key="de">Nun weisst du schon wie man Gebäude auf deinem Planeten baut (oder upgraden, was genauso gemacht wird). Als nächstes werden wir anschauen wie man die Kriegsflotten verwaltet. Bitte klicke auf den Link "Flotten".</lang>
+		<lang key="en">You are now able to build (or upgrade, is the same) facilities on your planets. Now lets see
+  how you can manage Fleets. Please click on the 'Fleets' menu item.</lang>
+		<lang key="es">Ahora ya sabes como construir (y evolucionr, que es echo de la misma forma) edificios en tus planetas.
+  Enseguida vamos a ver como puedes administrar Flotas. Por favor haz click en el link 'Flotas'.</lang>
+		<lang key="fr">Vous êtes maintenant capable de construire ( ou améliorer, c'est la même chose)  les constructions sur vos planètes. Maintenant, voyons voir comment vous pouvez organiser vos escadrilles. Cliquez sur le menu "escadrilles".</lang>
+		<lang key="hr">Sada možete graditi (ili unaprijediti, isto je) postrojenja na svojim planetama. Pogledajmo sada kako možete upravljati flotama. Molimo kliknite na "Flote" u izborniku.</lang>
+		<lang key="hu">Most már tudsz építeni (vagy fejleszteni, ugyanaz) létesítményeket a bolygódon. Most pedig lássuk
+  hogyan tudod kezelni a flottákat. Kattints a 'Flották'-ra a menüben.</lang>
+		<lang key="it">Ora sai come costruire (o aggiornare) gli edifici dei tuoi pianeti. Vediamo ora come puoi gestire le tue flotte. Clicca su 'Flotte' nel menu.</lang>
+		<lang key="pt">Agora já sabes como construir (e evoluir, que é feito da mesma forma) edifícios nos teus planetas.
+  De seguida vamos ver como podes gerir Armadas. Por favor clicka no link 'Armadas'.</lang>
+		<lang key="ru">Теперь вы можете строить (или улучшать, что суть одно) сооружения на ваших планетах. А сейчас давайте посомтрим, как вы можете управлять Флотами. Пожалуйста, выберите пункт меню "Флоты".</lang>
+		<lang key="se">Du kan nu bygga (eller uppgradera, vilket är samma sak) faciliteter på dina planeter. Nu ska vi se hur du kan hantera Flottor. Vänligen klicka på menyvalet 'Flottor'.</lang>
+	</entry>
+
+	<entry key="MainFacilityContent">
+		<lang key="de">Dies ist dein Hauptgebäude, das technologische Herz deines Imperiums. Alle Gebäude und Kampfeinheiten hängen direkt oder indirekt von dem Level deines Hauptgebäudes ab.</lang>
+		<lang key="en">This is your main facility, the technological heart of your empire. All facilities and combat units depend directly or
+  indirectly on your main facility's level.</lang>
+		<lang key="es">Este es tu edificio madre, el centro de busquedas de tu império. Todos los edificios y unidades de combate dependen
+  directa o indirectamente del nivel de tu edificio madre.</lang>
+		<lang key="fr">Voici votre bâtiment principal: le coeur technologique de votre empire. Tout les bâtimentset unités de combat que vous pouvez construire dépendent directement ou indirectement du niveau de votre bâtiment principal.</lang>
+		<lang key="hr">Ovo je vaše glavno postrojenje, tehnološko srce vašega carstva. Sva postrojenja i borbene jedinice direktno ovise o nivou glavnog postrojenja.</lang>
+		<lang key="hu">Ez a fő létesítményed, a birodalmad technikai szive. Minden létesítmény és harci egység közvetlenül vagy közvetve függ
+  a fő létesítményed szintjétől.</lang>
+		<lang key="it">Questo è il tuo edificio principale, il cuore tecnologico del tuo impero. Tutti gli edifici e le unità da combattimento dipendono direttamente o indirettamente dal livello del tuo edificio principale.</lang>
+		<lang key="pt">Este é o teu edifício mãe, o centro de pesquisa do teu império. Todos os edifícios e unidades de combate dependem
+  directa ou indirectamente do nível do teu edifício mãe.</lang>
+		<lang key="ru">Это ваше шлавное сооружение, технологическое сердце вашей империи. Все ваши сооружения и боевые единицы прямо или косвенно зависят от его уровня.</lang>
+		<lang key="se">Det här är din huvud-facilitet; Det teknologiska hjärtat i ditt imperium. Alla faciliteter och stridsenheter beror direkt eller indirekt på din huvud-facilitets nivå.</lang>
+	</entry>
+
+	<entry key="MoveFleetContent">
+		<lang key="">Számos forrás van elveszve az Univerzumban. Rájuk mehetsz és berakhatod a flottád rakterébe.
+  A flottát mozgatásához kattints rá, hogy kiválaszd. Ezután kattints az univerzum egyik pontjára hogy arra helyre mozgasd.</lang>
+		<lang key="de">Es gibt viele verlorene Ressourcen im Universum. Du kannst deine Flotte zu der Position dieser Ressourcen bewegen und sie zu deiner Fracht hinzufügen. Damit du deine Flotte bewegen kannst, muss du sie anklicken, sie ist nun angewählt. Dann klicke eine andere Position im Universum an, und die Flotte wird sich dorthin bewegen.</lang>
+		<lang key="en">You may have several resources lost on the universe. You may move onto them to put them on your fleet's cargo.
+  To move your fleet, click on it to select it. The click somewhere else on the universe to move it to that location.</lang>
+		<lang key="es">Existen muchos recursos perdidos por el universo. Puedes mover tu flota para esas posiciones, para cargar tu flota con esos recursos. Para mover tu flota,
+  haz click sobre ella para seleccionarla enseguida click en otra posición en el universo y ella comenzará a moverse hacia allá.</lang>
+		<lang key="fr">Des ressources ont été mystérieusement éparpillées à travers l'univers... Il est possible que votre escadrille les trouve et les stocke dans sa cargaison. Pour bouger votre escadrille, cliquez dessus pour la sélectionner. Cliquez ensuite ailleurs pour qu'elle se dirige vers cet endroit.</lang>
+		<lang key="hr">Možete imati nekoliko resursa izgubljenih u svemiru. Trebate krenuti prema njima da ih stavite u skladište svoje flote. Kako biste micali svoje flote, kliknite na nju da je odaberete. Tada kliknite negdje drugdje u svemiru kako biste je pomakli prema toj lokaciji.</lang>
+		<lang key="hu">Számos forrás van elveszve az Univerzumban. Rájuk mehetsz és berakhatod a flottád rakterébe.
+  A flottát mozgatásához kattints rá, hogy kiválaszd. Ezután kattints az univerzum egyik pontjára hogy arra helyre mozgasd.</lang>
+		<lang key="it">Puoi avere diverse risorse sparse nell'universo. Puoi muoverti sopra di esse per caricarle nella stiva della tua flotta. Per muovere la tua flotta, cliccaci sopra per selezionarla, ora premi da qualche altra parte nell'universo per muoverla in quella posizione.</lang>
+		<lang key="pt">Há muitos recursos perdidos pelo universo. Tu podes mover a tua armada para a posição deles para que eles passem para a
+  carga dela. Para mover a armada, clicka em cima dela para a seleccionar. De seguida click noutra posição no universo, e
+  ela começará a mover-se para lá.</lang>
+		<lang key="ru">Вы можете найти немного ресурсов, потерянных во вселенной. Вы можете подлететь к ним и поместить в грузовые отсеки вашего флота. Чтобы двигать флот, выберите его, кликнув на нем. Затем кликните в любое место во вселенной чтобы двигаться туда.</lang>
+		<lang key="se">Det finns flera resurser förlorade i Universum. Du kan lägga dem till din flottas last genom att flytta flottan ovanpå resurserna. För att flytta resurserna klickar du på flottan för att välja den. Sedan klickar du någonstans i Universum för att flytta flottan till en ny plats.</lang>
+	</entry>
+
+	<entry key="MoveUnitsFromFleetsContent">
+		<lang key="de">Wenn du mehr als zwei Flotten auf dieser Seite hast, wirst du in der Lage sein, Kampfeinheiten einer Flotte zur anderen Flotten zu bewegen. Um das zu tun, klicke einfach auf eine Einheit, und ziehe sie zu einer anderen Flotte. Nachdem du alle Flotten bewegt hast, vergiss nicht deine Änderungen zu speichern.</lang>
+		<lang key="en">When you have more that two fleets on this page, you'll be able to move combat units from one fleet
+  to another. To do that, simply click on a unit and drag it to another fleet. After moving
+  all the units you want, don't forget to save your changes.</lang>
+		<lang key="es">Cuando tienes mas de una flota en esta página, será posíble mover unidades de combate de una flota
+  a otra. Para esto, haz click en la unidad  y arrastala hacia otra fleet. Después de mover
+  todas las unidades, no te olvides de guardar las alteraciones.</lang>
+		<lang key="fr">Quand vous avez plus de 2 escadrilles sur cette page, vous serez capable de déplacer vos unités de combat d'une escadrille à une autre. Après avoir effectué les changements, il ne faut pas oublier de sauver.</lang>
+		<lang key="hr">Kada imate više od dvije flote na ovoj stranici, moći ćete micati borbene jedinice iz jedne flote u drugu. Kako biste to napravili, jednostavno kliknite na jedinicu i povučite je u drugu flotu. Nakon što pomaknete sve jedince koje želite, ne zaboravite snimiti svoje promjene.</lang>
+		<lang key="hu">Amikor kettőnél több flottád lesz ezen az oldalon akkor lehetőséged nyílik a harci egységeket mozgatni
+  egyik flottából a másikba. Ehhez kattints egy egységre ás húzd át a másik flotába. Miután
+  minden mozgatást elvégeztél ne felejtsd el menteni a változásokat.</lang>
+		<lang key="it">Quando hai più di due flotte in questa pagina, potrai muovere unità da combattimento da una all'altra. Per farlo, semplicemente trascina una unità da una flotta all'altra. Dopo aver spostato le unità ricordati di salvare i cambiamenti.</lang>
+		<lang key="pt">Quando tens mais que uma armada nesta página, será possível mover unidades de combate de uma armada
+  para outra. Para o fazer, clicka na unidade pretendida e arrasta-a para a outra fleet. Depois de mover
+  todas as unidades, não te esqueças de guardar as alterações.</lang>
+		<lang key="ru">Когда у вас есть более двух флотов, показанных на этой странице, вы можете перемещать боевые единицы из одного флота в другой. Чтобы сделать это, просто нажмите на юнит и перетащите его в другой флот. После перемещения всех юнитов, не забудьте сохранить изменения.</lang>
+		<lang key="se">När du har fler än två flottor på den här sidan så kommer du att kunna flytta stridsenheter från en flotta till en annan. för att göra det klickar du på en enhet och drar den till den andra flottan. Glöm inte att spara dina ändringar efter att ha flyttat dina enheter.</lang>
+	</entry>
+
+	<entry key="Next">
+		<lang key="de">Nächste »</lang>
+		<lang key="en">Next »</lang>
+		<lang key="es">Próximo</lang>
+		<lang key="fr">Suivant »</lang>
+		<lang key="hr">Sljedeći »</lang>
+		<lang key="hu">Következő »</lang>
+		<lang key="it">Successivo »</lang>
+		<lang key="pt">Próxima »</lang>
+		<lang key="ro">Următorul »</lang>
+		<lang key="ru">Далее »</lang>
+		<lang key="se">Nästa</lang>
+	</entry>
+
+	<entry key="NoTutorial">
+		<lang key="de">Immer noch keine Anleitung</lang>
+		<lang key="en">No Tutorial Yet</lang>
+		<lang key="es">Aún sin Tutorial</lang>
+		<lang key="fr">Pas de tutoriel pour le moment</lang>
+		<lang key="hr">Nema još Tutoriala</lang>
+		<lang key="hu">Még nincs Tutorial</lang>
+		<lang key="it">Ancora senza Tutorial</lang>
+		<lang key="pt">Ainda sem Tutorial</lang>
+		<lang key="ro">Nici un tutorial disponibil</lang>
+		<lang key="ru">Обучение еще не доступно</lang>
+		<lang key="se">Ingen Handledning ännu.</lang>
+	</entry>
+
+	<entry key="NoTutorialContent">
+		<lang key="de">Wir haben noch keine Anleitung für diese Seite momentan. Wenn Sie mögen, können Sie uns kontaktieren und Ihre Schwierigkeiten und Ideen mit uns teilen, und uns dabei helfen eine Anleitung für die Seite zu schreiben.</lang>
+		<lang key="en">We haven't done a tutorial for this page yet. If you like, you may contact us and share
+  your dificulties and ideas, that will help us making this page's tutorial.</lang>
+		<lang key="es">Todavía no hicimos el tutorial de esta página. Se quieres, puedes contactarnos y compartir
+  tus dificultades e ideas. De esta manera será mas fácil para nosotros hacer este tutorial.</lang>
+		<lang key="fr">Il n'y as pas de tutoriel pour cette page encore. Si vous voulez, contactez nous pour nous faire part de vos difficultés et idées, cela nous aidera à créer le tutoriel de cette page.</lang>
+		<lang key="hr">Nismo još napravili tutorial za ovu stranicu. Ako želite, možete nas kontaktirat i podijeliti vaše teškoće i ideje, koji će nam pomoći da napravimo tutorial za ovu stranicu.</lang>
+		<lang key="hu">Ehhez az oldalhoz még nem csináltunk Tutorialt. Ha szeretnéd, kapcsolatba léphetsz velünk
+  és megoszhatod nehézségeidet és ötleteidet, melyek segítenek nekünk elkészíteni a Tutorialt az oldalhoz.</lang>
+		<lang key="it">Non abbiamo ancora fatto un tutorial per questa pagina. Se vuoi, puoi contattarci e condividere le tue difficoltà e idee che ci aiuteranno a fare un tutorial per questa pagina.</lang>
+		<lang key="pt">Ainda não fizemos o tutorial desta página. Se quiseres, podes contactar-nos e partilhar
+  as tuas dificuldades e ideias. Assim será mais fácil para nós fazer este tutorial.</lang>
+		<lang key="ro">Nu am facut un tutorial pentru această pagină, încă. Dacă doriţi, puteţi să ne contactaţi şi să vă împărtăşiţi dificultăţile şi ideile, care ne vor ajuta să realizăm tutorialul acestei pagini.</lang>
+		<lang key="ru">Мы еще не завершили создание обучения для этой страницы. Если желаете, вы можете связаться с нами и поделиться своими сложностями и идеями, это поможет нам завершить сраницу обучения.</lang>
+		<lang key="se">Vi har inte gjort en handledning för den här sidan än. Om du vill kan du kontakta oss och dela med dig av dina svårigheter och idéer. Detta hjälper oss när vi ska skapa den här sidans handledning.</lang>
+	</entry>
+
+	<entry key="OnFleetsScreenContent">
+		<lang key="de">Hier kannst du Flotten erzeugen und managen. Du hast die Verteidigungsflotte des Planeten, die nur für Lagerung und Verteidigung ist. Du wirst auf dieser Seite, auch in der Lage sein andere Flotten im Orbit dieses Planeten zu sehen.</lang>
+		<lang key="en">This is where you can create and manage fleets. You have the planet's defense fleet that's used
+  for storage and for defense only. You'll also be able to see on this page other fleets in orbit
+  of this planet.</lang>
+		<lang key="es">Es en esta página que pudes crear y administrar tus flota. Tienes la armada de defensa del planeta, que
+  es solamente usada como repositorio  y para defensa. También vas a ver en esta página otras flotas
+  que tengas en órbita de este planeta.</lang>
+		<lang key="fr">C'est ici que vous pouvez créer et organiser vos escadrilles. L'escadrille de défense de la planète sert seulement à ce défendrer et stocker de la cargaison. Vous serez aussi capable de voir d'autres escadrilles en orbite autour de cette planète.</lang>
+		<lang key="hr">Ovdje možete graditi flote i upravljati njima. Imate obrambenu flotu planeta koja se samo rabi za skladište i obranu. Također na ovoj stranici možete vidjeti druge flote u orbiti ovoga planeta.</lang>
+		<lang key="hu">Itt tudsz létrehozni és beállításokat eszközölni a flottán. A bolygó védelmére rendelkezel egy flottával
+  amely csak tárolásra és védelemre szolgál. Emellett ezen az oldalon láthatod azokat a flottákat amik
+  orbitális pályán keringenek a bolygó körül.</lang>
+		<lang key="it">Qui è dove puoi creare e gestire le flotte. Hai le difese planetarie che sono usate esclusivamente per difesa e immagazzinamento. In questa pagina potrai anche vedere le altre flotte nell'orbita di questo pianeta.</lang>
+		<lang key="pt">É nesta página que podes criar e gerir as tuas armadas. Tens a armada de defesa do planeta, que
+  é somente usada como repositório e para defesa. Também vais ver nesta página outras armadas
+  que tenhas em órbita deste planeta.</lang>
+		<lang key="ru">Вот здесь вы мы можете создавать и управлять флотами. У вас есть охранный флот планеты, который используется  только для защиты. На этой странице вы также сможете увидеть другие флоты, находящиеся на орбите планеты.</lang>
+		<lang key="se">Det är här som du kan skapa och hantera flottor. Du kan välja planetens försvarsflotta som endast används för lager och försvar. På den här sidan kommer du också att kunna se andra flottor som ligger i den här planetens omloppsbana.</lang>
+	</entry>
+
+	<entry key="PageTutorial">
+		<lang key="de">Seite Anleitung</lang>
+		<lang key="en">Page Tutorial</lang>
+		<lang key="es">Página Paso a Paso</lang>
+		<lang key="fr">Page de Tutoriel</lang>
+		<lang key="hr">Stranica Tutorial</lang>
+		<lang key="hu">Oldal Tutorial</lang>
+		<lang key="it">Pagina dei Tutorial</lang>
+		<lang key="pt">Página Passo a Passo</lang>
+		<lang key="ro">Pagina Tutorialului</lang>
+		<lang key="ru">Страница Обучения</lang>
+		<lang key="se">Denna Sidas Handledning</lang>
+	</entry>
+
+	<entry key="PlanetsTutorial">
+		<lang key="de">Planeten Anleitung</lang>
+		<lang key="en">Planets Tutorial</lang>
+		<lang key="es">Tutorial de Planetas</lang>
+		<lang key="fr">Tutoriel des Planètes</lang>
+		<lang key="hr">Planeti Tutorial</lang>
+		<lang key="hu">Bolygók Tutorial</lang>
+		<lang key="it">Tutorial sui Pianeti</lang>
+		<lang key="pt">Tutorial dos Planetas</lang>
+		<lang key="ro">Tutorialul Planetelor</lang>
+		<lang key="ru">Обучение по Планетам</lang>
+		<lang key="se">Handledning för Planeter</lang>
+	</entry>
+
+	<entry key="PlanetsTutorialContent">
+		<lang key="de">Diese Anleitung wird dir das Interface der Planeten zeigen, und dir lehren wie man all die Grundaktionen im Spiel macht.
+ <p />
+Deine Planeten werden Ressourcen erzeugen und dir erlauben Kampfeinheiten zu bauen. Sie sind der finanzielle Kern deines Imperiums.</lang>
+		<lang key="en">This tutorial will present you the planets interface and teach you how to do all the basic
+  actions.
+  <p />
+  Your planets will generate resources and allow you to build battle units. They are the finantial core of your
+  empire.</lang>
+		<lang key="es">Este tutorial va a presentar la interface de los planetas y enseñar todos los conceptos básicos.
+  <p />
+  Tus planetas generan recursos y te permiten la construcción de unidades de combate. Ellos son el corazón financiero
+  de tu império.</lang>
+		<lang key="fr">Ce tutoriel va vous présenter l'interface de votre planètes et toutes les actions de base nécessaire au jeu.
+<p />
+Vos planètes génèrent des ressources vous permettant de construire des unités de combat. Elles sont le coeur des finances de votres empire.</lang>
+		<lang key="hr">Ovaj tutorial će vam predstaviti planetarno sučelje i naučiti vas sve osnovne akcije.
+  <p />
+Vaši planeti će generirati resurse i na njima možete graditi borbene jedinice. Oni su financijska jezgra vašega carstva.</lang>
+		<lang key="hu">Ez a Tutorial bemutatja a bolygók működését és megtanít az alapokra.
+  <p />
+  Bolygóid forrásokat termelnek és ennek segítségével harci egységeket építhetsz. Ők a birodalmad
+  pénzügyi magjai.</lang>
+		<lang key="it">Questo tutorial ti presenterà l'interfaccia dei pianeti e ti insegnerà a compiere tutte le azioni di base.
+<p />
+I tuoi pianeti genereranno risorse e ti permetteranno di costruire unità da battaglia. Sono il nucleo finanziario del tuo impero.</lang>
+		<lang key="pt">Este tutorial vai apresentar a interface dos planetas e ensinar todos os conceitos básicos.
+  <p />
+  Os teus planetas geram recursos e permitem-te a construção de unidades de combate. Eles são o coração financeiro
+  do teu império.</lang>
+		<lang key="ru">Это обучение знакомит вас с интерфейсом планет и учит вас как выполнять все основные действия.
+  <p>
+  Ваши планеты будут производить ресурсы, которые позволят вам строить боевые единицы. Они - финансовое ядро вашей империи.</p></lang>
+		<lang key="se">Den här handledningen kommer att presentera planetens användargränssnitt och lära dig hur du använder de grundläggande funktionerna. 
+<p />
+Dina planeter kommer att skapa resurser som tillåter dig att bygga stridsenheter. Planeterna är den finansiella ryggraden i ditt imperium.</lang>
+	</entry>
+
+	<entry key="Previous">
+		<lang key="de">Vorherige</lang>
+		<lang key="en">Previous</lang>
+		<lang key="es">Anterior</lang>
+		<lang key="fr">Précédent</lang>
+		<lang key="hr">Prethodni</lang>
+		<lang key="hu">Előző</lang>
+		<lang key="it">Precedente</lang>
+		<lang key="pt">Anterior</lang>
+		<lang key="ro">Anterior</lang>
+		<lang key="ru">Назад</lang>
+		<lang key="se">Föregående</lang>
+	</entry>
+
+	<entry key="PrivateZoneTutorial">
+		<lang key="de">Anleitung Privat-Bereich</lang>
+		<lang key="en">Private Zone Tutorial</lang>
+		<lang key="es">Tutorial de la Zona Privada</lang>
+		<lang key="fr">Tutoriel de la zone privée</lang>
+		<lang key="hr">Privatna Zona Tutorial</lang>
+		<lang key="hu">Privát Zóna Tutorial</lang>
+		<lang key="it">Tutorial sulla Zona Privata</lang>
+		<lang key="pt">Tutorial da Zona Privada</lang>
+		<lang key="ro">Tutorialul Zonei Private</lang>
+		<lang key="ru">Обучение о Частной Зоне.</lang>
+		<lang key="se">Handledning för den Privata Zonen</lang>
+	</entry>
+
+	<entry key="PrivateZoneTutorialContent">
+		<lang key="de">Dies ist dein Privat-Bereich im Universum. Nur du hast Zugriff auf diesen Bereich. In deinem Privat-Bereich hast du fünf Planeten die zu besiedeln sind.</lang>
+		<lang key="en">This is your private zone on the universe. Only you can access this zone. On your private zone you have
+  five planets to colonize.</lang>
+		<lang key="es">Esta es tu zona privada en el universo. Solamente tu puedes acceder a esta zona. En tu zona privada
+  tienes cinco planetas para colonizar.</lang>
+		<lang key="fr">Ceci est votre zone privée sur l'univers. Vous êtes le seul à y avoir accès. Il y a 5 planètes à coloniser dans votre zone privée.</lang>
+		<lang key="hr">Ovo je vaša Privatna Zona u svemiru. Samo vi možete pristupiti ovoj zoni. U vašoj privatnoj zoni imate pet planeta za kolonizirati.</lang>
+		<lang key="hu">Ez a Te privát zónád az Univerzumban. Csak te férhetsz hozzá. A privát zónádon belül öt bolygód van
+  kolonizálásra.</lang>
+		<lang key="it">Questa è la tua Zona Privata nell'universo. Solo tu puoi accedere a questa zona. Nella tua Zona Privata hai cinque pianeti da colonizzare.</lang>
+		<lang key="pt">Esta é a tua zona privada no universo. Somente tu consegues aceder a esta zona. Na tua zona privada
+  tens cinco planetas para colonizar.</lang>
+		<lang key="ru">Это ваша частная зона во вселенной. Только вы имеете доступ к этой зоне. В частной зоне есть пять планет, доступных для колонизации.</lang>
+		<lang key="se">Det här är din privata zon i Universum. Endast du kan komma åt den här zonen. I din privata zon har du fem planeter att kolonialisera.</lang>
+	</entry>
+
+	<entry key="QuestsTaskContent">
+		<lang key="de">Nun steht dir eine neue Mission zur Verfügung. Die Aufgabe. Diese sind anders weil du sie akzeptieren musst, dann musst du die vorgegeben Aktionen erledigen, und dann musst du die Mission abliefern und deine Belohnung erhalten.</lang>
+		<lang key="en">You now have available a new type of quest: the Task. These are different because you need to accept them, then perform
+  the required actions, and then deliver them and get your reward.</lang>
+		<lang key="es">Ahora tienes un nuevo tipo de misión: Tareas. Estas missiones son diferentes porque las tienes que aceptar primero, después seguir
+  las acciones definidas, y sólo entonce entregar la quest y obtener tu recompensa.</lang>
+		<lang key="fr">Vous avez maintenant une nouvelle sorte de quête: les tâches. Elles sont différentes car vous devez d'abord les accepter, faire l'action demandé, et livrer le magot ou preuve pour recevoir votre récompense.</lang>
+		<lang key="hr">Sada vam je dostupan novi tip misije: Zadatak. Ovi su različiti jer ih trebate prihvatiti, izvesti zahtjevane radnje, i onda dostaviti misiju da dobijete nagradu.</lang>
+		<lang key="hu">Most már elérhető egy új küldetés típus: a Feladat. ezek különböznek mert el kell fogadnod őket, majd végrhajtani majd leszállítani
+  hogy megkapd érte a jutalmat.</lang>
+		<lang key="it">Ora hai un nuovo tipo di quest: l'Obiettivo. Queste quest sono diverse per devi accettarle, poi eseguire le azioni richieste, e poi completarle e ricevere il tuo premio.</lang>
+		<lang key="pt">Agora tens um novo tipo de missão: a Tarefa. Estas missões são diferentes porque as tens de aceitar primeiro, depois fazer
+  as acções definidas, e só então entregar a quest e obter a tua recompensa.</lang>
+		<lang key="ru">Теперь у вас есть новый вид заданий: Задача. Они отличаются тем, что вам нужно принять её, выполнить необходимые действия и затем вернуться за наградой.</lang>
+		<lang key="se">Du har nu en ny typ av uppdrag tillgänglig: Uppgiften. Dessa uppdrag är annorlunda eftersom du behöver först acceptera dem, sedan utföra handlingar som krävs och sedan leverera dem för att få din belöning.</lang>
+	</entry>
+
+	<entry key="QuestsTutorial">
+		<lang key="de">Missionen Anleitung</lang>
+		<lang key="en">Quests Tutorial</lang>
+		<lang key="es">Tutorial de Misiones</lang>
+		<lang key="fr">Tutoriel des quêtes</lang>
+		<lang key="hr">Misije Tutorial</lang>
+		<lang key="hu">Küldetés Tutorial</lang>
+		<lang key="it">Tutorial sulle Quest</lang>
+		<lang key="pt">Tutorial das Missões</lang>
+		<lang key="ro">Tutorial de misiuni.</lang>
+		<lang key="ru">Обчуние по Заданиям</lang>
+		<lang key="se">Handledning för Uppdrag</lang>
+	</entry>
+
+	<entry key="QuestsTutorialContent">
+		<lang key="de">Auf dieser Seite hast du verschiedene Missionen zu erledigen, die dir dabei helfen werden, stärker und schneller im Spiel zu werden. Zu diesem Zeitpunkt hast du nur <i>Ziel Missionen</i>, nun musst du der Beschreibung folgen um sie abzuliefern, und deine Belohnung zu erhalten!</lang>
+		<lang key="en">On this page you have several quests to follow, that will help you to grow stronger and faster on the game. At this moment
+  you only have <i>checkpoint quests</i>, you only need to accomplish the description to deliver them and get the reward!</lang>
+		<lang key="es">En esta página tienes várias misiones para seguir, que te van a ayudar a evolcionar en el juego mas rapidamente. En este momento
+  sólo tienes <i>misiones de meta</i>, sólo necesitas seguir su descripción para cumplirlas y obtener tu recompensa!</lang>
+		<lang key="fr">Sur cette page sont listées les quêtes à accomplir. Elles vous aideront à devenir plus puissante et agrandir votre empire plus rapidement. En ce moment, vous avez seulement <i>checkpoint quests</i> de disponible. Il vous suffit d'accomplir la description d'une quête pour accéder au gain.</lang>
+		<lang key="hr">Na ovoj stranivi imate nekolko misija za izvršiti, koji će vam pomoći da rastete više i brže u igri. U ovom trenutku imate samo <i>misije kontrolne točke</i>, trebate samo postići opisano da ih dostavite i dobijete nagrade!</lang>
+		<lang key="hu">Ezen az oldalon kölünbőző küldetések vannak melyek segítenek hogy erőseb és gyorsabb legyél a játékban. Jelenleg
+  csak <i>checkpoint küldetés</i>ek vannak, csak a lírtakat kell teljesítened hogy megszerezd a jutalmat!</lang>
+		<lang key="it">In questa pagina hai diverse quest da seguire, che ti aiuteranno a diventare più forte e veloce nel gioco. Per ora hai solo <i>checkpoint quests</i>, devi solo seguire la sua descrizione per completarla e ricevere il premio!</lang>
+		<lang key="pt">Nesta página tens várias missões para seguir, que te vão ajudar a evoluir no jogo mais rapidamente. Neste momento
+  só tens <i>missões de meta</i>, só precisas de seguir a sua descrição para as entregares e obteres a tua recompensa!</lang>
+		<lang key="ru">На этой странице несколько заданий. Выпоняя их, вы начинаете изучать некоторые основные идеи игры. С этого момента у вас есть <i>задачи-контрольные точки</i>, вам нужно только прочесть описание чтобы выполнить их и получить вознаграждение!</lang>
+		<lang key="se">På den här sidan har du flera uppdrag att utföra, som hjälper dig bli starkare och snabbare i spelet. Just nu har du endast <i>Uppdrags-mål</i>, du behöver bara utföra det som står i beskrivningen för att få din belöning!</lang>
+	</entry>
+
+	<entry key="RegicideDeployContent">
+		<lang key="de">Das ist ein Königsmord Match! Das Ziel hier, ist die gegnerisch Flagge zu zerstören. Sorge dafür dass deine Flagge dementsprechend geschützt ist!
+Die Flagge ist die folgende Einheit :  <p /><img src="http://resources.orionsbelt.eu/Images/Common/Units/Flag.png" /></lang>
+		<lang key="en">This is a Regicide match! On this game type the objective is to destroy the enemy's Flag.
+  Be sure to properly protect your flag!
+  The flag is the following unit: <p /><img src="http://resources.orionsbelt.eu/Images/Common/Units/Flag.png" /></lang>
+		<lang key="fr">Ceci est un combat régicide! Votre objective est de détruire le drapeau ennemi. Assurez-vous de bien protéger votre drapeau. Le drapeau est l'unité suivante : <p /><img src="http://resources.orionsbelt.eu/Images/Common/Units/Flag.png" /></lang>
+		<lang key="hr">Ovo je Regicide meč! Na ovom tipu igre cilj je uništiti neprijateljevu Zastavu.
+Pobrinite se da dobro zaštitite svoju zastavu!
+Zastava je sljedeća jedinica: <p /><img src="http://resources.orionsbelt.eu/Images/Common/Units/Flag.png" /></lang>
+		<lang key="hu">Ez egy Regicide meccs. Ebben a játékban a cél az ellenség zászlójának elpusztítása.
+  Ne felejtsd el megfelelően védeni saját zászlódat!
+  A Zászló a következő egység: <p /><img src="http://resources.orionsbelt.eu/Images/Common/Units/Flag.png" /></lang>
+		<lang key="it">Questa è una battaglia Regicidio! In questo tipo di battaglia l'obiettivo è distruggere la bandiera nemica. Ricordati di proteggere la tua bandiera! La bandiera è la seguente unità: <p><img src="http://resources.orionsbelt.eu/Images/Common/Units/Flag.png" /></p></lang>
+		<lang key="pt">Esta é uma batalha de Regicídio! Neste tipo de batalha o objectivo é eliminar a Bandeira adversária.
+  Preocupa-te também em proteger a tua Bandeira! A Bandeira é a seguinte unidade:
+  <p /><img src="http://resources.orionsbelt.eu/Images/Common/Units/Flag.png" /></lang>
+		<lang key="ru">Это матч Цареубиство! В этом виде игры ваша цель - уничтожить Флаг противника.
+  Убедитесь, что ваш Флаг достаточно защищен!
+  Флаг это следующий юнит: <p /><img src="http://resources.orionsbelt.eu/Images/Common/Units/Flag.png" /></lang>
+		<lang key="se">Det här en Kungsmords-match! I den här typen av match är målet att förstöra fiendens Flagga. Se till att skydda din egen flagga ordentligt! Flaggan är följande enhet: <p /><img src="http://resources.orionsbelt.eu/Images/Common/Units/Flag.png" /></lang>
+	</entry>
+
+	<entry key="ResourcesPanelContent">
+		<lang key="de">Hier oben hast du deine momentanen Ressourcen. Basierend auf den Einkünften der Planeten, werden sie alle paar Minuten aktuallisiert.</lang>
+		<lang key="en">Up here you have your current resources. Every couple of minutes they're updated based on your planets income.</lang>
+		<lang key="es">Acá encima tienes tus recursos actuales. Cada cierto tiempo ellos son actualizados en base a la producción de tus planetas.</lang>
+		<lang key="fr">En haut est indiqué vos ressources actuelles. À chaque quelques minutes vous en recevez des ressources supplémentaire selon les revenus de vos planètes.</lang>
+		<lang key="hr">Ovdje gore imate svoje trenutačne resurse. Svako par minuta oni su updateani ovisno o prihodu vaših planeta.</lang>
+		<lang key="hu">Itt fönn vannak jelenlegi forrásaid. Pár percenként frissülnek a bolygód bevételei alapján.</lang>
+		<lang key="it">Qua in cima hai le tue risorse attuali. Ogni 10 minuti sono aggiornate sulla base delle produzioni dei tuoi pianeti.</lang>
+		<lang key="pt">Cá em cima tens os teus recursos actuais. De tempos a tempos eles são actualizados com base na produção dos teus planetas.</lang>
+		<lang key="ru">Здесь отображаются ваши текущие ресурсы. Каждые пару минут они обновляются, основываясь на доходе от ваших планет</lang>
+		<lang key="se">Här uppe har du dina nuvarande resurser. De uppdateras efter några minuter baserat på din planets inkomst.</lang>
+	</entry>
+
+	<entry key="Top">
+		<lang key="de">Oberseite</lang>
+		<lang key="en">Top</lang>
+		<lang key="es">Top</lang>
+		<lang key="fr">Haut</lang>
+		<lang key="hr">Top</lang>
+		<lang key="hu">Top</lang>
+		<lang key="it">Top</lang>
+		<lang key="pt">Topo</lang>
+		<lang key="ro">Sus</lang>
+		<lang key="ru">Наверх</lang>
+		<lang key="se">Topp</lang>
+	</entry>
+
+	<entry key="TutorialEnd">
+		<lang key="de">Anleitung Komplett</lang>
+		<lang key="en">Tutorial Complete</lang>
+		<lang key="es">Tutorial Completo</lang>
+		<lang key="fr">Tutoriel complété</lang>
+		<lang key="hr">Tutorial Gotov</lang>
+		<lang key="hu">Tutorial Befejezve</lang>
+		<lang key="it">Tutorial Completato</lang>
+		<lang key="pt">Tutorial Completo</lang>
+		<lang key="ro">Tutorial complet.</lang>
+		<lang key="ru">Обучение Завершено</lang>
+		<lang key="se">Handledning Slutförd</lang>
+	</entry>
+
+	<entry key="TutorialEndContent">
+		<lang key="de">Und das war´s dann! Kontaktieren Sie uns im Fall von Schwierigkeiten. Sie können diese Anleitung immer wieder durchgehen, in dem Sie dem Link <i>Seite Anleitung</i> folgen, der in der Fussnote der Seite aufgelistet wird.</lang>
+		<lang key="en">And that is it! Contact us if you have any dificulties. You can always run this
+  tutorial by following the <i>Page Tutorial</i> link at the site's footer.</lang>
+		<lang key="es">Y Listo! Contactanos si tuvieras otras dificultades. Puedes siempre volver a ver
+  este tutorial siguiendo el link <i>Página Paso a Paso</i> en el pie de la página.</lang>
+		<lang key="fr">Et voilà, c'est terminé! N"hésitez pas à nous contacter si vous avez des difficultés! Vous pouvez toujours recommencer le tutoriel en cliquant sur ce lien <i>Page Tutorial</i> au bas de la page du site.</lang>
+		<lang key="hr">I to je to! Kontaktirajte nas ako se suočite s teškoćama. Uvijek možete pokrenuti ovaj tutorial slijedeći  <i>Tutorial Stranica</i> u podnožju stranice.</lang>
+		<lang key="hu">És ennyi! Ha nehézségeid akadnak lépj kapcsolatba velünk! Ezt a Tutorialt bármikor futtathatod
+  a <i>Page Tutorial</i> linket követve az oldal alján.</lang>
+		<lang key="it">E questo è tutto! Contattaci se hai difficoltà. Puoi sempre rifare questo tutorial premendo sul collegamento <i>Pagina dei Tutorial</i> in basso nella pagina.</lang>
+		<lang key="pt">E pronto! Contacta-nos se tiveres outras dificuldades. Podes sempre voltar a ver
+  este tutorial seguindo o link <i>Página Passo a Passo</i> no rodapé.</lang>
+		<lang key="ru">Ну вот и все! Свяжитесь с нами, если у вас возникнут сложности. Вы всегда сможете запустить это обучение, пройдя по ссылке <i>Страница Обучений</i> в нижней части сайта.</lang>
+		<lang key="se">Och det var allt! Kontakta oss om du stöter på svårigheter. Du kan alltid köra den här handledningen genom att klicka på länken <i>Denna Sidas Handledning</i> i sidfoten.</lang>
+	</entry>
+
+	<entry key="YourFirstFleetContent">
+		<lang key="de">In dieser Position fängst du mit einer Flotte an. Du fängst das Spiel an mit einer Erkundungsflotte, um den Privat-Bereicht zu erforschen. Später im Spiel wirst du in der Lage sein zusätzliche Flotten auf deinen Planeten zu erzeugen.</lang>
+		<lang key="en">On this position you start with a fleet. You start the game with a scout fleet to explore your Private Zone. Later
+  you may create additional fleets on your planets.</lang>
+		<lang key="es">En esta posición comienzas con una flota. En el juego comienzas con una flota exploradora para que descubras tu zona privada.
+  Más tarde podrás crear mas flotas en tus planetas.</lang>
+		<lang key="fr">Sur cette position, vous commencez avec une escadrille. Vous commencez avec une escadrille éclaireuse pour explorer votre zone privée. Plus tard, il vous sera possible de créer des escadrilles additionnelles sur vos planètes.</lang>
+		<lang key="hr">Na ovoj poziciji počinjete s flotom. Počinjete igru sa izviđačkom flotom da istražite svoju Privatnu Zonu. Kasnije možete stvoriti dodatne flote na svojim planetima.</lang>
+		<lang key="hu">Ezen a pozíción egy flottával indulsz. Kezdetben egy felderítő flotta áll a rendelkezésedre hogy felfedezd a Privát Zónádat.
+  Később további flottákat hozhatsz létre a bolygóidon.</lang>
+		<lang key="it">In questa posizione parti con una flotta. Inizi il gioco con una flotta esploratrice per esplorare la tua Zona Privata. Più tardi potrai creare altre flotte sui tuoi pianeti.</lang>
+		<lang key="pt">Nesta posição começas com uma armada. Tu começas o jogo com uma armada exploradora para descobrires a tua zona privada.
+  Mais tarde poderás criar mais armadas nos teus planetas.</lang>
+		<lang key="ru">На этой позиции вы начинаете с флотом. Вы начинаете игру с флотом-разведчиком чтобы исследовать вашу Частную Зону. Позже вы смодете создавать флоты на ваших планетах</lang>
+		<lang key="se">På den här positionen börjar du med endast en flotta. Du börjar med en scout-flotta för att utforska din Privata Zon. Senare kan du skapa flera flottor på din a Planeter.</lang>
+	</entry>
+
+</resources>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection>
+  <TeamStorage Id="1" Name="psantos team" LadderActive="True" LadderPosition="1"/>
+  <TeamStorage Id="2" Name="nunos team" LadderActive="True" LadderPosition="2"/>
+  <TeamStorage Id="3" Name="tsousa team" LadderActive="True" LadderPosition="3"/>
+</Collection>

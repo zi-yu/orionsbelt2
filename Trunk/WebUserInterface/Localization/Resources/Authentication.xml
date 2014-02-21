@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="AcceptTermsConditions">
+		<lang key="de"><a href="Terms.aspx">Ich akzeptiere die Allgemeinen Geschäftsbedingungen</a></lang>
+		<lang key="en"><a href="Terms.aspx">I accept the Terms and Conditions</a></lang>
+		<lang key="es"><a href="Terms.aspx">Acepto los Terminos y Condiciones</a></lang>
+		<lang key="fr"><a href="Terms.aspx">J'accepte les termes et conditions</a></lang>
+		<lang key="hr"><a href="Terms.aspx">Prihvaćam Uvjete i Odredbe</a></lang>
+		<lang key="it"><a href="Terms.aspx">Accetto i Termini e le Condizioni</a></lang>
+		<lang key="pt"><a href="Terms.aspx">Eu aceito os Termos e Condições</a></lang>
+	</entry>
+
+	<entry key="AccountConfirmation">
+		<lang key="de">Konto-Konfirmation</lang>
+		<lang key="en">Account Confirmation</lang>
+		<lang key="es">{0} confirmaste tu cuenta. Haz Click <a href="/Universe.aspx">aquí</a> para continuar jugando.</lang>
+		<lang key="fr">Confirmation du compte</lang>
+		<lang key="hr">Potvrda Akaunta</lang>
+		<lang key="it">Conferma dell'Account</lang>
+		<lang key="pt">Confirmação da Conta</lang>
+	</entry>
+
+	<entry key="Blocked">
+		<lang key="de">Bitte kontaktiere die Administratoren um die Situation zu klären.</lang>
+		<lang key="en">Please contact the admninistrators to clarify the situation.</lang>
+		<lang key="fr">Veuillez contacter les administrateurs pour clarifier la situation.</lang>
+		<lang key="hr">Molimo kontaktirajte administratora da pojasnite situaciju.</lang>
+		<lang key="it">Contatta l'amministratore per chiarire la situazione.</lang>
+		<lang key="pt">Por favor contacte os administradores para esclarecer a situação.</lang>
+	</entry>
+
+	<entry key="BlockedTitle">
+		<lang key="de">Konto blockiert</lang>
+		<lang key="en">Account blocked</lang>
+		<lang key="fr">Compte bloqué</lang>
+		<lang key="hr">Akaunt blokiran</lang>
+		<lang key="it">Account Bloccato</lang>
+		<lang key="pt">Conta bloqueada</lang>
+	</entry>
+
+	<entry key="ConfirmationCompleted">
+		<lang key="de"><b>{0}</b>, du hast erfolgreich dein Konto bestätigt. Klicke <a href="/Universe.aspx">hier</a> um weiterzuspielen.</lang>
+		<lang key="en"><b>{0}</b>, you successufully confirmed your account. Click <a href="/Universe.aspx">here</a> to continue to play.</lang>
+		<lang key="fr"><b>{0}</b>, Vous avez confirmé la création de votre compte avec succès. Cliquez <a href="/Universe.aspx">ici</a> pour continuer à jouer.</lang>
+		<lang key="hr"><b>{0}</b>, uspješno ste potvrdili vaš akaunt. Kliknite <a href="/Universe.aspx">here</a> da igrate.</lang>
+		<lang key="it"><b>{0}</b>, Hai confermato con successo il tuo account. Clicca <a href="/Universe.aspx">here</a> per continuare a giocare.</lang>
+		<lang key="pt"><b>{0}</b>, confirmaste com sucesso a tua conta. Clica <a href="/Universe.aspx">aqui</a> para continuares a jogar.</lang>
+	</entry>
+
+	<entry key="confirmationEmail">
+		<lang key="de"></lang>
+		<lang key="en"><p>{0} Thanks for your registration in Orion's Belt.</p><p>
+  To activate your account simply click on the link below:<br /><a href="{3}Confirmation.aspx?type=confirmation&amp;user={0}&amp;value={1}">{3}Confirmation.aspx</a></p><p>
+  Your login details are: <br />
+  Username: {0}<br />
+  Password: {2}
+    </p><p>
+  Regards,<br />
+  Orion's Belt Team,<br /></p></lang>
+		<lang key="es"><p>{0} Agradecemos tu  registro en Orion's Belt.</p><p>
+  Para activar la conta, haz click en el  link abajo:<br /><a href="{3}Confirmation.aspx?type=confirmation&amp;user={0}&amp;value={1}">/{3}Confirmation.aspx</a></p><p>
+  Los datalles de ingreso son los siguientes:<br />
+  Nombre de usuario: {0}<br />
+  Password: {2}
+    </p><p>
+  Atentamente,<br />
+  Equipo Orion's Belt
+    </p></lang>
+		<lang key="fr"><p>{0} Merci pour votre enregistrement sur Orion's Belt</p><p>
+  Pour activer votre compte, simplement cliquer le lien en dessous:<br /><a href="{3}Confirmation.aspx?type=confirmation&amp;user={0}&amp;value={1}">{3}Confirmation.aspx</a></p><p>
+  Voici vos détails nécessaire à la connexion: <br />
+  Username: {0}<br />
+  Password: {2}
+    </p><p>
+  Au plaisir,<br />
+  L'équipe Orion's Belt,<br /></p></lang>
+		<lang key="hr"><p>{0} Hvala za registraciju u Orionov Pojas.</p><p>
+Da aktivirate vaš akaunt jednostavno kliknite na link ispod:<br /><a href="{3}Confirmation.aspx?type=confirmation&amp;user={0}&amp;value={1}">{3}Confirmation.aspx</a></p><p>
+  Detalji logiranja: <br />
+  Korisničko Ime: {0}<br />
+  Šifra: {2}
+    </p><p>
+  Pozdrav,<br />
+  Orionov Pojas Team,<br /></p></lang>
+		<lang key="it"><p>{0} Grazie per esserti registrato su Orion's Belt.</p><p>Per attivare il tuo account premi su questo link:<br /><a href="%7B3%7DConfirmation.aspx?type=confirmation&amp;user=%7B0%7D&amp;value=%7B1%7D">{3}Confirmation.aspx</a></p><p>
+  I dettagli del tuo account sono: <br />
+  Username: {0}<br />
+  Password: {2}
+    </p><p>
+  Saluti,<br />
+  Il team di Orion's Belt<br /></p></lang>
+		<lang key="pt"><p>{0} Obrigado pelo teu registo no Orion's Belt.</p><p>
+  Para activar a conta, clica no link abaixo:<br /><a href="{3}Confirmation.aspx?type=confirmation&amp;user={0}&amp;value={1}">/{3}Confirmation.aspx</a></p><p>
+  Os detalhes de log in são os seguintes:<br />
+  Nome de utilizador: {0}<br />
+  Palavra Passe: {2}
+    </p><p>
+  Cumprimentos,<br /></p></lang>
+	</entry>
+
+	<entry key="CreateUser">
+		<lang key="de">Benutzer erschaffen</lang>
+		<lang key="en">Create User</lang>
+		<lang key="es">Criar Usuario</lang>
+		<lang key="fr">Créer l'utilisateur</lang>
+		<lang key="hr">Stvori Korisnika</lang>
+		<lang key="it">Crea User</lang>
+		<lang key="pt">Criar Utilizador</lang>
+	</entry>
+
+	<entry key="DuplicateEmail">
+		<lang key="de">Diese E-Mail Addresse wurde bereits registriert.</lang>
+		<lang key="en">That E-Mail address had already been registered.</lang>
+		<lang key="es">Direccion de  E-Mail ya está registrada.</lang>
+		<lang key="fr">Cette adresse courriel a déjà été enregistrée</lang>
+		<lang key="hr">Ta E-mail adresa je već registrirana.</lang>
+		<lang key="it">Questo indirizzo e-mail è già stato registrato.</lang>
+		<lang key="pt">Esse endereço de E-Mail já está registado.</lang>
+	</entry>
+
+	<entry key="Email">
+		<lang key="de">Email</lang>
+		<lang key="en">Email</lang>
+		<lang key="es">Email</lang>
+		<lang key="fr">Courriel</lang>
+		<lang key="hr">Email</lang>
+		<lang key="it">Email</lang>
+		<lang key="pt">Email</lang>
+	</entry>
+
+	<entry key="EmailRequired">
+		<lang key="de">E-mail benötigt.</lang>
+		<lang key="en">E-mail is required.</lang>
+		<lang key="es">E-mail es obligatorio.</lang>
+		<lang key="fr">Besoin du courriel</lang>
+		<lang key="hr">E-mail je potreban.</lang>
+		<lang key="it">L'E-mail è richiesta.</lang>
+		<lang key="pt">E-mail é necessário.</lang>
+	</entry>
+
+	<entry key="EmailValidator">
+		<lang key="de">E-Mail hat ein ungültiges Format</lang>
+		<lang key="en">E-Mail has an invalid format.</lang>
+		<lang key="es">Formaro de E-Mail no válido.</lang>
+		<lang key="fr">Courriel au format invalide</lang>
+		<lang key="hr">E-mail ima nevažeći format.</lang>
+		<lang key="it">L'e-mail ha un formato non valido.</lang>
+		<lang key="pt">E-Mail possui um formato inválido.</lang>
+	</entry>
+
+	<entry key="InvalidUserName">
+		<lang key="de">Den Benutzernamen gibt es bereits. Bitte wähle einen anderen. </lang>
+		<lang key="en">That username already exists. Please choose another.</lang>
+		<lang key="es">El nombre de usuario ya existe. Por favor escoje otro.</lang>
+		<lang key="fr">Ce nom d'utilisateur existe déjà. Veuillez en choisir un autre.</lang>
+		<lang key="hr">To korisničko ime već postoji. Molimo odaberite drugo.</lang>
+		<lang key="it">Questo Username esiste già. Per favore scegline un'altro.</lang>
+		<lang key="pt">O Nome de utilizador já está escolhi. Por favor escolhe outro.</lang>
+	</entry>
+
+	<entry key="Locked">
+		<lang key="de">Bitte checke deine Email um dein Konto zu aktivieren or kontaktier die Administratoren in dem du das Formular unten benutzt.</lang>
+		<lang key="en">Please check your email in order to activate your account or contact the admnistrators using the form bellow.</lang>
+		<lang key="fr">Veuillez vérifier vos courriels pour activer votre compte ou contacter les administrateurs en utilisant le formulaire en dessous</lang>
+		<lang key="hr">Molimo provjerite vaš email kako biste potvrdili aktivaciju vašeg akaunta ili kontaktirajte administratora koristeći se donjim obrascom.</lang>
+		<lang key="it">Controlla la tua e-mail per attivare il tuo account o contatta l'amministratore usando il form qua sotto.</lang>
+		<lang key="pt">Por favor verifica o teu email de modo a activares a conta ou contacta os administradores através do formulário abaixo.</lang>
+	</entry>
+
+	<entry key="LockedTitle">
+		<lang key="de">Konto gesperrt</lang>
+		<lang key="en">Account Locked</lang>
+		<lang key="fr">Compte verrouillé</lang>
+		<lang key="hr">Akaunt Zaključan</lang>
+		<lang key="it">Account Bloccato</lang>
+		<lang key="pt">Conta Trancada</lang>
+	</entry>
+
+	<entry key="Login">
+		<lang key="de">Login</lang>
+		<lang key="en">Login</lang>
+		<lang key="es">Entrar</lang>
+		<lang key="fr">Connexion</lang>
+		<lang key="hr">Prijavi se</lang>
+		<lang key="it">Connetti</lang>
+		<lang key="pt">Entrar</lang>
+	</entry>
+
+	<entry key="Logout">
+		<lang key="de">Verlassen</lang>
+		<lang key="en">Logout</lang>
+		<lang key="es">Salir</lang>
+		<lang key="fr">Déconnexion</lang>
+		<lang key="hr">Odjavi se</lang>
+		<lang key="it">Disconnetti</lang>
+		<lang key="pt">Sair</lang>
+	</entry>
+
+	<entry key="MustAcceptTermsConditions">
+		<lang key="de">du musst die Allgemeinen Geschäftsbedingungen akzeptieren</lang>
+		<lang key="en">You must accept the Terms and Conditions</lang>
+		<lang key="es">Debes aceptar los Terminos y Condiciones</lang>
+		<lang key="fr">Vous devez accepter le contrat des termes et conditions</lang>
+		<lang key="hr">Trebate prhihvatiti Uvjete i Odredbe</lang>
+		<lang key="it">Devi accettare i Termini e le Condizioni</lang>
+		<lang key="pt">Tens de aceitar os Termos e Condições</lang>
+	</entry>
+
+	<entry key="MustPasswordConfirm">
+		<lang key="de">Konfirmation des Passworts benötigt.</lang>
+		<lang key="en">Confirm Password is required.</lang>
+		<lang key="es">Confirmar Contraseña es obligatorio.</lang>
+		<lang key="fr">Besoin de la confirmation du mot de passe</lang>
+		<lang key="hr">Potvrda šifre je potrebna.</lang>
+		<lang key="it">La Conferma della Password è richiesta.</lang>
+		<lang key="pt">Confirmação de Palavra passe necessária.</lang>
+	</entry>
+
+	<entry key="NotAprovedAccount">
+		<lang key="de"></lang>
+		<lang key="en"><b>{0}</b>, your account has not been approved yet. Please check your email in order to confirm it. You have {1} until your account is locked.<br />
+  To resend the confirmation email <a href="/ResendConfirmation.aspx">click here</a>.</lang>
+		<lang key="es"><b>{0}</b>, tu cuenta aún no fue aprovada. por favor verifica tu e-mail para confirmar. Tienes {1} hasta que tu cuenta sea bloqueada</lang>
+		<lang key="fr"><b>{0}</b>, Vous n'avez pas confirmé votre compte encore. Veuillez vérifier vos courriels pour confirmer ce dernier. Vous avez jusqu'a {1} avant que votre compte soit verouillé.<br />
+  Pour recevoir à nouveau ;a confirmation par courriel, <a href="/ResendConfirmation.aspx">cliquez ici</a>.</lang>
+		<lang key="hr"><b>{0}</b>, vaš akaunt nije još potvrđen. Molimo provjerite svoj email kako biste ga potvrdili. Imate {1} dok vaš akaunt nije zaključan.<br /> DA ponovno pošaljete email potvrde akaunta 
+ <a href="/ResendConfirmation.aspx">kliknite ovdje</a>.</lang>
+		<lang key="it"><b>{0}</b>, il tuo account non è ancora stato approvato. Controlla la tua e-mail per confermarlo. Hai {1} prima che il tuo account venga bloccato.<br /> Per rimandare l'e-mail di conferma <a href="/ResendConfirmation.aspx">premi qui</a>.</lang>
+		<lang key="pt"><b>{0}</b>, a tua conta ainda não foi aprovada. por favor verifica o teu email de modo a confirmares. Tens {1} até a tua conta ser bloqueada<br />
+  Para reinviares o email de confirmação <a href="/ResendConfirmation.aspx">clica aqui</a>.</lang>
+	</entry>
+
+	<entry key="NotAprovedAccountTitle">
+		<lang key="de">Konto nicht genehmigt</lang>
+		<lang key="en">Account not Approved</lang>
+		<lang key="es">Cuenta no Aprovada</lang>
+		<lang key="fr">Le compte n'a pas été aprouvé</lang>
+		<lang key="hr">Akaunt nije Odobren</lang>
+		<lang key="it">Account non Approvato</lang>
+		<lang key="pt">Conta não Aprovada</lang>
+	</entry>
+
+	<entry key="Password">
+		<lang key="de">Passwort</lang>
+		<lang key="en">Password</lang>
+		<lang key="es">Contraseña</lang>
+		<lang key="fr">Mot de Paase</lang>
+		<lang key="hr">Šifra</lang>
+		<lang key="it">Password</lang>
+		<lang key="pt">Palavra passe</lang>
+	</entry>
+
+	<entry key="PasswordCompare">
+		<lang key="de">Das Passwort und die Konfirmation müssen übereinstimmen.</lang>
+		<lang key="en">The Password and Confirmation Password must match.</lang>
+		<lang key="es">La Contraseña y su confirmación deben ser iguales.</lang>
+		<lang key="fr">Le mot de passe et la confirmation doivent être identiques</lang>
+		<lang key="hr">Šifra i Potrda šifre trebaju biti iste.</lang>
+		<lang key="it">I campi Password e Conferma Password devono essere uguali.</lang>
+		<lang key="pt">A Palavra Passe e a Palavra Passe de Confirmação têm de ser iguais.</lang>
+	</entry>
+
+	<entry key="PasswordConfirm">
+		<lang key="de">Konfirmiere Passwort</lang>
+		<lang key="en">Confirm Password</lang>
+		<lang key="es">Confirmar Contraseña</lang>
+		<lang key="fr">Confirmation du mot de passe</lang>
+		<lang key="hr">Potvrdi Šifru</lang>
+		<lang key="it">Conferma Password</lang>
+		<lang key="pt">Confirmar Palavra passe</lang>
+	</entry>
+
+	<entry key="PasswordRequired">
+		<lang key="de">Passwort wird benötigt.</lang>
+		<lang key="en">Password is required.</lang>
+		<lang key="es">Contraseña es obligatorio.</lang>
+		<lang key="fr">Besoin du mot de passe</lang>
+		<lang key="hr">Šifra je potrebna.</lang>
+		<lang key="it">La Password è necessaria.</lang>
+		<lang key="pt">Palavra passe é necessária.</lang>
+	</entry>
+
+	<entry key="Register">
+		<lang key="de">Registrieren</lang>
+		<lang key="en">Register</lang>
+		<lang key="es">Registrar</lang>
+		<lang key="fr">Enregistrer</lang>
+		<lang key="hr">Registriraj se</lang>
+		<lang key="it">Registra</lang>
+		<lang key="pt">Registar</lang>
+	</entry>
+
+	<entry key="registerConfirmation">
+		<lang key="de">Konfirmation der Registrierung des Spiels Orion's Belt</lang>
+		<lang key="en">Orion's Belt Game Register Confirmation</lang>
+		<lang key="es">Confirmación  de Registro en el juevo Orion's Belt</lang>
+		<lang key="fr">Confirmation de l'enregistrement au jeu Orion's Belt</lang>
+		<lang key="hr">Orionov Pojas Potvrda Registracije Igre</lang>
+		<lang key="it">Conferma della Registrazione al gioco Orion's Belt</lang>
+		<lang key="pt">Confirmação de Registo no Jogo Orion's Belt</lang>
+	</entry>
+
+	<entry key="RegisterTopText">
+		<lang key="de">Fülle das Formular unten aus und klicke 'Benutzer erschaffen' um ein Konto zu kreieren.</lang>
+		<lang key="en">Fill the form below and click 'Create User' to create an account.</lang>
+		<lang key="es">Completa el formulário abajo y haz click en 'Crear Usuario' para crear una cuenta.</lang>
+		<lang key="fr">Remplir le formulaire en dessous et cliquer "créer l'utilisateur" pour créer le compte</lang>
+		<lang key="hr">Ispunite obrazac ispod i kliknite "Stvori Korisnika" da kreirate akaunt.</lang>
+		<lang key="it">Completa il modulo qua sotto e clicca su 'Crea User' per creare un account.</lang>
+		<lang key="pt">Preenche o formulário abaixo e clica em 'Criar Utilizador' para criares uma conta.</lang>
+	</entry>
+
+	<entry key="RememberMe">
+		<lang key="de">Angemeldet bleiben</lang>
+		<lang key="en">Remember me next time</lang>
+		<lang key="fr">Rappelez vous de moi la prochaine fois</lang>
+		<lang key="hr">Zapamti me sljedeći put</lang>
+		<lang key="it">Ricordami</lang>
+		<lang key="pt">Lembrar-me</lang>
+    <lang key="es">Recordarme la próxima vez</lang>
+	</entry>
+
+	<entry key="UserCreatedSuccessfull">
+		<lang key="de">Benutzer erfolgreich geschaffen!</lang>
+		<lang key="en">User created successfully!</lang>
+		<lang key="es">Usuario creado correctamente!</lang>
+		<lang key="fr">Utilisateur crée avec succès!</lang>
+		<lang key="hr">Korisnik stvoren uspješno!</lang>
+		<lang key="it">User creato con successo!</lang>
+		<lang key="pt">Utilizador criado com sucesso!</lang>
+	</entry>
+
+	<entry key="UserName">
+		<lang key="de">Benutzername</lang>
+		<lang key="en">User Name</lang>
+		<lang key="es">Usuario</lang>
+		<lang key="fr">Nom d'utilisateur</lang>
+		<lang key="hr">Korisničko Ime</lang>
+		<lang key="it">User Name</lang>
+		<lang key="pt">Nome de Utilizador</lang>
+	</entry>
+
+	<entry key="UserNameInvalid">
+		<lang key="de">Benutzername ungültig</lang>
+		<lang key="en">User Name Invalid</lang>
+		<lang key="fr">Nom d'utilisateur invalide</lang>
+		<lang key="hr">Korisničko Ime Nepostojeće</lang>
+		<lang key="it">Nome Utente Non Valido</lang>
+		<lang key="pt">Nome de Utilizador Inválido</lang>
+	</entry>
+
+	<entry key="UserNameRequired">
+		<lang key="de">Benutzername ist benötigt.</lang>
+		<lang key="en">User Name is required.</lang>
+		<lang key="es">Nombre de Usuario es obligatorio.</lang>
+		<lang key="fr">Besoin du nom d'utilisateur</lang>
+		<lang key="hr">Korisničko Ime je potrebno.</lang>
+		<lang key="it">L'User Name è richiesto.</lang>
+		<lang key="pt">Nome de Utilizador é necessário.</lang>
+	</entry>
+
+</resources>

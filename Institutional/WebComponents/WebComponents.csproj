@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{178817C6-ED78-4470-89E1-7EF029E4A0F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebComponents</RootNamespace>
+    <AssemblyName>Institutional.WebComponents</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>../WebUserInterface/bin/</OutputPath>    
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>../WebUserInterface/bin/</OutputPath>    
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NHibernate, Version=2.0.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL" />
+    <Reference Include="../WebUserInterface/bin/log4net.dll" />
+    <Reference Include="Loki, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09352869ad1dca42, processorArchitecture=MSIL" />
+    <Reference Include="FreeTextBox, Version=3.1.6.34851, Culture=neutral, PublicKeyToken=5962a4e684a48b87, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\Generic\NHStats.cs" />
+    <Compile Include="Modules\QueryStatsModule.cs" />
+    <Compile Include="Modules\ExceptionModule.cs" />
+    <Compile Include="Controls\Generic\Login.cs" />
+    <Compile Include="Controls\Generic\LoginStatus.cs" />
+    <Compile Include="Modules\AuthenticateModule.cs" />
+    <Compile Include="Controls\Generic\RoleVisible.cs" />
+    <Compile Include="Engine\SendMail.cs" />
+    <Compile Include="Engine\Utils.cs" />
+    <Compile Include="Modules\OfflineModule.cs" />
+    <Compile Include="Controls\Entities\BaseEntityItem.cs" />
+    <Compile Include="Controls\Entities\BaseEntityEdit.cs" />
+    <Compile Include="Controls\Entities\BaseFieldControl.cs" />
+    <Compile Include="Controls\Entities\BaseEntityFieldEditor.cs" />
+    <Compile Include="Controls\Entities\BaseList.cs" />
+    <Compile Include="Controls\Entities\BasePagination.cs" />
+    <Compile Include="Controls\Entities\BaseSort.cs" />
+    <Compile Include="Controls\Entities\BaseNumberPagination.cs" />
+    <Compile Include="Controls\Entities\BasePagedList.cs" />
+    <Compile Include="Controls\Entities\EditControls\StringEditor.cs" />
+    <Compile Include="Controls\Entities\EditControls\FreeTextBoxEditor.cs" />
+    <Compile Include="Controls\Entities\EditControls\DoubleEditor.cs" />
+    <Compile Include="Controls\Entities\EditControls\IntEditor.cs" />
+    <Compile Include="Controls\Entities\EditControls\BoolEditor.cs" />
+    <Compile Include="Controls\Entities\EditControls\DateTimeEditor.cs" />
+    <Compile Include="Controls\Entities\EditControls\UpdateButton.cs" />
+    <Compile Include="Controls\Entities\BaseEntityCount.cs" />
+    <Compile Include="Controls\Entities\SourceType.cs" />
+    <Compile Include="Controls\Generic\ImageUpload.cs" />
+    <Compile Include="Controls\Entities\Server\ServerItem.cs" />
+    <Compile Include="Controls\Entities\Server\ServerSearch.cs" />
+    <Compile Include="Controls\Entities\Server\ServerEditor.cs" />
+    <Compile Include="Controls\Entities\Server\Delete\ServerDelete.cs" />
+    <Compile Include="Controls\Entities\Server\Delete\ServerDeleteAll.cs" />
+    <Compile Include="Controls\Entities\Server\ServerCount.cs" />
+    <Compile Include="Controls\Entities\Server\ServerList.cs" />
+    <Compile Include="Controls\Entities\Server\ServerPagination.cs" />
+    <Compile Include="Controls\Entities\Server\ServerNumberPagination.cs" />
+    <Compile Include="Controls\Entities\Server\ServerPagedList.cs" />
+    <Compile Include="Controls\Entities\Server\Caption\ServerId.cs" />
+    <Compile Include="Controls\Entities\Server\Edit\ServerIdEditor.cs" />
+    <Compile Include="Controls\Entities\Server\Sort\ServerIdSort.cs" />
+    <Compile Include="Controls\Entities\Server\Caption\ServerName.cs" />
+    <Compile Include="Controls\Entities\Server\Edit\ServerNameEditor.cs" />
+    <Compile Include="Controls\Entities\Server\Sort\ServerNameSort.cs" />
+    <Compile Include="Controls\Entities\Server\Caption\ServerUrl.cs" />
+    <Compile Include="Controls\Entities\Server\Edit\ServerUrlEditor.cs" />
+    <Compile Include="Controls\Entities\Server\Sort\ServerUrlSort.cs" />
+    <Compile Include="Controls\Entities\Server\Caption\ServerCreatedDate.cs" />
+    <Compile Include="Controls\Entities\Server\Edit\ServerCreatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\Server\Sort\ServerCreatedDateSort.cs" />
+    <Compile Include="Controls\Entities\Server\Caption\ServerUpdatedDate.cs" />
+    <Compile Include="Controls\Entities\Server\Edit\ServerUpdatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\Server\Sort\ServerUpdatedDateSort.cs" />
+    <Compile Include="Controls\Entities\Server\Caption\ServerLastActionUserId.cs" />
+    <Compile Include="Controls\Entities\Server\Edit\ServerLastActionUserIdEditor.cs" />
+    <Compile Include="Controls\Entities\Server\Sort\ServerLastActionUserIdSort.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\MediaArticleItem.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\MediaArticleSearch.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\MediaArticleEditor.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Delete\MediaArticleDelete.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Delete\MediaArticleDeleteAll.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\MediaArticleCount.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\MediaArticleList.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\MediaArticlePagination.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\MediaArticleNumberPagination.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\MediaArticlePagedList.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Caption\MediaArticleId.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Edit\MediaArticleIdEditor.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Sort\MediaArticleIdSort.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Caption\MediaArticleUrl.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Edit\MediaArticleUrlEditor.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Sort\MediaArticleUrlSort.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Caption\MediaArticleName.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Edit\MediaArticleNameEditor.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Sort\MediaArticleNameSort.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Caption\MediaArticleLocale.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Edit\MediaArticleLocaleEditor.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Sort\MediaArticleLocaleSort.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Caption\MediaArticleExceprt.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Edit\MediaArticleExceprtEditor.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Sort\MediaArticleExceprtSort.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Caption\MediaArticleCreatedDate.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Edit\MediaArticleCreatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Sort\MediaArticleCreatedDateSort.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Caption\MediaArticleUpdatedDate.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Edit\MediaArticleUpdatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Sort\MediaArticleUpdatedDateSort.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Caption\MediaArticleLastActionUserId.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Edit\MediaArticleLastActionUserIdEditor.cs" />
+    <Compile Include="Controls\Entities\MediaArticle\Sort\MediaArticleLastActionUserIdSort.cs" />
+    <Compile Include="Controls\Entities\Testimonial\TestimonialItem.cs" />
+    <Compile Include="Controls\Entities\Testimonial\TestimonialSearch.cs" />
+    <Compile Include="Controls\Entities\Testimonial\TestimonialEditor.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Delete\TestimonialDelete.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Delete\TestimonialDeleteAll.cs" />
+    <Compile Include="Controls\Entities\Testimonial\TestimonialCount.cs" />
+    <Compile Include="Controls\Entities\Testimonial\TestimonialList.cs" />
+    <Compile Include="Controls\Entities\Testimonial\TestimonialPagination.cs" />
+    <Compile Include="Controls\Entities\Testimonial\TestimonialNumberPagination.cs" />
+    <Compile Include="Controls\Entities\Testimonial\TestimonialPagedList.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Caption\TestimonialId.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Edit\TestimonialIdEditor.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Sort\TestimonialIdSort.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Caption\TestimonialLocale.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Edit\TestimonialLocaleEditor.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Sort\TestimonialLocaleSort.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Caption\TestimonialContent.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Edit\TestimonialContentEditor.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Sort\TestimonialContentSort.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Caption\TestimonialAuthor.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Edit\TestimonialAuthorEditor.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Sort\TestimonialAuthorSort.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Caption\TestimonialCreatedDate.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Edit\TestimonialCreatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Sort\TestimonialCreatedDateSort.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Caption\TestimonialUpdatedDate.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Edit\TestimonialUpdatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Sort\TestimonialUpdatedDateSort.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Caption\TestimonialLastActionUserId.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Edit\TestimonialLastActionUserIdEditor.cs" />
+    <Compile Include="Controls\Entities\Testimonial\Sort\TestimonialLastActionUserIdSort.cs" />
+    <Compile Include="Controls\Entities\Referral\ReferralItem.cs" />
+    <Compile Include="Controls\Entities\Referral\ReferralSearch.cs" />
+    <Compile Include="Controls\Entities\Referral\ReferralEditor.cs" />
+    <Compile Include="Controls\Entities\Referral\Delete\ReferralDelete.cs" />
+    <Compile Include="Controls\Entities\Referral\Delete\ReferralDeleteAll.cs" />
+    <Compile Include="Controls\Entities\Referral\ReferralCount.cs" />
+    <Compile Include="Controls\Entities\Referral\ReferralList.cs" />
+    <Compile Include="Controls\Entities\Referral\ReferralPagination.cs" />
+    <Compile Include="Controls\Entities\Referral\ReferralNumberPagination.cs" />
+    <Compile Include="Controls\Entities\Referral\ReferralPagedList.cs" />
+    <Compile Include="Controls\Entities\Referral\Caption\ReferralId.cs" />
+    <Compile Include="Controls\Entities\Referral\Edit\ReferralIdEditor.cs" />
+    <Compile Include="Controls\Entities\Referral\Sort\ReferralIdSort.cs" />
+    <Compile Include="Controls\Entities\Referral\Caption\ReferralCode.cs" />
+    <Compile Include="Controls\Entities\Referral\Edit\ReferralCodeEditor.cs" />
+    <Compile Include="Controls\Entities\Referral\Sort\ReferralCodeSort.cs" />
+    <Compile Include="Controls\Entities\Referral\Caption\ReferralName.cs" />
+    <Compile Include="Controls\Entities\Referral\Edit\ReferralNameEditor.cs" />
+    <Compile Include="Controls\Entities\Referral\Sort\ReferralNameSort.cs" />
+    <Compile Include="Controls\Entities\Referral\Caption\ReferralSourceUrl.cs" />
+    <Compile Include="Controls\Entities\Referral\Edit\ReferralSourceUrlEditor.cs" />
+    <Compile Include="Controls\Entities\Referral\Sort\ReferralSourceUrlSort.cs" />
+    <Compile Include="Controls\Entities\Referral\Caption\ReferralFilters.cs" />
+    <Compile Include="Controls\Entities\Referral\Edit\ReferralFiltersEditor.cs" />
+    <Compile Include="Controls\Entities\Referral\Sort\ReferralFiltersSort.cs" />
+    <Compile Include="Controls\Entities\Referral\Caption\ReferralCreatedDate.cs" />
+    <Compile Include="Controls\Entities\Referral\Edit\ReferralCreatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\Referral\Sort\ReferralCreatedDateSort.cs" />
+    <Compile Include="Controls\Entities\Referral\Caption\ReferralUpdatedDate.cs" />
+    <Compile Include="Controls\Entities\Referral\Edit\ReferralUpdatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\Referral\Sort\ReferralUpdatedDateSort.cs" />
+    <Compile Include="Controls\Entities\Referral\Caption\ReferralLastActionUserId.cs" />
+    <Compile Include="Controls\Entities\Referral\Edit\ReferralLastActionUserIdEditor.cs" />
+    <Compile Include="Controls\Entities\Referral\Sort\ReferralLastActionUserIdSort.cs" />
+    <Compile Include="Controls\Entities\Principal\PrincipalItem.cs" />
+    <Compile Include="Controls\Entities\Principal\PrincipalSearch.cs" />
+    <Compile Include="Controls\Entities\Principal\PrincipalEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Delete\PrincipalDelete.cs" />
+    <Compile Include="Controls\Entities\Principal\Delete\PrincipalDeleteAll.cs" />
+    <Compile Include="Controls\Entities\Principal\PrincipalCount.cs" />
+    <Compile Include="Controls\Entities\Principal\PrincipalList.cs" />
+    <Compile Include="Controls\Entities\Principal\PrincipalPagination.cs" />
+    <Compile Include="Controls\Entities\Principal\PrincipalNumberPagination.cs" />
+    <Compile Include="Controls\Entities\Principal\PrincipalPagedList.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalId.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalIdEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalIdSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalName.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalNameEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalNameSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalPassword.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalPasswordEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalPasswordSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalEmail.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalEmailEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalEmailSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalIp.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalIpEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalIpSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalRegistDate.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalRegistDateEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalRegistDateSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalLastLogin.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalLastLoginEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalLastLoginSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalApproved.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalApprovedEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalApprovedSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalIsOnline.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalIsOnlineEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalIsOnlineSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalLocked.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalLockedEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalLockedSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalLocale.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalLocaleEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalLocaleSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalConfirmationCode.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalConfirmationCodeEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalConfirmationCodeSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalRawRoles.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalRawRolesEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalRawRolesSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalExceptions.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalExceptionsEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalExceptionsSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalCreatedDate.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalCreatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalCreatedDateSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalUpdatedDate.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalUpdatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalUpdatedDateSort.cs" />
+    <Compile Include="Controls\Entities\Principal\Caption\PrincipalLastActionUserId.cs" />
+    <Compile Include="Controls\Entities\Principal\Edit\PrincipalLastActionUserIdEditor.cs" />
+    <Compile Include="Controls\Entities\Principal\Sort\PrincipalLastActionUserIdSort.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\ExceptionInfoItem.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\ExceptionInfoSearch.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\ExceptionInfoEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Delete\ExceptionInfoDelete.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Delete\ExceptionInfoDeleteAll.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\ExceptionInfoCount.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\ExceptionInfoList.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\ExceptionInfoPagination.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\ExceptionInfoNumberPagination.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\ExceptionInfoPagedList.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Caption\ExceptionInfoId.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Edit\ExceptionInfoIdEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Sort\ExceptionInfoIdSort.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Caption\ExceptionInfoName.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Edit\ExceptionInfoNameEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Sort\ExceptionInfoNameSort.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Caption\ExceptionInfoMessage.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Edit\ExceptionInfoMessageEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Sort\ExceptionInfoMessageSort.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Caption\ExceptionInfoDate.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Edit\ExceptionInfoDateEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Sort\ExceptionInfoDateSort.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Caption\ExceptionInfoPrincipal.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Edit\ExceptionInfoPrincipalEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Sort\ExceptionInfoPrincipalSort.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Caption\ExceptionInfoUrl.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Edit\ExceptionInfoUrlEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Sort\ExceptionInfoUrlSort.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Caption\ExceptionInfoStackTrace.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Edit\ExceptionInfoStackTraceEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Sort\ExceptionInfoStackTraceSort.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Caption\ExceptionInfoCreatedDate.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Edit\ExceptionInfoCreatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Sort\ExceptionInfoCreatedDateSort.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Caption\ExceptionInfoUpdatedDate.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Edit\ExceptionInfoUpdatedDateEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Sort\ExceptionInfoUpdatedDateSort.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Caption\ExceptionInfoLastActionUserId.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Edit\ExceptionInfoLastActionUserIdEditor.cs" />
+    <Compile Include="Controls\Entities\ExceptionInfo\Sort\ExceptionInfoLastActionUserIdSort.cs" />
+    <Compile Include="Controls\Generic\AdminBanner.cs" />
+    <Compile Include="Controls\Generic\ReCaptchaValidator.cs" />
+    <Compile Include="Providers\MidgardUserProvider.cs" />
+    <Compile Include="Engine\State.cs" />
+    <Compile Include="Engine\EntityUtils.cs" />
+    <Compile Include="Modules\HttpCompression.cs" />
+    <Compile Include="Controls\Generic\Label.cs" />
+    <Compile Include="Modules\IndependentLanguageModule.cs" />
+    <Compile Include="Localization\LanguageManager.cs" />
+    <Compile Include="Localization\ILanguageHandler.cs" />
+    <Compile Include="Localization\Resources.cs" />
+    <Compile Include="Localization\LanguageResources.cs" />
+    <Compile Include="Exceptions\UIException.cs" />
+    <Compile Include="Exceptions\UnAuthenticatedException.cs" />
+    <Compile Include="Exceptions\UnAuthorizedException.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DataAccessLayer/DataAccessLayer.csproj">
+      <Project>{E4EEE5D3-D7A3-45E7-A7CB-B3CF1EBB8855}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="../Core/Core.csproj">
+      <Project>{9AFE8948-7232-46CA-AFEC-A91A0DF9E2F5}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+</Project>

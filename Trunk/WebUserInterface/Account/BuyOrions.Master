@@ -1,0 +1,6 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/Account/Account.Master"Inherits="OrionsBelt.WebUserInterface.Account.BuyOrionsMaster" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+    <OrionsBeltUI:BuyOrionsMenu runat="server" />
+    <asp:ContentPlaceHolder ID="Content" runat="server" />
+</asp:Content>

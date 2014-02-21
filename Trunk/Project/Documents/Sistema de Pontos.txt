@@ -1,0 +1,92 @@
+Para melhor visionamento, aqui está o sistema de cálculo dos pontos ganhos/perdidos por batalha que o Corleone desenvolveu com "buf fix" meu diga-se assim xP
+
+Aceitam-se comentários do resto do pessoal, mas o alvo principal é o Pyro Rolling Eyes
+
+1. Sistema de contagem do valor de uma armada
+O valor de cada unidade é dado pela fórmula:
+Quote:
+Valor da Unidade = 1 / Nº de Unidades Produzidas por Turno
+Exemplo: Valor de 1 Rain = 1 / 25 = 0.04
+
+Este valor é multiplicado pelo número de unidades desse tipo de unidade. Feito isto, somam-se os valores de todas as unidades da armada.
+Exemplo: 1000 Rain, 1000 Krill > 0.04 * 1000 + 0.1 * 1000 = 800 + 1000 = 1800
+
+2. Modificadores
+Existem dois modificadores. Um dependente do Top de Rulers e outro dependente da Percentagem de Vitória.
+
+Valores do Mod Top Rulers conforme a diferença de lugares dos combatentes
+Quote:
+Diferença de Lugares » Valor do Modificador
+* 1-4 » 0
+* 5-19 » 0.1
+* 20-39 » 0.2
+* 40-59 » 0.3
+* 60 » 0.4
+* 60+ » 0.5
+
+Valores do Mod % Vitória conforme a %vitória de quem está em vantagem
+Quote:
+%Vitória » Valor do Modificador
+* 95-100% » 0.9
+* 90-94% » 0.8
+* 85-89% » 0.7
+* 80-84% » 0.6
+* 75-79% » 0.5
+* 70-74% » 0.4
+* 65-69% » 0.3
+* 60-64% » 0.2
+* 55-59% » 0.1
+* 50-54% » 0
+
+
+3. Cálculo dos pontos ganhos por Vitória
+Sinal dos Modificadores
+Se a posição no Top de Rulers for vantajosa (ou seja, se o jogador em questão estiver melhor classificado no top que o seu oponente), o Mod Top Rulers tem sinal negativo. Caso seja desvantajosa, o Mod Top Rulers tem sinal positivo.
+Exemplo:
+Player1 está em 4º lugar no Top de Rulers
+Player2 está em 14º lugar no Top de Rulers
+Ao calcular os pontos ganhos com a vitória de Player1, Mod Top Rulers = -0.1
+Se a % de vitória for superior a 50% (ou seja o jogador estar em vantagem), o Mod % Vitória tem sinal negativo. Caso esteja em desvantagem, o Mod % Vitória tem sinal positivo.
+
+Exemplo:
+Player1 tem 60% vitória, Player2 tem 40% vitória
+Ao calcular os pontos ganhos com a vitória de Player1, Mod % Vitória = -0.2
+
+Soma dos Modificadores
+Para uso na fórmula final, somam-se os 2 modificadores, Mod Top Rulers e Mod % Vitória.
+Exemplo: (considerando os exemplos anteriores) Mod Total = -0.1 -0.2 = -0.3
+
+Fórmula Final
+Quote:
+Pontos de Vitória = Valor Unid Inimigas Destruidas * ( 1 + Mod Total )
+Exemplo: (Considerando Valor UID = 2000 e Mod Total = -0.3) Pontos de Vitória = 2000 * (1 - 0.3) = 1400
+
+Nota: Máximo de pontos ganhos = 20000
+
+4. Cálculo dos pontos ganhos por Derrota
+Sinal dos Modificadores
+Se a posição no Top de Rulers for vantajosa, o Mod Top Rulers tem sinal positivo. Caso seja desvantajosa, o Mod Top Rulers tem negativo.
+Exemplo:
+Player1 está em 4º lugar no Top de Rulers
+Player2 está em 14º lugar no Top de Rulers
+Ao calcular os pontos perdidos com a derrota de Player1, Mod Top Rulers = 0.1
+Se a % de vitória for superior a 50%, o Mod % Vitória tem sinal positivo. Caso esteja em desvantagem, o Mod % Vitória tem sinal negativo.
+Exemplo:
+Player1 tem 60% vitória, Player2 tem 40% vitória
+Ao calcular os pontos perdidos com a derrota de Player1, Mod % Vitória = 0.2
+
+Soma dos Modificadores
+Para uso na fórmula final, somam-se os 2 modificadores, Mod Top Rulers e Mod % Vitória.
+Exemplo: (considerando os exemplos anteriores) Mod Total = 0.1 + 0.2 = 0.3
+
+Fórmula Final - Passo 1
+Quote:
+Pontos de Derrota Intermédia = - [ Valor Total da Armada - ( Valor Total da Armada * |Mod Total| ) ]
+Exemplo: (Considerando Valor TA = 6000 e Mod Total = 0.3) Pontos de DI = - [ 6000 - 6000 * - 0.3 ] = -7800
+
+
+Fórmula Final - Passo 2
+Quote:
+Pontos de Derrota Final = - [ |Pontos de DI| - ( Valor UID / 4 ) ]
+Exemplo: (Considerando Pontos de DI = -7800 e Valor UID = 2000) Pontos de DF = - [ |-7800| - (2000 / 4) ] = - [7800 - 500] = -7300
+

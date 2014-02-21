@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="FacilityIndexContent">
+		<lang key="de"><h2>Haupt-Gebude</h2><p>
+    Jede Rasse hat ihr eigenes Hauptgebäude, das benutzt wird um das Spieler-Level zu definieren. 
+    Die Hauptgebäude sind:
+    </p><ul><li>Das [CommandCenter] für die [LightHumans]</li><li>Die [DarknessHall] für die 
+    [DarkHumans]</li><li>Das [Nest] für die [Bugs]</li></ul><h2>Ressourcn Ansammlung</h2><p>
+    Um deine [Facilities] aufzurüsten und [CombatUnits] aufzubauen brauchst du [Intrinsic] 
+    Ressourcen. Diese Ressourcen gewonnen werden in den [PrivateZone] Planeten indem man die 
+    Extraktor Gebäude benutzt.
+  </p><h2>Einheiten bauen</h2><p>
+    Du brauchst ein spezielles Gebäude um [CombatUnits] zu bauen. Jede Rasse hat ihren eigenen 
+    Baugebäude , und diese Gebäude haben 10 Level. Jedes Level schaltet andere [CombatUnits] frei. 
+    Die Baugebäude der Einheiten sind:
+    </p><ul><li>Die [UnitYard] für [LightHumans]</li><li>Der [DominationYard] für [DarkHumans]</li><li>Der [Incubator] für die [Bugs]</li></ul>
+    Beachte dass du dieses Gebäude betriesbereit halten musst um in der Lage zu sein Einheiten zu 
+    bauen.
+  <h3>Ultimative Einheiten Konstruktion</h3><p>
+    Wir haben für jede Rasse eine Ultimative Einheit zur Verfügung. Diese Einheiten sind sehr 
+    kostenspielig und man kann sie nur in fortgeschrittenen Level erhalten. Was diese Einheiten 
+    unterscheidet ist dass sie ausserhalb des [GameBoard] positioniert werden können,
+    und sie haben sehr einzigartige Fähigkeiten:
+    </p><ul><li>
+    Die [LightHumans] können den [Blinker] bauen auf dem [BlinkerAssembler]. Der [Blinker] mit 
+    Leichtigkeit jede Einheite bewegen auf dem [GameBoard] bewegen(deine oder deines Gegners) .
+  </li><li>
+    Die [DarkHumans] können die [BattleMoon] bauen auf dem [BattleMoonAssembler]. Die [BattleMoon] 
+    kann jede gegnerische Einheit innehalbder Reichweite angreifen.
+  </li><li>
+    Die [Bugs] können die [Queen] bauen in der [QueenHatchery]. Die [Queen] kann Eier ausbrüten auf 
+    dem [GameBoard] aus denen die [Maggot] schlüpfen.
+  </li></ul><h2>Planet Level and Gebäude Level</h2><p>
+    Jeder Planet hat zwei distinktive Level die bestimmen welche [Facilities] gebaut werden können.
+    Der <u>Planet Level</u> das [ZoneLevel] im Universum, an wo der Planet sich befindet.
+    Der <u>Gebäude Level</u> zeigt das Evolutions-Level auf deinen Planeten an. In deinen 
+    [PrivateZone] Planeten benutzen wir das Hauptgebäude um den Level des Planeten zu erhalten. In 
+    der [HotZone] dagegen, benutzen wir das [Extractor] Level.
+  </p></lang>
+		<lang key="en"><h2>Main Facility</h2><p>
+    Each race has its own main facility, that's used to define the player's level. The main facilities are:
+    <ul><li>The [CommandCenter] for [LightHumans]</li><li>The [DarknessHall] for [DarkHumans]</li><li>The [Nest] for [Bugs]</li></ul></p><h2>Resource Gathering</h2><p>
+    To upgrade your [Facilities] and build [CombatUnits] you'll need [Intrinsic] resources. These resources
+    can be obtained on your [PrivateZone] planets using the extractor facilities.
+  </p><h2>Building Units</h2><p>
+    You need a special facility to build [CombatUnits]. Each race has its own unit building facility, and these
+    facilities have 10 levels. Each level unlocks different [CombatUnits]. The unit building facilities are:
+    <ul><li>The [UnitYard] for [LightHumans]</li><li>The [DominationYard] for [DarkHumans]</li><li>The [Incubator] for [Bugs]</li></ul>
+    Note that you nedd to have this facility up and running to be abe to build units.
+  </p><h3>Ultimate Unit Construction</h3><p>
+    We have available for each race an ultimate unit. These units are very expensive and can only be obtained
+    on advanced levels. What distinguishes these units is that they're positioned outside of the [GameBoard],
+    and have very unique abilities:
+    <ul><li>
+    The [LightHumans] can build the [Blinker] on the [BlinkerAssembler]. The [Blinker] can easilly
+    move every unit (your's or your opponent's) on the [GameBoard].
+  </li><li>
+    The [DarkHumans] can build the [BattleMoon] on the [BattleMoonAssembler]. The [BattleMoon] can attack
+    any adversary unit within range.
+  </li><li>
+    The [Bugs] can build the [Queen] on the [QueenHatchery]. The [Queen] can lay down eggs on the
+    [GameBoard] from the [Maggot]'s board.
+  </li></ul></p><h2>Planet Level and Facility Level</h2><p>
+    Each planet has two distinct associated levels that determine the [Facilities] that can be build.
+    The <u>Planet Level</u> indicates the [ZoneLevel] on the universe where the planet's located.
+    The <u>Facility Level</u> indicates the evolution level of your planet. On your [PrivateZone] planets
+    we use the main facility to get the planet level. On the [HotZone] however, we use the [Extractor]
+    level.
+  </p></lang>
+		<lang key="es"><h2>Edifício Principal</h2><p>
+    Cada raza tiene un edifício principal, que es usado para definir el nível del jogador. Los edifícios principales
+    son los siguientes:
+    <ul><li>[CommandCenter] para los [LightHumans]</li><li>[DarknessHall] para los [DarkHumans]</li><li>[Nest] para los [Bugs]</li></ul></p><h2>Obtención de Recursos</h2><p>
+    Para evolucionar tus edifícios y construir [CombatUnits] son necesarios recursos [Intrinsics]. Estos recursos
+    pueden ser obtenidos en los planetas de tu [PrivateZone] a través de edifícios extractores.
+  </p><h2>Construcción de Unidades</h2><p>
+    Es necesario un edifício especial para construir [CombatUnits]. Cada raza tien su edifício, y estos edifícios
+    tienen 10 niveles, y cada nível desbloquea [CombatUnits] diferentes. Los edifícios que provisionan unidades son:
+    <ul><li>[UnitYard] para los [LightHumans]</li><li>[DominationYard] para los [DarkHumans]</li><li>[Incubator] para los [Bugs]</li></ul>
+    Nota que para construir unidades es necesario que el planeta tenga su edifício activo
+    (o sea, sin estar en construcción o evolución).
+  </p><h3>Construcción de Unidades Supremas</h3><p>
+    Para cada raza está disponible uma unidad suprema. Estas unidades son muy caras y sólo pueden ser obtenidas
+    en un nivel mas avanzado. Lo que distingue estas unidades es que elas son posicionadas fuera del
+    [GameBoard] y tienen capacidades muy importantes:
+    <ul><li>
+    Los [LightHumans] pueden construir el [Blinker] en la [BlinkerAssembler]. Los [Blinker] pueden
+    mover arbritariamente unidades (tuyas o del adversário) en el [GameBoard].
+  </li><li>
+    Los [DarkHumans] pueden construir la [BattleMoon] en el [BattleMoonAssembler]. La [BattleMoon] consigue
+    disparar sobre cualquier adversário hasta un alcance determinado.
+  </li><li>
+    Los [Bugs] pueden construir la [Queen] en la [QueenHatchery]. La [Queen] consigue poner huevos
+    en el [GameBoard] de donde nace la [Maggot].
+  </li></ul></p><h2>Nível de Planeta y Nível de Edifícios</h2><p>
+    Cada planeta tem dos niveles diferentes que influyen en los edifícios que pueden ser Construidos.
+    El <u>Nível de Planeta</u> reflaja el [ZoneLevel], y el
+    <u>Nível de Edifício</u> indica el nivel de evolución del planeta. En los planetas de la [PrivateZone] es
+    usado el edifício madre para encontrar el nivel, mientras que en la  [HotZone] es usado el nivel del [Extractor].
+  </p></lang>
+		<lang key="fr"><h2>Main Facility</h2><p>
+    Chaque race possède sa propre construction principale, et cette dernièere est l'indice permettant de définir le niveau du joueur. les constructions principales sont:
+    <ul><li>Le [CommandCenter] pour les [LightHumans]</li><li>Le [DarknessHall] pour les [DarkHumans]</li><li>Le [Nest] pour les [Bugs]</li></ul></p><h2>Ramasser des ressources</h2><p>
+    Pour améliorer vos [Facilities] et construire des [CombatUnits] vous devrez obtenir des ressources[Intrinsic]. Ces ressources peuvent être obtenues à partir des planètes de votre[PrivateZone] en utilisant des extracteurs.
+  </p><h2>Construire des unités</h2><p>
+    Vous avez besoin d'un bâtiment particulier pour construire des [CombatUnits]. Chaque race possède un bâtiment unique pouvant être améliorer de 10 niveaux.. Chaque niveau permet de construire une nouvelle sorte de [CombatUnits]. Les bâtiments permettant de construire des unités sont:
+    <ul><li>Le [UnitYard] pour les [LightHumans]</li><li>Le [DominationYard] pour les [DarkHumans]</li><li>l' [Incubator] pour les [Bugs]</li></ul>
+    Notez que votre bâtiment respectif foit être complètement construit et disonble pour pouvoir construire de nouvelles unités..
+  </p><h3>Construction de l'unité ultime</h3><p>
+    Il existe une unité ultime pour chaque race. Ces unités coûtent très chères et peuvent seulement être obtenus à un niveau élevé. Ces unités distincts des autres sont positionnés à l'extérieur du [GameBoard],
+    et possèdent des capacités uniques:
+    <ul><li>
+    Les [LightHumans] peuvent construire le [Blinker] avec le [BlinkerAssembler]. Le [Blinker] Peut facilement bouger n'importqe quel unité (appartennant à vous ou l'adversaire) sur le [GameBoard].
+  </li><li>
+    Les [DarkHumans] peuvent construire le [BattleMoon] avec le [BattleMoonAssembler]. Le [BattleMoon] peut attaquer n'importe quel unité qui se trouve à portée de tir.
+  </li><li>
+    Les [Bugs] peuvent construire une [Queen] avec la [QueenHatchery]. La [Queen] peut pondre des oeufs sur le
+    [GameBoard] qui vont devenir des [Maggot]'s sur le plateau.
+  </li></ul></p><h2>Planet Level and Facility Level</h2><p>
+    Chaque planète possède 2 types de niveaux qui y sont associés qui permet de déterminer les [Facilities] qu'on peut y construire.
+    Le <u>niveau d'une planète</u> indique le [ZoneLevel] de l'univers où est situés cete planète.
+    le <u>niveau des constructions</u> indique à quel point votre planète est évolué. Sur votre [PrivateZone] c'est les constructions princiaples qui déterminent les niveaux. Dans la [HotZone] hc'est plutôt les niveaux des [Extractor]
+    qui le détermine.
+  </p></lang>
+		<lang key="hr"><h2>Glavno Postrojenje</h2><p>
+Svaka rasa ima svoje vlastito glavno postrojenje, koje služi da se definira nivo igrača. Glavna posrojenja su :
+<ul><li> [CommandCenter] za [LightHumans]</li><li> [DarknessHall] za [DarkHumans]</li><li>T[Nest] za [Bugs]</li></ul></p><h2>Skupljanje Resursa</h2><p>
+Da unaprijedite vaša [Facilities] i gradite [CombatUnits] trebaju vam [Intrinsic] resursi. Ovi resursi mogu biti ekstraktirani u [PrivateZone] planetima koristeći se postrojenjima za ekstraktiranje.
+</p><h2>Gradnja Jedinica</h2><p>
+Trebate posebno postrojenje da gradite [CombatUnits]. Svaka rasa ima svoje vlastitio postrojenje za gradnju jedinica, i ova psotrojenja imaju 10 nivoa. Svaki nivo otključava drukčije [CombatUnits]. Postrojenja za gradnju jedinica su:
+<ul><li> [UnitYard] za [LightHumans]</li><li> [DominationYard] za [DarkHumans]</li><li>[Incubator] za [Bugs]</li></ul>
+Uzmite u obzir da trebate imati ovo postrojenje da biste mogli graditi jedinice.
+ </p><h3>Konstrukcija Ultimativnih Jedinica</h3><p>
+Za svaku rasu je dostupna ultimativna jedinica. Ovo jedince su jako skupe i mogu biti napravljenje tek na napredim nivoima. Ono što ih ističe je da su one pozicionirane van [GameBoard] i imaju jedinstvene sposobnosti:
+<ul><li>
+[LightHumans] mogu graditi [Blinker] u [BlinkerAssembler].[Blinker] može jednostavno micati svaku jedinicu (vašu ili protivnikovu) na [GameBoard].
+</li><li>
+[DarkHumans] mogu graditi [BattleMoon] u [BattleMoonAssembler].[BattleMoon] može napadati bilo koju protivnikovu jedinicu unutar dometa.
+</li><li>
+[Bugs] mogu graditi [Queen] u [QueenHatchery].[Queen] može poleći jaja u  [GameBoard] iz [Maggot]'s table.
+ </li></ul></p><h2>Nivo Planeta i Nivo Postrojenja</h2><p>
+Svaki planet ima dva izrazito povezana nivoa koja određuju [Facilities] koja se mogu graditi.<u>Nivo Planeta</u> pokazuje [ZoneLevel] u svemiru gdje se planet nalazi.
+ The <u>Nivo Postrojenja</u> pokazuje evolucijsku razinu vašeg planeta. Na [PrivateZone] planetima koristimo se glavnim postrojenjem da odredimo nivo planeta. Na [HotZone] se koritimo se s nivoom [Extractor].
+</p></lang>
+		<lang key="pt"><h2>Edifício Principal</h2><p>
+    Cada raça tem um edifício principal, que é usado para definir o nível do jogador. Os edifícios principais
+    são os seguintes:
+    <ul><li>[CommandCenter] para os [LightHumans]</li><li>[DarknessHall] para os [DarkHumans]</li><li>[Nest] para os [Bugs]</li></ul></p><h2>Obtenção de Recursos</h2><p>
+    Para evoluir os teus edifícios e construir [CombatUnits] são precisos recursos [Intrinsics]. Estes recursos
+    podem ser obtidos nos planetas da tua [PrivateZone] através de edifícios extractores.
+  </p><h2>Construcção de Unidades</h2><p>
+    É preciso um edifício especial para construir [CombatUnits]. Cada raça tem o seu edifício e estes edifícios
+    têm 10 níveis, sendo que cada nível desbloqueia [CombatUnits] diferentes. Os edifícios que providenciam
+    unidades são:
+    <ul><li>[UnitYard] para os [LightHumans]</li><li>[DominationYard] para os [DarkHumans]</li><li>[Incubator] para os [Bugs]</li></ul>
+    Nota que para construir unidades é preciso o planeta ter o edifício activo
+    (ou seja, sem estar em construção ou evolução).
+  </p><h3>Construcção de Unidades Supremas</h3><p>
+    Está disponível para cada raça uma unidade suprema. Estas unidades são muito caras e só podem ser obtidas
+    num nível mais avançado. O que distingue estas unidades é que elas são posicionadas fora do
+    [GameBoard] e têm capacidades muito importantes:
+    <ul><li>
+    Os [LightHumans] podem construir o [Blinker] na [BlinkerAssembler]. O [Blinker] pode
+    mover arbritariamente unidades (tuas ou do adversário) no [GameBoard].
+  </li><li>
+    Os [DarkHumans] podem construir a [BattleMoon] no [BattleMoonAssembler]. A [BattleMoon] consegue
+    disparar sob qualquer adversário até um determinado alcance.
+  </li><li>
+    Os [Bugs] podem construir a [Queen] na [QueenHatchery]. A [Queen] consegue
+    pôr ovos no [GameBoard] de onde nasce a [Maggot].
+  </li></ul></p><h2>Nível de Planeta e Nível de Edifícios</h2><p>
+    Cada planeta tem dois níveis diferentes que influenciam os edifícios que podem ser construídos.
+    O <u>Nível de Planeta</u> reflecte o [ZoneLevel], e o
+    <u>Nível de Edifício</u> indica o nível de evolução do planeta. Nos planetas da [PrivateZone] é
+    usado o edifício mãe para encontrar o nível, enquanto que na [HotZone] é usado o nível do [Extractor].
+  </p></lang>
+	</entry>
+
+</resources>

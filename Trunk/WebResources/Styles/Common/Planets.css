@@ -1,0 +1,1125 @@
+
+/*============================
+      Planets
+=============================*/
+
+#planetsPanel 
+{
+	width:1000px;
+	padding:0;
+	margin:0 auto;
+}
+
+#planetsPanel h2
+{
+	margin:0;
+	padding:0;
+	text-align:center;
+	height:20px;
+	background: url(../../Images/Common/Planets/MasterHeader.png) no-repeat top center;
+	padding-top:7px;
+	font-size:13px;
+}
+
+#planetsPanel h3
+{
+	background: url(../../Images/Common/Planets/SubHeader.png) no-repeat top center;
+	height:18px;
+	padding:2px 0 0 8px;
+	margin:0;
+	font-size:13px;
+}
+
+#planetsPanel h4
+{
+	font-size:20px;
+	margin:20px;
+}
+
+#planetsPanel div.headerPanel
+{
+	background: url(../../Images/Common/Planets/PlanetCenterHeader.gif) no-repeat top center;
+	height:30px;
+}
+
+#planetsPanel div.headerPanel h3
+{
+	background:transparent;
+	float:left;
+	font-size:13px;
+	padding:7px 0 0 10px;
+}
+
+#planetsPanel div.headerPanel ul
+{
+	float:right;
+	margin-top:6px;
+}
+
+#planetsPanel div.headerPanel ul li
+{
+	display:inline;
+	margin:0px 20px 0 0;
+}
+
+#planetsPanel p
+{
+	font-size:12px;
+	margin:10px;
+}
+
+#planetList, #planetContentMaster, #planetFleets
+{
+	float:left;
+}
+
+#planetList
+{
+	width:175px;
+}
+
+#planetContent,#planetContentMaster
+{
+	width:650px;
+}
+
+#planetFleets
+{
+	width:175px;
+}
+
+#planetsPanel div.panelPlaceHolder 
+{
+	background: url(../../Images/Common/Planets/PanelPlaceHolderBkg.png) repeat-y;
+	padding:10px;
+}
+
+#planetsPanel div.panelPlaceHolder h4
+{
+	font-size:16px;
+	margin:0;
+	padding:0;
+}
+
+#planetsPanel div.panelPlaceHolder div.oneOfTwoPanels
+{
+	float:left;
+	width:315px;
+}
+
+#planetsPanel #planetList h2, #planetFleets h2
+{
+	background: url(../../Images/Common/Planets/MenuHeaderBkg.gif) no-repeat top center;
+	height:23px;
+	font-size:13px;
+}
+
+#planetsPanel #planetList ul{
+	background: url(../../Images/Common/Planets/MenuContentBkg.gif) repeat-y;
+	padding:8px;
+	padding-top:0;
+	overflow:auto;
+	height:650px;
+}
+
+#planetsPanel #planetList ul li ul{
+}
+
+#planetsPanel #planetFleets ul
+{
+	background: url(../../Images/Common/Planets/MenuContentBkg.gif) repeat-y;
+	padding:8px;
+	padding-top:0;
+	overflow:auto;
+}
+
+#planetsPanel #planetList ul li
+{
+	padding-bottom:5px;
+	clear:both;
+}
+
+#planetsPanel #planetList ul li div.planetInfo
+{
+	float:left;
+	text-align:center;
+	height:50px;
+	overflow:hidden;
+}
+
+#planetsPanel #planetList ul li div.planetInfo ul
+{
+	background:transparent;
+	padding:0;
+	margin-top:8px;
+	overflow:hidden;
+	width:104px;	
+}
+
+#planetsPanel #planetList ul li div.planetInfo ul li
+{
+	display:inline;
+	margin:3px;
+}
+
+#planetsPanel #planetList div.planetListEnd, #planetsPanel #planetFleets div.planetListEnd 
+{
+	background: url(../../Images/Common/Planets/MenuFooterBkg.gif) no-repeat top center;
+	height:26px;
+	clear:both;
+}
+
+#planetContent ul li
+{
+	margin:0px 0 0 0;
+	clear:both;
+}
+
+#planetContent ul
+{
+}
+
+#planetContent ul li.passed
+{
+	color:Green;
+	border: dotted 1px #272727;
+}
+
+#planetContent ul li.failed
+{
+	color:red;
+	border: dotted 1px #272727;
+}
+
+#planetBottomInfo {
+	width:650px;
+}
+
+#planetBottomInfoSquare {
+	width:325px;
+	float:left;
+}
+
+#planetBottomInfo h3 {
+	background:transparent url(../../Images/Common/Planets/PlanetBottomHeader.gif) no-repeat scroll 0 0;
+	width:325px;
+	height:21px;
+	padding:6px 1px 1px 12px
+}
+
+#planetBottomInfoContent {
+	background:transparent url(../../Images/Common/Planets/PlanetBottomBkg.gif) repeat-y scroll 0 0;
+	width:325px;
+	height:155px;
+}
+
+#planetBottomInfoContent p{
+	padding:12px 6px 0px;
+	margin:0px;
+}
+
+#planetBottomInfoBottom {
+	background:transparent url(../../Images/Common/Planets/PlanetBottomFooter.gif) no-repeat scroll 0 0;
+	height:12px;
+	width:325px;
+}
+
+/*============================
+      Light Humnas
+=============================*/
+
+#LightHumansPrivatePlanet_Facilities
+{
+	background: url(../../Images/Common/Planets/LightHumans/LightHumansPZ1.png) no-repeat top center;
+	height:475px;
+	width:650px;
+}
+
+#LightHumansPrivatePlanet_Facilities.Level3
+{
+	background: url(../../Images/Common/Planets/LightHumans/LightHumansPZ2.png) no-repeat top center;
+	height:475px;
+	width:650px;
+}
+
+#LightHumansPrivatePlanet_Facilities.Level5
+{
+	background: url(../../Images/Common/Planets/LightHumans/LightHumansPZ3.png) no-repeat top center;
+	height:475px;
+	width:650px;
+}
+
+
+#planetContent ul li div.display
+{
+	float:left;
+	width:200px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#planetContent ul li div.display img
+{
+	padding-top:50px;
+}
+
+#planetContent ul li div.info
+{
+	width:450px;
+	float:left;
+}
+
+#LightHumansPrivatePlanet_Facilities div
+{
+	text-align:center;
+}
+
+#LightHumansPrivatePlanet_Facilities div.CommandCenter
+{
+	position:relative;
+	left:180px;
+	top:0px;
+	width:73px;
+	height:263px;
+}
+
+#LightHumansPrivatePlanet_Facilities div.UnitYard
+{
+	position:relative;
+	left:20px;
+	top:-178px;
+	width:157px;
+	height:100px;
+}
+
+#LightHumansPrivatePlanet_Facilities div.BlinkerAssembler
+{
+	position:relative;
+	left:18px;
+	top:-160px;
+	width:145px;
+	height:125px;
+}
+
+#LightHumansPrivatePlanet_Facilities div.DeepSpaceScanner
+{
+	position:relative;
+	left:450px;
+	top:-480px;
+	width:176px;
+	height:118px;
+}
+
+#LightHumansPrivatePlanet_Facilities div.Silo
+{
+	position:relative;
+	left:510px;
+	top:-268px;
+	width:126px;
+	height:126px;
+}
+
+#LightHumansPrivatePlanet_Facilities div.Resource1
+{
+	position:relative;
+	left:508px;
+	top:-530px;
+	width:126px;
+	height:126px;
+}
+
+#LightHumansPrivatePlanet_Facilities div.Resource2
+{
+	position:relative;
+	left:382px;
+	top:-555px;
+	width:126px;
+	height:126px;
+}
+
+#LightHumansPrivatePlanet_Facilities div.Resource3
+{
+	position:relative;
+	left:382px;
+	top:-822px;
+	width:126px;
+	height:126px;
+}
+
+#LightHumansPrivatePlanet_Facilities div.Resource4
+{
+	position:relative;
+	left:254px;
+	top:-990px;
+	width:126px;
+	height:126px;
+}
+
+#LightHumansPrivatePlanet_Facilities div.Resource5
+{
+	position:relative;
+	left:254px;
+	top:-980px;
+	width:126px;
+	height:126px;
+}
+
+/*============================
+      Dark Humnas
+=============================*/
+
+#DarkHumansPrivatePlanet_Facilities
+{
+	background: url(../../Images/Common/Planets/DarkHumans/DarkHumansPZ1.jpg) no-repeat top center;
+	height:475px;
+	width:650px;
+}
+
+#DarkHumansPrivatePlanet_Facilities.Level3
+{
+	background: url(../../Images/Common/Planets/DarkHumans/DarkHumansPZ3.jpg) no-repeat top center;
+	height:475px;
+	width:650px;
+}
+
+#DarkHumansPrivatePlanet_Facilities.Level5
+{
+	background: url(../../Images/Common/Planets/DarkHumans/DarkHumansPZ5.jpg) no-repeat top center;
+	height:475px;
+	width:650px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div a
+{
+	text-decoration:none;
+	display:block;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.DominationYard a.empty {
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-1430px -101px;
+	display:block;
+	width:125px;
+	height:84px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.DominationYard a.inConstruction {
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-1568px -101px;
+	display:block;
+	width:125px;
+	height:84px;	
+}
+
+#DarkHumansPrivatePlanet_Facilities div a.empty,
+#DarkHumansPrivatePlanet_Facilities div.BattleMoonAssembler a.empty,
+#DarkHumansPrivatePlanet_Facilities div.Devastation a.empty
+{
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-1432px -60px;
+	display:block;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div a.inConstruction,
+#DarkHumansPrivatePlanet_Facilities div.BattleMoonAssembler a.inConstruction,
+#DarkHumansPrivatePlanet_Facilities div.Devastation a.inConstruction
+{
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-1303px -60px;
+	display:block;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.DarknessHall
+{
+	position:relative;
+	left:270px;
+	top:0px;
+	width:122px;
+	height:198px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.DarknessHall a
+{
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-41px -18px;
+	display:block;
+	width:122px;
+	height:198px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.DominationYard
+{
+	position:relative;
+	left:470px;
+	top:-80px;
+	width:122px;
+	height:84px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.DominationYard a
+{
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-241px -92px;
+	display:block;
+	width:122px;
+	height:84px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.BattleMoonAssembler
+{
+	position:relative;
+	left:400px;
+	top:-285px;
+	width:135px;
+	height:115px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.BattleMoonAssembler a
+{
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-540px -78px;
+	display:block;
+	width:135px;
+	height:115px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.Devastation
+{
+	position:relative;
+	left:100px;
+	top:-345px;
+	width:125px;
+	height:116px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.Devastation a
+{
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-374px -71px;
+	display:block;
+	width:135px;
+	height:115px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div a.baseGeneric
+{
+	display:block;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.Generic1
+{
+	position:relative;
+	left:25px;
+	top:-310px;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.Generic2
+{
+	position:relative;
+	left:25px;
+	top:-302px;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.Generic3
+{
+	position:relative;
+	left:160px;
+	top:-570px;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.Generic4
+{
+	position:relative;
+	left:160px;
+	top:-560px;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.Generic5
+{
+	position:relative;
+	left:370px;
+	top:-820px;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.Generic6
+{
+	position:relative;
+	left:510px;
+	top:-940px;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.Generic7
+{
+	position:relative;
+	left:370px;
+	top:-938px;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div.Generic8
+{
+	position:relative;
+	left:510px;
+	top:-1065px;
+	width:125px;
+	height:125px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div a.lNuclearFacility,#DarkHumansPrivatePlanet_Facilities div a.rNuclearFacility
+{
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-981px -61px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div a.lSlaveWarehouse, #DarkHumansPrivatePlanet_Facilities div a.rSlaveWarehouse
+{
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-1127px -61px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div a.lTitaniumExtractor,#DarkHumansPrivatePlanet_Facilities div a.rTitaniumExtractor
+{
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-721px -61px;
+}
+
+#DarkHumansPrivatePlanet_Facilities div a.lDevotionSanctuary, #DarkHumansPrivatePlanet_Facilities div a.rDevotionSanctuary
+{
+	background: url(../../Images/Common/Planets/DarkHumans/Facilities.png) no-repeat top center;
+	background-position:-852px -61px;
+}
+
+div.baseDarkHumansPreview
+{
+	width:120px;
+	height:190px;
+	margin:0px 0 0 45px;
+	background: url(../../Images/Common/Planets/DarkHumans/FacilitiesSmall.png) no-repeat top center;
+	background-position:0px 0px;
+}
+
+div.DarkHumansNuclearFacilityPreview
+{
+	background-position:-879px -16px;
+}
+
+div.DarkHumansDevotionSanctuaryPreview
+{
+	background-position:-752px -16px;
+}
+
+div.DarkHumansTitaniumExtractorPreview
+{
+	background-position:-621px -16px;
+}
+
+div.DarkHumansSlaveWarehousePreview
+{
+	background-position:-1008px -16px;
+}
+
+div.DarkHumansDominationYardPreview
+{
+	background-position:-170px -16px;
+}
+
+div.DarkHumansBattleMoonAssemblerPreview
+{
+	background-position:-472px -16px;
+}
+
+div.DarkHumansDarknessHallPreview
+{
+	background-position:-11px -8px;
+}
+
+div.DarkHumansDevastationPreview
+{
+	background-position:-315px -16px;
+}
+
+div.DarkHumansExtractorPreview
+{
+	background-position:-1160px 8px;
+}
+
+/*============================
+      Bugs
+=============================*/
+
+#BugsPrivatePlanet_Facilities
+{
+	background: url(../../Images/Common/Planets/Bugs/BugsPZ1.jpg) no-repeat top center;
+	height:475px;
+	width:650px;
+}
+
+#BugsPrivatePlanet_Facilities.Level3
+{
+	background: url(../../Images/Common/Planets/Bugs/BugsPZ3.jpg) no-repeat top center;
+} 
+
+#BugsPrivatePlanet_Facilities.Level5
+{
+	background: url(../../Images/Common/Planets/Bugs/BugsPZ5.jpg) no-repeat top center;
+} 
+
+#BugsPrivatePlanet_Facilities div a
+{
+	text-decoration:none;
+	display:block;
+}
+
+#BugsPrivatePlanet_Facilities div a.empty,
+#BugsPrivatePlanet_Facilities div.Incubator a.empty,
+#BugsPrivatePlanet_Facilities div.WormHoleCreator a.empty,
+#BugsPrivatePlanet_Facilities div.QueenHatchery a.empty
+{
+	background: url(../../Images/Common/Planets/Bugs/Facilities.png) no-repeat top center;
+	background-position:-1015px -57px;
+	display:block;
+}
+
+#BugsPrivatePlanet_Facilities div.Incubator a.empty
+{
+	background-position:-990px -0px;
+}
+
+#BugsPrivatePlanet_Facilities div.WormHoleCreator a.empty
+{
+	background-position:-995px -0px;
+}
+
+#BugsPrivatePlanet_Facilities div.QueenHatchery a.empty
+{
+	background-position:-995px -0px;
+}
+
+#BugsPrivatePlanet_Facilities div a.inConstruction,
+#BugsPrivatePlanet_Facilities div.Incubator a.inConstruction,
+#BugsPrivatePlanet_Facilities div.WormHoleCreator a.inConstruction,
+#BugsPrivatePlanet_Facilities div.QueenHatchery a.inConstruction
+{
+	background: url(../../Images/Common/Planets/Bugs/Facilities.png) no-repeat top center;
+	background-position:-1170px -57px;
+	display:block;
+}
+
+#BugsPrivatePlanet_Facilities div.Incubator a.inConstruction
+{
+	background-position:-1140px -0px;
+}
+
+#BugsPrivatePlanet_Facilities div.WormHoleCreator a.inConstruction
+{
+	background-position:-1155px -10px;
+}
+
+#BugsPrivatePlanet_Facilities div.QueenHatchery a.inConstruction
+{
+	background-position:-1115px 0px;
+}
+
+#BugsPrivatePlanet_Facilities div a.inConstruction, #BugsPrivatePlanet_Facilities div a.empty
+{
+	width:100px;
+	height:113px;
+}
+
+#BugsPrivatePlanet_Facilities div.Nest
+{
+	position:relative;
+	left:220px;
+	top:0px;
+	width:220px;
+	height:200px;
+}
+
+#BugsPrivatePlanet_Facilities div.Nest a
+{
+	background: url(../../Images/Common/Planets/Bugs/Facilities.png) no-repeat top center;
+	background-position:-5px -10px;
+	display:block;
+	width:220px;
+	height:200px;
+}
+
+#BugsPrivatePlanet_Facilities div.Incubator
+{
+	position:relative;
+	left:250px;
+	top:90px;
+	width:145px;
+	height:175px;
+}
+
+#BugsPrivatePlanet_Facilities div.Incubator a
+{
+	background: url(../../Images/Common/Planets/Bugs/Facilities.png) no-repeat top center;
+	background-position:-235px -25px;
+	display:block;
+	width:145px;
+	height:175px;
+}
+
+#BugsPrivatePlanet_Facilities div.WormHoleCreator
+{
+	position:relative;
+	left:480px;
+	top:-340px;
+	width:136px;
+	height:216px;
+}
+
+#BugsPrivatePlanet_Facilities div.WormHoleCreator a
+{
+	background: url(../../Images/Common/Planets/Bugs/Facilities.png) no-repeat top center;
+	background-position:-395px -35px;
+	display:block;
+	width:136px;
+	height:150px;
+}
+
+#BugsPrivatePlanet_Facilities div.QueenHatchery
+{
+	position:relative;
+	left:35px;
+	top:-585px;
+	width:179px;
+	height:180px;
+}
+
+#BugsPrivatePlanet_Facilities div.QueenHatchery a
+{
+	background: url(../../Images/Common/Planets/Bugs/Facilities.png) no-repeat top center;
+	background-position:-545px -38px;
+	display:block;
+	width:179px;
+	height:180px;
+}
+
+#BugsPrivatePlanet_Facilities div a.ElkExtractor
+{
+	background: url(../../Images/Common/Planets/Bugs/Facilities.png) no-repeat top center;
+	background-position:-870px -75px;
+	display:block;
+	width:100px;
+	height:113px;
+}
+
+#BugsPrivatePlanet_Facilities div a.ProtolExtractor
+{
+	background: url(../../Images/Common/Planets/Bugs/Facilities.png) no-repeat top center;
+	background-position:-745px -75px;
+	display:block;
+	width:100px;
+	height:113px;
+}
+
+#BugsPrivatePlanet_Facilities div.Resource1
+{
+	position:relative;
+	left:15px;
+	top:-545px;
+	width:100px;
+	height:113px;
+}
+
+#BugsPrivatePlanet_Facilities div.Resource2
+{
+	position:relative;
+	left:125px;
+	top:-620px;
+	width:100px;
+	height:113px;
+}
+
+#BugsPrivatePlanet_Facilities div.Resource3
+{
+	position:relative;
+	left:415px;
+	top:-740px;
+	width:100px;
+	height:113px;
+}
+
+#BugsPrivatePlanet_Facilities div.Resource4
+{
+	position:relative;
+	left:525px;
+	top:-870px;
+	width:100px;
+	height:113px;
+}
+
+div.baseBugsPreview
+{
+	width:200px;
+	height:190px;
+	margin:0px;
+	background: url(../../Images/Common/Planets/Bugs/FacilitiesSmall.png) no-repeat top center;
+	background-position:0px 0px;
+}
+
+div.BugsNestPreview
+{
+	background-position:-38px -24px;
+}
+
+div.BugsElkExtractorPreview
+{
+	background-position:-935px -27px;
+}
+
+div.BugsProtolExtractorPreview
+{
+	background-position:-793px -18px;
+}
+
+div.BugsIncubatorPreview
+{
+	background-position:-237px 0;
+}
+
+div.BugsWormHoleCreatorPreview
+{
+	background-position:-417px -25px;
+}
+
+div.BugsQueenHatcheryPreview
+{
+	background-position:-603px -31px;
+}
+
+div.BugsExtractorPreview
+{
+	background-position:-1092px 16px;
+}
+
+
+/*============================
+      Generic Planet
+=============================*/
+
+#GenericPlanet_Terrest_Facilities
+{
+	background: url(../../Images/Common/Planets/Global/Terrest.jpg) no-repeat top center;
+	height:435px;
+	width:650px;
+}
+
+#GenericPlanet_Desert_Facilities
+{
+	background: url(../../Images/Common/Planets/Global/Desert.jpg) no-repeat top center;
+	height:435px;
+	width:650px;
+}
+
+#GenericPlanet_Forest_Facilities
+{
+	background: url(../../Images/Common/Planets/Global/Forest.jpg) no-repeat top center;
+	height:435px;
+	width:650px;
+}
+
+#GenericPlanet_Rock_Facilities
+{
+	background: url(../../Images/Common/Planets/Global/Rock.jpg) no-repeat top center;
+	height:435px;
+	width:650px;
+}
+
+#GenericPlanet_Ice_Facilities
+{
+	background: url(../../Images/Common/Planets/Global/Ice.jpg) no-repeat top center;
+	height:435px;
+	width:650px;
+}
+
+#GenericPlanet_Water_Facilities
+{
+	background: url(../../Images/Common/Planets/Global/Water.jpg) no-repeat top center;
+	height:435px;
+	width:650px;
+}
+
+#GenericPlanet_Water_Facilities div.GenericSlot1,
+#GenericPlanet_Ice_Facilities div.GenericSlot1,
+#GenericPlanet_Rock_Facilities div.GenericSlot1,
+#GenericPlanet_Forest_Facilities div.GenericSlot1,
+#GenericPlanet_Terrest_Facilities div.GenericSlot1,
+#GenericPlanet_Desert_Facilities div.GenericSlot1
+{
+	position:relative;
+	left:190px;
+	top:70px;
+	width:126px;
+	height:126px;
+}
+
+#GenericPlanet_Water_Facilities div.GenericSlot2,
+#GenericPlanet_Ice_Facilities div.GenericSlot2,
+#GenericPlanet_Rock_Facilities div.GenericSlot2,
+#GenericPlanet_Forest_Facilities div.GenericSlot2,
+#GenericPlanet_Terrest_Facilities div.GenericSlot2,
+#GenericPlanet_Desert_Facilities div.GenericSlot2
+{
+	position:relative;
+	left:330px;
+	top:20px;
+	width:126px;
+	height:126px;
+}
+
+#GenericPlanet_Terrest_Facilities div.GenericSlot1
+{
+	left:275px;
+	top:65px;
+}
+
+#GenericPlanet_Terrest_Facilities div.GenericSlot2
+{
+	left:440px;
+	top:7px;
+}
+
+#GenericPlanet_Rock_Facilities div.GenericSlot1
+{
+	left:270px;
+	top:115px;
+}
+
+#GenericPlanet_Rock_Facilities div.GenericSlot2
+{
+	left:409px;
+	top:37px;
+}
+
+.facilitiesBuild {
+	background: url(../../Images/Common/Planets/BigPanelBkg.png) repeat-y;
+	overflow:hidden;
+}
+
+
+.facilitiesBuildEnd {
+	height:1px;
+	background-color:Black;
+	width:650px;
+	clear:both;	
+}
+
+/*============================
+      Units
+=============================*/
+
+#planetContent ul.buildUnits li
+{
+	background: url(../../Images/Common/Planets/BuildUnitsBkg.gif) no-repeat top center;
+	height:90px;
+}
+#planetContent ul.buildUnits li div.info img, ul.resources li img
+{
+	width:25px;
+	height:25px;
+}
+	
+#planetContent ul.buildUnits li div.preview
+{
+	float:left;
+	margin:0px;
+	height:90px;
+	width:135px;
+	text-align:center;
+}
+
+#planetContent ul.buildUnits li div.preview img
+{
+	height:85px;
+}
+
+#planetContent ul.buildUnits li div.info
+{
+	float:left;
+	background:none;
+	margin:0 0 0 10px;
+	height:90px;
+	width:365px;
+}
+
+#planetContent ul.buildUnits li div.info h4
+{
+	font-size:16px;
+	margin:0;
+	padding:10px 0 0 10px;
+}
+
+#planetContent ul.buildUnits li div.info p
+{
+	margin:0px;
+}
+
+#planetContent ul.buildUnits li div.buildQuantity p
+{
+	margin:0;
+	padding: 3px 0 3px 0;
+}
+
+/*============================
+      Resources
+=============================*/
+
+#planetContent ul.resources
+{
+	display:inline;
+}
+
+#planetContent ul.resources li
+{
+	border:0;
+	display:inline;
+	margin-left:5px;
+	background-image:none;
+}
+
+#planetContent ul.rules li
+{
+	border:0;
+}
+
+
+/*============================
+      Fleet Creation
+=============================*/
+
+#createFleet {
+	text-align:center;	
+}
+
+#createFleet div{
+
+}
+
+#saveChangesDiv{
+	background-image:url(../../Images/Common/Planets/PanelPlaceHolderBkg.png);
+	padding:5px 20px;
+	text-align:right;
+}

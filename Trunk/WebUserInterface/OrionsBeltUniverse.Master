@@ -1,0 +1,32 @@
+<%@ Master Language="C#" MasterPageFile="~/OrionsBeltMaster.Master" AutoEventWireup="false" CodeBehind="OrionsBeltUniverse.master.cs" Inherits="OrionsBelt.WebUserInterface.OrionsBeltUniverse" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+	<div>
+        <OrionsBeltUI:GameMenu runat="server" />
+		<div id='resourcesMenu'>
+		    <div id='resourcesMenuGenericInfo'>
+		        <OrionsBeltUI:PlayerOrions runat="server" />
+		        <OrionsBeltUI:PlayerResources runat="server" />
+		        <OrionsBeltUI:PlayerUltimateWeapon  runat="server" />
+		    </div>
+		    <div id='resourcesMenuTick'>
+		        <OrionsBeltUI:NextTick runat="server" />
+		    </div>
+		</div>
+    </div>
+    <div>
+        <OrionsBeltUI:Warnings runat="server" />
+		<OrionsBeltUI:SuccessBoard runat="server" />
+		<OrionsBeltUI:InformationBoard runat="server" />
+		<OrionsBeltUI:ErrorBoard runat="server" />
+    </div>
+    <div style="width:990px;margin:auto;">
+        <asp:ContentPlaceHolder ID="Content" runat="server" />
+    </div>
+    <div class='clear'></div>
+    <div id='siteFooter'>
+        <OrionsBeltUI:LatestPlayersOnline ID="LatestPlayersOnline1" runat="server" />
+        <OrionsBeltUI:UsefullLinks ID="UsefullLinks1" runat="server" />
+    </div>
+	
+</asp:Content>

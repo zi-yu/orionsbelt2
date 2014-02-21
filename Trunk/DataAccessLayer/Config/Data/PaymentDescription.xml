@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection>
+  <PaymentDescription Type="Paypal" Amount="400" Bonus="200" Cost="1.99" Currency="&euro;" />
+  <PaymentDescription Type="Paypal" Amount="1000" Bonus="800" Cost="4.99" Currency="&euro;" />
+  <PaymentDescription Type="Paypal" Amount="2000" Bonus="2000" Cost="9.99" Currency="&euro;" />
+  <PaymentDescription Type="Paypal" Amount="4000" Bonus="6000" Cost="19.99" Currency="&euro;" />
+  <PaymentDescription Type="SMS" Amount="400" Bonus="0" Cost="2" Currency="&euro;" Data="3999" Locale="pt" />
+  <PaymentDescription Type="SMS" Amount="800" Bonus="100" Cost="4" Currency="&euro;" Data="3331" Locale="pt" />
+  <PaymentDescription Type="PaySafe" Amount="400" Bonus="200" Cost="2" Currency="&euro;" />
+  <PaymentDescription Type="PaySafe" Amount="1000" Bonus="800" Cost="5" Currency="&euro;" />
+  <PaymentDescription Type="PaySafe" Amount="2000" Bonus="2000" Cost="10" Currency="&euro;" />
+  <PaymentDescription Type="PaySafe" Amount="4000" Bonus="6000" Cost="20" Currency="&euro;" />
+</Collection>

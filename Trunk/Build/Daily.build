@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<project name="DailyBuild" default="build-all" basedir=".">
+	<description>Project daily build</description>
+
+	<!--
+		Properties and settings
+	-->
+	<property name="projectName" value="Orion's Belt" />
+	<property name="root" value="../../" />
+
+	<property name="now" value="${datetime::now()}" />
+	<property name="date" value="${datetime::now()}" />
+
+	<!--
+		Clean - erases code
+	-->
+	<target name="clean" description="erases code">
+		<delete dir="${root}/Loki" />
+		<delete dir="${root}/Odin" />
+		<delete dir="${root}/Plugins" />
+		<delete dir="${root}/TestProjects" />
+		<delete dir="${root}/Tests" />
+	</target>
+
+	<!--
+		Build
+	-->
+	<target name="build-all" description="builds the project">
+		<echo message="Building project..." />
+		<nant buildfile="../Midgard.build" target="test-projects" />
+	</target>
+
+	<!--
+		Build report
+	-->
+	<target name="build-report" description="prepares the build report">
+	
+		<property name="svnInfo" value="No SVN Info" />
+		<loadfile property="svnInfo" file="SvnInfo.txt" failonerror="false" />
+		<property name="nantOutput" value="No NAnt Info" />
+		<loadfile property="nantOutput" file="NAntOutput.txt" failonerror="false"/>	
+		
+		<!-- NUnit reports -->
+		<echo message="Processing NUnit files" />
+		<foreach item="File" property="filename">
+			<in>
+				<items>
+					<include name="*results.xml" />
+				</items>
+			</in>
+			<do>
+				<echo message="File: ${filename}" />
+				<style style="NUnitResult.xslt" in="${filename}" out="${filename}.html">
+			    <parameters>
+				    <parameter name="assembly" namespaceuri="" value="${string::replace(path::get-file-name(filename), '-results.xml', '')}" />
+			    </parameters>
+		    </style>
+        <style style="NUnitFailedTests.xslt" in="${filename}" out="${filename}.failed.html">
+          <parameters>
+            <parameter name="assembly" namespaceuri="" value="${string::replace(path::get-file-name(filename), '-results.xml', '')}" />
+          </parameters>
+        </style>
+			</do>
+		</foreach>
+	
+		<echo message="Building NAnt Report" />	
+		<!-- Nant build report -->
+		<style style="NAntBuildReport.xslt" in="Build.log.xml" out="Report.html">
+      <parameters>
+        <parameter name="svnInfo" namespaceuri="" value="${svnInfo}" />
+        <parameter name="date" namespaceuri="" value="${date}" />
+        <parameter name="nantOutput" namespaceuri="" value="${nantOutput}" />
+        <parameter name="nunitReport" namespaceuri="" value="${report::nunit()}" />
+        <parameter name="nunitFailedTests" namespaceuri="" value="${report::failedTests()}" />
+      </parameters>
+		</style>
+		
+		<!-- mail subject result -->
+		<style style="NAntResult.xslt" in="Build.log.xml" out="Result.txt" />
+	</target>
+	
+	<script language="C#" prefix="report" >
+          <code>
+            <![CDATA[
+              [Function("nunit")]
+              public static string Nunit() 
+              {
+                  DirectoryInfo dir = new DirectoryInfo(".");
+                  string[] files = Directory.GetFiles(dir.FullName, "*results.xml.html");
+                  if( files == null || files.Length == 0 ) {
+				            return "No files found";
+                  }
+                  using( TextWriter writer = new StringWriter() ) {
+				            foreach( string file in files ) {
+					            writer.Write(File.ReadAllText(file));
+				            }
+				            return writer.ToString();
+                  }
+              }
+              [Function("failedTests")]
+              public static string FailedTests() 
+              {
+                  DirectoryInfo dir = new DirectoryInfo(".");
+                  string[] files = Directory.GetFiles(dir.FullName, "*results.xml.failed.html");
+                  if( files == null || files.Length == 0 ) {
+				            return string.Empty;
+                  }
+                  using( TextWriter writer = new StringWriter() ) {
+				            foreach( string file in files ) {
+					            writer.Write(File.ReadAllText(file));
+				            }
+				            return writer.ToString();
+                  }
+              }
+            ]]>
+          </code>
+      </script>
+
+	<!--
+		Notification
+	-->
+	<target name="sendmail">
+	
+		<property name="result" value="FAIL" />
+		<loadfile property="result" file="Result.txt" failonerror="false" />
+		<property name="mailSubject" value="${projectName} daily build - ${result}" />
+
+		<echo message="Sending report '${mailSubject}'" />
+		<mail 	format="Html"
+			from="ob.dev@pdmfc.com" 
+			tolist="ob.dev@pdmfc.com" 
+			cclist="donbonifacio@gmail.com"
+			subject="${mailSubject}" 
+			mailhost="localhost">
+		    <files>
+			<include name="Report.html" />
+		    </files>   
+		    <!--attachments>
+			<include name="*.zip" />
+		    </attachments-->
+		</mail>
+	</target>
+	
+
+</project>

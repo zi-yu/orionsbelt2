@@ -1,0 +1,9 @@
+<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/OrionsBeltMaster.Master" Inherits="OrionsBelt.WebUserInterface.Profile.PrincipalProfileMaster" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">
+    <OrionsBeltUI:SuccessBoard ID="SuccessBoard1" runat="server" />
+	<OrionsBeltUI:InformationBoard ID="InformationBoard1" runat="server" />
+	<OrionsBeltUI:ErrorBoard ID="ErrorBoard1" runat="server" />
+	
+    <asp:ContentPlaceHolder ID="Content" runat="server" ></asp:ContentPlaceHolder>
+</asp:Content>

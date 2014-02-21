@@ -1,0 +1,442 @@
+Date,Action,Time Taken
+21-03-2012 13:36:21,FleetMovement,17.001
+21-03-2012 13:36:21,AuctionTimeout,6.0003
+21-03-2012 13:36:21,MarketReinforce,5.0003
+21-03-2012 13:36:21,VacationTimeout,3.0002
+21-03-2012 13:36:21,AutoStartVacationsHandler,9.0005
+Number of moving fleet:,0,In a total of:,0
+Number of moving fleet:,0,In a total of:,0
+21-03-2012 13:46:49,FleetMovement,23020.3166
+21-03-2012 13:46:50,AuctionTimeout,6.0003
+21-03-2012 13:46:50,VacationTimeout,4.0002
+21-03-2012 13:46:50,AutoStartVacationsHandler,10.0006
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 13:56:52,FleetMovement,2931.1677
+21-03-2012 13:56:53,AuctionTimeout,8.0004
+21-03-2012 13:56:53,VacationTimeout,3.0002
+21-03-2012 13:56:53,AutoStartVacationsHandler,13.0008
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 14:06:52,FleetMovement,2040.1167
+21-03-2012 14:06:52,AuctionTimeout,2.0002
+21-03-2012 14:06:52,VacationTimeout,2.0001
+21-03-2012 14:06:52,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 14:16:51,FleetMovement,1924.11
+21-03-2012 14:16:52,AuctionTimeout,2.0001
+21-03-2012 14:16:52,VacationTimeout,2.0001
+21-03-2012 14:16:52,AutoStartVacationsHandler,2.0001
+21-03-2012 14:16:52,EndBounties,6.0003
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 14:26:52,FleetMovement,2004.1146
+21-03-2012 14:26:52,AuctionTimeout,3.0002
+21-03-2012 14:26:52,VacationTimeout,2.0001
+21-03-2012 14:26:52,AutoStartVacationsHandler,1.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 14:36:52,FleetMovement,2010.115
+21-03-2012 14:36:52,AuctionTimeout,3.0001
+21-03-2012 14:36:52,VacationTimeout,2.0001
+21-03-2012 14:36:52,AutoStartVacationsHandler,5.0003
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 14:46:52,FleetMovement,1991.1139
+21-03-2012 14:46:52,AuctionTimeout,3.0001
+21-03-2012 14:46:52,VacationTimeout,6.0003
+21-03-2012 14:46:52,AutoStartVacationsHandler,6.0003
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 14:56:51,FleetMovement,1904.109
+21-03-2012 14:56:52,AuctionTimeout,3.0002
+21-03-2012 14:56:52,VacationTimeout,2.0001
+21-03-2012 14:56:52,AutoStartVacationsHandler,1.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 15:06:52,FleetMovement,1970.1127
+21-03-2012 15:06:52,AuctionTimeout,3.0002
+21-03-2012 15:06:52,VacationTimeout,2.0001
+21-03-2012 15:06:52,AutoStartVacationsHandler,2.0001
+21-03-2012 15:06:52,EndBounties,1.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 15:16:52,FleetMovement,1941.111
+21-03-2012 15:16:52,AuctionTimeout,3.0001
+21-03-2012 15:16:52,VacationTimeout,2.0001
+21-03-2012 15:16:52,AutoStartVacationsHandler,5.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 15:26:52,FleetMovement,1980.1132
+21-03-2012 15:26:52,AuctionTimeout,2.0001
+21-03-2012 15:26:52,VacationTimeout,2.0001
+21-03-2012 15:26:52,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 15:36:52,FleetMovement,1969.1126
+21-03-2012 15:36:52,AuctionTimeout,3.0002
+21-03-2012 15:36:52,VacationTimeout,2.0001
+21-03-2012 15:36:52,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 15:46:52,FleetMovement,1899.1087
+21-03-2012 15:46:52,AuctionTimeout,2.0001
+21-03-2012 15:46:52,VacationTimeout,2.0002
+21-03-2012 15:46:52,AutoStartVacationsHandler,1
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+21-03-2012 15:56:52,FleetMovement,1950.1115
+21-03-2012 15:56:52,AuctionTimeout,2.0001
+21-03-2012 15:56:52,VacationTimeout,2.0002
+21-03-2012 15:56:52,AutoStartVacationsHandler,2.0001
+21-03-2012 15:56:52,EndBounties,1.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 12:12:53,FleetMovement,2016.1153
+23-03-2012 12:12:53,AuctionTimeout,6.0003
+23-03-2012 12:12:53,VacationTimeout,3.0001
+23-03-2012 12:12:53,AutoStartVacationsHandler,3.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 12:22:55,FleetMovement,1957.1119
+23-03-2012 12:22:55,AuctionTimeout,6.0003
+23-03-2012 12:22:55,VacationTimeout,2.0001
+23-03-2012 12:22:55,AutoStartVacationsHandler,4.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 12:32:54,FleetMovement,1641.0939
+23-03-2012 12:32:55,AuctionTimeout,2.0001
+23-03-2012 12:32:55,VacationTimeout,1
+23-03-2012 12:32:55,AutoStartVacationsHandler,1.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 12:42:54,FleetMovement,1668.0954
+23-03-2012 12:42:55,AuctionTimeout,3.0002
+23-03-2012 12:42:55,VacationTimeout,2.0001
+23-03-2012 12:42:55,AutoStartVacationsHandler,1
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 12:52:54,FleetMovement,1651.0944
+23-03-2012 12:52:55,AuctionTimeout,3.0002
+23-03-2012 12:52:55,VacationTimeout,1
+23-03-2012 12:52:55,AutoStartVacationsHandler,1.0001
+23-03-2012 12:52:55,EndBounties,4.0003
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 13:02:54,FleetMovement,1605.0918
+23-03-2012 13:02:55,AuctionTimeout,3.0001
+23-03-2012 13:02:55,VacationTimeout,2.0001
+23-03-2012 13:02:55,AutoStartVacationsHandler,1
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 13:17:07,FleetMovement,2311.1322
+23-03-2012 13:17:10,AuctionTimeout,2.0001
+23-03-2012 13:17:10,VacationTimeout,2.0002
+23-03-2012 13:17:10,AutoStartVacationsHandler,1.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 13:27:07,FleetMovement,1572.0899
+23-03-2012 13:27:07,AuctionTimeout,2.0001
+23-03-2012 13:27:07,VacationTimeout,2.0001
+23-03-2012 13:27:07,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 14:42:52,FleetMovement,3541.2025
+23-03-2012 14:42:53,AuctionTimeout,5.0003
+23-03-2012 14:42:53,VacationTimeout,9.0005
+23-03-2012 14:42:53,AutoStartVacationsHandler,4.0003
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 14:52:50,FleetMovement,2174.1243
+23-03-2012 14:52:51,AuctionTimeout,3.0002
+23-03-2012 14:52:51,VacationTimeout,2.0001
+23-03-2012 14:52:51,AutoStartVacationsHandler,4.0002
+23-03-2012 14:52:51,EndBounties,4.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 15:02:50,FleetMovement,2194.1255
+23-03-2012 15:02:51,AuctionTimeout,3.0002
+23-03-2012 15:02:51,VacationTimeout,2.0002
+23-03-2012 15:02:51,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 15:12:50,FleetMovement,2060.1179
+23-03-2012 15:12:51,AuctionTimeout,3.0002
+23-03-2012 15:12:51,VacationTimeout,3.0002
+23-03-2012 15:12:51,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 15:22:52,FleetMovement,2638.1509
+23-03-2012 15:22:54,AuctionTimeout,4.0002
+23-03-2012 15:22:54,VacationTimeout,3.0002
+23-03-2012 15:22:54,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 15:32:51,FleetMovement,2096.1199
+23-03-2012 15:32:52,AuctionTimeout,3.0002
+23-03-2012 15:32:52,VacationTimeout,3.0001
+23-03-2012 15:32:52,AutoStartVacationsHandler,5.0003
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 15:42:51,FleetMovement,2136.1222
+23-03-2012 15:42:52,AuctionTimeout,3.0002
+23-03-2012 15:42:52,VacationTimeout,3.0002
+23-03-2012 15:42:52,AutoStartVacationsHandler,5.0003
+23-03-2012 15:42:52,EndBounties,4.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 15:55:34,FleetMovement,2946.1685
+23-03-2012 15:55:36,AuctionTimeout,3.0002
+23-03-2012 15:55:36,VacationTimeout,3.0001
+23-03-2012 15:55:36,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 16:05:33,FleetMovement,2050.1173
+23-03-2012 16:05:34,AuctionTimeout,3.0002
+23-03-2012 16:05:34,VacationTimeout,2.0001
+23-03-2012 16:05:34,AutoStartVacationsHandler,2.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 16:15:33,FleetMovement,2036.1165
+23-03-2012 16:15:34,AuctionTimeout,3.0002
+23-03-2012 16:15:34,VacationTimeout,2.0001
+23-03-2012 16:15:34,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 16:25:33,FleetMovement,2186.1251
+23-03-2012 16:37:24,AuctionTimeout,4.0003
+23-03-2012 16:37:24,VacationTimeout,3.0002
+23-03-2012 16:37:25,AutoStartVacationsHandler,3.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 16:47:22,FleetMovement,2442.1397
+23-03-2012 16:47:22,AuctionTimeout,3.0001
+23-03-2012 16:47:22,VacationTimeout,2.0001
+23-03-2012 16:47:22,AutoStartVacationsHandler,2.0001
+23-03-2012 16:47:22,EndBounties,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+23-03-2012 16:57:21,FleetMovement,2323.1329
+23-03-2012 16:57:22,AuctionTimeout,3.0001
+23-03-2012 16:57:22,VacationTimeout,2.0001
+23-03-2012 16:57:22,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 10:20:47,FleetMovement,3327.1903
+26-03-2012 10:20:48,AuctionTimeout,47.0027
+26-03-2012 10:20:48,VacationTimeout,79.0045
+26-03-2012 10:20:48,AutoStartVacationsHandler,100.0057
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 10:30:51,FleetMovement,3001.1717
+26-03-2012 10:30:51,AuctionTimeout,9.0005
+26-03-2012 10:30:51,VacationTimeout,4.0002
+26-03-2012 10:30:51,AutoStartVacationsHandler,12.0007
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 10:40:55,FleetMovement,3053.1746
+26-03-2012 10:40:55,AuctionTimeout,8.0004
+26-03-2012 10:40:55,VacationTimeout,4.0002
+26-03-2012 10:40:55,AutoStartVacationsHandler,5.0003
+26-03-2012 10:40:55,EndBounties,59.0034
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 10:50:55,FleetMovement,3218.184
+26-03-2012 10:50:55,AuctionTimeout,3.0002
+26-03-2012 10:50:56,VacationTimeout,5.0003
+26-03-2012 10:50:56,AutoStartVacationsHandler,4.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 11:00:55,FleetMovement,3131.1791
+26-03-2012 11:00:55,AuctionTimeout,3.0002
+26-03-2012 11:00:55,VacationTimeout,2.0001
+26-03-2012 11:00:55,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 11:10:55,FleetMovement,3357.1921
+26-03-2012 11:10:56,AuctionTimeout,3.0002
+26-03-2012 11:10:56,VacationTimeout,2.0002
+26-03-2012 11:10:56,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 11:20:54,FleetMovement,2792.1597
+26-03-2012 11:20:55,AuctionTimeout,3.0002
+26-03-2012 11:20:55,VacationTimeout,2.0001
+26-03-2012 11:20:55,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 11:30:55,FleetMovement,3532.202
+26-03-2012 11:30:56,AuctionTimeout,3.0002
+26-03-2012 11:30:56,VacationTimeout,6.0003
+26-03-2012 11:30:56,AutoStartVacationsHandler,5.0002
+26-03-2012 11:30:56,EndBounties,4.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 11:40:55,FleetMovement,3462.1981
+26-03-2012 11:40:56,AuctionTimeout,3.0002
+26-03-2012 11:40:56,VacationTimeout,2.0002
+26-03-2012 11:40:56,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 11:50:55,FleetMovement,3107.1777
+26-03-2012 11:50:55,AuctionTimeout,3.0001
+26-03-2012 11:50:55,VacationTimeout,2.0001
+26-03-2012 11:50:55,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 12:00:55,FleetMovement,3755.2148
+26-03-2012 12:00:56,AuctionTimeout,3.0002
+26-03-2012 12:00:56,VacationTimeout,2.0001
+26-03-2012 12:00:56,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 12:10:55,FleetMovement,3130.179
+26-03-2012 12:10:55,AuctionTimeout,3.0002
+26-03-2012 12:10:55,VacationTimeout,2.0001
+26-03-2012 12:10:55,AutoStartVacationsHandler,2.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 12:20:55,FleetMovement,3248.1858
+26-03-2012 12:20:56,AuctionTimeout,3.0001
+26-03-2012 12:20:56,VacationTimeout,2.0001
+26-03-2012 12:20:56,AutoStartVacationsHandler,2.0001
+26-03-2012 12:20:56,EndBounties,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 12:30:55,FleetMovement,3295.1885
+26-03-2012 12:30:56,AuctionTimeout,3.0002
+26-03-2012 12:30:56,VacationTimeout,3.0002
+26-03-2012 12:30:56,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 12:40:55,FleetMovement,3353.1918
+26-03-2012 12:40:56,AuctionTimeout,3.0002
+26-03-2012 12:40:56,VacationTimeout,2.0001
+26-03-2012 12:40:56,AutoStartVacationsHandler,2.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 12:50:55,FleetMovement,3661.2094
+26-03-2012 12:50:56,AuctionTimeout,3.0002
+26-03-2012 12:50:56,VacationTimeout,2.0001
+26-03-2012 12:50:56,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 13:00:55,FleetMovement,3230.1847
+26-03-2012 13:00:55,AuctionTimeout,3.0002
+26-03-2012 13:00:56,VacationTimeout,6.0003
+26-03-2012 13:00:56,AutoStartVacationsHandler,5.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 13:10:54,FleetMovement,2724.1558
+26-03-2012 13:10:55,AuctionTimeout,3.0002
+26-03-2012 13:10:55,VacationTimeout,2.0001
+26-03-2012 13:10:55,AutoStartVacationsHandler,2.0001
+26-03-2012 13:10:55,EndBounties,1.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 13:20:55,FleetMovement,3724.213
+26-03-2012 13:20:56,AuctionTimeout,3.0002
+26-03-2012 13:20:56,VacationTimeout,28.0016
+26-03-2012 13:20:56,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 13:30:55,FleetMovement,2957.1691
+26-03-2012 13:30:55,AuctionTimeout,3.0002
+26-03-2012 13:30:55,VacationTimeout,2.0001
+26-03-2012 13:30:55,AutoStartVacationsHandler,3.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 13:40:55,FleetMovement,3255.1862
+26-03-2012 13:40:56,AuctionTimeout,2.0001
+26-03-2012 13:40:56,VacationTimeout,5.0003
+26-03-2012 13:40:56,AutoStartVacationsHandler,4.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 13:50:55,FleetMovement,3382.1934
+26-03-2012 13:50:56,AuctionTimeout,3.0001
+26-03-2012 13:50:56,VacationTimeout,2.0001
+26-03-2012 13:50:56,AutoStartVacationsHandler,2.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 14:00:55,FleetMovement,3335.1908
+26-03-2012 14:00:56,AuctionTimeout,7.0004
+26-03-2012 14:00:56,VacationTimeout,6.0003
+26-03-2012 14:00:56,AutoStartVacationsHandler,5.0003
+26-03-2012 14:00:56,EndBounties,5.0003
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 14:10:55,FleetMovement,3335.1908
+26-03-2012 14:10:56,AuctionTimeout,3.0002
+26-03-2012 14:10:56,VacationTimeout,2.0001
+26-03-2012 14:10:56,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 14:20:54,FleetMovement,2002.1145
+26-03-2012 14:20:54,AuctionTimeout,3.0002
+26-03-2012 14:20:54,VacationTimeout,2.0001
+26-03-2012 14:20:54,AutoStartVacationsHandler,3.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 14:30:54,FleetMovement,2222.1271
+26-03-2012 14:30:55,AuctionTimeout,3.0002
+26-03-2012 14:30:55,VacationTimeout,2.0001
+26-03-2012 14:30:55,AutoStartVacationsHandler,2.0002
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 14:40:54,FleetMovement,2128.1218
+26-03-2012 14:40:55,AuctionTimeout,3.0002
+26-03-2012 14:40:55,VacationTimeout,2.0001
+26-03-2012 14:40:55,AutoStartVacationsHandler,1.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 14:50:54,FleetMovement,2118.1211
+26-03-2012 14:50:55,AuctionTimeout,3.0002
+26-03-2012 14:50:55,VacationTimeout,4.0002
+26-03-2012 14:50:55,AutoStartVacationsHandler,4.0002
+26-03-2012 14:50:55,EndBounties,5.0003
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 15:00:54,FleetMovement,2241.1282
+26-03-2012 15:00:55,AuctionTimeout,3.0002
+26-03-2012 15:00:55,VacationTimeout,3.0002
+26-03-2012 15:00:55,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 15:10:54,FleetMovement,2025.1158
+26-03-2012 15:10:54,AuctionTimeout,2.0001
+26-03-2012 15:10:54,VacationTimeout,2.0001
+26-03-2012 15:10:54,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 15:20:54,FleetMovement,2095.1198
+26-03-2012 15:20:55,AuctionTimeout,3.0002
+26-03-2012 15:20:55,VacationTimeout,2.0001
+26-03-2012 15:20:55,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 15:30:54,FleetMovement,2162.1236
+26-03-2012 15:30:55,AuctionTimeout,4.0002
+26-03-2012 15:30:55,VacationTimeout,2.0001
+26-03-2012 15:30:55,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 15:40:54,FleetMovement,2233.1277
+26-03-2012 15:40:55,AuctionTimeout,3.0001
+26-03-2012 15:40:55,VacationTimeout,2.0001
+26-03-2012 15:40:55,AutoStartVacationsHandler,2.0001
+26-03-2012 15:40:55,EndBounties,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 15:50:54,FleetMovement,2309.1321
+26-03-2012 15:50:55,AuctionTimeout,3.0001
+26-03-2012 15:50:55,VacationTimeout,2.0001
+26-03-2012 15:50:55,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1
+26-03-2012 16:00:54,FleetMovement,2458.1406
+26-03-2012 16:00:55,AuctionTimeout,3.0002
+26-03-2012 16:00:55,VacationTimeout,2.0001
+26-03-2012 16:00:55,AutoStartVacationsHandler,2.0001
+Number of moving fleet:,0,In a total of:,1
+Number of moving fleet:,0,In a total of:,1

@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="false" MasterPageFile="~/Manual.Master" %>
+
+<asp:Content ContentPlaceHolderID="topTitle" runat="server">
+	<asp:ContentPlaceHolder ID="topTitle" runat="server">
+		Orionov Pojas Priručnik
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="title" runat="server">
+	<asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="menu" runat="server">
+	<h2>Meni</h2>
+	<ul>
+        <li><a href="/hr/Default.aspx">Početna</a></li>
+        <li><a href="/hr/Race/Races.aspx">Rase</a></li>
+        <li><a href="/hr/Universe/Default.aspx">Svemir</a></li>
+        <li><a href="/hr/Commerce/Default.aspx">Promet</a></li>
+        <li><a href="/hr/Quests.aspx">Misije</a></li>
+        <li><a href="/hr/API.aspx">API i Utilities</a></li>
+    </ul>
+	<h2>Bitke</h2>
+	<ul>
+		<li><a href="/hr/Battles/WarZone.aspx">Ratna Zona</a></li>
+        <li><a href="/hr/Battles/BattleConcepts.aspx">Borbeni Koncepti</a></li>
+        <li><a href="/hr/Battles/BattleTactics.aspx">Taktike Bitke</a></li>
+    </ul>
+	<h2>Resursi</h2>
+	<ul>
+		<li><a href="/hr/UnitIndex.aspx">Jedinice</a></li>
+		<li><a href="/hr/MobsIndex.aspx">Mobs</a></li>
+		<li><a href="/hr/FacilityIndex.aspx">Postrojenja</a></li>
+		<li><a href="/hr/IntrinsicIndex.aspx">Osnovni</a></li>
+	</ul>
+	<asp:ContentPlaceHolder ID="menu" runat="server">
+		</asp:ContentPlaceHolder>
+	
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="content" runat="server">
+
+	<div id="rightMenu">
+		<asp:ContentPlaceHolder ID="conceptMenu" runat="server">
+		</asp:ContentPlaceHolder>
+    </div>
+
+    <asp:ContentPlaceHolder ID="content" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type='text/javascript'>window.unitTips = {Attack:'Napad',Defense:'Obrana',MovementCost:'Cijena Pokreta',Range:'Domet',Bozer:{Name:'Bozer'},CommanderFox:{Name:'Commander Fox'},HiveProtector:{Name:'Zaštitnik Košnice'},Doomer:{Name:'Anihilator'},Cypher:{Name:'Cypher'},Stinger:{Name:'Žalac'},CaptainWolf:{Name:'CaptainWolf'},Destroyer:{Name:'Razarač'},Myst:{Name:'Myst'},Scarab:{Name:'Kornjaš'},Toxic:{Name:'Otrovni'},Fist:{Name:'Fist'},Flag:{Name:'Zastava'},DarkTaurus:{Name:'Tamni Bik'},Egg:{Name:'Jaje'},Jumper:{Name:'Jumper'},BattleMoon:{Name:'Borbeni Mjesec'},MetallicBeard:{Name:'Metalna Brada'},DarkCrusader:{Name:'Crni Crusader'},Scourge:{Name:'Bič'},Crawler:{Name:'Crawler'},Rain:{Name:'Kiša'},Samurai:{Name:'Samuraj'},Panther:{Name:'Pantera'},Queen:{Name:'Kraljica'},DarkRain:{Name:'Crna Kiša'},Worm:{Name:'Glista'},Taurus:{Name:'Bik'},Kamikaze:{Name:'Kamikaza'},Pretorian:{Name:'Pretorijanac'},Seeker:{Name:'Tražilac'},Nova:{Name:'Nova'},Maggot:{Name:'Crv'},BlackWidow:{Name:'Crna Udovica'},Crusader:{Name:'Crusader'},Anubis:{Name:'Anubis'},HiveKing:{Name:'Kralj Košnice'},Kahuna:{Name:'Kahuna'},Driller:{Name:'Bušitelj'},Eagle:{Name:'Orao'},Blinker:{Name:'Bljeskalica'},Sentry:{Name:'Stražar'},Vector:{Name:'Vector'},Walker:{Name:'Walker'},Titan:{Name:'Titan'},SilverBeard:{Name:'Srebrena Brada'},Fenix:{Name:'Feniks'},Interceptor:{Name:'Presretač'},Reaper:{Name:'Žetalica'},Raptor:{Name:'Raptor'},Spider:{Name:'Pauk'},Krill:{Name:'Krill'},HeavySeeker:{Name:'Teški Tražilac'}};</script>
+
+	<script type="text/javascript">var disqus_iframe_css = "http://manual.orionsbelt.eu/Style/Style.css";</script>
+	<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/orionsbeltmanual/embed.js"></script><noscript><a href="http://orionsbeltmanual.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+	<script type="text/javascript">
+	//<![CDATA[
+	(function() {
+			var links = document.getElementsByTagName('a');
+			var query = '?';
+			for(var i = 0; i < links.length; i++) {
+				if(links[i].href.indexOf('#disqus_thread') >= 0) {
+					query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+				}
+			}
+			document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/orionsbeltmanual/get_num_replies.js' + query + '">'+'<'+'/' + 'script>');
+		})();
+	//]]>
+	</script>
+
+
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="footer" runat="server">
+	Molimo pomognite nam da unaprijedimo priručnik! Ako ste orkrili neku grešku ili želite doprinijeti sa dodatnim informacijama molimo poslužite se našim
+ <a href="mailto:manual@orionsbelt.eu">manual@orionsbelt.eu</a> e-mailom
+</asp:Content>

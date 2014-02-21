@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="AllianceContent">
+		<lang key="de"><h1>Allianzen</h1><div class="content">
+    Eine [Alliance] ist eine Gruppe von Spielern die ein gemeinsames Ziel teilt: Schutz, 
+    Reichtum oder vielleicht Herrschaft. Du brauchst [Orions] um eine Allianz zu kreieren.
+    Danach, kannst du Spieler einladen und akzeptieren, und ihnen ein angemessenen Rang geben. Die 
+    verfügbaren Ränge sind:
+    <ul><li>Admiral - Kommandoführer, Die Admirale sind die Führer der Allianz</li><li>Vize Admiral - 
+    Zweiter im Kommando, Die Vize-Admirale sind zu sehen als wären sie fast Führer</li>
+    <li>Unteroffizier - Ein Mitglied der Allianz der beweist von Wert zu sein</li><li>Mitglied - 
+    Rookie Mitglied</li></ul>
+    Jede [Alliance] sollte versuchen soviele [Relics] zu kriegen wie nur möglich. [Relics] versorgen 
+    Allianzen mit seltenen Ressourcen.
+    <p></p><h2>Allianz Diplomatie</h2>
+   Allianzen mögen in den Krieg gehen um nach Macht zu kämpfen, aber sie können auch einander 
+   helfen. 
+   Es gibt verschiedene Diplomatie Level die ein Admiral setzen kann für jede bekannte Allianz:
+    <ul><li>Konföderation - Diese Allianzen agieren als eine</li><li>Null Agressionen Pakt - Du 
+    solltest die Spieler dieser Allianz nicht angreifen</li><li>Neutral - Das standardmässige 
+    diplomatische Level</li>
+    <li>Krieg! - Lass die Spiele beginnen!</li></ul>
+    Beachte dass obwohl du im Frieden stehst mit einer anderen Allianz, das Spiel nicht verhindern 
+    kann dass sie dich angreifen. Diese diplomatischen Zustände sind nur eine Vereinbarung die ohne 
+    weitere Notiz gebrochen werden kann
+  </div></lang>
+		<lang key="en"><h1>Alliances</h1><div class="content">
+    An [Alliance] is a group of players that share a common goal: protection, richeness or maybe domination. You need [Orions] to create an alliance.
+    After that, you may invite and accept players, and give them an aproprieate rank. The available ranks are:
+    <ul><li>Admiral - master in command, the admirals are the alliance's leaders</li><li>Vice Admiral - second in command, the vice admirals are to be seen has almost leaders</li><li>Corporal - an alliance member that is proving to be valuable</li><li>Member - rookie member</li></ul>
+    Every [Alliance] should try to get as much [Relics] as possible. [Relics] provide alliances with several rare resources per day.
+    <p /><h2>Alliance Diplomacy</h2>
+    Alliances may engage in war on the struggle for power, but they can also help each other. There are several diplomatic levels
+    that an admiral may set to each know alliance:
+    <ul><li>Confederation - These alliances act has one</li><li>Non Aggression Pact - You shouln't attack players of these alliance</li><li>Neutral - The default diplomatic level</li><li>War! - Let the games begin!</li></ul>
+    Note that while you may be in pease with another alliance, the game won't prevent them from attacking you. These diplomatic states
+    are just an agreement that may be broken without notice.
+  </div></lang>
+		<lang key="es"><h1>Alianças</h1><div class="content">
+    Una [Alliance] es un grupo de jugadores que comparten un objetivo común: protección, riqueza o domínio. Necesitas de [Orions] para crear una alianza.
+    Así cuando estuviera creada, puedes convidar jugadores y aceptar jugadores, de la misma manera puedes también cambiar su escalón. Los escalones disponibles son:
+    <ul><li>Almirante - el líder</li><li>Vice Almirante - el vice líder</li><li>Sargento - Miembro de la alianza con gran valor</li><li>Miembro - escalón mas bajo</li></ul><h2>Diplomacia de Alianza</h2>
+    Las alianzas pueden entrar en guerra, pero también pueden coexistir pacifícamente. Existen multiples grados diplomáticos que un Almirante puede
+    definir para cada una de las otras alianzas.
+    <ul><li>Confederación - Tus alianzas son aliadas y con objetivos comunes</li><li>Pacto de No Agresión - Las alianzas acuerdan y nose atacan</li><li>Neutra - El nivel por omisión</li><li>Guerra! - Que comienzen las batallas!</li></ul>
+    Nota que Aún que tu alianza poueda estar en paz con otra, el juego no te inhibe que seas atacado. Estos estados diplomáticos
+    son un acuerdo de caballeros que puede ser quebrado sin grandes complicaciones.
+  </div></lang>
+		<lang key="fr"><h1>Alliances</h1><div class="content">
+    Une [Alliance]  est une groupe de joueurs ayant un but commun: se protéger, s'enrichir et peut-être même dominer. Vous avez besoin d'[Orions] pour créer une alliance.
+    Par la suite, vous pouvez inviter et accpter d'autres joueurs et leur donner un rang dans votre alliance. Les rangs disponibles sont::
+    <ul><li>Admiral - Grand commandeur, de l'alliance, le chef.</li><li>Vice Admiral - Étant ;es seconds au commandement, on pourrait pratiquement les considérer comme des chefs.</li><li>Vétéran - un membre ancien et profondément investit dans le bien-être de l'alliance.</li><li>Membre - un nouveau ou quelqu'un qui n'a pas fait ses preuves.</li></ul>
+    Chaque [Alliance] devrait essayer de capturer le plus de [Relics] possible. Les [Relics] génèrent un revenus de ressources rares dans l'alliance, qui sera redistribuée entre les membres.
+    <p /><h2>Alliance Diplomacy</h2>
+    Les alliances peuvent s'engager dans des guerres contres d'autres pour tentet d'obtenir la suprématie, mais peuvent aussi s'entraider. Il y a plusieurs niveaux diplomatiques existant entre les alliances, et c'est l'admiral qui en décide::
+    <ul><li>Conféderation - Ces alliances ne font qu'un.</li><li>Pacte de non-agression - Les joueurs entre ces alliances ne s'attaquent pas</li><li>Neutre - Le niveau diplomatique par défaut</li><li>Guerre! - Que le jeu commence!</li></ul>
+    Il est bien important de comprendre que même si vous êtes en paix avec une autre alliance, le jeu n'emp^che pas les attaques entre les joueurs concernés. Ces états diplomatiques sont des arrangements pouvant être brisés sans pré-avis.
+  </div></lang>
+		<lang key="hr"><h1>Savezi</h1><div class="content">
+[Alliance] je grupa igrača koji dijele zajednički cilj:zaštitu, bogatstvo i možda dominaciju. Trebate [Orions] da osnujete savez.
+Nakon toga možete pozivati ili prihvaćati saveze, i dati im odgovarajući rank. Dosupni rankovi su:
+ <ul><li>Admiral - majstor zapovijednanja, admirali su vođe saveza</li><li>Vice Admiral - zamjenik admirala, viceadmirali su viđeni skoro kao vođe</li><li>Narednik - član saveza koji se pokazao vrijednim</li><li>Član - novak</li></ul>
+Svaki [Alliance] bi trebao uhvatiti što više [Relics]. [Relics] daju savezu nekoliko rijetkih reursa dnevno.
+<p /><h2>Diplomacija Saveza</h2>
+Savezi mogu početi rat u borbi za moć, ali također mogu pomagati jedan drugome. Postoji nekoliko diplomatskih nivoa koje admiral može postaviti sa drugim savezima:
+<ul><li>Confederation - Ovi savezi djeluju kao jedan</li><li>Non Aggression Pact - Ne biste trebali napadati igrače ovih saveza</li><li>Neutral - Osnovna diplomatska razina</li><li>Rat! - Neka igre Počnu</li></ul>Primjetiti da mada možete biti u miru sa drugim savezom, igra ih neće spriječiti da vas napadaju. Ova diplomatska stanja su samo dogovori koji mogu biti prekršeni bez upozorenja.
+</div></lang>
+		<lang key="pt"><h1>Alianças</h1><div class="content">
+    Uma [Alliance] é um grupo de jogadores que partilham um objectivo comum: protecção, riqueza ou domínio. Precisas de [Orions] para criar uma aliança.
+    Assim que estiver criada, podes convidar jogadores e aceitar jogadores, tal como mudar o seu escalão. Os escalões disponíveis são:
+    <ul><li>Almirante - o líder</li><li>Vice Almirante - o vice líder</li><li>Sargento - an alliance member that is proving to be valuable</li><li>Membro - escalão mais baixo</li></ul>
+  Cada [Alliance] deve tentar conquistar o máximo de [Relics] possível. As [Relics] providenciam às alianças recursos raros por dia.
+  <p /><h2>Diplomacia de Aliança</h2>
+    As alianças podem entrar em guerra, mas também podem coexistir pacificamente. Há vários gráus diplomáticos que um Almirante pode
+    definir para cada uma das outras alianças.
+    <ul><li>Confederação - As tuas alianças são aliadas e com objectivos comuns</li><li>Pacto de Não Agressão - As alianças acordam e não se atacar</li><li>Neutra - O nível por omissão</li><li>Guerra! - Que comecem as batalhas!</li></ul>
+    Nota que embora a tua aliança possa estar em paz com outra, o jogo não a inibe de te atacar. Estes estados diplomáticos
+    são um acordo de cavalheiros que pode ser quebrado sem grandes complicações.
+  </div></lang>
+	</entry>
+
+	<entry key="ManualHome">
+		<lang key="de"><div class="content"><p>Willkomme zu der Orion's Belt Anleiung . In dieser Anleitung wirst du alls finden was du wissen musst über Orion's Belt. Wenn du es nicht findest, bitte poste eine Frage oder Comment unter einer beliebigen Anleitungsseite .</p><img class="block" src="http://resources.orionsbelt.eu/Images/Common/Units/Perspective/Driller.png"/><p>Das Spiel ist sehr einfach zu spielen, sobald du einige Grundregeln kennst. Du spielst einen Imperator der in einer kleinen [PrivateZone] im [Universe] anfängt. In dieser Zone gibt es fünf [Planets] die du [Colonize] kannst und Gebäude und Kampfeinheiten bauen.  Formiere deine Kampfeinheiten zu einer [Fleet] und [Travel] durch das örtliche [WormHole] zu der öffentlichen [HotZone]. Dort kanst du Planeten eobern und plündern, Handel betreiben und mit anderen Spielern kämpfen. [Travel] durch das [Universe], mache Freunde und Feinde unterwegs!</p><p>Der spassigste Teil des Spiels ist andere [Fleet]s zu bekämpfen. Diese Kämpfe finden auf dem Spielbrett statt und verlangen Denken und Strategie. Einfach zu lernen, ein lebenlang zu meistern!</p></div></lang>
+		<lang key="en"><div class="content"><p>Welcome to the Orion's Belt Manual. In this manual you'll find everything you need to know about Orion's Belt. If you don't, please post a question or comment below any manual page.</p><img class="block" src="http://resources.orionsbelt.eu/Images/Common/Units/Perspective/Driller.png" /><p>The game is very easy to play, as soon as you know some basic rules. You play as an emperor who starts in a small [PrivateZone] in the [Universe]. In your zone are five [Planets] you can [Colonize] and build Facilities and Combat Units.  Then combine your Combat Units into a [Fleet] and [Travel]
+  through a local [WormHole] to the public [HotZone]. There you can conquer and raid planets, trade and battle with other players. [Travel] the [Universe], making friends and enemies along the way!</p><p>The funnest part of the game is battling other [Fleet]s. These battles take place on the Game Board and require thought and strategy. Simple to learn, a lifetime to master!</p></div></lang>
+		<lang key="es"><div class="content">
+  Bienvenido al manual de Orion's Belt. En el manual encontrarás todo lo que necesitas saber sobre el jogo [OB]. Es bastante fácil de jugar,
+  en la medida que conozcas algunas reglas básicas.
+  <img class="block" src="http://resources.orionsbelt.eu/Images/Common/Units/Perspective/Taurus.png" />
+   Tu juegas como un emperador que comienza en una pequeña [PrivateZone] en el [Universe]. Tienes cinco [Planets] para [Colonize] antes de usar un
+   [WormHole] para viajar para la [HotZone] e interacciones con otros jugadores.
+  <p />
+  En tus [Planets] vas a poder construir [Facilities] y [CombatUnits]. Más tarde podrás juntar tus [CombatUnits] en una [Fleet] y
+  [Travel] en el [Universe], haciendo amigos y enemigos.
+  <p />
+  Cuando entras en guerra, vas a combatir tus batallas en un [GameBoard]. Esa es la parte mas interasante del juego!
+  </div></lang>
+		<lang key="fr"><div class="content">
+    Bienvenue dans le guide de jeu d'Orion's Belt. C'est ici que vous trouverez tout le nécessaire pour pouvoir jouer à [OB]. Le jeu est très facile à jouer, dès que apprendrez quelques règles de base.
+    <img class="block" src="http://resources.orionsbelt.eu/Images/Common/Units/Perspective/Driller.png" />
+    Vous serez un empereur débutant dans une petite [PrivateZone] sur l'[Universe]. Vous aurez 5 [Planets] à [Colonize] avant d'utiliser un
+    [WormHole] pourTravel] dans la [HotZone] et interagir avec les autres joueurs.
+    <p />
+    Sur vos [Planets] vous serez capavle d'ériger des [Facilities] et des [CombatUnits]. Il vours sera ensuite possible de transférer vos [CombatUnits]
+    sur [Fleet] et [Travel] à travers l'[Universe], et vous faire des ennemis et amis au fil du jeu.
+    <p />
+    Lorsque vous vous engagez dans une guerre, vos battailles auront lieu sur le [GameBoard]. C'est la partie la plus amusante du jeu!
+  </div></lang>
+		<lang key="hr"><div class="content">
+Dobrodošli u Priručnik Orionovog Pojasa. U priručniku ćete promaćo sve što ste ikada htjeli unati o [OB]. Igra je jako jednostavna za igrati, čim se upoznate s nekim osnovnim pravilima.
+<img class="block" src="http://resources.orionsbelt.eu/Images/Common/Units/Perspective/Driller.png" />
+Igrate kao car koji počinje u maloj [PrivateZone] u [Universe]. Imate pet [Planets] za [Colonize] prije nego upotrijebite [WormHole] da [Travel] u [HotZone] i ineraktirate s drugim igračima.
+<p />
+Na vašim [Planets] moći ćete graditi [Facilities] i [CombatUnits]. Kasnije ćete moći pridružiti te [CombatUnits] u [Fleet] i [Travel] u [Universe], slalapajući prijateljstva i stječući neprijatelje dok igrate.
+<p />
+Kada započnete rat vaše bitke će se odvijati na [GameBoard]. To je najzabavniji dio igre!
+</div></lang>
+		<lang key="pt"><div class="content">
+  Bem-vindo ao manual do Orion's Belt. No manual encontrarás tudo o que precisas de saber sobre o jogo [OB]. O jogo é bastante fácil de jogar,
+  assim que conheceres umas regras básicas.
+  <img class="block" src="http://resources.orionsbelt.eu/Images/Common/Units/Perspective/Taurus.png" />
+  Tu jogas como um imperador que começa numa pequena [PrivateZone] no [Universe]. Tens cinco [Planets] para [Colonize] antes de usares um
+  [WormHole] para viajar para a [HotZone] e interagires com outros jogadores.
+  <p />
+  Nos teus [Planets] vais podes construir [Facilities] e [CombatUnits]. Mais tarde poderás juntar as tuas [CombatUnits] numa [Fleet] e
+  [Travel] no [Universe], fazendo amigos e inimigos.
+  <p />
+  Quando entras em guerra, vais travar as tuas batalhas num [GameBoard]. Essa é a parte mais interessante do jogo!
+  </div></lang>
+	</entry>
+
+	<entry key="ManualHomeTitle">
+		<lang key="de">Anleitung</lang>
+		<lang key="en">Manual</lang>
+		<lang key="es">Manual</lang>
+		<lang key="fr">Guide de Jeu</lang>
+		<lang key="hr">Priručnik</lang>
+		<lang key="pt">Manual</lang>
+	</entry>
+
+	<entry key="MobsInfo">
+		<lang key="de"><div class="content">
+    Ein <u>mob</u> ist ein Feind der von dem Spiel kontrolliert wird (künstliche Intelligenz). Du wirst
+    Mobs begegnen wenn [Travel](Reisen) im Universum machst. Du magst auch einige [Quests] erledigen 
+    wo du gewisse Mobs jagen musst. Die Mobs [CombatUnits] sind sehr stark, und du magst einige für 
+    dich selber erwerben indem du [Quests] erledigst oder im [AuctionHouse].
+  </div></lang>
+		<lang key="en"><div class="content">
+    A <u>mob</u> is an enemy that is controled by the game(artificial intelligence). You'll run into mobs while you [Travel] on
+    the [Universe]. You may also do some [Quests] where you'll need to hunt down certain mobs. The mobs [CombatUnits] are very powerful, and you may
+    get some for your own by doing some [Quests] or on the [AuctionHouse].
+  </div></lang>
+		<lang key="fr"><div class="content">
+    Un <u>A.I.</u> est un enemmie controlé par le jeu( intelligence artificiel). Il est possible de rencontrer des A.I. durant vos [Travel] à travers l'[Universe]. Vous pouvez aussi faire des [Quests] où il vous faudra éliminer certains A.I.. Les [CombatUnits] des A.I. et vous pouvez en avoir vous-même en fesant des [Quests] où en magasinant à la [AuctionHouse].
+  </div></lang>
+		<lang key="hr"><div class="content"><u>mob</u> je neprijateljska jedinica koja je kontrolirana od strane umjetene inteligencije igte. Naletjeti ćete na mobs kada [Travel] [Universe]. Možete također raditi neke [Quests] gdje ćete trebati loviti određene mobove. Mobovi [CombatUnits] su jako moćni i možete dobiti neke za sebe kada izvršite [Quests] ili u [AuctionHouse].
+</div></lang>
+		<lang key="pt"><div class="content">
+    Um <u>mob</u> é um inimigo controlado pelo jogo(inteligência artifical). Hás-de encontrar vários mobs a [Travel] pelo
+    [Universe]. Há inclusivé certas [Quests] em que tens de caçar mobs específicos. As [CombatUnits] dos mobs são muito poderosas, e poderás
+    obtê-las através de algumas [Quests] ou da [AuctionHouse].
+  </div></lang>
+	</entry>
+
+	<entry key="OrionsContent">
+		<lang key="de"><h1>Orions</h1><div class="content">
+    [Orions] sind die globale Währung auf [OB]. Ungleich den [Intrinsic] Ressourcen, kannst du [Orions] nicht produzieren auf deinen [Planets]. Dennoch ist es sehr nützlich [Orions] zu haben weil du verschiedene Dinge mit ihnen kaufen kannst. Nämlich:
+    <ul><li>Du kannst [Intrinsic] Ressourcen und [CombatUnits] kaufen im [AuctionHouse]</li><li>Du kannst [Arenas] betreten</li><li>Du kannst spezielle Dienstleistungen im [Shop] kaufen</li><li>Du kannst eine [Alliance] kreieren</li></ul>
+    Und wie kannst du Orions verdienen?
+    <ul><li>Du kannst [Intrinsic] Ressourcen kaufen und [CombatUnits] im [AuctionHouse]</li><li>Es gibt einige [Quests] die dich mit [Orions] belohnen</li><li>Du gewinnst [Orions] wenn du andere Gegner  in den [Arenas] schlägst</li><li>Du gewinnst [Orions] wenn du [Tournaments] gewinnst oder [Ladder] Schlachten</li><li>Du kannst [Orions] kaufen indem du richtiges Geld benutzt</li><li>Du kannst Spieler rekrutieren; Du wirst eine [Orions] Kommission verdienen, jedesmal wenn ein rekrutierer Spieler [Orions] kauft mit echtem Geld</li></ul></div></lang>
+		<lang key="en"><h1>Orions</h1><div class="content">
+    [Orions] are the global currency on [OB]. Unlike [Intrinsic] resources, you can't produce [Orions] on your [Planets]. However, having [Orions] is very
+    useful because you can buy several things with them. Namely:
+    <ul><li>You can buy [Intrinsic] resources and [CombatUnits] on the [AuctionHouse]</li><li>You can enter [Arenas]</li><li>You can buy special services at the [Shop]</li><li>You can create an [Alliance]</li></ul>
+    And how can you earn orions?
+    <ul><li>You can sell [Intrinsic] resources and [CombatUnits] on the [AuctionHouse]</li><li>There are some [Quests] that will reward you with [Orions]</li><li>You earn [Orions] when yout beat opponents on [Arenas]</li><li>You win [Orions] when you win [Tournaments] or [Ladder] battles</li><li>You may buy [Orions] using real money</li><li>You can recruit players; you'll earn [Orions] commission every time a recruited player buys [Orions] with real money</li></ul></div></lang>
+		<lang key="es"><h1>Orions</h1><div class="content">
+    Los [Orions] son la moneda global del [OB]. Al contrário de los recursos [Intrinsics], tus [Planets] no logran producir [Orions]. Sin embargo, tener [Orions]
+    es muy útil pues te permite comprar várias cosas. Tales como:
+    <ul><li>Puedes comprar recursos [Intrinsics] y [CombatUnits] en la [AuctionHouse]</li><li>Puedes entrar en[Arenas]</li><li>Puedes comprar servicios especiales en la [Shop]</li><li>Puedes crear una [Alliance]</li></ul>
+    Y como puedes obtener orions?
+    <ul><li>Vendiendo recursos [Intrinsics] y [CombatUnits] en la [AuctionHouse]</li><li>Hay algunas [Quests] que tienen una recompensa en [Orions]</li><li>Ganas [Orions] cuando vences adversários en las [Arenas]</li><li>Ganas [Orions] cuando vences batallas de [Tournaments] o [Ladder]</li><li>Puedes comprar [Orions] con dinero real</li><li>Puedes ganar reclutando jugadores: ganas uma comisión siempre que un jugador reclutado por ti compra orions con dinero real</li></ul></div></lang>
+		<lang key="fr"><h1>Orions</h1><div class="content">
+    Les [Orions] est la monnaie d'échange globale d'[OB]. Au contraire des ressources [Intrinsic] vous ne pouvez pas produire d'[Orions]sur vos [Planets]. Par contre, posséder des [Orions] est très utile car vous pouvez acheter plusieurs choses avec ces derniers. Par exemple:
+    <ul><li>Vous pouvez acheter des ressources [Intrinsic] et des [CombatUnits] dans la [AuctionHouse]</li><li>vous pouvez entrer dans les [Arenas]</li><li>Vous pouvez acheter des services spéciaux dans le[Shop]</li><li>Vous pouvez créer une [Alliance]</li></ul>
+    Comment gagner des Orions?
+    <ul><li>Vous pouvez vendre des ressources [Intrinsic] et des [CombatUnits] dans la [AuctionHouse]</li><li>Il y a quelques [Quests] qui vous récompenserons avec des [Orions]</li><li>Vous pouvez recevoir des [Orions] en battant des adversaires dans les [Arenas]</li><li>Vous gagnez des [Orions] quand vous gagnez des combats de [Tournaments] ou [Ladder] </li><li>Vous pouvez acheter des[Orions] en utilisant de la vrai monnaie</li><li>Vous pouvez recruter des joueurs et recevrz des orions à chaue fois que le recruté achètes des orions avec de la monnaie réel.</li></ul></div></lang>
+		<lang key="hr"><h1>Orioni</h1><div class="content">
+[Orions] su globalni novac u [OB]. Za razliku [Intrinsic] resursa, ne možete proizviditi [Orions] na vašim [Planets]. Ali imati [Orions] je jako korisno jer s njima možete kupovati nekoliko srvari. Poimenice:
+<ul><li>Možete kupiti [Intrinsic] resurse i [CombatUnits] u [AuctionHouse]</li><li>Možet ući u [Arenas]</li><li>Možete kupiti specijalne usluge u [Shop]</li><li>Možete osnovati [Alliance]</li></ul>
+A kako možete zaraditi orione?
+<ul><li>Možete prodati [Intrinsic]resurse i [CombatUnits] u [AuctionHouse]</li><li>Postoje neki  [Quests] koji će vas nagraditi [Orions]</li><li>Zarađujete [Orions] kada porazite protivnike u [Arenas]</li><li>Dobijate [Orions] kada pobjedite [Tournaments] ili [Ladder]bitkama</li><li>Možete kupiti [Orions] sa pravim novcem</li><li>Možete regrutirati igrače; zaraditi ćete [Orions] proviziju svaki put kada pozvani igrač kupi [Orions]  sa pravim novcem</li></ul></div></lang>
+		<lang key="pt"><h1>Orions</h1><div class="content">
+    Os [Orions] são a moeda global do [OB]. A contrário dos recursos [Intrinsics], os teus [Planets] não conseguem produzir [Orions]. Contudo, ter [Orions]
+    é muito útil pois permite-te comprar várias coisas. Nomeadamente:
+    <ul><li>Podes comprar recursos [Intrinsics] e [CombatUnits] na [AuctionHouse]</li><li>Podes entrar em [Arenas]</li><li>Podes comprar serviços especiais na [Shop]</li><li>Podes criar uma [Alliance]</li></ul>
+    E como podes obter orions?
+    <ul><li>Vendendo recursos [Intrinsics] e [CombatUnits] na [AuctionHouse]</li><li>Há certas [Quests] que têm a recompensa em [Orions]</li><li>Ganhas [Orions] quando vences adversários nas [Arenas]</li><li>Ganhas [Orions] quando vences batalhas de [Tournaments] ou [Ladder]</li><li>Podes comprar [Orions] com dinheiro real</li><li>Podes ganhar recrutando jogadores: ganhas uma comissão sempre que um jogador recurtado por ti compra orions com dinheiro real</li></ul></div></lang>
+	</entry>
+
+	<entry key="RelicsContent">
+		<lang key="de"><h1>Reliquien</h1><div class="content">
+    Ein [Relic] ist ein besonderer Körper im [Universe], speziell dafür designt für [Alliance] Kriege. 
+    Wenn eine [Alliance] einen oder mehrere [Relics] hat,
+    erhalten alle Allianz-Mitglieder eine seltene Ressource pro Tag. Das Einkommen pro Spieler hängt 
+    davon ab wieviele Reliquien die [Alliance] hat und seinem/ihrem Allianz Rang.
+    <p>
+    Das Gesamt-Einkommen das die [Alliance] erhalten wird angegeben durch die folgende Info:
+    </p><ul><li>Jedes Relikt wird beisteuern mit K multipliziert durch ihren [ZoneLevel]; Wenn das 
+    Relikt im Krieg ist, wird das Einkommen bis zu acht mal verringert</li><li>Die Summe des Einkommens 
+    aller Reliquien wird multipliziert mit dem Prozentsatz der Reliquien im Universum die im Besitz der 
+    Allianz sind</li></ul>
+    Das bedeutet das je mehr [Relics] man hat umso mehr Ressourcen abgegeben werden. K ist eine interne
+    Konstante, die dem Wandel unterliegt. 
+    <p>
+    Jedes [Relic] hat seinen eigenen Beschützer: Ein Allianz Mitglied das dieses Relikt erobert und es 
+    dann beschützen muss.
+  </p></div></lang>
+		<lang key="en"><h1>Relics</h1><div class="content">
+    A [Relic] is a special body on the [Universe], specially designed for [Alliance] wars. When an [Alliance] has one or more [Relics],
+    all alliance members will receive a rare resource per day. The income per player depends on how many relics the [Alliance] holds
+    and his/her alliance rank.
+    <p />
+    The total income that the [Alliance] will receive is given by the following data:
+    <ul><li>Each relic will contribute with K multiplied by it's [ZoneLevel]; if the relic is at war, the income will be decreased up to eight times</li><li>The sum of the income from all relics is then multiplied by the percentage of relics on the universe that the alliance holds</li></ul>
+    This means that more [Relics] will give even more resources. K is an internal constant, subject to change. 
+    <p />
+    Each [Relic] has its own protector: an alliance member that conquers the relic and then is responsible for defending it.
+  </div></lang>
+		<lang key="fr"><h1>Reliques</h1><div class="content">
+    UNe [Relic] sont des structures spéciales existants sur l'[Universe], et elles sont spécifiques aux guerres des [Alliance]. Lorsqu'une [Alliance] possède une ou plusieurs [Relics],
+    touts les membres reçoivent une quantité d'une ressource rare par jour. La quantité donné dépends du nombre de reliques que possède l'alliance et le range spécifique de chaque joueur.
+    <p />
+    Ce que l'[Alliance] reçoit au total dépends de:
+    <ul><li>Chaque relique, donnat un nombre K de ressources multiplié par [ZoneLevel] de la relique. Si la relique est en guerre, les ressources obtenus diminue jusqu'as huit fois.</li><li>La somme des ressources de toutes les reliques ets multiplié par le % de reiques détenu au total sur l'univers.</li></ul>
+    Cela signifie qu'un plus grand nombre de [Relics] donnera une plus grande quantité de ressources. K est une constante interne, pouvant changer, à la discrétion des administrateurs. 
+    <p />
+    Chaque [Relic] possède sont propre protecteur: un membre d'un alliance ayant conqurérit une relique est responsable de la défendre.
+  </div></lang>
+		<lang key="hr"><h1>Relikvije</h1><div class="content">
+[Relic] je specijalno tijelo u [Universe], specijalno dizajnirano za ratove [Alliance]. Kada [Alliance] ima jednu ili više [Relics], svi članovi saveza primaju jedan tip rijetkih resursa po danu. Prihod po igraču ovisi oo tome koliko relikvija [Alliance] drži i o igraču i njegov/njezin rank unutar saveza.
+<p />
+Totalni prihod kojega će [Alliance] primiti je određen sljedećim podatcima:
+<ul><li>svaka relikvija će doprinijeti sa   K pomnožena sa [ZoneLevel]; ako je relikvija u ratu, prihod će biti smanjen osam puta</li><li>Zbroj prihoda od svih relikvija je onda pomnožen sa postotkom relikvija u svemiru koje savez drži</li></ul>
+Ovo znači da će više [Relics] dati više resursa. K je internalna konstanta, podložna promjeni.
+<p />
+Svaka [Relic] ima svoga zaštitnika: člana saveza koji je pokorio relikviju i koji je odgovoran za njezinu obranu.
+</div></lang>
+		<lang key="pt"><h1>Reliquias</h1><div class="content">
+    Uma [Relic] é um compomente especial no [Universe], que serve especialmente para guerras de [Alliance]. 
+    Quando uma [Alliance] tem uma ou mais [Relics], todos os membros da aliança irão receber um tipo de recursos raros por dia. Quando recebem
+    depende de quantas reliquias a aliança controla e do posto de cada membro.
+    <p />
+    O total que as reliquias fornecem, é dado pela seguinte informação:
+    <ul><li>Cada reliquia contribuirá com K multiplicado pelo seu [ZoneLevel]; se a reliquia estiver em batalha, então a sua produção decresce até oito vezes</li><li>A soma da contribuição de todas as reliquias é então multiplicada pela percentagem total de reliquias que a aliança tem</li></ul>
+    Isto significa que quanto mais [Relics], mais recursos serão obtidos. K é uma constante interna, que pode ser alvo de alterações.
+    <p />
+    Cada [Relic] tem o seu próprio proector: um membro da aliança que a conquista e que é responsável por a defender.
+  </div></lang>
+	</entry>
+
+	<entry key="ShopContent">
+		<lang key="de"><h1>Premium Services</h1><div class="content">
+  Im [Shop] kannst du bestimmt Dienstleistungen kaufen die dir helfen werden das Schwierigkeitslevel 
+  des Spiels zu reduzieren. Du kannst diese Dienstleistungen nur mit [Orions] kaufen.
+  <p>
+    Hier ist eine Liste der verfügbaren Dienstleistungen:
+    </p><ul><li>[BuyIntrinsicDeduction]</li><li>[BuyRareDeduction]</li><li>[BuyQueueSpace]</li><li>[BuyFastSpeed]</li><li>[BuyFullLineOfSight]</li><li>[BuyNoUndiscoveredUniverse]</li></ul><a name="BuyIntrinsicDeduction" id="BuyIntrinsicDeduction"></a><h2>[BuyIntrinsicDeduction]</h2>
+   Mit dieser Dienstleistung aktiv kannst du die [Intrinsic] Kosten deiner [Facilities] und [CombatUnits] um 30% reduzieren. 
+    Dies ist nur gültig für die Ressourcen deiner [Race], es wird die seltenen Ressourcen nicht 
+    beeinträchtigen.
+    
+    <ul><li>Wenn du [LightHumans] bist, beeinflusst es die [Energy], [Serium] und [Mithril] 
+    Kosten</li><li>wenn du [DarkHumans bist], beeinflusst es die [Gold], [Titanium] und [Uranium] 
+    Kosten</li><li>Wenn du [Bugs] bist, beeinflusst es die [Protol] und [Elk] Kosten</li></ul><a 
+    name="BuyRareDeduction" id="BuyRareDeduction"></a><h2>[BuyRareDeduction]</h2>
+    Mit dieser Dienstleistung aktiv werden die [Intrinsic] Kosten deiner [Facilities] und 
+    [CombatUnits] um 30% reduziert.
+    
+    Ungleich zum vorherigen Service , ist dieser nur gültig für seltene Ressourcen: [Astatine], 
+    [Prismal], [Radon], [Cryptium]
+    und [Argon].
+
+    <a name="BuyQueueSpace" id="BuyQueueSpace"></a><h2>[BuyQueueSpace]</h2>
+    Die Warteliste ist die Menge an [Facilities] oder [CombatUnits] die du in Wartestellung setzen 
+    kannst zu einer gegeben Zeit. Standardmässig, hat die Warteliste nur ein Slot. Das bedeut das 
+    wenn du bereits was baust, ein Artikel in Wartestellung setzen kannst um in Produktion 
+    zu gehen sobald die momentane Produktion zu Ende ist.
+    <p>
+    Mit diesem Service kannst du 3 Artikel in Wartestellung setzen.
+
+    <a name="BuyFastSpeed" id="BuyFastSpeed"></a></p><h2>[BuyFastSpeed]</h2>
+    Die Dauer die eine Konstruktion beanspuchen kann, hängt von dem Produktions-Faktor ab und von dem 
+    Artikel der gerade gebaut wird.
+    Mit diesem Sevice, Wird dein Produktions-Faktor um 50% reduziert, das bedeutet das alles was du 
+    baust, nur die Hälfte der Zeit beansprucht.
+
+    <a name="BuyFullLineOfSight" id="BuyFullLineOfSight"></a><h2>[BuyFullLineOfSight]</h2>
+    Du kannst Spieler nur sehen wenn sie sich in deiner [LineOfSight] bewegen. Deine [LineOfSight] 
+    wird festgelegt durch die [Planets] und [Fleets] die du in deiner Nähe hast. Mit diesem Service, 
+    bist du in der Lage die volle Sichtlinie zu haben in deinem erforschten Universum, wir werden dir 
+    keinen Nebel des Krieges zeigen.
+
+    <a name="BuyNoUndiscoveredUniverse" id="BuyNoUndiscoveredUniverse"></a><h2>[BuyNoUndiscoveredUniverse]</h2>
+    Die schwarzen Vierecke im [Universe] sind unerforschter Raum. Du weisst nicht was es dort gibt, 
+    und du musst [Travel] zu diesem Ort mit einer [Fleet] um zu sehen was dort ist. Mit diesem Sevice 
+    wird das <b>all</b> Universum als bereits erforscht markiert.
+  </div></lang>
+		<lang key="en"><h1>Premium Services</h1><div class="content">
+  On the [Shop] you can buy special services that will assist you or decrease the game's dificulty. You may only
+  buy these services using [Orions].
+  <p />
+    Here's the list of available services:
+    <ul><li>[BuyIntrinsicDeduction]</li><li>[BuyRareDeduction]</li><li>[BuyQueueSpace]</li><li>[BuyFastSpeed]</li><li>[BuyFullLineOfSight]</li><li>[BuyNoUndiscoveredUniverse]</li></ul><a name="BuyIntrinsicDeduction" id="BuyIntrinsicDeduction"></a><h2>[BuyIntrinsicDeduction]</h2>
+    With this service activated the [Intrinsic] cost of your [Facilities] and [CombatUnits] will be 30% less. 
+    This is only valid for your [Race] resources, it won't affect rare resources.
+    
+    <ul><li>If you're [LightHumans], it affects [Energy], [Serium] and [Mithril] costs</li><li>If you're [DarkHumans], it affects [Gold], [Titanium] and [Uranium] costs</li><li>If you're [Bugs], it affects [Protol] and [Elk] costs</li></ul><a name="BuyRareDeduction" id="BuyRareDeduction"></a><h2>[BuyRareDeduction]</h2>
+    With this service activated the [Intrinsic] cost of your [Facilities] and [CombatUnits] will be 30% less.
+    Unlike the previous service, this is only valid for rare resources: [Astatine], [Prismal], [Radon], [Cryptium]
+    and [Argon].
+
+    <a name="BuyQueueSpace" id="BuyQueueSpace"></a><h2>[BuyQueueSpace]</h2>
+    The queue space is the amount of [Facilities] or [CombatUnits] that you are able to put on hold for
+    construction at a given time. By default, your queue space only has one slot. Means that if you're already
+    building something, you can put another item on queue to start as soon as the one in production ends.
+    <p />
+    With this service you may put more 3 items on hold.
+
+    <a name="BuyFastSpeed" id="BuyFastSpeed"></a><h2>[BuyFastSpeed]</h2>
+    The amount of time that a construttion takes depends on your production factor and on the item being built.
+    With this service, your production factor is reduced by 50%, meaning that anything that you build, will
+    take half the time to complete.
+
+    <a name="BuyFullLineOfSight" id="BuyFullLineOfSight"></a><h2>[BuyFullLineOfSight]</h2>
+    You can only see other players if they are moving on your [LineOfSight]. Your [LineOfSight] is determined
+    by the [Planets] and [Fleets] that you have nearby. With this service, you'll be able to have full line
+    of sight on your discovered universe, we won't show any fog of war.
+
+    <a name="BuyNoUndiscoveredUniverse" id="BuyNoUndiscoveredUniverse"></a><h2>[BuyNoUndiscoveredUniverse]</h2>
+    The black squares on the [Universe] are undiscovered space. You don't know what's there, and you need
+    to [Travel] with a [Fleet] to that location to see what's there. With this service you'll have <b>all</b>
+    the universe marked as discovered.
+  </div></lang>
+		<lang key="es"><h1>Servicios Premium</h1><div class="content">
+    En la [Shop] puedes comprar servicios especiales que te van a asistir en el juego y bajar su dificultad. Solo
+    puedes comprar estos servicios usando [Orions].
+    <p />
+    Lista de servicios Disponibles:
+    <ul><li>[BuyIntrinsicDeduction]</li><li>[BuyRareDeduction]</li><li>[BuyQueueSpace]</li><li>[BuyFastSpeed]</li><li>[BuyFullLineOfSight]</li><li>[BuyNoUndiscoveredUniverse]</li></ul><a name="BuyIntrinsicDeduction" id="BuyIntrinsicDeduction"></a><h2>[BuyIntrinsicDeduction]</h2>
+    Con este servicio activado, los costos [Intrinsics] de tus [Facilities] y [CombatUnits] serán 30%
+    mas bajos. Esto solo se aplica a los recursos de tu [Race], no afectará recursos raros.
+
+    <ul><li>Si fueras de los [LightHumans], afecta [Energy], [Serium] y [Mithril]</li><li>Si fueras de los [DarkHumans], afecta [Gold], [Titanium] y [Uranium]</li><li>Si fueras de los [Bugs], afecta [Protol] y [Elk]</li></ul><a name="BuyRareDeduction" id="BuyRareDeduction"></a><h2>[BuyRareDeduction]</h2>
+    Con este servicio activado, los costos [Intrinsics] de tus [Facilities] y [CombatUnits] serán 30%
+    mas bajos. Al contrário del servicio anterior, este es solamente válido para los recursos raros: 
+    [Astatine], [Prismal], [Radon], [Cryptium] e [Argon].
+
+    <a name="BuyQueueSpace" id="BuyQueueSpace"></a><h2>[BuyQueueSpace]</h2>
+    La fila de espera es la cantidad de [Facilities] o [CombatUnits] que puedes colocar en espera para entrar
+    en produción. Por omisión, tu lista solo soporta una posición. Esto significa que si estuvieras construyendo
+    algo, sólo puedes colocar una orden mas de construción, que se iniciará cuando lo que esta en construcción este terminado. 
+    <p />
+
+    Con este servicio puedes colocar 3 ordenes mas en lista de espera.
+
+    <a name="BuyFastSpeed" id="BuyFastSpeed"></a><h2>[BuyFastSpeed]</h2>
+    El tiempo que algo demora en ser Construido depende de tu factor de producción y de que estes construyendo.
+    Con este servicio, tu factor de producción es reducido en un 50%, lo que significa que todo lo que construyas
+    va a tomar la del tiempo en quedar listo.
+
+    <a name="BuyFullLineOfSight" id="BuyFullLineOfSight"></a><h2>[BuyFullLineOfSight]</h2>
+    Tú solo logras ver otros jugadores si  ellos estuvieran operando en tu  [LineOfSight]. Tu [LineOfsight]
+    es determinada por los [Planets] y [Fleets] que tienes próximo a tí. Con este servicio, tendrás [LineOfSight] total
+    en el universo descubierto.
+
+    <a name="BuyNoUndiscoveredUniverse" id="BuyNoUndiscoveredUniverse"></a><h2>[BuyNoUndiscoveredUniverse]</h2>
+    Los cuadrados negros en el [Universe] son espacio por descubrir. Tu no sabes lo que esta ahí, y necesitas de
+    [Travel] con una [Fleet] para esa localización para ver lo que está alla. Con este servicio, logras ver
+    <b>todo</b> el universo como si lo tuvieses  descubierto.
+  </div></lang>
+		<lang key="fr"><h1>Sevices privilèges</h1><div class="content">
+  Dans le [Shop], vous pouvez achter des services spéciaux pour vous assister où décroître la diffculté du jeu. Vous pouvez seulement utiliser ces services à l'aide d'[Orions].
+  <p />
+    Voiçi une liste des services disponibles:
+    <ul><li>[BuyIntrinsicDeduction]</li><li>[BuyRareDeduction]</li><li>[BuyQueueSpace]</li><li>[BuyFastSpeed]</li><li>[BuyFullLineOfSight]</li><li>[BuyNoUndiscoveredUniverse]</li></ul><a name="BuyIntrinsicDeduction" id="BuyIntrinsicDeduction"></a><h2>[BuyIntrinsicDeduction]</h2>
+    Ce service réduit le coût en ressources [Intrinsic] de vos [Facilities] et vos [CombatUnits] de 30%. 
+    Ceci est seulement valide pour les ressources [Intrinsic] et n'affecte pas les ressources rares.
+    
+    <ul><li>Si vous êtes [LightHumans], cela influence les coûts de l'[Energy], le [Serium] et le [Mithril] </li><li>Si vous êtes [DarkHumans], cela influence les coûts d [Gold], du [Titanium] et de l'[Uranium]</li><li>Si vous êtes [Bugs], cela influence les coûts du [Protol] et du [Elk]</li></ul><a name="BuyRareDeduction" id="BuyRareDeduction"></a><h2>[BuyRareDeduction]</h2>
+ Ce service réduit le coût en ressources [Rare] de vos [Facilities] et vos [CombatUnits] de 30%.
+    Ceci est valide seulement pour les ressources rares: [Astatine], [Prismal], [Radon], [Cryptium]
+    et [Argon].
+
+    <a name="BuyQueueSpace" id="BuyQueueSpace"></a><h2>[BuyQueueSpace]</h2>
+   L'espace de chaîne est le nombre de [Facilities] ou [CombatUnits] que vous pouvez commander une à la suite de l'autre dans un certain temps. Par défaut, vous avez seulement un espace dans votre chaîne. Cela signifie que si vous construisez quelques chose, il suffit de construire une autre chose supplémentaire, et la construction commencera immédiatement après ce qui est déjà construit..
+    <p />
+    Avec ce service, votre espace de chaîne augmente à 3.
+
+    <a name="BuyFastSpeed" id="BuyFastSpeed"></a><h2>[BuyFastSpeed]</h2>
+    La quantité de temps qu'une construction ou unité nécessite dépends de votre facteur de production et de la nature de ce qui est en construction.
+    Avec ce service, votre facteur de production sera réduit par 50%, signifiant que tout ce que construizez prends la moitié du temps habutuel.
+
+    <a name="BuyFullLineOfSight" id="BuyFullLineOfSight"></a><h2>[BuyFullLineOfSight]</h2>
+    Vous pouve seulement voir les autres joueurs si ils sont dans votre [LineOfSight]. Votre [LineOfSight] est déterminé par les [Planets] et [Fleets] que vous avez à proximité. Avec ce service, vous voyez parfaitement tout sur l'univers déjà découvert et nous ne vous montrons pas de brouillard de guerre.
+
+    <a name="BuyNoUndiscoveredUniverse" id="BuyNoUndiscoveredUniverse"></a><h2>[BuyNoUndiscoveredUniverse]</h2>
+    ùles cases noirs sur l'[Universe] sont des endroit qui vous sont inconnus. Vous ne savez pas ce qui se trouve à cet endroit et il faut y [Travel] avec une [Fleet] pour savoir ce qui s'y trouve. Avec ce service, <b>tout</b>
+    l'univers sera marqué comme découvert.
+  </div></lang>
+		<lang key="hr"><h1>Premium Usluge</h1><div class="content">
+U [Shop] možete kupiti specijalne usluge koje će vam pomoći ili smanjiti težinu igre. Možete samo kupiti te usluge koristeći [Orions].
+<p />
+Ovdje je lista dostupnih usluga:
+<ul><li>[BuyIntrinsicDeduction]</li><li>[BuyRareDeduction]</li><li>[BuyQueueSpace]</li><li>[BuyFastSpeed]</li><li>[BuyFullLineOfSight]</li><li>[BuyNoUndiscoveredUniverse]</li></ul><a name="BuyIntrinsicDeduction" id="BuyIntrinsicDeduction"></a><h2>[BuyIntrinsicDeduction]</h2>
+Sa ovom uslugom aktiviranom [Intrinsic] trošak vaših [Facilities] i [CombatUnits] će biti 30% manji.
+Ovo važi samo za resurse vaše [Race], neće utjecati na rijetke resurse.
+
+<ul><li>Ako ste LightHumans], utječe na  [Energy], [Serium] i [Mithril] trošak</li><li>Ako ste [DarkHumans],  utječe na [Gold], [Titanium] i [Uranium]trošak</li><li>Ako ste [Bugs], utječe na [Protol] i [Elk] trošak</li></ul><a name="BuyRareDeduction" id="BuyRareDeduction"></a><h2>[BuyRareDeduction]</h2>
+Sa ovom uslugom aktiviranom [Intrinsic] trošak vaših [Facilities] i [CombatUnits] će biti 30% manji.
+Za razliku od prethodne usluge, ovo vrijedi samo za rijetke resurse:Astatine], [Prismal], [Radon], [Cryptium] i  [Argon].
+
+<a name="BuyQueueSpace" id="BuyQueueSpace"></a><h2>[BuyQueueSpace]</h2>
+Lista za čekanje je količina [Facilities] ili [CombatUnits] koje možete staviti na čekanje za konstrukciju u danom vremenu.  Vaš početni prostor na listi za čekanje ima samo jedno mjesto.  To znači ako već gradite nešto, ne možete staviti drugi predmet na listu za čekanje da počne čim se onaj u produkciji završi.
+<p />
+S ovom uslugom možete staviti još 3 predmeta na čekanje.
+
+<a name="BuyFastSpeed" id="BuyFastSpeed"></a><h2>[BuyFastSpeed]</h2>
+Količina vremena koju gradnja uzima ovisi o vašem produkcijskom faktoru i o predmetu koji se gradi. Sa ovom uslugom vaš produkcijski faktor je smanjen za 50%, što znači da što god da gradite, će se se graditi pola puta kraće nego inače.
+
+<a name="BuyFullLineOfSight" id="BuyFullLineOfSight"></a><h2>[BuyFullLineOfSight]</h2>
+Druge igrače jedino možete vidjeti ako se miču unutar vaše [LineOfSight]. Vaš [LineOfSight] je određen [Planets] i [Fleets] koje imate blizu. S ovom uslugom, moći ćete imati punu liniju vidljivosti u vašem otkrivenom svemiru, nećemo vam prikazati nikakav fog of war (maglu rata).
+
+<a name="BuyNoUndiscoveredUniverse" id="BuyNoUndiscoveredUniverse"></a><h2>[BuyNoUndiscoveredUniverse]</h2>
+Crni kvadrati u [Universe] su neotkriveni prostor. Ne znate što je tamo, i trebate [Travel] sa [Fleet] na tu lokaciju da vidite što tamo ima. S ovom uslugom imati ćete <b>all</b> označen kao otkriven.
+</div></lang>
+		<lang key="pt"><h1>Serviços Premium</h1><div class="content">
+    Na [Shop] podes comprar serviços especiais que te vão assistir no jogo e baixar a sua dificuldade. Apenas
+    podes comprar estes serviços usando [Orions].
+    <p />
+    Esta é a lista de serviços disponíveis:
+    <ul><li>[BuyIntrinsicDeduction]</li><li>[BuyRareDeduction]</li><li>[BuyQueueSpace]</li><li>[BuyFastSpeed]</li><li>[BuyFullLineOfSight]</li><li>[BuyNoUndiscoveredUniverse]</li></ul><a name="BuyIntrinsicDeduction" id="BuyIntrinsicDeduction"></a><h2>[BuyIntrinsicDeduction]</h2>
+    Com este serviço activado, os custos [Intrinsics] dos teus [Facilities] e [CombatUnits] será 30%
+    mais baixo. Isto apenas se aplica aos recursos da tua [Race], não afectará recursos raros.
+
+    <ul><li>Se fores dos [LightHumans], afecta [Energy], [Serium] e [Mithril]</li><li>Se fores dos [DarkHumans], afecta [Gold], [Titanium] e [Uranium]</li><li>Se fores dos [Bugs], afecta [Protol] e [Elk]</li></ul><a name="BuyRareDeduction" id="BuyRareDeduction"></a><h2>[BuyRareDeduction]</h2>
+    Com este serviço activado, os custos [Intrinsics] dos teus [Facilities] e [CombatUnits] será 30%
+    mais baixo. Ao contrário do serviço anterior, este é somente válido para os recursos raros: 
+    [Astatine], [Prismal], [Radon], [Cryptium] e [Argon].
+
+    <a name="BuyQueueSpace" id="BuyQueueSpace"></a><h2>[BuyQueueSpace]</h2>
+    A fila de espera é a quantidade de [Facilities] ou [CombatUnits] que podes colocar em espera para entrar
+    em produção. Por omissão, a tua lista apenas suporta uma posição. Isto significa que se tiveres a construir
+    algo, só podes colocar mais uma ordem de construção, que terá início assim que o que estiver em construcção
+    fique concluído.
+    <p />
+    Com este serviço podes colocar mais 3 ordens em lista de espera.
+
+    <a name="BuyFastSpeed" id="BuyFastSpeed"></a><h2>[BuyFastSpeed]</h2>
+    O tempo que algo demora a construir depende do teu factor de produção e do que estiveres a construir.
+    Com este serviço, o teu factor de produção é reduzido em 50%, o que significa que tudo o que construires
+    vai levar metade do tempo a ficar pronto.
+
+    <a name="BuyFullLineOfSight" id="BuyFullLineOfSight"></a><h2>[BuyFullLineOfSight]</h2>
+    Tu só consegues ver outros jogadores se eles estiverem a operar na tua [LineOfSight]. A tua [LineOfsight]
+    é determinada pelos [Planets] e [Fleets] que tens próximo. Com este serviço, terás [LineOfSight] total
+    no universo discoberto.
+
+    <a name="BuyNoUndiscoveredUniverse" id="BuyNoUndiscoveredUniverse"></a><h2>[BuyNoUndiscoveredUniverse]</h2>
+    Os quadrados pretos no [Universe] são espaço por descobrir. Tu não sabes o que lá está, e precisas de
+    [Travel] com uma [Fleet] para essa localização para ver o que lá está. Com este serviço, conseguirás ver
+    <b>todo</b> o universo como se o tivesses descoberto.
+  </div></lang>
+	</entry>
+
+	<entry key="TopManualTitle">
+		<lang key="de">Orion's Belt Anleitung</lang>
+		<lang key="en">Orion's Belt Manual</lang>
+		<lang key="es">Manual de Orion's Belt</lang>
+		<lang key="fr">Guide de Jeu d'Orion's Belt</lang>
+		<lang key="hr">Orionov Pojas Priručnik</lang>
+		<lang key="pt">Manual do Orion's Belt</lang>
+	</entry>
+
+	<entry key="UtilitiesContent">
+		<lang key="de"><div class="content"><ul><li><a href="http://www.orionsbelt.eu/Tools/obcalc.html">Orion's Belt Rechner</a> - ein online Kampf-Rechner (hergestellt von Syriin)</li><li><a href="http://www.orionsbelt.eu/Tools/obrevcalc.html">Orion's Belt Revers-Rechner</a> - ein online Revers Kampf-Rechner (hergestellt von Syriin)</li><li><a href="http://forum.orionsbelt.eu/viewtopic.php?p=34133#34133">OBExplorer</a> - Eine Anwendung wo du nach Informationen über Flotten und Planeten im Universum suchen kannst; du kannst es hier downloaden
+  <a href="http://www.orionsbelt.eu/Tools/OBExplorer.zip">here</a> (hergestellt von ikkie)</li><li><a href="http://www.alexandresemmer.net/googorions/">GoogOrion's</a> - Suche das Universum (hergestellt von Ashis)
+  </li></ul></div></lang>
+		<lang key="en"><div class="content"><ul><li><a href="http://www.orionsbelt.eu/Tools/obcalc.html">Orion's Belt Calculator</a> - an online battle calculator (made by Syriin)</li><li><a href="http://www.orionsbelt.eu/Tools/obrevcalc.html">Orion's Belt Reverse Calculator</a> - an online reverse battle calculator (made by Syriin)</li><li><a href="http://forum.orionsbelt.eu/viewtopic.php?p=34133#34133">OBExplorer</a> - An application where you can search for 
+  information about fleets and planets on the universe; you can download it 
+  <a href="http://www.orionsbelt.eu/Tools/OBExplorer.zip">here</a> (made by ikkie)</li><li><a href="http://www.alexandresemmer.net/googorions/">GoogOrion's</a> - Search the universe (made by Ashis)
+  </li></ul></div></lang>
+		<lang key="fr"><div class="content"><ul><li><a href="http://www.orionsbelt.eu/Tools/obcalc.html">Orion's Belt Calculator</a> - Une calculatrice de combat en ligne (produit par Syriin)</li><li><a href="http://www.orionsbelt.eu/Tools/obrevcalc.html">Orion's Belt Reverse Calculator</a> - aUne calculatrice de combat en ligne (produit par Syriin)</li><li><a href="http://forum.orionsbelt.eu/viewtopic.php?p=34133#34133">OBExplorer</a> - Une application permettant de rechercher de l'information à propos d'escadrilles, et de planètes sur tout l'univers. Vous pouvez le télécharger. 
+  <a href="http://www.orionsbelt.eu/Tools/OBExplorer.zip">here</a> (produit par ikkie)</li><li><a href="http://www.alexandresemmer.net/googorions/">GoogOrion's</a> - Recherche sur l'univers (Produit par Ashis)
+  </li></ul></div></lang>
+		<lang key="hr"><div class="content"><ul><li><a href="http://www.orionsbelt.eu/Tools/obcalc.html">Orionov Pojas Kalkulator</a> - online kalkulator (napravljen od Syriin)</li><li><a href="http://www.orionsbelt.eu/Tools/obrevcalc.html">Orioniv Pojas Obrnuti Kalkulator</a> - online obrnuti kalkulator bitki (napravljen od Syriin)</li><li><a href="http://forum.orionsbelt.eu/viewtopic.php?p=34133#34133">OBExplorer</a> - aplikacija gdje tražite informacije o flotama i planetama u svemiru; možete je downloadati 
+<a href="http://www.orionsbelt.eu/Tools/OBExplorer.zip">ovdje</a> (napravljena of ikkie)</li><li><a href="http://www.alexandresemmer.net/googorions/">GoogOrion's</a> - Pretraga svemira (napravljena od Ashis)
+</li></ul></div></lang>
+		<lang key="pt"><ul><li><a href="http://www.orionsbelt.eu/Tools/obcalc.html">Calculadora Orion's Belt</a> - uma calculadora de batalha online (feita por Syriin)
+    </li><li><a href="http://www.orionsbelt.eu/Tools/obrevcalc.html">Calculadora Reversa Orion's Belt</a> - uma calculadora de batalha reversa online (feita por Syriin)
+    </li><li><a href="http://forum.orionsbelt.eu/viewtopic.php?p=34133#34133">OBExplorer</a> - Uma aplicação que te permite fazer pesquisas sobre
+  armadas e planetas no universo; podes fazer download 
+  <a href="http://www.orionsbelt.eu/Tools/OBExplorer.zip">aqui</a> (feita pelo ikkie)
+    </li><li><a href="http://www.alexandresemmer.net/googorions/">GoogOrion's</a> - Pesquisa no pontos no universo (feita pelo Ashis)
+  </li></ul></lang>
+	</entry>
+
+</resources>

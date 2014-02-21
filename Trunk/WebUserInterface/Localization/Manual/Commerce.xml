@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" ?>
+<resources cache="true" online="false">
+
+	<entry key="AuctionHouseManual">
+		<lang key="de">Das [AuctionHouse] ist ein Ort wo ein Spieler einem anderen Spieler Sachen abkaufen oder verkaufen kann. Die Transaktionen werden immer [Orions] als Kaufwährung benutzt. <p></p><h2>
+    Was kann ich verkaufen und wie kann ich es verkaufen?
+  </h2>
+  Du kannst Ressourcen und [Units] verkaufen. Um [Units] zu verkaufen müssen sie in der Verteidigungs- [Fleet] sein auf deinem Heimat- [Planet]. <p>
+  Um zu verkaufen (versteigern) muss man zur Seite des [AuctionHouse] gehen und fortfahren zur Seite 
+  "Ins Auktionshaus stellen". </p><p>
+  Auf dieser Seite kannst du die Ressourcen/[Units] sehen die du zur Versteigerung freigibst, Die 
+  Anzahl dr Produkte, die minimale Anzahl von Angeboten,
+  den Wert für einen unverzüglichen Verkauf, die Zeit die die Produkte im [AuctionHouse] bleiben und 
+  ob für das Produkt das zum Verkauf frei ist, Werbung gemacht werden soll.
+  Die benötigten Felder sind die Anzahl und der Basis-Wert für Angebote. </p><p>
+  Es ist notwendig dass der Spieler die Konten innerhalb der letzten 3 Tage nicht geändert hat um 
+  Artikel im [AuctionHouse]zu stellen.</p><p></p><h2>
+    Wie findet der Kauf statt?
+  </h2>
+  Während der Zeit die man gewählt hat als das Produkt ins [AuctionHouse] gestellt wurde, ist es 
+  möglich für Spieler Angebote zu machen oder das Produkt sofort zu verkaufen.
+  Für den unverzüglichen Kauf erhält der Verkäufer die [Orions] sofort, in dem Fall dass geboten wird, erhält der Verkäufer die [Orions] nur dann wenn die Zeit des Bietens vorbei ist. <p>
+  Alle Verkäufe haben ein [AuctionHouse] Tarif that can der von 8% bis 25% variiert, je grösser der 
+  finale Verkaufswert ist umso niedriger ist der Tarif.
+  Das bedeutet der Verkäufer erhält den Wert des Verkaufs (bezahlt durch einen anderen Spieler) 
+  abzüglich des [AuctionHouse] Tarifs. </p><p>
+  In dem Fall dass das Produkt nicht verkauft wird: wenn es eine Einheit ist kehr sie zurück zu der 
+  Verteidiguns- [Fleet] auf dem Heimat- [Planet], wenn es eine Ressource ist geht es zum Depot
+  der Ressourcen bis das maximale Limit erreicht ist. </p><p>
+  Es gibt auch eine Seite wo der Spieler die Produkte sehen kann the products die er ins  
+  [AuctionHouse] gestellt hat, und die Produkte die bereits von ihm/ihr verkauft wurdem im 
+  [AuctionHouse]. </p><p></p><h2>Wie findet der Kauf statt? </h2>
+  Nach dem Angebotsgewinn erhält der Spieler das gekaufte Produkt in der Verteidigungs- [Fleet] auf 
+  dem Heimat-[Planet]. In dem Fall dass das Produkt eine Einheit ist erscheint es sofort in der 
+  [Fleet] und ist bereit um zu einer anderen [Fleet] bewegt zu werden die dann über das 
+  [Universe] navigieren kann. <p>
+  In dem Fall dass das Produkt eine Ressource ist oder eine [Ultimate] geht es zur Fracht 
+  Verteidigungs- [Fleet]'s auf dem Heimat- [Planet]. In dem Falle der Ressourcen können sie entladen 
+  werden von der Fracht zum Depot der Ressourcen, in dem Falle der [Ultimate] wird eine [Fleet] 
+  kreiert im Orbit des Heimat- [Planet] wenn der Spieler das [Fleets] Limit noch nicht erreicht hat,
+  andererseits kann der Spieler die [Ultimate] nicht abladen.</p></lang>
+		<lang key="en">The [AuctionHouse] is the place where a player can buy or sell things to another player. The transactions are always made
+  using [Orions] as currency to buy. <p /><h2>
+    What can I sell and how do I sell it?
+  </h2>
+  You can sell resources and [Units]. To sell [Units] they must be in the defense [Fleet] of your home [Planet]. <p />
+  To sell (put into auction) is necessary to go to the [AuctionHouse] page and then proceed to the "Add to Auction House" page. <p />
+  On this page you can see the resources/[Units] you can put into auction, the produt quantity, the minimum amount of bidding,
+  the value for immediate sale, the time it will be in [AuctionHouse] and if it is to advertise the product that is put up for sale.
+  The fields required are the quantity and base value for bidding. <p />
+  Is necessary that the player didn't change accounts for the past 3 days to put items in the [AuctionHouse].<p /><h2>
+    How does the sale proceeds?
+  </h2>
+  During the time that is chosen when the product was put in [AuctionHouse], it is possible for players bid or buy the product right away.
+  For the immediate purchase the seller player gets the [Orions] immediately, in the case of bidding the seller receives only the [Orions] when
+  finish the bidding. time <p />
+  All sales have the [AuctionHouse] rate associate that can vary from 8% to 25%, the greater is the final sales value the lower is the rate.
+  This means that the seller will receive the value of the sale (paid by another player) minus the [AuctionHouse] rate. <p />
+  In case the product isn't sold, if it's a unit it returns to the defense [Fleet] of the home [Planet], if it's a resourse it goes to the
+  repository of resources until the maximum limit is achieved. <p />
+  There is also a page where the player can see the products he put in the [AuctionHouse], and the products already sold by him/her in the [AuctionHouse]. <p /><h2>How the purchase proceeds? </h2>
+  After winning a bid the player receives the product purchased in the defense [Fleet] of the home [Planet]. In the case the product is a unit it appears directly
+  in the [Fleet] and is ready to be moved to another [Fleet] that can navigate over the [Universe]. <p />
+  In case the product is a resource or a [Ultimate] it goes to the defense [Fleet]'s cargo on the home [Planet]. In the case of resources they can be unload from the cargo to
+  the repository of resources, in the case of a [Ultimate] is created a [Fleet] in of home [Planet] orbit if the player has not reached the limit of [Fleets],
+  otherwise the player can not unload the [Ultimate].</lang>
+		<lang key="es">La [AuctionHouse] es el local donde un jugador puede comprar o vender cosas a otro jugador. Las transacciones son siempre echas usando los [Orions] como moneda de compra.<p /><h2>Lo que puedo  vender y como puedo vender?</h2>
+  Es posible vender recursos y [Units].Para vender [Units] es necesario que ellas estén en la [Fleet] de defensa en el [Planet] madre.<p />
+  Para proceder a la venta (puesta en subasta) es necesario ir a la pagina de [AuctionHouse]  y despues seguir hacia la página de "Adicionar Subasta" .<p /> 
+  En esta página aparecen los recursos/[Units] que se pueden colocar en subasta así como, el valor pretendio, el valor minimode subasta , el valor de venta inmediata, el tiempo que estará en la 
+  [AuctionHouse] y sí es para hacer publicidad al producto que se colocará a la venta.
+  Los campos de obligatorios son la cantidad a colocar en subasta y el valor base de licitación.<p />
+  Es necesario y obligatorio que el jugador esté por lo menos 3 días sin cambiar la cuenta, para conseguir poner algo en la [AuctionHouse].<p /><h2>Como se procede a una venta?</h2>
+  Durante el tiempo escogio cuando el producto fué puesto en la [AuctionHouse], se permite a los jugadores liciten o comprem el producto de inmediato.
+  En caso de una compra inmediata el jugador que esta vendiendo recibe los [Orions] de inmediato, en el caso de licitación el vendedor sólo recibe los [Orions] 
+  cuando termina el tiempo de licitación.<p />
+  Todas las ventas tienen la tasa de la [AuctionHouse] asociada que puede variar de 8%-25%, la tasa será mas baja en la medida que el valor da la venta final sea mayor.  
+  Esto significa que el vendedor va a recibir el valor de la venta (pagada por otro jugador) menos la tasa de la [AuctionHouse].<p />
+  En el caso que un producto no fuera vendido, si fuera una unidad vuelve a las  [Fleet] de defensa del [Planet] madre, si fuera un recurso vuelve al repositorio de recursos hasta el limite máximo de    repositorios.
+  Existe aún una página donde el jugador puede ver los productor que tiene en subasta en aquel momento, y los productos que ya vendió en la [AuctionHouse] en otros momentos.<p /><h2>Como se procede para comprar?</h2>
+  Después de ganar una licitación el jugador recibe el producto comprado en la [Fleet] de defensa del [Planet] madre. En el caso de ser una unidad ella aparecerá directamente en la 
+  [Fleet] y quedará lista para ser movidad para otra [Fleet] que pueda navegar poe el [Universe].<p />
+  En el caso de ser un recurso o una [Ultimate] ella va para la carga de la [Fleet] el [Planet] madre. En el caso de los recursos cuando son retirados de la carga van para el repositorio de recursos,    en el caso de una [Ultimate] es creada una  [Fleet] en la orbita del [Planet] madre en el caso que el jugador no haya llegado al limite de armas, en caso contrario no es posible descargar la    [Ultimate].</lang>
+		<lang key="fr">l'[AuctionHouse] est l'endroit ou un joueur peut vendre ou acheter avec un autre joueur. Les transactions sont toujours faites avec les [Orions]. <p /><h2>
+    Qu'est-ce que vous pouvez vedre et comment?
+  </h2>
+  Vous pouvez vendre des ressources et des [Units]. Pour vendre des [Units] elle doivent se retrouvés sur l'[Fleet] de défense de votre planète mère. <p />
+  Pour vendre (put into auction) il est nécessaire d'accéder à la page du [AuctionHouse] et cliquer sur "ajouter à la maison des enchères enchères" <p />
+  C'est sur cette page que vous pouvez voir les ressources/[Units] que vous pouvez mettre en enchère en sélectionnant la quantité, l'offre minimale demandé, la valeur de l'achat instantannée, le temps que l'objet sera en enchère dans le [AuctionHouse], et la publicité de cette enchère par rapport à cette anchère.
+  Les champs obligatoires sont la quantité et la valeur minimale demandé en Orions. <p />
+  Il est nécessaire qu'un compte n'a pa changé de joueur dans les 3 derniers jours pour rajouter un objet dans la [AuctionHouse].<p /><h2>
+    Comment fonctionne la vente?
+  </h2>
+  Durant le temps choisit quand le produit est inséré dans la [AuctionHouse], il est possible pour les autres joueurs de surenchérir ou acheter le produit en vente immédiatement. 
+  Si l'achat est instantanné, le vendeur reçoit immédiatement [Orions] immediately, alors qu'une enchère habituel signifie que le vendeur reçoit les [Orions]seulement à la fin du temps d'enchère et que le produit est vendu. <p />
+  Toutes les ventes dans la [AuctionHouse] sont taxés de 8% à 25%. Plus l'objet est vendu à un prix élevé, plus petite est la taxe.
+  Cela signifie que le vendeur reçoit la valeur de la vente moins la taxe selon le prix finale. <p />
+  Si le produit n'est pas vendu, il retourne à la [Fleet] de défense de votre [Planet] mère si c'est une unité ou directement dans votre banque de ressource si ces une ressource.(à moins que le maximum est attint.) <p />
+  Il existe aussi une page ou vous pouvez voir les produits que vous avez actuellement dans la [AuctionHouse] et votre gistorique de ventes. <p /><h2>Comment fonctionne les achats? </h2>
+  Après avoir gagné une anchère, le joueurs reçoit ce qu'il a gagné dans l'[Fleet] de défense de la [Planet] mère. Si c'est unité, elle apparaît directement dans l'[Fleet] et est prête à être utilisé dans une autre [Fleet]pour l'envoyant n'importe-où  travers l'[Universe]. <p />
+  Si le produit est une ressource, ou un [Ultimate], ce dernier se retrouve dans la cargaison de l'[Fleet] de défense sur la [Planet] mère. Dans le cas d'une ressource, il suffit de la décharger dans la banque de ressources pour pouvoir l'utiliser et dans le cas d'une unité [Ultimate], il faut déplacer l'unité dans une nouvelle [Fleet] à la [Planet] mère si le nombre d'[Fleets] maximum n'est pas dépass.,
+  Sinon, il est impossible d'utiliser l'unité [Ultimate] acquise.</lang>
+		<lang key="hr">[AuctionHouse] je mjesto gdje igrač može kupovati ili prodavati stvari drugim igračima. Transakcije se uvijek obavljaju s [Orions] kao novcem za kupnju. <p /><h2>
+Što mogu prodati i kako da to prodam?
+</h2>
+Možete prodavati reusrse i [Units]. Da prodate  [Units] one moraju biti u obranbenoj [Fleet] Početnog [Planet]. <p />
+Da prodate (stavite na aukciju) potrebno je da odete na  [AuctionHouse] stranicu i tada nastavite na "Dodaj u Aukcijsku Kuću" stranicu. <p />
+Na ovoj stranici možete vidjeti resurse/[Units] koje možete staviti na aukciju, količinu proizvoda, minimalnu količinu ponude, vrijenost za trenutačnu kupnju, vrijeme koje će provesti u [AuctionHouse] i hoće li se predmet koji se stavlja na prodaju oglašavati.
+Potrebna polja su količina i početna vrijednost ponude.<p />
+Potrebno je da igrač nije mijenjao akaunte u zadnja 3 dana da bi mogao staviti predmete u [AuctionHouse].<p /><h2>
+Kako se prodaja nastavlja?
+ </h2>
+Tokom vremena koje je odabrano kada je proizvod stavljen u [AuctionHouse], drugi igrači mogu stavljati ponude ili trenutačno otkupiti proizvod. 
+Za trenutačnu kupnju prodavač dobija [Orions] odmah u slučaju davanja ponuda prodavač prima [Orions] kada istekne vrijeme određeno za davanje ponuda. <p />
+Sve prodaje imaju proviziju [AuctionHouse] koja varira od 8% do 25%, što je veća finalna prodajna vrijednost to je manja provizija. Ovo znači da će prodavač primiti vrijednost prodaje (plaćenu od strane drugog igrača) minus [AuctionHouse] provizija.<p />
+U slučaju da proizvod nije prodan, ako je jedinica vraća se u obranbenu [Fleet] Počernog [Planet], ako je resurs ide u skladište resursa sve dok nije dostignut maksimalni limit. <p />
+Također postoji stranica gdje igrač može vidjeti proizvode koje je stavio u [AuctionHouse], i njegove proizvode koji su mu već prodani u [AuctionHouse]. <p /><h2>Kako se kupnja nastavlja? </h2>
+Nakon završetka nadmetanja igrač dobija kupljeni proizvod u obranbenu  [Fleet] Početnog [Planet]. U sluačaju da je proizvod jedinica pojavljuje se direktno u [Fleet] i spprema je da bude premještena u drugu [Fleet] koja može putovati [Universe]. <p />
+U slučaju da je proizvod resurs ili [Ultimate] ide u skladište obranbene [Fleet] na Početnom [Planet]. U slučaju resursa oni mogu biti istovareni iz tereta u skladište, u slučaju [Ultimate] stvorena je [Fleet]u orbiti početnog planeta ako igrač nije dosegao limit [Fleets], inače igrač ne može istovariti  [Ultimate].</lang>
+		<lang key="hu">Az [AuctionHouse] az a hely ahol azegyik játékos eladni vagy venni tud másik játékosoktól. A tranzakciók valutája minden esetben
+  az [Orions]. <p /><h2>
+    Mit és hogyan tudok eladni?
+  </h2>
+  Forrásokat és [Units]-okat tudsz eladni. [Units]-ok eladásához a saját [Planet]-eden kell lenniük, a védelmi [Fleet]-on. <p />
+  Eladni (árverésre bocsátani) az  [AuctionHouse] oldalra kell menni az "Add to Auction House" -hoz. <p />
+  Ezen az oldalon láthatod a forrásokat/[Units] amelyeket árverésre bocsáthatsz, a termék mennyiségét, a licit minimum értékét,
+  az azonnali eladás értékét, az időt amíg az [AuctionHouse]-ban lesz és az eladni kívánt árú reklámját is.
+  A szókséges mezők az árú mennyisége és az alap értéke a licithez. <p />
+  Ahhoz hogy az [AuctionHouse]-ba termékeket rakhass, szükséges, hogy az elmúlt 3 napban ugyanazzal a felhasználói fiókkal legyél bejelenzkezve.<p /><h2>
+    Hogyan működik az eladás?
+  </h2>
+  A kiválasztott idő alatt amíg a termék az [AuctionHouse]-ban van, a játékosok licitálhatnak, vagy rögtön meg is vehetik a terméket. 
+  Az azonnali vételnél az eladó azonnal megkapja az [Orions]-okat, licit esetén az eladó csak az aukció végén kapja meg az [Orions]-okat.
+  time <p />
+  Minden eladásnál van [AuctionHouse] adó ami 8% és 25% között váltakozhat, minél magasabb a végösszeg, annál kisebb az adó.
+  Ez azt jelenti, hogy az eladó megkapja az összeget az eladott termékért (amelyet egy másik játékos fizet) minusz az [AuctionHouse] adó. <p />
+  Abban az esetben ha a termék nem kel el, ha egység(ek) akkor visszatér a [Fleet]-re a fő [Planet]-ra, ha forrás(ok) akkor a tárházba kerül
+  amíg a maximum limitet el nem érik. <p />
+  Emellett van egy olyan oldal ahol a játékos meg tudja tekinteni a termékeket amiket az [AuctionHouse]-ba helyezett, és azokat a termékeket amiket már eladott az [AuctionHouse]-ban. <p /><h2>Hogyan működik a vásárlás? </h2>
+  Nyertes licit után a játékos a fő [Planet]en a védelmi [Fleet]-n kapja meg a terméket. Ha a termék egy egység akkor azonnal megjelenik
+  a [Fleet]-ban és készen áll, hogy áthelyezzék egy másik [Fleet]-ba amely az [Universe]-ban navigálhat. <p />
+  Ha a termék egy forrás vagy egy [Ultimate] akkor a védelmi [Fleet] rakterébe kerül a fő [Planet]-n. Források esetén a termék kirakodható a raktérből a tárházba,
+  [Ultimate] esetében egy [Fleet] jön létre a fő [Planet] körül orbitális pályán, ha a játékos nem érte el a [Fleets] maximális számát,
+  ellenkező esetben a játékos nem tudja kirakodni az [Ultimate]-et.</lang>
+		<lang key="pt">A [AuctionHouse] é o local onde um jogador pode comprar ou vender coisas a outro jogador. As transacções são sempre feitas
+  usando os [Orions] como moeda de compra.<p /><h2>O que posso vender e como posso vender?</h2>
+  É possível vender recursos e [Units]. Para vender [Units] é necessário que elas estejam na [Fleet] de defesa no [Planet] mãe.<p />
+  Para proceder à venda (colocação em leilão) é necessário ir à página da [AuctionHouse] e depois seguir para a página de "Adicionar Leilão".<p />
+  Nesta página aparecem os recursos/[Units] que se podem colocar a leilão assim como, a quantidade pretendida, o valor mínimo de licitação,
+  o valor de venda imediata, o tempo que estará na [AuctionHouse] e se é para fazer publicidade ao produto que se colocará à venda.
+  Os campos de preenchimento obrigatório são a quantidade a colocar em leilão e o valor base de licitação.<p />
+  É necessário ainda que o jogador esteja à 3 dias sem mudar de conta, para conseguir colocar algo na [AuctionHouse].<p /><h2>Como se procede a venda?</h2>
+  Durante o tempo que se escolheu quando o produto foi posto na [AuctionHouse], é possível aos jogadores licitarem ou comprarem o produto de imediato.
+  No caso da compra imediata o jogador que está a vender recebe os [Orions] de imediato, no caso da licitação o vendedor só recebe os [Orions] quando
+  terminar o tempo de licitação.<p />
+  Todas as vendas têm a taxa da [AuctionHouse] associada que pode variar de 8%-25%, sendo mais baixa a taxa quanto maior for o valor da venda final.
+  Isto significa que o vendedor vai receber o valor da venda (pago pelo outro jogador) menos a taxa da [AuctionHouse].<p />
+  No caso do produto não ser vendido se for uma unidade volta à [Fleet] de defesa do [Planet] mãe, se for um recurso volta para o repositório de recursos
+  até ao limite máximo do repositório.<p />
+  Existe ainda uma página onde o jogador pode ainda ver os produtos que tem a leilão naquele momento, e os produtos que já vendeu na [AuctionHouse] em outras alturas.<p /><h2>Como se procede a compra?</h2>
+  Após ganhar uma licitação o jogador recebe o produto comprado na [Fleet] de defesa do [Planet] mãe. No caso de ser uma unidade ela aparece directamente
+  na [Fleet] e está pronta a ser movida para uma outra [Fleet] que possa navegar pelo [Universe].<p />
+  No caso de ser um recurso ou uma [Ultimate] ela vai para a carga da [Fleet] no [Planet] mãe. No caso dos recursos quando são retirados da carga vão
+  para o repositório de recursos, no caso de uma [Ultimate] é criada uma [Fleet] na órbita do [Planet] mãe caso o jogador ainda não tenha chegado ao limite de armadas,
+  caso contrário não é possível descarregar a [Ultimate].</lang>
+	</entry>
+
+	<entry key="MarketsManual">
+		<lang key="de">Die [Markets] sind über das [Universe] verteilt und haben zwei Ziele: Den Kauf von [Resources] und [TradeRoutes] zu etablieren um [Merchant] [Quests] zu auszuführen. <p>
+  Um [Resources] zu kaufen ist es notwendig eine [Fleet] zum [Market] zu bewegen und den Kauf zu 
+  machen. Die [Resources] werden in die Fracht der [Fleet] gestellt, und du musst die [Fleet] zu 
+  einem [Planet] bewegen den du besitzt und die Fracht entladen. Die seltenen [Resources] 
+  sind nicht immer erhältlich auf [Markets], zweimal am Tag werden seltene [Resources] auf [Markets] 
+  gestellt, die keine haben. </p><p>
+  Um [TradeRoutes] zu etablieren ist es notwendig Ressourcen zwischen [Markets] zu transportieren. 
+  Die Ressourcen die auf [TradeRoutes] benutzt werden, sind:
+  </p><ul><li>
+  [Supplies], man findet sie auf einigen [Markets] in der Level 1 Zone
+    </li><li>
+  [Tools], man findet sie auf einigen [Markets] in der Level 1 Zone
+    </li><li>
+  [Alcohol], man findet sie auf einigen [Markets] in der Level 3 und 5 Zone
+    </li><li>
+  [Medicine], man findet sie auf einigen [Markets] in der Level 3 und 5 Zone
+    </li><li>
+  [Mercury], man findet sie auf einigen [Markets] in der Level 7 Zone
+    </li><li>
+  [Diamonds], man findet sie auf einigen [Markets] in der Level 7 Zone
+    </li><li>
+  [Animals], man findet sie auf einigen [Markets] in der Level 10 Zone
+    </li><li>
+  [CosmicDust], man findet sie auf einigen [Markets] in der Level 10 Zone
+    </li></ul></lang>
+		<lang key="en">The [Markets] are over the [Universe] and have two objectives: the purchase of [Resources] and establish [TradeRoutes] to achieve 
+  [Merchant] [Quests]. <p />
+  To buy [Resources] is necessary to move a [Fleet] to the [Market] and make the purchase. The [Resources] will be placed in the cargo 
+  of the [Fleet], then you must move the [Fleet] to a [Planet] that you own and unload the cargo. The rare [Resources] 
+  are not always available in [Markets], twice a day are placed rare [Resources] in [Markets] that do not have. <p />
+  To establish [TradeRoutes] is necessary to transport resources between [Markets]. The resources used in [TradeRoutes] are:
+  <ul><li>
+  [Supplies], found in some [Markets] in the level 1 area
+    </li><li>
+  [Tools], found in some [Markets] in the level 1 area
+    </li><li>
+  [Alcohol], found in some [Markets] in the level 3 and 5 area
+    </li><li>
+  [Medicine], found in some [Markets] in the level 3 and 5 area
+    </li><li>
+  [Mercury], found in some [Markets] level in the 7 area
+    </li><li>
+  [Diamonds], found in some [Markets] level in the 7area
+    </li><li>
+  [Animals], found in some [Markets] in the level 10 area
+    </li><li>
+  [CosmicDust], found in some [Markets] in the level 10 area
+    </li></ul></lang>
+		<lang key="es">Los [Markets] existen a lo largo de [Universe] y tienen dos objetivos: la compra de [Resources] y estabelecer [TradeRoutes] para cumplir
+  [Quests] de [Merchant].<p />
+  Para comprar [Resources] es necesario trasladar una [Fleet] hasta los  [Market] y efectuar la compra. Los [Resources] serán colocados en la
+  carga de la [Fleet], enseguida se hace necesario trasladar la [Fleet] hasta un [Planet] que se posea y descargar la carga. Los [Resources] raros
+  no siempre están disponibles en los mercados, dos veces por día son colocados [Resources] raros en los [Markets] que no los tuvieran.<p />
+  Para establecer [TradeRoutes] es necesário transportar recursos entre [Markets]. Los recursos usados em [TradeRoutes] son los siguientes:
+  <ul><li>[Supplies], encontrados en algunos [Markets] en la área de nível 1</li><li>[Tools], encontrados en algunos [Markets] en la áreade nível 1</li><li>[Alcohol], encontrados en algunos [Markets] en la área de nível 3 e 5</li><li>[Medicine], encontrados en algunos [Markets] en la área de nível 3 e 5</li><li>[Mercury], encontrados en algunos [Markets] en la área de nível 7</li><li>[Diamonds], encontrados en alguns [Markets] en la área de nível 7</li><li>[Animals], encontrados en algunos [Markets] en la área de nível 10</li><li>[CosmicDust], encontrados en algunos [Markets] na en la área de nível 10</li></ul></lang>
+		<lang key="fr">Les [Markets] sont partout à traver [Universe] et existent pour deux raisons: pour acheter des  [Resources] et établir [TradeRoutes] pour terminer les [Quests]
+  [Merchant]. <p />
+  Pour acheter des [Resources] il est nécessaire de bouger une [Fleet] jusqu'au [Market] apour faire l'achat. LES [Resources] seront placés dans votre cargaison de cet [Fleet], que vous devrez conduire à une [Planet] pour décharger la cargaison. Les [Resources] rares
+ ne sont pas toujours disponibles dans les [Markets], 2 dois par jours les [Resources] rare non disponibles dans les [Markets] sont remplacés in. <p />
+  Pour établir des [TradeRoutes] il est nécessaire de transporter des ressources entre les [Markets]. Les ressources utilisés dans les [TradeRoutes] sont:
+  <ul><li>
+  [Supplies], qu'on peut trouver dans les marchés [Markets] dans les zones de niveau 1.
+    </li><li>
+  [Tools], qu'on peut trouver dans les marchés [Markets] dans les zones de niveau 1.
+    </li><li>
+  [Alcohol], qu'on peut trouver dans les marchés [Markets] dans les zones de niveau 3 et 5.
+    </li><li>
+  [Medicine], qu'on peut trouver dans les marchés [Markets] dans les zones de niveau 3 et 5.
+    </li><li>
+  [Mercury], qu'on peut trouver dans les marchés [Markets] dans les zones de niveau 7.
+    </li><li>
+  [Diamonds], qu'on peut trouver dans les marchés [Markets] dans les zones de niveau 7.
+    </li><li>
+  [Animals], qu'on peut trouver dans les marchés [Markets] dans les zones de niveau 10.
+    </li><li>
+  [CosmicDust], qu'on peut trouver dans les marchés [Markets] dans les zones de niveau 10.
+    </li></ul></lang>
+		<lang key="hr">[Markets] su posvuda u [Universe] i imaju dva cilja: kupnju [Resources] i uspostavljanje [TradeRoutes] da se završe [Merchant] [Quests]. <p />
+Da kupite [Resources] potrebno je pomaknuti [Fleet] prema [Market] i obaviti kupnju. [Resources] će biti smješteni u sladište  [Fleet], tada trebate pomaknuti [Fleet] prema [Planet] koji posjedujete i istovariti teret. Rijetki [Resources] nisu uvijek dostupni u [Markets], dvaput dnevne rijetki [Resources] se smještaju u  [Markets] koji ih nemaju. <p />Da se uspostave [TradeRoutes] potrebno je transportirati resurse između [Markets].
+Resursi koji se upotrebljavaju u [TradeRoutes] su: 
+<ul><li>
+[Supplies], pronađeni u nekim [Markets] u području nivoa 1 
+    </li><li>
+  [Tools], pronađeni u nekim [Markets] u području nivoa 1 
+    </li><li>
+  [Alcohol], pronađeni u nekim [Markets] u području nivoa 3 i 5 
+    </li><li>
+  [Medicine], pronađeni u nekim [Markets] u području nivoa 3 i 5 
+    </li><li>
+  [Mercury], pronađeni u nekim [Markets] u području nivoa 7 
+    </li><li>
+  [Diamonds], pronađeni u nekim [Markets] u području nivoa 7
+    </li><li>
+  [Animals], pronađeni u nekim[Markets] u području nivoa 10 
+    </li><li>
+  [CosmicDust], pronađeni u nekim [Markets] u području nivoa 10 
+    </li></ul></lang>
+		<lang key="hu">A [Markets] az egéy [Universe]-ban megtalálhatóak, 2 alapvető céljuk van: [Resources] vásárlása és [TradeRoutes] létrehozása 
+  [Merchant] [Quests]-ekért. <p />
+  [Resources] vásárlásához egy [Fleet]-t kell a [Market]-hez mozgatnod, és vásárolnod kell. A [Resources] a [Fleet] rakterébe kerülnek,
+  majd a [Fleet]-t vissza kell küldened a saját [Planet]-edre és kirakodni a szállítmányt. A ritka [Resources] 
+  nem mindig elérhetőek a [Markets]-on, naponta kétszer ritka [Resources] kerülnek a  [Markets]-ra amelyek normál esetben nem elérhetőek. <p />
+  [TradeRoutes] felállításához [Markets]-ok között kell forrásokat szállítanod.. A [TradeRoutes]-on használt források:
+  <ul><li>
+  [Supplies], megtalálható néhány [Markets]-en az 1-es szintű területen.
+    </li><li>
+  [Tools], megtalálható néhány [Markets]-en az 1-es szintű területen.
+    </li><li>
+  [Alcohol], megtalálható néhány [Markets]-en a 3-mas és 5-ös szintű területen.
+    </li><li>
+  [Medicine], megtalálható néhány [Markets]-en a 3-mas és 5-ös szintű területen.
+    </li><li>
+  [Mercury], megtalálható néhány [Markets]-en a 7-es szintű területen.
+    </li><li>
+  [Diamonds], megtalálható néhány [Markets]-en a 7-es szintű területen.
+    </li><li>
+  [Animals], megtalálható néhány [Markets]-en a 10-es szintű területen.
+    </li><li>
+  [CosmicDust], megtalálható néhány [Markets]-en a 10-es szintű területen.
+    </li></ul></lang>
+		<lang key="pt">Os [Markets] existem ao longo do do [Universe] e têm dois objectivos: a compra de [Resources] e estabelecer [TradeRoutes] para cumprir
+  [Quests] de [Merchant].<p />
+  Para comprar [Resources] é necessário deslocar uma [Fleet] até ao [Market] e efectuar a compra. Os [Resources] serão colocados na
+  carga da [Fleet], de seguida é necessário deslocar a [Fleet] até um [Planet] que se possua e descarregar a carga. Os [Resources] raros
+  nem sempre estão disponíveis nos mercados, duas vezes por dia são colocados [Resources] raros nos [Markets] que não os tiverem.<p />
+  Para estabelecer [TradeRoutes] é necessário transportar recursos entre [Markets]. Os recursos usados em [TradeRoutes] são os seguintes:
+  <ul><li>[Supplies], encontrados em alguns [Markets] na área de nível 1</li><li>[Tools], encontrados em alguns [Markets] na área de nível 1</li><li>[Alcohol], encontrados em alguns [Markets] na área de nível 3 e 5</li><li>[Medicine], encontrados em alguns [Markets] na área de nível 3 e 5</li><li>[Mercury], encontrados em alguns [Markets] na área de nível 7</li><li>[Diamonds], encontrados em alguns [Markets] na área de nível 7</li><li>[Animals], encontrados em alguns [Markets] na área de nível 10</li><li>[CosmicDust], encontrados em alguns [Markets] na área de nível 10</li></ul></lang>
+	</entry>
+
+	<entry key="TradeRoutesManual">
+		<lang key="de"><h1>Handels-Routen</h1><div class="content">
+    Eine [TradeRoute] ist der Prozess das Frachtgut von einem [Market] zu laden und in einem anderen 
+    [Market] abzuliefern.
+    [TradeRoutes] sind gewöhnlich Missions- [Quests] für die [Merchant] . Eigentlich, bist du nur in 
+    der Lage Frachtgüter von einem [Market] zu laden wenn du auf einer Handelsmission bist.
+    <p>
+    Jeder [Market] handelt mit spezifischen Handelsgütern. Zum Beispiel, kannst du einen [Market] 
+    finden der nur mit [Supplies] handelt. Du kannst [Supplies] zu deiner [Fleet] hochladen auf diesem 
+    [Market], aber der [Market] wird keine [Supplies] als Handelsroute akzeptieren.
+    </p><p>
+    Es gibt auch einige [Quests] die komplexere [TradeRoutes] erfordern: es wird vielleicht nötig sein 
+    mehr als ein Handelgut zu tauschen, oder sogar auf einer Deadline (Beispiel: 
+    [Complete10Level1TradeRoutes]).
+  </p></div></lang>
+		<lang key="en"><h1>Trade Routes</h1><div class="content">
+    A [TradeRoute] is the process of loading a trade good on one [Market] and delivering it to another [Market].
+    [TradeRoutes] are commonly used as objectives on [Merchant] [Quests]. In fact, you'll only be able to load
+    trade goods at a [Market] if you're taking a trade quest at that moment.
+    <p />
+    Each [Market] deals with a specific trade good. For example, you may have a [Market] that deals with
+    [Supplies]. You may load up [Supplies] to your [Fleet] on that [Market], but the [Market] won't accept
+    [Supplies] as a trade route.
+    <p />
+    There are also some [Quests] that require more complex [TradeRoutes]: you may have to trade on more than
+    one trade good, or even do it on a deadline (example: [Complete10Level1TradeRoutes]).
+  </div></lang>
+		<lang key="es"><h1>Rutas de Comercio</h1><div class="content">
+ Una [TradeRoute] es el proceso de cargar un recurso comercial en un [Market] y transportarlo para otro [Market]. Las [TradeRoutes] 
+ son usadas como objetivos de [Quests] de [Merchant]. De echo, sólo es posible cargar recursos comerciais en un [Market] se estuvieras en una misión comercial.
+    <p />
+
+    Cada [Market] posee un determinado recurso comercial. Por ejemplo, un [Market] que posee [Supplies],
+    no vá a aceptar [Supplies] como [TradeRoute]. Es possible cargar [Supplies] hacia tu [Fleet], pero no será possibla descargar [Supplies] para ese mercado.
+    <p />
+    Hay también [Quests] que requieren [TradeRoutes] mas complejas. Puede ser necesario cambiar mas que un recurso comercial o hasta hacerlo en un determinado período de tiempo (ejemplo: [Complete10Level1TradeRoutes]).
+  </div></lang>
+		<lang key="fr"><h1>Trade Routes</h1><div class="content">
+    Faire une [TradeRoute] est l'action de délivrer un bien en le chargant sur une escadrille, d'une [Market] à un autre.
+    [TradeRoutes] sont souvent sonsidérés comme des objectifs pour [Quests] de [Merchant] . En fait, vous pourez seulement charger des biens commerciaux et les échanger entre [Market] si vous avez une quête correspondante en cours.
+    <p />
+    Chaque [Market] s'occuper d'échanges d'un bien particulier. Par exemple, il pourrait y avoir un [Market] qui s'occupe des
+    [Supplies]. Vous pouves charger les [Supplies] sur votre [Fleet] sur ce [Market], mais le [Market] n'accepte pas les
+    [Supplies] comme cargaison intéressante car elle possède déjà une puissante route commercial dans ce milieu.
+    <p />
+    Il y a aussi des [Quests] qui demande de réussir des [TradeRoutes] plus complexes: vous devrez échanger plus d'un bien, ou le faire selon une limite de temps (example: [Complete10Level1TradeRoutes]).
+  </div></lang>
+		<lang key="hr"><h1>Trgovačke Rute</h1><div class="content">
+[TradeRoute] je proce utovara trgovačkog dobra na jednom [Market] i njegova dostava na drugi [Market]. [TradeRoutes] su obično upotrijebljni kao ciljevi u [Merchant] [Quests]. Zapravo, jedini način da su utovare trgovačka dobra u [Market] je da su u tom trenutku ima trgovačka misija.
+<p />
+Svaki [Market] se bavi sa specifičnim trgovačkim dobrom. Naprimjer, možete imati [Market] koji se bavi sa [Supplies]. Možete utovariti [Supplies] u vašu [Fleet] na tom [Market], ali [Market] neće prihvatiti [Supplies] kao trgovačku rutu.
+<p />
+Također postoje neki [Quests] koji zahtjevaju kompleksnije [TradeRoutes]: možda ćete morati trgovati na njima više nego jedno trgovačko dobro, ili čak morati obavljati trgovine unutar vremenskog roka  (primjer: [Complete10Level1TradeRoutes]).
+</div></lang>
+		<lang key="hu"><h1>Trade Routes</h1><div class="content">
+    A [TradeRoute] az a folyamat amikor az egyik [Market]-en berakodod az árút, és átszállítod egy másik [Market]-re.
+    [TradeRoutes]-okat általában [Merchant] [Quests]-ek miatt használják. Valójában, csak akkor tudsz árukat felrakodni a [Market]-en, ha
+    elfogadsz egy kereskedelni küldetést.
+    <p />
+    Minden egyes [Market] egy speciális termékkel keresekdik. Például, van egy [Market] amely [Supplies]-okkal kereskedik.
+    Berakodhatod a [Supplies]-okat a saját [Fleet]-edre azon a [Market]-en, de a [Market] nem fog elfogadni a
+    [Supplies]-t mint kereskedelmi útvonalat.
+    <p />
+    Van néhány [Quests] amely bonyolultabb [TradeRoutes]-eket igényel: lehet, hogy több áruval kell kereskedned,
+    vagy határidőn belül kell ezt megtenned,(például: [Complete10Level1TradeRoutes]).
+  </div></lang>
+		<lang key="pt"><h1>Rotas de Comércio</h1><div class="content">
+    Uma [TradeRoute] é o processo de carregar um recurso comercial num [Market] e transportá-lo para outro
+    [Market]. As [TradeRoutes] são usadas como objectivos de [Quests] de [Merchant]. De facto, só é possível
+    carregar recursos comerciais num [Market] se estiveres numa missão comercial.
+    <p />
+    Cada [Market] possui um determinado recurso comercial. Por exemplo, um [Market] que possui [Supplies],
+    não vai aceitar [Supplies] como [TradeRoute]. Será possível carregar [Supplies] para a tua [Fleet], mas não
+    será possível descarregar [Supplies] para esse mercado.
+    <p />
+    Há também [Quests] que requerem [TradeRoutes] mais complexas. Pode ser necessário trocar mais que um
+    recurso comercial ou até fazê-lo num determinado período de tempo (exemplo: [Complete10Level1TradeRoutes]).
+  </div></lang>
+	</entry>
+
+</resources>
